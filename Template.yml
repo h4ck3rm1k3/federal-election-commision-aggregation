@@ -1,0 +1,16 @@
+
+Sites:
+        Site:
+          Name : 'libertyff'
+          Detail:
+            url : http://www.libertyff.com/committees.php?id={$Committee.FEC_IDnum}
+
+        Site:
+          Name : opensecrets 
+          Detail :
+            url : http://www.opensecrets.org/pacs/lookup2.php?strID={$Committee.FEC_IDnum}
+
+        Site :
+          Name : fec 
+          Detail :
+            url : http://images.nictusa.com/cgi-bin/fecimg/?{$Committee.FEC_IDnum}
