@@ -1,0 +1,306 @@
+countraw: 5
+countrows: 3
+filename: 14811.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00000935
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Democratic Congressional Campaign Committee - Expenditures
+  - name: STREET 1
+    number: '4'
+    value: 430 South Capitol Street
+  - name: STREET 2
+    number: '5'
+    value: ' SE'
+  - name: CITY
+    number: '6'
+    value: 2nd Floor
+  - name: STATE
+    number: '7'
+    value: Washington
+  - name: ZIP
+    number: '8'
+    value: DC
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: '20003'
+  - name: Signed
+    number: 10-
+    value: Habershaw^Ann Marie^^
+  - value: '20010605'
+  expected_count: 10
+  input: F24,C00000935,Democratic Congressional Campaign Committee - Expenditures,"430
+    South Capitol Street, SE",2nd Floor,Washington,DC,20003,Habershaw^Ann Marie^^,20010605
+  input_count: 11
+  record: <fec.version.v3.F24.Records instance at 0x1234fc8>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00000935
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Hall Anderson Comm. Group
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.^^^'
+  - name: STREET 2
+    number: '6'
+    value: 10 St. Patrick's Drive
+  - name: CITY
+    number: '7'
+    value: Suite 201
+  - name: STATE
+    number: '8'
+    value: Waldorf
+  - name: ZIP
+    number: '9'
+    value: MD
+  - name: TRANSDESC
+    number: '10'
+    value: '20603'
+  - name: DATE
+    number: '11'
+    value: Mail Services
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20010605'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '22650.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Lucas^Louise^^
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: VA
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '04'
+  - name: Unused field
+    number: '20'
+    value: C00000935
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.4110
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - value: ''
+  expected_count: 41
+  input: SE24,C00000935,IND,"Hall Anderson Comm. Group, Inc.^^^",10 St. Patrick's
+    Drive,Suite 201,Waldorf,MD,20603,Mail Services,20010605,22650.00,S,,Lucas^Louise^^,H,VA,04,C00000935,,,,,,,,,,,,,,,,,,SE24.4110,,,,
+  input_count: 42
+  record: <fec.version.v3.SE.Records instance at 0x1234b48>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00000935
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Virginia Black Press Association^^^
+  - name: STREET 1
+    number: '5'
+    value: 7911 Redmon Road
+  - name: STREET 2
+    number: '6'
+    value: ' #C-2'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Norfolk
+  - name: ZIP
+    number: '9'
+    value: VA
+  - name: TRANSDESC
+    number: '10'
+    value: '23518'
+  - name: DATE
+    number: '11'
+    value: Media Services
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20010605'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '5769.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Lucas^Louise^^
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: VA
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '04'
+  - name: Unused field
+    number: '20'
+    value: C00000935
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.4111
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - value: ''
+  expected_count: 41
+  input: 'SE24,C00000935,IND,Virginia Black Press Association^^^,"7911 Redmon Road,
+    #C-2",,Norfolk,VA,23518,Media Services,20010605,5769.00,S,,Lucas^Louise^^,H,VA,04,C00000935,,,,,,,,,,,,,,,,,,SE24.4111,,,,'
+  input_count: 42
+  record: <fec.version.v3.SE.Records instance at 0x1234cf8>
+  result: []
+sourceurl: !!python/unicode '20010606'
