@@ -1,0 +1,727 @@
+countraw: 22
+countrows: 8
+filename: 15250.fec
+header:
+  'Committee ': LUCAS FOR CONGRESS
+  'Date_Fmat ': CCYYMMDD
+  'Dec/NoDec ': DEC
+  'F65       ': '00007'
+  'FEC_IDnum ': C00366146
+  'FEC_Ver_# ': '2.02'
+  'Form_Name ': F6N
+  'NameDelim ': ^
+  'Soft_Name ': FECWEB
+  'Soft_Ver# ': '1'
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366146
+  - name: COMMITTEE NAME
+    number: '3'
+    value: LUCAS FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 3109 AIRLINE BLVD
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: PORTSMOUTH
+  - name: STATE
+    number: '7'
+    value: VA
+  - name: ZIP
+    number: '8'
+    value: '23701'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2VA04060
+  - name: CANDIDATE NAME
+    number: '10'
+    value: LUCAS
+  - name: CAN/OFF
+    number: '11'
+    value: ^L^LOUISE
+  - name: STATE (OF ELECTION)
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: VA
+  - name: SIGNED
+    number: 14-
+    value: '04'
+  - value: '20010618'
+  expected_count: 14
+  input: F6N,C00366146,LUCAS FOR CONGRESS,3109 AIRLINE BLVD,,PORTSMOUTH,VA,23701,H2VA04060,"LUCAS,^L^LOUISE",H,VA,04,20010618
+  input_count: 15
+  record: <fec.version.v2.F6.Records instance at 0x2432c20>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366146
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Roizman^Israel^Mr.
+  - name: STREET 1
+    number: '5'
+    value: 6 Mimosa Circle
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Lafayette Hill
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '19444'
+  - name: INDEMP
+    number: '10'
+    value: Information Requested
+  - name: INDOCC
+    number: '11'
+    value: Information Requested
+  - name: OF CONTRIBUTION
+    number: 12-
+    value: '20010617'
+  - name: AMOUNT CONTRIB/LOANED AMT
+    number: '13'
+    value: '1000.00'
+  - name: FEC-COMMITTEE-ID-NUMBER
+    number: '14'
+    value: ''
+  - name: FEC-CANDIDATE-ID-NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE-NAME
+    number: '16'
+    value: ''
+  - name: CAND-OFFICE
+    number: '17'
+    value: ''
+  - name: CAND-STATE (OF ELECTION)
+    number: '18'
+    value: ''
+  - name: CAND-DISTRICT
+    number: '19'
+    value: ''
+  - name: CONDUIT-NAME
+    number: '20'
+    value: Democratic^Congressional^Campaign^Committee
+  - name: CONDUIT-STREET-1
+    number: '21'
+    value: 430 South Capital Street
+  - name: CONDUIT-STREET-2
+    number: '22'
+    value: ''
+  - name: CONDUIT-CITY
+    number: '23'
+    value: Washington
+  - name: CONDUIT-STATE
+    number: '24'
+    value: DC
+  - name: CONDUIT-ZIP
+    number: '25'
+    value: '20003'
+  - name: AMENDED-CD
+    number: '26'
+    value: A
+  - name: TRAN_ID
+    number: '27'
+    value: F65.00000
+  - name: ORIG_TRAN_ID
+    number: '28'
+    value: NO VALUE!
+  - name: SUPR_TRAN_ID
+    number: '29'
+    value: NO VALUE!
+  expected_count: 29
+  input: F65,C00366146,IND,Roizman^Israel^Mr.,6 Mimosa Circle,,Lafayette Hill,PA,19444,Information
+    Requested,Information Requested,20010617,1000.00,,,,,,,Democratic^Congressional^Campaign^Committee,430
+    South Capital Street,,Washington,DC,20003,A,F65.00000
+  input_count: 27
+  record: <fec.version.v2.F65.Records instance at 0x2432dd0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366146
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: LIEBERMAN 2000 COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: 36 Woodland Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Hartford
+  - name: STATE
+    number: '8'
+    value: CT
+  - name: ZIP
+    number: '9'
+    value: '06105'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: OF CONTRIBUTION
+    number: 12-
+    value: '20010617'
+  - name: AMOUNT CONTRIB/LOANED AMT
+    number: '13'
+    value: '1000.00'
+  - name: FEC-COMMITTEE-ID-NUMBER
+    number: '14'
+    value: C00235515
+  - name: FEC-CANDIDATE-ID-NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE-NAME
+    number: '16'
+    value: ''
+  - name: CAND-OFFICE
+    number: '17'
+    value: ''
+  - name: CAND-STATE (OF ELECTION)
+    number: '18'
+    value: ''
+  - name: CAND-DISTRICT
+    number: '19'
+    value: ''
+  - name: CONDUIT-NAME
+    number: '20'
+    value: Democratic^Congressional^Campaign^Committee
+  - name: CONDUIT-STREET-1
+    number: '21'
+    value: 430 South Capital Street
+  - name: CONDUIT-STREET-2
+    number: '22'
+    value: ''
+  - name: CONDUIT-CITY
+    number: '23'
+    value: Washington
+  - name: CONDUIT-STATE
+    number: '24'
+    value: DC
+  - name: CONDUIT-ZIP
+    number: '25'
+    value: '20003'
+  - name: AMENDED-CD
+    number: '26'
+    value: A
+  - name: TRAN_ID
+    number: '27'
+    value: F65.00001
+  - name: ORIG_TRAN_ID
+    number: '28'
+    value: NO VALUE!
+  - name: SUPR_TRAN_ID
+    number: '29'
+    value: NO VALUE!
+  expected_count: 29
+  input: F65,C00366146,CCM,LIEBERMAN 2000 COMMITTEE,36 Woodland Street,,Hartford,CT,06105,,,20010617,1000.00,C00235515,,,,,,Democratic^Congressional^Campaign^Committee,430
+    South Capital Street,,Washington,DC,20003,A,F65.00001
+  input_count: 27
+  record: <fec.version.v2.F65.Records instance at 0x2432c20>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366146
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Slone^Peter^Mr.
+  - name: STREET 1
+    number: '5'
+    value: 1221 Tottenham Court
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Reston
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '201941417'
+  - name: INDEMP
+    number: '10'
+    value: Information Requested
+  - name: INDOCC
+    number: '11'
+    value: Information Requested
+  - name: OF CONTRIBUTION
+    number: 12-
+    value: '20010617'
+  - name: AMOUNT CONTRIB/LOANED AMT
+    number: '13'
+    value: '1000.00'
+  - name: FEC-COMMITTEE-ID-NUMBER
+    number: '14'
+    value: ''
+  - name: FEC-CANDIDATE-ID-NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE-NAME
+    number: '16'
+    value: ''
+  - name: CAND-OFFICE
+    number: '17'
+    value: ''
+  - name: CAND-STATE (OF ELECTION)
+    number: '18'
+    value: ''
+  - name: CAND-DISTRICT
+    number: '19'
+    value: ''
+  - name: CONDUIT-NAME
+    number: '20'
+    value: Democratic^Congressional^Campaign^Committee
+  - name: CONDUIT-STREET-1
+    number: '21'
+    value: 430 South Capital Street
+  - name: CONDUIT-STREET-2
+    number: '22'
+    value: ''
+  - name: CONDUIT-CITY
+    number: '23'
+    value: Washington
+  - name: CONDUIT-STATE
+    number: '24'
+    value: DC
+  - name: CONDUIT-ZIP
+    number: '25'
+    value: '20003'
+  - name: AMENDED-CD
+    number: '26'
+    value: A
+  - name: TRAN_ID
+    number: '27'
+    value: F65.00002
+  - name: ORIG_TRAN_ID
+    number: '28'
+    value: NO VALUE!
+  - name: SUPR_TRAN_ID
+    number: '29'
+    value: NO VALUE!
+  expected_count: 29
+  input: F65,C00366146,IND,Slone^Peter^Mr.,1221 Tottenham Court,,Reston,VA,201941417,Information
+    Requested,Information Requested,20010617,1000.00,,,,,,,Democratic^Congressional^Campaign^Committee,430
+    South Capital Street,,Washington,DC,20003,A,F65.00002
+  input_count: 27
+  record: <fec.version.v2.F65.Records instance at 0x2432dd0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366146
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Responsibility
+  - name: STREET 1
+    number: '5'
+    value: ' Opportunity'
+  - name: STREET 2
+    number: '6'
+    value: ' Community PAC'
+  - name: CITY
+    number: '7'
+    value: 607 14th Street
+  - name: STATE
+    number: '8'
+    value: ' NW'
+  - name: ZIP
+    number: '9'
+    value: Suite 800
+  - name: INDEMP
+    number: '10'
+    value: Washington
+  - name: INDOCC
+    number: '11'
+    value: DC
+  - name: OF CONTRIBUTION
+    number: 12-
+    value: '20005'
+  - name: AMOUNT CONTRIB/LOANED AMT
+    number: '13'
+    value: ''
+  - name: FEC-COMMITTEE-ID-NUMBER
+    number: '14'
+    value: ''
+  - name: FEC-CANDIDATE-ID-NUMBER
+    number: '15'
+    value: '20010617'
+  - name: CANDIDATE-NAME
+    number: '16'
+    value: '1000.00'
+  - name: CAND-OFFICE
+    number: '17'
+    value: ''
+  - name: CAND-STATE (OF ELECTION)
+    number: '18'
+    value: ''
+  - name: CAND-DISTRICT
+    number: '19'
+    value: ''
+  - name: CONDUIT-NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT-STREET-1
+    number: '21'
+    value: ''
+  - name: CONDUIT-STREET-2
+    number: '22'
+    value: ''
+  - name: CONDUIT-CITY
+    number: '23'
+    value: Democratic^Congressional^Campaign^Committee
+  - name: CONDUIT-STATE
+    number: '24'
+    value: 430 South Capital Street
+  - name: CONDUIT-ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED-CD
+    number: '26'
+    value: Washington
+  - name: TRAN_ID
+    number: '27'
+    value: DC
+  - name: ORIG_TRAN_ID
+    number: '28'
+    value: '20003'
+  - name: SUPR_TRAN_ID
+    number: '29'
+    value: A
+  - value: F65.00003
+  expected_count: 29
+  input: F65,C00366146,PAC,"Responsibility, Opportunity, Community PAC","607 14th
+    Street, NW",Suite 800,Washington,DC,20005,,,20010617,1000.00,,,,,,,Democratic^Congressional^Campaign^Committee,430
+    South Capital Street,,Washington,DC,20003,A,F65.00003
+  input_count: 30
+  record: <fec.version.v2.F65.Records instance at 0x2432c20>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366146
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Miller^Harris^Mr.
+  - name: STREET 1
+    number: '5'
+    value: 1309 Summerwood Court
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: McLean
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22102'
+  - name: INDEMP
+    number: '10'
+    value: Information Requested
+  - name: INDOCC
+    number: '11'
+    value: Information Requested
+  - name: OF CONTRIBUTION
+    number: 12-
+    value: '20010617'
+  - name: AMOUNT CONTRIB/LOANED AMT
+    number: '13'
+    value: '1000.00'
+  - name: FEC-COMMITTEE-ID-NUMBER
+    number: '14'
+    value: ''
+  - name: FEC-CANDIDATE-ID-NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE-NAME
+    number: '16'
+    value: ''
+  - name: CAND-OFFICE
+    number: '17'
+    value: ''
+  - name: CAND-STATE (OF ELECTION)
+    number: '18'
+    value: ''
+  - name: CAND-DISTRICT
+    number: '19'
+    value: ''
+  - name: CONDUIT-NAME
+    number: '20'
+    value: Democratic^Congressional^Campaign^Committee
+  - name: CONDUIT-STREET-1
+    number: '21'
+    value: 430 South Capital Street
+  - name: CONDUIT-STREET-2
+    number: '22'
+    value: ''
+  - name: CONDUIT-CITY
+    number: '23'
+    value: Washington
+  - name: CONDUIT-STATE
+    number: '24'
+    value: DC
+  - name: CONDUIT-ZIP
+    number: '25'
+    value: '20003'
+  - name: AMENDED-CD
+    number: '26'
+    value: A
+  - name: TRAN_ID
+    number: '27'
+    value: F65.00004
+  - name: ORIG_TRAN_ID
+    number: '28'
+    value: NO VALUE!
+  - name: SUPR_TRAN_ID
+    number: '29'
+    value: NO VALUE!
+  expected_count: 29
+  input: F65,C00366146,IND,Miller^Harris^Mr.,1309 Summerwood Court,,McLean,VA,22102,Information
+    Requested,Information Requested,20010617,1000.00,,,,,,,Democratic^Congressional^Campaign^Committee,430
+    South Capital Street,,Washington,DC,20003,A,F65.00004
+  input_count: 27
+  record: <fec.version.v2.F65.Records instance at 0x2432dd0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366146
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Vuyyuru^Lokesh^Dr.
+  - name: STREET 1
+    number: '5'
+    value: 2522 Cedar Cone Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Richmond
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '23233'
+  - name: INDEMP
+    number: '10'
+    value: Self
+  - name: INDOCC
+    number: '11'
+    value: Physician
+  - name: OF CONTRIBUTION
+    number: 12-
+    value: '20010617'
+  - name: AMOUNT CONTRIB/LOANED AMT
+    number: '13'
+    value: '1000.00'
+  - name: FEC-COMMITTEE-ID-NUMBER
+    number: '14'
+    value: ''
+  - name: FEC-CANDIDATE-ID-NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE-NAME
+    number: '16'
+    value: ''
+  - name: CAND-OFFICE
+    number: '17'
+    value: ''
+  - name: CAND-STATE (OF ELECTION)
+    number: '18'
+    value: ''
+  - name: CAND-DISTRICT
+    number: '19'
+    value: ''
+  - name: CONDUIT-NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT-STREET-1
+    number: '21'
+    value: ''
+  - name: CONDUIT-STREET-2
+    number: '22'
+    value: ''
+  - name: CONDUIT-CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT-STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT-ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED-CD
+    number: '26'
+    value: A
+  - name: TRAN_ID
+    number: '27'
+    value: F65.00005
+  - name: ORIG_TRAN_ID
+    number: '28'
+    value: NO VALUE!
+  - name: SUPR_TRAN_ID
+    number: '29'
+    value: NO VALUE!
+  expected_count: 29
+  input: F65,C00366146,IND,Vuyyuru^Lokesh^Dr.,2522 Cedar Cone Drive,,Richmond,VA,23233,Self,Physician,20010617,1000.00,,,,,,,,,,,,,A,F65.00005
+  input_count: 27
+  record: <fec.version.v2.F65.Records instance at 0x2432c20>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366146
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Aitken^Wylie^Mr.
+  - name: STREET 1
+    number: '5'
+    value: 3 Imperial Promenade
+  - name: STREET 2
+    number: '6'
+    value: Suite 800
+  - name: CITY
+    number: '7'
+    value: Santa Ana
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '92707'
+  - name: INDEMP
+    number: '10'
+    value: Wylie A Aitken
+  - name: INDOCC
+    number: '11'
+    value: ' A Law Corpoation'
+  - name: OF CONTRIBUTION
+    number: 12-
+    value: Attorney
+  - name: AMOUNT CONTRIB/LOANED AMT
+    number: '13'
+    value: '20010617'
+  - name: FEC-COMMITTEE-ID-NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC-CANDIDATE-ID-NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE-NAME
+    number: '16'
+    value: ''
+  - name: CAND-OFFICE
+    number: '17'
+    value: ''
+  - name: CAND-STATE (OF ELECTION)
+    number: '18'
+    value: ''
+  - name: CAND-DISTRICT
+    number: '19'
+    value: ''
+  - name: CONDUIT-NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT-STREET-1
+    number: '21'
+    value: ''
+  - name: CONDUIT-STREET-2
+    number: '22'
+    value: ''
+  - name: CONDUIT-CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT-STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT-ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED-CD
+    number: '26'
+    value: ''
+  - name: TRAN_ID
+    number: '27'
+    value: A
+  - name: ORIG_TRAN_ID
+    number: '28'
+    value: F65.00006
+  - name: SUPR_TRAN_ID
+    number: '29'
+    value: NO VALUE!
+  expected_count: 29
+  input: F65,C00366146,IND,Aitken^Wylie^Mr.,3 Imperial Promenade,Suite 800,Santa Ana,CA,92707,"Wylie
+    A Aitken, A Law Corpoation",Attorney,20010617,1000.00,,,,,,,,,,,,,A,F65.00006
+  input_count: 28
+  record: <fec.version.v2.F65.Records instance at 0x2432dd0>
+  result: []
+sourceurl: !!python/unicode '20010619'
