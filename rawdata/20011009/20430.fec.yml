@@ -1,0 +1,532 @@
+countraw: 18
+countrows: 5
+filename: 20430.fec
+header:
+  'Committee ': JEFF MILLER FOR CONGRESS
+  'Date_Fmat ': CCYYMMDD
+  'Dec/NoDec ': DEC
+  'F65       ': '00003'
+  'FEC_IDnum ': C00366757
+  'FEC_Ver_# ': '2.02'
+  'Form_Name ': F6N
+  'NameDelim ': ^
+  'Soft_Name ': FECWEB
+  'Soft_Ver# ': '1'
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00009035
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Kemper Insurance Campaign Fund
+  - name: STREET 1
+    number: '4'
+    value: 1 Kemper Drive
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Long Grove
+  - name: STATE
+    number: '7'
+    value: IL
+  - name: ZIP
+    number: '8'
+    value: '60049'
+  - name: Submitted
+    number: 9-
+    value: '19741001'
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: ''
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: E
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: ''
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: ''
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: ''
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: ''
+  - name: STREET 1
+    number: 22-6.
+    value: ''
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: ''
+  - name: STATE
+    number: 25-6.
+    value: ''
+  - name: ZIP
+    number: 26-6.
+    value: ''
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: ''
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: ''
+  - name: Custodian Name
+    number: '29-7. '
+    value: ''
+  - name: STREET 1
+    number: 30-7.
+    value: ''
+  - name: STREET 2
+    number: 31-7.
+    value: ''
+  - name: CITY
+    number: 32-7.
+    value: ''
+  - name: STATE
+    number: 33-7.
+    value: ''
+  - name: ZIP
+    number: 34-7.
+    value: ''
+  - name: TITLE
+    number: 35-7.
+    value: ''
+  - name: TELEPHONE
+    number: 36-7.
+    value: ''
+  - name: Treasurer
+    number: '37-8. '
+    value: Frank Billy
+  - name: STREET 1
+    number: 38-8.
+    value: 1 Kemper Drive
+  - name: STREET 2
+    number: 39-8.
+    value: ''
+  - name: CITY
+    number: 40-8.
+    value: Long Grove
+  - name: STATE
+    number: 41-8.
+    value: IL
+  - name: ZIP
+    number: 42-8.
+    value: '60049'
+  - name: TITLE
+    number: 43-8.
+    value: Treasurer
+  - name: TELEPHONE
+    number: 44-8.
+    value: '8473205782'
+  - name: Designated Agent
+    number: '45-8. '
+    value: ''
+  - name: STREET 1
+    number: 46-8.
+    value: ''
+  - name: STREET 2
+    number: 47-8.
+    value: ''
+  - name: CITY
+    number: 48-8.
+    value: ''
+  - name: STATE
+    number: 49-8.
+    value: ''
+  - name: ZIP
+    number: 50-8.
+    value: ''
+  - name: TITLE
+    number: 51-8.
+    value: ''
+  - name: TELEPHONE
+    number: 52-8.
+    value: ''
+  - name: Bank/Depository
+    number: '53-9. '
+    value: Bank One
+  - name: STREET 1
+    number: 54-9.
+    value: Bank One
+  - name: STREET 2
+    number: 55-9.
+    value: '  Illinois'
+  - name: CITY
+    number: 56-9.
+    value: ' NA'
+  - name: STATE
+    number: 57-9.
+    value: Suite  IL1 0239
+  - name: ZIP
+    number: 58-9.
+    value: Chicago
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: IL
+  - name: Signed
+    number: 60-
+    value: '60661'
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: Billy^Frank^^
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: '20011009'
+  - value: fbilly@kemperinsurance.com
+  - value: www.kemperinsurance.com
+  expected_count: 62
+  input: '"F1N","C00009035","Kemper Insurance Campaign Fund","1 Kemper Drive","","Long
+    Grove","IL","60049","19741001","","","E","","","","","","","","","","","","","","","","","","","","","","","","","Frank
+    Billy","1 Kemper Drive","","Long Grove","IL","60049","Treasurer","8473205782","","","","","","","","","Bank
+    One","Bank One,  Illinois, NA","Suite  IL1 0239","Chicago","IL","60661","Billy^Frank^^","20011009","fbilly@kemperinsurance.com","www.kemperinsurance.com"'
+  input_count: 64
+  record: <fec.version.v3.F1.Records instance at 0x148a9e0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366757
+  - name: COMMITTEE NAME
+    number: '3'
+    value: JEFF MILLER FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: POST OFFICE BOX 100
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: MILTON
+  - name: STATE
+    number: '7'
+    value: FL
+  - name: ZIP
+    number: '8'
+    value: '32572'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2FL01100
+  - name: CANDIDATE NAME
+    number: '10'
+    value: MILLER
+  - name: CAN/OFFICE
+    number: '11'
+    value: ^JEFFERSON^B
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: FL
+  - name: Signed
+    number: 14-
+    value: '01'
+  - value: '20011009'
+  expected_count: 14
+  input: F6N,C00366757,JEFF MILLER FOR CONGRESS,POST OFFICE BOX 100,,MILTON,FL,32572,H2FL01100,"MILLER,^JEFFERSON^B",H,FL,01,20011009
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x148ad40>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366757
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Shand^Lawrence J.
+  - name: STREET 1
+    number: '5'
+    value: 1332 Riggs Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20009'
+  - name: INDOCC
+    number: '11'
+    value: Autometric
+  - name: Of Contribution
+    number: 12-
+    value: ' Inc.'
+  - name: AMOUNT
+    number: '13'
+    value: information technology
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20011009'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '2000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: A
+  - value: F65.00000
+  expected_count: 27
+  input: F65,C00366757,IND,Shand^Lawrence J.,"1332 Riggs Street, NW",,Washington,DC,20009,"Autometric,
+    Inc.",information technology,20011009,2000.00,,,,,,,,,,,,,A,F65.00000
+  input_count: 29
+  record: <fec.version.v3.F65.Records instance at 0x148a9e0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366757
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Lange^Margaret P.
+  - name: STREET 1
+    number: '5'
+    value: 1325 15th Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ' #413'
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: INDEMP
+    number: '10'
+    value: DC
+  - name: INDOCC
+    number: '11'
+    value: '20005'
+  - name: Of Contribution
+    number: 12-
+    value: Autometric
+  - name: AMOUNT
+    number: '13'
+    value: ' Inc.'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: information technology
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '20011009'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: '2000.00'
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: A
+  - value: F65.00001
+  expected_count: 27
+  input: 'F65,C00366757,IND,Lange^Margaret P.,"1325 15th Street, NW, #413",,Washington,DC,20005,"Autometric,
+    Inc.",information technology,20011009,2000.00,,,,,,,,,,,,,A,F65.00001'
+  input_count: 30
+  record: <fec.version.v3.F65.Records instance at 0x148ad40>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366757
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Verizon Communications Good Govt. Club
+  - name: STREET 1
+    number: '5'
+    value: 1717 Arch St.
+  - name: STREET 2
+    number: '6'
+    value: ' 47th Floor S'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Philadelphia
+  - name: ZIP
+    number: '9'
+    value: PA
+  - name: INDEMP
+    number: '10'
+    value: '19103'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20011009'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00186288
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: A
+  - value: F65.00002
+  expected_count: 27
+  input: F65,C00366757,PAC,Verizon Communications Good Govt. Club,"1717 Arch St.,
+    47th Floor S",,Philadelphia,PA,19103,,,20011009,2000.00,C00186288,,,,,,,,,,,,A,F65.00002
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x148a9e0>
+  result: []
+sourceurl: !!python/unicode '20011009'
