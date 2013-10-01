@@ -1,0 +1,140 @@
+countraw: 4
+countrows: 2
+filename: 20666.fec
+header: {}
+rows:
+- input: F6,C00368845,Delay for Congress,1713 South D,,Fort Smith,AR,72901,,,H,AR,03,20011009
+  record: <fec.version.v3.F6.Records instance at 0x16653b0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00368845
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Delay for Congress
+  - name: STREET 1
+    number: '4'
+    value: 1713 South D
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Fort Smith
+  - name: STATE
+    number: '7'
+    value: AR
+  - name: ZIP
+    number: '8'
+    value: '72901'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ''
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: AR
+  - name: CAN/DIST
+    number: '13'
+    value: '03'
+  - name: Signed
+    number: 14-
+    value: '20011009'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00368845
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: SELISKAR^WILLIAM^^
+  - name: STREET 1
+    number: '5'
+    value: PO BOX 1001
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: MORRILTON
+  - name: STATE
+    number: '8'
+    value: AR
+  - name: ZIP
+    number: '9'
+    value: '72710'
+  - name: INDEMP
+    number: '10'
+    value: CAT CLAMP
+  - name: INDOCC
+    number: '11'
+    value: ' INC'
+  - name: Of Contribution
+    number: 12-
+    value: SELF EMPLOYED
+  - name: AMOUNT
+    number: '13'
+    value: '20011008'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00368845
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H2AR03192
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: AR
+  - name: CONDUIT NAME
+    number: '20'
+    value: '03'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.5039
+  expected_count: 27
+  input: F65,C00368845,IND,SELISKAR^WILLIAM^^,PO BOX 1001,,MORRILTON,AR,72710,"CAT
+    CLAMP, INC",SELF EMPLOYED,20011008,1000.00,C00368845,H2AR03192,,H,AR,03,,,,,,,,F6.5039
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x1665128>
+  result: []
+sourceurl: !!python/unicode '20011015'
