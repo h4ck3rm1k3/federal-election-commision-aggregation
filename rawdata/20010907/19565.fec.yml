@@ -1,0 +1,725 @@
+countraw: 19
+countrows: 9
+filename: 19565.fec
+header:
+  'Committee ': STEPHEN F LYNCH FOR CONGRESS COMMITTEE
+  'Date_Fmat ': CCYYMMDD
+  'Dec/NoDec ': DEC
+  'F65       ': '00004'
+  'FEC_IDnum ': C00366948
+  'FEC_Ver_# ': '2.02'
+  'Form_Name ': F6N
+  'NameDelim ': ^
+  'Soft_Name ': FECWEB
+  'Soft_Ver# ': '1'
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366948
+  - name: COMMITTEE NAME
+    number: '3'
+    value: STEPHEN F LYNCH FOR CONGRESS COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: 55 G STREET
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: BOSTON
+  - name: STATE
+    number: '7'
+    value: MA
+  - name: ZIP
+    number: '8'
+    value: '02127'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2MA09072
+  - name: CANDIDATE NAME
+    number: '10'
+    value: LYNCH
+  - name: CAN/OFF
+    number: '11'
+    value: ^STEPHEN^F
+  - name: STATE (OF ELECTION)
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: MA
+  - name: SIGNED
+    number: 14-
+    value: 09
+  - value: '20010907'
+  expected_count: 14
+  input: F6N,C00366948,STEPHEN F LYNCH FOR CONGRESS COMMITTEE,55 G STREET,,BOSTON,MA,02127,H2MA09072,"LYNCH,^STEPHEN^F",H,MA,09,20010907
+  input_count: 15
+  record: <fec.version.v2.F6.Records instance at 0x25e46c8>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366948
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Pazuk^Stephen M.
+  - name: STREET 1
+    number: '5'
+    value: 50 Battery Street
+  - name: STREET 2
+    number: '6'
+    value: '#311N'
+  - name: CITY
+    number: '7'
+    value: Boston
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: 02109
+  - name: INDEMP
+    number: '10'
+    value: Self-Employed
+  - name: INDOCC
+    number: '11'
+    value: Consultant
+  - name: OF CONTRIBUTION
+    number: 12-
+    value: '20010907'
+  - name: AMOUNT CONTRIB/LOANED AMT
+    number: '13'
+    value: '1000.00'
+  - name: FEC-COMMITTEE-ID-NUMBER
+    number: '14'
+    value: ''
+  - name: FEC-CANDIDATE-ID-NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE-NAME
+    number: '16'
+    value: ''
+  - name: CAND-OFFICE
+    number: '17'
+    value: ''
+  - name: CAND-STATE (OF ELECTION)
+    number: '18'
+    value: ''
+  - name: CAND-DISTRICT
+    number: '19'
+    value: ''
+  - name: CONDUIT-NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT-STREET-1
+    number: '21'
+    value: ''
+  - name: CONDUIT-STREET-2
+    number: '22'
+    value: ''
+  - name: CONDUIT-CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT-STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT-ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED-CD
+    number: '26'
+    value: A
+  - name: TRAN_ID
+    number: '27'
+    value: F65.00000
+  - name: ORIG_TRAN_ID
+    number: '28'
+    value: NO VALUE!
+  - name: SUPR_TRAN_ID
+    number: '29'
+    value: NO VALUE!
+  expected_count: 29
+  input: F65,C00366948,IND,Pazuk^Stephen M.,50 Battery Street,#311N,Boston,MA,02109,Self-Employed,Consultant,20010907,1000.00,,,,,,,,,,,,,A,F65.00000
+  input_count: 27
+  record: <fec.version.v2.F65.Records instance at 0x25e4cb0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366948
+  - name: COMMITTEE NAME
+    number: '3'
+    value: STEPHEN F LYNCH FOR CONGRESS COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: 55 G STREET
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: BOSTON
+  - name: STATE
+    number: '7'
+    value: MA
+  - name: ZIP
+    number: '8'
+    value: '02127'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2MA09072
+  - name: CANDIDATE NAME
+    number: '10'
+    value: LYNCH
+  - name: CAN/OFF
+    number: '11'
+    value: ^STEPHEN^F
+  - name: STATE (OF ELECTION)
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: MA
+  - name: SIGNED
+    number: 14-
+    value: 09
+  - value: '20010907'
+  expected_count: 14
+  input: F6N,C00366948,STEPHEN F LYNCH FOR CONGRESS COMMITTEE,55 G STREET,,BOSTON,MA,02127,H2MA09072,"LYNCH,^STEPHEN^F",H,MA,09,20010907
+  input_count: 15
+  record: <fec.version.v2.F6.Records instance at 0x25e47a0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366948
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Iron Workers District Council of New England
+  - name: STREET 1
+    number: '5'
+    value: 444 Washington Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Woburn
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: 01801
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: OF CONTRIBUTION
+    number: 12-
+    value: '20010907'
+  - name: AMOUNT CONTRIB/LOANED AMT
+    number: '13'
+    value: '2500.00'
+  - name: FEC-COMMITTEE-ID-NUMBER
+    number: '14'
+    value: ''
+  - name: FEC-CANDIDATE-ID-NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE-NAME
+    number: '16'
+    value: ''
+  - name: CAND-OFFICE
+    number: '17'
+    value: ''
+  - name: CAND-STATE (OF ELECTION)
+    number: '18'
+    value: ''
+  - name: CAND-DISTRICT
+    number: '19'
+    value: ''
+  - name: CONDUIT-NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT-STREET-1
+    number: '21'
+    value: ''
+  - name: CONDUIT-STREET-2
+    number: '22'
+    value: ''
+  - name: CONDUIT-CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT-STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT-ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED-CD
+    number: '26'
+    value: A
+  - name: TRAN_ID
+    number: '27'
+    value: F65.00000
+  - name: ORIG_TRAN_ID
+    number: '28'
+    value: NO VALUE!
+  - name: SUPR_TRAN_ID
+    number: '29'
+    value: NO VALUE!
+  expected_count: 29
+  input: F65,C00366948,PAC,Iron Workers District Council of New England,444 Washington
+    Street,,Woburn,MA,01801,,,20010907,2500.00,,,,,,,,,,,,,A,F65.00000
+  input_count: 27
+  record: <fec.version.v2.F65.Records instance at 0x25e4cb0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366948
+  - name: COMMITTEE NAME
+    number: '3'
+    value: STEPHEN F LYNCH FOR CONGRESS COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: 55 G STREET
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: BOSTON
+  - name: STATE
+    number: '7'
+    value: MA
+  - name: ZIP
+    number: '8'
+    value: '02127'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2MA09072
+  - name: CANDIDATE NAME
+    number: '10'
+    value: LYNCH
+  - name: CAN/OFF
+    number: '11'
+    value: ^STEPHEN^F
+  - name: STATE (OF ELECTION)
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: MA
+  - name: SIGNED
+    number: 14-
+    value: 09
+  - value: '20010907'
+  expected_count: 14
+  input: F6N,C00366948,STEPHEN F LYNCH FOR CONGRESS COMMITTEE,55 G STREET,,BOSTON,MA,02127,H2MA09072,"LYNCH,^STEPHEN^F",H,MA,09,20010907
+  input_count: 15
+  record: <fec.version.v2.F6.Records instance at 0x25e4f80>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366948
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Anderson^Richard K.
+  - name: STREET 1
+    number: '5'
+    value: 10 Flanders Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Westboro
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: '02760'
+  - name: INDEMP
+    number: '10'
+    value: Plumb House Inc.
+  - name: INDOCC
+    number: '11'
+    value: President
+  - name: OF CONTRIBUTION
+    number: 12-
+    value: '20010907'
+  - name: AMOUNT CONTRIB/LOANED AMT
+    number: '13'
+    value: '1000.00'
+  - name: FEC-COMMITTEE-ID-NUMBER
+    number: '14'
+    value: ''
+  - name: FEC-CANDIDATE-ID-NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE-NAME
+    number: '16'
+    value: ''
+  - name: CAND-OFFICE
+    number: '17'
+    value: ''
+  - name: CAND-STATE (OF ELECTION)
+    number: '18'
+    value: ''
+  - name: CAND-DISTRICT
+    number: '19'
+    value: ''
+  - name: CONDUIT-NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT-STREET-1
+    number: '21'
+    value: ''
+  - name: CONDUIT-STREET-2
+    number: '22'
+    value: ''
+  - name: CONDUIT-CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT-STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT-ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED-CD
+    number: '26'
+    value: A
+  - name: TRAN_ID
+    number: '27'
+    value: F65.00000
+  - name: ORIG_TRAN_ID
+    number: '28'
+    value: NO VALUE!
+  - name: SUPR_TRAN_ID
+    number: '29'
+    value: NO VALUE!
+  expected_count: 29
+  input: F65,C00366948,IND,Anderson^Richard K.,10 Flanders Road,,Westboro,MA,02760,Plumb
+    House Inc.,President,20010907,1000.00,,,,,,,,,,,,,A,F65.00000
+  input_count: 27
+  record: <fec.version.v2.F65.Records instance at 0x25e4cb0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366948
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Copelotti^Andrew J.
+  - name: STREET 1
+    number: '5'
+    value: 14 Holton Street
+  - name: STREET 2
+    number: '6'
+    value: No. 6
+  - name: CITY
+    number: '7'
+    value: Medford
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: '02155'
+  - name: INDEMP
+    number: '10'
+    value: Plumb House Inc.
+  - name: INDOCC
+    number: '11'
+    value: Executive
+  - name: OF CONTRIBUTION
+    number: 12-
+    value: '20010907'
+  - name: AMOUNT CONTRIB/LOANED AMT
+    number: '13'
+    value: '1000.00'
+  - name: FEC-COMMITTEE-ID-NUMBER
+    number: '14'
+    value: ''
+  - name: FEC-CANDIDATE-ID-NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE-NAME
+    number: '16'
+    value: ''
+  - name: CAND-OFFICE
+    number: '17'
+    value: ''
+  - name: CAND-STATE (OF ELECTION)
+    number: '18'
+    value: ''
+  - name: CAND-DISTRICT
+    number: '19'
+    value: ''
+  - name: CONDUIT-NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT-STREET-1
+    number: '21'
+    value: ''
+  - name: CONDUIT-STREET-2
+    number: '22'
+    value: ''
+  - name: CONDUIT-CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT-STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT-ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED-CD
+    number: '26'
+    value: A
+  - name: TRAN_ID
+    number: '27'
+    value: F65.00001
+  - name: ORIG_TRAN_ID
+    number: '28'
+    value: NO VALUE!
+  - name: SUPR_TRAN_ID
+    number: '29'
+    value: NO VALUE!
+  expected_count: 29
+  input: F65,C00366948,IND,Copelotti^Andrew J.,14 Holton Street,No. 6,Medford,MA,02155,Plumb
+    House Inc.,Executive,20010907,1000.00,,,,,,,,,,,,,A,F65.00001
+  input_count: 27
+  record: <fec.version.v2.F65.Records instance at 0x25e4f80>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366948
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Coffey^Helga S.
+  - name: STREET 1
+    number: '5'
+    value: 20 Madison Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Northborough
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: '01532'
+  - name: INDEMP
+    number: '10'
+    value: Plumb House Inc.
+  - name: INDOCC
+    number: '11'
+    value: Secretary
+  - name: OF CONTRIBUTION
+    number: 12-
+    value: '20010907'
+  - name: AMOUNT CONTRIB/LOANED AMT
+    number: '13'
+    value: '1000.00'
+  - name: FEC-COMMITTEE-ID-NUMBER
+    number: '14'
+    value: ''
+  - name: FEC-CANDIDATE-ID-NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE-NAME
+    number: '16'
+    value: ''
+  - name: CAND-OFFICE
+    number: '17'
+    value: ''
+  - name: CAND-STATE (OF ELECTION)
+    number: '18'
+    value: ''
+  - name: CAND-DISTRICT
+    number: '19'
+    value: ''
+  - name: CONDUIT-NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT-STREET-1
+    number: '21'
+    value: ''
+  - name: CONDUIT-STREET-2
+    number: '22'
+    value: ''
+  - name: CONDUIT-CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT-STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT-ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED-CD
+    number: '26'
+    value: A
+  - name: TRAN_ID
+    number: '27'
+    value: F65.00002
+  - name: ORIG_TRAN_ID
+    number: '28'
+    value: NO VALUE!
+  - name: SUPR_TRAN_ID
+    number: '29'
+    value: NO VALUE!
+  expected_count: 29
+  input: F65,C00366948,IND,Coffey^Helga S.,20 Madison Road,,Northborough,MA,01532,Plumb
+    House Inc.,Secretary,20010907,1000.00,,,,,,,,,,,,,A,F65.00002
+  input_count: 27
+  record: <fec.version.v2.F65.Records instance at 0x25e4cb0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366948
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Sidman^Paula L.
+  - name: STREET 1
+    number: '5'
+    value: 1 Sloan's Curve Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Palm Beach
+  - name: STATE
+    number: '8'
+    value: FL
+  - name: ZIP
+    number: '9'
+    value: '33480'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: Homemaker
+  - name: OF CONTRIBUTION
+    number: 12-
+    value: '20010907'
+  - name: AMOUNT CONTRIB/LOANED AMT
+    number: '13'
+    value: '1000.00'
+  - name: FEC-COMMITTEE-ID-NUMBER
+    number: '14'
+    value: ''
+  - name: FEC-CANDIDATE-ID-NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE-NAME
+    number: '16'
+    value: ''
+  - name: CAND-OFFICE
+    number: '17'
+    value: ''
+  - name: CAND-STATE (OF ELECTION)
+    number: '18'
+    value: ''
+  - name: CAND-DISTRICT
+    number: '19'
+    value: ''
+  - name: CONDUIT-NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT-STREET-1
+    number: '21'
+    value: ''
+  - name: CONDUIT-STREET-2
+    number: '22'
+    value: ''
+  - name: CONDUIT-CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT-STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT-ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED-CD
+    number: '26'
+    value: A
+  - name: TRAN_ID
+    number: '27'
+    value: F65.00003
+  - name: ORIG_TRAN_ID
+    number: '28'
+    value: NO VALUE!
+  - name: SUPR_TRAN_ID
+    number: '29'
+    value: NO VALUE!
+  expected_count: 29
+  input: F65,C00366948,IND,Sidman^Paula L.,1 Sloan's Curve Drive,,Palm Beach,FL,33480,,Homemaker,20010907,1000.00,,,,,,,,,,,,,A,F65.00003
+  input_count: 27
+  record: <fec.version.v2.F65.Records instance at 0x25e4f80>
+  result: []
+sourceurl: !!python/unicode '20010907'
