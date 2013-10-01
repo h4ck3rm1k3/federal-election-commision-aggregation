@@ -1,0 +1,223 @@
+countraw: 5
+countrows: 3
+filename: 20006.fec
+header: {}
+rows:
+- input: F6,C00365577,Brian A. Joyce for Congress Committee,38 Ridge Road,,Milton,MA,021862101,,,H,MA,09,20010920
+  record: <fec.version.v3.F6.Records instance at 0x1665f80>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00365577
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Brian A. Joyce for Congress Committee
+  - name: STREET 1
+    number: '4'
+    value: 38 Ridge Road
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Milton
+  - name: STATE
+    number: '7'
+    value: MA
+  - name: ZIP
+    number: '8'
+    value: 021862101
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ''
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: MA
+  - name: CAN/DIST
+    number: '13'
+    value: 09
+  - name: Signed
+    number: 14-
+    value: '20010920'
+- input: F65,C00365577,IND,Calnan^John J.^^,110 Farrar Farm Road,,Norwell,MA,02061,,,20010918,1000.00,C00365577,,,H,MA,09,,,,,,,,F6.9540
+  record: <fec.version.v3.F65.Records instance at 0x1455290>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00365577
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Calnan^John J.^^
+  - name: STREET 1
+    number: '5'
+    value: 110 Farrar Farm Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Norwell
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: '02061'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20010918'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00365577
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: MA
+  - name: CAN/DIST
+    number: '19'
+    value: 09
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.9540
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00365577
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: McDermott^Terence P.^^
+  - name: STREET 1
+    number: '5'
+    value: 21 Custon House St
+  - name: STREET 2
+    number: '6'
+    value: ' Suite 300'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Boston
+  - name: ZIP
+    number: '9'
+    value: MA
+  - name: INDEMP
+    number: '10'
+    value: '02110'
+  - name: INDOCC
+    number: '11'
+    value: self
+  - name: Of Contribution
+    number: 12-
+    value: Attorney
+  - name: AMOUNT
+    number: '13'
+    value: '20010919'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00365577
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: MA
+  - name: CONDUIT NAME
+    number: '20'
+    value: 09
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.9541
+  expected_count: 27
+  input: F65,C00365577,IND,McDermott^Terence P.^^,"21 Custon House St, Suite 300",,Boston,MA,02110,self,Attorney,20010919,1000.00,C00365577,,,H,MA,09,,,,,,,,F6.9541
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x1665f80>
+  result: []
+sourceurl: !!python/unicode '20010920'
