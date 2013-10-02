@@ -14687,4 +14687,150 @@ rows:
     value: ''
   - name: CONDUIT CITY
     number: '25'
-    va
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: A
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '5529020'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00007948","CAN","Adam Smith For Congress","27030 47th Ave S #104","","Kent","WA","98032","011","YTD:$1,000.00","P2002","",20011220,1000.00,"","","Smith^Adam^Congressman^","H","WA","9","","","","","","","","","A","5529020","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x1cfa128>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB29
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00007948
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Jim Black for NC House Committee
+  - name: STREET 1
+    number: '5'
+    value: 417 Lynderhill Lane
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Matthews
+  - name: STATE
+    number: '8'
+    value: NC
+  - name: ZIP
+    number: '9'
+    value: '28105'
+  - name: TRANS CODE
+    number: '10'
+    value: '011'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: James Black
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' STATE HOUSE 36th NC'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: P2002
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20011214'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '500.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: Black^James^NC Rep.^
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: NC
+  - name: CONDUIT NAME
+    number: '22'
+    value: '36'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: James Black
+  - name: TRAN ID
+    number: '31'
+    value: ' STATE HOUSE 36th NC'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: A
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: '5357054'
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB29","C00007948","CAN","Jim Black for NC House Committee","417 Lynderhill
+    Lane","","Matthews","NC","28105","011","James Black, STATE HOUSE 36th NC","P2002","",20011214,500.00,"","","Black^James^NC
+    Rep.^","H","NC","36","","","","","","","","James Black, STATE HOUSE 36th NC","A","5357054","","",""'
+  input_count: 36
+  record: <fec.version.v3.SB.Records instance at 0x659b200>
+  result: []
+sourceurl: !!python/unicode '20020122'
