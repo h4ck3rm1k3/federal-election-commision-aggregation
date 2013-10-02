@@ -59899,4 +59899,32 @@ rows:
     value: ''
   - name: CONDUIT ZIP
     number: '30'
-    
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: A
+  - name: TRAN ID
+    number: '34'
+    value: SA11A1.446
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: SA11A1,C00092304,IND,Hoffman^Richard,6506 Meadow Rd.,,Dallas,TX,75230,,,Santa
+    Fe International Corporation,,300.00,20011231,25.00,,,,,,,,,,,,,,,,,A,SA11A1.446
+  input_count: 34
+  record: <fec.version.v3.SA.Records instance at 0x897ccb0>
+  result: []
+sourceurl: !!python/unicode '20020130'

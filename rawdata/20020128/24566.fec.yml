@@ -909,4 +909,81 @@ rows:
     value: '20003'
   - name: TRANS DESCRIP
     number: '11'
-    valu
+    value: '011'
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20010823'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '500.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: C00326363
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: Mike Thompson
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: CA
+  - name: CONDUIT NAME
+    number: '22'
+    value: '01'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: EXP:B:3
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: SB23,C00155366,COM,Thompson for Congress^Mike,"436 New Jersey Avenue, SE",,Washington,DC,20003,011,,,,20010823,500.00,C00326363,,Mike
+    Thompson,H,CA,01,,,,,,,,,,EXP:B:3,,,
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x23d1908>
+  result: []
+sourceurl: !!python/unicode '20020128'

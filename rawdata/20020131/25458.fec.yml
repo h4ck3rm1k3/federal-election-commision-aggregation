@@ -17685,4 +17685,21 @@ rows:
     value: ''
   - name: TRAN ID
     number: '31'
-    value: 
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: 0130200244E2139
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB20A","C00320168","IND","Polgar^Thomas","Tyco International, Inc.","122
+    C Street NW, Suite 520 ","Washington","DC","20001    ","","Refund of Contribution
+    contrib to wrong ","P2002","",20010718,1000.00,"","","","","","","","","","","","",,"","","0130200244E2139"'
+  input_count: 33
+  record: <fec.version.v3.SB.Records instance at 0x2c3de18>
+  result: []
+sourceurl: !!python/unicode '20020131'

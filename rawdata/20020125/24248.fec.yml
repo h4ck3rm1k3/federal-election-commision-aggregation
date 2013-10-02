@@ -2046,4 +2046,185 @@ rows:
     value: ' U.S. SENATE NE'
   - name: DATE OF EXPENDITURE
     number: '14'
-    value:
+    value: P2002
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '20011211'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: '1000'
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: Sen. Chuck Hagel
+  - name: CAN/DIST
+    number: '21'
+    value: S
+  - name: CONDUIT NAME
+    number: '22'
+    value: NE
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: '10000002271800011'
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00102764","CAN","Hagel for Senate 2002","818 Connecticut Avenue,
+    NW","Suite 1008","Washington","DC","20006","24K","YTD:$2000.00 Chuck Hagel, U.S.
+    SENATE NE","P2002","",20011211,1000,"","","Sen. Chuck Hagel","S","NE","","","","","","","","","","","10000002271800011","","",""'
+  input_count: 36
+  record: <fec.version.v3.SB.Records instance at 0x23cdcb0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00102764
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Hagel for Senate 2002
+  - name: STREET 1
+    number: '5'
+    value: 818 Connecticut Avenue
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: Suite 1008
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS CODE
+    number: '10'
+    value: '20006'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: 24K
+  - name: ITEM ELECT CD
+    number: '12'
+    value: YTD:$2000.00 Voided Check
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: P2002
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20011211'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '-1000'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: Sen. Chuck Hagel
+  - name: CAN/STATE
+    number: '20'
+    value: S
+  - name: CAN/DIST
+    number: '21'
+    value: NE
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '10000002271900012'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00102764","CAN","Hagel for Senate 2002","818 Connecticut Avenue,
+    NW","Suite 1008","Washington","DC","20006","24K","YTD:$2000.00 Voided Check","P2002","",20011211,-1000,"","","Sen.
+    Chuck Hagel","S","NE","","","","","","","","","","","10000002271900012","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x23cd7e8>
+  result: []
+sourceurl: !!python/unicode '20020125'

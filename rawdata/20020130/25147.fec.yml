@@ -4719,4 +4719,76 @@ rows:
     number: '12'
     value: ' U.S. HOUSE 1st FL'
   - name: ITEM ELECT OTHER
-    number: '1
+    number: '13'
+    value: O2001
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: Special Gen'l Electn
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20010726'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '1000'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: Jeff Miller
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: FL
+  - name: CONDUIT NAME
+    number: '22'
+    value: '1'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '10000014667300004'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB23","C00022343","CAN","Jeff Miller for Congress","PO Box 100","","Milton","FL","32572","011","Jeff
+    Miller, U.S. HOUSE 1st FL","O2001","Special Gen''l Electn",20010726,1000,"","","Jeff
+    Miller","H","FL","1","","","","","","","","","","10000014667300004"'
+  input_count: 32
+  record: <fec.version.v3.SB.Records instance at 0x219c680>
+  result: []
+sourceurl: !!python/unicode '20020130'

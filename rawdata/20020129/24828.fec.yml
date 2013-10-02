@@ -4860,4 +4860,11 @@ rows:
     number: '4'
     value: 'Intermediary: California Bankers Association; 201 Mission Street'
   - value: ' Suite 2400 San Francisco'
-  - value: ' CA  94105
+  - value: ' CA  94105'
+  expected_count: 4
+  input: 'TEXT,SA11AI,INC:A:335,"Intermediary: California Bankers Association; 201
+    Mission Street, Suite 2400 San Francisco, CA  94105"'
+  input_count: 6
+  record: <fec.version.v3.TEXT.Records instance at 0x2ca7fc8>
+  result: []
+sourceurl: !!python/unicode '20020129'

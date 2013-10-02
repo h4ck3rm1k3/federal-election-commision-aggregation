@@ -25307,4 +25307,181 @@ rows:
   - name: TRANS DESCRIP
     number: '18'
     value: '15'
-  - name: FEC COM
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: Payroll Deduction
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: R33055
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: ''
+  - value: ''
+  expected_count: 37
+  input: '"SA11A1","C00329185","IND","Zewe^David M^^","1605 Ginko Lane","","Yardley","PA","19067","","","Quest
+    Diagnostics","SVP, US Operations","1560.00","20011221","60.00","15","Payroll Deduction","","","","","","","","","","","","","","","","R33055","","",""'
+  input_count: 38
+  record: <fec.version.v3.SA.Records instance at 0x63f5fc8>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00329185
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Thurman for Congress
+  - name: STREET 1
+    number: '5'
+    value: c/o Ellen Mazer
+  - name: STREET 2
+    number: '6'
+    value: 3610 38th Street
+  - name: CITY
+    number: '7'
+    value: ' NW'
+  - name: STATE
+    number: '8'
+    value: ' F270'
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS CODE
+    number: '10'
+    value: DC
+  - name: TRANS DESCRIP
+    number: '11'
+    value: '20016'
+  - name: ITEM ELECT CD
+    number: '12'
+    value: 24K
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: 'Contribution: Karen L. Thurman (FL-5-D)'
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: P2002
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '20011217'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: '500.00'
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: Karen L. Thurman (FL-5-D)
+  - name: CAN/DIST
+    number: '21'
+    value: H
+  - name: CONDUIT NAME
+    number: '22'
+    value: FL
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: '5'
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: 'Contribution: Karen L. Thurman (FL-5-D)'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: D1161
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00329185","CAN","Thurman for Congress","c/o Ellen Mazer","3610
+    38th Street, NW, F270","Washington","DC","20016","24K","Contribution: Karen L.
+    Thurman (FL-5-D)","P2002","","20011217","500.00","","","Karen L. Thurman (FL-5-D)","H","FL","5","","","","","","","","Contribution:
+    Karen L. Thurman (FL-5-D)","","D1161","","",""'
+  input_count: 36
+  record: <fec.version.v3.SB.Records instance at 0x63f5050>
+  result: []
+sourceurl: !!python/unicode '20020124'

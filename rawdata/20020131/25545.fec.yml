@@ -4580,4 +4580,127 @@ rows:
     value: ''
   - name: CONDUIT NAME
     number: '21'
-    val
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: ''
+  - value: A
+  - value: SD10.6489
+  expected_count: 28
+  input: SD10,C00329730,ORG,"McNally Temple Associates, Inc.","1817 Capitol Avenue,
+    Suite A",,Sacramento,CA,95814,adjustment - disputed admin. charges,-3122.21,0.00,0.00,-3122.21,,,,,,,,,,,,,A,SD10.6489
+  input_count: 30
+  record: <fec.version.v3.SD.Records instance at 0x9b44998>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00329730
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: McNally Temple Associates
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 1817 Capitol Avenue
+  - name: CITY
+    number: '7'
+    value: ' Suite A'
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: Sacramento
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: CA
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: '95814'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: final settlement
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '-2000.00'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '0.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: '0.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: '-2000.00'
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: ''
+  - value: A
+  - value: SD10.6546
+  expected_count: 28
+  input: SD10,C00329730,ORG,"McNally Temple Associates, Inc.","1817 Capitol Avenue,
+    Suite A",,Sacramento,CA,95814,final settlement,-2000.00,0.00,0.00,-2000.00,,,,,,,,,,,,,A,SD10.6546
+  input_count: 30
+  record: <fec.version.v3.SD.Records instance at 0x9b44c68>
+  result: []
+sourceurl: !!python/unicode '20020131'

@@ -40070,4 +40070,23 @@ rows:
   - name: AMENDED CD
     number: '30'
     value: ''
-  - n
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: 0128200252E548
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB20C","C00265942","PAC","Equipment Leasing Assn. PAC","Mr. Steve Fier","4301
+    N. Fairfax Drive, #550 ","Arlington","VA","22203    ","","Refund of Contribution
+    ","P    ","",20010813,1000.00,"","","","","","","","","","","","",,"","","0128200252E548"'
+  input_count: 32
+  record: <fec.version.v3.SB.Records instance at 0x2c9c8c0>
+  result: []
+sourceurl: !!python/unicode '20020129'

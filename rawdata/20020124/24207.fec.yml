@@ -4890,4 +4890,42 @@ rows:
     number: '26'
     value: ''
   - name: CONDUIT STREET2
-    n
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: SA11A1.8161
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: SA11A1,C00025098,IND,WERTZ^JUDY^^,1953 FAIRWAY DRIVE,,LANCASTER,SC,29720,G2001,,SPRINGS
+    INDUSTRIES,PLANT MANAGER,240.00,20011231,60.00,,,,,,,,,,,,,,,,,,SA11A1.8161,,
+  input_count: 36
+  record: <fec.version.v3.SA.Records instance at 0x21efcf8>
+  result: []
+sourceurl: !!python/unicode '20020124'

@@ -5331,4 +5331,178 @@ rows:
   - name: FEC COMMITTEE ID NUMBER
     number: '16'
     value: '500.00'
-  -
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: DAVID CAIN CAMPAIGN
+  - name: CAN/STATE
+    number: '20'
+    value: S
+  - name: CAN/DIST
+    number: '21'
+    value: TX
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.5887
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: SB23,C00086298,CCM,"CAIN, DAVID",P O BOX 141377,,DALLAS,TX,752141377,,TX
+    SENATOR,P2002,,20011004,500.00,,,DAVID CAIN CAMPAIGN,S,TX,,,,,,,,,,,SB23.5887,,,
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x23ccef0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00086298
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: ROBERT WEXLER FOR CONGRESS COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: 2500 NORTH MILITARY TR
+  - name: STREET 2
+    number: '6'
+    value: SUITE 288
+  - name: CITY
+    number: '7'
+    value: BOCA RATON
+  - name: STATE
+    number: '8'
+    value: FL
+  - name: ZIP
+    number: '9'
+    value: '33431'
+  - name: TRANS CODE
+    number: '10'
+    value: ''
+  - name: TRANS DESCRIP
+    number: '11'
+    value: DEM.
+  - name: ITEM ELECT CD
+    number: '12'
+    value: HOUSE OF REP
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: '  FLORIDA'
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: P2002
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '20011004'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: '500.00'
+  - name: CANDIDATE NAME
+    number: '18'
+    value: C00307694
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: WEXLER
+  - name: CAN/DIST
+    number: '21'
+    value: ' ROBERT'
+  - name: CONDUIT NAME
+    number: '22'
+    value: H
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: FL
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: '19'
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: SB23.5888
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: SB23,C00086298,CCM,ROBERT WEXLER FOR CONGRESS COMMITTEE,2500 NORTH MILITARY
+    TR,SUITE 288,BOCA RATON,FL,33431,,"DEM.,HOUSE OF REP,  FLORIDA",P2002,,20011004,500.00,C00307694,,"WEXLER,
+    ROBERT",H,FL,19,,,,,,,,,,SB23.5888,,,
+  input_count: 37
+  record: <fec.version.v3.SB.Records instance at 0x23cc5f0>
+  result: []
+sourceurl: !!python/unicode '20020128'

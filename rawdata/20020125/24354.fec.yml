@@ -6660,4 +6660,105 @@ rows:
     value: CAN
   - name: RECIPIENT NAME
     number: '4'
-    value: Ryan For Congres
+    value: Ryan For Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 1919
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Janesville
+  - name: STATE
+    number: '8'
+    value: WI
+  - name: ZIP
+    number: '9'
+    value: '53547'
+  - name: TRANS CODE
+    number: '10'
+    value: '011'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: YTD:$1
+  - name: ITEM ELECT CD
+    number: '12'
+    value: 000.00 Paul Ryan
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ' U.S. HOUSE 1st'
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: P2002
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '20010131'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: '1000.00'
+  - name: CANDIDATE NAME
+    number: '18'
+    value: C00330894
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: Ryan^Paul^Congressman^
+  - name: CAN/DIST
+    number: '21'
+    value: H
+  - name: CONDUIT NAME
+    number: '22'
+    value: WI
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: '1'
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: Paul Ryan
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ' U.S. HOUSE 1st WI'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: A
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: '510627'
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00032698","CAN","Ryan For Congress","PO Box 1919","","Janesville","WI","53547","011","YTD:$1,000.00
+    Paul Ryan, U.S. HOUSE 1st","P2002","",20010131,1000.00,"C00330894","","Ryan^Paul^Congressman^","H","WI","1","","","","","","","","Paul
+    Ryan, U.S. HOUSE 1st WI","A","510627","","",""'
+  input_count: 37
+  record: <fec.version.v3.SB.Records instance at 0x23d10e0>
+  result: []
+sourceurl: !!python/unicode '20020125'

@@ -14197,4 +14197,159 @@ rows:
   - name: CONDUIT NAME
     number: '22'
     value: '25'
-  - name: CO
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: X
+  - name: AMENDED CD
+    number: '30'
+    value: Inkind contribution
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: Disb00008897W&J001
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00039206","CAN","Walsh^James T.^^","400 Broadview Drive",,"Syracuse","NY","13215",,"James
+    T. Walsh, U.S. HOUSE NY-25","P2002",,"20011120",130.00,,,"Walsh^James T.^^","H","NY","25",,,,,,,"X","Inkind
+    contribution",,"Disb00008897W&J001",,,'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x2c3d488>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00039206
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Warner^John W.^^
+  - name: STREET 1
+    number: '5'
+    value: 2111 Eisenhower Avenue
+  - name: STREET 2
+    number: '6'
+    value: Suite 402
+  - name: CITY
+    number: '7'
+    value: Alexandria
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22314'
+  - name: TRANS CODE
+    number: '10'
+    value: ''
+  - name: TRANS DESCRIP
+    number: '11'
+    value: John W. Warner
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' U.S. SENATE VA'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: P2002
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20010904'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: Warner^John W.^^
+  - name: CAN/STATE
+    number: '20'
+    value: S
+  - name: CAN/DIST
+    number: '21'
+    value: VA
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: Disb00006986W&J001
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00039206","CAN","Warner^John W.^^","2111 Eisenhower Avenue","Suite
+    402","Alexandria","VA","22314",,"John W. Warner, U.S. SENATE VA","P2002",,"20010904",1000.00,,,"Warner^John
+    W.^^","S","VA",,,,,,,,,,,"Disb00006986W&J001",,,'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x2c3d050>
+  result: []
+sourceurl: !!python/unicode '20020130'

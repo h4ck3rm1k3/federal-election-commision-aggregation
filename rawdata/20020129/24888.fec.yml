@@ -3228,4 +3228,121 @@ rows:
     value: NO VALUE!
   - name: BACK REF SCHED NAME
     number: '36'
-    value: NO VALUE
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: SA11A1,C00332924,IND,Hodges^Lucinda,537 Sweeten Creek Industrial Park,,Asheville,NC,28803,,,SEI,Employee,270.00,20011207,20.00,,,,,,,,,,,,,,,,,A,SA11A1.495
+  input_count: 34
+  record: <fec.version.v3.SA.Records instance at 0x2c44200>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00332924
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: TAYLOR
+  - name: STREET 1
+    number: '5'
+    value: ' CHARLES H'
+  - name: STREET 2
+    number: '6'
+    value: PO BOX 66
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: BREVARD
+  - name: ZIP
+    number: '9'
+    value: NC
+  - name: TRANS CODE
+    number: '10'
+    value: '28712'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: P
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20011212'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '400.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: C00222653
+  - name: CANDIDATE NAME
+    number: '18'
+    value: H8NC11038
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: NC
+  - name: CONDUIT NAME
+    number: '22'
+    value: '11'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: A
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.496
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: SB23,C00332924,CCM,"TAYLOR, CHARLES H",PO BOX 66,,BREVARD,NC,28712,,,P,,20011212,400.00,C00222653,H8NC11038,,H,NC,11,,,,,,,,,A,SB23.496
+  input_count: 32
+  record: <fec.version.v3.SB.Records instance at 0x2c44b00>
+  result: []
+sourceurl: !!python/unicode '20020129'

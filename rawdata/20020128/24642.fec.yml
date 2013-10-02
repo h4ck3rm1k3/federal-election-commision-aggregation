@@ -98934,3 +98934,21 @@ rows:
     number: '30'
     value: ''
   - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: 0118200240E5700
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB20A","C00012229","IND","Stevens^Michael","1160 Dairy Ashford, #601","","Houston","TX","77079    ","","Refund
+    of Contribution Refund Excess Con","G    ","",20011219,1000.00,"","","","","","","","","","","","",,"","","0118200240E5700"'
+  input_count: 32
+  record: <fec.version.v3.SB.Records instance at 0x6c3b2d8>
+  result: []
+sourceurl: !!python/unicode '20020128'

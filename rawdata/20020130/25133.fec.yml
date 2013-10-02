@@ -199,4 +199,52 @@ rows:
   expected_count: 62
   input: F1N,C00022343,Independent Insurance Agents of America Political Action Committee
     (InsurPac),"412 First Street, SE, Suite 300",,Washington,DC,20003,20020127,,,B,,,,,,,,,"Independent
-    Insurance Agents of America, Inc.",127 S. Peyto
+    Insurance Agents of America, Inc.",127 S. Peyton Street,,Alexandria,VA,22314,Connected,T,Mr.
+    Robert Rusbuldt,"412 First Street, SE, Suite 300",,Washington,DC,20003,CEO,2028637000,Mr.
+    Robert Rusbuldt,"412 First Street, SE, Suite 300",,Washington,DC,20003,CEO,2028637000,,,,,,,,,Sequoia
+    Bank,1001 G Street NW,,Washington,DC,20001,Robert Rusbuldt,20020129,lleger@iiaa.net
+  input_count: 68
+  record: <fec.version.v3.F1.Records instance at 0x27e8a70>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F1N
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: Per the instructions of Dominick Ciaraldi of the FEC's Electronic Filing
+      Office
+  - value: ' this report is being filed as an F1N as opposed to an F1A.  The report
+      is actually an amendment of our original Form 1 report'
+  - value: ' but because of the constraints of the electronic filing system'
+  - value: ' i.e.'
+  - value: ' an FEC number is required to file an amended report and there is none
+      for our original paper filing'
+  - value: ' we are required to file electronically with the Form Type code F1N which
+      designates the report as a new report'
+  - value: ' instead of the Form Type code F1A which would designate the report as
+      an amended report.  Nonetheless'
+  - value: ' this report is actually an amendment of our original Form 1 filing.  If
+      you have any questions'
+  - value: ' please contact Mrs. Elizabeth Leger at 202-863-7000.'
+  expected_count: 4
+  input: TEXT,F1N,,"Per the instructions of Dominick Ciaraldi of the FEC's Electronic
+    Filing Office, this report is being filed as an F1N as opposed to an F1A.  The
+    report is actually an amendment of our original Form 1 report, but because of
+    the constraints of the electronic filing system, i.e., an FEC number is required
+    to file an amended report and there is none for our original paper filing, we
+    are required to file electronically with the Form Type code F1N which designates
+    the report as a new report, instead of the Form Type code F1A which would designate
+    the report as an amended report.  Nonetheless, this report is actually an amendment
+    of our original Form 1 filing.  If you have any questions, please contact Mrs.
+    Elizabeth Leger at 202-863-7000."
+  input_count: 12
+  record: <fec.version.v3.TEXT.Records instance at 0x27e8b90>
+  result: []
+sourceurl: !!python/unicode '20020130'

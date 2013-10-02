@@ -3686,4 +3686,157 @@ rows:
     number: '5'
     value: 41 Sherwood Lane
   - name: STREET 2
-  
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Tunkhannock
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '186577004'
+  - name: INDEMP
+    number: '10'
+    value: Sherwood Chevrolet
+  - name: INDOCC
+    number: '11'
+    value: ' Inc.'
+  - name: AMOUNT GUARANTEED BALANCE
+    number: '12'
+    value: Auto Dealer/Candidate
+  - value: '0.00'
+  expected_count: 12
+  input: '"SC2/10","C00334334","LS1105200137C12286","Donald L. Sherwood","41 Sherwood
+    Lane","","Tunkhannock","PA","186577004","Sherwood Chevrolet, Inc.","Auto Dealer/Candidate",0.00'
+  input_count: 13
+  record: <fec.version.v3.SC2.Records instance at 0x2c9c950>
+  result: []
+- input: '"SC1/10","C00334334","LS1105200137C12286","ORG","PEOPLES STATE BANK","P.
+    O. BOX 217","","WYALUSING","PA","18853    ",100026.42,"6.500",20010925,20020925,"Y",19980925,0.00,0.00,"N","Y","7173
+    Shares of common stock First Union Corp.",218704.77,"Y","N","",0.00,18991230,"","","","","","       ",18991230,"","John
+    A. Brady",20010925,"Charles R. Bullock","Asst. Vice President",20011231'
+  record: <fec.version.v3.SC1.Records instance at 0x2c9c3f8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SC1/10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00334334
+  - name: BACK REFERENCE TRAN ID
+    number: '3'
+    value: LS1105200137C12286
+  - name: ENTITY TYPE
+    number: '4'
+    value: ORG
+  - name: NAME (Loan Source)
+    number: '5'
+    value: PEOPLES STATE BANK
+  - name: STREET 1
+    number: '6'
+    value: P. O. BOX 217
+  - name: STREET 2
+    number: '7'
+    value: ''
+  - name: CITY
+    number: '8'
+    value: WYALUSING
+  - name: STATE
+    number: '9'
+    value: PA
+  - name: ZIP
+    number: '10'
+    value: '18853    '
+  - name: AMT OF LOAN
+    number: '11'
+    value: '100026.42'
+  - name: LOAN INTEREST RATE PERCENT
+    number: '12'
+    value: '6.500'
+  - name: Incurred
+    number: 13-
+    value: '20010925'
+  - name: Due
+    number: 14-
+    value: '20020925'
+  - name: Loan Restructured
+    number: 15-A1.
+    value: Y
+  - name: Of Original Loan
+    number: '16-A2. '
+    value: '19980925'
+  - name: CREDIT AMOUNT THIS DRAW
+    number: 17-B.1.
+    value: '0.00'
+  - name: TOTAL BALANCE
+    number: 18-B.2.
+    value: '0.00'
+  - name: Others liable?
+    number: '19-C. '
+    value: N
+  - name: Collateral?
+    number: '20-D. '
+    value: Y
+  - name: Collateral
+    number: '21-D.1 '
+    value: 7173 Shares of common stock First Union Corp.
+  - name: COLLATERAL VALUE/AMOUNT
+    number: 22-D.2
+    value: '218704.77'
+  - name: Perfected Interest?)
+    number: '23-D.3 '
+    value: Y
+  - name: Future Income
+    number: '24-E.1 '
+    value: N
+  - name: Specification of the above
+    number: '25-E.2 '
+    value: ''
+  - name: ESTIMATED VALUE
+    number: 26-E.3
+    value: '0.00'
+  - name: Depository account established
+    number: '27-E.4 '
+    value: '18991230'
+  - name: Account Location
+    number: '28-E.5 '
+    value: ''
+  - name: STREET 1
+    number: 29-E.6
+    value: ''
+  - name: STREET 2
+    number: 30-E.7
+    value: ''
+  - name: CITY
+    number: 31-E.8
+    value: ''
+  - name: STATE
+    number: 32-E.9
+    value: ''
+  - name: ZIP
+    number: 33-E.10
+    value: '       '
+  - name: Presidential
+    number: '34-E.11 DEP ACCT AUTH '
+    value: '18991230'
+  - name: State basis of loan
+    number: '35-F. '
+    value: ''
+  - name: NAME/TREASURER (as signed)
+    number: 36-G.
+    value: John A. Brady
+  - name: SIG/DATE
+    number: 37-G.
+    value: '20010925'
+  - name: NAME/AUTH (as signed)
+    number: 38-H.
+    value: Charles R. Bullock
+  - name: AUTH/TITLE
+    number: 39-H.
+    value: Asst. Vice President
+  - name: AUTH/SIG DATE
+    number: 40-H.
+    value: '20011231'
+sourceurl: !!python/unicode '20020124'

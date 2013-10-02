@@ -12820,4 +12820,116 @@ rows:
   expected_count: 34
   input: '"SB23","C00166553","COM","Hathorn for Congress Committee","PO Box 4055","","Fayetteville","AR","72702",,"2001
     Special Gen Election-US Congress","O","Special",20011106,1000.00,"","","","H","AR","03","","","","","","","","","A",632'
-  input
+  input_count: 31
+  record: <fec.version.v3.SB.Records instance at 0x21efe60>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00166553
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Pressler for Congress
+  - name: STREET 1
+    number: '5'
+    value: 300 North Dakota Ave
+  - name: STREET 2
+    number: '6'
+    value: ' Suite 218A'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Sioux Falls
+  - name: ZIP
+    number: '9'
+    value: SD
+  - name: TRANS CODE
+    number: '10'
+    value: '57104'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '12'
+    value: 2002 Primary-US Congress-South Dakota
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: P
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20011211'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: SD
+  - name: CONDUIT NAME
+    number: '22'
+    value: '03'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: A
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '633'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB23","C00166553","CAN","Pressler for Congress","300 North Dakota Ave,
+    Suite 218A","","Sioux Falls","SD","57104",,"2002 Primary-US Congress-South Dakota","P","",20011211,1000.00,"","","","H","SD","03","","","","","","","","","A",633'
+  input_count: 32
+  record: <fec.version.v3.SB.Records instance at 0x21efa70>
+  result: []
+sourceurl: !!python/unicode '20020131'

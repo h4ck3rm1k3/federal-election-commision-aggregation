@@ -5216,4 +5216,24 @@ rows:
   - name: AMENDED CD
     number: '30'
     value: ''
-  -
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '10000000269400020'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00339655","CAN","ED SCHROCK FOR CONGRESS","P.O. Box 61480","","Virginia
+    Beach","VA","234661480","24K","YTD:$2000.00 Edward L. Schrock, U.S. HOU","P2001","",20011129,1000,"C00351288","","Edward
+    L. Schrock","H","VA","2","","","","","","","","","","10000000269400020","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x1554ee18>
+  result: []
+sourceurl: !!python/unicode '20020124'

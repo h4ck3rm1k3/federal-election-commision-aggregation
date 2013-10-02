@@ -3075,4 +3075,17 @@ rows:
   - name: BACK REF TRAN ID
     number: '32'
     value: SB29.4234
-  - name: BACK REF SCHED NA
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: SB29,C00278101,CAN,Joe Woods^^^,5425 N. Fremont Road,,Port Clinton,OH,43452,,"Check
+    lost - See 10M, Line 29",G2000,,20011231,-150.00,,,Joe Woods^^^,H,OH,53,,,,,,,,,,SB29.4234,,,
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x27e8d88>
+  result: []
+sourceurl: !!python/unicode '20020129'

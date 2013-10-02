@@ -3577,4 +3577,121 @@ rows:
     number: '37'
     value: ''
   - value: ''
-  expected_
+  expected_count: 37
+  input: '"SA17","C00110494","","Bank of America^^^","730 15th Street, NW","","Washington","DC","20005","G2002","","Bank
+    of America","","758.45","20011130","0.97","","Check","","","","","","","","","","","","","","","","R2378","","",""'
+  input_count: 38
+  record: <fec.version.v3.SA.Records instance at 0x2c3dbd8>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB21B
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00110494
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Bank of America
+  - name: STREET 1
+    number: '5'
+    value: 730 15th Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS CODE
+    number: '10'
+    value: '20005'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '12'
+    value: Bank Charges
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20011130'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '114.96'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: ''
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: Bank Charges
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: D721
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB21B","C00110494","","Bank of America","730 15th Street, NW","","Washington","DC","20005","","Bank
+    Charges","","","20011130","114.96","","","","","","","","","","","","","","Bank
+    Charges","","D721","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x2c3d560>
+  result: []
+sourceurl: !!python/unicode '20020130'

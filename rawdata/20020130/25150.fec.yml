@@ -2056,4 +2056,44 @@ rows:
   - name: CONDUIT STREET 1
     number: '23'
     value: '2'
- 
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: '10000014703900002'
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB23","C00022343","CAN","Allen Boyd for Congress","499 South Capitol Street,
+    SW","Suite 603","Washington","DC","20003","011","Allen Boyd, U.S. HOUSE 2nd FL","P2002","",20010905,1500,"","","Allen
+    Boyd","H","FL","2","","","","","","","","","","10000014703900002"'
+  input_count: 33
+  record: <fec.version.v3.SB.Records instance at 0x23d1a70>
+  result: []
+sourceurl: !!python/unicode '20020130'

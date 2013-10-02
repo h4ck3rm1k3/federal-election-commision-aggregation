@@ -6223,4 +6223,137 @@ rows:
     value: ''
   - name: MEMO TEXT
     number: '29'
-    value: '
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '10000000069800026'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00201509","CAN","Ryan for Congress","31 West Milwaukee  St.","","Janesville","WI","53545","24K","YTD:$500.00
+    Paul Ryan, U.S. HOUSE 1st WI","P2002","",20011219,500,"","","Mr. Paul Ryan","H","WI","1","","","","","","","","","","10000000069800026","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x21efa70>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00201509
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Republican Majority Fund
+  - name: STREET 1
+    number: '5'
+    value: 1615 L St.
+  - name: STREET 2
+    number: '6'
+    value: ' NW.'
+  - name: CITY
+    number: '7'
+    value: Suite 1215
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS CODE
+    number: '10'
+    value: '20036'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: 24K
+  - name: ITEM ELECT CD
+    number: '12'
+    value: YTD:$5000.00 PAC Contribution
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: O2001
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20011219'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '1250'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: ''
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '10000000069900027'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00201509","PAC","Republican Majority Fund","1615 L St., NW.","Suite
+    1215","Washington","DC","20036","24K","YTD:$5000.00 PAC Contribution","O2001","",20011219,1250,"","","","","","","","","","","","","","","","10000000069900027","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x21efd88>
+  result: []
+sourceurl: !!python/unicode '20020129'

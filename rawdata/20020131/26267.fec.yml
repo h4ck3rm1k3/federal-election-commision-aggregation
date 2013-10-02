@@ -13012,4 +13012,25 @@ rows:
   - value: ' GOVERNOR -VA and transmitted by committee check.'
   expected_count: 4
   input: '"TEXT","SA11ai","4752689","Contribution earmarked for Mark Warner, GOVERNOR
-    -VA and transmitted by committee c
+    -VA and transmitted by committee check."'
+  input_count: 5
+  record: <fec.version.v3.TEXT.Records instance at 0x96ecb48>
+  result: []
+- input: '"TEXT","SB29","4766636","Contribution earmarked by Mr. Jeremy W Preiss and
+    transmitted by committee check."'
+  record: <fec.version.v3.TEXT.Records instance at 0x96ec830>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SB29
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: '4766636'
+  - name: TEXT4000
+    number: '4'
+    value: Contribution earmarked by Mr. Jeremy W Preiss and transmitted by committee
+      check.
+sourceurl: !!python/unicode '20020131'

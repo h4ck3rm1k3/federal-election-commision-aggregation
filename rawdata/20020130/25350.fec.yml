@@ -71527,4 +71527,146 @@ rows:
   - name: CAN/STATE
     number: '23'
     value: ''
-  - name: CAN/DI
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: AMENDED CD
+    number: '25'
+    value: ''
+  - name: TRAN ID
+    number: '26'
+    value: ''
+  - value: LS0725200114C1883
+  expected_count: 26
+  input: '"SC/10","C00331256","CAN","Mr. Robert C. Hayes","1176 Asheford Green Avenue,
+    NW","","Concord","NC","28027    ","G    ","",35000.00,35000.00,0.00,19981124,"19981124",".0000","N","","","","","",,"","LS0725200114C1883"'
+  input_count: 27
+  record: <fec.version.v3.SC.Records instance at 0x18512560>
+  result: []
+- input: '"SC/10","C00331256","","First Union National Bank","Post Office Box 467","","Concord","NC","28026    ","O    ","Debt
+    retirement/Gene",150000.00,0.00,150000.00,20010105,"20020305","Prime","N","","","","","",,"","LS0725200143C22295"'
+  record: <fec.version.v3.SC.Records instance at 0x185126c8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SC/10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00331256
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Loan Source)
+    number: '4'
+    value: First Union National Bank
+  - name: STREET 1
+    number: '5'
+    value: Post Office Box 467
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Concord
+  - name: STATE
+    number: '8'
+    value: NC
+  - name: ZIP
+    number: '9'
+    value: '28026    '
+  - name: ELECTION
+    number: '10'
+    value: 'O    '
+  - name: ELECTION DESCRIPTION
+    number: '11'
+    value: Debt retirement/Gene
+  - name: ORIG. AMT OF LOAN
+    number: '12'
+    value: '150000.00'
+  - name: PAYMENT TO DATE
+    number: '13'
+    value: '0.00'
+  - name: LOAN BALANCE
+    number: '14'
+    value: '150000.00'
+  - name: Incurred
+    number: 15-
+    value: '20010105'
+  - name: DUE DATE TERMS
+    number: '16'
+    value: '20020305'
+  - name: PCT RATE TERMS
+    number: '17'
+    value: Prime
+  - name: SECURED YESNO
+    number: '18'
+    value: N
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: AMENDED CD
+    number: '25'
+    value: ''
+  - name: TRAN ID
+    number: '26'
+    value: LS0725200143C22295
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SC2/10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00331256
+  - name: BACK REFERENCE TRAN ID
+    number: '3'
+    value: LS0725200143C22295
+  - name: Endorser/Guarantor
+    number: 4-
+    value: Mr. Robert C. Hayes
+  - name: STREET 1
+    number: '5'
+    value: 1176 Asheford Green Avenue
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Concord
+  - name: ZIP
+    number: '9'
+    value: NC
+  - name: INDEMP
+    number: '10'
+    value: '28027    '
+  - name: INDOCC
+    number: '11'
+    value: U.S. House of Representatives
+  - name: AMOUNT GUARANTEED BALANCE
+    number: '12'
+    value: Congressman
+  - value: '0.00'
+  expected_count: 12
+  input: '"SC2/10","C00331256","LS0725200143C22295","Mr. Robert C. Hayes","1176 Asheford
+    Green Avenue, NW","","Concord","NC","28027    ","U.S. House of Representatives","Congressman",0.00'
+  input_count: 13
+  record: <fec.version.v3.SC2.Records instance at 0x185127a0>
+  result: []
+sourceurl: !!python/unicode '20020130'

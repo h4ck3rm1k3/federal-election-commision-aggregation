@@ -24023,4 +24023,71 @@ rows:
     number: '19'
     value: Robert Ehrlich
   - name: CAN/STATE
-    nu
+    number: '20'
+    value: ' Jr.'
+  - name: CAN/DIST
+    number: '21'
+    value: H
+  - name: CONDUIT NAME
+    number: '22'
+    value: MD
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: '2'
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: EXP:B:902
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: SB23,C00258210,CCM,Ehrlich for Congress,"8600 LaSalle Rd., Ste. 103",,Baltimore,MD,21286,011,Contribution,P2002,,20011207,500.00,C00286963,,"Robert
+    Ehrlich, Jr.",H,MD,2,,,,,,,,,,EXP:B:902,,,
+  input_count: 36
+  record: <fec.version.v3.SB.Records instance at 0x6c279e0>
+  result: []
+- input: TEXT,SB23,EXP:B:30,2004
+  record: <fec.version.v3.TEXT.Records instance at 0x6c275f0>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SB23
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: EXP:B:30
+  - name: TEXT4000
+    number: '4'
+    value: '2004'
+sourceurl: !!python/unicode '20020130'

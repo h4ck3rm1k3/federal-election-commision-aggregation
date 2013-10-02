@@ -67643,4 +67643,139 @@ rows:
   - name: MEMO CODE
     number: '28'
     value: ''
-  - name: MEMO TE
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: 0130200239E3651
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB21","C00283085","PTY","Van Hilleary for Governor","342 Cool Springs Blvd.,
+    #202","","Franklin","TN","37067    ","","Other Disbursement Contrib: Governor
+    TN ","P2002","",20010928,2500.00,"C00283085","","","","",,"","","","","","","","","","0130200239E3651"'
+  input_count: 32
+  record: <fec.version.v3.SB.Records instance at 0x6cfdab8>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB21
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00283085
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Winfield Dunn Golf Classic
+  - name: STREET 1
+    number: '5'
+    value: c/o Gary Deaton
+  - name: STREET 2
+    number: '6'
+    value: '1000 Hwy. 45 By-pass '
+  - name: CITY
+    number: '7'
+    value: Jackson
+  - name: STATE
+    number: '8'
+    value: TN
+  - name: ZIP
+    number: '9'
+    value: '38301    '
+  - name: TRANS CODE
+    number: '10'
+    value: ''
+  - name: TRANS DESCRIP
+    number: '11'
+    value: Other Disbursement Madison Co. Republica
+  - name: ITEM ELECT CD
+    number: '12'
+    value: P2002
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20010815'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '400.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: C00283085
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: ''
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: 0130200239E3540
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB21","C00283085","","Winfield Dunn Golf Classic","c/o Gary Deaton","1000
+    Hwy. 45 By-pass ","Jackson","TN","38301    ","","Other Disbursement Madison Co.
+    Republica","P2002","",20010815,400.00,"C00283085","","","","",,"","","","","","","","","","0130200239E3540"'
+  input_count: 31
+  record: <fec.version.v3.SB.Records instance at 0x1333e128>
+  result: []
+sourceurl: !!python/unicode '20020131'

@@ -13694,3 +13694,82 @@ rows:
     number: '10'
     value: '011'
   - name: TRANS DESCRIP
+    number: '11'
+    value: YTD:$1
+  - name: ITEM ELECT CD
+    number: '12'
+    value: '000.00'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: O2002
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: 2002 US General
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20010608'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: C00166017
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: Wolf^Frank^Congressman^
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: VA
+  - name: CONDUIT NAME
+    number: '22'
+    value: '10'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: A
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '2902405'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00266585","CAN","Friends Of Frank Wolf","P.O. Box 3015","","Oakton","VA","22124","011","YTD:$1,000.00","O2002","2002
+    US General",20010608,1000.00,"C00166017","","Wolf^Frank^Congressman^","H","VA","10","","","","","","","","","A","2902405","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x2cc2950>
+  result: []
+sourceurl: !!python/unicode '20020131'

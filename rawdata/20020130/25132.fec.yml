@@ -1825,4 +1825,109 @@ rows:
   - name: FORM TYPE
     number: '1'
     value: SB17
-  - name: FILER 
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00347666
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Market Street Software
+  - name: STREET 1
+    number: '5'
+    value: 611 Market Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Kirkland
+  - name: STATE
+    number: '8'
+    value: WA
+  - name: ZIP
+    number: '9'
+    value: '98033    '
+  - name: TRANS CODE
+    number: '10'
+    value: '001'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: Administration
+  - name: ITEM ELECT CD
+    number: '12'
+    value: G2000
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20011215'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '338.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: C00347666
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: H1WA01066
+  - name: CANDIDATE NAME
+    number: '18'
+    value: McDonald^Dan
+  - name: CAN/OFFICE
+    number: '19'
+    value: H
+  - name: CAN/STATE
+    number: '20'
+    value: WA
+  - name: CAN/DIST
+    number: '21'
+    value: '01'
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: N
+  - name: TRAN ID
+    number: '31'
+    value: Pay 1113
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB17","C00347666","ORG","Market Street Software","611 Market Street",,"Kirkland","WA","98033    ","001","Administration","G2000","","20011215","338.00","C00347666","H1WA01066","McDonald^Dan","H","WA","01","","","","","","","",,"N","Pay
+    1113"'
+  input_count: 31
+  record: <fec.version.v3.SB.Records instance at 0x27e8fc8>
+  result: []
+sourceurl: !!python/unicode '20020130'

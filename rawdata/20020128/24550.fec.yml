@@ -196,4 +196,33 @@ rows:
   expected_count: 62
   input: '"F1N","C00040923","Metropolitan Life Insurance Company (MetLife) Employees''
     Political Participation Fund A","One Madison Ave","","New York","NY","10010",20020128,"","","E","","","","",0,"","","","","","","","","","","","Mellody^Kathleen^Ms.^","1620
-    L Street, NW","Suite 800","Wa
+    L Street, NW","Suite 800","Washington","DC","20036","Sr. Washington Assoc",2026593575,"Henstrand^Ann^Ms.^","27-01
+    Queens Plaza North","Area 4C","Long Island City","NY","11101","Vice President",2125786358,"^^^","","","","","","",0,"National
+    Bank of Detroit, N.A.","3031 W. Grand Boulevard","660 New Center One","Detroit","MI","482023014","Henstrand^Ann^Ms.^",20020128,"ahenstrand@metlife.com",""'
+  input_count: 64
+  record: <fec.version.v3.F1.Records instance at 0x21f0098>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F1N
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: This amendment was originally filed on 8/10/01 and subsequently rejected
+      because it was filed via paper.  This amendment reflects a change in treasurer
+  - value: ' custodian of records'
+  - value: ' and an additional bank account.'
+  expected_count: 4
+  input: '"TEXT","F1N","","This amendment was originally filed on 8/10/01 and subsequently
+    rejected because it was filed via paper.  This amendment reflects a change in
+    treasurer, custodian of records, and an additional bank account."'
+  input_count: 6
+  record: <fec.version.v3.TEXT.Records instance at 0x2cc27e8>
+  result: []
+sourceurl: !!python/unicode '20020128'

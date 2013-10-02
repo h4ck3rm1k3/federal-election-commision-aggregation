@@ -10706,4 +10706,90 @@ rows:
     value: NM
   - name: ZIP
     number: '9'
-    value:
+    value: '87199'
+  - name: TRANS CODE
+    number: '10'
+    value: '011'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: YTD:$1
+  - name: ITEM ELECT CD
+    number: '12'
+    value: 000.00 Pete Domenici
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ' U.S. SENATE'
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: P2002
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '20010330'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: '1000.00'
+  - name: CANDIDATE NAME
+    number: '18'
+    value: C00202648
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: Domenici^Pete^Senator^
+  - name: CAN/DIST
+    number: '21'
+    value: S
+  - name: CONDUIT NAME
+    number: '22'
+    value: NM
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: '1'
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: Pete Domenici
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ' U.S. SENATE NM'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: A
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: '684121'
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00032698","CAN","People For Pete Domenici","Post Office Box 93656","","Albuquerque","NM","87199","011","YTD:$1,000.00
+    Pete Domenici, U.S. SENATE","P2002","",20010330,1000.00,"C00202648","","Domenici^Pete^Senator^","S","NM","1","","","","","","","","Pete
+    Domenici, U.S. SENATE NM","A","684121","","",""'
+  input_count: 37
+  record: <fec.version.v3.SB.Records instance at 0x219cdd0>
+  result: []
+sourceurl: !!python/unicode '20020125'

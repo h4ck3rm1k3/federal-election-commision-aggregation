@@ -60235,3 +60235,110 @@ rows:
     value: Primary - special
   - name: TRAN ID
     number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: D1857
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: 'SB21,"C00236711","PAC","Murray for Congress","555 South Flower, Suite 4510","","Los
+    Angeles","CA","90071","","(House - CA - 32) FEC #C00364026","P2002","",20010228,"1000","C00364026","H2CA32073","Kevin
+    Murray","H","CA","32","","","","","","","","Primary - special","","D1857","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x14a69200>
+  result: []
+- input: SD10,"C00236711","ORG","Syngergistics","215 S. Willis","","Visalia","CA","83291","Office
+    Furniture Rental","900","0","0","900",,,,,,,,,,,,,"N","D1314"
+  record: <fec.version.v3.SD.Records instance at 0x14a693f8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00236711
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: Syngergistics
+  - name: STREET 1
+    number: '5'
+    value: 215 S. Willis
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Visalia
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '83291'
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: Office Furniture Rental
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: '900'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '0'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '0'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '900'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: N
+  - name: TRAN ID
+    number: '28'
+    value: D1314
+sourceurl: !!python/unicode '20020125'

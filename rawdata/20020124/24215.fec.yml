@@ -15913,4 +15913,56 @@ rows:
     number: '30'
     value: A
   - name: TRAN ID
- 
+    number: '31'
+    value: '765281'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: This amendment is made in response to FEC letters dated December 19
+  - value: ' 2001 and January 10'
+  - value: ' 2002.  A response was prepared and sent certified mail on December 31'
+  - value: ' 2001'
+  - value: ' however the FEC has no record of receipt'
+  - value: ' thus the January 10 FEC letter was sent. Included in the amendment are
+      the additions of partial'
+  - value: ' or missing zip codes and addresses.  This was believed to have been caused
+      by a software error which did not interpret the data entry correctly.       We
+      have tried diligently to correct an error which continues to appear with regard
+      to the ''office sought'' for the Bank of America and Florida Department of Revenue
+      disbursements.  Both of the aforementioned disbursements were made for tax payments.  The
+      Bank of America disbursement was made with regard to a quarterly tax payment
+      which is accepted by the IRS from the Bank of America with a deposit ticket.'
+  expected_count: 4
+  input: '"TEXT","F3XA","","This amendment is made in response to FEC letters dated
+    December 19, 2001 and January 10, 2002.  A response was prepared and sent certified
+    mail on December 31, 2001, however the FEC has no record of receipt, thus the
+    January 10 FEC letter was sent. Included in the amendment are the additions of
+    partial, or missing zip codes and addresses.  This was believed to have been caused
+    by a software error which did not interpret the data entry correctly.       We
+    have tried diligently to correct an error which continues to appear with regard
+    to the ''office sought'' for the Bank of America and Florida Department of Revenue
+    disbursements.  Both of the aforementioned disbursements were made for tax payments.  The
+    Bank of America disbursement was made with regard to a quarterly tax payment which
+    is accepted by the IRS from the Bank of America with a deposit ticket."'
+  input_count: 10
+  record: <fec.version.v3.TEXT.Records instance at 0x63f5638>
+  result: []
+sourceurl: !!python/unicode '20020124'

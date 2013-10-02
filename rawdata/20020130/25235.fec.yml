@@ -8307,4 +8307,137 @@ rows:
     value: SA11A1.5613
   - name: BACK REF TRAN ID
     number: '35'
-    value:
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: SA11A1,C00336735,IND,Trewhella^Nancy^Ms^,380 Grove Street,,Upper Montclair,NJ,07043,,,Organon
+    Inc.,National Sales Director,530.40,20011123,44.20,,Bi-weekly payroll deductions
+    - $22.10,,,,,,,,,,,,,,,,SA11A1.5613,,
+  input_count: 36
+  record: <fec.version.v3.SA.Records instance at 0x21efe60>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11A1
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00336735
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: Trewhella^Nancy^Ms^
+  - name: STREET 1
+    number: '5'
+    value: 380 Grove Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Upper Montclair
+  - name: STATE
+    number: '8'
+    value: NJ
+  - name: ZIP
+    number: '9'
+    value: '07043'
+  - name: ITEM ELECT CD
+    number: '10'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: ''
+  - name: INDEMP
+    number: '12'
+    value: Organon Inc.
+  - name: INDOCC
+    number: '13'
+    value: National Sales Director
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: '574.60'
+  - name: DATE RECEIVED
+    number: '15'
+    value: '20011221'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '44.20'
+  - name: TRANS CODE
+    number: '17'
+    value: ''
+  - name: TRANS DESCRIP
+    number: '18'
+    value: Bi-weekly payroll deductions - $22.10
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: SA11A1.5631
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: SA11A1,C00336735,IND,Trewhella^Nancy^Ms^,380 Grove Street,,Upper Montclair,NJ,07043,,,Organon
+    Inc.,National Sales Director,574.60,20011221,44.20,,Bi-weekly payroll deductions
+    - $22.10,,,,,,,,,,,,,,,,SA11A1.5631,,
+  input_count: 36
+  record: <fec.version.v3.SA.Records instance at 0x21efcf8>
+  result: []
+sourceurl: !!python/unicode '20020130'

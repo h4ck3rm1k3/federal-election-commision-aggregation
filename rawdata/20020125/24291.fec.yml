@@ -66937,4 +66937,22 @@ rows:
   - name: AMENDED CD
     number: '30'
     value: ''
-  - name: TRAN
+  - name: TRAN ID
+    number: '31'
+    value: D03Qv02
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '                    '
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB17","C00197699","ORG","Waste Manag.-Ocean Co.","1301 Route West","","Toms
+    River","NJ","08755","","trash removal","P2002","",20011109,4.84,"","","","","",,"","","","","","","","","","D03Qv02","                    "'
+  input_count: 32
+  record: <fec.version.v3.SB.Records instance at 0x15365e60>
+  result: []
+sourceurl: !!python/unicode '20020125'

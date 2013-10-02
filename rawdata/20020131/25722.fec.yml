@@ -1700,4 +1700,142 @@ rows:
   - name: MEMO CODE
     number: '31'
     value: ''
-  
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: SA11A1.4516
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: ''
+  - value: ''
+  expected_count: 37
+  input: SA11A1,C00133215,IND,Wright^Albert B.^^III,Still River Road,P. O. Box 1,Still
+    River,MA,01467,,,"Welch Foods, Inc.","Senior VP Finance, CFO",250.00,20011114,250.00,15,,,,,,,,,,,,,,,,,SA11A1.4516,,
+  input_count: 38
+  record: <fec.version.v3.SA.Records instance at 0x23cc560>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00133215
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: STABENOW FOR US SENATE
+  - name: STREET 1
+    number: '5'
+    value: 236 Massachusetts Avenue
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: Suite 202
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS CODE
+    number: '10'
+    value: '20002'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '12'
+    value: Contribution
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ' Debbie Stabenow'
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ' $500.00'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: '20011021'
+  - name: CANDIDATE NAME
+    number: '18'
+    value: '500.00'
+  - name: CAN/OFFICE
+    number: '19'
+    value: C00344473
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: STABENOW FOR US SENATE
+  - name: CONDUIT NAME
+    number: '22'
+    value: S
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: MI
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: '00'
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: SB23.4561
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: SB23,C00133215,CCM,STABENOW FOR US SENATE,"236 Massachusetts Avenue, NW",Suite
+    202,Washington,DC,20002,,"Contribution, Debbie Stabenow, $500.00",,,20011021,500.00,C00344473,,STABENOW
+    FOR US SENATE,S,MI,00,,,,,,,,,,SB23.4561,,,
+  input_count: 37
+  record: <fec.version.v3.SB.Records instance at 0x23cc320>
+  result: []
+sourceurl: !!python/unicode '20020131'

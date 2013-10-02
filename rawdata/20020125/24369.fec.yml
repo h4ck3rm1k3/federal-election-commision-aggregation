@@ -135595,4 +135595,19 @@ rows:
   - name: TRAN ID
     number: '31'
     value: 0118200227E100
-  - name: BACK REF T
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB20A","C00365593","IND","Coco^Jenny","234 Elmgrove Dr.","Tecumseh ON    N8N354","","
+    ","        ","","Refund of Contribution Foreign Contribut","P2002","",20011117,1000.00,"","","","","","","","","","","","",,"","","0118200227E100"'
+  input_count: 31
+  record: <fec.version.v3.SB.Records instance at 0xae3a320>
+  result: []
+sourceurl: !!python/unicode '20020125'

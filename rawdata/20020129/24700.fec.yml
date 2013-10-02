@@ -26736,3 +26736,105 @@ rows:
     value: ''
   - name: CITY
     number: '7'
+    value: FREDERICK
+  - name: STATE
+    number: '8'
+    value: MD
+  - name: ZIP
+    number: '9'
+    value: '21701'
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: POSTAGE
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: '824.15'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '2154.45'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '2922.50'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '56.10'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: A
+  - name: TRAN ID
+    number: '28'
+    value: '32439'
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XN
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: 'Please be advised that AOPA PAC is demonstrating BEST EFFORTS in obtaining
+      missing contributor information. The following is a detailed description of
+      our procedures: The initial contact is done via a letter.  The letter explicitly
+      requests any missing contributor information'
+  - value: ' which is required by federal law.  A copy of this letter is kept in our
+      records. If we do not receive any response from the initial request'
+  - value: ' a second contact is made via telephone and documented in our records.
+      Once a contributor responds to any of our requests for missing information'
+  - value: ' our database will be updated and then an amended report will be filed
+      before our next scheduled report with a memo Schedule A listing all contributions
+      for which information was received.'
+  expected_count: 4
+  input: '"TEXT","F3XN","","Please be advised that AOPA PAC is demonstrating BEST
+    EFFORTS in obtaining missing contributor information. The following is a detailed
+    description of our procedures: The initial contact is done via a letter.  The
+    letter explicitly requests any missing contributor information, which is required
+    by federal law.  A copy of this letter is kept in our records. If we do not receive
+    any response from the initial request, a second contact is made via telephone
+    and documented in our records. Once a contributor responds to any of our requests
+    for missing information, our database will be updated and then an amended report
+    will be filed before our next scheduled report with a memo Schedule A listing
+    all contributions for which information was received."'
+  input_count: 7
+  record: <fec.version.v3.TEXT.Records instance at 0x2c9c950>
+  result: []
+sourceurl: !!python/unicode '20020129'

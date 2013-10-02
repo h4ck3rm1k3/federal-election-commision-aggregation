@@ -20323,4 +20323,23 @@ rows:
     value: ''
 - attempt:
   - name: REC TYPE
-    number: '1
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: Bank error deposit 11/28/01
+  - value: ' in the amount of $4843.00'
+  - value: ' not accounted for.'
+  expected_count: 4
+  input: '"TEXT","F3XA","","Bank error deposit 11/28/01, in the amount of $4843.00,
+    not accounted for."'
+  input_count: 6
+  record: <fec.version.v3.TEXT.Records instance at 0x1784a28>
+  result: []
+sourceurl: !!python/unicode '20020131'

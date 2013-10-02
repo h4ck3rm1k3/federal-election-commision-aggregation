@@ -24735,4 +24735,19 @@ rows:
   - name: TRAN ID
     number: '34'
     value: SA11A1.8871
-  - name: BACK RE
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: SA11A1,C00143305,IND,Zimmerman^John^^,15685 Whispering Woods Trail,,Redding,CA,96001,,,CH2M
+    Hill,Designer,288.08,20011231,22.16,,contribution,,,,,,,,,,,,,,,,SA11A1.8871,,
+  input_count: 36
+  record: <fec.version.v3.SA.Records instance at 0x2c3d680>
+  result: []
+sourceurl: !!python/unicode '20020124'

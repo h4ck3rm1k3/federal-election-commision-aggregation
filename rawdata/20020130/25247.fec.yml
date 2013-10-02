@@ -1125,4 +1125,34 @@ rows:
   - name: CONDUIT STATE
     number: '29'
     value: ''
-  - name
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: SA17.7955
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: SA17,C00342105,ORG,Amalgamated Bank of New York,11-15 Union Square,,New York,NY,10003,,,,,478.61,20011231,24.34,,Interest
+    Income,,,,,,,,,,,,,,,,SA17.7955,,
+  input_count: 36
+  record: <fec.version.v3.SA.Records instance at 0x2c31170>
+  result: []
+sourceurl: !!python/unicode '20020130'

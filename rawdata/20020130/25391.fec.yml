@@ -71965,4 +71965,31 @@ rows:
     number: '27'
     value: ''
   - name: MEMO CODE
-    number
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: N
+  - name: TRAN ID
+    number: '31'
+    value: 0125200219E4506
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB18","C00304949","PTY","National Republican Congressional Com.","320 First
+    Street SE","","Washington","DC","20003    ","","Trans. To Affil. Excess Funds
+    Transfer","P    ","",20011226,10000.00,"","","","","","","","","","","","",,"","N","0125200219E4506"'
+  input_count: 31
+  record: <fec.version.v3.SB.Records instance at 0x4207950>
+  result: []
+sourceurl: !!python/unicode '20020130'

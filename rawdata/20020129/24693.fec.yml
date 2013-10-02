@@ -891,4 +891,29 @@ rows:
     number: '29'
     value: ''
   - name: AMENDED CD
-    number:
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: $5
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: 000 Primary & $5
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: 000 General
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: 0129200230E160
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00212308","IND","Oberweis^Jim","1655 Bowman road","","Aurora","IL","60506    ","","$5,000
+    Primary & $5,000 General","P1998","",20020128,10000.00,"C00212308","","","","",,"","","","","","","","$5,000
+    Primary & $5,000 General","","0129200230E160","","",""'
+  input_count: 38
+  record: <fec.version.v3.SB.Records instance at 0x23cc560>
+  result: []
+sourceurl: !!python/unicode '20020129'
