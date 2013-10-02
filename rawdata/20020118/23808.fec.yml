@@ -27414,4 +27414,40 @@ rows:
   - name: CONDUIT STREET 2
     number: '24'
     value: ''
-  - name: CONDUIT CI
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: 'YED0127 '
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: 'SB23,C00179473,PAC,"Bachus For Congress Committee","P. O. Box 59125","",Birmingham,AL,35259,15,Political
+    Contribution,P2001,,20010924,3000.00,,,"Spencer Bachus","H","AL","6",,,,,,,,,,YED0127 '
+  input_count: 31
+  record: <fec.version.v3.SB.Records instance at 0x84550e0>
+  result: []
+sourceurl: !!python/unicode '20020118'
