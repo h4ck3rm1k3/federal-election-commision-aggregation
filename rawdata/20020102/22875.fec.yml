@@ -1,0 +1,334 @@
+countraw: 7
+countrows: 5
+filename: 22875.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366344
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Scott Pruitt for U.S. Congress
+  - name: STREET 1
+    number: '4'
+    value: 1924 S. Utica
+  - name: STREET 2
+    number: '5'
+    value: ' Suite 710'
+  - name: CITY
+    number: '6'
+    value: _
+  - name: STATE
+    number: '7'
+    value: Tulsa
+  - name: ZIP
+    number: '8'
+    value: OK
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '74104'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: assign
+  - name: CAN/OFFICE
+    number: '11'
+    value: E. Scott Pruitt
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: OK
+  - name: Signed
+    number: 14-
+    value: '01'
+  - value: '20011207'
+  expected_count: 14
+  input: '"F6N","C00366344","Scott Pruitt for U.S. Congress","1924 S. Utica, Suite
+    710","_","Tulsa","OK",74104,"assign","E. Scott Pruitt","H","OK",01,20011207'
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x23cef38>
+  result: []
+- input: '"F65","C00366344","IND","Coder^Debbi","4217 N. Lions Ave.",,"Broken Arrow","OK",74012,"Homemaker","Homemaker",20011206,1000,,,,,,,,,,,,,,"SA11ai-CN515"'
+  record: <fec.version.v3.F65.Records instance at 0x23ceea8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366344
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Coder^Debbi
+  - name: STREET 1
+    number: '5'
+    value: 4217 N. Lions Ave.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Broken Arrow
+  - name: STATE
+    number: '8'
+    value: OK
+  - name: ZIP
+    number: '9'
+    value: '74012'
+  - name: INDEMP
+    number: '10'
+    value: Homemaker
+  - name: INDOCC
+    number: '11'
+    value: Homemaker
+  - name: Of Contribution
+    number: 12-
+    value: '20011206'
+  - name: AMOUNT
+    number: '13'
+    value: '1000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: SA11ai-CN515
+- input: '"F65","C00366344","IND","Coder^Steve","4217 N. Lions",,"Broken Arrow","OK",74012,"Self
+    Employed","Property Investments",20011206,1000,,,,,,,,,,,,,,"SA11ai-CN514"'
+  record: <fec.version.v3.F65.Records instance at 0x23cef38>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366344
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Coder^Steve
+  - name: STREET 1
+    number: '5'
+    value: 4217 N. Lions
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Broken Arrow
+  - name: STATE
+    number: '8'
+    value: OK
+  - name: ZIP
+    number: '9'
+    value: '74012'
+  - name: INDEMP
+    number: '10'
+    value: Self Employed
+  - name: INDOCC
+    number: '11'
+    value: Property Investments
+  - name: Of Contribution
+    number: 12-
+    value: '20011206'
+  - name: AMOUNT
+    number: '13'
+    value: '1000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: SA11ai-CN514
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366344
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Inc.^James Coder^D.O.
+  - name: STREET 1
+    number: '5'
+    value: 705 W. Oakland St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Broken Arrow
+  - name: STATE
+    number: '8'
+    value: OK
+  - name: ZIP
+    number: '9'
+    value: '74012'
+  - name: INDEMP
+    number: '10'
+    value: James Coder
+  - name: INDOCC
+    number: '11'
+    value: ' D.O.'
+  - name: Of Contribution
+    number: 12-
+    value: ' Inc.'
+  - name: AMOUNT
+    number: '13'
+    value: Medical Doctor
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20011206'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '1500'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: SA11ai-CN522
+  expected_count: 27
+  input: '"F65","C00366344","ORG","Inc.^James Coder^D.O.","705 W. Oakland St.",,"Broken
+    Arrow","OK",74012,"James Coder, D.O., Inc.","Medical Doctor",20011206,1500,,,,,,,,,,,,,,"SA11ai-CN522"'
+  input_count: 29
+  record: <fec.version.v3.F65.Records instance at 0x23ceea8>
+  result: []
+- input: '"TEXT","F65","SA11ai-CN522","This check was deposited in error and refund
+    Check Number 1234 dated 12/6/01 in the amount of $1500.00 was immediately sent
+    to the contributor and will be reflected on the next filed FEC Form 3."'
+  record: <fec.version.v3.TEXT.Records instance at 0x23cef38>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F65
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: SA11ai-CN522
+  - name: TEXT4000
+    number: '4'
+    value: This check was deposited in error and refund Check Number 1234 dated 12/6/01
+      in the amount of $1500.00 was immediately sent to the contributor and will be
+      reflected on the next filed FEC Form 3.
+sourceurl: !!python/unicode '20020102'
