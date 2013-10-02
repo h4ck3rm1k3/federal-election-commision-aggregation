@@ -1,0 +1,137 @@
+countraw: 4
+countrows: 2
+filename: 21402.fec
+header: {}
+rows:
+- input: F2,H2IA04067,THOMPSON^STANLEY J^^,5523 GRAND AVENUE,,DES MOINES,IA,50312,REP,H,IA,03,2002,C00366443,THOMPSON
+    FOR CONGRESS INC,5523 GRAND AVENUE,,DES MOINES,IA,50312,C00366443,THOMPSON FOR
+    CONGRESS INC,5523 GRAND AVENUE,,DES MOINES,IA,50312,THOMPSON^STANLEY J^^,20011108
+  record: <fec.version.v3.F2.Records instance at 0x1fb5a70>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H2IA04067
+  - name: CANDIDATE NAME
+    number: '3'
+    value: THOMPSON^STANLEY J^^
+  - name: STREET 1
+    number: '4'
+    value: 5523 GRAND AVENUE
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: DES MOINES
+  - name: STATE
+    number: '7'
+    value: IA
+  - name: ZIP
+    number: '8'
+    value: '50312'
+  - name: PTY/CODE
+    number: '9'
+    value: REP
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: IA
+  - name: CAN/DIST
+    number: '12'
+    value: '03'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2002'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: C00366443
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: THOMPSON FOR CONGRESS INC
+  - name: STREET 1
+    number: '16'
+    value: 5523 GRAND AVENUE
+  - name: STREET 2
+    number: '17'
+    value: ''
+  - name: CITY
+    number: '18'
+    value: DES MOINES
+  - name: STATE
+    number: '19'
+    value: IA
+  - name: ZIP
+    number: '20'
+    value: '50312'
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: C00366443
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: THOMPSON FOR CONGRESS INC
+  - name: STREET 1
+    number: '23'
+    value: 5523 GRAND AVENUE
+  - name: STREET 2
+    number: '24'
+    value: ''
+  - name: CITY
+    number: '25'
+    value: DES MOINES
+  - name: STATE
+    number: '26'
+    value: IA
+  - name: ZIP
+    number: '27'
+    value: '50312'
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: THOMPSON^STANLEY J^^
+  - name: Signed
+    number: 29-
+    value: '20011108'
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F2
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: 'Re: Thompson for Congress'
+  - value: ' Inc.'
+  - value: ' FEC ID C00366443. To whom it may concern:      Because of redistricting
+      in our state'
+  - value: ' please consider this an amendment to our original filing. Mr. Thompson
+      resides in Polk County'
+  - value: ' which was in the 4th district at the time of our original Statement of
+      Candidacy and Statement of Organization filing. After re-districting'
+  - value: ' Polk County is now in the 3rd District'
+  - value: ' so we wish to reflect that change in our filings. Additionally'
+  - value: ' we are amending the filing to reflect the correct name of our committee.
+      It should read: ''Thompson for Congress'
+  - value: ' Inc.'' It was originally filed as ''Thompson for Congress''. Thank you
+      for your help with this.'
+  expected_count: 4
+  input: 'TEXT,F2,,"Re: Thompson for Congress, Inc., FEC ID C00366443. To whom it
+    may concern:      Because of redistricting in our state, please consider this
+    an amendment to our original filing. Mr. Thompson resides in Polk County, which
+    was in the 4th district at the time of our original Statement of Candidacy and
+    Statement of Organization filing. After re-districting, Polk County is now in
+    the 3rd District, so we wish to reflect that change in our filings. Additionally,
+    we are amending the filing to reflect the correct name of our committee. It should
+    read: ''Thompson for Congress, Inc.'' It was originally filed as ''Thompson for
+    Congress''. Thank you for your help with this."'
+  input_count: 12
+  record: <fec.version.v3.TEXT.Records instance at 0x1fb5290>
+  result: []
+sourceurl: !!python/unicode '20011108'
