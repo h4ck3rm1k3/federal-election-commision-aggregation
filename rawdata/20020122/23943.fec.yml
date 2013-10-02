@@ -3150,4 +3150,115 @@ rows:
   expected_count: 34
   input: '"SB29","C00164426","IND","Weimer^John L.","John L. Weimer for Supreme Court","Committee
     Inc. PO Box 5882","Thibodaux","LA","70302    ","","Contribution to ST/Local Comm.
-    Campaign ","","",20011119,500.00,"C00164426","","","","",,"","","","","","","","","","01
+    Campaign ","","",20011119,500.00,"C00164426","","","","",,"","","","","","","","","","0121200229E141"'
+  input_count: 31
+  record: <fec.version.v3.SB.Records instance at 0x1318d0e0>
+  result: []
+- input: '"SB23","C00164426","PAC","American Insurance Associaton Politica","1130
+    Connecticut Ave Nw","Suite 1000 ","Washington","DC","20036    ","","Annual Contribution","G2001","",20010810,5000.00,"C00164426","","","","",,"","","","","","","","Annual
+    Contribution","","0121200229E133","","",""'
+  record: <fec.version.v3.SB.Records instance at 0x1318dcb0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00164426
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: RECIPIENT NAME
+    number: '4'
+    value: American Insurance Associaton Politica
+  - name: STREET 1
+    number: '5'
+    value: 1130 Connecticut Ave Nw
+  - name: STREET 2
+    number: '6'
+    value: 'Suite 1000 '
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20036    '
+  - name: TRANS CODE
+    number: '10'
+    value: ''
+  - name: TRANS DESCRIP
+    number: '11'
+    value: Annual Contribution
+  - name: ITEM ELECT CD
+    number: '12'
+    value: G2001
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20010810'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '5000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: C00164426
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: ''
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: Annual Contribution
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: 0121200229E133
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+sourceurl: !!python/unicode '20020122'
