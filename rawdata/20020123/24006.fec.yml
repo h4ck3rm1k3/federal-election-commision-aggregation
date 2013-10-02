@@ -15962,3 +15962,22 @@ rows:
     value: A
   - name: TRAN ID
     number: '37'
+    value: SE24.2702
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: NO VALUE!
+  expected_count: 41
+  input: SE24,C00265546,ORG,THE DAILY JOURNAL,1242 S. GREEN ST,,TUPELO,MS,38804,ADVERTISEMENT,20011116,650.47,SUP,,<NONE/UNKNOWN>,,,,,,,,,,,,,,,,ROBERTS^JACK,20020123,,,,A,SE24.2702,,
+  input_count: 39
+  record: <fec.version.v3.SE.Records instance at 0x2c75e60>
+  result: []
+sourceurl: !!python/unicode '20020123'
