@@ -17903,4 +17903,51 @@ rows:
     number: '20'
     value: MN
   - name: CAN/DIST
-    number:
+    number: '21'
+    value: '00'
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: '4768570204154145051'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: 'SB23,C00038612,"CCM","Norm Coleman For U S Senate","1410 Energy Park Drive
+    #11","","Saint Paul","MN","55108","","2002 Primary","P2002","","20020415",2000,"C00367292","S2MN00126","Norm^Coleman","S","MN","00","","","","","","","","","","4768570204154145051","",""'
+  input_count: 33
+  record: <fec.version.v3.SB.Records instance at 0x5d240560>
+  result: []
+sourceurl: !!python/unicode '20020517'

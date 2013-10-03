@@ -1840,4 +1840,180 @@ rows:
   - name: DATE OF EXPENDITURE
     number: '14'
     value: '500.00'
-  - name: AMOUNT OF EXPE
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: P2002
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: '20020430'
+  - name: CANDIDATE NAME
+    number: '18'
+    value: '2500.00'
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: Daschle^Tom^Mr.^
+  - name: CONDUIT NAME
+    number: '22'
+    value: S
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: SD
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: '0'
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: A
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: '6421242'
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00067504","CAN","A Lot of People Supporting Tom Daschle, Inc.","424
+    C Street, NE","1st Floor","Washington","DC","20002","011","YTD:$2,500.00","P2002","",20020430,2500.00,"","","Daschle^Tom^Mr.^","S","SD","0","","","","","","","","","A","6421242","","",""'
+  input_count: 37
+  record: <fec.version.v3.SB.Records instance at 0x1e66e60>
+  result: []
+- input: '"SB29","C00067504","","Riggs Bank","P.O. Box 96758","","Washington","DC","200906758","001","Merchant
+    Bank Card fee","","",20020403,0.34,"","","^^^","","","0","","","","","","","","Merchant
+    Bank Card fee","A","6422051","","",""'
+  record: <fec.version.v3.SB.Records instance at 0x1e661b8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB29
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00067504
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Riggs Bank
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 96758
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '200906758'
+  - name: TRANS CODE
+    number: '10'
+    value: '001'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: Merchant Bank Card fee
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20020403'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '0.34'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ^^^
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: '0'
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: Merchant Bank Card fee
+  - name: AMENDED CD
+    number: '30'
+    value: A
+  - name: TRAN ID
+    number: '31'
+    value: '6422051'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+sourceurl: !!python/unicode '20020517'
