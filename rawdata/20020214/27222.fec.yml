@@ -6867,4 +6867,154 @@ rows:
   - name: CONDUIT STREET 2
     number: '24'
     value: ''
-  - name: C
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: A
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '5665549'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00032698","CAN","Oxley For Congress","Box 2000","","Findlay","OH","45839","011","YTD:$1,000.00","G2002","",20020118,1000.00,"C00142000","","Oxley^Michael^Congressman^","H","OH","4","","","","","","","","","A","5665549","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x133ce18>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB29
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00032698
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Bush-Brogan 2002
+  - name: STREET 1
+    number: '5'
+    value: c/o Advangtage
+  - name: STREET 2
+    number: '6'
+    value: ' Inc.'
+  - name: CITY
+    number: '7'
+    value: 1611 N. Kent Street
+  - name: STATE
+    number: '8'
+    value: ' Suite 905'
+  - name: ZIP
+    number: '9'
+    value: Arlington
+  - name: TRANS CODE
+    number: '10'
+    value: VA
+  - name: TRANS DESCRIP
+    number: '11'
+    value: '22209'
+  - name: ITEM ELECT CD
+    number: '12'
+    value: '011'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ' GOVERNOR  FL'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: P2002
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: '20020131'
+  - name: CANDIDATE NAME
+    number: '18'
+    value: '500.00'
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: ^^^
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: FL
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: '0'
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ' GOVERNOR  FL'
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: A
+  - value: '5707102'
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB29","C00032698","CAN","Bush-Brogan 2002","c/o Advangtage, Inc.","1611
+    N. Kent Street, Suite 905","Arlington","VA","22209","011",", GOVERNOR  FL","P2002","",20020131,500.00,"","","^^^","","FL","0","","","","","","","",",
+    GOVERNOR  FL","A","5707102","","",""'
+  input_count: 38
+  record: <fec.version.v3.SB.Records instance at 0x133c7e8>
+  result: []
+sourceurl: !!python/unicode '20020214'

@@ -5549,4 +5549,19 @@ rows:
     number: '4'
     value: This report is being refiled in accordance with the FEC requirement that
       a change in filing frequency accompany a filing.  Therefore
- 
+  - value: ' pursuant to 11 C.F.R. Section 104.5(c)'
+  - value: ' E*Trade Group Inc PAC is changing its filing frequency from quarterly
+      filing to monthly filing.  The next report to be filed in accordance with the
+      new filing frequency will be the January monthly report'
+  - value: ' due no later than February 20th.'
+  expected_count: 4
+  input: '"TEXT","F3XA","","This report is being refiled in accordance with the FEC
+    requirement that a change in filing frequency accompany a filing.  Therefore,
+    pursuant to 11 C.F.R. Section 104.5(c), E*Trade Group Inc PAC is changing its
+    filing frequency from quarterly filing to monthly filing.  The next report to
+    be filed in accordance with the new filing frequency will be the January monthly
+    report, due no later than February 20th."'
+  input_count: 7
+  record: <fec.version.v3.TEXT.Records instance at 0xf1f7e8>
+  result: []
+sourceurl: !!python/unicode '20020201'

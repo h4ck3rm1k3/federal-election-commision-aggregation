@@ -3288,4 +3288,128 @@ rows:
     value: H4.1794
   - name: ORIG_TRAN_ID
     number: '35'
-    value: 
+    value: NO VALUE!
+  - name: SUPR_TRAN_ID
+    number: '36'
+    value: NO VALUE!
+  expected_count: 36
+  input: H4,C00334383,ORG,AT&T,P.O. Box 25366,,Phoenix,AZ,850628225,,20020204,34.55,4.31,30.24,X,,,,4493.82,Phone
+    Bill,,,,,,,,,,,,,A,H4.1794
+  input_count: 34
+  record: <fec.version.v2.SH4.Records instance at 0xf1f7e8>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00334383
+  - name: ENTITY_TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: U.S. Postmaster
+  - name: STREET 1
+    number: '5'
+    value: 1900 E. St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Fresno
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '93706'
+  - name: PURPOSE/EVENT
+    number: '10'
+    value: ''
+  - name: DATE
+    number: '11'
+    value: '20020204'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '340.00'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '42.50'
+  - name: NON-FEDERAL SHARE
+    number: '14'
+    value: '297.50'
+  - name: ACTIVITY IS ADMIN/VOTER DRIVE
+    number: 15-
+    value: X
+  - name: ACTIVITY IS FUNDRAISING
+    number: 16-
+    value: ''
+  - name: ACTIVITY IS EXEMPT
+    number: 17-
+    value: ''
+  - name: ACT DIRECT CAN SUPPORT
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '4833.82'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: Stamps
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFF
+    number: '24'
+    value: ''
+  - name: STATE (OF ELECTION)
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT-NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT-STREET-1
+    number: '28'
+    value: ''
+  - name: CONDUIT-STREET-2
+    number: '29'
+    value: ''
+  - name: CONDUIT-CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT-STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT-ZIP
+    number: '32'
+    value: ''
+  - name: AMENDED-CD
+    number: '33'
+    value: A
+  - name: TRAN_ID
+    number: '34'
+    value: H4.1793
+  - name: ORIG_TRAN_ID
+    number: '35'
+    value: NO VALUE!
+  - name: SUPR_TRAN_ID
+    number: '36'
+    value: NO VALUE!
+  expected_count: 36
+  input: H4,C00334383,ORG,U.S. Postmaster,1900 E. St.,,Fresno,CA,93706,,20020204,340.00,42.50,297.50,X,,,,4833.82,Stamps,,,,,,,,,,,,,A,H4.1793
+  input_count: 34
+  record: <fec.version.v2.SH4.Records instance at 0xf1f830>
+  result: []
+sourceurl: !!python/unicode '20020215'

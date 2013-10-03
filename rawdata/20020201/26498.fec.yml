@@ -58706,4 +58706,138 @@ rows:
   - name: CONDUIT ZIP
     number: '27'
     value: ''
-  - name: MEMO
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '10000001030400217'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00280222","CAN","Mike Pence Committee","P.O. Box 16021","","Alexandria","VA","22302","24K","YTD:$1000.00
+    Mike Pence, U.S. HOUSE 2nd","P2002","",20011219,1000,"","","Mike Pence","","IN","2","","","","","","","","","","10000001030400217","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0xbdfc998>
+  result: []
+- input: '"SB29","C00280222","PTY","NRSC Non Federal Account","","","","DC","","","YTD:$30000.00
+    NRSC Non-Federal Account","O2001","",20011107,30000,"","","","","","","","","","","","","","","","10000001031700218","","",""'
+  record: <fec.version.v3.SB.Records instance at 0xbdfcab8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB29
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00280222
+  - name: ENTITY TYPE
+    number: '3'
+    value: PTY
+  - name: RECIPIENT NAME
+    number: '4'
+    value: NRSC Non Federal Account
+  - name: STREET 1
+    number: '5'
+    value: ''
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: ''
+  - name: TRANS CODE
+    number: '10'
+    value: ''
+  - name: TRANS DESCRIP
+    number: '11'
+    value: YTD:$30000.00 NRSC Non-Federal Account
+  - name: ITEM ELECT CD
+    number: '12'
+    value: O2001
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20011107'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '30000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: ''
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: '10000001031700218'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+sourceurl: !!python/unicode '20020201'

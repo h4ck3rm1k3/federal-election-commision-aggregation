@@ -82584,4 +82584,41 @@ rows:
   - name: CAND-DISTRICT
     number: '20'
     value: ' '
-  - name: CONDUIT
+  - name: CONDUIT-NAME
+    number: '21'
+    value: Nader 2000 Primary Committee
+  - name: CONDUIT-STREET-1
+    number: '22'
+    value: P.O. Box 18002
+  - name: CONDUIT-STREET-2
+    number: '23'
+    value: ' '
+  - name: CONDUIT-CITY
+    number: '24'
+    value: Washington
+  - name: CONDUIT-STATE
+    number: '25'
+    value: DC
+  - name: CONDUIT-ZIP
+    number: '26'
+    value: '20036'
+  - name: AMENDED-CD
+    number: '27'
+    value: N
+  - name: TRAN_ID
+    number: '28'
+    value: '1022'
+  - name: ORIG_TRAN_ID
+    number: '29'
+    value: NO VALUE!
+  - name: SUPR_TRAN_ID
+    number: '30'
+    value: NO VALUE!
+  expected_count: 30
+  input: '"SD12","C00354407","ORG","Nader 2000 Primary Committee","P.O. Box 18002","","Washington","DC","20036","General
+    Comm. expenses; capital assets","0.00","83582.00","0.00"," "," "," "," "," ","
+    "," ","Nader 2000 Primary Committee","P.O. Box 18002"," ","Washington","DC","20036","N","1022"'
+  input_count: 28
+  record: <fec.version.v2.SD.Records instance at 0x5808998>
+  result: []
+sourceurl: !!python/unicode '20020209'

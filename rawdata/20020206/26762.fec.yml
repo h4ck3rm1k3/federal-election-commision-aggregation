@@ -13724,4 +13724,33 @@ rows:
     number: '34'
     value: '3885947'
   - value: ''
-  - 
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00100404","CAN","Jean Carnahan for Missouri","426 C Street NE","","Washington","DC","20002","011","YTD:$5,000.00
+    Jean Carnahan, U.S. SENATE","P2002","",20010627,5000.00,"","","Carnahan^Jean^^","S","MO","2","","","","","","","","Jean
+    Carnahan, U.S. SENATE MO","A","3885947","","",""'
+  input_count: 37
+  record: <fec.version.v3.SB.Records instance at 0xf235a8>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: This amended report is in response to your letter of January 23
+  - value: ' 2002 ref Amended July Monthly Report (6/1/01-6/30/01) received 8/15/01'
+  expected_count: 4
+  input: '"TEXT","F3XA","","This amended report is in response to your letter of January
+    23, 2002 ref Amended July Monthly Report (6/1/01-6/30/01) received 8/15/01"'
+  input_count: 5
+  record: <fec.version.v3.TEXT.Records instance at 0xf23680>
+  result: []
+sourceurl: !!python/unicode '20020206'

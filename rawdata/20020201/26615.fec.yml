@@ -196,4 +196,28 @@ rows:
   - value: www.osteopac.org
   expected_count: 62
   input: '"F1A","C00113803","American Osteopathic Information Association - Osteopathic
-    Political Action Committee","1090 Vermont Ave., NW","Suite 510","Washington","DC","20005
+    Political Action Committee","1090 Vermont Ave., NW","Suite 510","Washington","DC","20005",20020201,"X","","E","","","","",0,"","","","American
+    Osteopathic Information Association","142 East Ontario Street","","Chicago","IL","606114864","Connected","M","George^Robert^^D.O.","661
+    Olentangy Circle","","Akron","OH","44333","Treasurer",3308643231,"George^Robert^^D.O.","661
+    Olentangy Circle","","Akron","OH","44333","Treasurer",3308643231,"Burton^Joanna^^","1090
+    Vermont Ave., NW","Suite 510","Washington","DC","20005","PAC Director",2024140140,"Citibank
+    F.S.B.","1001 Pennsylvania Ave., NW","","Washington","DC","20004","George^Robert^^D.O.",20020201,"jburton@osteotech.org","www.osteopac.org"'
+  input_count: 65
+  record: <fec.version.v3.F1.Records instance at 0xf239e0>
+  result: []
+- input: '"TEXT","F1A","","Amended statement of organization."'
+  record: <fec.version.v3.TEXT.Records instance at 0xf23170>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F1A
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: Amended statement of organization.
+sourceurl: !!python/unicode '20020201'

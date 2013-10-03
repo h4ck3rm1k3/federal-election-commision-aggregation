@@ -18531,4 +18531,25 @@ rows:
   record: <fec.version.v3.SB.Records instance at 0x17e3710>
   result: []
 - attempt:
-  - name: 
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: This amendment is in response to your letter of January 30
+  - value: ' 2002. The September Monthly Report(8/1/01-8/31/01) has been updated to
+      provide the purpose for each disbursement on Schedule B Supporting Line 21(b).'
+  expected_count: 4
+  input: '"TEXT","F3XA","","This amendment is in response to your letter of January
+    30, 2002. The September Monthly Report(8/1/01-8/31/01) has been updated to provide
+    the purpose for each disbursement on Schedule B Supporting Line 21(b)."'
+  input_count: 5
+  record: <fec.version.v3.TEXT.Records instance at 0x17e3680>
+  result: []
+sourceurl: !!python/unicode '20020206'

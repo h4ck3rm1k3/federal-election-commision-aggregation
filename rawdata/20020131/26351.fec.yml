@@ -3341,4 +3341,51 @@ rows:
     number: '29'
     value: ''
   - name: AMENDED CD
-    number: 
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: A
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '5533603'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00296632","CAN","Senator John Warner Committee","PO Box 3536","","Merrifield","VA","22116","011","YTD:$1,000.00","O2001","2002
+    US Primary Cong",20011213,1000.00,"C00325571","","Warner^John^Sen.^","S","VA","1","","","","","","","","","A","5533603","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0xf1e0e0>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XN
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: Pursuant to 11 C.F.R. Section 104.5(c)
+  - value: ' Circuit City Stores Inc. Political Action Committee is changing its filing
+      frequency from quarterly filing to monthly filing.  The next report to be filed
+      in accordance with the new filing frequency will be the January monthly report'
+  - value: ' due no later than February 20th.'
+  expected_count: 4
+  input: '"TEXT","F3XN","","Pursuant to 11 C.F.R. Section 104.5(c), Circuit City Stores
+    Inc. Political Action Committee is changing its filing frequency from quarterly
+    filing to monthly filing.  The next report to be filed in accordance with the
+    new filing frequency will be the January monthly report, due no later than February
+    20th."'
+  input_count: 6
+  record: <fec.version.v3.TEXT.Records instance at 0xf1e4d0>
+  result: []
+sourceurl: !!python/unicode '20020131'

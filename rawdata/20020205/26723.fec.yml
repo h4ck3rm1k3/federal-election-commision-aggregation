@@ -10859,3 +10859,29 @@ rows:
   - name: MEMO CODE
     number: '28'
     value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: C
+  - name: TRAN ID
+    number: '31'
+    value: '10000001219300007'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB23","C00004473","CAN","Jerry Weller for Congress","4451 Brookfield Corporate
+    Drive","Suite 200","Chantilly","VA","201511652","24K","Campaign Deposited Check
+    After 10 Days o","G","2000",20010522,-500,"","","Mr. Jerry C. Weller","H","IL","11","","","","","","","","","C","10000001219300007"'
+  input_count: 31
+  record: <fec.version.v3.SB.Records instance at 0xd42dd0>
+  result: []
+sourceurl: !!python/unicode '20020205'

@@ -715,4 +715,135 @@ rows:
   - name: BACK REF SCHED NAME
     number: '33'
     value: ''
-  - name: NAT Committee N
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: SB21,C00355651,ORG,Democratic Party of Wisconsin,"222 State St, Suite 400",,Madison,WI,53701,,Donation
+    of excess campaign funds,G2000,,20020131,491.49,C00355651,,FLAHERTY FOR CONGRESS,H,WI,06,,,,,,,,,,SB21.6465,,,
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0xf1fd40>
+  result: []
+- input: SC/10,C00355651,IND,M&I Bank^^^,PO Box 5160,,Appleton,WI,54911,G2000,,5000.00,5000.00,0.00,20010125,1/25/2002,9,N,C00355651,H0WI06111,,,,,,SC/10.6358
+  record: <fec.version.v3.SC.Records instance at 0xf1b3b0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SC/10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00355651
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Loan Source)
+    number: '4'
+    value: M&I Bank^^^
+  - name: STREET 1
+    number: '5'
+    value: PO Box 5160
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Appleton
+  - name: STATE
+    number: '8'
+    value: WI
+  - name: ZIP
+    number: '9'
+    value: '54911'
+  - name: ELECTION
+    number: '10'
+    value: G2000
+  - name: ELECTION DESCRIPTION
+    number: '11'
+    value: ''
+  - name: ORIG. AMT OF LOAN
+    number: '12'
+    value: '5000.00'
+  - name: PAYMENT TO DATE
+    number: '13'
+    value: '5000.00'
+  - name: LOAN BALANCE
+    number: '14'
+    value: '0.00'
+  - name: Incurred
+    number: 15-
+    value: '20010125'
+  - name: DUE DATE TERMS
+    number: '16'
+    value: 1/25/2002
+  - name: PCT RATE TERMS
+    number: '17'
+    value: '9'
+  - name: SECURED YESNO
+    number: '18'
+    value: N
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00355651
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: H0WI06111
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: AMENDED CD
+    number: '25'
+    value: ''
+  - name: TRAN ID
+    number: '26'
+    value: SC/10.6358
+- input: SC2/10,C00355651,SC/10.6358,FLAHERTY^DANIEL THOMAS^^,1326 STRATFORD COURT,,NEENAH,WI,54956,Godfrey
+    & Kahn,Attorney,0.00
+  record: <fec.version.v3.SC2.Records instance at 0xf1fd40>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SC2/10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00355651
+  - name: BACK REFERENCE TRAN ID
+    number: '3'
+    value: SC/10.6358
+  - name: Endorser/Guarantor
+    number: 4-
+    value: FLAHERTY^DANIEL THOMAS^^
+  - name: STREET 1
+    number: '5'
+    value: 1326 STRATFORD COURT
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: NEENAH
+  - name: STATE
+    number: '8'
+    value: WI
+  - name: ZIP
+    number: '9'
+    value: '54956'
+  - name: INDEMP
+    number: '10'
+    value: Godfrey & Kahn
+  - name: INDOCC
+    number: '11'
+    value: Attorney
+  - name: AMOUNT GUARANTEED BALANCE
+    number: '12'
+    value: '0.00'
+sourceurl: !!python/unicode '20020201'

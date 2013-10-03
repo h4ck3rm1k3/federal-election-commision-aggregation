@@ -8847,4 +8847,39 @@ rows:
   - name: MEMO TEXT
     number: '29'
     value: ''
-  - 
+  - name: AMENDED CD
+    number: '30'
+    value: A
+  - name: TRAN ID
+    number: '31'
+    value: '3887599'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: This report is in response to your letter of January 23
+  - value: ' 2002 reference June Monthly Report (5/1/01-5/31/01)'
+  expected_count: 4
+  input: '"TEXT","F3XA","","This report is in response to your letter of January 23,
+    2002 reference June Monthly Report (5/1/01-5/31/01)"'
+  input_count: 5
+  record: <fec.version.v3.TEXT.Records instance at 0xf238c0>
+  result: []
+sourceurl: !!python/unicode '20020206'

@@ -5887,4 +5887,59 @@ rows:
   - name: CONDUIT STATE
     number: '26'
     value: ''
-  - name: CONDUIT Z
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: A
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '5306385'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00100404","CAN","Tennesseans For Senator Thompson","PO Box 397","","Brentwood","TN","37024","011","YTD:$1,000.00","P2002","",20011130,1000.00,"C00325498","","Thompson^Fred^Sen.^","S","TN","1","","","","","","","","","A","5306385","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x1773680>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: On December 18
+  - value: ' The Henry Waxman Campaign was requested to refund the NAPUS PAC for Postmasters
+      the sum of $634.03.  That sum represents In-Kind contributions on 11/01 of $232.03
+      and 11/30 of $402.00.  This total is the amount in excess of the $5000 limit
+      for the Primary.'
+  expected_count: 4
+  input: '"TEXT","F3XA","","On December 18, The Henry Waxman Campaign was requested
+    to refund the NAPUS PAC for Postmasters the sum of $634.03.  That sum represents
+    In-Kind contributions on 11/01 of $232.03 and 11/30 of $402.00.  This total is
+    the amount in excess of the $5000 limit for the Primary."'
+  input_count: 5
+  record: <fec.version.v3.TEXT.Records instance at 0xf1e290>
+  result: []
+sourceurl: !!python/unicode '20020206'

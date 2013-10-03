@@ -1068,4 +1068,117 @@ rows:
   - name: TRANS CODE
     number: '10'
     value: '011'
-  
+  - name: TRANS DESCRIP
+    number: '11'
+    value: Bob Jones
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' COUNTY COMMISSIONER  TX'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: O2000
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: 2000 Texas General E
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20010130'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '250.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: Jones^Bob^^
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: TX
+  - name: CONDUIT NAME
+    number: '22'
+    value: '0'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: Bob Jones
+  - name: TRAN ID
+    number: '31'
+    value: ' COUNTY COMMISSIONER  TX'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: A
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: '510177'
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB29","C00236489","CAN","Committee to Elect Bob Jones","1005 Airline","","Corpus
+    Christi","TX","78412","011","Bob Jones, COUNTY COMMISSIONER  TX","O2000","2000
+    Texas General E",20010130,250.00,"","","Jones^Bob^^","","TX","0","","","","","","","","Bob
+    Jones, COUNTY COMMISSIONER  TX","A","510177","","",""'
+  input_count: 36
+  record: <fec.version.v3.SB.Records instance at 0x1794a28>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: 'Attn: Colleen Manning'
+  - value: ' Report Analyst Reference February Monthly (01 01 01 to 01 31 01) Dear
+      Ms. Manning: I am writing in response to your letter concerning the above referenced
+      report.  The report was filed with the former Treasurer''s name.  The Statement
+      of Organization dated December 15 2000 is accurate.  This amendment reflects
+      the Treasurer''s name of record.  Please let me know if you have any questions.  Sincerely'
+  - value: ' Christine Taylor'
+  - value: ' Treasurer KOCHPAC'
+  expected_count: 4
+  input: '"TEXT","F3XA","","Attn: Colleen Manning, Report Analyst Reference February
+    Monthly (01 01 01 to 01 31 01) Dear Ms. Manning: I am writing in response to your
+    letter concerning the above referenced report.  The report was filed with the
+    former Treasurer''s name.  The Statement of Organization dated December 15 2000
+    is accurate.  This amendment reflects the Treasurer''s name of record.  Please
+    let me know if you have any questions.  Sincerely, Christine Taylor, Treasurer
+    KOCHPAC"'
+  input_count: 7
+  record: <fec.version.v3.TEXT.Records instance at 0x1794248>
+  result: []
+sourceurl: !!python/unicode '20020208'

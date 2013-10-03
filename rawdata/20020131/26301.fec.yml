@@ -55387,4 +55387,30 @@ rows:
   - name: CONDUIT ZIP
     number: '27'
     value: ''
-  - name: MEMO CO
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: A
+  - name: TRAN ID
+    number: '31'
+    value: SB23.724
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: SB23,C00197715,CAN,BOXER^BARBARA,POST OFFICE BOX 641751,,LOS ANGELES,CA,90064,,,P,,20011206,1000.00,C00279315,S2CA00286,,S,CA,00,,,,,,,,,A,SB23.724
+  input_count: 31
+  record: <fec.version.v3.SB.Records instance at 0x53ea518>
+  result: []
+sourceurl: !!python/unicode '20020131'

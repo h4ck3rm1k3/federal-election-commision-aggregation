@@ -22771,4 +22771,110 @@ rows:
     value: ''
   - name: ITEM ELECT OTHER
     number: '13'
-   
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20010919'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '1000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: ''
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: '9749810109195698539'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: SB29,C00227546,"CCM","Texans for Rick Perry","PMB 217","P.O. Box 2013","Austin","TX","787682013","","Nonfederal
+    Contribution","","","20010919",1000,"","","","","","","","","","","","","",,"","9749810109195698539","",""
+  input_count: 33
+  record: <fec.version.v3.SB.Records instance at 0x1c5de18>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TExT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: February 8
+  - value: ' 2002; Ms. Colleen Manning; Reports Analyst; Reports Analysis Division;
+      Federal Election Commission; 999 E Street'
+  - value: ' NW Washington'
+  - value: ' D.C. 20463; Re: Microsoft Corporation Political Action Committee; FEC
+      Id. No. C00227546;October Monthly Report (9/1/01-9/30/01) Dear Ms. Manning:
+      Attached please find an amendment to the above-referenced report.  The amendment
+      corrects the beginning cash on hand'
+  - value: ' the year-to-date totals for disbursements'
+  - value: ' and the ending cash on hand. Should you have any questions'
+  - value: ' please do not hesitate to contact me at (425) 706-1700. Sincerely'
+  - value: ' Karen Solomon'
+  expected_count: 4
+  input: 'TExT,F3XA,,"February 8, 2002; Ms. Colleen Manning; Reports Analyst; Reports
+    Analysis Division; Federal Election Commission; 999 E Street, NW Washington, D.C.
+    20463; Re: Microsoft Corporation Political Action Committee; FEC Id. No. C00227546;October
+    Monthly Report (9/1/01-9/30/01) Dear Ms. Manning: Attached please find an amendment
+    to the above-referenced report.  The amendment corrects the beginning cash on
+    hand, the year-to-date totals for disbursements, and the ending cash on hand.
+    Should you have any questions, please do not hesitate to contact me at (425) 706-1700.
+    Sincerely, Karen Solomon"'
+  input_count: 11
+  record: <fec.version.v3.TEXT.Records instance at 0x2013290>
+  result: []
+sourceurl: !!python/unicode '20020208'

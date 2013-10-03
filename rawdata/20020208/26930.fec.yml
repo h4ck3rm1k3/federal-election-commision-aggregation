@@ -12757,4 +12757,120 @@ rows:
   - name: STREET 1
     number: '5'
     value: 1100 Spring Street
- 
+  - name: STREET 2
+    number: '6'
+    value: Suite 760
+  - name: CITY
+    number: '7'
+    value: Atlanta
+  - name: STATE
+    number: '8'
+    value: GA
+  - name: ZIP
+    number: '9'
+    value: '30309'
+  - name: TRANS CODE
+    number: '10'
+    value: '011'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: Roy Barnes
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' Governor for GA'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: O2002
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: Georgia Primary 2002
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20010613'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '2500.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: Barnes^Roy^Mr.^
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: GA
+  - name: CONDUIT NAME
+    number: '22'
+    value: '0'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: Roy Barnes
+  - name: TRAN ID
+    number: '31'
+    value: ' Governor for GA'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: A
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: '1298954'
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB29","C00242271","CAN","Roy Barnes for Govenor","1100 Spring Street","Suite
+    760","Atlanta","GA","30309","011","Roy Barnes, Governor for GA","O2002","Georgia
+    Primary 2002",20010613,2500.00,"","","Barnes^Roy^Mr.^","","GA","0","","","","","","","","Roy
+    Barnes, Governor for GA","A","1298954","","",""'
+  input_count: 36
+  record: <fec.version.v3.SB.Records instance at 0x1773758>
+  result: []
+- input: '"TEXT","F3XA","","This report is being amended to reflect corrections made
+    to the PAC receipts after an audit was performed by a third party.  Please let
+    me know if you have any questions."'
+  record: <fec.version.v3.TEXT.Records instance at 0xba807e8>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: This report is being amended to reflect corrections made to the PAC receipts
+      after an audit was performed by a third party.  Please let me know if you have
+      any questions.
+sourceurl: !!python/unicode '20020208'

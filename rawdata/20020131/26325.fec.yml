@@ -327,4 +327,150 @@ rows:
     value: Nelson^Howard^^Jr.
   - value: '20020131'
   expected_count: 107
-  input: F3XN,C00327668,Colonial Properties Trust,"2101 6th Avenue North, Suite 750",,Birmingham,AL,35203,,X,YE,,,,20020701,20021231,18654.50,0.00,18654.50,0.00,18654.50,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,18654.50,2002,0.00,18654.50,0.00,18654.50,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.0
+  input: F3XN,C00327668,Colonial Properties Trust,"2101 6th Avenue North, Suite 750",,Birmingham,AL,35203,,X,YE,,,,20020701,20021231,18654.50,0.00,18654.50,0.00,18654.50,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,18654.50,2002,0.00,18654.50,0.00,18654.50,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,Nelson^Howard^^Jr.,20020131
+  input_count: 108
+  record: <fec.version.v3.F3X.Records instance at 0xf1b3b0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA16
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00327668
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: Friends of Sessions Senate Committee
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 4278
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Montgomery
+  - name: STATE
+    number: '8'
+    value: AL
+  - name: ZIP
+    number: '9'
+    value: '36103'
+  - name: ITEM ELECT CD
+    number: '10'
+    value: G1999
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: ''
+  - name: INDEMP
+    number: '12'
+    value: ''
+  - name: INDOCC
+    number: '13'
+    value: ''
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: ''
+  - name: DATE RECEIVED
+    number: '15'
+    value: '19991115'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '1000.00'
+  - name: TRANS CODE
+    number: '17'
+    value: ''
+  - name: TRANS DESCRIP
+    number: '18'
+    value: Voided transaction.
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00306704
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: X
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: SA16.4299
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: SA16,C00327668,CCM,Friends of Sessions Senate Committee,P.O. Box 4278,,Montgomery,AL,36103,G1999,,,,,19991115,1000.00,,Voided
+    transaction.,C00306704,,,,,,,,,,,,X,,,SA16.4299,,
+  input_count: 36
+  record: <fec.version.v3.SA.Records instance at 0xf1bf80>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SA16
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: SA16.4299
+  - name: TEXT4000
+    number: '4'
+    value: This was a disbursement reported on the Annual Report for 1999.  It was
+      just discovered by our bookkeeper that this check was voided and never delivered.  However
+  - value: ' we mistakenly reported it on the Annual Report and never added it back
+      to our account balance.  Please excuse our error.'
+  expected_count: 4
+  input: TEXT,SA16,SA16.4299,"This was a disbursement reported on the Annual Report
+    for 1999.  It was just discovered by our bookkeeper that this check was voided
+    and never delivered.  However, we mistakenly reported it on the Annual Report
+    and never added it back to our account balance.  Please excuse our error."
+  input_count: 5
+  record: <fec.version.v3.TEXT.Records instance at 0xf1b3b0>
+  result: []
+sourceurl: !!python/unicode '20020131'

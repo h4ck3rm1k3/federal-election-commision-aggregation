@@ -119891,4 +119891,92 @@ rows:
     value: ''
   - name: CANDIDATE NAME
     number: '18'
-    value
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: ''
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: '4370530110253659748'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: SB29,C00038612,"COM","Texas Retailers Association PAC","504 M. 12th Street","","Austin","TX","78701","","Nonfederal
+    Contribution","","","20011029",2500,"","","","","","","","","","","","","",,"","4370530110253659748","",""
+  input_count: 33
+  record: <fec.version.v3.SB.Records instance at 0x2d9fe18>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TExT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: 'Re: Sears Political Action Committee; FEC ID. No. C00038612; Year-End
+      Report (7/1/01-12/31/01). Dear Sir or Madam: Attached please find an amendment
+      to the above-referenced report.  The original report incorrectly lists as a
+      receipt (Line 18) and as a disbursement (Line 22) an internal transfer made
+      between Sears Political Action Committees bank accounts.  Both bank accounts
+      are maintained for the deposit of receipts for the federal PAC. Should you have
+      any questions'
+  - value: ' please do not hesitate to contact me at (847) 286-8976. Sincerely'
+  - value: ' Ed Hauser; Assistant Treasurer'
+  expected_count: 4
+  input: 'TExT,F3XA,,"Re: Sears Political Action Committee; FEC ID. No. C00038612;
+    Year-End Report (7/1/01-12/31/01). Dear Sir or Madam: Attached please find an
+    amendment to the above-referenced report.  The original report incorrectly lists
+    as a receipt (Line 18) and as a disbursement (Line 22) an internal transfer made
+    between Sears Political Action Committees bank accounts.  Both bank accounts are
+    maintained for the deposit of receipts for the federal PAC. Should you have any
+    questions, please do not hesitate to contact me at (847) 286-8976. Sincerely,
+    Ed Hauser; Assistant Treasurer"'
+  input_count: 6
+  record: <fec.version.v3.TEXT.Records instance at 0x2da4440>
+  result: []
+sourceurl: !!python/unicode '20020201'

@@ -7346,4 +7346,157 @@ rows:
   - name: CAN/DIST
     number: '21'
     value: NY
-  - nam
+  - name: CONDUIT NAME
+    number: '22'
+    value: '4'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '10000000708200027'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00275123","CAN","Friends Of Carolyn Mccarthy","151 Linden Road","","Mineola","NY","11501","24K","YTD:$1000.00
+    Carolyn McCarthy, U.S. HOUS","P2002","",20011217,1000,"C00318931","","Carolyn
+    McCarthy","H","NY","4","","","","","","","","","","10000000708200027","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x17f7b90>
+  result: []
+- input: '"SB29","C00275123","PTY","Pennsylvania Democratic Party","510 North Third
+    Street","","Harrisburg","PA","17101","","Justice For All Coordinated Committee","O2001","",20011012,5000,"","","","","","","","","","","","","","","","10000000703200028","","",""'
+  record: <fec.version.v3.SB.Records instance at 0xf1f6c8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB29
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00275123
+  - name: ENTITY TYPE
+    number: '3'
+    value: PTY
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Pennsylvania Democratic Party
+  - name: STREET 1
+    number: '5'
+    value: 510 North Third Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Harrisburg
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '17101'
+  - name: TRANS CODE
+    number: '10'
+    value: ''
+  - name: TRANS DESCRIP
+    number: '11'
+    value: Justice For All Coordinated Committee
+  - name: ITEM ELECT CD
+    number: '12'
+    value: O2001
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20011012'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '5000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: ''
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: '10000000703200028'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+sourceurl: !!python/unicode '20020215'

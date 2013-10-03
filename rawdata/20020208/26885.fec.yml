@@ -2754,3 +2754,36 @@ rows:
     Culberson, U.S. HOUSE 7th TX","A","589409","","",""'
   input_count: 37
   record: <fec.version.v3.SB.Records instance at 0x17f21b8>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: 'Attn: Colleen Manning'
+  - value: ' Report Analyst Reference March Monthly (02 01 01 to 02 28 01) Dear Ms.
+      Manning: I am writing in response to your letter concerning the above referenced
+      report.  The report was filed with the former Treasurer''s name.  The Statement
+      of Organization dated December 15 2000 is accurate.  This amendment reflects
+      the Treasurer''s name of record.  Please let me know if you have any questions.  Sincerely'
+  - value: ' Christine Taylor'
+  - value: ' Treasurer KOCHPAC'
+  expected_count: 4
+  input: '"TEXT","F3XA","","Attn: Colleen Manning, Report Analyst Reference March
+    Monthly (02 01 01 to 02 28 01) Dear Ms. Manning: I am writing in response to your
+    letter concerning the above referenced report.  The report was filed with the
+    former Treasurer''s name.  The Statement of Organization dated December 15 2000
+    is accurate.  This amendment reflects the Treasurer''s name of record.  Please
+    let me know if you have any questions.  Sincerely, Christine Taylor, Treasurer
+    KOCHPAC"'
+  input_count: 7
+  record: <fec.version.v3.TEXT.Records instance at 0x17f23f8>
+  result: []
+sourceurl: !!python/unicode '20020208'

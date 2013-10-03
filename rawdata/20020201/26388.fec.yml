@@ -43907,4 +43907,55 @@ rows:
   - name: FORM TYPE
     number: '2'
     value: F3
- 
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: The beginning balance on line 23 is $10.00 more than the ending balance
+      of our mid-year report.  A disbursement was reported 10.00 more than the actual
+      expense.  The item will be corrected in an upcoming amendment to the mid-year
+      report.  Therefore the beginning balance listed in this report is accurate.
+- input: '"TEXT","SA11ai","SA11ai-000000827","This contribution was received via an
+    online contribution collection website.  The donor did not realize that this contribution
+    would put his aggregate total over the $2000 limit for the election cycle.  This
+    contribution will be refunded in the first quarter of 2002."'
+  record: <fec.version.v3.TEXT.Records instance at 0xc30fb00>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SA11ai
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: SA11ai-000000827
+  - name: TEXT4000
+    number: '4'
+    value: This contribution was received via an online contribution collection website.  The
+      donor did not realize that this contribution would put his aggregate total over
+      the $2000 limit for the election cycle.  This contribution will be refunded
+      in the first quarter of 2002.
+- input: '"TEXT","SA11ai","SA11ai-000000826","This contribution was received via an
+    online contribution collection website.  The donor did not realize that this contribution
+    would put his aggregate total over the $2000 limit for the election cycle.  This
+    contribution will be refunded in the first quarter of 2002."'
+  record: <fec.version.v3.TEXT.Records instance at 0xc30f3f8>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SA11ai
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: SA11ai-000000826
+  - name: TEXT4000
+    number: '4'
+    value: This contribution was received via an online contribution collection website.  The
+      donor did not realize that this contribution would put his aggregate total over
+      the $2000 limit for the election cycle.  This contribution will be refunded
+      in the first quarter of 2002.
+sourceurl: !!python/unicode '20020201'

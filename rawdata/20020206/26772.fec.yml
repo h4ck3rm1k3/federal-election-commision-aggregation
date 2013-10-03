@@ -5305,4 +5305,35 @@ rows:
   - value: ''
   - value: ''
   expected_count: 34
-  in
+  input: '"SB29","C00100404","","National Association of Postmasters of the US","8
+    Herbert Street","","Alexandria","VA","223052600","002","Travel -E Huff/M Johnson,
+    Postage, Jan-S","","",20011026,6741.93,"","","^^^","","","0","","","","","","","","Travel
+    -E Huff/M Johnson, Postage, Jan-Sept. 2001","A","5011388","","",""'
+  input_count: 38
+  record: <fec.version.v3.SB.Records instance at 0x133cf80>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: This report is in response to your letter of January 25
+  - value: ' 2002.  This Committee has requested a refund in the amount of $500 from
+      the Reed Committee. A copy of the letter which was mailed to the Committee on
+      2/5/2002 is forwarded to the FEC at 999 E Street NW.'
+  expected_count: 4
+  input: '"TEXT","F3XA","","This report is in response to your letter of January 25,
+    2002.  This Committee has requested a refund in the amount of $500 from the Reed
+    Committee. A copy of the letter which was mailed to the Committee on 2/5/2002
+    is forwarded to the FEC at 999 E Street NW."'
+  input_count: 5
+  record: <fec.version.v3.TEXT.Records instance at 0x133c758>
+  result: []
+sourceurl: !!python/unicode '20020206'
