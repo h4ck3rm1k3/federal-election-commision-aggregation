@@ -1,0 +1,386 @@
+countraw: 18
+countrows: 7
+filename: 29396.fec
+header:
+  'Committee ': HENRY CUELLAR FOR CONGRESS - 2002
+  'Date_Fmat ': CCYYMMDD
+  'Dec/NoDec ': DEC
+  'F65       ': '00003'
+  'FEC_IDnum ': C00371302
+  'FEC_Ver_# ': '2.02'
+  'Form_Name ': F6N
+  'NameDelim ': ^
+  'Soft_Name ': FECWEB
+  'Soft_Ver# ': '1'
+rows:
+- input: F6,C00287458,Paul Colbert For Congress Campaign,8801 West Loop South,,Houston,TX,770961700,C00287458,Colbert^Paul^Hon.^,H,TX,25,20020311
+  record: <fec.version.v3.F6.Records instance at 0x1152b48>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00287458
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Paul Colbert For Congress Campaign
+  - name: STREET 1
+    number: '4'
+    value: 8801 West Loop South
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Houston
+  - name: STATE
+    number: '7'
+    value: TX
+  - name: ZIP
+    number: '8'
+    value: '770961700'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: C00287458
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Colbert^Paul^Hon.^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: TX
+  - name: CAN/DIST
+    number: '13'
+    value: '25'
+  - name: Signed
+    number: 14-
+    value: '20020311'
+- input: F65,C00287458,PAC,Machinists Non-Partisan Political League,9000 Machinist
+    Pl.,,Upper Marlboro,MD,20772,,,20020311,5000.00,C00287458,,Colbert^Paul^Hon.^,H,TX,25,,,,,,,,F6.5488
+  record: <fec.version.v3.F65.Records instance at 0x1152170>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00287458
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Machinists Non-Partisan Political League
+  - name: STREET 1
+    number: '5'
+    value: 9000 Machinist Pl.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Upper Marlboro
+  - name: STATE
+    number: '8'
+    value: MD
+  - name: ZIP
+    number: '9'
+    value: '20772'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020311'
+  - name: AMOUNT
+    number: '13'
+    value: '5000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00287458
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Colbert^Paul^Hon.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '25'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5488
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00371302
+  - name: COMMITTEE NAME
+    number: '3'
+    value: HENRY CUELLAR FOR CONGRESS - 2002
+  - name: STREET 1
+    number: '4'
+    value: C/O PO BOX 910
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: LAREDO
+  - name: STATE
+    number: '7'
+    value: TX
+  - name: ZIP
+    number: '8'
+    value: '78042'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2TX23082
+  - name: CANDIDATE NAME
+    number: '10'
+    value: CUELLAR
+  - name: CAN/OFFICE
+    number: '11'
+    value: ^ENRIQUE^ROBERTO
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: TX
+  - name: Signed
+    number: 14-
+    value: '23'
+  - value: '20020311'
+  expected_count: 14
+  input: F6N,C00371302,HENRY CUELLAR FOR CONGRESS - 2002,C/O PO BOX 910,,LAREDO,TX,78042,H2TX23082,"CUELLAR,^ENRIQUE^ROBERTO",H,TX,23,20020311
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x1152b00>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00371302
+  - name: COMMITTEE NAME
+    number: '3'
+    value: HENRY CUELLAR FOR CONGRESS - 2002
+  - name: STREET 1
+    number: '4'
+    value: C/O PO BOX 910
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: LAREDO
+  - name: STATE
+    number: '7'
+    value: TX
+  - name: ZIP
+    number: '8'
+    value: '78042'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2TX23082
+  - name: CANDIDATE NAME
+    number: '10'
+    value: CUELLAR
+  - name: CAN/OFFICE
+    number: '11'
+    value: ^ENRIQUE^ROBERTO
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: TX
+  - name: Signed
+    number: 14-
+    value: '23'
+  - value: '20020311'
+  expected_count: 14
+  input: F6N,C00371302,HENRY CUELLAR FOR CONGRESS - 2002,C/O PO BOX 910,,LAREDO,TX,78042,H2TX23082,"CUELLAR,^ENRIQUE^ROBERTO",H,TX,23,20020311
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x1152a70>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00371302
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: I.B.E.W.- C.O.P.E.
+  - name: STREET 1
+    number: '5'
+    value: 1125 15th Street
+  - name: STREET 2
+    number: '6'
+    value: ' N.W.'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20005'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20020311'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '5000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00027342
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: A
+  - value: F65.00000
+  expected_count: 27
+  input: F65,C00371302,PAC,I.B.E.W.- C.O.P.E.,"1125 15th Street, N.W.",,Washington,DC,20005,,,20020311,5000.00,C00027342,,,,,,,,,,,,A,F65.00000
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x1152b00>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00371302
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Effective Government Committee
+  - name: STREET 1
+    number: '5'
+    value: 607 - 14th St. NW
+  - name: STREET 2
+    number: '6'
+    value: ' Suite 800'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20005'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20020311'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '5000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00190876
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: '
