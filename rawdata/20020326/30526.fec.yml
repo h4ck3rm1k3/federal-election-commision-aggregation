@@ -1,0 +1,193 @@
+countraw: 5
+countrows: 3
+filename: 30526.fec
+header: {}
+rows:
+- input: F6,C00370692,Carroll G. Robinson for Congress,P.O. Box 162,,Houston,TX,77001,,,H,TX,25,20020326
+  record: <fec.version.v3.F6.Records instance at 0x114e7a0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00370692
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Carroll G. Robinson for Congress
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 162
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Houston
+  - name: STATE
+    number: '7'
+    value: TX
+  - name: ZIP
+    number: '8'
+    value: '77001'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ''
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: TX
+  - name: CAN/DIST
+    number: '13'
+    value: '25'
+  - name: Signed
+    number: 14-
+    value: '20020326'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00370692
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Arceneaux^Joseph^Mr.^
+  - name: STREET 1
+    number: '5'
+    value: 1509 Washington Ave.
+  - name: STREET 2
+    number: '6'
+    value: ' Suite 500'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: St. Louis
+  - name: ZIP
+    number: '9'
+    value: MO
+  - name: INDEMP
+    number: '10'
+    value: '63103'
+  - name: INDOCC
+    number: '11'
+    value: Edge Sports
+  - name: Of Contribution
+    number: 12-
+    value: Owner
+  - name: AMOUNT
+    number: '13'
+    value: '20020326'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00370692
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: TX
+  - name: CONDUIT NAME
+    number: '20'
+    value: '25'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.4998
+  expected_count: 27
+  input: F65,C00370692,IND,Arceneaux^Joseph^Mr.^,"1509 Washington Ave., Suite 500",,St.
+    Louis,MO,63103,Edge Sports,Owner,20020326,1000.00,C00370692,,,H,TX,25,,,,,,,,F6.4998
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x114ef80>
+  result: []
+- input: F65,C00370692,IND,Pontikes^George^Mr.^,5515 Tilbury,,Houston,TX,77056,Satterfield
+    Pontikes Construction,Partner,20020322,1000.00,C00370692,,,H,TX,25,,,,,,,,F6.4999
+  record: <fec.version.v3.F65.Records instance at 0x114ee18>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00370692
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Pontikes^George^Mr.^
+  - name: STREET 1
+    number: '5'
+    value: 5515 Tilbury
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Houston
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '77056'
+  - name: INDEMP
+    number: '10'
+    value: Satterfield Pontikes Construction
+  - name: INDOCC
+    number: '11'
+    value: Partner
+  - name: Of Contribution
+    number: 12-
+    value: '20020322'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00370692
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    
