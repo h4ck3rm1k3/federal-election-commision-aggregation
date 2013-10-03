@@ -383,4 +383,26 @@ rows:
   - name: COMMITTEE EMAIL
     number: '61'
     value: gayleray@comcast.net
-  - name: 
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: www.gayleray.com
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F1N
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: amended report
+  - value: ' not new committee'
+  expected_count: 4
+  input: TEXT,F1N,,"amended report, not new committee"
+  input_count: 5
+  record: <fec.version.v3.TEXT.Records instance at 0x1043e18>
+  result: []
+sourceurl: !!python/unicode '20020520'

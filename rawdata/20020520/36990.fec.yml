@@ -13120,4 +13120,137 @@ rows:
   - name: MEMO TEXT
     number: '29'
     value: ''
-  - nam
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: 'Contribution: John J. Duncan'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ' Jr. (TN-2-R)'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: D57
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00248716","CAN","Duncan for Congress","P.O. Box 2646","","Knoxville","TN","37901","","Contribution:
+    John J. Duncan, Jr. (TN-2-","P2002","","20020429","500.00","","","John J. Duncan,
+    Jr. (TN-2-R)","H","TN","2","","","","","","","","Contribution: John J. Duncan,
+    Jr. (TN-2-R)","","D57","","",""'
+  input_count: 37
+  record: <fec.version.v3.SB.Records instance at 0x1b9abd8>
+  result: []
+- input: '"SB23","C00248716","CAN","John D. Dingell for Congress","5467 Schaefer Rd.","","Dearborn","MI","48126","","Contribution:
+    John D. Dingell (MI-16-D)","P2002","","20020429","4200.00","","","John D. Dingell
+    (MI-16-D)","H","MI","16","","","","","","","","Contribution: John D. Dingell (MI-16-D)","","D58","","",""'
+  record: <fec.version.v3.SB.Records instance at 0x1b9a368>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00248716
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: John D. Dingell for Congress
+  - name: STREET 1
+    number: '5'
+    value: 5467 Schaefer Rd.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Dearborn
+  - name: STATE
+    number: '8'
+    value: MI
+  - name: ZIP
+    number: '9'
+    value: '48126'
+  - name: TRANS CODE
+    number: '10'
+    value: ''
+  - name: TRANS DESCRIP
+    number: '11'
+    value: 'Contribution: John D. Dingell (MI-16-D)'
+  - name: ITEM ELECT CD
+    number: '12'
+    value: P2002
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20020429'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '4200.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: John D. Dingell (MI-16-D)
+  - name: CAN/OFFICE
+    number: '19'
+    value: H
+  - name: CAN/STATE
+    number: '20'
+    value: MI
+  - name: CAN/DIST
+    number: '21'
+    value: '16'
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: 'Contribution: John D. Dingell (MI-16-D)'
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: D58
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+sourceurl: !!python/unicode '20020520'

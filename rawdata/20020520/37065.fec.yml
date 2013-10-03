@@ -1446,4 +1446,130 @@ rows:
     value: ITEMIZE:Lost
   - name: TRAN ID
     number: '31'
-    value: Original Date
+    value: Original Date10/25/01
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: 0520200227E81
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00090415","","Hobson for Congress Committee","82 W. Columbia","","Springfield","OH","45503    ","","ITEMIZE:Lost,Original
+    Date10/25/01","P2002","",20020429,-1000.00,"C00090415","H0OH07021","HOBSON^DAVIDLEE","H","OH",07,"","","","","","","","ITEMIZE:Lost,Original
+    Date10/25/01","","0520200227E81","","",""'
+  input_count: 36
+  record: <fec.version.v3.SB.Records instance at 0x10423f8>
+  result: []
+- input: '"SB23","C00090415","","Walsh for Congress Committee","306 Winkworth Parkway","","Syracuse","NY","13215    ","","House
+    Candidate NY-25","P2002","",20020411,1500.00,"C00090415","H8NY27036","WALSH^JAMEST","H","NY",25,"","","","","","","","House
+    Candidate NY-25","","0520200227E85","","",""'
+  record: <fec.version.v3.SB.Records instance at 0x1042d40>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00090415
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Walsh for Congress Committee
+  - name: STREET 1
+    number: '5'
+    value: 306 Winkworth Parkway
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Syracuse
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '13215    '
+  - name: TRANS CODE
+    number: '10'
+    value: ''
+  - name: TRANS DESCRIP
+    number: '11'
+    value: House Candidate NY-25
+  - name: ITEM ELECT CD
+    number: '12'
+    value: P2002
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20020411'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '1500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: C00090415
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: H8NY27036
+  - name: CANDIDATE NAME
+    number: '18'
+    value: WALSH^JAMEST
+  - name: CAN/OFFICE
+    number: '19'
+    value: H
+  - name: CAN/STATE
+    number: '20'
+    value: NY
+  - name: CAN/DIST
+    number: '21'
+    value: '25'
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: House Candidate NY-25
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: 0520200227E85
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+sourceurl: !!python/unicode '20020520'

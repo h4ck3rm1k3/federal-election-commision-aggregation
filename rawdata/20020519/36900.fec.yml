@@ -1332,4 +1332,27 @@ rows:
     number: '31'
     value: ''
   - name: MEMO TEXT
-  
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: 0518200214C139831
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: '"SA11A1","C00375220","IND","Steiner^Russell R.","3509 Riviere Du Chein Court","","Mobile","AL","36693    ","P2002","","Information
+    Requested","Information Requested",1000.00,20020516,1000.00,"15","Receipt","","","","","","","","","","","",,"","","","0518200214C139831"'
+  input_count: 34
+  record: <fec.version.v3.SA.Records instance at 0x2b4af098>
+  result: []
+sourceurl: !!python/unicode '20020519'

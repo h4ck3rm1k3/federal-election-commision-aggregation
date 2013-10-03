@@ -32400,4 +32400,127 @@ rows:
     value: C
   - name: TRAN ID
     number: '31'
-    
+    value: D656
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB23","C00355222","","American Express","P.O. Box 53852","","Phoenix","AZ","85072","24K","Fees","P","Primary","20000318","41.35","","","","P","DC","","","","","","","","","Fees","C","D656"'
+  input_count: 31
+  record: <fec.version.v3.SB.Records instance at 0x2dacd0e0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00355222
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: RECIPIENT NAME
+    number: '4'
+    value: The Bart Group
+  - name: STREET 1
+    number: '5'
+    value: 160 Main Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Port Washington
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '11050'
+  - name: TRANS CODE
+    number: '10'
+    value: 24K
+  - name: TRANS DESCRIP
+    number: '11'
+    value: Fees
+  - name: ITEM ELECT CD
+    number: '12'
+    value: P
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: Primary
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20000331'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '16.96'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: P
+  - name: CAN/STATE
+    number: '20'
+    value: DC
+  - name: CAN/DIST
+    number: '21'
+    value: ''
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: Fees
+  - name: AMENDED CD
+    number: '30'
+    value: C
+  - name: TRAN ID
+    number: '31'
+    value: D4890
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB23","C00355222","","The Bart Group","160 Main Street","","Port Washington","NY","11050","24K","Fees","P","Primary","20000331","16.96","","","","P","DC","","","","","","","","","Fees","C","D4890"'
+  input_count: 31
+  record: <fec.version.v3.SB.Records instance at 0x2dacd098>
+  result: []
+sourceurl: !!python/unicode '20020520'
