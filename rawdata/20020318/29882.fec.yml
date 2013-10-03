@@ -1,0 +1,201 @@
+countraw: 5
+countrows: 3
+filename: 29882.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: COMMITTEE NAME
+    number: '3'
+    value: NATIONAL RIGHT TO LIFE POLITICAL ACTION COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: 512 10th Street
+  - name: STREET 2
+    number: '5'
+    value: ' NW'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: WASHINGTON
+  - name: ZIP
+    number: '8'
+    value: DC
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: '20004'
+  - name: Signed
+    number: 10-
+    value: Tobias^Carol^^
+  - value: '20010509'
+  expected_count: 10
+  input: F24,C00111278,NATIONAL RIGHT TO LIFE POLITICAL ACTION COMMITTEE,"512 10th
+    Street, NW",,WASHINGTON,DC,20004,Tobias^Carol^^,20010509
+  input_count: 11
+  record: <fec.version.v3.F24.Records instance at 0x114af80>
+  result: []
+- input: SE24,C00111278,IND,E.U. Services^^^,649 N. Horners Lane,,Rockville,MD,20850,Mailing,20010508,2565.00,S,C00364935,BILL
+    SHUSTER FOR CONGRESS^^^,H,PA,09,C00111278,,,,,,,,,,,,,,,,,,SE24.4161,,,,
+  record: <fec.version.v3.SE.Records instance at 0xf71d40>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: E.U. Services^^^
+  - name: STREET 1
+    number: '5'
+    value: 649 N. Horners Lane
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Rockville
+  - name: STATE
+    number: '8'
+    value: MD
+  - name: ZIP
+    number: '9'
+    value: '20850'
+  - name: TRANSDESC
+    number: '10'
+    value: Mailing
+  - name: DATE
+    number: '11'
+    value: '20010508'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '2565.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: C00364935
+  - name: S/O CAN/NAME
+    number: '15'
+    value: BILL SHUSTER FOR CONGRESS^^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: PA
+  - name: S/O CAN/DIST
+    number: '18'
+    value: 09
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00111278
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.4161
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Xpedite Systems
+  - name: STREET 1
+    number: '5'
+    value: ' Inc^^^'
+  - name: STREET 2
+    number: '6'
+    value: One Industrial Way West D
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Eatontown
+  - name: ZIP
+    number: '9'
+    value: NJ
+  - name: TRANSDESC
+    number: '10'
+    value:
