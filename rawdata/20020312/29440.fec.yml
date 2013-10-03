@@ -1,0 +1,189 @@
+countraw: 16
+countrows: 3
+filename: 29440.fec
+header:
+  'Committee ': FRIENDS OF RAY LAHOOD
+  'Date_Fmat ': CCYYMMDD
+  'Dec/NoDec ': DEC
+  'F65       ': '00001'
+  'FEC_IDnum ': C00284901
+  'FEC_Ver_# ': '2.02'
+  'Form_Name ': F6N
+  'NameDelim ': ^
+  'Soft_Name ': FECWEB
+  'Soft_Ver# ': '1'
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F99
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00014555
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Food Marketing Institute Political Action Committe
+  - name: STREET 1
+    number: '4'
+    value: ' FoodPAC'
+  - name: STREET 2
+    number: '5'
+    value: 655 Fifteenth Street
+  - name: CITY
+    number: '6'
+    value: ' NW'
+  - name: STATE
+    number: '7'
+    value: ''
+  - name: ZIP
+    number: '8'
+    value: Washington
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: DC
+  - name: Signed
+    number: 10-
+    value: '20005'
+  - value: Mr. John J. Motley
+  - value: '20020311'
+  expected_count: 10
+  input: '"F99","C00014555","Food Marketing Institute Political Action Committe, FoodPAC","655
+    Fifteenth Street, NW","","Washington","DC","20005","Mr. John J. Motley","20020311"'
+  input_count: 12
+  record: <fec.version.v3.F99.Records instance at 0x1152ab8>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00284901
+  - name: COMMITTEE NAME
+    number: '3'
+    value: FRIENDS OF RAY LAHOOD
+  - name: STREET 1
+    number: '4'
+    value: 4238 N Knoxville Ave
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Peoria
+  - name: STATE
+    number: '7'
+    value: IL
+  - name: ZIP
+    number: '8'
+    value: '61614'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H4IL18059
+  - name: CANDIDATE NAME
+    number: '10'
+    value: LAHOOD
+  - name: CAN/OFFICE
+    number: '11'
+    value: ^RAY
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: IL
+  - name: Signed
+    number: 14-
+    value: '18'
+  - value: '20020312'
+  expected_count: 14
+  input: F6N,C00284901,FRIENDS OF RAY LAHOOD,4238 N Knoxville Ave,,Peoria,IL,61614,H4IL18059,"LAHOOD,^RAY",H,IL,18,20020312
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x1152908>
+  result: []
+- input: F65,C00284901,IND,Fox^Kim^Ms,1118 W Armory Street,,Champaign,IL,61820,Fox
+    Development Corporation,co-owner,20020312,1000.00,,,,,,,,,,,,,A,F65.00000
+  record: <fec.version.v3.F65.Records instance at 0x1152ab8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00284901
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Fox^Kim^Ms
+  - name: STREET 1
+    number: '5'
+    value: 1118 W Armory Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Champaign
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '61820'
+  - name: INDEMP
+    number: '10'
+    value: Fox Development Corporation
+  - name: INDOCC
+    number: '11'
+    value: co-owner
+  - name: Of Contribution
+    number: 12-
+    value: '20020312'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: A
+  - name: TRAN ID
+    number: '27'
+    value: F65.00000
+sourceurl: !!pyth
