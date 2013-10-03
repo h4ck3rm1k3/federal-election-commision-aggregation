@@ -5832,4 +5832,53 @@ rows:
   - name: CAN/STATE
     number: '23'
     value: ''
- 
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: SA11A1.7563
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: SA11A1,C00308718,IND,Wilson^Karen^^,688 Chisolm Trail,,Keller,TX,76248,,,XTO
+    Energy Inc.,Senior Human Resources Representative,240.00,20011228,10.00,,payroll
+    deduction,,,,,,,,,,,,,,,,SA11A1.7563,,
+  input_count: 36
+  record: <fec.version.v3.SA.Records instance at 0x1c62b90>
+  result: []
+sourceurl: !!python/unicode '20020220'

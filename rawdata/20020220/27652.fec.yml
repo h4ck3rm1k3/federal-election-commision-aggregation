@@ -505,4 +505,50 @@ rows:
   - name: CAN/DIST
     number: '21'
     value: TX
-  - name: CON
+  - name: CONDUIT NAME
+    number: '22'
+    value: '18'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: A
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '6859540'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00035006","CAN","Sheila Jackson Lee For Congress","3401 Labranch","","Houston","TX","77004","011","YTD:$1,000.00","P2002","",20020123,1000.00,"C00287904","","Jackson
+    Lee^Sheila^Rep.^","H","TX","18","","","","","","","","","A","6859540","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x1c62bd8>
+  result: []
+sourceurl: !!python/unicode '20020220'

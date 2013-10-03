@@ -3261,4 +3261,29 @@ rows:
   - name: MEMO CODE
     number: '28'
     value: ''
-  - name: MEMO T
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB29.4412
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: SB29,C00351635,CCM,Webster Running for State Rep. Committee,3316 Woodside
+    Drive,"Sandra Caldwell, Treasurer",Fairfield,OH,45014,,,G2001,,20010522,250.00,C00351635,,,,,,,,,,,,,,,SB29.4412,,,
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x20c0248>
+  result: []
+sourceurl: !!python/unicode '20020220'

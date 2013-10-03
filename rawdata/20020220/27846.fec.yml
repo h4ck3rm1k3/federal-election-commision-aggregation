@@ -22525,4 +22525,118 @@ rows:
     value: ''
   - name: NAT Committee NON-FED ACCT
     number: '34'
-   
+    value: NO VALUE!
+  expected_count: 34
+  input: SB21B,C00003558,,Less Inkind contribution,(see line 23),,,,,,Less Inkind
+    contribution,,,20020122,-1000.00,,,,,,,,,,,,,,,,2002010198,,
+  input_count: 33
+  record: <fec.version.v3.SB.Records instance at 0x1849518>
+  result: []
+- input: SB23,C00003558,,Citizens for Harkin,PO Box 811,,Des Moines,IA,50304,,In-kind
+    Demographic Analysis,P2002,,20020122,1000.00,C00166827,S4IA00020,"Harkin, Tom
+    (IA-Sen)",S,IA,S,,,,,,,,,,2002010197,,
+  record: <fec.version.v3.SB.Records instance at 0x508a0098>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00003558
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Citizens for Harkin
+  - name: STREET 1
+    number: '5'
+    value: PO Box 811
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Des Moines
+  - name: STATE
+    number: '8'
+    value: IA
+  - name: ZIP
+    number: '9'
+    value: '50304'
+  - name: TRANS CODE
+    number: '10'
+    value: ''
+  - name: TRANS DESCRIP
+    number: '11'
+    value: In-kind Demographic Analysis
+  - name: ITEM ELECT CD
+    number: '12'
+    value: P2002
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20020122'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: C00166827
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: S4IA00020
+  - name: CANDIDATE NAME
+    number: '18'
+    value: Harkin
+  - name: CAN/OFFICE
+    number: '19'
+    value: ' Tom (IA-Sen)'
+  - name: CAN/STATE
+    number: '20'
+    value: S
+  - name: CAN/DIST
+    number: '21'
+    value: IA
+  - name: CONDUIT NAME
+    number: '22'
+    value: S
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '2002010197'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+sourceurl: !!python/unicode '20020220'

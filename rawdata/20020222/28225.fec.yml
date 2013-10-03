@@ -1081,4 +1081,16 @@ rows:
   - name: BACK REF TRAN ID
     number: '32'
     value: ''
-  - nam
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: '24200'
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB23","C00350744","CCM","The Freedom Project","111 C Street, SE, Lower
+    Unit","","Washington","DC","20003","15","Contribution","","","20020122","5000.00","","","Boehner^John","","","","","","","","","","","","","24200"'
+  input_count: 33
+  record: <fec.version.v3.SB.Records instance at 0x1844e18>
+  result: []
+sourceurl: !!python/unicode '20020222'

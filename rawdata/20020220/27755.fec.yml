@@ -4816,4 +4816,27 @@ rows:
     number: '34'
     value: ''
   - value: ''
- 
+  expected_count: 34
+  input: SB23,C00001727,CCM,"THUNE, JOHN",PO BOX 516,,SIOUX FALLS,SD,57101,,In-Kind
+    Contribution,P2002,,20011228,191.95,,,,S,SD,00,,,,,,,,,,SB23.5225,,,
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x20aa998>
+  result: []
+- input: TEXT,SB23,SB23.5225,This amendment corrects the allocation of 12/28/01 inkind
+    contribution.  Inkind contribution was originally allocated to the general election.
+  record: <fec.version.v3.TEXT.Records instance at 0x20aae60>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SB23
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: SB23.5225
+  - name: TEXT4000
+    number: '4'
+    value: This amendment corrects the allocation of 12/28/01 inkind contribution.  Inkind
+      contribution was originally allocated to the general election.
+sourceurl: !!python/unicode '20020220'

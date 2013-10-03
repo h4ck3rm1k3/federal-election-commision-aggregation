@@ -11710,4 +11710,182 @@ rows:
     number: '12'
     value: Void 1/31/00 Check-Reissued 1/29/02 - Co
   - name: ITEM ELECT OTHER
-    num
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20020129'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '-500'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: ''
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '10000027241100054'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB28A","C00300483","","IDI, Inc.","901 North Stuart","Suite 11","Arlington","VA","22203","22Y","Void
+    1/31/00 Check-Reissued 1/29/02 - Co","","",20020129,-500,"","","","","","","","","","","","","","","","10000027241100054","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x1844cb0>
+  result: []
+- input: '"SB28A","C00300483","","IDI Inc.","901 North Stuart","Suite11","Arlington","VA","22203","22Y","Contribution
+    Refund","","",20020129,500,"","","","","","","","","","","","","","","","10000027246500055","","",""'
+  record: <fec.version.v3.SB.Records instance at 0x2099a70>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB28A
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00300483
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: RECIPIENT NAME
+    number: '4'
+    value: IDI Inc.
+  - name: STREET 1
+    number: '5'
+    value: 901 North Stuart
+  - name: STREET 2
+    number: '6'
+    value: Suite11
+  - name: CITY
+    number: '7'
+    value: Arlington
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22203'
+  - name: TRANS CODE
+    number: '10'
+    value: 22Y
+  - name: TRANS DESCRIP
+    number: '11'
+    value: Contribution Refund
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20020129'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '500'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: ''
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: '10000027246500055'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+sourceurl: !!python/unicode '20020220'

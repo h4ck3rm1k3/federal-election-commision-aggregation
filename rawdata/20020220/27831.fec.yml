@@ -14745,4 +14745,139 @@ rows:
     number: '28'
     value: ''
   - name: MEMO TEXT
-    number: '2
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '10000001314000036'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00067884","CAN","Citizens For Cochran","P O Box 22761","","Jackson","MS","39225","24K","YTD:$1000.00
+    Thad Cochran, U.S. SENATE M","P2002","",20011219,1000,"C00091892","","Thad Cochran","S","MS","","","","","","","","","","","10000001314000036","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x2b34f38>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00067884
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: LATHAM FOR CONGRESS COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: P.O. BOX 174
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: SIOUX CITY
+  - name: STATE
+    number: '8'
+    value: IA
+  - name: ZIP
+    number: '9'
+    value: '51102'
+  - name: TRANS CODE
+    number: '10'
+    value: 24K
+  - name: TRANS DESCRIP
+    number: '11'
+    value: YTD:$4000.00 TOM LATHAM
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' U.S. HOUSE 5th'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: P2002
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20011219'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '1000'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: C00287045
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: TOM LATHAM
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: IA
+  - name: CONDUIT NAME
+    number: '22'
+    value: '5'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '10000001314100037'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00067884","CAN","LATHAM FOR CONGRESS COMMITTEE","P.O. BOX 174","","SIOUX
+    CITY","IA","51102","24K","YTD:$4000.00 TOM LATHAM, U.S. HOUSE 5th","P2002","",20011219,1000,"C00287045","","TOM
+    LATHAM","H","IA","5","","","","","","","","","","10000001314100037","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x2b34ea8>
+  result: []
+sourceurl: !!python/unicode '20020220'

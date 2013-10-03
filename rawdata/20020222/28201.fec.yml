@@ -3693,4 +3693,16 @@ rows:
   - name: BACK REF TRAN ID
     number: '35'
     value: ''
-  
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: SA11A1,C00193383,IND,Yarbrough^Jerry^Mr.^,2305 S. Greenwood Avenue,,Fort
+    Smith,AR,72901,,,Arkansas Best Corporation,Vice President,2500.00,20010129,2500.00,15,,,,,,,,,,,,,,,,,SA11A1.66,,
+  input_count: 36
+  record: <fec.version.v3.SA.Records instance at 0x1849b48>
+  result: []
+sourceurl: !!python/unicode '20020222'

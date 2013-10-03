@@ -316,4 +316,197 @@ rows:
   - name: STREET 2
     number: '6'
     value: ''
-  - nam
+  - name: CITY
+    number: '7'
+    value: ALAMO
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94507'
+  - name: ELECTION
+    number: '10'
+    value: P
+  - name: ELECTION DESCRIPTION
+    number: '11'
+    value: ''
+  - name: ORIG. AMT OF LOAN
+    number: '12'
+    value: '18500.00'
+  - name: PAYMENT TO DATE
+    number: '13'
+    value: '0.00'
+  - name: LOAN BALANCE
+    number: '14'
+    value: '18500.00'
+  - name: Incurred
+    number: 15-
+    value: '20000225'
+  - name: DUE DATE TERMS
+    number: '16'
+    value: 2/25/03
+  - name: PCT RATE TERMS
+    number: '17'
+    value: ''
+  - name: SECURED YESNO
+    number: '18'
+    value: N
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00350405
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: H0CA10057
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: AMENDED CD
+    number: '25'
+    value: ''
+  - name: TRAN ID
+    number: '26'
+    value: SC/10.219
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00344671
+  - name: COMMITTEE NAME
+    number: '3'
+    value: SUSAN DAVIS FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: C/O 144 WEST D STREET
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: ENCINITAS
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '92024'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H0CA49055
+  - name: CANDIDATE NAME
+    number: '10'
+    value: DAVIS
+  - name: CAN/OFFICE
+    number: '11'
+    value: ^SUSAN^A
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: CA
+  - name: Signed
+    number: 14-
+    value: '53'
+  - value: '20020218'
+  expected_count: 14
+  input: F6N,C00344671,SUSAN DAVIS FOR CONGRESS,C/O 144 WEST D STREET,,ENCINITAS,CA,92024,H0CA49055,"DAVIS,^SUSAN^A",H,CA,53,20020218
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x2099c20>
+  result: []
+- input: F65,C00344671,IND,Bloch^Nancy,P.O. Box 2542,,Rancho Santa Fe,CA,92067,Self-Employed,Desigenr,20020218,1000.00,,,,,,,,,,,,,A,F65.00000
+  record: <fec.version.v3.F65.Records instance at 0x2099bd8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00344671
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Bloch^Nancy
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 2542
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Rancho Santa Fe
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '92067'
+  - name: INDEMP
+    number: '10'
+    value: Self-Employed
+  - name: INDOCC
+    number: '11'
+    value: Desigenr
+  - name: Of Contribution
+    number: 12-
+    value: '20020218'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: A
+  - name: TRAN ID
+    number: '27'
+    value: F65.00000
+sourceurl: !!python/unicode '20020218'

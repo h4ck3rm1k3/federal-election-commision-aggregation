@@ -2032,4 +2032,119 @@ rows:
     value: ''
   - value: ''
   expected_count: 34
-  input: '"SB23","C00129833","PAC","America''s Fo
+  input: '"SB23","C00129833","PAC","America''s Foundation","128 N. Columbus Street","","Alexandria","VA","22314","24K","YTD:$1000.00
+    Contribution, America''s Fou","O2002","",20020117,1000,"","","","","","","","","","","","","","","","10000003423200011","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x18443f8>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00129833
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Peter Deutsch For Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 817689
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Hollywood
+  - name: STATE
+    number: '8'
+    value: FL
+  - name: ZIP
+    number: '9'
+    value: '33081'
+  - name: TRANS CODE
+    number: '10'
+    value: 24K
+  - name: TRANS DESCRIP
+    number: '11'
+    value: YTD:$1000.00 Peter Deutsch
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' U.S. HOUSE 2'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: P2002
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20020117'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '1000'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: C00267708
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: Peter Deutsch
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: FL
+  - name: CONDUIT NAME
+    number: '22'
+    value: '20'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '10000003423300012'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00129833","CAN","Peter Deutsch For Congress","PO Box 817689","","Hollywood","FL","33081","24K","YTD:$1000.00
+    Peter Deutsch, U.S. HOUSE 2","P2002","",20020117,1000,"C00267708","","Peter Deutsch","H","FL","20","","","","","","","","","","10000003423300012","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x1844248>
+  result: []
+sourceurl: !!python/unicode '20020220'

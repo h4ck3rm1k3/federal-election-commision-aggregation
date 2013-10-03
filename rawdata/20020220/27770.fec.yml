@@ -8902,4 +8902,105 @@ rows:
   - name: ENTITY TYPE
     number: '3'
     value: PAC
-  - name: RECIPIENT
+  - name: RECIPIENT NAME
+    number: '4'
+    value: The PNC Financial Services Group
+  - name: STREET 1
+    number: '5'
+    value: 2 PNC Plaza
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Pittsburgh
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '15222'
+  - name: TRANS CODE
+    number: '10'
+    value: '010'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: YTD:$2
+  - name: ITEM ELECT CD
+    number: '12'
+    value: 500.00 Refund of Corporate check
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20011116'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '2500.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ^^^
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: ''
+  - name: CONDUIT NAME
+    number: '22'
+    value: '0'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: Refund of Corporate check
+  - name: TRAN ID
+    number: '31'
+    value: A
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '5218707'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB28c","C00193177","PAC","The PNC Financial Services Group","2 PNC Plaza","","Pittsburgh","PA","15222","010","YTD:$2,500.00
+    Refund of Corporate check","","",20011116,2500.00,"","","^^^","","","0","","","","","","","","Refund
+    of Corporate check","A","5218707","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x1c62950>
+  result: []
+sourceurl: !!python/unicode '20020220'
