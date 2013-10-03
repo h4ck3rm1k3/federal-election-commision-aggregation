@@ -4077,4 +4077,104 @@ rows:
     number: '12'
     value: '20002'
   - name: ITEM ELECT OTHER
-    number:
+    number: '13'
+    value: '011'
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: P2002
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: '20010628'
+  - name: CANDIDATE NAME
+    number: '18'
+    value: '1000.00'
+  - name: CAN/OFFICE
+    number: '19'
+    value: C00199273
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: Mikulski^Barbara^^
+  - name: CONDUIT NAME
+    number: '22'
+    value: S
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: MD
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: '0'
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: A
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: '4029845'
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00041376","CAN","Mikulski for Senate","Saul E. Gilstein, Treasurer","227
+    Massachusetts Avenue, Ne, Suit","Washington","DC","20002","011","","P2002","",20010628,1000.00,"C00199273","","Mikulski^Barbara^^","S","MD","0","","","","","","","","","A","4029845","","",""'
+  input_count: 37
+  record: <fec.version.v3.SB.Records instance at 0x19bbf80>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: Per your letter dated April 11
+  - value: ' 2002'
+  - value: ' Constellation Energy Group Inc. Federal PAC has amended Schedule A of
+      its 2001 Midyear Report to show the full name of a contributor''s employer and
+      the amount deducted per pay period.  Report submitted on April 29'
+  - value: ' 2002.'
+  expected_count: 4
+  input: '"TEXT","F3XA","","Per your letter dated April 11, 2002, Constellation Energy
+    Group Inc. Federal PAC has amended Schedule A of its 2001 Midyear Report to show
+    the full name of a contributor''s employer and the amount deducted per pay period.  Report
+    submitted on April 29, 2002."'
+  input_count: 7
+  record: <fec.version.v3.TEXT.Records instance at 0x114e7a0>
+  result: []
+sourceurl: !!python/unicode '20020429'

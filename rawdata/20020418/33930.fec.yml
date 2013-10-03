@@ -34321,4 +34321,67 @@ rows:
   - name: CONDUIT CITY
     number: '28'
     value: ''
-  - nam
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: A
+  - name: MEMO TEXT
+    number: '39'
+    value: '108430'
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 41
+  input: '"SE24","C00053553","","EDMONDS HACKNEY & ASSOCIATES, INC.","900 SECOND STREET,
+    NE  #118","","WASHINGTON","DC","20002","RADIO AD PRODUCTION COST",20010808,144.42,"SUP","","Forbes^Randy^^","H","VA","4","C00365692","","","","","","","","","","","","",,,,"","A","108430","","","",""'
+  input_count: 43
+  record: <fec.version.v3.SE.Records instance at 0x1af9368>
+  result: []
+- input: '"TEXT","F3XA","","This amendment updates employment information for line
+    11."'
+  record: <fec.version.v3.TEXT.Records instance at 0x1af9d40>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: This amendment updates employment information for line 11.
+sourceurl: !!python/unicode '20020418'

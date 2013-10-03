@@ -1075,4 +1075,179 @@ rows:
     number: '16'
     value: '80.00'
   - name: TRANS CODE
-    numb
+    number: '17'
+    value: '15'
+  - name: TRANS DESCRIP
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: P/R Deduction ($40.00 Bi-Weekly)
+  - name: AMENDED CD
+    number: '33'
+    value: A
+  - name: TRAN ID
+    number: '34'
+    value: PR49538445849
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: ''
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00324103
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Friends Of Jim Inhofe
+  - name: STREET 1
+    number: '5'
+    value: 2139 E 32nd St
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Tulsa
+  - name: STATE
+    number: '8'
+    value: OK
+  - name: ZIP
+    number: '9'
+    value: '74105'
+  - name: TRANS CODE
+    number: '10'
+    value: '011'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: YTD:$1
+  - name: ITEM ELECT CD
+    number: '12'
+    value: 000.00 James M. Inhofe
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ' U.S. SENA'
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: P2002
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '20010403'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: '1000.00'
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: Inhofe^James M.^Sen.^
+  - name: CAN/DIST
+    number: '21'
+    value: S
+  - name: CONDUIT NAME
+    number: '22'
+    value: OK
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: '2'
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: James M. Inhofe
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ' U.S. SENATE OK'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: A
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: '5056665'
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00324103","CAN","Friends Of Jim Inhofe","2139 E 32nd St","","Tulsa","OK","74105","011","YTD:$1,000.00
+    James M. Inhofe, U.S. SENA","P2002","",20010403,1000.00,"","","Inhofe^James M.^Sen.^","S","OK","2","","","","","","","","James
+    M. Inhofe, U.S. SENATE OK","A","5056665","","",""'
+  input_count: 37
+  record: <fec.version.v3.SB.Records instance at 0x114de18>
+  result: []
+sourceurl: !!python/unicode '20020411'

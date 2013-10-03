@@ -54762,4 +54762,29 @@ rows:
   - name: CONDUIT ZIP
     number: '32'
     value: ''
-  - name
+  - name: AMENDED CD
+    number: '33'
+    value: A
+  - name: TRAN ID
+    number: '34'
+    value: H40614200152E3435
+  - name: MEMO CODE
+    number: '35'
+    value: X
+  - name: MEMO TEXT
+    number: '36'
+    value: Exe. Dir Conference Fee
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: NO VALUE!
+  expected_count: 38
+  input: '"H4","C00044990","IND","Minneapolis MN^Republican Party of","480 Cedar St
+    Suite 580","","Saint Paul","MN","55101    ","Exe. Dir Conference Fee ADMINISTRATION",20010530,149.00,33.11,115.89,"X","","","",0.00,"","","","","","","","","","","","",,"A","H40614200152E3435","X","Exe.
+    Dir Conference Fee",""'
+  input_count: 37
+  record: <fec.version.v3.SH4.Records instance at 0x7bededd0>
+  result: []
+sourceurl: !!python/unicode '20020503'

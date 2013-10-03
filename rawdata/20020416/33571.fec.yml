@@ -37443,4 +37443,125 @@ rows:
     value: '0'
   - name: Incurred
     number: 15-
-    va
+    value: '25000'
+  - name: DUE DATE TERMS
+    number: '16'
+    value: '20020329'
+  - name: PCT RATE TERMS
+    number: '17'
+    value: ''
+  - name: SECURED YESNO
+    number: '18'
+    value: '0'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: N
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: AMENDED CD
+    number: '25'
+    value: ''
+  - name: TRAN ID
+    number: '26'
+    value: ''
+  - value: L2
+  expected_count: 26
+  input: SC/10,"C00367532","CAN","Gregory K. Hecht, Esq.","3272 Jodeco Drive","","Jonesboro","GA","30236","P2002","","25000","0","25000",20020329,"",0,"N",,,,,,,"","L2"
+  input_count: 27
+  record: <fec.version.v3.SC.Records instance at 0x55adea8>
+  result: []
+- input: SC/10,"C00367532","ORG","SunTrust Bank","1235 Southlake Circle","","Morrow","GA","30260","P2002","","150000","0","150000",20020329,"20020821",.0375,"N",,,,,,,"","L3"
+  record: <fec.version.v3.SC.Records instance at 0x55ad758>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SC/10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367532
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Loan Source)
+    number: '4'
+    value: SunTrust Bank
+  - name: STREET 1
+    number: '5'
+    value: 1235 Southlake Circle
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Morrow
+  - name: STATE
+    number: '8'
+    value: GA
+  - name: ZIP
+    number: '9'
+    value: '30260'
+  - name: ELECTION
+    number: '10'
+    value: P2002
+  - name: ELECTION DESCRIPTION
+    number: '11'
+    value: ''
+  - name: ORIG. AMT OF LOAN
+    number: '12'
+    value: '150000'
+  - name: PAYMENT TO DATE
+    number: '13'
+    value: '0'
+  - name: LOAN BALANCE
+    number: '14'
+    value: '150000'
+  - name: Incurred
+    number: 15-
+    value: '20020329'
+  - name: DUE DATE TERMS
+    number: '16'
+    value: '20020821'
+  - name: PCT RATE TERMS
+    number: '17'
+    value: '.0375'
+  - name: SECURED YESNO
+    number: '18'
+    value: N
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: AMENDED CD
+    number: '25'
+    value: ''
+  - name: TRAN ID
+    number: '26'
+    value: L3
+sourceurl: !!python/unicode '20020416'

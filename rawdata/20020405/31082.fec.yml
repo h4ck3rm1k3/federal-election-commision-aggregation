@@ -735,4 +735,24 @@ rows:
     number: '32'
     value: ''
   - name: AMENDED CD
-    num
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: SA11A1.4200
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: SA11A1,C00370635,IND,Pomeroy^Donald^Mr.^,142 Shirley St Unit 10,,Molalla,OR,97038,P2002,,Requeted
+    Information,Requested Information,500.00,20020304,500.00,15,,,,,,,,,,,,,,,,,SA11A1.4200,,
+  input_count: 36
+  record: <fec.version.v3.SA.Records instance at 0x19b3f38>
+  result: []
+sourceurl: !!python/unicode '20020405'

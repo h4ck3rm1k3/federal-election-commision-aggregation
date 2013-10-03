@@ -2588,4 +2588,130 @@ rows:
   - name: BACK REF TRAN ID
     number: '32'
     value: '6381386'
-  - name: BACK REF SCHED N
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB29","C00009639","","Anheuser Marketing, Inc.","6941 Peachtree Industrial
+    Blvd.","","Norcross","GA","30092","001","Administrative Expenses","","",20020418,680.97,"","","^^^","","","0","","","","","","","","Administrative
+    Expenses","A","6381386","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x1152a28>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB29
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00009639
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Steve Thompson Senate Campaign  Committee
+  - name: STREET 1
+    number: '5'
+    value: 5264 Seamus Way
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Powder Springs
+  - name: STATE
+    number: '8'
+    value: GA
+  - name: ZIP
+    number: '9'
+    value: ''
+  - name: TRANS CODE
+    number: '10'
+    value: '011'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: Steve Thompson
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' STATE SENATE GA'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: P2002
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20020430'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: Thompson^Steve^GA Sen.^
+  - name: CAN/STATE
+    number: '20'
+    value: S
+  - name: CAN/DIST
+    number: '21'
+    value: GA
+  - name: CONDUIT NAME
+    number: '22'
+    value: '33'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: Steve Thompson
+  - name: TRAN ID
+    number: '31'
+    value: ' STATE SENATE GA'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: A
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: '6381517'
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB29","C00009639","CAN","Steve Thompson Senate Campaign  Committee","5264
+    Seamus Way","","Powder Springs","GA","","011","Steve Thompson, STATE SENATE GA","P2002","",20020430,1000.00,"","","Thompson^Steve^GA
+    Sen.^","S","GA","33","","","","","","","","Steve Thompson, STATE SENATE GA","A","6381517","","",""'
+  input_count: 36
+  record: <fec.version.v3.SB.Records instance at 0x1152998>
+  result: []
+sourceurl: !!python/unicode '20020514'

@@ -2179,3 +2179,113 @@ rows:
   - name: MEMO CODE
     number: '28'
     value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: A
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB26.904
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: SB26,C00283986,ORG,"Chevy Chase Bank, FSB",7501 Wisconsin Avenue,,Bethesda,MD,20814,,Loan
+    Repayment,,,20020221,411.78,,,,,,,,,,,,,,,A,SB26.904
+  input_count: 32
+  record: <fec.version.v3.SB.Records instance at 0x19b3f80>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SC/10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00283986
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Loan Source)
+    number: '4'
+    value: Chevy Chase Bank
+  - name: STREET 1
+    number: '5'
+    value: ' FSB'
+  - name: STREET 2
+    number: '6'
+    value: 7501 Wisconsin Avenue
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Bethesda
+  - name: ZIP
+    number: '9'
+    value: MD
+  - name: ELECTION
+    number: '10'
+    value: '20814'
+  - name: ELECTION DESCRIPTION
+    number: '11'
+    value: ''
+  - name: ORIG. AMT OF LOAN
+    number: '12'
+    value: ''
+  - name: PAYMENT TO DATE
+    number: '13'
+    value: '15000.00'
+  - name: LOAN BALANCE
+    number: '14'
+    value: '7412.04'
+  - name: Incurred
+    number: 15-
+    value: '7587.96'
+  - name: DUE DATE TERMS
+    number: '16'
+    value: '20000825'
+  - name: PCT RATE TERMS
+    number: '17'
+    value: ''
+  - name: SECURED YESNO
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: AMENDED CD
+    number: '25'
+    value: ''
+  - name: TRAN ID
+    number: '26'
+    value: A
+  - value: SC/10.4
+  expected_count: 26
+  input: SC/10,C00283986,ORG,"Chevy Chase Bank, FSB",7501 Wisconsin Avenue,,Bethesda,MD,20814,,,15000.00,7412.04,7587.96,20000825,,,,,,,,,,A,SC/10.4
+  input_count: 27
+  record: <fec.version.v3.SC.Records instance at 0x19b3cf8>
+  result: []
+sourceurl: !!python/unicode '20020320'

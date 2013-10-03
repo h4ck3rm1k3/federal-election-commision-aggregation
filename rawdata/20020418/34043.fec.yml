@@ -2968,4 +2968,65 @@ rows:
     value: ''
   - name: CONDUIT CITY
     number: '25'
-    value
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: John Perzel
+  - name: TRAN ID
+    number: '31'
+    value: ' STATE HOUSE 172nd PA'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: A
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: '6856614'
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB29","C00085373","CAN","Friends of John Perzel","114 Pine Street","","Harrisburg","PA","17101","011","John
+    Perzel, STATE HOUSE 172nd PA","P2002","",20010201,1000.00,"","","Perzel^John^Representative^","H","PA","17","","","","","","","","John
+    Perzel, STATE HOUSE 172nd PA","A","6856614","","",""'
+  input_count: 36
+  record: <fec.version.v3.SB.Records instance at 0x114d248>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XN
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: Per Andrea Needles
+  - value: ' we are electronically submitting this amendment to a paper-filed report;
+      thus'
+  - value: ' it will show as a new report but should be identified as an amendment
+      to our original 2001 mid-year report.'
+  expected_count: 4
+  input: '"TEXT","F3XN","","Per Andrea Needles, we are electronically submitting this
+    amendment to a paper-filed report; thus, it will show as a new report but should
+    be identified as an amendment to our original 2001 mid-year report."'
+  input_count: 6
+  record: <fec.version.v3.TEXT.Records instance at 0x1152908>
+  result: []
+sourceurl: !!python/unicode '20020418'

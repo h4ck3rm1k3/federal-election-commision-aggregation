@@ -55023,3 +55023,157 @@ rows:
   - name: CONDUIT NAME
     number: '22'
     value: 08
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: U.S. House
+  - name: TRAN ID
+    number: '31'
+    value: ' TN/8'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: A
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: 1003200138E3170
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00363879","","Friends of John Tanner","P.O. Box 3301","","Alexandria","VA","22302    ","","U.S.
+    House, TN/8","O2001","Primary 02",20010913,1000.00,"C00363879","H8TN08033","TANNER^JOHNS","H","TN",08,"","","","","","","","U.S.
+    House, TN/8","A","1003200138E3170","","",""'
+  input_count: 36
+  record: <fec.version.v3.SB.Records instance at 0x155d9710>
+  result: []
+- input: '"SB23","C00363879","","Gene Taylor for Congress","P O Box 38","120 Carroll
+    Avenue ","Bay Saint Louis","MS","39520    ","","US House MS D-5","O2001","Primary
+    02",20010914,500.00,"C00363879","H8MS05047","TAYLOR^GENE","H","MS",05,"","","","","","","","US
+    House MS D-5","A","1003200138E3175","","",""'
+  record: <fec.version.v3.SB.Records instance at 0x155d95f0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00363879
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Gene Taylor for Congress
+  - name: STREET 1
+    number: '5'
+    value: P O Box 38
+  - name: STREET 2
+    number: '6'
+    value: '120 Carroll Avenue '
+  - name: CITY
+    number: '7'
+    value: Bay Saint Louis
+  - name: STATE
+    number: '8'
+    value: MS
+  - name: ZIP
+    number: '9'
+    value: '39520    '
+  - name: TRANS CODE
+    number: '10'
+    value: ''
+  - name: TRANS DESCRIP
+    number: '11'
+    value: US House MS D-5
+  - name: ITEM ELECT CD
+    number: '12'
+    value: O2001
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: Primary 02
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20010914'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: C00363879
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: H8MS05047
+  - name: CANDIDATE NAME
+    number: '18'
+    value: TAYLOR^GENE
+  - name: CAN/OFFICE
+    number: '19'
+    value: H
+  - name: CAN/STATE
+    number: '20'
+    value: MS
+  - name: CAN/DIST
+    number: '21'
+    value: '05'
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: US House MS D-5
+  - name: AMENDED CD
+    number: '30'
+    value: A
+  - name: TRAN ID
+    number: '31'
+    value: 1003200138E3175
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+sourceurl: !!python/unicode '20020511'

@@ -3765,4 +3765,44 @@ rows:
       of available funds.'
   expected_count: 4
   input: '"TEXT","SA14A",646,"Pursuant to a settlement of disputed claims, Philadelphia
-    2000 will continue to make certain payments to Verizon out of available funds."
+    2000 will continue to make certain payments to Verizon out of available funds."'
+  input_count: 5
+  record: <fec.version.v3.TEXT.Records instance at 0x19a27a0>
+  result: []
+- input: '"TEXT","SD9","41203","The host committee has accepted as payment in full."'
+  record: <fec.version.v3.TEXT.Records instance at 0x19a2830>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SD9
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: '41203'
+  - name: TEXT4000
+    number: '4'
+    value: The host committee has accepted as payment in full.
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SD10
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: '181'
+  - name: TEXT4000
+    number: '4'
+    value: Pursuant to a settlement of disputed claims
+  - value: Philadelphia 2000 will continue to make certain payments to Verizon out
+      of available funds.
+  expected_count: 4
+  input: '"TEXT","SD10",181,"Pursuant to a settlement of disputed claims,Philadelphia
+    2000 will continue to make certain payments to Verizon out of available funds."'
+  input_count: 5
+  record: <fec.version.v3.TEXT.Records instance at 0x19a27a0>
+  result: []
+sourceurl: !!python/unicode '20020415'

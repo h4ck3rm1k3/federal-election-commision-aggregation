@@ -98645,4 +98645,121 @@ rows:
     number: '34'
     value: ''
   - value: ''
-  expected_count:
+  expected_count: 34
+  input: '"SB23","C00034157","CAN","Christopher Shays For Congress Committee","132
+    East Putnam Avenue","","Cos Cob","CT","06807","011","YTD:$1,000.00","O2002","2002
+    Primary",20011127,1000.00,"C00215699","","Shays^Christopher^Rep.^","H","CT","4","","","","","","","","","A","32934","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x4d1af38>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00034157
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Tennesseans For Senator Thompson
+  - name: STREET 1
+    number: '5'
+    value: PO Box 397
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Brentwood
+  - name: STATE
+    number: '8'
+    value: TN
+  - name: ZIP
+    number: '9'
+    value: '37024'
+  - name: TRANS CODE
+    number: '10'
+    value: '011'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: YTD:$1
+  - name: ITEM ELECT CD
+    number: '12'
+    value: '000.00'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: O2002
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: 2002 Primary
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20011130'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: C00325498
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: Thompson^Fred^Sen.^
+  - name: CAN/STATE
+    number: '20'
+    value: S
+  - name: CAN/DIST
+    number: '21'
+    value: TN
+  - name: CONDUIT NAME
+    number: '22'
+    value: '1'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: A
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '33027'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00034157","CAN","Tennesseans For Senator Thompson","PO Box 397","","Brentwood","TN","37024","011","YTD:$1,000.00","O2002","2002
+    Primary",20011130,1000.00,"C00325498","","Thompson^Fred^Sen.^","S","TN","1","","","","","","","","","A","33027","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x4d1d488>
+  result: []
+sourceurl: !!python/unicode '20020307'

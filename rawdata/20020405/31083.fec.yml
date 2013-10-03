@@ -9006,4 +9006,26 @@ rows:
   - value: ''
   - value: ''
   expected_count: 34
-  input: '"SB23","C00041376","CAN","Brad Barton for Congre
+  input: '"SB23","C00041376","CAN","Brad Barton for Congress","George Waller, Treasurer","P.O.
+    Box 3309","Bryan","TX","77805","011","YTD:$1,000.00","P2002","",20011220,1000.00,"","","Barton^Brad^^","H","TX","31","","","","","","","","","A","5527246","","",""'
+  input_count: 36
+  record: <fec.version.v3.SB.Records instance at 0x114eef0>
+  result: []
+- input: '"TEXT","F3XA","","This is an AMENDED 2001 Year End Report.  The unitemized
+    contributions (Line 11.ii) were modified."'
+  record: <fec.version.v3.TEXT.Records instance at 0x114ebd8>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: This is an AMENDED 2001 Year End Report.  The unitemized contributions
+      (Line 11.ii) were modified.
+sourceurl: !!python/unicode '20020405'

@@ -721,4 +721,146 @@ rows:
   - name: ELECTION
     number: '10'
     value: G2000
-  - name: ELECTION DESCRIP
+  - name: ELECTION DESCRIPTION
+    number: '11'
+    value: ''
+  - name: ORIG. AMT OF LOAN
+    number: '12'
+    value: '50000.00'
+  - name: PAYMENT TO DATE
+    number: '13'
+    value: '0.00'
+  - name: LOAN BALANCE
+    number: '14'
+    value: '50000.00'
+  - name: Incurred
+    number: 15-
+    value: '20001006'
+  - name: DUE DATE TERMS
+    number: '16'
+    value: July 01
+  - name: PCT RATE TERMS
+    number: '17'
+    value: ' 2001'
+  - name: SECURED YESNO
+    number: '18'
+    value: '0'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: N
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: C00354951
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: AMENDED CD
+    number: '25'
+    value: ''
+  - name: TRAN ID
+    number: '26'
+    value: ''
+  - value: SC/10.4141
+  expected_count: 26
+  input: SC/10,C00354951,CAN,DRIVER^RODNEY D^^ - Personal funds ,37 HOXSIE RD,PO BOX
+    156,WEST KINGSTON,RI,02892,G2000,,50000.00,0.00,50000.00,20001006,"July 01, 2001",0,N,C00354951,,,,,,,SC/10.4141
+  input_count: 27
+  record: <fec.version.v3.SC.Records instance at 0x114de18>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SC/10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00354951
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: NAME (Loan Source)
+    number: '4'
+    value: 'DRIVER^RODNEY D^^ - Personal funds '
+  - name: STREET 1
+    number: '5'
+    value: 37 HOXSIE RD
+  - name: STREET 2
+    number: '6'
+    value: PO BOX 156
+  - name: CITY
+    number: '7'
+    value: WEST KINGSTON
+  - name: STATE
+    number: '8'
+    value: RI
+  - name: ZIP
+    number: '9'
+    value: 02892
+  - name: ELECTION
+    number: '10'
+    value: G2000
+  - name: ELECTION DESCRIPTION
+    number: '11'
+    value: ''
+  - name: ORIG. AMT OF LOAN
+    number: '12'
+    value: '195000.00'
+  - name: PAYMENT TO DATE
+    number: '13'
+    value: '0.00'
+  - name: LOAN BALANCE
+    number: '14'
+    value: '195000.00'
+  - name: Incurred
+    number: 15-
+    value: '20001018'
+  - name: DUE DATE TERMS
+    number: '16'
+    value: Jult 01
+  - name: PCT RATE TERMS
+    number: '17'
+    value: ' 2001'
+  - name: SECURED YESNO
+    number: '18'
+    value: '0'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: N
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: C00354951
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: AMENDED CD
+    number: '25'
+    value: ''
+  - name: TRAN ID
+    number: '26'
+    value: ''
+  - value: SC/10.4142
+  expected_count: 26
+  input: SC/10,C00354951,CAN,DRIVER^RODNEY D^^ - Personal funds ,37 HOXSIE RD,PO BOX
+    156,WEST KINGSTON,RI,02892,G2000,,195000.00,0.00,195000.00,20001018,"Jult 01,
+    2001",0,N,C00354951,,,,,,,SC/10.4142
+  input_count: 27
+  record: <fec.version.v3.SC.Records instance at 0x114de60>
+  result: []
+sourceurl: !!python/unicode '20020414'

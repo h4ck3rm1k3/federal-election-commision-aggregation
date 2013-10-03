@@ -15867,4 +15867,100 @@ rows:
   - name: AMENDED CD
     number: '25'
     value: ''
-  - nam
+  - name: TRAN ID
+    number: '26'
+    value: ''
+  - value: PAY:C:2
+  expected_count: 26
+  input: 'SC/10,C00365049,CAN,Irwin Hentschel(Personal Funds)^Noel,"6053 W Century
+    Blvd, #700",,Los Angeles,CA,90045,P2001,,10000.00,0.00,10000.00,20010226,20040630,0.00,,,,,,,,,PAY:C:2'
+  input_count: 27
+  record: <fec.version.v3.SC.Records instance at 0x8848170>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SC/10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00365049
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: NAME (Loan Source)
+    number: '4'
+    value: Irwin Hentschel(Personal Funds)^Noel
+  - name: STREET 1
+    number: '5'
+    value: 6053 W Century Blvd
+  - name: STREET 2
+    number: '6'
+    value: ' #700'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Los Angeles
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: ELECTION
+    number: '10'
+    value: '90045'
+  - name: ELECTION DESCRIPTION
+    number: '11'
+    value: P2001
+  - name: ORIG. AMT OF LOAN
+    number: '12'
+    value: ''
+  - name: PAYMENT TO DATE
+    number: '13'
+    value: '50000.00'
+  - name: LOAN BALANCE
+    number: '14'
+    value: '0.00'
+  - name: Incurred
+    number: 15-
+    value: '50000.00'
+  - name: DUE DATE TERMS
+    number: '16'
+    value: '20010320'
+  - name: PCT RATE TERMS
+    number: '17'
+    value: '20040630'
+  - name: SECURED YESNO
+    number: '18'
+    value: '0.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: AMENDED CD
+    number: '25'
+    value: ''
+  - name: TRAN ID
+    number: '26'
+    value: ''
+  - value: PAY:C:24
+  expected_count: 26
+  input: 'SC/10,C00365049,CAN,Irwin Hentschel(Personal Funds)^Noel,"6053 W Century
+    Blvd, #700",,Los Angeles,CA,90045,P2001,,50000.00,0.00,50000.00,20010320,20040630,0.00,,,,,,,,,PAY:C:24'
+  input_count: 27
+  record: <fec.version.v3.SC.Records instance at 0x8848bd8>
+  result: []
+sourceurl: !!python/unicode '20020227'

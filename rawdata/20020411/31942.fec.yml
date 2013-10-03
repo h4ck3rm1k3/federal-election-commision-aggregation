@@ -3035,4 +3035,20 @@ rows:
     number: '30'
     value: ''
   - name: TRAN ID
-    number: '31
+    number: '31'
+    value: 45D
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: SB29,C00112888,,REPUBLICAN SENATE COMMITTEE,P. O. BOX 12905,,RALEIGH,NC,27605,011,CONTRIBUTION,,,20020328,500.00,,,,,,,,,,,,,,,,45D,,
+  input_count: 33
+  record: <fec.version.v3.SB.Records instance at 0x3122cb0>
+  result: []
+sourceurl: !!python/unicode '20020411'

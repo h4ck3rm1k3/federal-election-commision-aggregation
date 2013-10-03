@@ -1480,4 +1480,19 @@ rows:
   - name: BACK REF TRAN ID
     number: '32'
     value: ''
-  - name: BACK REF SCHED N
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: '10000004004100002'
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00161901","CAN","Torricelli for U.S. Senate","1300 Connecticut
+    Ave., NW","Suite 600","Washington","DC","20036","24K","YTD:$1000.00 Robert G.
+    Torricelli, U.S.","P2002","",20020226,1000,"","","Robert G. Torricelli","S","NJ","","","","","","","","","","","10000004004100002","","",""'
+  input_count: 36
+  record: <fec.version.v3.SB.Records instance at 0x114eef0>
+  result: []
+sourceurl: !!python/unicode '20020315'

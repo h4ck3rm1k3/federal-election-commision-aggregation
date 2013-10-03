@@ -1479,4 +1479,126 @@ rows:
     number: '32'
     value: SB23.4456
   - name: BACK REF SCHED NAME
-    number:
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: SB23,C00282038,CAN,GRASSLEY COMMITTEE^^^,PO BOX 1000,,DES MOINES,IA,50304,,Contribution,P2004,,20020222,1000.00,,S0IA00028,"GRASSLEY,
+    CHARLES E SENATOR^^^",S,IA,00,,,,,,,,,,SB23.4456,,,
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x11523f8>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00282038
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: MARY BONO COMMITTEE^^^
+  - name: STREET 1
+    number: '5'
+    value: PO BOX 3370
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: PALM SPRINGS
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '92263'
+  - name: TRANS CODE
+    number: '10'
+    value: ''
+  - name: TRANS DESCRIP
+    number: '11'
+    value: Contribution
+  - name: ITEM ELECT CD
+    number: '12'
+    value: P2002
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20020222'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: H8CA44034
+  - name: CANDIDATE NAME
+    number: '18'
+    value: BONO
+  - name: CAN/OFFICE
+    number: '19'
+    value: ' MARY^^^'
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: CA
+  - name: CONDUIT NAME
+    number: '22'
+    value: '45'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.4455
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: SB23,C00282038,CAN,MARY BONO COMMITTEE^^^,PO BOX 3370,,PALM SPRINGS,CA,92263,,Contribution,P2002,,20020222,1000.00,,H8CA44034,"BONO,
+    MARY^^^",H,CA,45,,,,,,,,,,SB23.4455,,,
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x1152170>
+  result: []
+sourceurl: !!python/unicode '20020320'

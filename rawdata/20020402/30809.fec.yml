@@ -1437,3 +1437,20 @@ rows:
     value: ' LOCAL  MI'
   - name: BACK REF TRAN ID
     number: '32'
+    value: A
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: '7697183'
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB29","C00157677","CAN","Robert A. Ficano Committee","P.O. Box 321123","","Detroit","MI","48232","011","Robert
+    A. Ficano, LOCAL  MI","G2002","",20020322,500.00,"","","Ficano^Robert A.^^","","MI","0","","","","","","","","Robert
+    A. Ficano, LOCAL  MI","A","7697183","","",""'
+  input_count: 36
+  record: <fec.version.v3.SB.Records instance at 0x11520e0>
+  result: []
+sourceurl: !!python/unicode '20020402'

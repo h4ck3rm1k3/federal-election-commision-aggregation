@@ -4313,4 +4313,32 @@ rows:
   - name: CONDUIT ZIP
     number: '27'
     value: ''
-  - name: MEMO 
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '10000000823000014'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00275123","CAN","Steve Rothman for Congress","PO Box 714","","Hackensack","NJ","07602","24K","YTD:$1000.00
+    Steven Rothman, U.S. HOUSE","P2002","",20020318,1000,"","","Steven Rothman","H","NJ","9","","","","","","","","","","10000000823000014","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x19d2bd8>
+  result: []
+sourceurl: !!python/unicode '20020420'

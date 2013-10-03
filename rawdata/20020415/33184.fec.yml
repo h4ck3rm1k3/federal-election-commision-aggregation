@@ -5938,4 +5938,162 @@ rows:
     value: Norris^John Robert
   - name: CAN/DIST
     number: '21'
-    va
+    value: H
+  - name: CONDUIT NAME
+    number: '22'
+    value: IA
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: '04'
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: 29D
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: 'SB23,C00370007,,NORRIS FOR CONGRESS,1605 Roosevelt Ave.,,Ames,IA,50010,011,"AggYTD:
+    $1,000.00 Norris, John Robert--H",P2002,,20020328,1000.00,C00366625,H2IA04075,Norris^John
+    Robert,H,IA,04,,,,,,,,,,29D,,'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x391e2ef0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00370007
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: RECIPIENT NAME
+    number: '4'
+    value: SHAHEEN FOR SENATE EXPLORATORY COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: 73 Perkins Rd.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Madbury
+  - name: STATE
+    number: '8'
+    value: NH
+  - name: ZIP
+    number: '9'
+    value: 03820
+  - name: TRANS CODE
+    number: '10'
+    value: '011'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: 'AggYTD: $1'
+  - name: ITEM ELECT CD
+    number: '12'
+    value: 000.00 Shaheen
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ' Jeanne--Senat'
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: P2002
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '20020317'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: '1000.00'
+  - name: CANDIDATE NAME
+    number: '18'
+    value: C00368506
+  - name: CAN/OFFICE
+    number: '19'
+    value: S0NH00219
+  - name: CAN/STATE
+    number: '20'
+    value: Shaheen^Jeanne
+  - name: CAN/DIST
+    number: '21'
+    value: S
+  - name: CONDUIT NAME
+    number: '22'
+    value: NH
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: 28D
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: 'SB23,C00370007,,SHAHEEN FOR SENATE EXPLORATORY COMMITTEE,73 Perkins Rd.,,Madbury,NH,03820,011,"AggYTD:
+    $1,000.00 Shaheen, Jeanne--Senat",P2002,,20020317,1000.00,C00368506,S0NH00219,Shaheen^Jeanne,S,NH,,,,,,,,,,,28D,,'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x391e2758>
+  result: []
+sourceurl: !!python/unicode '20020415'

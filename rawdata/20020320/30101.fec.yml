@@ -3713,4 +3713,148 @@ rows:
   - name: BACK REF SCHED NAME
     number: '36'
     value: ''
-  - name: NAT Commi
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: ''
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB29
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00240069
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Friends of McLin Committee
+  - name: STREET 1
+    number: '5'
+    value: 1130 Germantown St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Dayton
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '45408'
+  - name: TRANS CODE
+    number: '10'
+    value: '011'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: Rhine McLin
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' Mayor  OH'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: P2002
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20020218'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '500.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: McLin^Rhine^^
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: OH
+  - name: CONDUIT NAME
+    number: '22'
+    value: '0'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: Rhine McLin
+  - name: TRAN ID
+    number: '31'
+    value: ' Mayor  OH'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: A
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: '5764665'
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB29","C00240069","CAN","Friends of McLin Committee","1130 Germantown St.","","Dayton","OH","45408","011","Rhine
+    McLin, Mayor  OH","P2002","",20020218,500.00,"","","McLin^Rhine^^","","OH","0","","","","","","","","Rhine
+    McLin, Mayor  OH","A","5764665","","",""'
+  input_count: 36
+  record: <fec.version.v3.SB.Records instance at 0x11523b0>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XN
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: This report is being filed in accordance with the FEC requirement that
+      a change in filing frequency accompany a filing.  Therefore
+  - value: ' pursuant to 11 C.F.R. Section 104.5(c)'
+  - value: ' Vectren Employees Federal PAC is changing its filing frequency from quarterly
+      filing to monthly filing.  The next report to be filed in accordance with the
+      new filing frequency will be the March monthly report'
+  - value: ' due no later than April 20th.'
+  expected_count: 4
+  input: '"TEXT","F3XN","","This report is being filed in accordance with the FEC
+    requirement that a change in filing frequency accompany a filing.  Therefore,
+    pursuant to 11 C.F.R. Section 104.5(c), Vectren Employees Federal PAC is changing
+    its filing frequency from quarterly filing to monthly filing.  The next report
+    to be filed in accordance with the new filing frequency will be the March monthly
+    report, due no later than April 20th."'
+  input_count: 7
+  record: <fec.version.v3.TEXT.Records instance at 0x1152ab8>
+  result: []
+sourceurl: !!python/unicode '20020320'

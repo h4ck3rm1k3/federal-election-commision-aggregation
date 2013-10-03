@@ -12919,4 +12919,124 @@ rows:
   - name: BACK REF SCHED NAME
     number: '33'
     value: ''
-  - name: NAT Committe
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: D4059
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00107235","CAN","Watts for Congress","P.O. Box 720445","","Norman","OK","73070","","Contribution:
+    J.C. Watts, Jr. (OK-4-R)","P2002","","20010831","1000.00","","","J.C. Watts, Jr.
+    (OK-4-R)","H","OK","4","","","","","","","","Contribution: J.C. Watts, Jr. (OK-4-R)","","D4059","","",""'
+  input_count: 37
+  record: <fec.version.v3.SB.Records instance at 0x19b3908>
+  result: []
+- input: '"SB23","C00107235","CAN","Dave Camp for Congress","P.O. Box 423","","Midland","MI","48640","","Contribution:
+    Dave L. Camp (MI-4-R)","P2002","","20010831","500.00","","","Dave L. Camp (MI-4-R)","H","MI","4","","","","","","","","Contribution:
+    Dave L. Camp (MI-4-R)","","D4060","","",""'
+  record: <fec.version.v3.SB.Records instance at 0x1152ab8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00107235
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Dave Camp for Congress
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 423
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Midland
+  - name: STATE
+    number: '8'
+    value: MI
+  - name: ZIP
+    number: '9'
+    value: '48640'
+  - name: TRANS CODE
+    number: '10'
+    value: ''
+  - name: TRANS DESCRIP
+    number: '11'
+    value: 'Contribution: Dave L. Camp (MI-4-R)'
+  - name: ITEM ELECT CD
+    number: '12'
+    value: P2002
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20010831'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: Dave L. Camp (MI-4-R)
+  - name: CAN/OFFICE
+    number: '19'
+    value: H
+  - name: CAN/STATE
+    number: '20'
+    value: MI
+  - name: CAN/DIST
+    number: '21'
+    value: '4'
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: 'Contribution: Dave L. Camp (MI-4-R)'
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: D4060
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+sourceurl: !!python/unicode '20020227'

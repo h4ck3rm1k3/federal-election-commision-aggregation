@@ -898,4 +898,125 @@ rows:
   - value: ''
   - value: ''
   expected_count: 34
-  input: '"SB29"
+  input: '"SB29","C00041558","CAN","Friends of John Perzel Committee","PO Box 826","","Harrisburg","PA","17108","011","John
+    Perzel, STATE HOUSE 172nd PA","O2002","General 2002",20020422,1000.00,"","","Perzel^John^PA
+    Rep.^","H","PA","17","","","","","","","","John Perzel, STATE HOUSE 172nd PA","A","6087755","","",""'
+  input_count: 36
+  record: <fec.version.v3.SB.Records instance at 0x19a2b00>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB29
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00041558
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Robert Casey
+  - name: STREET 1
+    number: '5'
+    value: ' Jr. for Governor Committee'
+  - name: STREET 2
+    number: '6'
+    value: 434 Lackawanna Avenue
+  - name: CITY
+    number: '7'
+    value: ' Suite 300'
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: Scranton
+  - name: TRANS CODE
+    number: '10'
+    value: PA
+  - name: TRANS DESCRIP
+    number: '11'
+    value: '18503'
+  - name: ITEM ELECT CD
+    number: '12'
+    value: '011'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: Robert Casey
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ' GOVERNOR  PA'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: P2002
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: '20020422'
+  - name: CANDIDATE NAME
+    number: '18'
+    value: '500.00'
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: Casey^Robert^Mr^Jr
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: PA
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: '0'
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: Robert Casey
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ' GOVERNOR  PA'
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: A
+  - value: '6088029'
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB29","C00041558","CAN","Robert Casey, Jr. for Governor Committee","434
+    Lackawanna Avenue, Suite 300","","Scranton","PA","18503","011","Robert Casey,
+    GOVERNOR  PA","P2002","",20020422,500.00,"","","Casey^Robert^Mr^Jr","","PA","0","","","","","","","","Robert
+    Casey, GOVERNOR  PA","A","6088029","","",""'
+  input_count: 38
+  record: <fec.version.v3.SB.Records instance at 0x19a24d0>
+  result: []
+sourceurl: !!python/unicode '20020513'

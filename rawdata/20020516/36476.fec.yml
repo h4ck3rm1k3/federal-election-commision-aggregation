@@ -1310,4 +1310,29 @@ rows:
   - name: MEMO CODE
     number: '28'
     value: ''
-  - n
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB29.4665
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: SB29,C00265553,IND,PNC Bank^^^,"Two PNC Plaza, 31st Floor",,Pittsburgh,PA,15265,,Bank
+    Service Charges,,,20020329,22.14,,,,,,,,,,,,,,,,SB29.4665,,,
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x114eb00>
+  result: []
+sourceurl: !!python/unicode '20020516'

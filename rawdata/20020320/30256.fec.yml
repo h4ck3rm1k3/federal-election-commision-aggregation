@@ -515,4 +515,53 @@ rows:
     value: ''
   - name: CAN/STATE
     number: '23'
-   
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: SA11C.4561
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: SA11C,C00034678,PAC,KIRBY CORPORATION POLITICAL ACTION COMMITTEE,55 WAUGH
+    DRIVE SUITE 1000,,HOUSTON,TX,77007,,,,,5000.00,20020214,5000.00,,,C00250027,,,,,,,,,,,,,,,SA11C.4561,,
+  input_count: 36
+  record: <fec.version.v3.SA.Records instance at 0x114eab8>
+  result: []
+sourceurl: !!python/unicode '20020320'

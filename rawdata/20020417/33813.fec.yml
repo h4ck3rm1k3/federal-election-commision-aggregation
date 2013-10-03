@@ -9185,4 +9185,119 @@ rows:
   expected_count: 34
   input: '"SB23","C00200188","PAC","DASHPAC","424 C Street, N.E.","","WASHINGTON","DC","20002","011","YTD:$1,000.00","","",20010628,1000.00,"","","^^^","","","0","","","","","","","","","A","7607954","","",""'
   input_count: 36
-  record: <fec.version.v3.SB.Records inst
+  record: <fec.version.v3.SB.Records instance at 0x19ce710>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00200188
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Engel for Congress
+  - name: STREET 1
+    number: '5'
+    value: 4901 Henry Hudson Pkwy
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Bronx
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10471'
+  - name: TRANS CODE
+    number: '10'
+    value: '011'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: YTD:$1
+  - name: ITEM ELECT CD
+    number: '12'
+    value: 500.00 Eliot L. Engel
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ' U.S. HOUSE'
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: P2002
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '20010629'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: '1500.00'
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: Engel^Eliot L.^^
+  - name: CAN/DIST
+    number: '21'
+    value: H
+  - name: CONDUIT NAME
+    number: '22'
+    value: NY
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: '17'
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: Eliot L. Engel
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ' U.S. HOUSE 17th NY'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: A
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: '7607955'
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00200188","CAN","Engel for Congress","4901 Henry Hudson Pkwy","","Bronx","NY","10471","011","YTD:$1,500.00
+    Eliot L. Engel, U.S. HOUSE","P2002","",20010629,1500.00,"","","Engel^Eliot L.^^","H","NY","17","","","","","","","","Eliot
+    L. Engel, U.S. HOUSE 17th NY","A","7607955","","",""'
+  input_count: 37
+  record: <fec.version.v3.SB.Records instance at 0x156bf38>
+  result: []
+sourceurl: !!python/unicode '20020417'

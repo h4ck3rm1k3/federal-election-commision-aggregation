@@ -46491,4 +46491,42 @@ rows:
   - name: CONDUIT STREET 2
     number: '24'
     value: ''
-  - name: CONDUIT C
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: Void of 10/01 Contribution
+  - name: TRAN ID
+    number: '31'
+    value: A
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '5679057'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00106146","PAC","Bayou Leader PAC","1230 Dartmouth Road","","Alexandria","VA","22314","011","YTD:$2,000.00
+    Void of 10/01 Contribution","","",20011231,-1500.00,"","","^^^","","","0","","","","","","","","Void
+    of 10/01 Contribution","A","5679057","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0xb193ae60>
+  result: []
+sourceurl: !!python/unicode '20020415'

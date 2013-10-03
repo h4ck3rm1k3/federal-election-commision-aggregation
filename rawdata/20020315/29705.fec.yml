@@ -3982,3 +3982,153 @@ rows:
     number: '23'
     value: ''
   - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '10000001270300016'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00110338","CAN","Chris John For Congress Comm. Inc","Po Box 971","","Crowley","LA","70527","24K","YTD:$1000.00
+    Chris John, U.S. HOUSE 7th","P2002","",20020228,1000,"","","Chris John","H","LA","7","","","","","","","","","","10000001270300016","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x10899e0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00110338
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Citizens to Elect Rick Larsen
+  - name: STREET 1
+    number: '5'
+    value: PO Box 326
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Everett
+  - name: STATE
+    number: '8'
+    value: WA
+  - name: ZIP
+    number: '9'
+    value: '98206'
+  - name: TRANS CODE
+    number: '10'
+    value: 24K
+  - name: TRANS DESCRIP
+    number: '11'
+    value: YTD:$1000.00 Richard R. (Ric Larsen
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' U.S'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: P2002
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20020228'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '1000'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: Richard R. Larsen
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: WA
+  - name: CONDUIT NAME
+    number: '22'
+    value: '2'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '10000001270500017'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00110338","CAN","Citizens to Elect Rick Larsen","PO Box 326","","Everett","WA","98206","24K","YTD:$1000.00
+    Richard R. (Ric Larsen, U.S","P2002","",20020228,1000,"","","Richard R. Larsen","H","WA","2","","","","","","","","","","10000001270500017","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x1089d40>
+  result: []
+sourceurl: !!python/unicode '20020315'

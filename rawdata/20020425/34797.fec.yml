@@ -2276,4 +2276,36 @@ rows:
   - name: CONDUIT STATE
     number: '26'
     value: ''
-  
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: 22D
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: 'SB23,C00357285,,WALSH FOR CONGRESS COMMITTEE,400 Broadview Dr.,,Syracuse,NY,13215,011,"AggYTD:
+    $3,000.00 Walsh, James T--House-",P2002,,20020401,3000.00,C00225623,H8NY27036,Walsh^James
+    T,H,NY,25,,,,,,,,,,22D,,'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x19d2e60>
+  result: []
+sourceurl: !!python/unicode '20020425'

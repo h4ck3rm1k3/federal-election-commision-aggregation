@@ -57041,4 +57041,93 @@ rows:
       SUPPORT
     number: '14'
     value: '.0000'
-  - name: BALLOT COMP 
+  - name: BALLOT COMP PRES BLANK OR 1
+    number: 15-1.
+    value: ''
+  - name: BALLOT COMP SEN BLANK OR 1
+    number: 16-2.
+    value: ''
+  - name: BALLOT COMP HSE BLANK OR 1
+    number: 17-3.
+    value: ''
+  - name: SUBTOTAL FED
+    number: 18-4.
+    value: '0'
+  - name: BALLOT COMP GOV BLANK OR 1
+    number: 19-5.
+    value: ''
+  - name: OTHER STATEWIDE
+    number: 20-6.
+    value: ''
+  - name: STATE SENATE
+    number: 21-7.
+    value: ''
+  - name: STATE REP.
+    number: 22-8.
+    value: ''
+  - name: LOCAL CANDIDATES BLANK, 1 OR 2
+    number: 23-9.
+    value: ''
+  - name: EXTRA NON-FED POINT BLANK OR 1
+    number: 24-10.
+    value: ''
+  - name: SUBTOTAL
+    number: 25-11.
+    value: '0'
+  - name: TOTAL POINTS
+    number: 26-12.
+    value: '0'
+  - name: FEDERAL ALLOCATION PERCENTAGE
+    number: '27'
+    value: '.0000'
+  - name: AMENDED CD
+    number: '28'
+    value: ''
+  - name: TRAN ID
+    number: '29'
+    value: H1
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: The ASDC is in receipt of your letter of March 13
+  - value: ' 2002'
+  - value: ' in which you request information on three issues regarding our Mid-Year
+      2001 report.    1. You requested we amend our report to provide the purpose
+      for each disbursement itemized on Schedule B. This amended report includes this
+      information.   2. You requested we amend our report to include a Schedule C-1.
+      This amended report includes one. Additionally'
+  - value: ' we are mailing a hard copy of the C-1 which includes an original signature
+      from the lending institution.  3. You requested that we verify that administrative
+      expenses for the Dollars for Democrats program have been adequately disclosed.
+      This program is a joint fundraiser between the Association of State Democratic
+      Chairs and various state Democratic parties and therefore does not incur administrative
+      expenses on its own. The program is administered within the offices of the Association
+      of State Democratic Chairs'
+  - value: ' whose administrative expenses are disclosed in its reports (C00259481).'
+  expected_count: 4
+  input: '"TEXT","F3XA","","The ASDC is in receipt of your letter of March 13, 2002,
+    in which you request information on three issues regarding our Mid-Year 2001 report.    1.
+    You requested we amend our report to provide the purpose for each disbursement
+    itemized on Schedule B. This amended report includes this information.   2. You
+    requested we amend our report to include a Schedule C-1. This amended report includes
+    one. Additionally, we are mailing a hard copy of the C-1 which includes an original
+    signature from the lending institution.  3. You requested that we verify that
+    administrative expenses for the Dollars for Democrats program have been adequately
+    disclosed. This program is a joint fundraiser between the Association of State
+    Democratic Chairs and various state Democratic parties and therefore does not
+    incur administrative expenses on its own. The program is administered within the
+    offices of the Association of State Democratic Chairs, whose administrative expenses
+    are disclosed in its reports (C00259481)."'
+  input_count: 8
+  record: <fec.version.v3.TEXT.Records instance at 0x5a4d908>
+  result: []
+sourceurl: !!python/unicode '20020404'

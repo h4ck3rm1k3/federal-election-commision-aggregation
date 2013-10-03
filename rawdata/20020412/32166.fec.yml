@@ -15522,4 +15522,181 @@ rows:
     value: ' SE'
   - name: CITY
     number: '7'
-    v
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS CODE
+    number: '10'
+    value: '20003'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '12'
+    value: Contribution
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: O2002
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: Other
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20020220'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '10000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: ''
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB29.4855
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: SB29,C00028860,COM,Republican Governors Association Non-Federal Account,"310
+    First Street, SE",,Washington,DC,20003,,Contribution,O2002,Other,20020220,10000.00,,,,,,,,,,,,,,,,SB29.4855,,,
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x2352488>
+  result: []
+- input: SD9,C00028860,IND,West Virginia Fed of Teachers^^^,501 Broad Street,Stanley
+    Building,Charleston,WV,25301,Loans,1400.00,0.00,0.00,1400.00,C00028860,,,,,,,,,,,,,SD9.4679
+  record: <fec.version.v3.SD.Records instance at 0x2352560>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD9
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00028860
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: West Virginia Fed of Teachers^^^
+  - name: STREET 1
+    number: '5'
+    value: 501 Broad Street
+  - name: STREET 2
+    number: '6'
+    value: Stanley Building
+  - name: CITY
+    number: '7'
+    value: Charleston
+  - name: STATE
+    number: '8'
+    value: WV
+  - name: ZIP
+    number: '9'
+    value: '25301'
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: Loans
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: '1400.00'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '0.00'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '0.00'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '1400.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: C00028860
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: SD9.4679
+sourceurl: !!python/unicode '20020412'

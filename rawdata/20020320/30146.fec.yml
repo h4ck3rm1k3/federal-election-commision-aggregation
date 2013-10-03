@@ -6071,4 +6071,149 @@ rows:
   - name: CONDUIT STREET 2
     number: '24'
     value: ''
-  - name: CO
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: '2587960203204400910'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: 'SB23,C00163832,"CCM","Friends Of Senator Rockefeller","236 Massachusetts
+    Avenue #310","","Washington","DC","20002","","2002 Primary","P2002","","20020215",1000,"C00224972","S4WV00027","John^Rockefeller","S","WV","00","","","","","","","","","","2587960203204400910","",""'
+  input_count: 33
+  record: <fec.version.v3.SB.Records instance at 0x19e40e0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00163832
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: People For Patty Murray U S Senate Campaign
+  - name: STREET 1
+    number: '5'
+    value: Po Box 3662
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Seattle
+  - name: STATE
+    number: '8'
+    value: WA
+  - name: ZIP
+    number: '9'
+    value: '98199'
+  - name: TRANS CODE
+    number: '10'
+    value: ''
+  - name: TRANS DESCRIP
+    number: '11'
+    value: 2004 Primary
+  - name: ITEM ELECT CD
+    number: '12'
+    value: P2004
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20020219'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '500'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: C00257642
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: S2WA00189
+  - name: CANDIDATE NAME
+    number: '18'
+    value: Patty^Murray
+  - name: CAN/OFFICE
+    number: '19'
+    value: S
+  - name: CAN/STATE
+    number: '20'
+    value: WA
+  - name: CAN/DIST
+    number: '21'
+    value: '00'
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: '1182450203204392962'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: SB23,C00163832,"CCM","People For Patty Murray U S Senate Campaign","Po Box
+    3662","","Seattle","WA","98199","","2004 Primary","P2004","","20020219",500,"C00257642","S2WA00189","Patty^Murray","S","WA","00","","","","","","","","","","1182450203204392962","",""
+  input_count: 33
+  record: <fec.version.v3.SB.Records instance at 0x19e4ab8>
+  result: []
+sourceurl: !!python/unicode '20020320'

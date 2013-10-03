@@ -881,4 +881,144 @@ rows:
     number: '27'
     value: ''
   - name: MEMO CODE
-    number: 
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: 'Contribution: Wayne Allard (CO-R)'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: D1091
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00130773","CAN","Allard for Senate","507 Capitol Court, NE, #100","","Washington","DC","20002","","Contribution:
+    Wayne Allard (CO-R)","G2002","","20020130","1000.00","","","Wayne Allard (CO-R)","S","CO","0","","","","","","","","Contribution:
+    Wayne Allard (CO-R)","","D1091","","",""'
+  input_count: 36
+  record: <fec.version.v3.SB.Records instance at 0x19b3c68>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB28A
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00130773
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Capital Spice Co.
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 2930 Prosperity Avenue
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Fairfax
+  - name: ZIP
+    number: '9'
+    value: VA
+  - name: TRANS CODE
+    number: '10'
+    value: '22031'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '12'
+    value: catering services for Nancy Johnson PAC
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20020102'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '109.42'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: ''
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: catering services for Nancy Johnson PAC breakfast
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: D1087
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB28A","C00130773","IND","Capital Spice Co., Inc.","2930 Prosperity Avenue","","Fairfax","VA","22031","","catering
+    services for Nancy Johnson PAC","","","20020102","109.42","","","","","","","","","","","","","","catering
+    services for Nancy Johnson PAC breakfast","","D1087","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x19b3fc8>
+  result: []
+sourceurl: !!python/unicode '20020320'

@@ -1852,4 +1852,33 @@ rows:
   - name: BACK REF TRAN ID
     number: '32'
     value: ''
-  
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: SB28A,C00093054,"IND","Truijillo^Rita A","1923 Lawndale Street","","San Diego","CA","921544283","","Contribution
+    Refund","","","20020125",235,"","","","","","","","","","","","","","","","5433280202203523792","",""
+  input_count: 33
+  record: <fec.version.v3.SB.Records instance at 0xf72170>
+  result: []
+- input: TExT,F3XA,,"This amendment reflects an additional $20 in unitemized contributions
+    received during the reporting period."
+  record: <fec.version.v3.TEXT.Records instance at 0xf71e60>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TExT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: This amendment reflects an additional $20 in unitemized contributions received
+      during the reporting period.
+sourceurl: !!python/unicode '20020319'

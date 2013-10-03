@@ -8341,4 +8341,21 @@ rows:
     value: Void Ck - Orig Date 4/19/02 Frds of Jim Oberstar
   - name: BACK REF TRAN ID
     number: '32'
- 
+    value: A
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: '6301608'
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00009936","CAN","Friends Of Jim Oberstar","424 Warner Street, NW","","Wahsington","DC","20001","011","YTD:$1,000.00
+    Void Ck - Orig Date 4/19/0","P2002","",20020429,-500.00,"","","Oberstar^James
+    L.^^","H","MN","8","","","","","","","","Void Ck - Orig Date 4/19/02 Frds of Jim
+    Oberstar","A","6301608","","",""'
+  input_count: 36
+  record: <fec.version.v3.SB.Records instance at 0x19a20e0>
+  result: []
+sourceurl: !!python/unicode '20020517'

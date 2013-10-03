@@ -324,4 +324,31 @@ rows:
   - name: NAME/TREASURER (as signed)
     number: '106'
     value: DeFedericus^Daniel^Mr.^
-  - 
+  - name: Signed
+    number: 107-
+    value: '20020508'
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XN
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: The filing was late due to the fact that I am utilizing a computer that
+      I do not usually work off of.  I had thought that the report had gone through
+  - value: ' but upon notification from the FEC realized that it had not.  I apologize
+      and will be timely in future filings.'
+  expected_count: 4
+  input: TEXT,F3XN,,"The filing was late due to the fact that I am utilizing a computer
+    that I do not usually work off of.  I had thought that the report had gone through,
+    but upon notification from the FEC realized that it had not.  I apologize and
+    will be timely in future filings."
+  input_count: 5
+  record: <fec.version.v3.TEXT.Records instance at 0x19d2170>
+  result: []
+sourceurl: !!python/unicode '20020508'

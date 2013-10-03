@@ -703,3 +703,187 @@ rows:
   - name: ITEM ELECT CD
     number: '12'
     value: 500 YTD
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: P2002
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20020228'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '1500.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: C00081141
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: Charles Stenholm^^^
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: TX
+  - name: CONDUIT NAME
+    number: '22'
+    value: '17'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.4660
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: SB23,C00279505,CAN,Stenholm for Congress Committee^^^,P.O. Box 1032,,Stamford,TX,79553,,"Political
+    Contribution - 011; $1,500 YTD",P2002,,20020228,1500.00,C00081141,,Charles Stenholm^^^,H,TX,17,,,,,,,,,,SB23.4660,,,
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x19b3a70>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB29
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00279505
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Bill Jones for Governor^^^
+  - name: STREET 1
+    number: '5'
+    value: 921 11th Street
+  - name: STREET 2
+    number: '6'
+    value: ' Suite 110'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Sacramento
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: TRANS CODE
+    number: '10'
+    value: '95814'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '12'
+    value: Political Contribution - 011; $250 YTD
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: P2002
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20020207'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '250.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: Bill Jones^^^
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: CA
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB29.4657
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: SB29,C00279505,CAN,Bill Jones for Governor^^^,"921 11th Street, Suite 110",,Sacramento,CA,95814,,Political
+    Contribution - 011; $250 YTD,P2002,,20020207,250.00,,,Bill Jones^^^,,CA,,,,,,,,,,,SB29.4657,,,
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x19b3fc8>
+  result: []
+sourceurl: !!python/unicode '20020312'

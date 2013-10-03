@@ -2405,4 +2405,92 @@ rows:
   - name: CITY
     number: '7'
     value: Alexandria
-  - name: ST
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22313'
+  - name: TRANS CODE
+    number: '10'
+    value: 24K
+  - name: TRANS DESCRIP
+    number: '11'
+    value: YTD:$5000.00 John Warner
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' U.S. SENATE VA'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: G2002
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20020219'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '5000'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: John Warner
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: VA
+  - name: CONDUIT NAME
+    number: '22'
+    value: '1'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '10000003614000012'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00100321","CAN","Sentor John Warner Committee","P.O. Box 1266","","Alexandria","VA","22313","24K","YTD:$5000.00
+    John Warner, U.S. SENATE VA","G2002","",20020219,5000,"","","John Warner","","VA","1","","","","","","","","","","10000003614000012","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x19a26c8>
+  result: []
+sourceurl: !!python/unicode '20020403'

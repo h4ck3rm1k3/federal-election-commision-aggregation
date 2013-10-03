@@ -78938,4 +78938,32 @@ rows:
   input: 'SD10,C00337428,IND,Goeas^Carol^^,"122 C St. NW, #505",,Washington,DC,20001,Fundraising
     commission fees in dispute,5800.00,0.00,0.00,5800.00,C00337428,,,,,,,,,,,,,SD10.5613'
   input_count: 29
-  record: <fec.version.v3
+  record: <fec.version.v3.SD.Records instance at 0x8bb1758>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SD10
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: SD10.5613
+  - name: TEXT4000
+    number: '4'
+    value: The dispute over commission fees in the 1998 campaign is based on a verbal
+      agreement between Ms. Carol Goeas and Mr. Gleason.  Both disagree with the others
+      statements.  Based on this and no written contract
+  - value: ' the committee has not paid Ms. Goeas any monies after the completion
+      of the first written contract.'
+  expected_count: 4
+  input: TEXT,SD10,SD10.5613,"The dispute over commission fees in the 1998 campaign
+    is based on a verbal agreement between Ms. Carol Goeas and Mr. Gleason.  Both
+    disagree with the others statements.  Based on this and no written contract, the
+    committee has not paid Ms. Goeas any monies after the completion of the first
+    written contract."
+  input_count: 5
+  record: <fec.version.v3.TEXT.Records instance at 0x8bae170>
+  result: []
+sourceurl: !!python/unicode '20020227'

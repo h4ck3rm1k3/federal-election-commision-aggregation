@@ -24809,4 +24809,159 @@ rows:
   - name: CONDUIT NAME
     number: '22'
     value: '7'
-  - name: C
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: 'Returned Check #3734 dated 1/10/2002 for John A. Arnold'
+  - name: TRAN ID
+    number: '31'
+    value: ' Jr. (KY-7-D).'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: D19202
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB29","C00027342","CAN","Committee to Re-Elect John Arnold","IBEW Local
+    1701 PAC Fund","2911 West Parrish Avenue","Owensboro","KY","42301","","Returned
+    Check #3734 dated 1/10/2002 for","O2002","Non-Federal","20020228","-300.00","","","John
+    A. Arnold, Jr. (KY-7-D)","","KY","7","","","","","","","","Returned Check #3734
+    dated 1/10/2002 for John A. Arnold, Jr. (KY-7-D).","","D19202","","",""'
+  input_count: 36
+  record: <fec.version.v3.SB.Records instance at 0x3138248>
+  result: []
+- input: '"SB29","C00027342","CAN","Ken Jones for Precinct 3 Constable Fund","PO Box
+    1204","","Baytown","TX","775221204","","Returned Check #4020 dated 2/28/2002 for","O2002","Non-Federal","20020228","-500.00","","","Ken
+    Jones (TX-D)","","TX","","","","","","","","","Returned Check #4020 dated 2/28/2002
+    for Ken Jones (TX-D).","","D19203","","",""'
+  record: <fec.version.v3.SB.Records instance at 0x3138710>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB29
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00027342
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Ken Jones for Precinct 3 Constable Fund
+  - name: STREET 1
+    number: '5'
+    value: PO Box 1204
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Baytown
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '775221204'
+  - name: TRANS CODE
+    number: '10'
+    value: ''
+  - name: TRANS DESCRIP
+    number: '11'
+    value: 'Returned Check #4020 dated 2/28/2002 for'
+  - name: ITEM ELECT CD
+    number: '12'
+    value: O2002
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: Non-Federal
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20020228'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '-500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: Ken Jones (TX-D)
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: TX
+  - name: CAN/DIST
+    number: '21'
+    value: ''
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: 'Returned Check #4020 dated 2/28/2002 for Ken Jones (TX-D).'
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: D19203
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+sourceurl: !!python/unicode '20020318'

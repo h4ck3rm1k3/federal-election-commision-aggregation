@@ -15990,4 +15990,17 @@ rows:
   - name: BACK REF TRAN ID
     number: '3'
     value: B26-12-00115-00130
-  - name:
+  - name: TEXT4000
+    number: '4'
+    value: See Schedule D
+  - value: ' line 10'
+  - value: ' item C'
+  - value: ' Transaction ID SD10-000003'
+  - value: ' for misdeposited contributions'
+  expected_count: 4
+  input: '"TEXT","SB26","B26-12-00115-00130","See Schedule D, line 10, item C, Transaction
+    ID SD10-000003, for misdeposited contributions"'
+  input_count: 8
+  record: <fec.version.v3.TEXT.Records instance at 0x19b3cf8>
+  result: []
+sourceurl: !!python/unicode '20020412'

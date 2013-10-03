@@ -3504,4 +3504,132 @@ rows:
   - value: ''
   expected_count: 38
   input: '"H4","C00307405","","Hyatt Regency","of Washington, DC","c/o PO Box 50882","Henderson","NV","89016","",20011210,233.58,175.19,58.39,"X","","","",297957.64,"Lodging/Bank
-    One
+    One Visa Item. of Bank One Visa","","","","","",0,"","","","","","","A","5357064","X","Lodging/Bank
+    One Visa Item. of Bank One Visa","",""'
+  input_count: 39
+  record: <fec.version.v3.SH4.Records instance at 0x156b758>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00307405
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Atwood Cafe
+  - name: STREET 1
+    number: '5'
+    value: of Chicago
+  - name: STREET 2
+    number: '6'
+    value: ' IL'
+  - name: CITY
+    number: '7'
+    value: c/o PO Box 50882
+  - name: STATE
+    number: '8'
+    value: Henderson
+  - name: ZIP
+    number: '9'
+    value: NV
+  - name: PURPOSE/EVENT
+    number: '10'
+    value: '89016'
+  - name: DATE
+    number: '11'
+    value: ''
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '20011210'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '79.45'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '59.59'
+  - name: Activity Is Admin./Voter Drive
+    number: 15-
+    value: '19.86'
+  - name: Activity Is Fundrainsig
+    number: 16-
+    value: X
+  - name: Activity Is Exempt
+    number: 17-
+    value: ''
+  - name: Act. Direct Can Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: ''
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: '297957.64'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: Meeting Expense/Bank One Visa Item. of Bank One Visa
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: '0'
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: A
+  - name: MEMO CODE
+    number: '35'
+    value: '5357065'
+  - name: MEMO TEXT
+    number: '36'
+    value: X
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: Meeting Expense/Bank One Visa Item. of Bank One Visa
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: ''
+  - value: ''
+  expected_count: 38
+  input: '"H4","C00307405","","Atwood Cafe","of Chicago, IL","c/o PO Box 50882","Henderson","NV","89016","",20011210,79.45,59.59,19.86,"X","","","",297957.64,"Meeting
+    Expense/Bank One Visa Item. of Bank One Visa","","","","","",0,"","","","","","","A","5357065","X","Meeting
+    Expense/Bank One Visa Item. of Bank One Visa","",""'
+  input_count: 39
+  record: <fec.version.v3.SH4.Records instance at 0x156bfc8>
+  result: []
+sourceurl: !!python/unicode '20020326'

@@ -4723,4 +4723,18 @@ rows:
   - name: TRAN ID
     number: '31'
     value: D04dz0V
- 
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '                    '
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB17","C00145862","ORG","Virginia Department of Taxation","P.O. Box 27264","","Richmond","VA","23261","","Withholding","P2000","",20020404,10.29,"","","","","",,"","","","","","","","","","D04dz0V","                    "'
+  input_count: 32
+  record: <fec.version.v3.SB.Records instance at 0x19b3c68>
+  result: []
+sourceurl: !!python/unicode '20020426'

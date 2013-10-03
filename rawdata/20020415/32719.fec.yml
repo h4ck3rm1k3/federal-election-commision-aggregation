@@ -319,4 +319,150 @@ rows:
     number: 104-36.
     value: '0.00'
   - name: Net Operating Expenditures
- 
+    number: 105-37.
+    value: '399.47'
+  - name: NAME/TREASURER (as signed)
+    number: '106'
+    value: Lassman^Malcolm^^
+  - name: Signed
+    number: 107-
+    value: '20020415'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB21B
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00281428
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Akin
+  - name: STREET 1
+    number: '5'
+    value: ' Gump'
+  - name: STREET 2
+    number: '6'
+    value: ' Stauss'
+  - name: CITY
+    number: '7'
+    value: ' Hauer & Feld'
+  - name: STATE
+    number: '8'
+    value: ' L.L.P'
+  - name: ZIP
+    number: '9'
+    value: 1333 New Hampshire Avenue
+  - name: TRANS CODE
+    number: '10'
+    value: ' NW'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '12'
+    value: Washington
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: DC
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20036'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: Legal Compliance
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: '20020207'
+  - name: CAN/STATE
+    number: '20'
+    value: '275.57'
+  - name: CAN/DIST
+    number: '21'
+    value: ''
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  - value: SB21B.4180
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: SB21B,C00281428,ORG,"Akin, Gump, Stauss, Hauer & Feld, L.L.P","1333 New Hampshire
+    Avenue, NW",,Washington,DC,20036,,Legal Compliance,,,20020207,275.57,,,,,,,,,,,,,,,,SB21B.4180,,,
+  input_count: 39
+  record: <fec.version.v3.SB.Records instance at 0x34411290>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SB21B
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: SB21B.4180
+  - name: TEXT4000
+    number: '4'
+    value: The Policy Group is a volunteer organization and does not incur administrative
+      costs (such as rent
+  - value: ' utilities'
+  - value: ' salaries'
+  - value: ' etc.)  other than those that fall under ''legal compliance''.'
+  expected_count: 4
+  input: TEXT,SB21B,SB21B.4180,"The Policy Group is a volunteer organization and does
+    not incur administrative costs (such as rent, utilities, salaries, etc.)  other
+    than those that fall under 'legal compliance'."
+  input_count: 7
+  record: <fec.version.v3.TEXT.Records instance at 0x34411f80>
+  result: []
+sourceurl: !!python/unicode '20020415'

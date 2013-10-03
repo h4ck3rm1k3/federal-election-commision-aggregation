@@ -75726,4 +75726,35 @@ rows:
   - value: ' the committee has made multiple and documented telphonic efforts and
       one written request for the missing information; most information has been obtained.'
   expected_count: 4
-  input: '"TEXT","SA11AI","","For any
+  input: '"TEXT","SA11AI","","For any contributors marked Best Efforts, the committee
+    has made multiple and documented telphonic efforts and one written request for
+    the missing information; most information has been obtained."'
+  input_count: 5
+  record: <fec.version.v3.TEXT.Records instance at 0x489b098>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SB22
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: The Transfers to the non-federal account correct errors that were identified
+      in past reporting periods.  On or about July 19
+  - value: ' 2001'
+  - value: ' amendments were filed for the entire year 2000; this are the necessary
+      correcting adjustments to the federal account.'
+  expected_count: 4
+  input: '"TEXT","SB22","","The Transfers to the non-federal account correct errors
+    that were identified in past reporting periods.  On or about July 19, 2001, amendments
+    were filed for the entire year 2000; this are the necessary correcting adjustments
+    to the federal account."'
+  input_count: 6
+  record: <fec.version.v3.TEXT.Records instance at 0x48aae60>
+  result: []
+sourceurl: !!python/unicode '20020323'

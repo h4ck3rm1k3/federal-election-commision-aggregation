@@ -24555,4 +24555,159 @@ rows:
   - name: BACK REF TRAN ID
     number: '40'
     value: ''
-  - na
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 41
+  input: '"SE24","C00053553","","EDMONDS HACKNEY & ASSOCIATES, INC.","900 SECOND STREET,
+    NE  #118","","WASHINGTON","DC","20002","RADIO AD",20010723,3565.82,"SUP","","Forbes^Randy^^","H","VA","4","C00365692","","","","","","","","","","","","",,,,"","A","108429","","","",""'
+  input_count: 43
+  record: <fec.version.v3.SE.Records instance at 0x19d2098>
+  result: []
+- input: '"SE24","C00053553","","Prolist Professional Data Service","8341 Beechcraft
+    Avenue","","Gaithersburg","MD","208791509","POSTCARDS",20010723,3894.13,"OPP","","Lucas^L
+    Louise^^","H","VA","4","C00366146","","","","","","","","","","","","",,,,"","A","167009","","","",""'
+  record: <fec.version.v3.SE.Records instance at 0x19d2830>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00053553
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Prolist Professional Data Service
+  - name: STREET 1
+    number: '5'
+    value: 8341 Beechcraft Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Gaithersburg
+  - name: STATE
+    number: '8'
+    value: MD
+  - name: ZIP
+    number: '9'
+    value: '208791509'
+  - name: TRANSDESC
+    number: '10'
+    value: POSTCARDS
+  - name: DATE
+    number: '11'
+    value: '20010723'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '3894.13'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: OPP
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Lucas^L Louise^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: VA
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '4'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00366146
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: A
+  - name: TRAN ID
+    number: '37'
+    value: '167009'
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+- input: '"TEXT","F3XA","","This amendment updates employment information for line
+    11."'
+  record: <fec.version.v3.TEXT.Records instance at 0x19d2b00>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: This amendment updates employment information for line 11.
+sourceurl: !!python/unicode '20020417'

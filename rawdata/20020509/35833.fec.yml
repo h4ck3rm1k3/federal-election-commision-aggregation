@@ -54632,3 +54632,22 @@ rows:
     number: '30'
     value: A
   - name: TRAN ID
+    number: '31'
+    value: 0131200249E3559
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB20C","C00364349","PAC","SMAC PAC","Government Affairs Director","P.O.
+    Box 221230 ","Chantilly","VA","20153    ","","Refund of Contribution Refund of
+    Contrib","P    ","",20010710,2500.00,"","","","","","","","","","","","",,"","A","0131200249E3559"'
+  input_count: 31
+  record: <fec.version.v3.SB.Records instance at 0x50f4ea8>
+  result: []
+sourceurl: !!python/unicode '20020509'

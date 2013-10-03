@@ -7416,4 +7416,25 @@ rows:
   - name: AMENDED CD
     number: '30'
     value: ''
-  - name: T
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: SB17.4286
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: SB17,C00373134,CAN,Dayan^Sigfried^Mr.^,506 Wesleyan Drive,,Macon,GA,31210,,"In-kind
+    - GAS, RACETRAC#284, COMMERCE,GA",,,20020330,15.00,,,,H,GA,03,,,,,,,,,,SB17.4286,,,
+  input_count: 37
+  record: <fec.version.v3.SB.Records instance at 0x55ba950>
+  result: []
+sourceurl: !!python/unicode '20020416'

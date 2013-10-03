@@ -10757,4 +10757,132 @@ rows:
   - name: DATE OF EXPENDITURE
     number: '14'
     value: '20020328'
-  - name: AMOUNT
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '564.34'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: C00090357
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: JERRY LEWIS
+  - name: CAN/OFFICE
+    number: '19'
+    value: H
+  - name: CAN/STATE
+    number: '20'
+    value: CA
+  - name: CAN/DIST
+    number: '21'
+    value: '41'
+  - name: CONDUIT NAME
+    number: '22'
+    value: BELLAGIO
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: 3600 LAS VEGAS BLVD.
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: SOUTH
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: LAS VEGAS
+  - name: CONDUIT ZIP
+    number: '27'
+    value: NV
+  - name: MEMO CODE
+    number: '28'
+    value: '89109'
+  - name: MEMO TEXT
+    number: '29'
+    value: X
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: EDT:B:23
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: SB23,C00299321,COM,LEWIS FOR CONGRESS COMMITTEE,P.O. BOX 247,,REDLANDS,CA,92373,011,PRE-PAYMENT
+    OF CATERING,G2002,,20020328,564.34,C00090357,,JERRY LEWIS,H,CA,41,BELLAGIO,"3600
+    LAS VEGAS BLVD.,SOUTH",,LAS VEGAS,NV,89109,X,,,EDT:B:23,,,
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x55bae18>
+  result: []
+- input: TEXT,SB23,EDT:B:23,IN-KIND CONTRIBUTION FOR EVENT ON 4/4/02
+  record: <fec.version.v3.TEXT.Records instance at 0x55ba7e8>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SB23
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: EDT:B:23
+  - name: TEXT4000
+    number: '4'
+    value: IN-KIND CONTRIBUTION FOR EVENT ON 4/4/02
+- input: TEXT,SB23,EXP:B:9088,IN-KIND CONTRIBUTION FOR EVENT ON 4/4/02
+  record: <fec.version.v3.TEXT.Records instance at 0x55bae18>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SB23
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: EXP:B:9088
+  - name: TEXT4000
+    number: '4'
+    value: IN-KIND CONTRIBUTION FOR EVENT ON 4/4/02
+- input: TEXT,SB23,EXP:B:8960,IN-KIND CONTRIBUTION FOR EVENT ON 4/4/02
+  record: <fec.version.v3.TEXT.Records instance at 0x55ba7e8>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SB23
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: EXP:B:8960
+  - name: TEXT4000
+    number: '4'
+    value: IN-KIND CONTRIBUTION FOR EVENT ON 4/4/02
+- input: TEXT,SB23,EDT:B:22,IN-KIND CONTRIBUTION FOR EVENT ON 4/4/02
+  record: <fec.version.v3.TEXT.Records instance at 0x55bae18>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SB23
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: EDT:B:22
+  - name: TEXT4000
+    number: '4'
+    value: IN-KIND CONTRIBUTION FOR EVENT ON 4/4/02
+sourceurl: !!python/unicode '20020418'

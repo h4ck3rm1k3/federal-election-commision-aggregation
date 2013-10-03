@@ -59342,4 +59342,132 @@ rows:
     number: '31'
     value: A
   - name: BACK REF TRAN ID
-    num
+    number: '32'
+    value: '1878486'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00211318","PTY","Republican National Committee Majority Fund","PO
+    Box 19897","","Alexandria","VA","223020897","011","YTD:$15,000.00 Contribution","","",20010221,15000.00,"","","^^^","","","0","","","","","","","","Contribution","A","1878486","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x6494638>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00211318
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Enzi for U.S. Senate
+  - name: STREET 1
+    number: '5'
+    value: 501 S. Gillette Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Gillette
+  - name: STATE
+    number: '8'
+    value: WY
+  - name: ZIP
+    number: '9'
+    value: '82414'
+  - name: TRANS CODE
+    number: '10'
+    value: '011'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: YTD:$2
+  - name: ITEM ELECT CD
+    number: '12'
+    value: 000.00 Michael B. Enzi
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ' U.S. SENA'
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: P2002
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '20010221'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: '2000.00'
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: Enzi^Michael B.^^
+  - name: CAN/DIST
+    number: '21'
+    value: S
+  - name: CONDUIT NAME
+    number: '22'
+    value: WY
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: '2'
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: Michael B. Enzi
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ' U.S. SENATE WY'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: A
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: '1878490'
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00211318","CAN","Enzi for U.S. Senate","501 S. Gillette Avenue","","Gillette","WY","82414","011","YTD:$2,000.00
+    Michael B. Enzi, U.S. SENA","P2002","",20010221,2000.00,"","","Enzi^Michael B.^^","S","WY","2","","","","","","","","Michael
+    B. Enzi, U.S. SENATE WY","A","1878490","","",""'
+  input_count: 37
+  record: <fec.version.v3.SB.Records instance at 0x6494998>
+  result: []
+sourceurl: !!python/unicode '20020313'

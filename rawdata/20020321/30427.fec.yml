@@ -1241,4 +1241,30 @@ rows:
     value: IN
   - name: ZIP
     number: '8'
-    val
+    value: '47960'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2IN05025
+  - name: CANDIDATE NAME
+    number: '10'
+    value: BUYER
+  - name: CAN/OFFICE
+    number: '11'
+    value: ^STEVEN
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: IN
+  - name: Signed
+    number: 14-
+    value: '04'
+  - value: '20020321'
+  expected_count: 14
+  input: F6N,C00255471,HOOSIERS SUPPORTING BUYER FOR CONGRESS,200 NORTH MAIN ST,PO
+    BOX 712,MONTICELLO,IN,47960,H2IN05025,"BUYER,^STEVEN",H,IN,04,20020321
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x19b3b48>
+  result: []
+sourceurl: !!python/unicode '20020321'

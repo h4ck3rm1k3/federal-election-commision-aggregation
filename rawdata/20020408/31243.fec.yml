@@ -896,4 +896,19 @@ rows:
   - name: BACK REF TRAN ID
     number: '32'
     value: A
-  - name: BACK REF 
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: '5971496'
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB29","C00088435","CAN","BILL BUTLER CAMPAIGN","P.O. BOX 849","","ADA","FL","74820","011","Bill
+    BUTLER, STATE HOUSE 56th FL","O2002","2002-OTHER-FEDERAL",20020321,500.00,"","","BUTLER^Bill^^","H","FL","56","","","","","","","","Bill
+    BUTLER, STATE HOUSE 56th FL","A","5971496","","",""'
+  input_count: 36
+  record: <fec.version.v3.SB.Records instance at 0x6e18f38>
+  result: []
+sourceurl: !!python/unicode '20020408'

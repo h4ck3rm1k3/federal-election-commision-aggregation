@@ -3562,4 +3562,141 @@ rows:
   - name: CONDUIT STATE
     number: '26'
     value: ''
-  - 
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '10000000252900015'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00262295","CAN","Wyden for Senate","123 NE 3rd","Suite 321","Portland","OR","97232","24K","YTD:$1000.00
+    Ron Wyden, U.S. SENATE OR","P2004","",20010329,1000,"C00308676","","Sen. Ron Wyden","S","OR","","","","","","","","","","","10000000252900015","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0xf71f80>
+  result: []
+- input: '"SB23","C00262295","CAN","Bass Victory Committee","PO Box 3451","","Concord","NH","03302","24K","YTD:$0.00
+    Voided Check","P2002","",20010329,-500,"C00302570","","Rep. Charles Bass","H","NH","2","","","","","","","","","","10000000253000016","","",""'
+  record: <fec.version.v3.SB.Records instance at 0x114d2d8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00262295
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Bass Victory Committee
+  - name: STREET 1
+    number: '5'
+    value: PO Box 3451
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Concord
+  - name: STATE
+    number: '8'
+    value: NH
+  - name: ZIP
+    number: '9'
+    value: '03302'
+  - name: TRANS CODE
+    number: '10'
+    value: 24K
+  - name: TRANS DESCRIP
+    number: '11'
+    value: YTD:$0.00 Voided Check
+  - name: ITEM ELECT CD
+    number: '12'
+    value: P2002
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20010329'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '-500'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: C00302570
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: Rep. Charles Bass
+  - name: CAN/OFFICE
+    number: '19'
+    value: H
+  - name: CAN/STATE
+    number: '20'
+    value: NH
+  - name: CAN/DIST
+    number: '21'
+    value: '2'
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: '10000000253000016'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+sourceurl: !!python/unicode '20020408'

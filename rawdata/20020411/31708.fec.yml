@@ -1714,4 +1714,20 @@ rows:
   - name: TRAN ID
     number: '31'
     value: ''
-  - name: BACK 
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.10598
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: SB23,C00354753,CCM,JEFFERSON COMMITTEE,650 POYDRAS ST SUITE 2245,,NEW ORLEANS,LA,70130,,"November
+    5, 2002 Primary Election in LA",P2002,,20020318,1000.00,C00251348,,JEFFERSON COMMITTEE,H,LA,02,,,,,,,,,,SB23.10598,,,
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x11525f0>
+  result: []
+sourceurl: !!python/unicode '20020411'

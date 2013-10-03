@@ -6612,4 +6612,33 @@ rows:
     value: ''
   - name: BACK REF SCHED NAME
     number: '33'
-   
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: SB23,C00000984,"CCM","Volunteers For Shimkus","Po Box 5458","Po Box 5458","Springfield","IL","627055458","","2002
+    Primary","P2002","","20020320",1500,"C00258855","H2IL20042","John^Shimkus","H","IL","19","","","","","","","","","","6161880204095531077","",""
+  input_count: 33
+  record: <fec.version.v3.SB.Records instance at 0x19a2680>
+  result: []
+- input: TEXT,F3XA,,"Disbursement for Billy Tauzin Congressional Committee was incorrecty
+    designated to the 2002 Primary in the original report. This amendment designates
+    the disbursement to the 2002 General."
+  record: <fec.version.v3.TEXT.Records instance at 0x19a2200>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: Disbursement for Billy Tauzin Congressional Committee was incorrecty designated
+      to the 2002 Primary in the original report. This amendment designates the disbursement
+      to the 2002 General.
+sourceurl: !!python/unicode '20020424'

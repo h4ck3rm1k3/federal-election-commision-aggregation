@@ -1272,4 +1272,187 @@ rows:
     value: ''
   - name: CANDIDATE NAME
     number: '18'
-    value: Menendez^Rob
+    value: Menendez^Robert^^
+  - name: CAN/OFFICE
+    number: '19'
+    value: H
+  - name: CAN/STATE
+    number: '20'
+    value: NJ
+  - name: CAN/DIST
+    number: '21'
+    value: '13'
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: Disb00009654W&J001
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00370866
+  - name: COMMITTEE NAME
+    number: '3'
+    value: COMMITTEE TO ELECT BILL KIRBY
+  - name: STREET 1
+    number: '4'
+    value: '1010 RACQUET CLUB DR #105'
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: AUBURN
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '95603'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2CA04072
+  - name: CANDIDATE NAME
+    number: '10'
+    value: KIRBY
+  - name: CAN/OFFICE
+    number: '11'
+    value: ^WILLIAM^WARNER
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: CA
+  - name: Signed
+    number: 14-
+    value: '04'
+  - value: '20020301'
+  expected_count: 14
+  input: 'F6N,C00370866,COMMITTEE TO ELECT BILL KIRBY,1010 RACQUET CLUB DR #105,,AUBURN,CA,95603,H2CA04072,"KIRBY,^WILLIAM^WARNER",H,CA,04,20020301'
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x114d4d0>
+  result: []
+- input: F65,C00370866,PAC,California Medical Association PAC,1201 J Street,Suite
+    275,Sacramento,CA,95814,,,20020228,1000.00,C00003194,,,,,,,,,,,,A,F65.00000
+  record: <fec.version.v3.F65.Records instance at 0x114de60>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00370866
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: California Medical Association PAC
+  - name: STREET 1
+    number: '5'
+    value: 1201 J Street
+  - name: STREET 2
+    number: '6'
+    value: Suite 275
+  - name: CITY
+    number: '7'
+    value: Sacramento
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '95814'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020228'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00003194
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: A
+  - name: TRAN ID
+    number: '27'
+    value: F65.00000
+sourceurl: !!python/unicode '20020302'

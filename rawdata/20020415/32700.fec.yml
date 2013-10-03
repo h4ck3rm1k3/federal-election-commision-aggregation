@@ -5351,4 +5351,77 @@ rows:
   - name: ITEM ELECT CD
     number: '12'
     value: Contribution - Federal
-  - na
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: P2002
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20020315'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: John Porter
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: NV
+  - name: CONDUIT NAME
+    number: '22'
+    value: '03'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: N
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: Pay 105
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB23","C00312579","ORG","John Porter","601 Whitney Ranch Lane, Suite 17",,"Henderson","NY","89104    ","011","Contribution
+    - Federal","P2002","","20020315","1000.00","","","John Porter","H","NV","03","","","","","","","","","N","Pay
+    105"'
+  input_count: 32
+  record: <fec.version.v3.SB.Records instance at 0x19b3ea8>
+  result: []
+sourceurl: !!python/unicode '20020415'

@@ -9268,4 +9268,100 @@ rows:
   - value: SD10.4677
   expected_count: 28
   input: 'SD10,C00370098,IND,Swift^Afton^^,26031 72nd Ave NW #B208,,Stanwood,WA,98292,"staff
-    nontr
+    nontravel in kind cont, postage",0.00,36.06,0.00,36.06,C00370098,,,,,,,,,,,,,SD10.4677'
+  input_count: 29
+  record: <fec.version.v3.SD.Records instance at 0x19b3a70>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00370098
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: Swift^Afton^^
+  - name: STREET 1
+    number: '5'
+    value: '26031 72nd Ave NW #B208'
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Stanwood
+  - name: STATE
+    number: '8'
+    value: WA
+  - name: ZIP
+    number: '9'
+    value: '98292'
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: staff nontravel in kind cont
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: ' office sup'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '0.00'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '14.16'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '0.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: '14.16'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: C00370098
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: ''
+  - value: SD10.4678
+  expected_count: 28
+  input: 'SD10,C00370098,IND,Swift^Afton^^,26031 72nd Ave NW #B208,,Stanwood,WA,98292,"staff
+    nontravel in kind cont, office sup",0.00,14.16,0.00,14.16,C00370098,,,,,,,,,,,,,SD10.4678'
+  input_count: 29
+  record: <fec.version.v3.SD.Records instance at 0xf72098>
+  result: []
+sourceurl: !!python/unicode '20020415'

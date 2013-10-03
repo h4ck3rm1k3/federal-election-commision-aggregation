@@ -25713,4 +25713,94 @@ rows:
   input: 'F6N,C00370866,COMMITTEE TO ELECT BILL KIRBY,1010 RACQUET CLUB DR #105,,AUBURN,CA,95603,H2CA04072,"KIRBY,^WILLIAM^WARNER",H,CA,04,20020305'
   input_count: 15
   record: <fec.version.v3.F6.Records instance at 0x55ba5f0>
-  result: 
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00370866
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: CALIFORNIA LEAGUE OF CONSERVATION VOTERS
+  - name: STREET 1
+    number: '5'
+    value: 555 CAPITOL MALL
+  - name: STREET 2
+    number: '6'
+    value: ' SUITE 1425'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: SACRAMENTO
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: INDEMP
+    number: '10'
+    value: '95814'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20020305'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '3000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: A
+  - value: F65.00000
+  expected_count: 27
+  input: F65,C00370866,PAC,CALIFORNIA LEAGUE OF CONSERVATION VOTERS,"555 CAPITOL MALL,
+    SUITE 1425",,SACRAMENTO,CA,95814,,,20020305,3000.00,,,,,,,,,,,,,A,F65.00000
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x55ba518>
+  result: []
+sourceurl: !!python/unicode '20020306'

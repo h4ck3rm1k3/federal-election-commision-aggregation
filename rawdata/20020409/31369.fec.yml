@@ -17818,4 +17818,17 @@ rows:
   - name: BACK REF TRAN ID
     number: '32'
     value: '10000000578000037'
-  - name: BACK
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB29","C00244426","PAC","DC Chamber of Commerce PAC","1213 K Street, N.W.","","Washington","DC","20005","","YTD:$1000.00
+    DC Chamber of Commerce 1st","O2002","",20020311,1000,"","","","","","","","","","","","","","","","10000000578000037","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x19d2998>
+  result: []
+sourceurl: !!python/unicode '20020409'

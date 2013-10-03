@@ -12941,4 +12941,125 @@ rows:
   - name: TRAN ID
     number: '31'
     value: A
-  - name: B
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '5539024'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00271007","CAN","Dole 2002 Committee","Post Office Box 2109","","Salisbury","NC","28145","011","YTD:$1,000.00","P2002","",20011210,1000.00,"C00369140","","Dole^Elizabeth^^","S","NC","0","","","","","","","","","A","5539024","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x55ba290>
+  result: []
+- input: '"SB23","C00271007","CAN","Friends Of Sessions Senate Committee Inc","P O
+    Box 4278","","Montgomery","AL","36103","011","","P2002","",20011230,0.00,"C00306704","","Sessions^Jeff^Sen.^","S","AL","2","","","","","","","","","A","5539025","","",""'
+  record: <fec.version.v3.SB.Records instance at 0x55ba0e0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00271007
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Friends Of Sessions Senate Committee Inc
+  - name: STREET 1
+    number: '5'
+    value: P O Box 4278
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Montgomery
+  - name: STATE
+    number: '8'
+    value: AL
+  - name: ZIP
+    number: '9'
+    value: '36103'
+  - name: TRANS CODE
+    number: '10'
+    value: '011'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '12'
+    value: P2002
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20011230'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '0.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: C00306704
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: Sessions^Jeff^Sen.^
+  - name: CAN/OFFICE
+    number: '19'
+    value: S
+  - name: CAN/STATE
+    number: '20'
+    value: AL
+  - name: CAN/DIST
+    number: '21'
+    value: '2'
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: A
+  - name: TRAN ID
+    number: '31'
+    value: '5539025'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+sourceurl: !!python/unicode '20020401'

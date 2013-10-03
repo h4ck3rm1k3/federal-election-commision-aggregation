@@ -2468,4 +2468,23 @@ rows:
   - name: AMENDED CD
     number: '30'
     value: ''
-  - name: TRAN
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: Disb00010929W&J001
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00039206","COM","Rangel for Congress","PO Box 5577",,"Manhattanville","NY","10027",,"Charles
+    B. Rangel, U.S. HOUSE NY-15","G2002",,"20020426",500.00,,,"Rangel^Charles B.^^","H","NY","15",,,,,,,,,,"Disb00010929W&J001",,,'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x114d4d0>
+  result: []
+sourceurl: !!python/unicode '20020515'

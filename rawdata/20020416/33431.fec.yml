@@ -16592,4 +16592,28 @@ rows:
   - name: CONDUIT ZIP
     number: '32'
     value: ''
-  - name: AMENDED
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: H40412200240E6993
+  - name: MEMO CODE
+    number: '35'
+    value: ''
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: NO VALUE!
+  expected_count: 38
+  input: '"H4","C00167320","","United States Postal Service","Weston Street","","Hartford","CT","06101    ","Postage
+    2002 JJB DINNER",20020328,170.00,17.00,153.00,"","X","","",5822.26,"","","","","","","","","","","","",,"","H40412200240E6993","","",""'
+  input_count: 37
+  record: <fec.version.v3.SH4.Records instance at 0x114d1b8>
+  result: []
+sourceurl: !!python/unicode '20020416'

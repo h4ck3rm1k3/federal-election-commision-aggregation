@@ -1299,4 +1299,159 @@ rows:
   - name: CAN/STATE
     number: '20'
     value: S
- 
+  - name: CAN/DIST
+    number: '21'
+    value: TX
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.4684
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: SB23,C00194555,CAN,Kirk^Ron^^,"3232 McKinney Avenue, Suite 855",,Dallas,TX,75204,,campaign
+    contribution,G2002,,20020403,1000.00,,,,S,TX,,,,,,,,,,,SB23.4684,,,
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x1152878>
+  result: []
+- input: SB28A,C00194555,IND,Knight^Barry R.^^,3521 Rankin Street,,Dallas,TX,75205,22Y,refund
+    of duplicate contribution,G2002,,20020422,300.00,,,,,,,,,,,,,,,,SB28A.4699,,,
+  record: <fec.version.v3.SB.Records instance at 0x1152908>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB28A
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00194555
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Knight^Barry R.^^
+  - name: STREET 1
+    number: '5'
+    value: 3521 Rankin Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Dallas
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '75205'
+  - name: TRANS CODE
+    number: '10'
+    value: 22Y
+  - name: TRANS DESCRIP
+    number: '11'
+    value: refund of duplicate contribution
+  - name: ITEM ELECT CD
+    number: '12'
+    value: G2002
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20020422'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '300.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: ''
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: SB28A.4699
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+sourceurl: !!python/unicode '20020503'

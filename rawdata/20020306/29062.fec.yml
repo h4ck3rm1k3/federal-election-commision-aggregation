@@ -1260,4 +1260,77 @@ rows:
     number: '18'
     value: ''
   - name: CAN/OFFICE
-    n
+    number: '19'
+    value: Ose^Doug^^
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: CA
+  - name: CONDUIT NAME
+    number: '22'
+    value: '3'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: A
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '5699300'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00100404","CAN","Doug Ose For Congress","PO Box 41649","","Sacramento","CA","95841","011","YTD:$2,000.00","P2002","",20020125,2000.00,"","","Ose^Doug^^","H","CA","3","","","","","","","","","A","5699300","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x19b3908>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: Amended to include purpose for disbursements on Schedule B
+  - value: Line 21b
+  expected_count: 4
+  input: '"TEXT","F3XA","","Amended to include purpose for disbursements on Schedule
+    B,Line 21b"'
+  input_count: 5
+  record: <fec.version.v3.TEXT.Records instance at 0x19b3b90>
+  result: []
+sourceurl: !!python/unicode '20020306'

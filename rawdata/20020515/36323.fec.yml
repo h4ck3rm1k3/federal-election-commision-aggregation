@@ -6677,4 +6677,34 @@ rows:
   - name: BACK REF SCHED NAME
     number: '33'
     value: ''
-  - name: NAT Committee NON-F
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00082917","CAN","Rogers For Congress","P O Box 581","","Brighton","MI","48116","011","YTD:$1,000.00","P2002","",20020228,1000.00,"","","Rogers^Michael^^","H","MI","8","","","","","","","","","A","7607021","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x19bb830>
+  result: []
+- input: '"TEXT","F3XA","","There was a voided disbursement (for Condit) originally
+    shown in the January Year End report for 2001 that was dated 12/21/2001.  For
+    some unknown reason the voided transaction showed up in this March 20th report.  It
+    has now been corrected."'
+  record: <fec.version.v3.TEXT.Records instance at 0x19ce290>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: There was a voided disbursement (for Condit) originally shown in the January
+      Year End report for 2001 that was dated 12/21/2001.  For some unknown reason
+      the voided transaction showed up in this March 20th report.  It has now been
+      corrected.
+sourceurl: !!python/unicode '20020515'

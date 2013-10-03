@@ -2066,4 +2066,28 @@ rows:
   - name: MEMO CODE
     number: '28'
     value: ''
-  - name: MEM
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: '4946490204175589158'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: SB23,C00042069,"CCM","Bob Goodlatte For Congress Committee","Po Box 292",".","Roanoke","VA","240020292","","2002
+    General","G2002","","20020319",1000,"C00257956","H2VA06115","Bob^Goodlatte","H","VA","06","","","","","","","","","","4946490204175589158","",""
+  input_count: 33
+  record: <fec.version.v3.SB.Records instance at 0x31335f0>
+  result: []
+sourceurl: !!python/unicode '20020418'

@@ -1102,4 +1102,147 @@ rows:
   - name: CONDUIT STATE
     number: '26'
     value: ''
-  - name: CONDUIT
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '10000000892800003'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00344846","CAN","Friends Of Jane Harman","63 Crest Road East","","Rolling
+    Hills","CA","90274","24K","YTD:$500.00 Jane Harman, U.S. HOUSE 36th","P2002","",20020212,500,"C00255141","","Jane
+    Harman","H","CA","36","","","","","","","","","","10000000892800003","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x19b3f38>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00344846
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Ric Keller
+  - name: STREET 1
+    number: '5'
+    value: ' U.S. House'
+  - name: STREET 2
+    number: '6'
+    value: ' FL'
+  - name: CITY
+    number: '7'
+    value: P.O. Box 1453
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: Orlando
+  - name: TRANS CODE
+    number: '10'
+    value: FL
+  - name: TRANS DESCRIP
+    number: '11'
+    value: '32802'
+  - name: ITEM ELECT CD
+    number: '12'
+    value: 24K
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: YTD:$500.00 Keller for Congress
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: G2002
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '20020215'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: '500'
+  - name: CANDIDATE NAME
+    number: '18'
+    value: C00345090
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: Ric Keller
+  - name: CAN/DIST
+    number: '21'
+    value: ''
+  - name: CONDUIT NAME
+    number: '22'
+    value: FL
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: '10000000892900004'
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00344846","CAN","Ric Keller, U.S. House, FL","P.O. Box 1453","","Orlando","FL","32802","24K","YTD:$500.00
+    Keller for Congress","G2002","",20020215,500,"C00345090","","Ric Keller","","FL","","","","","","","","","","","10000000892900004","","",""'
+  input_count: 36
+  record: <fec.version.v3.SB.Records instance at 0x19b3b00>
+  result: []
+sourceurl: !!python/unicode '20020306'

@@ -3929,4 +3929,116 @@ rows:
   - value: ''
   expected_count: 34
   input: '"SB23","C00101626","PAC","ABA BankPAC","American Bankers Association","1120
-    Connecticut Avenue, NW ","Washington","DC","20036    ","","PAC to PAC","P    ","",20010710,2554
+    Connecticut Avenue, NW ","Washington","DC","20036    ","","PAC to PAC","P    ","",20010710,25544.00,"C00101626","","","","",,"","","","","","","","PAC
+    to PAC","","0109200214E39","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x156b7a0>
+  result: []
+- input: '"SB23","C00101626","PAC","American Comm Bankers PAC","900 Nineteenth St
+    Nw","Suite 400 ","Washington","DC","20006    ","","PAC to PAC","P    ","",20010810,3000.00,"C00101626","","","","",,"","","","","","","","PAC
+    to PAC","","0109200214E38","","",""'
+  record: <fec.version.v3.SB.Records instance at 0x114e758>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00101626
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: RECIPIENT NAME
+    number: '4'
+    value: American Comm Bankers PAC
+  - name: STREET 1
+    number: '5'
+    value: 900 Nineteenth St Nw
+  - name: STREET 2
+    number: '6'
+    value: 'Suite 400 '
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20006    '
+  - name: TRANS CODE
+    number: '10'
+    value: ''
+  - name: TRANS DESCRIP
+    number: '11'
+    value: PAC to PAC
+  - name: ITEM ELECT CD
+    number: '12'
+    value: 'P    '
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20010810'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '3000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: C00101626
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: ''
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: PAC to PAC
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: 0109200214E38
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+sourceurl: !!python/unicode '20020425'

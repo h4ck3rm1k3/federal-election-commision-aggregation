@@ -523,4 +523,29 @@ rows:
   - name: MEMO CODE
     number: '28'
     value: ''
-  
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.4125
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: SB23,C00089540,IND,Florida Victory 2002^^^,"9200 Dadeland Blvd., Suite 110",,Miami,FL,33156,,Campaign
+    Contribution,G2002,,20020218,500.00,,,,,,,,,,,,,,,,SB23.4125,,,
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x114a3b0>
+  result: []
+sourceurl: !!python/unicode '20020412'

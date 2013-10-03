@@ -1084,4 +1084,163 @@ rows:
     number: '27'
     value: ''
   - name: MEMO CODE
-   
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: '1328020201215813448'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: SB29,C00060103,"CCM","Scott McCallum for Governor 2002","P.O. Box 2345","","Madison","WI","53701","","Nonfederal
+    Contribution","","","20020121",1000,"","","","","","","","","","","","","","","","1328020201215813448","",""
+  input_count: 33
+  record: <fec.version.v3.SB.Records instance at 0xf71710>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB29
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00060103
+  - name: ENTITY TYPE
+    number: '3'
+    value: PTY
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Senate Democratic Campaign Committee
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 164
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Madison
+  - name: STATE
+    number: '8'
+    value: WI
+  - name: ZIP
+    number: '9'
+    value: '52701'
+  - name: TRANS CODE
+    number: '10'
+    value: ''
+  - name: TRANS DESCRIP
+    number: '11'
+    value: Nonfederal Contribution
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20020121'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '1000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: ''
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: '3821160201215821684'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: SB29,C00060103,"PTY","Senate Democratic Campaign Committee","P.O. Box 164","","Madison","WI","52701","","Nonfederal
+    Contribution","","","20020121",1000,"","","","","","","","","","","","","","","","3821160201215821684","",""
+  input_count: 33
+  record: <fec.version.v3.SB.Records instance at 0xf71d40>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: Attached is an amendment to BP Corporation North America Inc. Political
+      Action Committee's 2002 February Monthly Disclosure Report.  The amendment corrects
+      the January 1
+  - value: ' 2002 cash on hand and includes an additional operating expense.'
+  expected_count: 4
+  input: TEXT,F3XA,,"Attached is an amendment to BP Corporation North America Inc.
+    Political Action Committee's 2002 February Monthly Disclosure Report.  The amendment
+    corrects the January 1, 2002 cash on hand and includes an additional operating
+    expense."
+  input_count: 5
+  record: <fec.version.v3.TEXT.Records instance at 0xf71710>
+  result: []
+sourceurl: !!python/unicode '20020307'

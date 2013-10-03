@@ -39072,4 +39072,19 @@ rows:
   - name: TRAN ID
     number: '31'
     value: 0415200212E1676
-  - name: BACK REF 
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB21","C00326991","PTY","Republican State Committee","112 State St","","Harrisburg","PA","17101    ","","Other
+    Disbursement Lincoln Day Dinner","P","",20020208,100.00,"","","","","","","","","","","","",,"","A","0415200212E1676"'
+  input_count: 31
+  record: <fec.version.v3.SB.Records instance at 0x3147cb0>
+  result: []
+sourceurl: !!python/unicode '20020416'

@@ -521,4 +521,52 @@ rows:
   - name: CAN/STATE
     number: '23'
     value: ''
- 
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: SA11A1.4124
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: 'SA11A1,C00357657,IND,Prout^Patrick^^,13901 Shaker Blvd #2B,,Shaker Heights,OH,44120,,,Hedrick
+    & Struggles,Executive Recruiter,500.00,20020202,500.00,15,,,,,,,,,,,,,,,,,SA11A1.4124,,'
+  input_count: 36
+  record: <fec.version.v3.SA.Records instance at 0xd072368>
+  result: []
+sourceurl: !!python/unicode '20020312'

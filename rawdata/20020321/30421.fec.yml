@@ -9254,4 +9254,56 @@ rows:
   - name: CAN/STATE
     number: '20'
     value: Engel^Eliot L.^^
-  - name:
+  - name: CAN/DIST
+    number: '21'
+    value: H
+  - name: CONDUIT NAME
+    number: '22'
+    value: NY
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: '17'
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: Eliot L. Engel
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ' U.S. HOUSE 17th NY'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: A
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: '7607955'
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00200188","CAN","Engel for Congress","4901 Henry Hudson Pkwy","","Bronx","NY","10471","011","YTD:$1,500.00
+    Eliot L. Engel, U.S. HOUSE","P2002","",20010629,1500.00,"","","Engel^Eliot L.^^","H","NY","17","","","","","","","","Eliot
+    L. Engel, U.S. HOUSE 17th NY","A","7607955","","",""'
+  input_count: 37
+  record: <fec.version.v3.SB.Records instance at 0x114ef80>
+  result: []
+sourceurl: !!python/unicode '20020321'

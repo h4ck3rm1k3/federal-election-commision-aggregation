@@ -1920,4 +1920,105 @@ rows:
     value: ''
   - value: ''
   expected_count: 34
-  input: SB
+  input: SB23,C00235929,COM,"Paper Direct, Inc.",P.O. Box 2933,,Colorado Springs,CO,80901,011,Invitations
+    for Ellen Tauscher,,,20020314,73.92,,,,,,,,,,,,,,,,EXP:B:102,,,
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0xf71710>
+  result: []
+- input: TEXT,SA11AI,INC:A:1,Contributior is an intermediary for contributions all
+    less then $25.00
+  record: <fec.version.v3.TEXT.Records instance at 0xf71e60>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SA11AI
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: INC:A:1
+  - name: TEXT4000
+    number: '4'
+    value: Contributior is an intermediary for contributions all less then $25.00
+- input: TEXT,SA11AI,INC:A:2,Contributior is an intermediary for contributions all
+    less then $25.00
+  record: <fec.version.v3.TEXT.Records instance at 0xf71710>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SA11AI
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: INC:A:2
+  - name: TEXT4000
+    number: '4'
+    value: Contributior is an intermediary for contributions all less then $25.00
+- input: TEXT,SA11AI,INC:A:5,Contributior is an intermediary for contributions all
+    less then $25.00
+  record: <fec.version.v3.TEXT.Records instance at 0xf71e60>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SA11AI
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: INC:A:5
+  - name: TEXT4000
+    number: '4'
+    value: Contributior is an intermediary for contributions all less then $25.00
+- input: TEXT,SA11AI,INC:A:86,Contributor is an intermediary for contributions all
+    less than $25.00
+  record: <fec.version.v3.TEXT.Records instance at 0xf71710>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SA11AI
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: INC:A:86
+  - name: TEXT4000
+    number: '4'
+    value: Contributor is an intermediary for contributions all less than $25.00
+- input: TEXT,SA11AI,INC:A:49,This contributor is an intermediary for contributions
+    all less than $25.00
+  record: <fec.version.v3.TEXT.Records instance at 0xf71e60>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SA11AI
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: INC:A:49
+  - name: TEXT4000
+    number: '4'
+    value: This contributor is an intermediary for contributions all less than $25.00
+- input: TEXT,SA11AI,INC:A:7,Contributor is an intermediary for contributions all
+    less than $25.00
+  record: <fec.version.v3.TEXT.Records instance at 0xf71710>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SA11AI
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: INC:A:7
+  - name: TEXT4000
+    number: '4'
+    value: Contributor is an intermediary for contributions all less than $25.00
+sourceurl: !!python/unicode '20020416'

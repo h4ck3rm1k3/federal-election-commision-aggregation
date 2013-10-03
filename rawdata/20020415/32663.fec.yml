@@ -976,4 +976,24 @@ rows:
     value: DIRECT MAIL
   - name: Of Receipt
     number: 7-
-    va
+    value: D
+  - name: AMOUNT TRANSFERRED
+    number: '8'
+    value: '20020327'
+  - name: TOTAL AMOUNT TRANSFERRED
+    number: '9'
+    value: '74.25'
+  - name: AMENDED CD
+    number: '10'
+    value: '66995.17'
+  - name: TRAN ID
+    number: '11'
+    value: ''
+  - value: H30410200258C95928
+  expected_count: 11
+  input: '"H3","C00164418","H30410200258C95930","NJRSC-Non Federal  28 W. State St.,
+    Su","DIRECT MAIL","D",20020327,74.25,66995.17,"","H30410200258C95928"'
+  input_count: 12
+  record: <fec.version.v3.SH3.Records instance at 0x156be18>
+  result: []
+sourceurl: !!python/unicode '20020415'

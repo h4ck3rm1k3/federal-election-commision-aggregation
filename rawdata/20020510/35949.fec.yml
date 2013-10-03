@@ -685,4 +685,99 @@ rows:
     value: PO Box 1444
   - name: STREET 2
     number: '6'
-   
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Ennis
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '75120'
+  - name: TRANS CODE
+    number: '10'
+    value: '011'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: YTD:$2
+  - name: ITEM ELECT CD
+    number: '12'
+    value: 000.00 Joe L. Barton
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ' U.S. HOUSE'
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: G2002
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '20020130'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: '2000.00'
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: Barton^Joe^^
+  - name: CAN/DIST
+    number: '21'
+    value: H
+  - name: CONDUIT NAME
+    number: '22'
+    value: TX
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: '6'
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: Joe L. Barton
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ' U.S. HOUSE 6th TX'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: A
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: '7566812'
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00226548","CAN","Congressman Joe Barton Committee","PO Box 1444","","Ennis","TX","75120","011","YTD:$2,000.00
+    Joe L. Barton, U.S. HOUSE","G2002","",20020130,2000.00,"","","Barton^Joe^^","H","TX","6","","","","","","","","Joe
+    L. Barton, U.S. HOUSE 6th TX","A","7566812","","",""'
+  input_count: 37
+  record: <fec.version.v3.SB.Records instance at 0x156b758>
+  result: []
+sourceurl: !!python/unicode '20020510'

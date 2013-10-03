@@ -46518,4 +46518,20 @@ rows:
     number: '31'
     value: A
   - name: BACK REF TRAN ID
-    number
+    number: '32'
+    value: '5679057'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00106146","PAC","Bayou Leader PAC","1230 Dartmouth Road","","Alexandria","VA","22314","011","YTD:$2,000.00
+    Void of 10/01 Contribution","","",20011231,-1500.00,"","","^^^","","","0","","","","","","","","Void
+    of 10/01 Contribution","A","5679057","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x6fd9638>
+  result: []
+sourceurl: !!python/unicode '20020305'

@@ -2018,4 +2018,60 @@ rows:
   - name: CONDUIT ZIP
     number: '27'
     value: ''
-  - name: MEMO CO
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: Food & beverage expenses for 10/29/00 donor reception
+  - name: AMENDED CD
+    number: '30'
+    value: A
+  - name: TRAN ID
+    number: '31'
+    value: '6852329'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XN
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: Purpose of Schedule B 1/22/2001 disbursement to the American Osteopathic
+      Association (AOA)amended to reflect pre-payment to an administrative account
+      mained by the AOA to pay for administrative expenses incurred by the PAC
+  - value: ' including employee salaries'
+  - value: ' benefits'
+  - value: ' rent'
+  - value: ' telephone'
+  - value: ' supplies'
+  - value: ' postage'
+  - value: ' travel and other related expenses for PAC management and compliance.  Purpose
+      of Schedule B 1/22/2001 disbursement to The Peabody amended to reflect payment
+      for food & beverage reception expenses for 10/26/2000 donor reception.'
+  expected_count: 4
+  input: '"TEXT","F3XN","","Purpose of Schedule B 1/22/2001 disbursement to the American
+    Osteopathic Association (AOA)amended to reflect pre-payment to an administrative
+    account mained by the AOA to pay for administrative expenses incurred by the PAC,
+    including employee salaries, benefits, rent, telephone, supplies, postage, travel
+    and other related expenses for PAC management and compliance.  Purpose of Schedule
+    B 1/22/2001 disbursement to The Peabody amended to reflect payment for food &
+    beverage reception expenses for 10/26/2000 donor reception."'
+  input_count: 11
+  record: <fec.version.v3.TEXT.Records instance at 0x19a27a0>
+  result: []
+sourceurl: !!python/unicode '20020305'

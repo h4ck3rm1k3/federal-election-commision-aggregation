@@ -6509,4 +6509,186 @@ rows:
   - name: STREET 1
     number: '5'
     value: 15531 Brittain St.
-  - name:
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Lindale
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '75771'
+  - name: TRANS CODE
+    number: '10'
+    value: ''
+  - name: TRANS DESCRIP
+    number: '11'
+    value: Telephone Reimbursement
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' phone jacks'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: P2002
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20020131'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '295.36'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: ''
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB17.4195
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: SB17,C00373308,IND,Young^David^^,15531 Brittain St.,,Lindale,TX,75771,,"Telephone
+    Reimbursement, phone jacks",P2002,,20020131,295.36,,,,,,,,,,,,,,,,SB17.4195,,,
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x1152170>
+  result: []
+- input: SD10,C00373308,CAN,Graves^John^^,P.O. Box 3407,,Longview,TX,75606,Debt owed
+    to John Graves,0.00,4248.00,0.00,4248.00,C00373308,,,,,,,,,,,,,SD10.4213
+  record: <fec.version.v3.SD.Records instance at 0x11522d8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00373308
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: Graves^John^^
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 3407
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Longview
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '75606'
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: Debt owed to John Graves
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: '0.00'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '4248.00'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '0.00'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '4248.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: C00373308
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: SD10.4213
+sourceurl: !!python/unicode '20020228'

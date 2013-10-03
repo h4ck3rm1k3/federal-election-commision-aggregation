@@ -2305,4 +2305,127 @@ rows:
     number: '33'
     value: ''
   - name: TRAN ID
-    number: '3
+    number: '34'
+    value: SA17.5733
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: SA17,C00252940,ORG,Adams National Bank,1627 K Street,,Washington,DC,20006,,,,,545.02,20020331,191.22,,March
+    Interest,,,,,,,,,,,,,,,,SA17.5733,,
+  input_count: 36
+  record: <fec.version.v3.SA.Records instance at 0x114dd88>
+  result: []
+- input: 'SB23,C00252940,CCM,MARK UDALL FOR CONGRESS,8690 WOLFF COURT #200,,WESTMINSTER,CO,80031,,Earmarked
+    Cont From B Smart,P2002,,20020327,100.00,C00331439,,,H,CO,02,,,,,,,X,,,SB23.5768,,,'
+  record: <fec.version.v3.SB.Records instance at 0x114dcb0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00252940
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: MARK UDALL FOR CONGRESS
+  - name: STREET 1
+    number: '5'
+    value: '8690 WOLFF COURT #200'
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: WESTMINSTER
+  - name: STATE
+    number: '8'
+    value: CO
+  - name: ZIP
+    number: '9'
+    value: '80031'
+  - name: TRANS CODE
+    number: '10'
+    value: ''
+  - name: TRANS DESCRIP
+    number: '11'
+    value: Earmarked Cont From B Smart
+  - name: ITEM ELECT CD
+    number: '12'
+    value: P2002
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20020327'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '100.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: C00331439
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: H
+  - name: CAN/STATE
+    number: '20'
+    value: CO
+  - name: CAN/DIST
+    number: '21'
+    value: '02'
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: X
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: SB23.5768
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+sourceurl: !!python/unicode '20020416'

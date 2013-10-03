@@ -28678,3 +28678,138 @@ rows:
   - name: CONDUIT NAME
     number: '21'
     value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: A
+  - name: TRAN ID
+    number: '28'
+    value: '36046'
+- input: '"SD10","C00131185","","MASTER PRINT","PO BOX 1467","","NEWINGTON","VA","22122","PRINTING",625.63,3564.56,4190.19,0.00,"","","","","","","","","","","","","A","36047"'
+  record: <fec.version.v3.SD.Records instance at 0x1a61d88>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00131185
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: MASTER PRINT
+  - name: STREET 1
+    number: '5'
+    value: PO BOX 1467
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: NEWINGTON
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22122'
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: PRINTING
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: '625.63'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '3564.56'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '4190.19'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '0.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: A
+  - name: TRAN ID
+    number: '28'
+    value: '36047'
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: Mr. Walker This is in reference to your letter dated March 1
+  - value: ' 2002. AOPA PAC did electronically file an amended Mid-year Report (01/01/01-06/30/01)
+      on December 17 2001.  Please correct your records to reflect this and respond
+      via letter confirming that this issue has been resolved.  Greatly appreciated.
+      James Hurst Assistant Treasurer'
+  expected_count: 4
+  input: '"TEXT","F3XA","","Mr. Walker This is in reference to your letter dated March
+    1, 2002. AOPA PAC did electronically file an amended Mid-year Report (01/01/01-06/30/01)
+    on December 17 2001.  Please correct your records to reflect this and respond
+    via letter confirming that this issue has been resolved.  Greatly appreciated.
+    James Hurst Assistant Treasurer"'
+  input_count: 5
+  record: <fec.version.v3.TEXT.Records instance at 0x1a62a70>
+  result: []
+sourceurl: !!python/unicode '20020311'

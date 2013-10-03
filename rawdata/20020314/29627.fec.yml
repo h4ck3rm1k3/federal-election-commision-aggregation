@@ -1903,4 +1903,27 @@ rows:
   - name: MEMO TEXT
     number: '29'
     value: ''
-  - name: AM
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: SB21B.4536
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: SB21B,C00113001,ORG,VFW National Headquarters,406 West 34th Street,,Kansas
+    City,MO,64111,,"Salaries, Employee benefits, etc",,,20020123,4039.50,,,,,,,,,,,,,,,,SB21B.4536,,,
+  input_count: 36
+  record: <fec.version.v3.SB.Records instance at 0x65dc098>
+  result: []
+sourceurl: !!python/unicode '20020314'

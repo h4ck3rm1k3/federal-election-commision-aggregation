@@ -65921,4 +65921,131 @@ rows:
   - name: BACK REF SCHED NAME
     number: '38'
     value: NO VALUE!
-  expect
+  expected_count: 38
+  input: '"H4","C00160937","IND","Bret Healy^","Box 672","","Frederick","SD","57441    ","travel
+    expenses ADMINISTRATION L 01121",20020327,40.00,8.89,31.11,"X","","","",400748.63,"","","","","","","","","","","","",,"","H4041320027E4462","","",""'
+  input_count: 37
+  record: <fec.version.v3.SH4.Records instance at 0x19d6b00>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00160937
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Perkins Coie
+  - name: STREET 1
+    number: '5'
+    value: 1201 3rd Ave.
+  - name: STREET 2
+    number: '6'
+    value: '40th Floor '
+  - name: CITY
+    number: '7'
+    value: Seattle
+  - name: STATE
+    number: '8'
+    value: WA
+  - name: ZIP
+    number: '9'
+    value: '98101    '
+  - name: PURPOSE/EVENT
+    number: '10'
+    value: legal fees ADMINISTRATION L 0112121111
+  - name: DATE
+    number: '11'
+    value: '20020328'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '25935.24'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '5762.81'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '20172.43'
+  - name: Activity Is Admin./Voter Drive
+    number: 15-
+    value: X
+  - name: Activity Is Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity Is Exempt
+    number: 17-
+    value: ''
+  - name: Act. Direct Can Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '426683.87'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: H4041320027E4469
+  - name: MEMO CODE
+    number: '35'
+    value: ''
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: NO VALUE!
+  expected_count: 38
+  input: '"H4","C00160937","","Perkins Coie","1201 3rd Ave.","40th Floor ","Seattle","WA","98101    ","legal
+    fees ADMINISTRATION L 0112121111",20020328,25935.24,5762.81,20172.43,"X","","","",426683.87,"","","","","","","","","","","","",,"","H4041320027E4469","","",""'
+  input_count: 37
+  record: <fec.version.v3.SH4.Records instance at 0x19d6b90>
+  result: []
+sourceurl: !!python/unicode '20020415'

@@ -798,4 +798,15 @@ rows:
   - name: TRAN_ID
     number: '27'
     value: F65.00007
-  - name: ORIG_T
+  - name: ORIG_TRAN_ID
+    number: '28'
+    value: NO VALUE!
+  - name: SUPR_TRAN_ID
+    number: '29'
+    value: NO VALUE!
+  expected_count: 29
+  input: F65,C00369439,IND,Alarcon^Paul,,,,,,S.B.S.,Chairman,20020228,1000.00,,,,,,,,,,,,,A,F65.00007
+  input_count: 27
+  record: <fec.version.v2.F65.Records instance at 0x951b518>
+  result: []
+sourceurl: !!python/unicode '20020303'

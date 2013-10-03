@@ -1477,4 +1477,162 @@ rows:
     number: '29'
     value: ''
   - name: CONDUIT CITY
-    number: '30
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: ''
+  - name: MEMO CODE
+    number: '35'
+    value: ''
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: H4.4332
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: ''
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 38
+  input: H4,C00366666,ORG,"Ryan, Phillips, Utrecht & MacKinnon","1133 Connecticut
+    Avenue, NW",Suite 300,Washington,DC,20036,Legal Services,20020204,53.82,43.06,10.76,X,,,,10053.82,Legal
+    Services,C00366666,,,,,,,,,,,,,H4.4332,,,,
+  input_count: 41
+  record: <fec.version.v3.SH4.Records instance at 0xf71cf8>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366666
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Frost^Jennifer^^
+  - name: STREET 1
+    number: '5'
+    value: 2100 Connecticut Avenue
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: PURPOSE/EVENT
+    number: '10'
+    value: '20008'
+  - name: DATE
+    number: '11'
+    value: FE02PH(02/28/2002)
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '20020201'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '1500.00'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '150.00'
+  - name: Activity Is Admin./Voter Drive
+    number: 15-
+    value: '1350.00'
+  - name: Activity Is Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity Is Exempt
+    number: 17-
+    value: X
+  - name: Act. Direct Can Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: ''
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: '1500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: Fundraising Services
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: C00366666
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: ''
+  - name: MEMO CODE
+    number: '35'
+    value: H4.4365
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: ''
+  - value: ''
+  expected_count: 38
+  input: H4,C00366666,IND,Frost^Jennifer^^,"2100 Connecticut Avenue, NW",,Washington,DC,20008,FE02PH(02/28/2002),20020201,1500.00,150.00,1350.00,,X,,,1500.00,Fundraising
+    Services,C00366666,,,,,,,,,,,,,H4.4365,,,,
+  input_count: 39
+  record: <fec.version.v3.SH4.Records instance at 0x114a3b0>
+  result: []
+sourceurl: !!python/unicode '20020320'

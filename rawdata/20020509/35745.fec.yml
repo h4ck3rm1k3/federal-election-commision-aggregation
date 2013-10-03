@@ -39950,4 +39950,148 @@ rows:
     number: '24'
     value: ''
   - name: CONDUIT CITY
-   
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: A
+  - name: TRAN ID
+    number: '31'
+    value: 0619200110E3287
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB20A","C00198309","IND","Rogers^W. Wilson","703 Miller Street","","Dalton","GA","30720    ","","Refund
+    of Contribution Refund of Contrib","P    ","",20010606,750.00,"","","","","","","","","","","","",,"","A","0619200110E3287"'
+  input_count: 31
+  record: <fec.version.v3.SB.Records instance at 0x510db48>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB20A
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00198309
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Thomas^Gillis
+  - name: STREET 1
+    number: '5'
+    value: 8333 Douglas Avenue
+  - name: STREET 2
+    number: '6'
+    value: ' Suite 1414'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Dallas
+  - name: ZIP
+    number: '9'
+    value: TX
+  - name: TRANS CODE
+    number: '10'
+    value: '75225    '
+  - name: TRANS DESCRIP
+    number: '11'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '12'
+    value: Refund of Contribution Refund of Contrib
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: 'P    '
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20010606'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: ''
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: A
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: 0619200110E3286
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB20A","C00198309","IND","Thomas^Gillis","8333 Douglas Avenue, Suite 1414","","Dallas","TX","75225    ","","Refund
+    of Contribution Refund of Contrib","P    ","",20010606,1000.00,"","","","","","","","","","","","",,"","A","0619200110E3286"'
+  input_count: 32
+  record: <fec.version.v3.SB.Records instance at 0x512aea8>
+  result: []
+sourceurl: !!python/unicode '20020509'

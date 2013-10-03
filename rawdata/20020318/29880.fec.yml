@@ -1462,4 +1462,22 @@ rows:
     number: '30'
     value: ''
   - name: TRAN ID
-    numbe
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: 0318200215E4878
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB21","C00014944","IND","U.S.TREASURY^","C/O FEDERAL ELECTION COMMISSION","999
+    E STREET, N.W. ","Washington","DC","20463    ","","Other Disbursement REISSUE
+    CK TO FEC","O    ","Other",20020221,250.00,"C00014944","","","","",,"","","","","","","","","","0318200215E4878"'
+  input_count: 32
+  record: <fec.version.v3.SB.Records instance at 0x45b9170>
+  result: []
+sourceurl: !!python/unicode '20020318'

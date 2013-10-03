@@ -510,4 +510,59 @@ rows:
     number: '24'
     value: '01'
   - name: CONDUIT CITY
-    num
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: SB23.4166
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: SB23,C00148536,ORG,La Brasserie,"239 Massachusetts Ave., NE",,"Washington,
+    DC",DC,20002,,"In-kind, Breakfast--Blanche Lincoln",P2004,,20020319,375.00,C00255463,,FRIENDS
+    OF BLANCHE LINCOLN,S,AR,01,,,,,,,,,,SB23.4166,,,
+  input_count: 37
+  record: <fec.version.v3.SB.Records instance at 0x594db90>
+  result: []
+- input: TEXT,SB23,SB23.4166,In-kind contribution to 'Friends of Blanche Lincoln'--Breakfast
+    at La Barasserie
+  record: <fec.version.v3.TEXT.Records instance at 0x594d710>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SB23
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: SB23.4166
+  - name: TEXT4000
+    number: '4'
+    value: In-kind contribution to 'Friends of Blanche Lincoln'--Breakfast at La Barasserie
+sourceurl: !!python/unicode '20020408'

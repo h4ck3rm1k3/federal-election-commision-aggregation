@@ -11769,3 +11769,93 @@ rows:
   - name: AMENDED CD
     number: '25'
     value: ''
+  - name: TRAN ID
+    number: '26'
+    value: SC/10.4454
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SC/10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00374033
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: NAME (Loan Source)
+    number: '4'
+    value: 'Thomas^Frank^^ - Personal funds '
+  - name: STREET 1
+    number: '5'
+    value: 220 Cheswold Lane
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Haverford
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '19041'
+  - name: ELECTION
+    number: '10'
+    value: P2002
+  - name: ELECTION DESCRIPTION
+    number: '11'
+    value: ''
+  - name: ORIG. AMT OF LOAN
+    number: '12'
+    value: '25000.00'
+  - name: PAYMENT TO DATE
+    number: '13'
+    value: '0.00'
+  - name: LOAN BALANCE
+    number: '14'
+    value: '25000.00'
+  - name: Incurred
+    number: 15-
+    value: '20020330'
+  - name: DUE DATE TERMS
+    number: '16'
+    value: August 15
+  - name: PCT RATE TERMS
+    number: '17'
+    value: ' 2002'
+  - name: SECURED YESNO
+    number: '18'
+    value: 5%
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: N
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: C00374033
+  - name: CANDIDATE NAME
+    number: '21'
+    value: H2PA06148
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: AMENDED CD
+    number: '25'
+    value: ''
+  - name: TRAN ID
+    number: '26'
+    value: ''
+  - value: SC/10.4464
+  expected_count: 26
+  input: SC/10,C00374033,CAN,Thomas^Frank^^ - Personal funds ,220 Cheswold Lane,,Haverford,PA,19041,P2002,,25000.00,0.00,25000.00,20020330,"August
+    15, 2002",5%,N,C00374033,H2PA06148,,,,,,SC/10.4464
+  input_count: 27
+  record: <fec.version.v3.SC.Records instance at 0x2a06dd0>
+  result: []
+sourceurl: !!python/unicode '20020509'

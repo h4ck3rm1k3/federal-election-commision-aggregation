@@ -6406,3 +6406,167 @@ rows:
     number: '25'
     value: ''
   - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: Tom Sawyer
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ' U.S. HOUSE 14th OH'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: A
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: '7617417'
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00331835","CAN","Tom Sawyer Committee","P O Box 75214","","Washington","DC","200135214","011","YTD:$1,000.00
+    Tom Sawyer, U.S. HOUSE 14t","P2002","",20010226,1000.00,"","","Sawyer^Tom^Rep.^","H","OH","14","","","","","","","","Tom
+    Sawyer, U.S. HOUSE 14th OH","A","7617417","","",""'
+  input_count: 37
+  record: <fec.version.v3.SB.Records instance at 0x156bcf8>
+  result: []
+- input: '"SB28a","C00331835","IND","Levine^Robert R.^^","12412 Shari Hunt","Grove","Clifton","VA","201242056","010","Refund
+    of 12/29/00 Payroll Deduction","","",20010205,0.06,"","","^^^","","","0","","","","","","","","Refund
+    of 12/29/00 Payroll Deduction","A","7616698","","",""'
+  record: <fec.version.v3.SB.Records instance at 0x156bd88>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB28a
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00331835
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Levine^Robert R.^^
+  - name: STREET 1
+    number: '5'
+    value: 12412 Shari Hunt
+  - name: STREET 2
+    number: '6'
+    value: Grove
+  - name: CITY
+    number: '7'
+    value: Clifton
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '201242056'
+  - name: TRANS CODE
+    number: '10'
+    value: '010'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: Refund of 12/29/00 Payroll Deduction
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20010205'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '0.06'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ^^^
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: '0'
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: Refund of 12/29/00 Payroll Deduction
+  - name: AMENDED CD
+    number: '30'
+    value: A
+  - name: TRAN ID
+    number: '31'
+    value: '7616698'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: Amended Report for Nelson Disbursement originally reported as 2000 General
+  - value: ' now correctly reported as 2000 Debt Retirement'
+  expected_count: 4
+  input: '"TEXT","F3XA","","Amended Report for Nelson Disbursement originally reported
+    as 2000 General, now correctly reported as 2000 Debt Retirement"'
+  input_count: 5
+  record: <fec.version.v3.TEXT.Records instance at 0x156bcf8>
+  result: []
+sourceurl: !!python/unicode '20020422'

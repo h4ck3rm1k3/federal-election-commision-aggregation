@@ -186,4 +186,34 @@ rows:
     value: '94402'
   - name: NAME/TREASURER (as signed)
     number: '59'
-    value: Pessne
+    value: Pessner^Kirk Alan^^
+  - name: Signed
+    number: 60-
+    value: '20020503'
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: ''
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: www.ellentauscher.com
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F1N
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: Report is being amended to remove City National Bank from the list of depositories
+  - value: ' and to add the URL.'
+  expected_count: 4
+  input: TEXT,F1N,,"Report is being amended to remove City National Bank from the
+    list of depositories, and to add the URL."
+  input_count: 5
+  record: <fec.version.v3.TEXT.Records instance at 0x1152b48>
+  result: []
+sourceurl: !!python/unicode '20020506'

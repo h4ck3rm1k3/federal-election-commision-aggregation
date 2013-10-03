@@ -63507,4 +63507,33 @@ rows:
     number: 33-E.10
     value: ''
   - name: Presidential
-    number: '34-E.1
+    number: '34-E.11 DEP ACCT AUTH '
+    value: '       '
+  - name: State basis of loan
+    number: '35-F. '
+    value: '18991230'
+  - name: NAME/TREASURER (as signed)
+    number: 36-G.
+    value: ''
+  - name: SIG/DATE
+    number: 37-G.
+    value: Charles A. Williams
+  - name: NAME/AUTH (as signed)
+    number: 38-H.
+    value: '20020204'
+  - name: AUTH/TITLE
+    number: 39-H.
+    value: Terry N. Harris
+  - name: AUTH/SIG DATE
+    number: 40-H.
+    value: Senior VP
+  - value: ' BankSouth'
+  - value: '20020204'
+  expected_count: 40
+  input: '"SC1/10","C00265298","LS0412200224C9865","ORG","BankSouth","3251 Ross Clark
+    Circle, NW","P.O. Box 1967","Dothan","AL","363021967",229523.00,"4.090",20020204,20020801,"Y",20010510,0.00,0.00,"Y","N","",0.00,"N","N","",0.00,20020204,"","","","","","       ",18991230,"","Charles
+    A. Williams",20020204,"Terry N. Harris","Senior VP, BankSouth",20020204'
+  input_count: 42
+  record: <fec.version.v3.SC1.Records instance at 0x9e80abd8>
+  result: []
+sourceurl: !!python/unicode '20020517'

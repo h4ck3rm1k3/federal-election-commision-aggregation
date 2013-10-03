@@ -4368,4 +4368,148 @@ rows:
   - name: MEMO CODE
     number: '28'
     value: ''
-  - name: MEMO 
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: A
+  - name: TRAN ID
+    number: '31'
+    value: 0129200239E103
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB19b","C00002154","IND","Spence^Floyd D.","Spences Point","","Lexington","SC","29072    ","","Repay
+    Loan Made/Guar. by Cand Loan repay","P    ","",20010814,92500.00,"","","","","","","","","","","","",,"","A","0129200239E103"'
+  input_count: 31
+  record: <fec.version.v3.SB.Records instance at 0x19a2998>
+  result: []
+- input: '"SC/10","C00002154","IND","Floyd D. Spence","Spences Point","","Lexington","SC","29072    ","P    ","",100000.00,0.00,100000.00,20010628,"20020725","7.000","N","","","","","",,"A","LS0731200133C95"'
+  record: <fec.version.v3.SC.Records instance at 0x19a2a28>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SC/10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00002154
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Loan Source)
+    number: '4'
+    value: Floyd D. Spence
+  - name: STREET 1
+    number: '5'
+    value: Spences Point
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Lexington
+  - name: STATE
+    number: '8'
+    value: SC
+  - name: ZIP
+    number: '9'
+    value: '29072    '
+  - name: ELECTION
+    number: '10'
+    value: 'P    '
+  - name: ELECTION DESCRIPTION
+    number: '11'
+    value: ''
+  - name: ORIG. AMT OF LOAN
+    number: '12'
+    value: '100000.00'
+  - name: PAYMENT TO DATE
+    number: '13'
+    value: '0.00'
+  - name: LOAN BALANCE
+    number: '14'
+    value: '100000.00'
+  - name: Incurred
+    number: 15-
+    value: '20010628'
+  - name: DUE DATE TERMS
+    number: '16'
+    value: '20020725'
+  - name: PCT RATE TERMS
+    number: '17'
+    value: '7.000'
+  - name: SECURED YESNO
+    number: '18'
+    value: N
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: AMENDED CD
+    number: '25'
+    value: A
+  - name: TRAN ID
+    number: '26'
+    value: LS0731200133C95
+- input: '"SC2/10","C00002154","LS0731200133C95","Floyd D. Spence","Spences Point","","Lexington","SC","29072    ","","",0.00'
+  record: <fec.version.v3.SC2.Records instance at 0x19a2998>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SC2/10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00002154
+  - name: BACK REFERENCE TRAN ID
+    number: '3'
+    value: LS0731200133C95
+  - name: Endorser/Guarantor
+    number: 4-
+    value: Floyd D. Spence
+  - name: STREET 1
+    number: '5'
+    value: Spences Point
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Lexington
+  - name: STATE
+    number: '8'
+    value: SC
+  - name: ZIP
+    number: '9'
+    value: '29072    '
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: AMOUNT GUARANTEED BALANCE
+    number: '12'
+    value: '0.00'
+sourceurl: !!python/unicode '20020426'

@@ -7289,3 +7289,97 @@ rows:
   - name: STATE
     number: '8'
     value: CO
+  - name: ZIP
+    number: '9'
+    value: '80111'
+  - name: ITEM ELECT CD
+    number: '10'
+    value: O2000
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: Other
+  - name: INDEMP
+    number: '12'
+    value: AMERICAN INCOME LIFE
+  - name: INDOCC
+    number: '13'
+    value: AGENT
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: '600.00'
+  - name: DATE RECEIVED
+    number: '15'
+    value: '20020215'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '200.00'
+  - name: TRANS CODE
+    number: '17'
+    value: ''
+  - name: TRANS DESCRIP
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: SA11A1.8776
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: SA11A1,C00007898,IND,WILLIAM JJENNINGS^^^,4329 S ALTON STREET,,ENGLEWOOD,CO,80111,O2000,Other,AMERICAN
+    INCOME LIFE,AGENT,600.00,20020215,200.00,,,,,,,,,,,,,,,,,,SA11A1.8776,,
+  input_count: 36
+  record: <fec.version.v3.SA.Records instance at 0x19b3f38>
+  result: []
+sourceurl: !!python/unicode '20020515'

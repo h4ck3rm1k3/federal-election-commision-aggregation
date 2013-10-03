@@ -9139,4 +9139,128 @@ rows:
   - name: BACK REF TRAN ID
     number: '32'
     value: '10000000924200019'
-  -
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00118208","CAN","Alaskans For Don Young","Po Box 100298","","Anchorage","AK","99510","24K","YTD:$2000.00
+    Don Young, U.S. HOUSE AL AK","P2002","",20020329,2000,"C00012229","","Don Young","H","AK","","","","","","","","","","","10000000924200019","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x19e4950>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB29
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00118208
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: BUSH-BROGAN 2002
+  - name: STREET 1
+    number: '5'
+    value: 1611 North Kent Street
+  - name: STREET 2
+    number: '6'
+    value: Suite 905
+  - name: CITY
+    number: '7'
+    value: Arlington
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22209'
+  - name: TRANS CODE
+    number: '10'
+    value: '011'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: 'Bush '
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' GOVERNOR  FL'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: O2002
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: 2002 Fl Gubernatoria
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20020102'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '500'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: Jeb Bush
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: FL
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '10000000896300020'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB29","C00118208","CAN","BUSH-BROGAN 2002","1611 North Kent Street","Suite
+    905","Arlington","VA","22209","011","Bush , GOVERNOR  FL","O2002","2002 Fl Gubernatoria",20020102,500,"","","Jeb
+    Bush","","FL","","","","","","","","","","","10000000896300020","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x19e4050>
+  result: []
+sourceurl: !!python/unicode '20020412'

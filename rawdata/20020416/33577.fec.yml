@@ -3160,4 +3160,26 @@ rows:
   - name: MEMO TEXT
     number: '29'
     value: ''
-  - 
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: 0203200228E1695
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB20C","C00136374","PAC","AMERICAN TRUCKING COMPANY","TRUCK - Political
+    Action Committee","430 First St. SE ","Washington","DC","20003    ","","Refund
+    of Contribution Refund of 5/22/01","P1998","",20020131,1000.00,"","","","","","","","","","","","",,"","","0203200228E1695"'
+  input_count: 31
+  record: <fec.version.v3.SB.Records instance at 0x156bfc8>
+  result: []
+sourceurl: !!python/unicode '20020416'

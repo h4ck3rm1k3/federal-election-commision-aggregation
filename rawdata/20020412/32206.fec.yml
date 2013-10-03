@@ -8021,4 +8021,54 @@ rows:
     number: '30'
     value: ''
   - name: MEMO CODE
-    number:
+    number: '31'
+    value: X
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: SA16.4299
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: SA16,C00327668,CCM,Friends of Sessions Senate Committee,P.O. Box 4278,,Montgomery,AL,36103,G1999,,,,,19991115,1000.00,,Voided
+    transaction.,C00306704,,,,,,,,,,,,X,,,SA16.4299,,
+  input_count: 36
+  record: <fec.version.v3.SA.Records instance at 0x19b3ef0>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SA16
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: SA16.4299
+  - name: TEXT4000
+    number: '4'
+    value: This was a disbursement reported on the Annual Report for 1999.  It was
+      just discovered by our bookkeeper that this check was voided and never delivered.  However
+  - value: ' we mistakenly reported it on the Annual Report and never added it back
+      to our account balance.  Please excuse our error.'
+  expected_count: 4
+  input: TEXT,SA16,SA16.4299,"This was a disbursement reported on the Annual Report
+    for 1999.  It was just discovered by our bookkeeper that this check was voided
+    and never delivered.  However, we mistakenly reported it on the Annual Report
+    and never added it back to our account balance.  Please excuse our error."
+  input_count: 5
+  record: <fec.version.v3.TEXT.Records instance at 0x19b3998>
+  result: []
+sourceurl: !!python/unicode '20020412'

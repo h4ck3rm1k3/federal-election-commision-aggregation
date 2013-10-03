@@ -2969,4 +2969,148 @@ rows:
   - name: CONDUIT CITY
     number: '25'
     value: ''
-  
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '10000071284400023'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00238725","PTY","Democratic Senatorial Campaign Committee","420
+    S. Capitol, SE","","Washington","DC","20003","24K","YTD:$5000.00 Voided Check","O2002","",20020227,-5000,"","","","","","","","","","","","","","","","10000071284400023","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0xf71d40>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00238725
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Citizens for Harkin
+  - name: STREET 1
+    number: '5'
+    value: 426 C Street. NE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20002'
+  - name: TRANS CODE
+    number: '10'
+    value: 24K
+  - name: TRANS DESCRIP
+    number: '11'
+    value: YTD:$1000.00 Tom Harkin
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' U.S. SENATE IA'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: P2002
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20020227'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '1000'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: Tom Harkin
+  - name: CAN/STATE
+    number: '20'
+    value: S
+  - name: CAN/DIST
+    number: '21'
+    value: IA
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '10000072807500024'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00238725","CAN","Citizens for Harkin","426 C Street. NE","","Washington","DC","20002","24K","YTD:$1000.00
+    Tom Harkin, U.S. SENATE IA","P2002","",20020227,1000,"","","Tom Harkin","S","IA","","","","","","","","","","","10000072807500024","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x6df8098>
+  result: []
+sourceurl: !!python/unicode '20020404'

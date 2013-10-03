@@ -28757,4 +28757,29 @@ rows:
   - name: MEMO TEXT
     number: '29'
     value: ''
-  - na
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: X
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: (Memo In-Kind)
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: '10000000416800052'
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00306449","","The Monocle","107 D Street NE","","Washington","DC","20002","24Z","John
+    Tierney, U.S. HOUSE, 6th, MA","P2002","",20011219,690.94,"","","","","","","","","","","","","X","(Memo
+    In-Kind)","","10000000416800052","","",""'
+  input_count: 37
+  record: <fec.version.v3.SB.Records instance at 0x55ba440>
+  result: []
+sourceurl: !!python/unicode '20020404'

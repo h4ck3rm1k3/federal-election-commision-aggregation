@@ -387,3 +387,184 @@ rows:
     value: ''
   - name: TRAN ID
     number: '27'
+    value: C10802
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00328997
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Beck^David
+  - name: STREET 1
+    number: '5'
+    value: 3652 Inverness
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Houston
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '77019'
+  - name: INDEMP
+    number: '10'
+    value: Beck
+  - name: INDOCC
+    number: '11'
+    value: ' Redden & Sechrest'
+  - name: Of Contribution
+    number: 12-
+    value: Attorney
+  - name: AMOUNT
+    number: '13'
+    value: '20020227'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: C10803
+  expected_count: 27
+  input: F65,"C00328997","IND","Beck^David","3652 Inverness","","Houston","TX","77019","Beck,
+    Redden & Sechrest","Attorney",20020227,"1000","","","","","","","","","","","","","","C10803"
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x156bc68>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00328997
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Ray
+  - name: STREET 1
+    number: '5'
+    value: ' Wood'
+  - name: STREET 2
+    number: '6'
+    value: ' & Bonilla'
+  - name: CITY
+    number: '7'
+    value: ' LLP'
+  - name: STATE
+    number: '8'
+    value: P.O. Box 165001
+  - name: ZIP
+    number: '9'
+    value: ''
+  - name: INDEMP
+    number: '10'
+    value: Austin
+  - name: INDOCC
+    number: '11'
+    value: TX
+  - name: Of Contribution
+    number: 12-
+    value: '78716'
+  - name: AMOUNT
+    number: '13'
+    value: Partnership
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '20020227'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: '1000'
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: ''
+  - value: C10804
+  expected_count: 27
+  input: F65,"C00328997","ORG","Ray, Wood, & Bonilla, LLP","P.O. Box 165001","","Austin","TX","78716","Partnership","",20020227,"1000","","","","","","","","","","","","","","C10804"
+  input_count: 30
+  record: <fec.version.v3.F65.Records instance at 0x156b830>
+  result: []
+sourceurl: !!python/unicode '20020227'

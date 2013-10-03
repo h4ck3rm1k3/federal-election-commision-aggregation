@@ -193,4 +193,125 @@ rows:
     value: SCHAKOWSKY^JANICE D^^
   - name: CAN/STATE
     number: '18'
-    valu
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: IL
+  - name: CONDUIT NAME
+    number: '20'
+    value: 09
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.8444
+  expected_count: 27
+  input: F65,C00327023,ORG,Peck Bloom Miller Mitchell LLC,"105 W. Adams St., 31st
+    Floor",,Chicago,IL,60603,,,20020304,1000.00,C00327023,H8IL09067,SCHAKOWSKY^JANICE
+    D^^,H,IL,09,,,,,,,,F6.8444
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x990fa70>
+  result: []
+- input: F65,C00327023,IND,Silverman^Gary^^,18 Winfield Dr.,,Winnetka,IL,60093,Kirkland
+    & Ellis,Attorney,20020305,1000.00,C00327023,H8IL09067,SCHAKOWSKY^JANICE D^^,H,IL,09,,,,,,,,F6.8447
+  record: <fec.version.v3.F65.Records instance at 0x990f950>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00327023
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Silverman^Gary^^
+  - name: STREET 1
+    number: '5'
+    value: 18 Winfield Dr.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Winnetka
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60093'
+  - name: INDEMP
+    number: '10'
+    value: Kirkland & Ellis
+  - name: INDOCC
+    number: '11'
+    value: Attorney
+  - name: Of Contribution
+    number: 12-
+    value: '20020305'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00327023
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8IL09067
+  - name: CANDIDATE NAME
+    number: '16'
+    value: SCHAKOWSKY^JANICE D^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: IL
+  - name: CAN/DIST
+    number: '19'
+    value: 09
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.8447
+sourceurl: !!python/unicode '20020306'

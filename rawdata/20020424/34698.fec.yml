@@ -9404,4 +9404,23 @@ rows:
   - name: AMENDED CD
     number: '30'
     value: ''
-  - na
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '10000001177200017'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00097865","PAC","Midnight Sun Political Action Committee","203
+    Maryland Avenue, NE","","Washington","DC","20002","24K","YTD:$2500.00","P2002","",20010629,2500,"","","","","","","","","","","","","","","","10000001177200017","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x19b3908>
+  result: []
+sourceurl: !!python/unicode '20020424'

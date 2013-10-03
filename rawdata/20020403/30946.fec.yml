@@ -47952,4 +47952,115 @@ rows:
     value: ''
   - name: CONDUIT CITY
     number: '24'
-    val
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: ''
+  - value: D101534
+  expected_count: 28
+  input: '"SD10","C00344671","IND","Herrell^Robert^^","2119 E Street Apt A",,"Sacramento","CA","95816","airfare,lodging",297.56,0.00,0.00,297.56,,,,,,,,,,,,,,"D101534"'
+  input_count: 29
+  record: <fec.version.v3.SD.Records instance at 0x19c8248>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00344671
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: Union Bank of California
+  - name: STREET 1
+    number: '5'
+    value: 200 D St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Encinitas
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '92024'
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: payroll taxes
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: ' payroll taxes due 12/31/0'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '494.14'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '4669.75'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '4669.75'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: '494.14'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: ''
+  - value: D1014
+  expected_count: 28
+  input: '"SD10","C00344671","ORG","Union Bank of California","200 D St.",,"Encinitas","CA","92024","payroll
+    taxes, payroll taxes due 12/31/0",494.14,4669.75,4669.75,494.14,,,,,,,,,,,,,,"D1014"'
+  input_count: 29
+  record: <fec.version.v3.SD.Records instance at 0x19c87e8>
+  result: []
+sourceurl: !!python/unicode '20020403'

@@ -568,4 +568,180 @@ rows:
     number: '2'
     value: C00344671
   - name: ENTITY TYPE
-   
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Genentech Inc Political Action Committee (GENENPAC)
+  - name: STREET 1
+    number: '5'
+    value: 460 Point San Bruno Blvd.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: So San Francisco
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94080'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020301'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00199257
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: New^Democrat^Network
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: 777 N. Capitol Ct.
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ' NE'
+  - name: CONDUIT CITY
+    number: '23'
+    value: ' Ste. 410'
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: Washington
+  - name: AMENDED CD
+    number: '26'
+    value: DC
+  - name: TRAN ID
+    number: '27'
+    value: '20002'
+  - value: A
+  - value: F65.00002
+  expected_count: 27
+  input: F65,C00344671,PAC,Genentech Inc Political Action Committee (GENENPAC),460
+    Point San Bruno Blvd.,,So San Francisco,CA,94080,,,20020301,1000.00,C00199257,,,,,,New^Democrat^Network,"777
+    N. Capitol Ct., NE, Ste. 410",,Washington,DC,20002,A,F65.00002
+  input_count: 29
+  record: <fec.version.v3.F65.Records instance at 0x19b3f38>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00344671
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Merck PAC
+  - name: STREET 1
+    number: '5'
+    value: 601 Pennsylvania Ave.
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: North Building
+  - name: STATE
+    number: '8'
+    value: ' Ste. 1200'
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: INDEMP
+    number: '10'
+    value: DC
+  - name: INDOCC
+    number: '11'
+    value: '20004'
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20020301'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '1000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: C00097485
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: New^Demomcrat^Network
+  - name: CONDUIT CITY
+    number: '23'
+    value: 777 N. Capitol St.
+  - name: CONDUIT STATE
+    number: '24'
+    value: ' NE'
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ' Ste. 410'
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: Washington
+  - value: DC
+  - value: '20002'
+  - value: A
+  - value: F65.00003
+  expected_count: 27
+  input: F65,C00344671,PAC,Merck PAC,"601 Pennsylvania Ave., NW","North Building,
+    Ste. 1200",Washington,DC,20004,,,20020301,1000.00,C00097485,,,,,,New^Demomcrat^Network,"777
+    N. Capitol St., NE, Ste. 410",,Washington,DC,20002,A,F65.00003
+  input_count: 31
+  record: <fec.version.v3.F65.Records instance at 0x19b3c20>
+  result: []
+sourceurl: !!python/unicode '20020301'

@@ -11179,4 +11179,155 @@ rows:
   - name: CONDUIT CITY
     number: '30'
     value: ''
-  - name: CO
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: A
+  - name: TRAN ID
+    number: '34'
+    value: H40719200146E3886
+  - name: MEMO CODE
+    number: '35'
+    value: ''
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: NO VALUE!
+  expected_count: 38
+  input: '"H4","C00084368","IND","Bishop^Richard","110 Stoney Hill Lane","","Raymond","MS","39154    ","001-Salary
+    ADMINISTRATION L 0112000011",20010629,229.95,114.98,114.97,"X","","","",193670.86,"","","","","","","","","","","","",,"A","H40719200146E3886","","",""'
+  input_count: 37
+  record: <fec.version.v3.SH4.Records instance at 0x55ba710>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00084368
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Massey^Sandra
+  - name: STREET 1
+    number: '5'
+    value: 1209 Linden Place
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Jackson
+  - name: STATE
+    number: '8'
+    value: MS
+  - name: ZIP
+    number: '9'
+    value: '39202    '
+  - name: PURPOSE/EVENT
+    number: '10'
+    value: 001-Salary ADMINISTRATION L 0112000011
+  - name: DATE
+    number: '11'
+    value: '20010629'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '476.05'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '238.03'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '238.02'
+  - name: Activity Is Admin./Voter Drive
+    number: 15-
+    value: X
+  - name: Activity Is Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity Is Exempt
+    number: 17-
+    value: ''
+  - name: Act. Direct Can Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '194146.91'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: A
+  - name: TRAN ID
+    number: '34'
+    value: H40719200147E3891
+  - name: MEMO CODE
+    number: '35'
+    value: ''
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: NO VALUE!
+  expected_count: 38
+  input: '"H4","C00084368","IND","Massey^Sandra","1209 Linden Place","","Jackson","MS","39202    ","001-Salary
+    ADMINISTRATION L 0112000011",20010629,476.05,238.03,238.02,"X","","","",194146.91,"","","","","","","","","","","","",,"A","H40719200147E3891","","",""'
+  input_count: 37
+  record: <fec.version.v3.SH4.Records instance at 0x55bacf8>
+  result: []
+sourceurl: !!python/unicode '20020306'

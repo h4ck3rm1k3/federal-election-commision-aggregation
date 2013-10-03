@@ -20721,4 +20721,35 @@ rows:
   - name: CONDUIT STATE
     number: '26'
     value: ''
-  - name: CONDUIT ZI
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: N
+  - name: TRAN ID
+    number: '31'
+    value: 0412200243E3629
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB18","C00239038","PTY","Ronnie Shows for Congress","Rt. 2 Box 234 Gates
+    Road","","Bassfield","MS","39421    ","","Trans. To Affil. conttribution - MS
+    Dist","P    ","",20020328,2000.00,"","","","","","","","","","","","",,"","N","0412200243E3629"'
+  input_count: 31
+  record: <fec.version.v3.SB.Records instance at 0x55badd0>
+  result: []
+sourceurl: !!python/unicode '20020415'

@@ -1680,4 +1680,24 @@ rows:
   - value: SD9.283
   expected_count: 28
   input: SD9,C00060707,ORG,Merrill Lynch /Acct 749-04B18,"1850 K Street, NW, 7th Floor",,Washington,DC,20006,Outstanding
-    Balance,23196.22,-390.54,0.00,22805.68,C00060707,,,,,,,,,,,,,SD9.2
+    Balance,23196.22,-390.54,0.00,22805.68,C00060707,,,,,,,,,,,,,SD9.283
+  input_count: 30
+  record: <fec.version.v3.SD.Records instance at 0x114e7e8>
+  result: []
+- input: TEXT,SD9,SD9.283,-$390.54=$78.46(Dividends)-$469.00(Unrealized Depreciation
+    in Value)
+  record: <fec.version.v3.TEXT.Records instance at 0x114ed88>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SD9
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: SD9.283
+  - name: TEXT4000
+    number: '4'
+    value: -$390.54=$78.46(Dividends)-$469.00(Unrealized Depreciation in Value)
+sourceurl: !!python/unicode '20020416'

@@ -394,4 +394,31 @@ rows:
   - value: Stan.Ray@farmcreditbank.com
   - value: n/a
   expected_count: 62
-  input:
+  input: F1S,C00305573,"TENTH DISTRICT FARM CREDIT COUNCIL, INC PAC (TDPAC)",P. O.
+    Box 15919,,Austin,TX,78761,20020502,,,E,,,,,,,NAT,,Farm Credit Council Political
+    Action Committee,50 F Street NW,Suite 900,Washington,DC,20001,Affiliated,,Dendy^Evans
+    H.^^,C/O PASS,"1020 North Fairfax St., 5th Floor",Alexandria,VA,22314,Assistant
+    Treasurer,,Ray^Stanley L.^^,P.O. Box 15919,,Austin,TX,78761,Treasurer,,Andrews^Kenneth^^,P.
+    O. Box 816,,Madisonville,TX,77864,Chairman,,,,,,,,Ray^Stanley L.^^,20020502,Stan.Ray@farmcreditbank.com,n/a
+  input_count: 64
+  record: <fec.version.v3.F1S.Records instance at 0x45be290>
+  result: []
+- input: TEXT,F1A,,Please note that Tenth District Farm Credit Council Political Action
+    Committee is disaffiliated from the National Council of Farmer Cooperatives PAC
+    (C00002238).
+  record: <fec.version.v3.TEXT.Records instance at 0x15f2fc20>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F1A
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: Please note that Tenth District Farm Credit Council Political Action Committee
+      is disaffiliated from the National Council of Farmer Cooperatives PAC (C00002238).
+sourceurl: !!python/unicode '20020502'

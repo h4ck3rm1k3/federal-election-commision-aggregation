@@ -874,4 +874,140 @@ rows:
     value: ''
   - name: AMENDED CD
     number: '30'
-    value:
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: 'Contribution: Sanford D. Bishop'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ' Jr. (GA-2-D)'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: D122
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00119776","CAN","Sanford D Bishop Jr for Congress","PO Box 909","","Columbus","GA","31902","","Contribution:
+    Sanford D. Bishop, Jr. (GA","G2002","","20020212","1000.00","","","Sanford D.
+    Bishop, Jr. (GA-2-D)","H","GA","2","","","","","","","","Contribution: Sanford
+    D. Bishop, Jr. (GA-2-D)","","D122","","",""'
+  input_count: 37
+  record: <fec.version.v3.SB.Records instance at 0x114e7a0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00119776
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Georgia Republican Party
+  - name: STREET 1
+    number: '5'
+    value: ''
+  - name: STREET 2
+    number: '6'
+    value: 5600 Roswell Road
+  - name: CITY
+    number: '7'
+    value: ' NE Suite 200'
+  - name: STATE
+    number: '8'
+    value: Atlanta
+  - name: ZIP
+    number: '9'
+    value: GA
+  - name: TRANS CODE
+    number: '10'
+    value: '30342'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '12'
+    value: 2002 Spec Comt/Fed Activities Only
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: O2002
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: Other
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20020225'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '5000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: Georgia Republican Party (GA-R)
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: GA
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: 2002 Spec Comt/Fed Activities Only
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: D127
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00119776","PAC","Georgia Republican Party","","5600 Roswell Road,
+    NE Suite 200","Atlanta","GA","30342","","2002 Spec Comt/Fed Activities Only","O2002","Other","20020225","5000.00","","","Georgia
+    Republican Party (GA-R)","","GA","","","","","","","","","2002 Spec Comt/Fed Activities
+    Only","","D127","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x114ebd8>
+  result: []
+sourceurl: !!python/unicode '20020312'

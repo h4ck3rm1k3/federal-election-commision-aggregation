@@ -11168,4 +11168,42 @@ rows:
     value: ''
   - name: CONDUIT STREET 2
     number: '24'
-    value
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: D00XN04
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '                    '
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB23","C00305805","CAN","Heather Wilson for Congress","2901 Juan Tabo Blvd","Suite
+    115","Albuquerque","NM","87112","","Contribution (NM-H-01)","P2002","",20010627,5000.00,"","","Heather
+    Wilson for Congress","H","NM",1,"","","","","","","","","","D00XN04","                    "'
+  input_count: 32
+  record: <fec.version.v3.SB.Records instance at 0x19d2170>
+  result: []
+sourceurl: !!python/unicode '20020328'

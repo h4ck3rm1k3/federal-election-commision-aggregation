@@ -716,4 +716,66 @@ rows:
   - name: FEC COMMITTEE ID NUMBER
     number: '16'
     value: '1000.00'
-  - name: FEC CAN
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: C00148999
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: FRIENDS OF DICK DURBIN COMMITTEE
+  - name: CAN/STATE
+    number: '20'
+    value: S
+  - name: CAN/DIST
+    number: '21'
+    value: IL
+  - name: CONDUIT NAME
+    number: '22'
+    value: '00'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.4425
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: SB23,C00329979,COM,ILLINOIS SENATE 2002,430 SOUTH CAPITOL STREET SE,,WASHINGTON,DC,20003,,"Senator
+    Dick Durbin Event  March 6, 2002",G2002,,20020305,1000.00,C00148999,,FRIENDS OF
+    DICK DURBIN COMMITTEE,S,IL,00,,,,,,,,,,SB23.4425,,,
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x114d3f8>
+  result: []
+sourceurl: !!python/unicode '20020422'

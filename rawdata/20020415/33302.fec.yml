@@ -10818,4 +10818,37 @@ rows:
   - name: CONDUIT CITY
     number: '28'
     value: ''
-  - name: CONDUI
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: SA11B.4306
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: SA11B,C00375758,PAC,CASH AMERICA INTERNATIONAL INC PAC (CASH AMERICA PAC),1600
+    WEST 7TH STREET SUITE 812,,FORT WORTH,TX,76102,P2002,,,,1000.00,20020321,1000.00,,,C00275529,,,,,,,,,,,,,,,SA11B.4306,,
+  input_count: 36
+  record: <fec.version.v3.SA.Records instance at 0x19d2518>
+  result: []
+sourceurl: !!python/unicode '20020415'

@@ -524,4 +524,43 @@ rows:
   - name: CONDUIT STREET1
     number: '26'
     value: ''
-  - nam
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: SA12.4205
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: SA12,C00210187,PAC,RuralPAC-Wyoming,10800 East Bethany Drive 4th floor,,Aurora,CO,80014,G2002,,,,24.50,20020327,24.50,,Transfer
+    from RuralPAC-Wyoming,,,,,,,,,,,,,,,,SA12.4205,,
+  input_count: 36
+  record: <fec.version.v3.SA.Records instance at 0x114dc68>
+  result: []
+sourceurl: !!python/unicode '20020408'

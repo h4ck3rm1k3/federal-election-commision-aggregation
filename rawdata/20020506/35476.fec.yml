@@ -14245,4 +14245,146 @@ rows:
   - name: FORM TYPE
     number: '1'
     value: SB29
-  - name:
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00004101
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Federal Election Commission
+  - name: STREET 1
+    number: '5'
+    value: 999 E Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS CODE
+    number: '10'
+    value: '20463'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: '001'
+  - name: ITEM ELECT CD
+    number: '12'
+    value: 12 Day Pre-Election
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20010628'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ^^^
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: ''
+  - name: CONDUIT NAME
+    number: '22'
+    value: '0'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: 12 Day Pre-Election
+  - name: TRAN ID
+    number: '31'
+    value: A
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '1326427'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB29","C00004101","","Federal Election Commission","999 E Street, NW","","Washington","DC","20463","001","12
+    Day Pre-Election","","",20010628,1000.00,"","","^^^","","","0","","","","","","","","12
+    Day Pre-Election","A","1326427","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x1152680>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: This amendment is being filed in response to an April 17
+  - value: ' 2002 letter questioning our filed Line 11(a)(i) total'
+  - value: ' our line 23 total'
+  - value: ' and an improperly disclosed in-kind contribution.  The Line 11 (a) (i)
+      total of $81'
+  - value: 085.75 is correct.  Memo line items on Schedule A do not aggregate and
+      inflate the amount.  The memo items were used to point to disbursement listed
+      on Schedule B.  The Line 23 problem and the in-kind contribution problem have
+      been fixed to properly reflect an amount contributed to the candidate (Sen.
+      Voinovich).  An amended Year End report will reflect these changes and be filed
+      accordingly.
+  expected_count: 4
+  input: '"TEXT","F3XA","","This amendment is being filed in response to an April
+    17, 2002 letter questioning our filed Line 11(a)(i) total, our line 23 total,
+    and an improperly disclosed in-kind contribution.  The Line 11 (a) (i) total of
+    $81,085.75 is correct.  Memo line items on Schedule A do not aggregate and inflate
+    the amount.  The memo items were used to point to disbursement listed on Schedule
+    B.  The Line 23 problem and the in-kind contribution problem have been fixed to
+    properly reflect an amount contributed to the candidate (Sen. Voinovich).  An
+    amended Year End report will reflect these changes and be filed accordingly."'
+  input_count: 8
+  record: <fec.version.v3.TEXT.Records instance at 0x1152ab8>
+  result: []
+sourceurl: !!python/unicode '20020506'

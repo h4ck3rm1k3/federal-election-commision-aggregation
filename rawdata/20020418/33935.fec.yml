@@ -60104,4 +60104,25 @@ rows:
   - value: ''
   expected_count: 34
   input: '"SB29","C00053553","CAN","FRIENDS OF DAVE ZIEN","2928 SOLEM LANE","","EAU
-    CLAIRE","WI","54703","011","DAVE ZIEN, STATE SENAT
+    CLAIRE","WI","54703","011","DAVE ZIEN, STATE SENATE WI","P2002","",20011024,500.00,"","","ZIEN^DAVE^^","S","WI","23","","","","","","","","DAVE
+    ZIEN, STATE SENATE WI","A","167292","","",""'
+  input_count: 36
+  record: <fec.version.v3.SB.Records instance at 0xa452098>
+  result: []
+- input: '"TEXT","F3XA","","This amendment updates employment information for line
+    11."'
+  record: <fec.version.v3.TEXT.Records instance at 0xa452dd0>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: This amendment updates employment information for line 11.
+sourceurl: !!python/unicode '20020418'

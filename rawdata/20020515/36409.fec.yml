@@ -2085,4 +2085,132 @@ rows:
     number: '30'
     value: ''
   - name: TRAN ID
-    number: '
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: SB29.6294
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: SB29,C00060707,IND,Republican Main St. Partnership^^^,"1350 I Street, NW,
+    Suite 560",,Washington,DC,20005,,Fundraiser/John Chafee Dinner Awards 5/1,,,20020404,500.00,,,,,,,,,,,,,,,,SB29.6294,,,
+  input_count: 36
+  record: <fec.version.v3.SB.Records instance at 0x1152638>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SD9
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00060707
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: Merrill Lynch /Acct 749-04B18
+  - name: STREET 1
+    number: '5'
+    value: 1850 K Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ' 7th Floor'
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: DC
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: '20006'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: Outstanding Balance
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '22805.68'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '397.92'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: '0.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: '23203.60'
+  - name: CANDIDATE NAME
+    number: '17'
+    value: C00060707
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: ''
+  - value: ''
+  - value: SD9.283
+  expected_count: 28
+  input: SD9,C00060707,ORG,Merrill Lynch /Acct 749-04B18,"1850 K Street, NW, 7th Floor",,Washington,DC,20006,Outstanding
+    Balance,22805.68,397.92,0.00,23203.60,C00060707,,,,,,,,,,,,,SD9.283
+  input_count: 30
+  record: <fec.version.v3.SD.Records instance at 0x1152908>
+  result: []
+- input: TEXT,SD9,SD9.283,$397.92=$85.92(Dividends)+$312.00(Unrealized Appreciation
+    in Value)
+  record: <fec.version.v3.TEXT.Records instance at 0x1152638>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SD9
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: SD9.283
+  - name: TEXT4000
+    number: '4'
+    value: $397.92=$85.92(Dividends)+$312.00(Unrealized Appreciation in Value)
+sourceurl: !!python/unicode '20020515'

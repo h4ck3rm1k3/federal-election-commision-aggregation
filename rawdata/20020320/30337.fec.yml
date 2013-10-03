@@ -110579,4 +110579,34 @@ rows:
   - name: TEXT4000
     number: '4'
     value: VOIDED CHECK
-- 
+- input: TEXT,SB23,EXP:B:4458,VOIDED CHECK
+  record: <fec.version.v3.TEXT.Records instance at 0xa1ebab8>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SB23
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: EXP:B:4458
+  - name: TEXT4000
+    number: '4'
+    value: VOIDED CHECK
+- input: TEXT,SB29,EXP:B:4455,VOIDED CHECK
+  record: <fec.version.v3.TEXT.Records instance at 0xa1ebea8>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SB29
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: EXP:B:4455
+  - name: TEXT4000
+    number: '4'
+    value: VOIDED CHECK
+sourceurl: !!python/unicode '20020320'

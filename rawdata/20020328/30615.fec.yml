@@ -13803,4 +13803,181 @@ rows:
   expected_count: 28
   input: 'SD10,C00370692,ORG,International Guardian,"7331 Harwin, #212",,Houston,TX,77207,Newspaper
     Ad,0.00,315.00,0.00,315.00,C00370692,,,,,,,,,,,,,SD10.5002'
-  in
+  input_count: 29
+  record: <fec.version.v3.SD.Records instance at 0x156ba70>
+  result: []
+- input: 'SD10,C00370692,ORG,Lester & Associates,818 Connecticut Avenue #1002B,,Washington,DC,20006,Polling,0.00,7000.00,0.00,7000.00,C00370692,,,,,,,,,,,,,SD10.5129'
+  record: <fec.version.v3.SD.Records instance at 0x156bfc8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00370692
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: Lester & Associates
+  - name: STREET 1
+    number: '5'
+    value: '818 Connecticut Avenue #1002B'
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20006'
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: Polling
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: '0.00'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '7000.00'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '0.00'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '7000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: C00370692
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: SD10.5129
+- input: SD10,C00370692,ORG,Texas Printing,4715 Main St.,,Houston,TX,77002,Printing,0.00,1000.00,0.00,1000.00,C00370692,,,,,,,,,,,,,SD10.5011
+  record: <fec.version.v3.SD.Records instance at 0x156ba70>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00370692
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: Texas Printing
+  - name: STREET 1
+    number: '5'
+    value: 4715 Main St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Houston
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '77002'
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: Printing
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: '0.00'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '1000.00'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '0.00'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: C00370692
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: SD10.5011
+sourceurl: !!python/unicode '20020328'

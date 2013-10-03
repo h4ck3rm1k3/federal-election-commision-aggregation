@@ -2896,4 +2896,39 @@ rows:
     value: ''
   - name: AMENDED CD
     number: '33'
-    va
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: SA11C.4193
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: 'SA11C,C00305706,ORG,Wayne Johnson & Associates,400 Capitol Mall #1560,,Sacramento,CA,95814,P2002,,,,,20020209,250.00,,Payment
+    for advertising space,,,,,,,,,,,,,X,,,SA11C.4193,,'
+  input_count: 36
+  record: <fec.version.v3.SA.Records instance at 0x19d2cb0>
+  result: []
+- input: TEXT,SA11C,SA11C.4193,Payment made on behalf of candidate Richard Pombo for
+    CA CD 11 by consultant.
+  record: <fec.version.v3.TEXT.Records instance at 0x19d22d8>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SA11C
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: SA11C.4193
+  - name: TEXT4000
+    number: '4'
+    value: Payment made on behalf of candidate Richard Pombo for CA CD 11 by consultant.
+sourceurl: !!python/unicode '20020412'

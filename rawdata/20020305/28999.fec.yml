@@ -3950,4 +3950,63 @@ rows:
     number: '28'
     value: ''
   - name: MEMO TEXT
-    
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: Richard A. Gephardt
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ' U.S. HOUSE 3rd MO'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: A
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: '6853620'
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00113803","CAN","Gephardt In Congress Committee","5100 B Hollow
+    Wood Court","","St Louis","MO","63128","011","YTD:$5,000.00 Richard A. Gephardt,
+    U.S.","P2002","",20010828,5000.00,"","","Gephardt^Richard A.^^","H","MO","3","","","","","","","","Richard
+    A. Gephardt, U.S. HOUSE 3rd MO","A","6853620","","",""'
+  input_count: 37
+  record: <fec.version.v3.SB.Records instance at 0x156bcf8>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: Purpose of Schedule B 8/28/2001 disbursement to the American Osteopathic
+      Association (AOA)amended to reflect pre-payment to an administrative account
+      maintained by the AOA to pay for administrative expenses incurred by the PAC
+  - value: ' including employee salaries'
+  - value: ' benefits'
+  - value: ' rent'
+  - value: ' telephone'
+  - value: ' supplies'
+  - value: ' postage'
+  - value: ' travel and other related expenses for PAC management and compliance.'
+  expected_count: 4
+  input: '"TEXT","F3XA","","Purpose of Schedule B 8/28/2001 disbursement to the American
+    Osteopathic Association (AOA)amended to reflect pre-payment to an administrative
+    account maintained by the AOA to pay for administrative expenses incurred by the
+    PAC, including employee salaries, benefits, rent, telephone, supplies, postage,
+    travel and other related expenses for PAC management and compliance."'
+  input_count: 11
+  record: <fec.version.v3.TEXT.Records instance at 0x114dcb0>
+  result: []
+sourceurl: !!python/unicode '20020305'

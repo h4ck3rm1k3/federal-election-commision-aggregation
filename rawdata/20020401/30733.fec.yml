@@ -6605,4 +6605,25 @@ rows:
   - name: MEMO TEXT
     number: '29'
     value: ''
-  
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: A
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '1251346'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00271007","CAN","Jerry Weller For Congress Inc","PO Box 15283","","Washington","DC","20003","011","YTD:$1,000.00","P2002","",20010526,1000.00,"C00364349","","Weller^Jerry^Congressman^","H","IL","11","","","","","","","","","A","1251346","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x156bd88>
+  result: []
+sourceurl: !!python/unicode '20020401'

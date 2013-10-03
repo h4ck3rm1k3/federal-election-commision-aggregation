@@ -17225,3 +17225,24 @@ rows:
     value: ''
   - name: AMENDED CD
     number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: 0413200255E696
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB21","C00312017","PTY","Democratic Congressional Campaign Cmmt","430 S
+    Capital Street","","Washington","DC","20003    ","","Other Disbursement Membership
+    Dues","P2002","",20020204,10000.00,"C00312017","","","","",,"","","","","","","","","","0413200255E696"'
+  input_count: 31
+  record: <fec.version.v3.SB.Records instance at 0x2bb1320>
+  result: []
+sourceurl: !!python/unicode '20020413'

@@ -571,3 +571,103 @@ rows:
     value: H
   - name: CAN/DIST
     number: '13'
+    value: CA
+  - name: Signed
+    number: 14-
+    value: '18'
+  - value: '20020228'
+  expected_count: 14
+  input: F6N,C00367672,CONRAD FOR CONGRESS,1410 COLLEGE AVENUE,,MODESTO,CA,95350,H6CA18081,"CONRAD,^WILLIAM^BRYAN",H,CA,18,20020228
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x114edd0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367672
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Begel^Thomas
+  - name: STREET 1
+    number: '5'
+    value: 980 North
+  - name: STREET 2
+    number: '6'
+    value: ' Suite 1000'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Chicago
+  - name: ZIP
+    number: '9'
+    value: IL
+  - name: INDEMP
+    number: '10'
+    value: '60611'
+  - name: INDOCC
+    number: '11'
+    value: TMB Industry
+  - name: Of Contribution
+    number: 12-
+    value: Chairman
+  - name: AMOUNT
+    number: '13'
+    value: '20020226'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: A
+  - value: F65.00000
+  expected_count: 27
+  input: F65,C00367672,IND,Begel^Thomas,"980 North, Suite 1000",,Chicago,IL,60611,TMB
+    Industry,Chairman,20020226,1000.00,,,,,,,,,,,,,A,F65.00000
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x114ee18>
+  result: []
+sourceurl: !!python/unicode '20020228'

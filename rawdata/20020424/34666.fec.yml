@@ -5312,3 +5312,45 @@ rows:
     value: ''
   - name: CONDUIT CITY
     number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: SD10.4205
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SD10
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: SD10.4205
+  - name: TEXT4000
+    number: '4'
+    value: 'Note:  The amount of this debt was originally reported as $1'
+  - value: 450.00.  Since the debt was last reported
+  - value: ' a final invoice was received'
+  - value: ' and the correct amount was determined to be $1'
+  - value: 560.00.  $1
+  - value: 000.00 of this amount was paid on May 11
+  - value: ' 2001'
+  - value: ' as reported on Schedule B.'
+  expected_count: 4
+  input: 'TEXT,SD10,SD10.4205,"Note:  The amount of this debt was originally reported
+    as $1,450.00.  Since the debt was last reported, a final invoice was received,
+    and the correct amount was determined to be $1,560.00.  $1,000.00 of this amount
+    was paid on May 11, 2001, as reported on Schedule B."'
+  input_count: 11
+  record: <fec.version.v3.TEXT.Records instance at 0x11522d8>
+  result: []
+sourceurl: !!python/unicode '20020424'

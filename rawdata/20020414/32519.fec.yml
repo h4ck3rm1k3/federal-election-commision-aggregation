@@ -72532,4 +72532,21 @@ rows:
     value: A
   - name: TRAN ID
     number: '31'
-    value: 012220022
+    value: 0122200226E2730
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB20A","C00308577","IND","Jones^Mr. Jeff","c/o Carthage Discount Drug Co.","602
+    Highway 16E ","Carthage","MS","39051    ","","Refund of Contribution Refund of
+    Contrib","P2002","",20010726,500.00,"","","","","","","","","","","","",,"","A","0122200226E2730"'
+  input_count: 31
+  record: <fec.version.v3.SB.Records instance at 0x1a1e998>
+  result: []
+sourceurl: !!python/unicode '20020414'

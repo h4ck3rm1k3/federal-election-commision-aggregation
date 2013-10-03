@@ -2871,4 +2871,19 @@ rows:
   - name: TRAN ID
     number: '31'
     value: ''
-  - name: BACK RE
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.4395
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: SB23,C00280909,PAC,"WAXMAN, HENRY A",6913 AYR LANE,,BETHESDA,MD,20817,,Contribution,G2002,,20020318,500.00,,,,H,CA,30,,,,,,,,,,SB23.4395,,,
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0xf71cf8>
+  result: []
+sourceurl: !!python/unicode '20020405'

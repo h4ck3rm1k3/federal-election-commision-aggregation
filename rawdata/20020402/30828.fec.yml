@@ -5574,4 +5574,155 @@ rows:
   - name: CONDUIT NAME
     number: '22'
     value: '1'
-  - name: CON
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ROBERT TORRICELLI (D-NJ/SENATE)
+  - name: TRAN ID
+    number: '31'
+    value: A
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '5953154'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00083857","CAN","Torricelli For U S Senate Inc","P.O. Box 200178","","Newark","NJ","07102","011","YTD:$1,000.00
+    ROBERT TORRICELLI (D-NJ/SE","P2002","",20020328,1000.00,"C00306290","","Torricelli^Robert^Sen.^","S","NJ","1","","","","","","","","ROBERT
+    TORRICELLI (D-NJ/SENATE)","A","5953154","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x1152680>
+  result: []
+- input: '"SB29","C00083857","","BANK OF AMERICA - IRS","P O BOX 2360","","TULSA","OK","74101","001","2001
+    Form 1120-POL","","",20020307,480.00,"","","^^^","","","0","","","","","","","","2001
+    Form 1120-POL","A","5844112","","",""'
+  record: <fec.version.v3.SB.Records instance at 0x19b3c20>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB29
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00083857
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: RECIPIENT NAME
+    number: '4'
+    value: BANK OF AMERICA - IRS
+  - name: STREET 1
+    number: '5'
+    value: P O BOX 2360
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: TULSA
+  - name: STATE
+    number: '8'
+    value: OK
+  - name: ZIP
+    number: '9'
+    value: '74101'
+  - name: TRANS CODE
+    number: '10'
+    value: '001'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: 2001 Form 1120-POL
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20020307'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '480.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ^^^
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: '0'
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: 2001 Form 1120-POL
+  - name: AMENDED CD
+    number: '30'
+    value: A
+  - name: TRAN ID
+    number: '31'
+    value: '5844112'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+sourceurl: !!python/unicode '20020402'

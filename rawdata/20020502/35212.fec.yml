@@ -1,0 +1,176 @@
+countraw: 4
+countrows: 2
+filename: 35212.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00374892
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Bridgewater 2002
+  - name: STREET 1
+    number: '4'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '5'
+    value: 310 South Main Street
+  - name: CITY
+    number: '6'
+    value: ' Suite 1420'
+  - name: STATE
+    number: '7'
+    value: ''
+  - name: ZIP
+    number: '8'
+    value: Salt Lake City
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: UT
+  - name: CANDIDATE NAME
+    number: '10'
+    value: '84101   '
+  - name: CAN/OFFICE
+    number: '11'
+    value: C00374892
+  - name: CAN/STATE
+    number: '12'
+    value: Timothy Allen Bridgewater
+  - name: CAN/DIST
+    number: '13'
+    value: H
+  - name: Signed
+    number: 14-
+    value: UT
+  - value: '02'
+  - value: '20020502'
+  expected_count: 14
+  input: '"F6","C00374892","Bridgewater 2002, Inc.","310 South Main Street, Suite
+    1420","","Salt Lake City","UT","84101   ","C00374892","Timothy Allen Bridgewater","H","UT","02",20020502'
+  input_count: 16
+  record: <fec.version.v3.F6.Records instance at 0xf72170>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11A1
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00374892
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: Campbell^Lyle
+  - name: STREET 1
+    number: '5'
+    value: 7837 N. 54th Pl.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Paradise Valley
+  - name: STATE
+    number: '8'
+    value: AZ
+  - name: ZIP
+    number: '9'
+    value: '85253    '
+  - name: ITEM ELECT CD
+    number: '10'
+    value: 'O    '
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: Convention
+  - name: INDEMP
+    number: '12'
+    value: Founders Group
+  - name: INDOCC
+    number: '13'
+    value: ' Inc.'
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: President
+  - name: DATE RECEIVED
+    number: '15'
+    value: '2000.00'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '20020502'
+  - name: TRANS CODE
+    number: '17'
+    value: '2000.00'
+  - name: TRANS DESCRIP
+    number: '18'
+    value: '15'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: Receipt
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: 'Note: Reallocation requested'
+  - name: TRAN ID
+    number: '34'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: 0502200241C451
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: '"SA11A1","C00374892","IND","Campbell^Lyle","7837 N. 54th Pl.","","Paradise
+    Valley","AZ","85253    ","O    ","Convention","Founders Group, Inc.","President",2000.00,20020502,2000.00,"15","Receipt","","","","","","","","","","","",,"","Note:
+    Reallocation requested","","0502200241C451"'
+  input_count: 35
+  record: <fec.version.v3.SA.Records instance at 0x1152a70>
+  result: []
+sourceurl: !!python/unicode '20020502'

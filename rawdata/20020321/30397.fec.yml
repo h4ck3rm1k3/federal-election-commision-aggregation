@@ -894,4 +894,82 @@ rows:
     number: '4'
     value: I.U.O.E.
   - name: STREET 1
-    number: '5
+    number: '5'
+    value: ' Local 12^^^'
+  - name: STREET 2
+    number: '6'
+    value: 150 East Corson Street
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Pasadena
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: '91103'
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: Balance Forward
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '0.00'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '33572.18'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '0.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: '33572.18'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: C00219568
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: ''
+  - value: SD10.4122
+  expected_count: 28
+  input: SD10,C00219568,IND,"I.U.O.E., Local 12^^^",150 East Corson Street,,Pasadena,CA,91103,Balance
+    Forward,0.00,33572.18,0.00,33572.18,C00219568,,,,,,,,,,,,,SD10.4122
+  input_count: 29
+  record: <fec.version.v3.SD.Records instance at 0x114d9e0>
+  result: []
+sourceurl: !!python/unicode '20020321'

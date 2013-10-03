@@ -518,4 +518,50 @@ rows:
   - name: CAN/DIST
     number: '24'
     value: ''
-  - name: C
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: SA11A1.4101
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: 'SA11A1,C00375667,IND,Walsh^James^Mr.^,4000 Miller-Valentine Court,P.O. Box
+    744,Dayton,OH,45401,,,Miller Valentine,Owner,5000.00,20020328,5000.00,15,check
+    # 1790,,,,,,,,,,,,,,,,SA11A1.4101,,'
+  input_count: 36
+  record: <fec.version.v3.SA.Records instance at 0x156bb00>
+  result: []
+sourceurl: !!python/unicode '20020412'

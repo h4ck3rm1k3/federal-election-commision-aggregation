@@ -32066,4 +32066,109 @@ rows:
   - name: MEMO CODE
     number: '31'
     value: ''
-  - name: MEMO 
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: 0917200156C18089680
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: '"SA11A1","C00343921","IND","Brooks^John","37 Prospect St.","","Mystic","CT","06355    ","P2002","","New
+    London Development Corp.","Waterfront Development Mgr.",200.00,20010917,200.00,"15","Receipt","","","","","","","","","","","",,"","","","0917200156C18089680"'
+  input_count: 34
+  record: <fec.version.v3.SA.Records instance at 0x19c5170>
+  result: []
+- input: '"SC/10","C00343921","CAN","Robert  Simmons","P.O. Box 268","","Stonington","CT","06378    ","P2002","",52000.00,52000.00,0.00,20000630,"20010630",".0000","N","","","","","",,"","LS0709200138C17359"'
+  record: <fec.version.v3.SC.Records instance at 0x19c5ea8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SC/10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00343921
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: NAME (Loan Source)
+    number: '4'
+    value: Robert  Simmons
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 268
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Stonington
+  - name: STATE
+    number: '8'
+    value: CT
+  - name: ZIP
+    number: '9'
+    value: '06378    '
+  - name: ELECTION
+    number: '10'
+    value: P2002
+  - name: ELECTION DESCRIPTION
+    number: '11'
+    value: ''
+  - name: ORIG. AMT OF LOAN
+    number: '12'
+    value: '52000.00'
+  - name: PAYMENT TO DATE
+    number: '13'
+    value: '52000.00'
+  - name: LOAN BALANCE
+    number: '14'
+    value: '0.00'
+  - name: Incurred
+    number: 15-
+    value: '20000630'
+  - name: DUE DATE TERMS
+    number: '16'
+    value: '20010630'
+  - name: PCT RATE TERMS
+    number: '17'
+    value: '.0000'
+  - name: SECURED YESNO
+    number: '18'
+    value: N
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: AMENDED CD
+    number: '25'
+    value: ''
+  - name: TRAN ID
+    number: '26'
+    value: LS0709200138C17359
+sourceurl: !!python/unicode '20020429'

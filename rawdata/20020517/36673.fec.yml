@@ -1445,3 +1445,26 @@ rows:
     value: ''
   - name: AMENDED CD
     number: '30'
+    value: Bob Riley
+  - name: TRAN ID
+    number: '31'
+    value: ' GOVERNOR  AL'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: A
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: '6340206'
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB29","C00200642","CAN","Bob Riley for Governor","P.O. Box 59708","","Birmingham","AL","35209","011","Bob
+    Riley, GOVERNOR  AL","P2002","",20020506,500.00,"","","Riley^Bob^^","","AL","0","","","","","","","","Bob
+    Riley, GOVERNOR  AL","A","6340206","","",""'
+  input_count: 36
+  record: <fec.version.v3.SB.Records instance at 0x114dc68>
+  result: []
+sourceurl: !!python/unicode '20020517'

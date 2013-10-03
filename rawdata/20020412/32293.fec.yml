@@ -1858,4 +1858,19 @@ rows:
   - name: TRAN ID
     number: '31'
     value: '4468120202274617659'
-  - name: BACK REF T
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: SB23,C00196725,"CCM","Wayne Allard For United States Senate Committee","Po
+    Box 32","","Loveland","CO","805390032","","2002 Primary","P2002","","20020228",1000,"C00236810","S6CO00168","Wayne^Allard","S","CO","00","","","","","","","","","","4468120202274617659","",""
+  input_count: 33
+  record: <fec.version.v3.SB.Records instance at 0x19a27e8>
+  result: []
+sourceurl: !!python/unicode '20020412'

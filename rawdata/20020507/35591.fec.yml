@@ -389,4 +389,95 @@ rows:
   input: F65,C00334441,PAC,"O&P PAC, AMERICAN ORTHOTIC & PROSTHETIC ASSOC.",330 CARLYLE
     STREET,SUITE 200,ALEXANDRIA,VA,22314,,,20020506,1000.00,C00118430,,,,,,,,,,,,A,F65.00003
   input_count: 28
-  record: <fec.version.
+  record: <fec.version.v3.F65.Records instance at 0x7a74a5a8>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00334441
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: G-P EMPLOYEES FUND
+  - name: STREET 1
+    number: '5'
+    value: ' GEORGIA-PACIFIC CORPORATION'
+  - name: STREET 2
+    number: '6'
+    value: 1120 G STREET NW
+  - name: CITY
+    number: '7'
+    value: SUITE 1050
+  - name: STATE
+    number: '8'
+    value: WASHINGTON
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20005'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20020506'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00028670
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: A
+  - value: F65.00004
+  expected_count: 27
+  input: F65,C00334441,PAC,"G-P EMPLOYEES FUND, GEORGIA-PACIFIC CORPORATION",1120
+    G STREET NW,SUITE 1050,WASHINGTON,DC,20005,,,20020506,1000.00,C00028670,,,,,,,,,,,,A,F65.00004
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x7a74ac20>
+  result: []
+sourceurl: !!python/unicode '20020507'

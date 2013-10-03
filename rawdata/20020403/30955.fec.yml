@@ -5012,4 +5012,33 @@ rows:
   - name: MEMO CODE
     number: '28'
     value: ''
-  - name: MEMO TEX
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: Carrie P. Meek
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ' U.S. HOUSE 17th FL'
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: A
+  - value: '827671'
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00106146","CAN","Meek for Congress","216 7th Street, SE","","Washington","DC","20003","011","YTD:$1,000.00
+    Carrie P. Meek, U.S. HOUSE","P2002","",20010116,1000.00,"","","Meek^Carrie P.^Rep.^","H","FL","17","","","","","","","","Carrie
+    P. Meek, U.S. HOUSE 17th FL","A","827671","","",""'
+  input_count: 38
+  record: <fec.version.v3.SB.Records instance at 0x38c3d638>
+  result: []
+sourceurl: !!python/unicode '20020403'

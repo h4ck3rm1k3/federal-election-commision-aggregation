@@ -509,4 +509,179 @@ rows:
   - name: FEC COMMITTEE ID NUMBER
     number: '19'
     value: ''
-  - name: F
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: 021220026C228652
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: '"SA11A1","C00346635","IND","Sidamon-Eristoff^Connie","120 East End Avenue","","New
+    York","NY","10028    ","","","Lacher& Lovell-Taylor","Lawyer",5000.00,20020207,5000.00,"15","Receipt","","","","","","","","","","","",,"","","","021220026C228652"'
+  input_count: 34
+  record: <fec.version.v3.SA.Records instance at 0x19b3c20>
+  result: []
+- input: '"SA17","C00346635","","Citibank","Federal PAC","",""," ","        ","P    ","","","",23.23,20020228,12.39,"17R","Other
+    Receipt","","","","","","","","","","","","","","","","0312200227C23069","","",""'
+  record: <fec.version.v3.SA.Records instance at 0x19b3cb0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA17
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00346635
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: Citibank
+  - name: STREET 1
+    number: '5'
+    value: Federal PAC
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: ' '
+  - name: ZIP
+    number: '9'
+    value: '        '
+  - name: ITEM ELECT CD
+    number: '10'
+    value: 'P    '
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: ''
+  - name: INDEMP
+    number: '12'
+    value: ''
+  - name: INDOCC
+    number: '13'
+    value: ''
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: '23.23'
+  - name: DATE RECEIVED
+    number: '15'
+    value: '20020228'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '12.39'
+  - name: TRANS CODE
+    number: '17'
+    value: 17R
+  - name: TRANS DESCRIP
+    number: '18'
+    value: Other Receipt
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: 0312200227C23069
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: ''
+sourceurl: !!python/unicode '20020312'

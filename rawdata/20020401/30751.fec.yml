@@ -2821,4 +2821,23 @@ rows:
   - name: AMENDED CD
     number: '30'
     value: ''
-  - name: TRAN I
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB29.6267
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: SB29,C00187138,CCM,Tony Ojeda for Board of Regents,5612 Falcon Circle,,"Lincoln,",NE,68516,,Contribution,P2002,,20020211,500.00,,,Tony
+    Ojeda,,NE,,,,,,,,,,,SB29.6267,,,
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x19a2248>
+  result: []
+sourceurl: !!python/unicode '20020401'

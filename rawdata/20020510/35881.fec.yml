@@ -17790,3 +17790,82 @@ rows:
   - name: CONDUIT STREET 1
     number: '23'
     value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: A
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '5367107'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00035683","PAC","General Aviation Manufacturers Assoc. PAC","1400
+    K Street","Suite 801","Washington","DC","20005","011","YTD:$1,000.00","O2001","Year
+    2001 Contributi",20011219,1000.00,"","","^^^","","","0","","","","","","","","","A","5367107","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x55ba758>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SA11ai
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: '5356962'
+  - name: TEXT4000
+    number: '4'
+    value: Contribution earmarked for John B. Larson
+  - value: ' U.S. HOUSE 01-CT and transmitted by committee check.'
+  expected_count: 4
+  input: '"TEXT","SA11ai","5356962","Contribution earmarked for John B. Larson, U.S.
+    HOUSE 01-CT and transmitted by committee check."'
+  input_count: 5
+  record: <fec.version.v3.TEXT.Records instance at 0x156bc68>
+  result: []
+- input: '"TEXT","SB23","5357032","Contribution earmarked by Mr. William H Trachsel
+    and transmitted by committee check."'
+  record: <fec.version.v3.TEXT.Records instance at 0x156be60>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SB23
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: '5357032'
+  - name: TEXT4000
+    number: '4'
+    value: Contribution earmarked by Mr. William H Trachsel and transmitted by committee
+      check.
+sourceurl: !!python/unicode '20020510'

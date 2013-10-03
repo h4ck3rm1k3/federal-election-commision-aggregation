@@ -7616,4 +7616,127 @@ rows:
   - name: BACK REF TRAN ID
     number: '32'
     value: '10000001465900034'
-  - name: BACK REF SCHED N
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB28A","C00110338","","Fred Kiemele, Jr.","401 E 2 Ave No.","","Cavalier","ND","58220","22Y","Refund
+    For: FRED KIEMELE JR","O2002","2002year",20020405,497,"","","","","","","","","","","","","","","","10000001465900034","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x19e4ef0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB28A
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00110338
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Brad Nelson
+  - name: STREET 1
+    number: '5'
+    value: RR 1
+  - name: STREET 2
+    number: '6'
+    value: ' Box 180'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Glyndon
+  - name: ZIP
+    number: '9'
+    value: MN
+  - name: TRANS CODE
+    number: '10'
+    value: '56547'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: 22Y
+  - name: ITEM ELECT CD
+    number: '12'
+    value: 'Refund for: Brad Nelson'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: O2002
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: 2002year
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20020405'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '750'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: ''
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '10000001466000035'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB28A","C00110338","","Brad Nelson","RR 1, Box 180","","Glyndon","MN","56547","22Y","Refund
+    for: Brad Nelson","O2002","2002year",20020405,750,"","","","","","","","","","","","","","","","10000001466000035","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x114de18>
+  result: []
+sourceurl: !!python/unicode '20020508'

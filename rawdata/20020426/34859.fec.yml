@@ -25841,4 +25841,150 @@ rows:
     value: ''
   - name: CONDUIT ZIP
     number: '32'
-    value: 
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: H432290
+  - name: MEMO CODE
+    number: '35'
+    value: NO VALUE!
+  - name: MEMO TEXT
+    number: '36'
+    value: NO VALUE!
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: NO VALUE!
+  expected_count: 38
+  input: '"H4","C00005785","","Becky Costantino","2043 Carson Street","","Rock Springs","WY","82901","Travel
+    Reimbursement",20010517,1016.68,223.67,793.01,"X","","","",64131.98,"","","","","","","","","","","","","","","H432290"'
+  input_count: 34
+  record: <fec.version.v3.SH4.Records instance at 0x19d26c8>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00005785
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Intuit
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 7721
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Los Angeles
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '900847721'
+  - name: PURPOSE/EVENT
+    number: '10'
+    value: QuickBooks software upgrade
+  - name: DATE
+    number: '11'
+    value: '20010517'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '399.95'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '87.99'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '311.96'
+  - name: Activity Is Admin./Voter Drive
+    number: 15-
+    value: X
+  - name: Activity Is Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity Is Exempt
+    number: 17-
+    value: ''
+  - name: Act. Direct Can Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '64531.93'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: H432294
+  - name: MEMO CODE
+    number: '35'
+    value: NO VALUE!
+  - name: MEMO TEXT
+    number: '36'
+    value: NO VALUE!
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: NO VALUE!
+  expected_count: 38
+  input: '"H4","C00005785","","Intuit","P.O. Box 7721","","Los Angeles","CA","900847721","QuickBooks
+    software upgrade",20010517,399.95,87.99,311.96,"X","","","",64531.93,"","","","","","","","","","","","","","","H432294"'
+  input_count: 34
+  record: <fec.version.v3.SH4.Records instance at 0x19d2cb0>
+  result: []
+sourceurl: !!python/unicode '20020426'

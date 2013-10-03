@@ -3129,4 +3129,34 @@ rows:
   - name: CONDUIT STATE
     number: '29'
     value: ''
-  - nam
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: SA11A1.36840
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: SA11A1,C00300418,IND,Zang^Charles W^^,1605 Ranch Tr 1  SE,,Albuquerque,NM,87123,,,SAIC,Deputy
+    Group Manager,300.00,20020222,75.00,,,,,,,,,,,,,,,,,,SA11A1.36840,,
+  input_count: 36
+  record: <fec.version.v3.SA.Records instance at 0x1152680>
+  result: []
+sourceurl: !!python/unicode '20020319'

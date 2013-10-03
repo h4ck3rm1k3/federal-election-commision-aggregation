@@ -8390,4 +8390,118 @@ rows:
     value: ''
   - value: ''
   expected_count: 34
-  input: '"SB23","C00118943","CAN","Allard for Senate","5655 DTC Parkway, Suite B-2000","","De
+  input: '"SB23","C00118943","CAN","Allard for Senate","5655 DTC Parkway, Suite B-2000","","Denver","CO","80111","","Contribution:
+    Wayne Allard (CO-R)","P2002","","20020225","2000.00","","","Wayne Allard (CO-R)","S","CO","0","","","","","","","","Contribution:
+    Wayne Allard (CO-R)","","D3425","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x11522d8>
+  result: []
+- input: '"SB23","C00118943","CAN","Hobson for Congress Committee","82 West Columbia
+    St.","","Springfield","OH","45502","","Contribution: David L. Hobson (OH-7-R)","P2002","","20020225","500.00","","","David
+    L. Hobson (OH-7-R)","H","OH","7","","","","","","","","Contribution: David L.
+    Hobson (OH-7-R)","","D3426","","",""'
+  record: <fec.version.v3.SB.Records instance at 0x11520e0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00118943
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Hobson for Congress Committee
+  - name: STREET 1
+    number: '5'
+    value: 82 West Columbia St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Springfield
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '45502'
+  - name: TRANS CODE
+    number: '10'
+    value: ''
+  - name: TRANS DESCRIP
+    number: '11'
+    value: 'Contribution: David L. Hobson (OH-7-R)'
+  - name: ITEM ELECT CD
+    number: '12'
+    value: P2002
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20020225'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: David L. Hobson (OH-7-R)
+  - name: CAN/OFFICE
+    number: '19'
+    value: H
+  - name: CAN/STATE
+    number: '20'
+    value: OH
+  - name: CAN/DIST
+    number: '21'
+    value: '7'
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: 'Contribution: David L. Hobson (OH-7-R)'
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: D3426
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+sourceurl: !!python/unicode '20020318'

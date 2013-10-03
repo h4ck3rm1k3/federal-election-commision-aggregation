@@ -5397,4 +5397,163 @@ rows:
   - name: CAN/STATE
     number: '20'
     value: H
-  - name: CAN/DIS
+  - name: CAN/DIST
+    number: '21'
+    value: PA
+  - name: CONDUIT NAME
+    number: '22'
+    value: '12'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '10000004658400043'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB29","C00027359","CAN","LINDA 2002","P.O. BOX 95","","CONNOQUENESSING","PA","16027","011","LINDA
+    SCHOETTKER, STATE HOUSE REP. 12th","P2002","",20020227,1000,"","","LINDA SCHOETTKER","H","PA","12","","","","","","","","","","10000004658400043","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x311ef80>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB29
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00027359
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: ELECT TOM TANGRETTI COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: P. O. BOX 292
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: GREENSBURG
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '15601'
+  - name: TRANS CODE
+    number: '10'
+    value: '011'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: TOM TANGRETTI
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' STATE HOUSE REP. 57th PA'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: P2002
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20020227'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '300'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: TOM TANGRETTI
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: PA
+  - name: CONDUIT NAME
+    number: '22'
+    value: '57'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '10000004658600044'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB29","C00027359","CAN","ELECT TOM TANGRETTI COMMITTEE","P. O. BOX 292","","GREENSBURG","PA","15601","011","TOM
+    TANGRETTI, STATE HOUSE REP. 57th PA","P2002","",20020227,300,"","","TOM TANGRETTI","H","PA","57","","","","","","","","","","10000004658600044","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x311eab8>
+  result: []
+sourceurl: !!python/unicode '20020318'

@@ -1088,4 +1088,126 @@ rows:
   - name: BACK REF SCHED NAME
     number: '33'
     value: ''
-  - name: NAT Committee 
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: 'SB23,C00097725,CCM,KEN BENTSEN FOR US SENATE COMMITTEE,5615 MORNINGSIDE
+    #301,,HOUSTON,TX,77005,,Contribution,P2002,,20020206,1000.00,,H4TX25042,"BENTSEN,
+    KENNETH EDWARD JR^^^",S,TX,00,,,,,,,,,,SB23.4772,,,'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x114d2d8>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00097725
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: TORRICELLI FOR U S SENATE INC
+  - name: STREET 1
+    number: '5'
+    value: 1300 CONNECTICUT AVE NW
+  - name: STREET 2
+    number: '6'
+    value: ' #600'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: WASHINGTON
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS CODE
+    number: '10'
+    value: '20036'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '12'
+    value: Contribution
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: G2002
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20020225'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '3000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: S6NJ00172
+  - name: CAN/OFFICE
+    number: '19'
+    value: TORRICELLI^ROBERT G^^
+  - name: CAN/STATE
+    number: '20'
+    value: S
+  - name: CAN/DIST
+    number: '21'
+    value: NJ
+  - name: CONDUIT NAME
+    number: '22'
+    value: '00'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB23.4783
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: 'SB23,C00097725,CCM,TORRICELLI FOR U S SENATE INC,"1300 CONNECTICUT AVE NW,
+    #600",,WASHINGTON,DC,20036,,Contribution,G2002,,20020225,3000.00,,S6NJ00172,TORRICELLI^ROBERT
+    G^^,S,NJ,00,,,,,,,,,,SB23.4783,,,'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x114dd40>
+  result: []
+sourceurl: !!python/unicode '20020320'

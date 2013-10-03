@@ -19804,3 +19804,157 @@ rows:
   - name: CONDUIT STREET 2
     number: '24'
     value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: U.S. House
+  - name: TRAN ID
+    number: '31'
+    value: ' LA-1'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: 0301200234E3405
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00363879","","David Vitter for Congress","6111 Newman Road","","Fairfax","VA","22030    ","","U.S.
+    House, LA-1","O2002","Primary 02",20020211,1000.00,"C00363879","","","","",,"","","","","","","","U.S.
+    House, LA-1","","0301200234E3405","","",""'
+  input_count: 36
+  record: <fec.version.v3.SB.Records instance at 0x55baea8>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00363879
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: RECIPIENT NAME
+    number: '4'
+    value: The Jefferson Committee
+  - name: STREET 1
+    number: '5'
+    value: P. O. Box 77137
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20013    '
+  - name: TRANS CODE
+    number: '10'
+    value: ''
+  - name: TRANS DESCRIP
+    number: '11'
+    value: The Jefferson Committee
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' Dist. 2'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ' L'
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: O2002
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: Primary 02
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '20020218'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: '1000.00'
+  - name: CANDIDATE NAME
+    number: '18'
+    value: C00363879
+  - name: CAN/OFFICE
+    number: '19'
+    value: H0LA02119
+  - name: CAN/STATE
+    number: '20'
+    value: JEFFERSON^WILLIAMJENNINGS
+  - name: CAN/DIST
+    number: '21'
+    value: H
+  - name: CONDUIT NAME
+    number: '22'
+    value: LA
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: '02'
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: The Jefferson Committee
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ' Dist. 2'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ' L'
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: 0301200234E3422
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00363879","","The Jefferson Committee","P. O. Box 77137","","Washington","DC","20013    ","","The
+    Jefferson Committee, Dist. 2, L","O2002","Primary 02",20020218,1000.00,"C00363879","H0LA02119","JEFFERSON^WILLIAMJENNINGS","H","LA",02,"","","","","","","","The
+    Jefferson Committee, Dist. 2, L","","0301200234E3422","","",""'
+  input_count: 38
+  record: <fec.version.v3.SB.Records instance at 0x55bab00>
+  result: []
+sourceurl: !!python/unicode '20020302'

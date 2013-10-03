@@ -19405,4 +19405,109 @@ rows:
     value: ''
   - name: AMENDED CD
     number: '27'
-    value: 
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: ''
+  - value: A
+  - value: 40LS0729200159E1822
+  expected_count: 28
+  input: '"SD10","C00253047","","Zale S. Koff Graphics, Inc.","225 Varick Street,
+    4th Floor","","New York","NY","10014    ","Printing Oversized Cards",1851.08,0.00,0.00,1851.08,"","","","","","","","","","","","","A","40LS0729200159E1822"'
+  input_count: 30
+  record: <fec.version.v3.SD.Records instance at 0x32313488>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00253047
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: Zale S. Koff Graphics
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 225 Varick Street
+  - name: CITY
+    number: '7'
+    value: ' 4th Floor'
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: New York
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: NY
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: '10014    '
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: Printing Post Card
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '617.03'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '0.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: '0.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: '617.03'
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: ''
+  - value: A
+  - value: LS0729200159E1847
+  expected_count: 28
+  input: '"SD10","C00253047","","Zale S. Koff Graphics, Inc.","225 Varick Street,
+    4th Floor","","New York","NY","10014    ","Printing Post Card",617.03,0.00,0.00,617.03,"","","","","","","","","","","","","A","LS0729200159E1847"'
+  input_count: 30
+  record: <fec.version.v3.SD.Records instance at 0x32313320>
+  result: []
+sourceurl: !!python/unicode '20020414'

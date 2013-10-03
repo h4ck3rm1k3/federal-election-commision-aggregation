@@ -30800,4 +30800,16 @@ rows:
   - name: BACK REF TRAN ID
     number: '32'
     value: NO VALUE!
-  
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB20C","C00327874","PAC","WPS CORP  PAC","P O BOX 19001","","Green Bay","WI","543079001","","Refund
+    of Contribution Orig. Check from ","P    ","",20020131,1000.00,"","","","","","","","","","","","",,"","","0131200210E1520"'
+  input_count: 31
+  record: <fec.version.v3.SB.Records instance at 0x6e61e60>
+  result: []
+sourceurl: !!python/unicode '20020415'

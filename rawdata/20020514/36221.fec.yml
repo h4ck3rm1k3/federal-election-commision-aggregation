@@ -11426,4 +11426,133 @@ rows:
   - name: TRAN ID
     number: '31'
     value: ''
-  - name
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '10000007722600023'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00214940","CAN","Torricelli for U.S. Senate","1300 Connecticut
+    Ave N.W.","Suite 600","Washington","DC","20036","24K","YTD:$15000.00 Robert G.
+    Torricelli, U.S.","G2002","",20011227,5000,"","","Robert G. Torricelli","S","NJ","","","","","","","","","","","10000007722600023","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x57b3098>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00214940
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Torricelli for U.S. Senate
+  - name: STREET 1
+    number: '5'
+    value: 1300 Connecticut Ave N.W.
+  - name: STREET 2
+    number: '6'
+    value: Suite 600
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20036'
+  - name: TRANS CODE
+    number: '10'
+    value: 24K
+  - name: TRANS DESCRIP
+    number: '11'
+    value: YTD:$15000.00 Check returned 5/02
+  - name: ITEM ELECT CD
+    number: '12'
+    value: uncash
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: G2002
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20011227'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '5000'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: Robert G. Torricelli
+  - name: CAN/STATE
+    number: '20'
+    value: S
+  - name: CAN/DIST
+    number: '21'
+    value: NJ
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: X
+  - name: AMENDED CD
+    number: '30'
+    value: (Memo Entry)
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '10000008056300024'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00214940","CAN","Torricelli for U.S. Senate","1300 Connecticut
+    Ave N.W.","Suite 600","Washington","DC","20036","24K","YTD:$15000.00 Check returned
+    5/02,uncash","G2002","",20011227,5000,"","","Robert G. Torricelli","S","NJ","","","","","","","","X","(Memo
+    Entry)","","10000008056300024","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x57b36c8>
+  result: []
+sourceurl: !!python/unicode '20020514'

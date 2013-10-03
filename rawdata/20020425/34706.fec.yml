@@ -36600,4 +36600,33 @@ rows:
     value: ''
   - name: CONDUIT STATE
     number: '31'
-    value
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: ''
+  - name: MEMO CODE
+    number: '35'
+    value: H4.15809
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: ''
+  - value: ''
+  expected_count: 38
+  input: H4,C00141812,ORG,Sandler & Reiff,"6 E Street, SE",,Washington,DC,20003,LEGAL
+    COUNSEL,20011231,300.00,37.50,262.50,X,,,,523590.97,LEGAL COUNSEL,C00141812,,,,,,,,,,,,,H4.15809,,,,
+  input_count: 39
+  record: <fec.version.v3.SH4.Records instance at 0x19e4518>
+  result: []
+sourceurl: !!python/unicode '20020425'

@@ -30620,4 +30620,183 @@ rows:
     value: Memo
   - name: FEC COMMITTEE ID NUMBER
     number: '19'
- 
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: X
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: 0415200250C8661393
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: '"SA11A1","C00366195","IND","^","1001 Liberty Avenue","","Pittsburgh","PA","15222    ","P2002","","","",0.00,20020227,1000.00,"15","Memo","","","","","","","","","","","",,"X","","","0415200250C8661393"'
+  input_count: 34
+  record: <fec.version.v3.SA.Records instance at 0x19d2b00>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA12
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366195
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: Better Government 2002
+  - name: STREET 1
+    number: '5'
+    value: 1401 H Street NW
+  - name: STREET 2
+    number: '6'
+    value: 'Suite 1200 '
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20005    '
+  - name: ITEM ELECT CD
+    number: '10'
+    value: P2002
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: ''
+  - name: INDEMP
+    number: '12'
+    value: ''
+  - name: INDOCC
+    number: '13'
+    value: ''
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: '17463.58'
+  - name: DATE RECEIVED
+    number: '15'
+    value: '20020227'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '4463.58'
+  - name: TRANS CODE
+    number: '17'
+    value: 18K
+  - name: TRANS DESCRIP
+    number: '18'
+    value: Transfers From Affil./Auth.
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: 0313200253C8318
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: '"SA12","C00366195","PAC","Better Government 2002","1401 H Street NW","Suite
+    1200 ","Washington","DC","20005    ","P2002","","","",17463.58,20020227,4463.58,"18K","Transfers
+    From Affil./Auth.","","","","","","","","","","","",,"","","","0313200253C8318"'
+  input_count: 34
+  record: <fec.version.v3.SA.Records instance at 0x19d2d40>
+  result: []
+sourceurl: !!python/unicode '20020415'

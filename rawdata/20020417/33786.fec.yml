@@ -1097,4 +1097,35 @@ rows:
   - name: TRAN ID
     number: '31'
     value: ''
- 
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: SB29.4284
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: SB29,C00278101,ORG,U.S.Postmaster,5238 Port Royal Road,,Springfield,VA,22151,,"Postage,
+    direct campaign expenditure",P2002,,20020305,748.00,,,Polland^Gary^^,H,TX,17,,,,,,,,,,SB29.4284,,,
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x114ebd8>
+  result: []
+- input: TEXT,SB29,SB29.4284,State house candidate
+  record: <fec.version.v3.TEXT.Records instance at 0xf71a70>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SB29
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: SB29.4284
+  - name: TEXT4000
+    number: '4'
+    value: State house candidate
+sourceurl: !!python/unicode '20020417'

@@ -1504,4 +1504,87 @@ rows:
   - name: ZIP
     number: '9'
     value: '95661'
-  - n
+  - name: TRANS CODE
+    number: '10'
+    value: '011'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: 'AggYTD: $1'
+  - name: ITEM ELECT CD
+    number: '12'
+    value: 000.00 Doolittle
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ' John T--Hou'
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: P2002
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '20020214'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: '1000.00'
+  - name: CANDIDATE NAME
+    number: '18'
+    value: C00242768
+  - name: CAN/OFFICE
+    number: '19'
+    value: H0CA14042
+  - name: CAN/STATE
+    number: '20'
+    value: Doolittle^John T
+  - name: CAN/DIST
+    number: '21'
+    value: H
+  - name: CONDUIT NAME
+    number: '22'
+    value: CA
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: '04'
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: 34D
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: 'SB23,C00363770,,JOHN T DOOLITTLE FOR CONGRESS,400 Capitol Mall Ste. 1560,,Sacramento,CA,95661,011,"AggYTD:
+    $1,000.00 Doolittle, John T--Hou",P2002,,20020214,1000.00,C00242768,H0CA14042,Doolittle^John
+    T,H,CA,04,,,,,,,,,,34D,,'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x5dee560>
+  result: []
+sourceurl: !!python/unicode '20020319'

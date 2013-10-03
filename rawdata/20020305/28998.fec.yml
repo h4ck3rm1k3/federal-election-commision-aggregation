@@ -6080,4 +6080,30 @@ rows:
     number: '1'
     value: TEXT
   - name: FORM TYPE
-  
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: Purpose of Schedule B 4/3/2001 disbursement to the American Osteopathic
+      Association (AOA)amended to reflect pre-payment to an administrative account
+      maintained by the AOA to pay for administrative expenses incurred by the PAC
+  - value: ' including employee salaries'
+  - value: ' benefits'
+  - value: ' rent'
+  - value: ' telephone'
+  - value: ' supplies'
+  - value: ' postage'
+  - value: ' travel and other related expenses for PAC management and compliance.'
+  expected_count: 4
+  input: '"TEXT","F3XA","","Purpose of Schedule B 4/3/2001 disbursement to the American
+    Osteopathic Association (AOA)amended to reflect pre-payment to an administrative
+    account maintained by the AOA to pay for administrative expenses incurred by the
+    PAC, including employee salaries, benefits, rent, telephone, supplies, postage,
+    travel and other related expenses for PAC management and compliance."'
+  input_count: 11
+  record: <fec.version.v3.TEXT.Records instance at 0x4837710>
+  result: []
+sourceurl: !!python/unicode '20020305'

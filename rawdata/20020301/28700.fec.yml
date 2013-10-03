@@ -1178,4 +1178,124 @@ rows:
     value: ''
   - name: CITY
     number: '6'
-    value:
+    value: FRESNO
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '93728'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2CA38187
+  - name: CANDIDATE NAME
+    number: '10'
+    value: BRIGGS
+  - name: CAN/OFFICE
+    number: '11'
+    value: ^MIKE^EARL
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: CA
+  - name: Signed
+    number: 14-
+    value: '21'
+  - value: '20020301'
+  expected_count: 14
+  input: F6N,C00368852,BRIGGS FOR CONGRESS,1005 N THORNE,,FRESNO,CA,93728,H2CA38187,"BRIGGS,^MIKE^EARL",H,CA,21,20020301
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x114dd40>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00368852
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: International Union of Operating Engineers PAC
+  - name: STREET 1
+    number: '5'
+    value: 1125 Seventeenth Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20036'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20020228'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2500.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00029504
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: A
+  - value: F65.00000
+  expected_count: 27
+  input: F65,C00368852,PAC,International Union of Operating Engineers PAC,"1125 Seventeenth
+    Street, NW",,Washington,DC,20036,,,20020228,2500.00,C00029504,,,,,,,,,,,,A,F65.00000
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x114d560>
+  result: []
+sourceurl: !!python/unicode '20020301'

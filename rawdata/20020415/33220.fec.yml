@@ -59785,4 +59785,149 @@ rows:
   - name: CONDUIT ZIP
     number: '32'
     value: ''
-  - nam
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: H40412200236E5217
+  - name: MEMO CODE
+    number: '35'
+    value: ''
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: NO VALUE!
+  expected_count: 38
+  input: '"H4","C00025254","","US Postmaster","Kellogg Blvd","","Saint Paul","MN","55101    ","Invitation
+    Stamps 2002 HHH DINNER 4/13",20020313,170.00,85.00,85.00,"","X","","",5170.00,"","","","","","","","","","","","",,"","H40412200236E5217","","",""'
+  input_count: 37
+  record: <fec.version.v3.SH4.Records instance at 0x19bbb48>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00025254
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Expedite
+  - name: STREET 1
+    number: '5'
+    value: 1200 Red Fox Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Arden Hills
+  - name: STATE
+    number: '8'
+    value: MN
+  - name: ZIP
+    number: '9'
+    value: '55112    '
+  - name: PURPOSE/EVENT
+    number: '10'
+    value: Invitation Postage 2002 HHH DINNER 4/1
+  - name: DATE
+    number: '11'
+    value: '20020314'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '1700.00'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '850.00'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '850.00'
+  - name: Activity Is Admin./Voter Drive
+    number: 15-
+    value: ''
+  - name: Activity Is Fundrainsig
+    number: 16-
+    value: X
+  - name: Activity Is Exempt
+    number: 17-
+    value: ''
+  - name: Act. Direct Can Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '6870.00'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: H40412200236E5219
+  - name: MEMO CODE
+    number: '35'
+    value: ''
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: NO VALUE!
+  expected_count: 38
+  input: '"H4","C00025254","","Expedite","1200 Red Fox Road","","Arden Hills","MN","55112    ","Invitation
+    Postage 2002 HHH DINNER 4/1",20020314,1700.00,850.00,850.00,"","X","","",6870.00,"","","","","","","","","","","","",,"","H40412200236E5219","","",""'
+  input_count: 37
+  record: <fec.version.v3.SH4.Records instance at 0x19bbc68>
+  result: []
+sourceurl: !!python/unicode '20020415'

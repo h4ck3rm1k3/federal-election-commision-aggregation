@@ -720,4 +720,194 @@ rows:
     number: '14'
     value: VP
   - name: DATE RECEIVED
-    numbe
+    number: '15'
+    value: ' Legal Council'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '384.60'
+  - name: TRANS CODE
+    number: '17'
+    value: '20020322'
+  - name: TRANS DESCRIP
+    number: '18'
+    value: '192.30'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: payroll deduction
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: SA11A1.4119
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: ''
+  - value: ''
+  expected_count: 37
+  input: SA11A1,C00373787,IND,Kendry^Jay^^,3704 Braewood Circle,,Plano,TX,75093,,,"Entrust,
+    Inc.","VP, Legal Council",384.60,20020322,192.30,,payroll deduction,,,,,,,,,,,,,,,,SA11A1.4119,,
+  input_count: 38
+  record: <fec.version.v3.SA.Records instance at 0x114a128>
+  result: []
+- input: SA11A1,C00373787,IND,Thompson^David L.^^,5505 Kinross Drive,,Plano,TX,75093,,,"Entrust,
+    Inc.",CFO,384.60,20020322,192.30,,payroll deduction,,,,,,,,,,,,,,,,SA11A1.4121,,
+  record: <fec.version.v3.SA.Records instance at 0x114af80>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11A1
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00373787
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: Thompson^David L.^^
+  - name: STREET 1
+    number: '5'
+    value: 5505 Kinross Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Plano
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '75093'
+  - name: ITEM ELECT CD
+    number: '10'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: ''
+  - name: INDEMP
+    number: '12'
+    value: Entrust
+  - name: INDOCC
+    number: '13'
+    value: ' Inc.'
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: CFO
+  - name: DATE RECEIVED
+    number: '15'
+    value: '384.60'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '20020322'
+  - name: TRANS CODE
+    number: '17'
+    value: '192.30'
+  - name: TRANS DESCRIP
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: payroll deduction
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: SA11A1.4121
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: ''
+sourceurl: !!python/unicode '20020409'
