@@ -1,0 +1,310 @@
+countraw: 6
+countrows: 4
+filename: 28274.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00242768
+  - name: COMMITTEE NAME
+    number: '3'
+    value: JOHN T. DOOLITTLE FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 400 CAPITOL MALL
+  - name: STREET 2
+    number: '5'
+    value: ' SUITE 1560'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: SACRAMENTO
+  - name: ZIP
+    number: '8'
+    value: CA
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '95814'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ''
+  - name: CAN/OFFICE
+    number: '11'
+    value: JOHN DOOLITTLE
+  - name: CAN/STATE
+    number: '12'
+    value: ''
+  - name: CAN/DIST
+    number: '13'
+    value: ''
+  - name: Signed
+    number: 14-
+    value: '4'
+  - value: '20020223'
+  expected_count: 14
+  input: '"F6","C00242768","JOHN T. DOOLITTLE FOR CONGRESS","400 CAPITOL MALL, SUITE
+    1560","","SACRAMENTO","CA","95814","","JOHN DOOLITTLE","","",4,"20020223"'
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x1668a70>
+  result: []
+- input: '"F65","C00242768","CCM","Ballenger for Congress","PO Box 2552","","Hickory","NC","28603","","",20020223,1000.00,"","","","","","","","","","","","","","INC52539"'
+  record: <fec.version.v3.F65.Records instance at 0x1668710>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00242768
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Ballenger for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 2552
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Hickory
+  - name: STATE
+    number: '8'
+    value: NC
+  - name: ZIP
+    number: '9'
+    value: '28603'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020223'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: INC52539
+- input: '"F65","C00242768","IND","MILLER^GEORGE MICHAEL","205 FIRST ST.","","Napa","CA","94559","THE
+    FERGUSON GROUP","LOBBYIST",20020223,1000.00,"","","","","","","","","","","","","","INC52540"'
+  record: <fec.version.v3.F65.Records instance at 0x1668a70>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00242768
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: MILLER^GEORGE MICHAEL
+  - name: STREET 1
+    number: '5'
+    value: 205 FIRST ST.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Napa
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94559'
+  - name: INDEMP
+    number: '10'
+    value: THE FERGUSON GROUP
+  - name: INDOCC
+    number: '11'
+    value: LOBBYIST
+  - name: Of Contribution
+    number: 12-
+    value: '20020223'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: INC52540
+- input: '"F65","C00242768","IND","Malott^Sharon","10099 Ridgewood Road","","Nevada
+    City","CA","95959","","",20020223,1000.00,"","","","","","","","","","","","","","INC52541"'
+  record: <fec.version.v3.F65.Records instance at 0x1668710>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00242768
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Malott^Sharon
+  - name: STREET 1
+    number: '5'
+    value: 10099 Ridgewood Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Nevada City
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '95959'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020223'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: INC52541
+sourceurl: !!python/unicode '20020224'

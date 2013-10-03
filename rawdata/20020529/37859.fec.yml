@@ -1,0 +1,639 @@
+countraw: 8
+countrows: 6
+filename: 37859.fec
+header: {}
+rows:
+- input: '"F6","C00257956","Bob Goodlatte for Congress Committee","P.O. Box 292","","Roanoke","VA","24002   ","C00257956","Bob
+    Goodlatte","H","VA","06",20020529'
+  record: <fec.version.v3.F6.Records instance at 0x1897878>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00257956
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Bob Goodlatte for Congress Committee
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 292
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Roanoke
+  - name: STATE
+    number: '7'
+    value: VA
+  - name: ZIP
+    number: '8'
+    value: '24002   '
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: C00257956
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Bob Goodlatte
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: VA
+  - name: CAN/DIST
+    number: '13'
+    value: '06'
+  - name: Signed
+    number: 14-
+    value: '20020529'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11A1
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00257956
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: Kelly Blough
+  - name: STREET 1
+    number: '5'
+    value: 233 Belmont Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Los Gatos
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '95030    '
+  - name: ITEM ELECT CD
+    number: '10'
+    value: P2002
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: ''
+  - name: INDEMP
+    number: '12'
+    value: Network Associates
+  - name: INDOCC
+    number: '13'
+    value: Government Affairs
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: '1000.00'
+  - name: DATE RECEIVED
+    number: '15'
+    value: '20020528'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '1000.00'
+  - name: TRANS CODE
+    number: '17'
+    value: '15'
+  - name: TRANS DESCRIP
+    number: '18'
+    value: Receipt
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: 0529200222C167391
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: '"SA11A1","C00257956","IND","Kelly Blough","233 Belmont Avenue","","Los Gatos","CA","95030    ","P2002","","Network
+    Associates","Government Affairs",1000.00,20020528,1000.00,"15","Receipt","","","","","","","","","","","",,"","","","0529200222C167391"'
+  input_count: 34
+  record: <fec.version.v3.SA.Records instance at 0x1460f38>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11C
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00257956
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: COLCPE PAC
+  - name: STREET 1
+    number: '5'
+    value: 100 Indiana Avenue
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: ITEM ELECT CD
+    number: '10'
+    value: '200012144'
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: P2002
+  - name: INDEMP
+    number: '12'
+    value: ''
+  - name: INDOCC
+    number: '13'
+    value: ''
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: ''
+  - name: DATE RECEIVED
+    number: '15'
+    value: '1000.00'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '20020528'
+  - name: TRANS CODE
+    number: '17'
+    value: '1000.00'
+  - name: TRANS DESCRIP
+    number: '18'
+    value: 18K
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: Receipt
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: 0529200222C167422
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: '"SA11C","C00257956","PAC","COLCPE PAC","100 Indiana Avenue, NW","","Washington","DC","200012144","P2002","","","",1000.00,20020528,1000.00,"18K","Receipt","","","","","","","","","","","",,"","","","0529200222C167422"'
+  input_count: 35
+  record: <fec.version.v3.SA.Records instance at 0x1897878>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11C
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00257956
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: Cna Citizens For Good Goverment
+  - name: STREET 1
+    number: '5'
+    value: CNA Plaza
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Chicago
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60685    '
+  - name: ITEM ELECT CD
+    number: '10'
+    value: P2002
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: ''
+  - name: INDEMP
+    number: '12'
+    value: ''
+  - name: INDOCC
+    number: '13'
+    value: ''
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: '1000.00'
+  - name: DATE RECEIVED
+    number: '15'
+    value: '20020528'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '1000.00'
+  - name: TRANS CODE
+    number: '17'
+    value: 18K
+  - name: TRANS DESCRIP
+    number: '18'
+    value: Receipt
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: 0529200222C167413
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: '"SA11C","C00257956","PAC","Cna Citizens For Good Goverment","CNA Plaza","","Chicago","IL","60685    ","P2002","","","",1000.00,20020528,1000.00,"18K","Receipt","","","","","","","","","","","",,"","","","0529200222C167413"'
+  input_count: 34
+  record: <fec.version.v3.SA.Records instance at 0x14607a0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11C
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00257956
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: Skadden Arps PAC
+  - name: STREET 1
+    number: '5'
+    value: 1440 New York Avenue
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: ITEM ELECT CD
+    number: '10'
+    value: '20005    '
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: P2002
+  - name: INDEMP
+    number: '12'
+    value: ''
+  - name: INDOCC
+    number: '13'
+    value: ''
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: ''
+  - name: DATE RECEIVED
+    number: '15'
+    value: '1000.00'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '20020528'
+  - name: TRANS CODE
+    number: '17'
+    value: '1000.00'
+  - name: TRANS DESCRIP
+    number: '18'
+    value: 18K
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: Receipt
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: 0529200222C167434
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: '"SA11C","C00257956","PAC","Skadden Arps PAC","1440 New York Avenue, NW","","Washington","DC","20005    ","P2002","","","",1000.00,20020528,1000.00,"18K","Receipt","","","","","","","","","","","",,"","","","0529200222C167434"'
+  input_count: 35
+  record: <fec.version.v3.SA.Records instance at 0x1897878>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11A1
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00257956
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: Margaret C. Whitman
+  - name: STREET 1
+    number: '5'
+    value: 101 Park Center Plaza
+  - name: STREET 2
+    number: '6'
+    value: 'Suite 1160 '
+  - name: CITY
+    number: '7'
+    value: San Jose
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '95113    '
+  - name: ITEM ELECT CD
+    number: '10'
+    value: P2002
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: ''
+  - name: INDEMP
+    number: '12'
+    value: eBay
+  - name: INDOCC
+    number: '13'
+    value: ' Inc.'
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: CEO
+  - name: DATE RECEIVED
+    number: '15'
+    value: '1000.00'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '20020528'
+  - name: TRANS CODE
+    number: '17'
+    value: '1000.00'
+  - name: TRANS DESCRIP
+    number: '18'
+    value: '15'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: Receipt
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: 0529200222C167405
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: '"SA11A1","C00257956","IND","Margaret C. Whitman","101 Park Center Plaza","Suite
+    1160 ","San Jose","CA","95113    ","P2002","","eBay, Inc.","CEO",1000.00,20020528,1000.00,"15","Receipt","","","","","","","","","","","",,"","","","0529200222C167405"'
+  input_count: 35
+  record: <fec.version.v3.SA.Records instance at 0x14607a0>
+  result: []
+sourceurl: !!python/unicode '20020529'

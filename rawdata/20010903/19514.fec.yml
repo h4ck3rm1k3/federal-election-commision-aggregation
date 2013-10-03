@@ -1,0 +1,627 @@
+countraw: 21
+countrows: 7
+filename: 19514.fec
+header:
+  'Committee ': CHERYL JACQUES FOR CONGRESS COMMITTEE
+  'Date_Fmat ': CCYYMMDD
+  'Dec/NoDec ': DEC
+  'F65       ': '00006'
+  'FEC_IDnum ': C00367698
+  'FEC_Ver_# ': '2.02'
+  'Form_Name ': F6N
+  'NameDelim ': ^
+  'Soft_Name ': FECWEB
+  'Soft_Ver# ': '1'
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367698
+  - name: COMMITTEE NAME
+    number: '3'
+    value: CHERYL JACQUES FOR CONGRESS COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 920304 64 HELEN ROAD
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: NEEDHAM
+  - name: STATE
+    number: '7'
+    value: MA
+  - name: ZIP
+    number: '8'
+    value: 02492
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2MA09130
+  - name: CANDIDATE NAME
+    number: '10'
+    value: JACQUES
+  - name: CAN/OFF
+    number: '11'
+    value: ^CHERYL^A
+  - name: STATE (OF ELECTION)
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: MA
+  - name: SIGNED
+    number: 14-
+    value: 09
+  - value: '20010903'
+  expected_count: 14
+  input: F6N,C00367698,CHERYL JACQUES FOR CONGRESS COMMITTEE,PO BOX 920304 64 HELEN
+    ROAD,,NEEDHAM,MA,02492,H2MA09130,"JACQUES,^CHERYL^A",H,MA,09,20010903
+  input_count: 15
+  record: <fec.version.v2.F6.Records instance at 0x25e7560>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367698
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Solomon-Auger^Mara
+  - name: STREET 1
+    number: '5'
+    value: 29 Mary's Lane
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Scituate
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: '02066'
+  - name: INDEMP
+    number: '10'
+    value: Homebase Abroad
+  - name: INDOCC
+    number: '11'
+    value: President
+  - name: OF CONTRIBUTION
+    number: 12-
+    value: '20010901'
+  - name: AMOUNT CONTRIB/LOANED AMT
+    number: '13'
+    value: '1000.00'
+  - name: FEC-COMMITTEE-ID-NUMBER
+    number: '14'
+    value: ''
+  - name: FEC-CANDIDATE-ID-NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE-NAME
+    number: '16'
+    value: ''
+  - name: CAND-OFFICE
+    number: '17'
+    value: ''
+  - name: CAND-STATE (OF ELECTION)
+    number: '18'
+    value: ''
+  - name: CAND-DISTRICT
+    number: '19'
+    value: ''
+  - name: CONDUIT-NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT-STREET-1
+    number: '21'
+    value: ''
+  - name: CONDUIT-STREET-2
+    number: '22'
+    value: ''
+  - name: CONDUIT-CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT-STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT-ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED-CD
+    number: '26'
+    value: A
+  - name: TRAN_ID
+    number: '27'
+    value: F65.00000
+  - name: ORIG_TRAN_ID
+    number: '28'
+    value: NO VALUE!
+  - name: SUPR_TRAN_ID
+    number: '29'
+    value: NO VALUE!
+  expected_count: 29
+  input: F65,C00367698,IND,Solomon-Auger^Mara,29 Mary's Lane,,Scituate,MA,02066,Homebase
+    Abroad,President,20010901,1000.00,,,,,,,,,,,,,A,F65.00000
+  input_count: 27
+  record: <fec.version.v2.F65.Records instance at 0x25e7830>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367698
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Barley^Christopher
+  - name: STREET 1
+    number: '5'
+    value: 39 W. 10th Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New York
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10011'
+  - name: INDEMP
+    number: '10'
+    value: Self
+  - name: INDOCC
+    number: '11'
+    value: Physician
+  - name: OF CONTRIBUTION
+    number: 12-
+    value: '20010901'
+  - name: AMOUNT CONTRIB/LOANED AMT
+    number: '13'
+    value: '1000.00'
+  - name: FEC-COMMITTEE-ID-NUMBER
+    number: '14'
+    value: ''
+  - name: FEC-CANDIDATE-ID-NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE-NAME
+    number: '16'
+    value: ''
+  - name: CAND-OFFICE
+    number: '17'
+    value: ''
+  - name: CAND-STATE (OF ELECTION)
+    number: '18'
+    value: ''
+  - name: CAND-DISTRICT
+    number: '19'
+    value: ''
+  - name: CONDUIT-NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT-STREET-1
+    number: '21'
+    value: ''
+  - name: CONDUIT-STREET-2
+    number: '22'
+    value: ''
+  - name: CONDUIT-CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT-STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT-ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED-CD
+    number: '26'
+    value: A
+  - name: TRAN_ID
+    number: '27'
+    value: F65.00001
+  - name: ORIG_TRAN_ID
+    number: '28'
+    value: NO VALUE!
+  - name: SUPR_TRAN_ID
+    number: '29'
+    value: NO VALUE!
+  expected_count: 29
+  input: F65,C00367698,IND,Barley^Christopher,39 W. 10th Street,,New York,NY,10011,Self,Physician,20010901,1000.00,,,,,,,,,,,,,A,F65.00001
+  input_count: 27
+  record: <fec.version.v2.F65.Records instance at 0x25e7560>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367698
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Rosen^Hilary
+  - name: STREET 1
+    number: '5'
+    value: 1330 Connecticut Ave
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20036'
+  - name: INDEMP
+    number: '10'
+    value: Recording Industry of America
+  - name: INDOCC
+    number: '11'
+    value: CEO
+  - name: OF CONTRIBUTION
+    number: 12-
+    value: '20010901'
+  - name: AMOUNT CONTRIB/LOANED AMT
+    number: '13'
+    value: '1000.00'
+  - name: FEC-COMMITTEE-ID-NUMBER
+    number: '14'
+    value: ''
+  - name: FEC-CANDIDATE-ID-NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE-NAME
+    number: '16'
+    value: ''
+  - name: CAND-OFFICE
+    number: '17'
+    value: ''
+  - name: CAND-STATE (OF ELECTION)
+    number: '18'
+    value: ''
+  - name: CAND-DISTRICT
+    number: '19'
+    value: ''
+  - name: CONDUIT-NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT-STREET-1
+    number: '21'
+    value: ''
+  - name: CONDUIT-STREET-2
+    number: '22'
+    value: ''
+  - name: CONDUIT-CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT-STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT-ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED-CD
+    number: '26'
+    value: A
+  - name: TRAN_ID
+    number: '27'
+    value: F65.00002
+  - name: ORIG_TRAN_ID
+    number: '28'
+    value: NO VALUE!
+  - name: SUPR_TRAN_ID
+    number: '29'
+    value: NO VALUE!
+  expected_count: 29
+  input: F65,C00367698,IND,Rosen^Hilary,1330 Connecticut Ave,,Washington,DC,20036,Recording
+    Industry of America,CEO,20010901,1000.00,,,,,,,,,,,,,A,F65.00002
+  input_count: 27
+  record: <fec.version.v2.F65.Records instance at 0x25e7638>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367698
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Friedman^Eleanor
+  - name: STREET 1
+    number: '5'
+    value: 18 Baker Ridge Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Lincoln
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: '01773'
+  - name: INDEMP
+    number: '10'
+    value: Self
+  - name: INDOCC
+    number: '11'
+    value: Designer
+  - name: OF CONTRIBUTION
+    number: 12-
+    value: '20010901'
+  - name: AMOUNT CONTRIB/LOANED AMT
+    number: '13'
+    value: '1000.00'
+  - name: FEC-COMMITTEE-ID-NUMBER
+    number: '14'
+    value: ''
+  - name: FEC-CANDIDATE-ID-NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE-NAME
+    number: '16'
+    value: ''
+  - name: CAND-OFFICE
+    number: '17'
+    value: ''
+  - name: CAND-STATE (OF ELECTION)
+    number: '18'
+    value: ''
+  - name: CAND-DISTRICT
+    number: '19'
+    value: ''
+  - name: CONDUIT-NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT-STREET-1
+    number: '21'
+    value: ''
+  - name: CONDUIT-STREET-2
+    number: '22'
+    value: ''
+  - name: CONDUIT-CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT-STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT-ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED-CD
+    number: '26'
+    value: A
+  - name: TRAN_ID
+    number: '27'
+    value: F65.00003
+  - name: ORIG_TRAN_ID
+    number: '28'
+    value: NO VALUE!
+  - name: SUPR_TRAN_ID
+    number: '29'
+    value: NO VALUE!
+  expected_count: 29
+  input: F65,C00367698,IND,Friedman^Eleanor,18 Baker Ridge Road,,Lincoln,MA,01773,Self,Designer,20010901,1000.00,,,,,,,,,,,,,A,F65.00003
+  input_count: 27
+  record: <fec.version.v2.F65.Records instance at 0x25e7560>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367698
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Longtime^Janina
+  - name: STREET 1
+    number: '5'
+    value: 263 Hammond Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Chestnut Hill
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: '02467'
+  - name: INDEMP
+    number: '10'
+    value: Brigham and Women's Hospital
+  - name: INDOCC
+    number: '11'
+    value: Physician
+  - name: OF CONTRIBUTION
+    number: 12-
+    value: '20010901'
+  - name: AMOUNT CONTRIB/LOANED AMT
+    number: '13'
+    value: '1000.00'
+  - name: FEC-COMMITTEE-ID-NUMBER
+    number: '14'
+    value: ''
+  - name: FEC-CANDIDATE-ID-NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE-NAME
+    number: '16'
+    value: ''
+  - name: CAND-OFFICE
+    number: '17'
+    value: ''
+  - name: CAND-STATE (OF ELECTION)
+    number: '18'
+    value: ''
+  - name: CAND-DISTRICT
+    number: '19'
+    value: ''
+  - name: CONDUIT-NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT-STREET-1
+    number: '21'
+    value: ''
+  - name: CONDUIT-STREET-2
+    number: '22'
+    value: ''
+  - name: CONDUIT-CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT-STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT-ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED-CD
+    number: '26'
+    value: A
+  - name: TRAN_ID
+    number: '27'
+    value: F65.00004
+  - name: ORIG_TRAN_ID
+    number: '28'
+    value: NO VALUE!
+  - name: SUPR_TRAN_ID
+    number: '29'
+    value: NO VALUE!
+  expected_count: 29
+  input: F65,C00367698,IND,Longtime^Janina,263 Hammond Street,,Chestnut Hill,MA,02467,Brigham
+    and Women's Hospital,Physician,20010901,1000.00,,,,,,,,,,,,,A,F65.00004
+  input_count: 27
+  record: <fec.version.v2.F65.Records instance at 0x25e75f0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367698
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Brady Voter Education Fund
+  - name: STREET 1
+    number: '5'
+    value: 1225 Eye Street
+  - name: STREET 2
+    number: '6'
+    value: Suite 1100
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20005'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: OF CONTRIBUTION
+    number: 12-
+    value: '20010901'
+  - name: AMOUNT CONTRIB/LOANED AMT
+    number: '13'
+    value: '5000.00'
+  - name: FEC-COMMITTEE-ID-NUMBER
+    number: '14'
+    value: C00113449
+  - name: FEC-CANDIDATE-ID-NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE-NAME
+    number: '16'
+    value: ''
+  - name: CAND-OFFICE
+    number: '17'
+    value: ''
+  - name: CAND-STATE (OF ELECTION)
+    number: '18'
+    value: ''
+  - name: CAND-DISTRICT
+    number: '19'
+    value: ''
+  - name: CONDUIT-NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT-STREET-1
+    number: '21'
+    value: ''
+  - name: CONDUIT-STREET-2
+    number: '22'
+    value: ''
+  - name: CONDUIT-CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT-STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT-ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED-CD
+    number: '26'
+    value: A
+  - name: TRAN_ID
+    number: '27'
+    value: F65.00005
+  - name: ORIG_TRAN_ID
+    number: '28'
+    value: NO VALUE!
+  - name: SUPR_TRAN_ID
+    number: '29'
+    value: NO VALUE!
+  expected_count: 29
+  input: F65,C00367698,PAC,Brady Voter Education Fund,1225 Eye Street,Suite 1100,Washington,DC,20005,,,20010901,5000.00,C00113449,,,,,,,,,,,,A,F65.00005
+  input_count: 27
+  record: <fec.version.v2.F65.Records instance at 0x25e7560>
+  result: []
+sourceurl: !!python/unicode '20010903'

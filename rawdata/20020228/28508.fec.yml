@@ -1,0 +1,931 @@
+countraw: 19
+countrows: 12
+filename: 28508.fec
+header:
+  'Committee ': BRAD BARTON FOR CONGRESS
+  'Date_Fmat ': CCYYMMDD
+  'Dec/NoDec ': DEC
+  'F65       ': '00004'
+  'FEC_IDnum ': C00371054
+  'FEC_Ver_# ': '2.02'
+  'Form_Name ': F6N
+  'NameDelim ': ^
+  'Soft_Name ': FECWEB
+  'Soft_Ver# ': '1'
+rows:
+- input: '"F6","C00369173","Monteith for Congress","30151 Tomas Street","","RnchoStaMargrita","CA","92688","","Richard
+    ''Dick'' Monteith","H","CA",18,"20020227"'
+  record: <fec.version.v3.F6.Records instance at 0x11520e0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00369173
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Monteith for Congress
+  - name: STREET 1
+    number: '4'
+    value: 30151 Tomas Street
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: RnchoStaMargrita
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '92688'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Richard 'Dick' Monteith
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: CA
+  - name: CAN/DIST
+    number: '13'
+    value: '18'
+  - name: Signed
+    number: 14-
+    value: '20020227'
+- input: '"F65","C00369173","IND","Lawler^Tom E","857 Purdue Court","","Merced","CA","95340","Lawler
+    Construction","Contractor",20020226,1000.00,"","","","","","","","","","","","","","INC370"'
+  record: <fec.version.v3.F65.Records instance at 0x11523f8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00369173
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Lawler^Tom E
+  - name: STREET 1
+    number: '5'
+    value: 857 Purdue Court
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Merced
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '95340'
+  - name: INDEMP
+    number: '10'
+    value: Lawler Construction
+  - name: INDOCC
+    number: '11'
+    value: Contractor
+  - name: Of Contribution
+    number: 12-
+    value: '20020226'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: INC370
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00368852
+  - name: COMMITTEE NAME
+    number: '3'
+    value: BRIGGS FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 1005 N THORNE
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: FRESNO
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '93728'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2CA38187
+  - name: CANDIDATE NAME
+    number: '10'
+    value: BRIGGS
+  - name: CAN/OFFICE
+    number: '11'
+    value: ^MIKE^EARL
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: CA
+  - name: Signed
+    number: 14-
+    value: '21'
+  - value: '20020227'
+  expected_count: 14
+  input: F6N,C00368852,BRIGGS FOR CONGRESS,1005 N THORNE,,FRESNO,CA,93728,H2CA38187,"BRIGGS,^MIKE^EARL",H,CA,21,20020227
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x11529e0>
+  result: []
+- input: F65,C00368852,IND,Kahn^Jan,13148 Grangeville Blvd.,,Hanford,CA,93230,Requested,Will
+    Amend,20020227,1000.00,,,,,,,,,,,,,A,F65.00000
+  record: <fec.version.v3.F65.Records instance at 0x11523f8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00368852
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Kahn^Jan
+  - name: STREET 1
+    number: '5'
+    value: 13148 Grangeville Blvd.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Hanford
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '93230'
+  - name: INDEMP
+    number: '10'
+    value: Requested
+  - name: INDOCC
+    number: '11'
+    value: Will Amend
+  - name: Of Contribution
+    number: 12-
+    value: '20020227'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: A
+  - name: TRAN ID
+    number: '27'
+    value: F65.00000
+- input: F65,C00368852,IND,Allred^Edward,4961 Katella Avenue,,Los Alamitos,CA,90720,Requested,Will
+    Amend,20020227,1000.00,,,,,,,,,,,,,A,F65.00001
+  record: <fec.version.v3.F65.Records instance at 0x11529e0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00368852
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Allred^Edward
+  - name: STREET 1
+    number: '5'
+    value: 4961 Katella Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Los Alamitos
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '90720'
+  - name: INDEMP
+    number: '10'
+    value: Requested
+  - name: INDOCC
+    number: '11'
+    value: Will Amend
+  - name: Of Contribution
+    number: 12-
+    value: '20020227'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: A
+  - name: TRAN ID
+    number: '27'
+    value: F65.00001
+- input: F65,C00368852,IND,Gallo^Michael,P.O. Box 775,,Atwater,CA,95301,Gallo Farms,Farmer,20020227,1000.00,,,,,,,,,,,,,A,F65.00002
+  record: <fec.version.v3.F65.Records instance at 0x11523f8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00368852
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Gallo^Michael
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 775
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Atwater
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '95301'
+  - name: INDEMP
+    number: '10'
+    value: Gallo Farms
+  - name: INDOCC
+    number: '11'
+    value: Farmer
+  - name: Of Contribution
+    number: 12-
+    value: '20020227'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: A
+  - name: TRAN ID
+    number: '27'
+    value: F65.00002
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00368852
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: American Legislative Exchange Council
+  - name: STREET 1
+    number: '5'
+    value: 910 17th Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ' 5th Floor'
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: INDEMP
+    number: '10'
+    value: DC
+  - name: INDOCC
+    number: '11'
+    value: '20006'
+  - name: Of Contribution
+    number: 12-
+    value: Information Requested
+  - name: AMOUNT
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20020227'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '2000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: A
+  - value: F65.00003
+  expected_count: 27
+  input: F65,C00368852,IND,American Legislative Exchange Council,"910 17th Street,
+    NW, 5th Floor",,Washington,DC,20006,Information Requested,,20020227,2000.00,,,,,,,,,,,,,A,F65.00003
+  input_count: 29
+  record: <fec.version.v3.F65.Records instance at 0x11529e0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00371054
+  - name: COMMITTEE NAME
+    number: '3'
+    value: BRAD BARTON FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 3309
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: BRYAN
+  - name: STATE
+    number: '7'
+    value: TX
+  - name: ZIP
+    number: '8'
+    value: '77805'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2TX31028
+  - name: CANDIDATE NAME
+    number: '10'
+    value: BARTON
+  - name: CAN/OFFICE
+    number: '11'
+    value: ^BRADLEY^LINUS
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: TX
+  - name: Signed
+    number: 14-
+    value: '31'
+  - value: '20020227'
+  expected_count: 14
+  input: F6N,C00371054,BRAD BARTON FOR CONGRESS,PO BOX 3309,,BRYAN,TX,77805,H2TX31028,"BARTON,^BRADLEY^LINUS",H,TX,31,20020227
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x114af80>
+  result: []
+- input: F65,C00371054,IND,Arnett^Brenda,4411 Mandell,,Houston,TX,77006,Otromundo,Owner,20020227,1000.00,,,,,,,,,,,,,A,F65.00000
+  record: <fec.version.v3.F65.Records instance at 0x11529e0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00371054
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Arnett^Brenda
+  - name: STREET 1
+    number: '5'
+    value: 4411 Mandell
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Houston
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '77006'
+  - name: INDEMP
+    number: '10'
+    value: Otromundo
+  - name: INDOCC
+    number: '11'
+    value: Owner
+  - name: Of Contribution
+    number: 12-
+    value: '20020227'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: A
+  - name: TRAN ID
+    number: '27'
+    value: F65.00000
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00371054
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Dynegy
+  - name: STREET 1
+    number: '5'
+    value: ' Inc. Political Action Committee'
+  - name: STREET 2
+    number: '6'
+    value: 1000 Louisiana
+  - name: CITY
+    number: '7'
+    value: Ste. 5800
+  - name: STATE
+    number: '8'
+    value: Houston
+  - name: ZIP
+    number: '9'
+    value: TX
+  - name: INDEMP
+    number: '10'
+    value: '77002'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20020227'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '4000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: A
+  - value: F65.00001
+  expected_count: 27
+  input: F65,C00371054,PAC,"Dynegy, Inc. Political Action Committee",1000 Louisiana,Ste.
+    5800,Houston,TX,77002,,,20020227,4000.00,,,,,,,,,,,,,A,F65.00001
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x11523f8>
+  result: []
+- input: F65,C00371054,IND,Smith^Clark,366 Tynebridge Lane,,Houston,TX,77002,El Paso
+    Merchant Energy N.A.,Chief Executive Officer,20020227,1000.00,,,,,,,,,,,,,A,F65.00002
+  record: <fec.version.v3.F65.Records instance at 0x11529e0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00371054
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Smith^Clark
+  - name: STREET 1
+    number: '5'
+    value: 366 Tynebridge Lane
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Houston
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '77002'
+  - name: INDEMP
+    number: '10'
+    value: El Paso Merchant Energy N.A.
+  - name: INDOCC
+    number: '11'
+    value: Chief Executive Officer
+  - name: Of Contribution
+    number: 12-
+    value: '20020227'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: A
+  - name: TRAN ID
+    number: '27'
+    value: F65.00002
+- input: 'F65,C00371054,IND,Heyburn^John,4605 Post Oaks Place #228,,Houston,TX,77027,,Retired,20020227,1000.00,,,,,,,,,,,,,A,F65.00003'
+  record: <fec.version.v3.F65.Records instance at 0x11523f8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00371054
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Heyburn^John
+  - name: STREET 1
+    number: '5'
+    value: '4605 Post Oaks Place #228'
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Houston
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '77027'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: Retired
+  - name: Of Contribution
+    number: 12-
+    value: '20020227'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: A
+  - name: TRAN ID
+    number: '27'
+    value: F65.00003
+sourceurl: !!python/unicode '20020228'

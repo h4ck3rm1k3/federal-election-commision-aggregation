@@ -1,0 +1,141 @@
+countraw: 4
+countrows: 2
+filename: 37919.fec
+header: {}
+rows:
+- input: F6N,C00155796,SPRATT FOR CONGRESS COMMITTEE,PO BOX 830,,YORK,SC,29745,H2SC05052,,H,SC,05,20020530
+  record: <fec.version.v3.F6.Records instance at 0x264cb00>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00155796
+  - name: COMMITTEE NAME
+    number: '3'
+    value: SPRATT FOR CONGRESS COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 830
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: YORK
+  - name: STATE
+    number: '7'
+    value: SC
+  - name: ZIP
+    number: '8'
+    value: '29745'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2SC05052
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ''
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: SC
+  - name: CAN/DIST
+    number: '13'
+    value: '05'
+  - name: Signed
+    number: 14-
+    value: '20020530'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00155796
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Porter^A. Alex^Mr.
+  - name: STREET 1
+    number: '5'
+    value: 100 Park Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New York
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10017'
+  - name: INDEMP
+    number: '10'
+    value: Porter
+  - name: INDOCC
+    number: '11'
+    value: ' Fellman'
+  - name: Of Contribution
+    number: 12-
+    value: ' Inc.'
+  - name: AMOUNT
+    number: '13'
+    value: Investment Adviser
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20020530'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '1000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: A
+  - value: F65.00000
+  expected_count: 27
+  input: F65,C00155796,IND,Porter^A. Alex^Mr.,100 Park Avenue,,New York,NY,10017,"Porter,
+    Fellman, Inc.",Investment Adviser,20020530,1000.00,,,,,,,,,,,,,A,F65.00000
+  input_count: 29
+  record: <fec.version.v3.F65.Records instance at 0x264c098>
+  result: []
+sourceurl: !!python/unicode '20020530'

@@ -1,0 +1,295 @@
+countraw: 16
+countrows: 3
+filename: 27424.fec
+header:
+  'Committee ': HECTOR DE LA TORRE FOR CONGRESS
+  'Date_Fmat ': CCYYMMDD
+  'Dec/NoDec ': DEC
+  'F65       ': '00001'
+  'FEC_IDnum ': C00369439
+  'FEC_Ver_# ': '2.02'
+  'Form_Name ': F6N
+  'NameDelim ': ^
+  'Soft_Name ': FECWEB
+  'Soft_Ver# ': '1'
+rows:
+- input: F1MN,C00368431,Senate Majority Fund,P.O. Box 32025,,Phoenix,AZ,85064,N,,,-,,Allard^Wayne^^,,,,20011207,,Collins^Susan^^,,,,20011207,,Sessions^Jeff^^,,,,20011207,,Hutchinson^Tim^^,,,,20011207,,Coleman^Norm^^,,,,20011207,20011016,20010815,20020215,DeLong^Clarence
+    A.^Mr.^,20020218
+  record: <fec.version.v3.F1M.Records instance at 0x1844d88>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F1MN
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00368431
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Senate Majority Fund
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 32025
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Phoenix
+  - name: STATE
+    number: '7'
+    value: AZ
+  - name: ZIP
+    number: '8'
+    value: '85064'
+  - name: COMMITTEE TYPE
+    number: '9'
+    value: N
+  - name: Of Affiliation
+    number: 10-
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '11'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '12'
+    value: '-'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '13'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '14'
+    value: Allard^Wayne^^
+  - name: CAN/OFFICE
+    number: '15'
+    value: ''
+  - name: CAN/STATE
+    number: '16'
+    value: ''
+  - name: CAN/DIST
+    number: '17'
+    value: ''
+  - name: Of Contribution
+    number: 18-
+    value: '20011207'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '19'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '20'
+    value: Collins^Susan^^
+  - name: CAN/OFFICE
+    number: '21'
+    value: ''
+  - name: CAN/STATE
+    number: '22'
+    value: ''
+  - name: CAN/DIST
+    number: '23'
+    value: ''
+  - name: Of Contribution
+    number: 24-
+    value: '20011207'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '25'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '26'
+    value: Sessions^Jeff^^
+  - name: CAN/OFFICE
+    number: '27'
+    value: ''
+  - name: CAN/STATE
+    number: '28'
+    value: ''
+  - name: CAN/DIST
+    number: '29'
+    value: ''
+  - name: Of Contribution
+    number: 30-
+    value: '20011207'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '31'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '32'
+    value: Hutchinson^Tim^^
+  - name: CAN/OFFICE
+    number: '33'
+    value: ''
+  - name: CAN/STATE
+    number: '34'
+    value: ''
+  - name: CAN/DIST
+    number: '35'
+    value: ''
+  - name: Of Contribution
+    number: 36-
+    value: '20011207'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '37'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '38'
+    value: Coleman^Norm^^
+  - name: CAN/OFFICE
+    number: '39'
+    value: ''
+  - name: CAN/STATE
+    number: '40'
+    value: ''
+  - name: CAN/DIST
+    number: '41'
+    value: ''
+  - name: Of Contribution
+    number: 42-
+    value: '20011207'
+  - name: Of 51st Contributor
+    number: 43-
+    value: '20011016'
+  - name: Of Orig Registration
+    number: 44-
+    value: '20010815'
+  - name: Cmte Met Requirements
+    number: 45-
+    value: '20020215'
+  - name: NAME/TREASURER (as signed)
+    number: '46'
+    value: DeLong^Clarence A.^Mr.^
+  - name: Signed
+    number: 47-
+    value: '20020218'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00369439
+  - name: COMMITTEE NAME
+    number: '3'
+    value: HECTOR DE LA TORRE FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 2295
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: SOUTH GATE
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '90280'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2CA39086
+  - name: CANDIDATE NAME
+    number: '10'
+    value: DE^LA^TORRE
+  - name: CAN/OFFICE
+    number: '11'
+    value: ^HECTOR
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: CA
+  - name: Signed
+    number: 14-
+    value: '39'
+  - value: '20020215'
+  expected_count: 14
+  input: F6N,C00369439,HECTOR DE LA TORRE FOR CONGRESS,PO BOX 2295,,SOUTH GATE,CA,90280,H2CA39086,"DE^LA^TORRE,^HECTOR",H,CA,39,20020215
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x18442d8>
+  result: []
+- input: F65,C00369439,IND,Alejandre^Perla Y.,15312 Tacuba Dr.,,La Mirada,CA,90638,So.
+    Cal Lighting,Manager,20020215,1000.00,,,,,,,,,,,,,A,F65.00000
+  record: <fec.version.v3.F65.Records instance at 0x1844d88>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00369439
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Alejandre^Perla Y.
+  - name: STREET 1
+    number: '5'
+    value: 15312 Tacuba Dr.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: La Mirada
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '90638'
+  - name: INDEMP
+    number: '10'
+    value: So. Cal Lighting
+  - name: INDOCC
+    number: '11'
+    value: Manager
+  - name: Of Contribution
+    number: 12-
+    value: '20020215'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: A
+  - name: TRAN ID
+    number: '27'
+    value: F65.00000
+sourceurl: !!python/unicode '20020218'

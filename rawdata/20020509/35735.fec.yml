@@ -1,0 +1,482 @@
+countraw: 8
+countrows: 6
+filename: 35735.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00373472
+  - name: COMMITTEE NAME
+    number: '3'
+    value: CITIZENS FOR TAUBENBERGER C/O WILLIAM P. ST. CLAIR
+  - name: STREET 1
+    number: '4'
+    value: ' TREASURER'
+  - name: STREET 2
+    number: '5'
+    value: 10 PRESIDENTIAL BLVD.
+  - name: CITY
+    number: '6'
+    value: SUITE 250
+  - name: STATE
+    number: '7'
+    value: BALA CYNWYD
+  - name: ZIP
+    number: '8'
+    value: PA
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '19004'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ''
+  - name: CAN/OFFICE
+    number: '11'
+    value: TAUBENBERGER^ALFRED W.^Mr.^
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: PA
+  - name: Signed
+    number: 14-
+    value: '13'
+  - value: '20020509'
+  expected_count: 14
+  input: F6,C00373472,"CITIZENS FOR TAUBENBERGER C/O WILLIAM P. ST. CLAIR, TREASURER",10
+    PRESIDENTIAL BLVD.,SUITE 250,BALA CYNWYD,PA,19004,,TAUBENBERGER^ALFRED W.^Mr.^,H,PA,13,20020509
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x114ef80>
+  result: []
+- input: F65,C00373472,IND,GREENMAN^NORMAN^^,937 ALBURGER AVENUE,,PHILADELPHIA,PA,19115,,,20020508,100.00,C00373472,,TAUBENBERGER^ALFRED
+    W.^Mr.^,H,PA,13,,,,,,,,F6.4988
+  record: <fec.version.v3.F65.Records instance at 0x114ec20>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00373472
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: GREENMAN^NORMAN^^
+  - name: STREET 1
+    number: '5'
+    value: 937 ALBURGER AVENUE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: PHILADELPHIA
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '19115'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020508'
+  - name: AMOUNT
+    number: '13'
+    value: '100.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00373472
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: TAUBENBERGER^ALFRED W.^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: PA
+  - name: CAN/DIST
+    number: '19'
+    value: '13'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4988
+- input: F65,C00373472,IND,LOVETT^ANNA R.^^,9916 BUSTLETON AVENUE,,PHILADELPHIA,PA,19115,,,20020508,150.00,C00373472,,TAUBENBERGER^ALFRED
+    W.^Mr.^,H,PA,13,,,,,,,,F6.4986
+  record: <fec.version.v3.F65.Records instance at 0x114ef80>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00373472
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: LOVETT^ANNA R.^^
+  - name: STREET 1
+    number: '5'
+    value: 9916 BUSTLETON AVENUE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: PHILADELPHIA
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '19115'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020508'
+  - name: AMOUNT
+    number: '13'
+    value: '150.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00373472
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: TAUBENBERGER^ALFRED W.^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: PA
+  - name: CAN/DIST
+    number: '19'
+    value: '13'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4986
+- input: F65,C00373472,IND,MCCOLGAN^JOSEPH^^,11821 BRANDON ROAD,,PHILADELPHIA,PA,19154,MERRILL
+    LYNCH,FINANCIAL CONSULTANT,20020508,200.00,C00373472,,TAUBENBERGER^ALFRED W.^Mr.^,H,PA,13,,,,,,,,F6.4985
+  record: <fec.version.v3.F65.Records instance at 0x114ec20>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00373472
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: MCCOLGAN^JOSEPH^^
+  - name: STREET 1
+    number: '5'
+    value: 11821 BRANDON ROAD
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: PHILADELPHIA
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '19154'
+  - name: INDEMP
+    number: '10'
+    value: MERRILL LYNCH
+  - name: INDOCC
+    number: '11'
+    value: FINANCIAL CONSULTANT
+  - name: Of Contribution
+    number: 12-
+    value: '20020508'
+  - name: AMOUNT
+    number: '13'
+    value: '200.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00373472
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: TAUBENBERGER^ALFRED W.^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: PA
+  - name: CAN/DIST
+    number: '19'
+    value: '13'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4985
+- input: F65,C00373472,IND,MCELHATTON^DANIEL P.^^,TWO PENN CENTER PLAZA,SUITE 725,PHILADELPHIA,PA,19102,LAW
+    OFFICE OF SCHUBERT BELLWOAR,ATTORNEY,20020508,250.00,C00373472,,TAUBENBERGER^ALFRED
+    W.^Mr.^,H,PA,13,,,,,,,,F6.4990
+  record: <fec.version.v3.F65.Records instance at 0x114e6c8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00373472
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: MCELHATTON^DANIEL P.^^
+  - name: STREET 1
+    number: '5'
+    value: TWO PENN CENTER PLAZA
+  - name: STREET 2
+    number: '6'
+    value: SUITE 725
+  - name: CITY
+    number: '7'
+    value: PHILADELPHIA
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '19102'
+  - name: INDEMP
+    number: '10'
+    value: LAW OFFICE OF SCHUBERT BELLWOAR
+  - name: INDOCC
+    number: '11'
+    value: ATTORNEY
+  - name: Of Contribution
+    number: 12-
+    value: '20020508'
+  - name: AMOUNT
+    number: '13'
+    value: '250.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00373472
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: TAUBENBERGER^ALFRED W.^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: PA
+  - name: CAN/DIST
+    number: '19'
+    value: '13'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4990
+- input: F65,C00373472,PAC,ASSOCIATED BUILDERS & CONTRACTORS PAC,1300 NORTH 17TH STREET,,ROSSLYN,VA,22209,,,20020508,2500.00,C00373472,,TAUBENBERGER^ALFRED
+    W.^Mr.^,H,PA,13,,,,,,,,F6.4989
+  record: <fec.version.v3.F65.Records instance at 0x114ec20>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00373472
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: ASSOCIATED BUILDERS & CONTRACTORS PAC
+  - name: STREET 1
+    number: '5'
+    value: 1300 NORTH 17TH STREET
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: ROSSLYN
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22209'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020508'
+  - name: AMOUNT
+    number: '13'
+    value: '2500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00373472
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: TAUBENBERGER^ALFRED W.^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: PA
+  - name: CAN/DIST
+    number: '19'
+    value: '13'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4989
+sourceurl: !!python/unicode '20020509'

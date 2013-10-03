@@ -1,0 +1,314 @@
+countraw: 6
+countrows: 4
+filename: 28275.fec
+header: {}
+rows:
+- input: '"F6","C00261388","Bob Filner for Congress","P.O. Box 127868","","San Diego","CA","92112","","","H  ","CA","51","20020223"'
+  record: <fec.version.v3.F6.Records instance at 0x1668ea8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00261388
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Bob Filner for Congress
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 127868
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: San Diego
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '92112'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ''
+  - name: CAN/OFFICE
+    number: '11'
+    value: 'H  '
+  - name: CAN/STATE
+    number: '12'
+    value: CA
+  - name: CAN/DIST
+    number: '13'
+    value: '51'
+  - name: Signed
+    number: 14-
+    value: '20020223'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00261388
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: UAW V CAP
+  - name: STREET 1
+    number: '5'
+    value: Pat Caccomo
+  - name: STREET 2
+    number: '6'
+    value: ' PAC Director'
+  - name: CITY
+    number: '7'
+    value: '1228 N Street #31'
+  - name: STATE
+    number: '8'
+    value: Sacramento
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: INDEMP
+    number: '10'
+    value: '95814'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20020222'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F65-O-c25037
+  expected_count: 27
+  input: '"F65","C00261388","ORG","UAW V CAP","Pat Caccomo, PAC Director","1228 N
+    Street #31","Sacramento","CA","95814","","","20020222","1000","","","","","","","","","","","","","","F65-O-c25037"'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x1668710>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00261388
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: UAW V CAP
+  - name: STREET 1
+    number: '5'
+    value: Pat Caccomo
+  - name: STREET 2
+    number: '6'
+    value: ' PAC Director'
+  - name: CITY
+    number: '7'
+    value: '1228 N Street #31'
+  - name: STATE
+    number: '8'
+    value: Sacramento
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: INDEMP
+    number: '10'
+    value: '95814'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20020222'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '4000'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F65-O-c25038
+  expected_count: 27
+  input: '"F65","C00261388","ORG","UAW V CAP","Pat Caccomo, PAC Director","1228 N
+    Street #31","Sacramento","CA","95814","","","20020222","4000","","","","","","","","","","","","","","F65-O-c25038"'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x1668ea8>
+  result: []
+- input: '"F65","C00261388","IND","Assomull^Priya Waney^^","2153 Calle Guaymas","","La
+    Jolla","CA","92037","Calif. Shirt Printer","Designer","20020222","1000","","","","","","","","","","","","","","F65-I-c25039"'
+  record: <fec.version.v3.F65.Records instance at 0x1668710>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00261388
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Assomull^Priya Waney^^
+  - name: STREET 1
+    number: '5'
+    value: 2153 Calle Guaymas
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: La Jolla
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '92037'
+  - name: INDEMP
+    number: '10'
+    value: Calif. Shirt Printer
+  - name: INDOCC
+    number: '11'
+    value: Designer
+  - name: Of Contribution
+    number: 12-
+    value: '20020222'
+  - name: AMOUNT
+    number: '13'
+    value: '1000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F65-I-c25039
+sourceurl: !!python/unicode '20020224'

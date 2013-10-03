@@ -1,0 +1,311 @@
+countraw: 6
+countrows: 4
+filename: 20350.fec
+header: {}
+rows:
+- input: F6,C00367656,SPRAGUE COMMITTEE; THE,305 ELM STREET,,WALPOLE,MA,02081,H2MA09122,SPRAGUE^JO
+    ANN^^,H,MA,09,20011004
+  record: <fec.version.v3.F6.Records instance at 0x1a85fc8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367656
+  - name: COMMITTEE NAME
+    number: '3'
+    value: SPRAGUE COMMITTEE; THE
+  - name: STREET 1
+    number: '4'
+    value: 305 ELM STREET
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: WALPOLE
+  - name: STATE
+    number: '7'
+    value: MA
+  - name: ZIP
+    number: '8'
+    value: 02081
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2MA09122
+  - name: CANDIDATE NAME
+    number: '10'
+    value: SPRAGUE^JO ANN^^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: MA
+  - name: CAN/DIST
+    number: '13'
+    value: 09
+  - name: Signed
+    number: 14-
+    value: '20011004'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367656
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Babson^Richard^^
+  - name: STREET 1
+    number: '5'
+    value: 330 Beacon St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Boston
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: '02116'
+  - name: INDEMP
+    number: '10'
+    value: Babson-United
+  - name: INDOCC
+    number: '11'
+    value: ' Inc.'
+  - name: Of Contribution
+    number: 12-
+    value: Executive
+  - name: AMOUNT
+    number: '13'
+    value: '20011002'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00367656
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H2MA09122
+  - name: CAN/OFFICE
+    number: '17'
+    value: SPRAGUE^JO ANN^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: MA
+  - name: CONDUIT NAME
+    number: '20'
+    value: 09
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.6536
+  expected_count: 27
+  input: F65,C00367656,IND,Babson^Richard^^,330 Beacon St.,,Boston,MA,02116,"Babson-United,
+    Inc.",Executive,20011002,1000.00,C00367656,H2MA09122,SPRAGUE^JO ANN^^,H,MA,09,,,,,,,,F6.6536
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x1a85a70>
+  result: []
+- input: F65,C00367656,IND,Edgerley^Paul^^,119 Hyslop Rd.,,Brookline,MA,02445,Bain
+    Capital,Investor,20011002,1000.00,C00367656,H2MA09122,SPRAGUE^JO ANN^^,H,MA,09,,,,,,,,F6.6537
+  record: <fec.version.v3.F65.Records instance at 0x1a85fc8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367656
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Edgerley^Paul^^
+  - name: STREET 1
+    number: '5'
+    value: 119 Hyslop Rd.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Brookline
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: '02445'
+  - name: INDEMP
+    number: '10'
+    value: Bain Capital
+  - name: INDOCC
+    number: '11'
+    value: Investor
+  - name: Of Contribution
+    number: 12-
+    value: '20011002'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00367656
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2MA09122
+  - name: CANDIDATE NAME
+    number: '16'
+    value: SPRAGUE^JO ANN^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: MA
+  - name: CAN/DIST
+    number: '19'
+    value: 09
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.6537
+- input: F65,C00367656,IND,Lewis^Bradford^^,182 Bay Colony Dr.,,Westwood,MA,02090,VX
+    Capital,Portfolio Manager,20011002,1000.00,C00367656,H2MA09122,SPRAGUE^JO ANN^^,H,MA,09,,,,,,,,F6.6538
+  record: <fec.version.v3.F65.Records instance at 0x1a85a70>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367656
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Lewis^Bradford^^
+  - name: STREET 1
+    number: '5'
+    value: 182 Bay Colony Dr.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Westwood
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: 02090
+  - name: INDEMP
+    number: '10'
+    value: VX Capital
+  - name: INDOCC
+    number: '11'
+    value: Portfolio Manager
+  - name: Of Contribution
+    number: 12-
+    value: '20011002'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00367656
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2MA09122
+  - name: CANDIDATE NAME
+    number: '16'
+    value: SPRAGUE^JO ANN^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: MA
+  - name: CAN/DIST
+    number: '19'
+    value: 09
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.6538
+sourceurl: !!python/unicode '20011005'

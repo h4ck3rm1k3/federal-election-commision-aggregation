@@ -1,0 +1,405 @@
+countraw: 7
+countrows: 5
+filename: 28521.fec
+header: {}
+rows:
+- input: '"F6","C00261388","Bob Filner for Congress","P.O. Box 127868","","San Diego","CA","92112","","","H  ","CA","51","20020227"'
+  record: <fec.version.v3.F6.Records instance at 0xf71e60>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00261388
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Bob Filner for Congress
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 127868
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: San Diego
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '92112'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ''
+  - name: CAN/OFFICE
+    number: '11'
+    value: 'H  '
+  - name: CAN/STATE
+    number: '12'
+    value: CA
+  - name: CAN/DIST
+    number: '13'
+    value: '51'
+  - name: Signed
+    number: 14-
+    value: '20020227'
+- input: '"F65","C00261388","IND","Alspach^Alice^^","8855 Robinhood Lane","","La Jolla","CA","92037","ORINCON
+    Industries","Executive Assistant","20020225","1000","","","","","","","","","","","","","","F65-I-c25170"'
+  record: <fec.version.v3.F65.Records instance at 0x19b3c20>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00261388
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Alspach^Alice^^
+  - name: STREET 1
+    number: '5'
+    value: 8855 Robinhood Lane
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: La Jolla
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '92037'
+  - name: INDEMP
+    number: '10'
+    value: ORINCON Industries
+  - name: INDOCC
+    number: '11'
+    value: Executive Assistant
+  - name: Of Contribution
+    number: 12-
+    value: '20020225'
+  - name: AMOUNT
+    number: '13'
+    value: '1000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F65-I-c25170
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00261388
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: SBC Employees PAC
+  - name: STREET 1
+    number: '5'
+    value: Diane Hawkins
+  - name: STREET 2
+    number: '6'
+    value: ' PAC Director'
+  - name: CITY
+    number: '7'
+    value: '1401 I Street NW #1100'
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20005'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20020225'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F65-O-c25054
+  expected_count: 27
+  input: '"F65","C00261388","ORG","SBC Employees PAC","Diane Hawkins, PAC Director","1401
+    I Street NW #1100","Washington","DC","20005","","","20020225","1000","","","","","","","","","","","","","","F65-O-c25054"'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0xf71e60>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00261388
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Amer. Maritime Officers Pol. Fund
+  - name: STREET 1
+    number: '5'
+    value: Charles Crangle
+  - name: STREET 2
+    number: '6'
+    value: ' PAC Director'
+  - name: CITY
+    number: '7'
+    value: 490 L'Enfant Plaza E
+  - name: STATE
+    number: '8'
+    value: ' SW #7204'
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: INDEMP
+    number: '10'
+    value: DC
+  - name: INDOCC
+    number: '11'
+    value: '20024'
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20020225'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '1000'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: F65-O-c25055
+  expected_count: 27
+  input: '"F65","C00261388","ORG","Amer. Maritime Officers Pol. Fund","Charles Crangle,
+    PAC Director","490 L''Enfant Plaza E, SW #7204","Washington","DC","20024","","","20020225","1000","","","","","","","","","","","","","","F65-O-c25055"'
+  input_count: 29
+  record: <fec.version.v3.F65.Records instance at 0x19b3b90>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00261388
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: American Dental Assn. PAC
+  - name: STREET 1
+    number: '5'
+    value: Frank McLaughlin
+  - name: STREET 2
+    number: '6'
+    value: ' PAC Director'
+  - name: CITY
+    number: '7'
+    value: 1111 - 14th St. NW
+  - name: STATE
+    number: '8'
+    value: ' #1100'
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: INDEMP
+    number: '10'
+    value: DC
+  - name: INDOCC
+    number: '11'
+    value: '20005'
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20020225'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '1000'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: F65-O-c25053
+  expected_count: 27
+  input: '"F65","C00261388","ORG","American Dental Assn. PAC","Frank McLaughlin, PAC
+    Director","1111 - 14th St. NW, #1100","Washington","DC","20005","","","20020225","1000","","","","","","","","","","","","","","F65-O-c25053"'
+  input_count: 29
+  record: <fec.version.v3.F65.Records instance at 0xf71e60>
+  result: []
+sourceurl: !!python/unicode '20020228'

@@ -1,0 +1,397 @@
+countraw: 7
+countrows: 5
+filename: 38008.fec
+header: {}
+rows:
+- input: F6,"C00266619","Earl Pomeroy for Congress","PO Box 746","","Bismarck","ND","58502","H2ND00057","Earl
+    Pomeroy","H","ND","0",20020530
+  record: <fec.version.v3.F6.Records instance at 0xe66dd0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266619
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Earl Pomeroy for Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 746
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Bismarck
+  - name: STATE
+    number: '7'
+    value: ND
+  - name: ZIP
+    number: '8'
+    value: '58502'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2ND00057
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Earl Pomeroy
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: ND
+  - name: CAN/DIST
+    number: '13'
+    value: '0'
+  - name: Signed
+    number: 14-
+    value: '20020530'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266619
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Laducer^James
+  - name: STREET 1
+    number: '5'
+    value: 517 S 14th St
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Bismarck
+  - name: STATE
+    number: '8'
+    value: ND
+  - name: ZIP
+    number: '9'
+    value: '585045921'
+  - name: INDEMP
+    number: '10'
+    value: Laducer and Associates
+  - name: INDOCC
+    number: '11'
+    value: ' Inc.'
+  - name: Of Contribution
+    number: 12-
+    value: President
+  - name: AMOUNT
+    number: '13'
+    value: '20020530'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: C34662
+  expected_count: 27
+  input: F65,"C00266619","IND","Laducer^James","517 S 14th St","","Bismarck","ND","585045921","Laducer
+    and Associates, Inc.","President",20020530,"1000","","","","","","","","","","","","","","C34662"
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0xe66e18>
+  result: []
+- input: F65,"C00266619","PAC","Nat'l. Assn. of Realtors Political Committ","Amy Fletcher","700
+    11th St NW","Washington","DC","200014507","National Association of Realtors","Realtors
+    PAC",20020530,"4000","C00030718","","","","","","","","","","","","","C34678"
+  record: <fec.version.v3.F65.Records instance at 0x103f3b0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266619
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Nat'l. Assn. of Realtors Political Committ
+  - name: STREET 1
+    number: '5'
+    value: Amy Fletcher
+  - name: STREET 2
+    number: '6'
+    value: 700 11th St NW
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '200014507'
+  - name: INDEMP
+    number: '10'
+    value: National Association of Realtors
+  - name: INDOCC
+    number: '11'
+    value: Realtors PAC
+  - name: Of Contribution
+    number: 12-
+    value: '20020530'
+  - name: AMOUNT
+    number: '13'
+    value: '4000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00030718
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C34678
+- input: F65,"C00266619","IND","Sternberg^Sy","9 Stoneleigh Manor","","Purchase","NY","10577","New
+    York Life Insurance Company","Executive Vice President",20020530,"1000","","","","","","","","","","","","","","C34674"
+  record: <fec.version.v3.F65.Records instance at 0x103f128>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266619
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Sternberg^Sy
+  - name: STREET 1
+    number: '5'
+    value: 9 Stoneleigh Manor
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Purchase
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10577'
+  - name: INDEMP
+    number: '10'
+    value: New York Life Insurance Company
+  - name: INDOCC
+    number: '11'
+    value: Executive Vice President
+  - name: Of Contribution
+    number: 12-
+    value: '20020530'
+  - name: AMOUNT
+    number: '13'
+    value: '1000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C34674
+- input: F65,"C00266619","IND","Sternberg^Sy","9 Stoneleigh Manor","","Purchase","NY","10577","New
+    York Life Insurance Company","Executive Vice President",20020530,"1000","","","","","","","","","","","","","","C34675"
+  record: <fec.version.v3.F65.Records instance at 0xe13680>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266619
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Sternberg^Sy
+  - name: STREET 1
+    number: '5'
+    value: 9 Stoneleigh Manor
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Purchase
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10577'
+  - name: INDEMP
+    number: '10'
+    value: New York Life Insurance Company
+  - name: INDOCC
+    number: '11'
+    value: Executive Vice President
+  - name: Of Contribution
+    number: 12-
+    value: '20020530'
+  - name: AMOUNT
+    number: '13'
+    value: '1000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C34675
+sourceurl: !!python/unicode '20020531'

@@ -1,0 +1,524 @@
+countraw: 7
+countrows: 5
+filename: 37726.fec
+header: {}
+rows:
+- input: '"F6","C00374249","Tom Young for Congress","Post Office Box 1001","","Mobile","AL","36633   ","","Tom
+    Young","H","AL","1 ",19000101'
+  record: <fec.version.v3.F6.Records instance at 0x1043b90>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00374249
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Tom Young for Congress
+  - name: STREET 1
+    number: '4'
+    value: Post Office Box 1001
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Mobile
+  - name: STATE
+    number: '7'
+    value: AL
+  - name: ZIP
+    number: '8'
+    value: '36633   '
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Tom Young
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: AL
+  - name: CAN/DIST
+    number: '13'
+    value: '1 '
+  - name: Signed
+    number: 14-
+    value: '19000101'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11C
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00374249
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: American Assoc. of Nurse Anesthetist PAC
+  - name: STREET 1
+    number: '5'
+    value: 412 First Street SE
+  - name: STREET 2
+    number: '6'
+    value: ' Suite12'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: ITEM ELECT CD
+    number: '10'
+    value: '20003    '
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: P2002
+  - name: INDEMP
+    number: '12'
+    value: ''
+  - name: INDOCC
+    number: '13'
+    value: ''
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: ''
+  - name: DATE RECEIVED
+    number: '15'
+    value: '2000.00'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '20020523'
+  - name: TRANS CODE
+    number: '17'
+    value: '2000.00'
+  - name: TRANS DESCRIP
+    number: '18'
+    value: 18K
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: Receipt
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: C00173153
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: 0523200223C13881
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: '"SA11C","C00374249","PAC","American Assoc. of Nurse Anesthetist PAC","412
+    First Street SE, Suite12","","Washington","DC","20003    ","P2002","","","",2000.00,20020523,2000.00,"18K","Receipt","C00173153","","","","",,"","","","","","","","","","0523200223C13881"'
+  input_count: 35
+  record: <fec.version.v3.SA.Records instance at 0x10437a0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11A1
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00374249
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: Campbell^Kenneth
+  - name: STREET 1
+    number: '5'
+    value: 2700 Henderson Highway
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Troy
+  - name: STATE
+    number: '8'
+    value: AL
+  - name: ZIP
+    number: '9'
+    value: '36079    '
+  - name: ITEM ELECT CD
+    number: '10'
+    value: P2002
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: ''
+  - name: INDEMP
+    number: '12'
+    value: Sanders Lead Company
+  - name: INDOCC
+    number: '13'
+    value: ' Inc.'
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: Executive
+  - name: DATE RECEIVED
+    number: '15'
+    value: '1000.00'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '20020523'
+  - name: TRANS CODE
+    number: '17'
+    value: '1000.00'
+  - name: TRANS DESCRIP
+    number: '18'
+    value: '15'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: Receipt
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: 0523200223C13873
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: '"SA11A1","C00374249","IND","Campbell^Kenneth","2700 Henderson Highway","","Troy","AL","36079    ","P2002","","Sanders
+    Lead Company, Inc.","Executive",1000.00,20020523,1000.00,"15","Receipt","","","","","","","","","","","",,"","","","0523200223C13873"'
+  input_count: 35
+  record: <fec.version.v3.SA.Records instance at 0x1043b90>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11A1
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00374249
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: Smith^Donna D.
+  - name: STREET 1
+    number: '5'
+    value: 119 Richmar Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Birmingham
+  - name: STATE
+    number: '8'
+    value: AL
+  - name: ZIP
+    number: '9'
+    value: '352134323'
+  - name: ITEM ELECT CD
+    number: '10'
+    value: P2002
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: ''
+  - name: INDEMP
+    number: '12'
+    value: Southern Company Generation
+  - name: INDOCC
+    number: '13'
+    value: H. R. Director
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: '1000.00'
+  - name: DATE RECEIVED
+    number: '15'
+    value: '20020523'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '1000.00'
+  - name: TRANS CODE
+    number: '17'
+    value: '15'
+  - name: TRANS DESCRIP
+    number: '18'
+    value: Receipt
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: 0523200223C13854
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: '"SA11A1","C00374249","IND","Smith^Donna D.","119 Richmar Drive","","Birmingham","AL","352134323","P2002","","Southern
+    Company Generation","H. R. Director",1000.00,20020523,1000.00,"15","Receipt","","","","","","","","","","","",,"","","","0523200223C13854"'
+  input_count: 34
+  record: <fec.version.v3.SA.Records instance at 0x1043ef0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11A1
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00374249
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: Smith^Julian
+  - name: STREET 1
+    number: '5'
+    value: Post Office Box 2641
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Birmingham
+  - name: STATE
+    number: '8'
+    value: AL
+  - name: ZIP
+    number: '9'
+    value: '352910680'
+  - name: ITEM ELECT CD
+    number: '10'
+    value: P2002
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: ''
+  - name: INDEMP
+    number: '12'
+    value: Alabama Power Company
+  - name: INDOCC
+    number: '13'
+    value: Vice President-Corporation Rel
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: '1000.00'
+  - name: DATE RECEIVED
+    number: '15'
+    value: '20020523'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '1000.00'
+  - name: TRANS CODE
+    number: '17'
+    value: '15'
+  - name: TRANS DESCRIP
+    number: '18'
+    value: Receipt
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: 0523200223C13865
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: '"SA11A1","C00374249","IND","Smith^Julian","Post Office Box 2641","","Birmingham","AL","352910680","P2002","","Alabama
+    Power Company","Vice President-Corporation Rel",1000.00,20020523,1000.00,"15","Receipt","","","","","","","","","","","",,"","","","0523200223C13865"'
+  input_count: 34
+  record: <fec.version.v3.SA.Records instance at 0x1043f80>
+  result: []
+sourceurl: !!python/unicode '20020528'

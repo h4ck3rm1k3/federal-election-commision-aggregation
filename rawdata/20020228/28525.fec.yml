@@ -1,0 +1,483 @@
+countraw: 8
+countrows: 6
+filename: 28525.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00242768
+  - name: COMMITTEE NAME
+    number: '3'
+    value: JOHN T. DOOLITTLE FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 400 CAPITOL MALL
+  - name: STREET 2
+    number: '5'
+    value: ' SUITE 1560'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: SACRAMENTO
+  - name: ZIP
+    number: '8'
+    value: CA
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '95814'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ''
+  - name: CAN/OFFICE
+    number: '11'
+    value: JOHN DOOLITTLE
+  - name: CAN/STATE
+    number: '12'
+    value: ''
+  - name: CAN/DIST
+    number: '13'
+    value: ''
+  - name: Signed
+    number: 14-
+    value: '4'
+  - value: '20020227'
+  expected_count: 14
+  input: '"F6","C00242768","JOHN T. DOOLITTLE FOR CONGRESS","400 CAPITOL MALL, SUITE
+    1560","","SACRAMENTO","CA","95814","","JOHN DOOLITTLE","","",4,"20020227"'
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x19b3fc8>
+  result: []
+- input: '"F65","C00242768","COM","USAA GROUP PAC","USAA BUILDING","","San Antonio","TX","78288","","FEDERAL
+    PAC",20020226,3500.00,"","","","","","","","","","","","","","INC52689"'
+  record: <fec.version.v3.F65.Records instance at 0xf71710>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00242768
+  - name: ENTITY TYPE
+    number: '3'
+    value: COM
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: USAA GROUP PAC
+  - name: STREET 1
+    number: '5'
+    value: USAA BUILDING
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: San Antonio
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '78288'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: FEDERAL PAC
+  - name: Of Contribution
+    number: 12-
+    value: '20020226'
+  - name: AMOUNT
+    number: '13'
+    value: '3500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: INC52689
+- input: '"F65","C00242768","COM","USAA GROUP PAC","USAA BUILDING","","San Antonio","TX","78288","","FEDERAL
+    PAC",20020226,1500.00,"","","","","","","","","","","","","","INC52690"'
+  record: <fec.version.v3.F65.Records instance at 0x19b3fc8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00242768
+  - name: ENTITY TYPE
+    number: '3'
+    value: COM
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: USAA GROUP PAC
+  - name: STREET 1
+    number: '5'
+    value: USAA BUILDING
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: San Antonio
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '78288'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: FEDERAL PAC
+  - name: Of Contribution
+    number: 12-
+    value: '20020226'
+  - name: AMOUNT
+    number: '13'
+    value: '1500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: INC52690
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00242768
+  - name: ENTITY TYPE
+    number: '3'
+    value: COM
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: PETE PAC
+  - name: STREET 1
+    number: '5'
+    value: 3686 King Street
+  - name: STREET 2
+    number: '6'
+    value: ' Ste. 146'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Alexandria
+  - name: ZIP
+    number: '9'
+    value: VA
+  - name: INDEMP
+    number: '10'
+    value: '22303'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20020226'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: INC52691
+  expected_count: 27
+  input: '"F65","C00242768","COM","PETE PAC","3686 King Street, Ste. 146","","Alexandria","VA","22303","","",20020226,1000.00,"","","","","","","","","","","","","","INC52691"'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0xf71710>
+  result: []
+- input: '"F65","C00242768","COM","SEPAC (Shell Oil Company PAC)","P.O. BOX 2846","","Houston","TX","77252","","FEDERAL
+    PAC",20020227,1000.00,"","","","","","","","","","","","","","INC52692"'
+  record: <fec.version.v3.F65.Records instance at 0x19b3ab8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00242768
+  - name: ENTITY TYPE
+    number: '3'
+    value: COM
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: SEPAC (Shell Oil Company PAC)
+  - name: STREET 1
+    number: '5'
+    value: P.O. BOX 2846
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Houston
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '77252'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: FEDERAL PAC
+  - name: Of Contribution
+    number: 12-
+    value: '20020227'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: INC52692
+- input: '"F65","C00242768","CCM","Bartlett for Congress","PO Box 280","","Buckeystown","MD","21717","","",20020227,1000.00,"","","","","","","","","","","","","","INC52693"'
+  record: <fec.version.v3.F65.Records instance at 0xf71710>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00242768
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Bartlett for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 280
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Buckeystown
+  - name: STATE
+    number: '8'
+    value: MD
+  - name: ZIP
+    number: '9'
+    value: '21717'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020227'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: INC52693
+sourceurl: !!python/unicode '20020228'

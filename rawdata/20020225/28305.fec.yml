@@ -1,0 +1,917 @@
+countraw: 13
+countrows: 11
+filename: 28305.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00242768
+  - name: COMMITTEE NAME
+    number: '3'
+    value: JOHN T. DOOLITTLE FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 400 CAPITOL MALL
+  - name: STREET 2
+    number: '5'
+    value: ' SUITE 1560'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: SACRAMENTO
+  - name: ZIP
+    number: '8'
+    value: CA
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '95814'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ''
+  - name: CAN/OFFICE
+    number: '11'
+    value: JOHN DOOLITTLE
+  - name: CAN/STATE
+    number: '12'
+    value: ''
+  - name: CAN/DIST
+    number: '13'
+    value: ''
+  - name: Signed
+    number: 14-
+    value: '4'
+  - value: '20020225'
+  expected_count: 14
+  input: '"F6","C00242768","JOHN T. DOOLITTLE FOR CONGRESS","400 CAPITOL MALL, SUITE
+    1560","","SACRAMENTO","CA","95814","","JOHN DOOLITTLE","","",4,"20020225"'
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x19a2830>
+  result: []
+- input: '"F65","C00242768","IND","BITNOFF^BRUCE","2868 AQUAMARINE CIRCLE","","RESCUE","CA","95672","USA
+    STUDENT TRAVEL","STUDENT TRAVEL SPECAILIST",20020224,1000.00,"","","","","","","","","","","","","","INC52547"'
+  record: <fec.version.v3.F65.Records instance at 0x19a2b48>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00242768
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: BITNOFF^BRUCE
+  - name: STREET 1
+    number: '5'
+    value: 2868 AQUAMARINE CIRCLE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: RESCUE
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '95672'
+  - name: INDEMP
+    number: '10'
+    value: USA STUDENT TRAVEL
+  - name: INDOCC
+    number: '11'
+    value: STUDENT TRAVEL SPECAILIST
+  - name: Of Contribution
+    number: 12-
+    value: '20020224'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: INC52547
+- input: '"F65","C00242768","IND","RANCOURT^NORRIS J.","4540 OXBOW RIDGE PL.","","Fair
+    Oaks","CA","95628","CARMICHAEL HONDA","AUTO DEALER",20020224,700.00,"","","","","","","","","","","","","","INC52548"'
+  record: <fec.version.v3.F65.Records instance at 0x19a2830>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00242768
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: RANCOURT^NORRIS J.
+  - name: STREET 1
+    number: '5'
+    value: 4540 OXBOW RIDGE PL.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Fair Oaks
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '95628'
+  - name: INDEMP
+    number: '10'
+    value: CARMICHAEL HONDA
+  - name: INDOCC
+    number: '11'
+    value: AUTO DEALER
+  - name: Of Contribution
+    number: 12-
+    value: '20020224'
+  - name: AMOUNT
+    number: '13'
+    value: '700.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: INC52548
+- input: '"F65","C00242768","IND","RANCOURT^NORRIS J.","4540 OXBOW RIDGE PL.","","Fair
+    Oaks","CA","95628","CARMICHAEL HONDA","AUTO DEALER",20020224,300.00,"","","","","","","","","","","","","","INC52549"'
+  record: <fec.version.v3.F65.Records instance at 0x19a2b48>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00242768
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: RANCOURT^NORRIS J.
+  - name: STREET 1
+    number: '5'
+    value: 4540 OXBOW RIDGE PL.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Fair Oaks
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '95628'
+  - name: INDEMP
+    number: '10'
+    value: CARMICHAEL HONDA
+  - name: INDOCC
+    number: '11'
+    value: AUTO DEALER
+  - name: Of Contribution
+    number: 12-
+    value: '20020224'
+  - name: AMOUNT
+    number: '13'
+    value: '300.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: INC52549
+- input: '"F65","C00242768","IND","PADILLA^ANSELMO","914 LAKEFRONT DR.","","SACRAMENTO","CA","","SELF","CONTRACTOR",20020224,1000.00,"","","","","","","","","","","","","","INC52550"'
+  record: <fec.version.v3.F65.Records instance at 0x19a2830>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00242768
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: PADILLA^ANSELMO
+  - name: STREET 1
+    number: '5'
+    value: 914 LAKEFRONT DR.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: SACRAMENTO
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: ''
+  - name: INDEMP
+    number: '10'
+    value: SELF
+  - name: INDOCC
+    number: '11'
+    value: CONTRACTOR
+  - name: Of Contribution
+    number: 12-
+    value: '20020224'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: INC52550
+- input: '"F65","C00242768","IND","ECKER^SHARON","WINDING WAY","","FAIR OAKS","CA","95628","ST.
+    JOSEPH''S HOSPITAL","NURSE",20020224,1000.00,"","","","","","","","","","","","","","INC52551"'
+  record: <fec.version.v3.F65.Records instance at 0x19a2b48>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00242768
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: ECKER^SHARON
+  - name: STREET 1
+    number: '5'
+    value: WINDING WAY
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: FAIR OAKS
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '95628'
+  - name: INDEMP
+    number: '10'
+    value: ST. JOSEPH'S HOSPITAL
+  - name: INDOCC
+    number: '11'
+    value: NURSE
+  - name: Of Contribution
+    number: 12-
+    value: '20020224'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: INC52551
+- input: '"F65","C00242768","IND","MYERS^C.C.","P.O. BOX 2948","","Rancho Cordova","CA","95741","SELF","BRIDGE
+    BUILDER",20020224,1000.00,"","","","","","","","","","","","","","INC52552"'
+  record: <fec.version.v3.F65.Records instance at 0x19a2830>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00242768
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: MYERS^C.C.
+  - name: STREET 1
+    number: '5'
+    value: P.O. BOX 2948
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Rancho Cordova
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '95741'
+  - name: INDEMP
+    number: '10'
+    value: SELF
+  - name: INDOCC
+    number: '11'
+    value: BRIDGE BUILDER
+  - name: Of Contribution
+    number: 12-
+    value: '20020224'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: INC52552
+- input: '"F65","C00242768","IND","MYERS^JANELLE","3286 FITZGERALD RD.","","RANCHO
+    CORDOVA","CA","95742","NONE","HOUSEWIFE",20020224,1000.00,"","","","","","","","","","","","","","INC52553"'
+  record: <fec.version.v3.F65.Records instance at 0x19a2b48>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00242768
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: MYERS^JANELLE
+  - name: STREET 1
+    number: '5'
+    value: 3286 FITZGERALD RD.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: RANCHO CORDOVA
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '95742'
+  - name: INDEMP
+    number: '10'
+    value: NONE
+  - name: INDOCC
+    number: '11'
+    value: HOUSEWIFE
+  - name: Of Contribution
+    number: 12-
+    value: '20020224'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: INC52553
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00242768
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: THEOBALD
+  - name: STREET 1
+    number: '5'
+    value: ' JR.^DAVID R.'
+  - name: STREET 2
+    number: '6'
+    value: 2664 CASALINO CT.
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: PLEASANTON
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: INDEMP
+    number: '10'
+    value: '94566'
+  - name: INDOCC
+    number: '11'
+    value: SELF
+  - name: Of Contribution
+    number: 12-
+    value: PAINTING CONTRACTOR
+  - name: AMOUNT
+    number: '13'
+    value: '20020225'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: INC52554
+  expected_count: 27
+  input: '"F65","C00242768","IND","THEOBALD, JR.^DAVID R.","2664 CASALINO CT.","","PLEASANTON","CA","94566","SELF","PAINTING
+    CONTRACTOR",20020225,1000.00,"","","","","","","","","","","","","","INC52554"'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x19a2830>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00242768
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: SNELLINGS^WANDA
+  - name: STREET 1
+    number: '5'
+    value: 3301 C STREET
+  - name: STREET 2
+    number: '6'
+    value: ' #1000'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: SACRAMENTO
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: INDEMP
+    number: '10'
+    value: '95816'
+  - name: INDOCC
+    number: '11'
+    value: CANNERY BUSINESS PARK
+  - name: Of Contribution
+    number: 12-
+    value: ADMINISTRATIVE ASSISTANT
+  - name: AMOUNT
+    number: '13'
+    value: '20020225'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: INC52555
+  expected_count: 27
+  input: '"F65","C00242768","IND","SNELLINGS^WANDA","3301 C STREET, #1000","","SACRAMENTO","CA","95816","CANNERY
+    BUSINESS PARK","ADMINISTRATIVE ASSISTANT",20020225,1000.00,"","","","","","","","","","","","","","INC52555"'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x19a2b48>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00242768
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: SNELLINGS^WANDA
+  - name: STREET 1
+    number: '5'
+    value: 3301 C STREET
+  - name: STREET 2
+    number: '6'
+    value: ' #1000'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: SACRAMENTO
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: INDEMP
+    number: '10'
+    value: '95816'
+  - name: INDOCC
+    number: '11'
+    value: CANNERY BUSINESS PARK
+  - name: Of Contribution
+    number: 12-
+    value: ADMINISTRATIVE ASSISTANT
+  - name: AMOUNT
+    number: '13'
+    value: '20020225'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: INC52556
+  expected_count: 27
+  input: '"F65","C00242768","IND","SNELLINGS^WANDA","3301 C STREET, #1000","","SACRAMENTO","CA","95816","CANNERY
+    BUSINESS PARK","ADMINISTRATIVE ASSISTANT",20020225,1000.00,"","","","","","","","","","","","","","INC52556"'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x19a2830>
+  result: []
+sourceurl: !!python/unicode '20020225'

@@ -1,0 +1,313 @@
+countraw: 6
+countrows: 4
+filename: 37704.fec
+header: {}
+rows:
+- input: F6N,C00155796,SPRATT FOR CONGRESS COMMITTEE,PO BOX 830,,YORK,SC,29745,H2SC05052,,H,SC,05,20020528
+  record: <fec.version.v3.F6.Records instance at 0x1460c20>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00155796
+  - name: COMMITTEE NAME
+    number: '3'
+    value: SPRATT FOR CONGRESS COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 830
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: YORK
+  - name: STATE
+    number: '7'
+    value: SC
+  - name: ZIP
+    number: '8'
+    value: '29745'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2SC05052
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ''
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: SC
+  - name: CAN/DIST
+    number: '13'
+    value: '05'
+  - name: Signed
+    number: 14-
+    value: '20020528'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00155796
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: McColl^Hugh L.^Mr.^III
+  - name: STREET 1
+    number: '5'
+    value: 401 Eastover Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Charlotte
+  - name: STATE
+    number: '8'
+    value: NC
+  - name: ZIP
+    number: '9'
+    value: '28207'
+  - name: INDEMP
+    number: '10'
+    value: HLM Securities
+  - name: INDOCC
+    number: '11'
+    value: ' LLC'
+  - name: Of Contribution
+    number: 12-
+    value: President
+  - name: AMOUNT
+    number: '13'
+    value: '20020528'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: A
+  - value: F65.00000
+  expected_count: 27
+  input: F65,C00155796,IND,McColl^Hugh L.^Mr.^III,401 Eastover Road,,Charlotte,NC,28207,"HLM
+    Securities, LLC",President,20020528,1000.00,,,,,,,,,,,,,A,F65.00000
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x1460950>
+  result: []
+- input: F65,C00155796,IND,McColl^Hugh L.^Mrs.^III,401 Eastover Road,,Charlotte,NC,28207,None,Homemaker,20020528,1000.00,,,,,,,,,,,,,A,F65.00001
+  record: <fec.version.v3.F65.Records instance at 0x1460c20>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00155796
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: McColl^Hugh L.^Mrs.^III
+  - name: STREET 1
+    number: '5'
+    value: 401 Eastover Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Charlotte
+  - name: STATE
+    number: '8'
+    value: NC
+  - name: ZIP
+    number: '9'
+    value: '28207'
+  - name: INDEMP
+    number: '10'
+    value: None
+  - name: INDOCC
+    number: '11'
+    value: Homemaker
+  - name: Of Contribution
+    number: 12-
+    value: '20020528'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: A
+  - name: TRAN ID
+    number: '27'
+    value: F65.00001
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00155796
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: US ONCOLOGY
+  - name: STREET 1
+    number: '5'
+    value: ' INC. GOOD GOVERNMENT COMMITTEE'
+  - name: STREET 2
+    number: '6'
+    value: 16825 Northchase Drive
+  - name: CITY
+    number: '7'
+    value: Suite 1300
+  - name: STATE
+    number: '8'
+    value: Houston
+  - name: ZIP
+    number: '9'
+    value: TX
+  - name: INDEMP
+    number: '10'
+    value: '77060'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20020528'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2500.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00339655
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: A
+  - value: F65.00002
+  expected_count: 27
+  input: F65,C00155796,PAC,"US ONCOLOGY, INC. GOOD GOVERNMENT COMMITTEE",16825 Northchase
+    Drive,Suite 1300,Houston,TX,77060,,,20020528,2500.00,C00339655,,,,,,,,,,,,A,F65.00002
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x1460dd0>
+  result: []
+sourceurl: !!python/unicode '20020528'

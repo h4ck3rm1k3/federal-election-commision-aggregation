@@ -1,0 +1,676 @@
+countraw: 18
+countrows: 8
+filename: 19547.fec
+header:
+  'Committee ': STEPHEN F LYNCH FOR CONGRESS COMMITTEE
+  'Date_Fmat ': CCYYMMDD
+  'Dec/NoDec ': DEC
+  'F65       ': '00003'
+  'FEC_IDnum ': C00366948
+  'FEC_Ver_# ': '2.02'
+  'Form_Name ': F6N
+  'NameDelim ': ^
+  'Soft_Name ': FECWEB
+  'Soft_Ver# ': '1'
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367698
+  - name: COMMITTEE NAME
+    number: '3'
+    value: CHERYL JACQUES FOR CONGRESS COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 920304 64 HELEN ROAD
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: NEEDHAM
+  - name: STATE
+    number: '7'
+    value: MA
+  - name: ZIP
+    number: '8'
+    value: 02492
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2MA09130
+  - name: CANDIDATE NAME
+    number: '10'
+    value: JACQUES
+  - name: CAN/OFF
+    number: '11'
+    value: ^CHERYL^A
+  - name: STATE (OF ELECTION)
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: MA
+  - name: SIGNED
+    number: 14-
+    value: 09
+  - value: '20010905'
+  expected_count: 14
+  input: F6N,C00367698,CHERYL JACQUES FOR CONGRESS COMMITTEE,PO BOX 920304 64 HELEN
+    ROAD,,NEEDHAM,MA,02492,H2MA09130,"JACQUES,^CHERYL^A",H,MA,09,20010905
+  input_count: 15
+  record: <fec.version.v2.F6.Records instance at 0x29fef80>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367698
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Gabrieli^John
+  - name: STREET 1
+    number: '5'
+    value: 946 Casanueva Place
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Stanford
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94305'
+  - name: INDEMP
+    number: '10'
+    value: Stanford University
+  - name: INDOCC
+    number: '11'
+    value: Professor
+  - name: OF CONTRIBUTION
+    number: 12-
+    value: '20010903'
+  - name: AMOUNT CONTRIB/LOANED AMT
+    number: '13'
+    value: '1000.00'
+  - name: FEC-COMMITTEE-ID-NUMBER
+    number: '14'
+    value: ''
+  - name: FEC-CANDIDATE-ID-NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE-NAME
+    number: '16'
+    value: ''
+  - name: CAND-OFFICE
+    number: '17'
+    value: ''
+  - name: CAND-STATE (OF ELECTION)
+    number: '18'
+    value: ''
+  - name: CAND-DISTRICT
+    number: '19'
+    value: ''
+  - name: CONDUIT-NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT-STREET-1
+    number: '21'
+    value: ''
+  - name: CONDUIT-STREET-2
+    number: '22'
+    value: ''
+  - name: CONDUIT-CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT-STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT-ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED-CD
+    number: '26'
+    value: A
+  - name: TRAN_ID
+    number: '27'
+    value: F65.00000
+  - name: ORIG_TRAN_ID
+    number: '28'
+    value: NO VALUE!
+  - name: SUPR_TRAN_ID
+    number: '29'
+    value: NO VALUE!
+  expected_count: 29
+  input: F65,C00367698,IND,Gabrieli^John,946 Casanueva Place,,Stanford,CA,94305,Stanford
+    University,Professor,20010903,1000.00,,,,,,,,,,,,,A,F65.00000
+  input_count: 27
+  record: <fec.version.v2.F65.Records instance at 0x29fecb0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367698
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Gabrieli^Lilla
+  - name: STREET 1
+    number: '5'
+    value: 75 Cambridge Parkway
+  - name: STREET 2
+    number: '6'
+    value: PH-6
+  - name: CITY
+    number: '7'
+    value: Cambridge
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: '02142'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: Homemaker
+  - name: OF CONTRIBUTION
+    number: 12-
+    value: '20010903'
+  - name: AMOUNT CONTRIB/LOANED AMT
+    number: '13'
+    value: '1000.00'
+  - name: FEC-COMMITTEE-ID-NUMBER
+    number: '14'
+    value: ''
+  - name: FEC-CANDIDATE-ID-NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE-NAME
+    number: '16'
+    value: ''
+  - name: CAND-OFFICE
+    number: '17'
+    value: ''
+  - name: CAND-STATE (OF ELECTION)
+    number: '18'
+    value: ''
+  - name: CAND-DISTRICT
+    number: '19'
+    value: ''
+  - name: CONDUIT-NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT-STREET-1
+    number: '21'
+    value: ''
+  - name: CONDUIT-STREET-2
+    number: '22'
+    value: ''
+  - name: CONDUIT-CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT-STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT-ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED-CD
+    number: '26'
+    value: A
+  - name: TRAN_ID
+    number: '27'
+    value: F65.00001
+  - name: ORIG_TRAN_ID
+    number: '28'
+    value: NO VALUE!
+  - name: SUPR_TRAN_ID
+    number: '29'
+    value: NO VALUE!
+  expected_count: 29
+  input: F65,C00367698,IND,Gabrieli^Lilla,75 Cambridge Parkway,PH-6,Cambridge,MA,02142,,Homemaker,20010903,1000.00,,,,,,,,,,,,,A,F65.00001
+  input_count: 27
+  record: <fec.version.v2.F65.Records instance at 0x29fef80>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367698
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Gabrieli^Hilary
+  - name: STREET 1
+    number: '5'
+    value: 8 Louisburg Square
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Boston
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: 02108
+  - name: INDEMP
+    number: '10'
+    value: Self
+  - name: INDOCC
+    number: '11'
+    value: Lawyer
+  - name: OF CONTRIBUTION
+    number: 12-
+    value: '20010903'
+  - name: AMOUNT CONTRIB/LOANED AMT
+    number: '13'
+    value: '1000.00'
+  - name: FEC-COMMITTEE-ID-NUMBER
+    number: '14'
+    value: ''
+  - name: FEC-CANDIDATE-ID-NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE-NAME
+    number: '16'
+    value: ''
+  - name: CAND-OFFICE
+    number: '17'
+    value: ''
+  - name: CAND-STATE (OF ELECTION)
+    number: '18'
+    value: ''
+  - name: CAND-DISTRICT
+    number: '19'
+    value: ''
+  - name: CONDUIT-NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT-STREET-1
+    number: '21'
+    value: ''
+  - name: CONDUIT-STREET-2
+    number: '22'
+    value: ''
+  - name: CONDUIT-CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT-STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT-ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED-CD
+    number: '26'
+    value: A
+  - name: TRAN_ID
+    number: '27'
+    value: F65.00002
+  - name: ORIG_TRAN_ID
+    number: '28'
+    value: NO VALUE!
+  - name: SUPR_TRAN_ID
+    number: '29'
+    value: NO VALUE!
+  expected_count: 29
+  input: F65,C00367698,IND,Gabrieli^Hilary,8 Louisburg Square,,Boston,MA,02108,Self,Lawyer,20010903,1000.00,,,,,,,,,,,,,A,F65.00002
+  input_count: 27
+  record: <fec.version.v2.F65.Records instance at 0x29fecb0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366948
+  - name: COMMITTEE NAME
+    number: '3'
+    value: STEPHEN F LYNCH FOR CONGRESS COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: 55 G STREET
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: BOSTON
+  - name: STATE
+    number: '7'
+    value: MA
+  - name: ZIP
+    number: '8'
+    value: '02127'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2MA09072
+  - name: CANDIDATE NAME
+    number: '10'
+    value: LYNCH
+  - name: CAN/OFF
+    number: '11'
+    value: ^STEPHEN^F
+  - name: STATE (OF ELECTION)
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: MA
+  - name: SIGNED
+    number: 14-
+    value: 09
+  - value: '20010905'
+  expected_count: 14
+  input: F6N,C00366948,STEPHEN F LYNCH FOR CONGRESS COMMITTEE,55 G STREET,,BOSTON,MA,02127,H2MA09072,"LYNCH,^STEPHEN^F",H,MA,09,20010905
+  input_count: 15
+  record: <fec.version.v2.F6.Records instance at 0x4b4c1098>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366948
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Carlin^James F. III
+  - name: STREET 1
+    number: '5'
+    value: 54 Thackery Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Wellesley
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: 02481
+  - name: INDEMP
+    number: '10'
+    value: Self-Employed
+  - name: INDOCC
+    number: '11'
+    value: Financial Consultant
+  - name: OF CONTRIBUTION
+    number: 12-
+    value: '20010905'
+  - name: AMOUNT CONTRIB/LOANED AMT
+    number: '13'
+    value: '1000.00'
+  - name: FEC-COMMITTEE-ID-NUMBER
+    number: '14'
+    value: ''
+  - name: FEC-CANDIDATE-ID-NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE-NAME
+    number: '16'
+    value: ''
+  - name: CAND-OFFICE
+    number: '17'
+    value: ''
+  - name: CAND-STATE (OF ELECTION)
+    number: '18'
+    value: ''
+  - name: CAND-DISTRICT
+    number: '19'
+    value: ''
+  - name: CONDUIT-NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT-STREET-1
+    number: '21'
+    value: ''
+  - name: CONDUIT-STREET-2
+    number: '22'
+    value: ''
+  - name: CONDUIT-CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT-STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT-ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED-CD
+    number: '26'
+    value: A
+  - name: TRAN_ID
+    number: '27'
+    value: F65.00000
+  - name: ORIG_TRAN_ID
+    number: '28'
+    value: NO VALUE!
+  - name: SUPR_TRAN_ID
+    number: '29'
+    value: NO VALUE!
+  expected_count: 29
+  input: F65,C00366948,IND,Carlin^James F. III,54 Thackery Road,,Wellesley,MA,02481,Self-Employed,Financial
+    Consultant,20010905,1000.00,,,,,,,,,,,,,A,F65.00000
+  input_count: 27
+  record: <fec.version.v2.F65.Records instance at 0x4b4c1320>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366948
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: McNally^Michael D.
+  - name: STREET 1
+    number: '5'
+    value: 803 East Broadway
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: South Boston
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: '02127'
+  - name: INDEMP
+    number: '10'
+    value: Maverick Construction
+  - name: INDOCC
+    number: '11'
+    value: CEO
+  - name: OF CONTRIBUTION
+    number: 12-
+    value: '20010905'
+  - name: AMOUNT CONTRIB/LOANED AMT
+    number: '13'
+    value: '1000.00'
+  - name: FEC-COMMITTEE-ID-NUMBER
+    number: '14'
+    value: ''
+  - name: FEC-CANDIDATE-ID-NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE-NAME
+    number: '16'
+    value: ''
+  - name: CAND-OFFICE
+    number: '17'
+    value: ''
+  - name: CAND-STATE (OF ELECTION)
+    number: '18'
+    value: ''
+  - name: CAND-DISTRICT
+    number: '19'
+    value: ''
+  - name: CONDUIT-NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT-STREET-1
+    number: '21'
+    value: ''
+  - name: CONDUIT-STREET-2
+    number: '22'
+    value: ''
+  - name: CONDUIT-CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT-STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT-ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED-CD
+    number: '26'
+    value: A
+  - name: TRAN_ID
+    number: '27'
+    value: F65.00001
+  - name: ORIG_TRAN_ID
+    number: '28'
+    value: NO VALUE!
+  - name: SUPR_TRAN_ID
+    number: '29'
+    value: NO VALUE!
+  expected_count: 29
+  input: F65,C00366948,IND,McNally^Michael D.,803 East Broadway,,South Boston,MA,02127,Maverick
+    Construction,CEO,20010905,1000.00,,,,,,,,,,,,,A,F65.00001
+  input_count: 27
+  record: <fec.version.v2.F65.Records instance at 0x4b4c1098>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366948
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Sage^Christopher F.
+  - name: STREET 1
+    number: '5'
+    value: 190 Tremont Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Braintree
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: 02184
+  - name: INDEMP
+    number: '10'
+    value: Self-Employed
+  - name: INDOCC
+    number: '11'
+    value: Executive
+  - name: OF CONTRIBUTION
+    number: 12-
+    value: '20010905'
+  - name: AMOUNT CONTRIB/LOANED AMT
+    number: '13'
+    value: '1000.00'
+  - name: FEC-COMMITTEE-ID-NUMBER
+    number: '14'
+    value: ''
+  - name: FEC-CANDIDATE-ID-NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE-NAME
+    number: '16'
+    value: ''
+  - name: CAND-OFFICE
+    number: '17'
+    value: ''
+  - name: CAND-STATE (OF ELECTION)
+    number: '18'
+    value: ''
+  - name: CAND-DISTRICT
+    number: '19'
+    value: ''
+  - name: CONDUIT-NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT-STREET-1
+    number: '21'
+    value: ''
+  - name: CONDUIT-STREET-2
+    number: '22'
+    value: ''
+  - name: CONDUIT-CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT-STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT-ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED-CD
+    number: '26'
+    value: A
+  - name: TRAN_ID
+    number: '27'
+    value: F65.00002
+  - name: ORIG_TRAN_ID
+    number: '28'
+    value: NO VALUE!
+  - name: SUPR_TRAN_ID
+    number: '29'
+    value: NO VALUE!
+  expected_count: 29
+  input: F65,C00366948,IND,Sage^Christopher F.,190 Tremont Street,,Braintree,MA,02184,Self-Employed,Executive,20010905,1000.00,,,,,,,,,,,,,A,F65.00002
+  input_count: 27
+  record: <fec.version.v2.F65.Records instance at 0x4b4c1320>
+  result: []
+sourceurl: !!python/unicode '20010906'

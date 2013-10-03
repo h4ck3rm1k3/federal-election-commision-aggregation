@@ -1,0 +1,758 @@
+countraw: 9
+countrows: 7
+filename: 37869.fec
+header: {}
+rows:
+- input: '"F6","C00279851","Friends of Bennie Thompson","P.O. Box 100","","Bolton","MS","39041   ","C00279851","Bennie
+    G. Thompson","H","MS","2 ",18991230'
+  record: <fec.version.v3.F6.Records instance at 0x18a8b00>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00279851
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Friends of Bennie Thompson
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 100
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Bolton
+  - name: STATE
+    number: '7'
+    value: MS
+  - name: ZIP
+    number: '8'
+    value: '39041   '
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: C00279851
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Bennie G. Thompson
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: MS
+  - name: CAN/DIST
+    number: '13'
+    value: '2 '
+  - name: Signed
+    number: 14-
+    value: '18991230'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11A1
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00279851
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: Stamps^Larry
+  - name: STREET 1
+    number: '5'
+    value: 269 E. Pearl Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Jackson
+  - name: STATE
+    number: '8'
+    value: MS
+  - name: ZIP
+    number: '9'
+    value: '39201    '
+  - name: ITEM ELECT CD
+    number: '10'
+    value: 'P    '
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: ''
+  - name: INDEMP
+    number: '12'
+    value: Stamps & Stamps
+  - name: INDOCC
+    number: '13'
+    value: Attorney
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: '1000.00'
+  - name: DATE RECEIVED
+    number: '15'
+    value: '20020529'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '1000.00'
+  - name: TRANS CODE
+    number: '17'
+    value: '15'
+  - name: TRANS DESCRIP
+    number: '18'
+    value: Receipt
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: 0529200252C487540
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: '"SA11A1","C00279851","IND","Stamps^Larry","269 E. Pearl Street","","Jackson","MS","39201    ","P    ","","Stamps
+    & Stamps","Attorney",1000.00,20020529,1000.00,"15","Receipt","","","","","","","","","","","",,"","","","0529200252C487540"'
+  input_count: 34
+  record: <fec.version.v3.SA.Records instance at 0x18a8fc8>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11C
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00279851
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: UPSPAC
+  - name: STREET 1
+    number: '5'
+    value: 55 Glenlake
+  - name: STREET 2
+    number: '6'
+    value: ' N.E.'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Atlanta
+  - name: ZIP
+    number: '9'
+    value: GA
+  - name: ITEM ELECT CD
+    number: '10'
+    value: '30328    '
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: 'P    '
+  - name: INDEMP
+    number: '12'
+    value: ''
+  - name: INDOCC
+    number: '13'
+    value: ''
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: ''
+  - name: DATE RECEIVED
+    number: '15'
+    value: '1000.00'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '20020529'
+  - name: TRANS CODE
+    number: '17'
+    value: '1000.00'
+  - name: TRANS DESCRIP
+    number: '18'
+    value: 18K
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: Receipt
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: 0529200252C489244
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: '"SA11C","C00279851","PAC","UPSPAC","55 Glenlake, N.E.","","Atlanta","GA","30328    ","P    ","","","",1000.00,20020529,1000.00,"18K","Receipt","","","","","","","","","","","",,"","","","0529200252C489244"'
+  input_count: 35
+  record: <fec.version.v3.SA.Records instance at 0x18a8b00>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11A1
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00279851
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: Walker^Lisa
+  - name: STREET 1
+    number: '5'
+    value: 450 Fairfield Dr.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Jackson
+  - name: STATE
+    number: '8'
+    value: MS
+  - name: ZIP
+    number: '9'
+    value: '39206    '
+  - name: ITEM ELECT CD
+    number: '10'
+    value: 'P    '
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: ''
+  - name: INDEMP
+    number: '12'
+    value: Westend Community Center
+  - name: INDOCC
+    number: '13'
+    value: Physician
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: '1000.00'
+  - name: DATE RECEIVED
+    number: '15'
+    value: '20020529'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '1000.00'
+  - name: TRANS CODE
+    number: '17'
+    value: '15'
+  - name: TRANS DESCRIP
+    number: '18'
+    value: Receipt
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: 0529200252C488247
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: '"SA11A1","C00279851","IND","Walker^Lisa","450 Fairfield Dr.","","Jackson","MS","39206    ","P    ","","Westend
+    Community Center","Physician",1000.00,20020529,1000.00,"15","Receipt","","","","","","","","","","","",,"","","","0529200252C488247"'
+  input_count: 34
+  record: <fec.version.v3.SA.Records instance at 0x18a8fc8>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11A1
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00279851
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: Walker^Stella D.
+  - name: STREET 1
+    number: '5'
+    value: 450 Fairfield Dr.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Jackson
+  - name: STATE
+    number: '8'
+    value: MS
+  - name: ZIP
+    number: '9'
+    value: '39206    '
+  - name: ITEM ELECT CD
+    number: '10'
+    value: 'P    '
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: ''
+  - name: INDEMP
+    number: '12'
+    value: Self Employed
+  - name: INDOCC
+    number: '13'
+    value: Businesswoman
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: '1000.00'
+  - name: DATE RECEIVED
+    number: '15'
+    value: '20020529'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '1000.00'
+  - name: TRANS CODE
+    number: '17'
+    value: '15'
+  - name: TRANS DESCRIP
+    number: '18'
+    value: Receipt
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: 0529200252C488049
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: '"SA11A1","C00279851","IND","Walker^Stella D.","450 Fairfield Dr.","","Jackson","MS","39206    ","P    ","","Self
+    Employed","Businesswoman",1000.00,20020529,1000.00,"15","Receipt","","","","","","","","","","","",,"","","","0529200252C488049"'
+  input_count: 34
+  record: <fec.version.v3.SA.Records instance at 0x18a8b00>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11A1
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00279851
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: Walker^William
+  - name: STREET 1
+    number: '5'
+    value: 5516 Ridgewood Rd.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Jackson
+  - name: STATE
+    number: '8'
+    value: MS
+  - name: ZIP
+    number: '9'
+    value: '39211    '
+  - name: ITEM ELECT CD
+    number: '10'
+    value: 'P    '
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: ''
+  - name: INDEMP
+    number: '12'
+    value: Self-Employed
+  - name: INDOCC
+    number: '13'
+    value: Attorney
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: '1000.00'
+  - name: DATE RECEIVED
+    number: '15'
+    value: '20020529'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '1000.00'
+  - name: TRANS CODE
+    number: '17'
+    value: '15'
+  - name: TRANS DESCRIP
+    number: '18'
+    value: Receipt
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: 0529200252C489350
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: '"SA11A1","C00279851","IND","Walker^William","5516 Ridgewood Rd.","","Jackson","MS","39211    ","P    ","","Self-Employed","Attorney",1000.00,20020529,1000.00,"15","Receipt","","","","","","","","","","","",,"","","","0529200252C489350"'
+  input_count: 34
+  record: <fec.version.v3.SA.Records instance at 0x18a8fc8>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11A1
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00279851
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: Welsh^Edwin
+  - name: STREET 1
+    number: '5'
+    value: 460 Morning Forest Lane
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Madison
+  - name: STATE
+    number: '8'
+    value: MS
+  - name: ZIP
+    number: '9'
+    value: '39110    '
+  - name: ITEM ELECT CD
+    number: '10'
+    value: 'P    '
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: ''
+  - name: INDEMP
+    number: '12'
+    value: Self Employed
+  - name: INDOCC
+    number: '13'
+    value: Businessman
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: '1000.00'
+  - name: DATE RECEIVED
+    number: '15'
+    value: '20020529'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '1000.00'
+  - name: TRANS CODE
+    number: '17'
+    value: '15'
+  - name: TRANS DESCRIP
+    number: '18'
+    value: Receipt
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: 0529200252C488152
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: '"SA11A1","C00279851","IND","Welsh^Edwin","460 Morning Forest Lane","","Madison","MS","39110    ","P    ","","Self
+    Employed","Businessman",1000.00,20020529,1000.00,"15","Receipt","","","","","","","","","","","",,"","","","0529200252C488152"'
+  input_count: 34
+  record: <fec.version.v3.SA.Records instance at 0x18a8b00>
+  result: []
+sourceurl: !!python/unicode '20020529'

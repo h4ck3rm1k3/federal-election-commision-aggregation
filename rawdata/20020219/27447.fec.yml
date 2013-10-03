@@ -1,0 +1,160 @@
+countraw: 16
+countrows: 2
+filename: 27447.fec
+header:
+  'Committee ': COMMITTEE TO RE-ELECT CONGRESSMAN DUNCAN HUNTER
+  'Date_Fmat ': CCYYMMDD
+  'Dec/NoDec ': DEC
+  'F65       ': '00001'
+  'FEC_IDnum ': C00126961
+  'FEC_Ver_# ': '2.02'
+  'Form_Name ': F6N
+  'NameDelim ': ^
+  'Soft_Name ': FECWEB
+  'Soft_Ver# ': '1'
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00126961
+  - name: COMMITTEE NAME
+    number: '3'
+    value: COMMITTEE TO RE-ELECT CONGRESSMAN DUNCAN HUNTER
+  - name: STREET 1
+    number: '4'
+    value: '9340 FUERTE DRIVE SUITE #302'
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: LA MESA
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '91941'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2CA42023
+  - name: CANDIDATE NAME
+    number: '10'
+    value: HUNTER
+  - name: CAN/OFF
+    number: '11'
+    value: ^DUNCAN^CONGRESSMAN
+  - name: STATE (OF ELECTION)
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: CA
+  - name: SIGNED
+    number: 14-
+    value: '52'
+  - value: '20020218'
+  expected_count: 14
+  input: 'F6N,C00126961,COMMITTEE TO RE-ELECT CONGRESSMAN DUNCAN HUNTER,9340 FUERTE
+    DRIVE SUITE #302,,LA MESA,CA,91941,H2CA42023,"HUNTER,^DUNCAN^CONGRESSMAN",H,CA,52,20020218'
+  input_count: 15
+  record: <fec.version.v2.F6.Records instance at 0x1668d88>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00126961
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Refkin^Irving I.^Mr.
+  - name: STREET 1
+    number: '5'
+    value: 17 Bahama Bend
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Coronado
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '92118'
+  - name: INDEMP
+    number: '10'
+    value: Pacific Defense Systems
+  - name: INDOCC
+    number: '11'
+    value: President
+  - name: OF CONTRIBUTION
+    number: 12-
+    value: '20020217'
+  - name: AMOUNT CONTRIB/LOANED AMT
+    number: '13'
+    value: '1000.00'
+  - name: FEC-COMMITTEE-ID-NUMBER
+    number: '14'
+    value: ''
+  - name: FEC-CANDIDATE-ID-NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE-NAME
+    number: '16'
+    value: ''
+  - name: CAND-OFFICE
+    number: '17'
+    value: ''
+  - name: CAND-STATE (OF ELECTION)
+    number: '18'
+    value: ''
+  - name: CAND-DISTRICT
+    number: '19'
+    value: ''
+  - name: CONDUIT-NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT-STREET-1
+    number: '21'
+    value: ''
+  - name: CONDUIT-STREET-2
+    number: '22'
+    value: ''
+  - name: CONDUIT-CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT-STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT-ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED-CD
+    number: '26'
+    value: A
+  - name: TRAN_ID
+    number: '27'
+    value: F65.00000
+  - name: ORIG_TRAN_ID
+    number: '28'
+    value: NO VALUE!
+  - name: SUPR_TRAN_ID
+    number: '29'
+    value: NO VALUE!
+  expected_count: 29
+  input: F65,C00126961,IND,Refkin^Irving I.^Mr.,17 Bahama Bend,,Coronado,CA,92118,Pacific
+    Defense Systems,President,20020217,1000.00,,,,,,,,,,,,,A,F65.00000
+  input_count: 27
+  record: <fec.version.v2.F65.Records instance at 0x1668a70>
+  result: []
+sourceurl: !!python/unicode '20020219'

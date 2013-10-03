@@ -1,0 +1,194 @@
+countraw: 5
+countrows: 3
+filename: 15065.fec
+header: {}
+rows:
+- input: F24,C00053553,NRA POLITICAL VICTORY FUND,11250 WAPLES MILL ROAD,,FAIRFAX,VA,22030,Adkins^Mary
+    Rose^^,20010613
+  record: <fec.version.v3.F24.Records instance at 0x1a08d488>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00053553
+  - name: COMMITTEE NAME
+    number: '3'
+    value: NRA POLITICAL VICTORY FUND
+  - name: STREET 1
+    number: '4'
+    value: 11250 WAPLES MILL ROAD
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: FAIRFAX
+  - name: STATE
+    number: '7'
+    value: VA
+  - name: ZIP
+    number: '8'
+    value: '22030'
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Adkins^Mary Rose^^
+  - name: Signed
+    number: 10-
+    value: '20010613'
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F24
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: An original  signed and notarized copy was hand delivered to the Federal
+      Election Commission on June 13
+  - value: ' 2001.  '
+  expected_count: 4
+  input: TEXT,F24,,"An original  signed and notarized copy was hand delivered to the
+    Federal Election Commission on June 13, 2001.  "
+  input_count: 5
+  record: <fec.version.v3.TEXT.Records instance at 0x1a08de60>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00053553
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Edmonds | Hackney & Associates
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 900 Second Street
+  - name: CITY
+    number: '7'
+    value: ' NE   #118'
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: Washingoton
+  - name: TRANSDESC
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20002'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: radio ads
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20010613'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '6187.86'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H2VA04052
+  - name: S/O STATE
+    number: '17'
+    value: FORBES^J RANDY^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: H
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: VA
+  - name: Unused field
+    number: '20'
+    value: '04'
+  - name: Unused field
+    number: '21'
+    value: C00053553
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: SE24.91578
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 41
+  input: 'SE24,C00053553,ORG,"Edmonds | Hackney & Associates, Inc.","900 Second Street,
+    NE   #118",,Washingoton,DC,20002,radio ads,20010613,6187.86,S,H2VA04052,FORBES^J
+    RANDY^^,H,VA,04,C00053553,,,,,,,,,,,,,,,,,,SE24.91578,,,,'
+  input_count: 43
+  record: <fec.version.v3.SE.Records instance at 0x1a08d9e0>
+  result: []
+sourceurl: !!python/unicode '20010614'
