@@ -1,0 +1,187 @@
+countraw: 6
+countrows: 4
+filename: 28642.fec
+header: {}
+rows:
+- input: '"F6","C00342741","Doug Ose for Congress","8958 Ivanpah Court","","Elk Grove","CA","95624","","Doug
+    Ose","H","CA",3,"20020228"'
+  record: <fec.version.v3.F6.Records instance at 0x114d2d8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00342741
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Doug Ose for Congress
+  - name: STREET 1
+    number: '4'
+    value: 8958 Ivanpah Court
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Elk Grove
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '95624'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Doug Ose
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: CA
+  - name: CAN/DIST
+    number: '13'
+    value: '3'
+  - name: Signed
+    number: 14-
+    value: '20020228'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00342741
+  - name: ENTITY TYPE
+    number: '3'
+    value: COM
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: The Blue Cross and Blue Shield Association PAC
+  - name: STREET 1
+    number: '5'
+    value: 1310 G Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ' 12th Floor'
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: INDEMP
+    number: '10'
+    value: DC
+  - name: INDOCC
+    number: '11'
+    value: '20005'
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20020226'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '1000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: C00194746
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: INC3419
+  expected_count: 27
+  input: '"F65","C00342741","COM","The Blue Cross and Blue Shield Association PAC","1310
+    G Street, NW, 12th Floor","","Washington","DC","20005","","",20020226,1000.00,"C00194746","","","","","","","","","","","","","INC3419"'
+  input_count: 29
+  record: <fec.version.v3.F65.Records instance at 0x114dc68>
+  result: []
+- input: '"F65","C00342741","IND","Hansen^Donald K.","471 Hopkins Road","","Sacramento","CA","95864","Crystal
+    Cream and Butter Company","President",20020226,1000.00,"","","","","","","","","","","","","","INC3465"'
+  record: <fec.version.v3.F65.Records instance at 0x114d128>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00342741
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Hansen^Donald K.
+  - name: STREET 1
+    number: '5'
+    value: 471 Hopkins Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Sacramento
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '95864'
+  - name: INDEMP
+    number: '10'
+    value: Crystal Cream and Butter Company
+  - name: INDOCC
+    number: '11'
+    value: President
+  - name: Of Contribution
+    number: 12-
+    value: '20020226'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    va
