@@ -13960,4 +13960,179 @@ rows:
   - name: DATE OF EXPENDITURE
     number: '14'
     value: ''
-  - name: AMOUNT OF EXPEN
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20020517'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '5000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: C00039321
+  - name: CANDIDATE NAME
+    number: '18'
+    value: S4WV00027
+  - name: CAN/OFFICE
+    number: '19'
+    value: ROCKEFELLER^JOHNDAVISONIV
+  - name: CAN/STATE
+    number: '20'
+    value: S
+  - name: CAN/DIST
+    number: '21'
+    value: WV
+  - name: CONDUIT NAME
+    number: '22'
+    value: '00'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: Contrib to Committee General 02
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: 0610200249E261
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00039321","CAN","Sen. John D. Rockefeller IV","405 Capitol Street,
+    Suite 308","","Charleston","WV","25301    ","","Contrib to Committee General 02","G2002","",20020517,5000.00,"C00039321","S4WV00027","ROCKEFELLER^JOHNDAVISONIV","S","WV",00,"","","","","","","","Contrib
+    to Committee General 02","","0610200249E261","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x7980b90>
+  result: []
+- input: '"SB23","C00039321","PAC","The Washfund","PO Box 53393","","Bellevue","WA","98015    ","","Contribution
+    to Fed Comm","P2002","",20020506,1000.00,"C00039321","","","","",,"","","","","","","","Contribution
+    to Fed Comm","","0508200259E257","","",""'
+  record: <fec.version.v3.SB.Records instance at 0x36eec68>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00039321
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: RECIPIENT NAME
+    number: '4'
+    value: The Washfund
+  - name: STREET 1
+    number: '5'
+    value: PO Box 53393
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Bellevue
+  - name: STATE
+    number: '8'
+    value: WA
+  - name: ZIP
+    number: '9'
+    value: '98015    '
+  - name: TRANS CODE
+    number: '10'
+    value: ''
+  - name: TRANS DESCRIP
+    number: '11'
+    value: Contribution to Fed Comm
+  - name: ITEM ELECT CD
+    number: '12'
+    value: P2002
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20020506'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: C00039321
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: ''
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: Contribution to Fed Comm
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: 0508200259E257
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+sourceurl: !!python/unicode '20020613'

@@ -519,4 +519,53 @@ rows:
     value: ''
   - name: CAN/STATE
     number: '23'
-    value: 
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: SA11A1.10561
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: SA11A1,C00280529,IND,Campbell^Constance^^,5262 E Long Ln,,Littleton,CO,80122,,,Mediaone
+    Of Delaware Inc,Senior Vice President,400.00,20020531,100.00,,,,,,,,,,,,,,,,,,SA11A1.10561,,
+  input_count: 36
+  record: <fec.version.v3.SA.Records instance at 0x2a73170>
+  result: []
+sourceurl: !!python/unicode '20020613'

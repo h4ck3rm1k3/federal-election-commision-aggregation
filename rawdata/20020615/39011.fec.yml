@@ -121275,4 +121275,28 @@ rows:
       a
   - value: ' Line 11ai.'
   expected_count: 4
-  input: '"TEXT
+  input: '"TEXT","SA12","A12-05-01857-03206","This amount represents the transfer
+    of proceeds from a joint-fundraising activity with the DNC; contributions are
+    itemized as memo entries on Schedule a, Line 11ai."'
+  input_count: 5
+  record: <fec.version.v3.TEXT.Records instance at 0x7018cb0>
+  result: []
+- input: '"TEXT","H3","H318-05-01682","This transfer from the Non-Federal account
+    of the Arizona Democratic Party was mislabelled in our original report (originally
+    reported as Cash)."'
+  record: <fec.version.v3.TEXT.Records instance at 0x7018ef0>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: H3
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: H318-05-01682
+  - name: TEXT4000
+    number: '4'
+    value: This transfer from the Non-Federal account of the Arizona Democratic Party
+      was mislabelled in our original report (originally reported as Cash).
+sourceurl: !!python/unicode '20020615'

@@ -4094,4 +4094,131 @@ rows:
   - name: BACK REF SCHED NAME
     number: '36'
     value: ''
-  - name: NAT Committee NON-FED ACC
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: SA11A1,C00370171,IND,Van De Kop^Andrew^^,6627 Camille,,Dallas,TX,75252,,,Valor
+    Telecom,Director,225.00,20020424,50.00,,Biweekly payroll deduction,,,,,,,,,,,,,,,,SA11A1.5076,,
+  input_count: 36
+  record: <fec.version.v3.SA.Records instance at 0x2c4e3f8>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11A1
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00370171
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: Whittington^Steven^^
+  - name: STREET 1
+    number: '5'
+    value: 1300 Haddington lane
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Keller
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '76248'
+  - name: ITEM ELECT CD
+    number: '10'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: ''
+  - name: INDEMP
+    number: '12'
+    value: Valor Telecom
+  - name: INDOCC
+    number: '13'
+    value: VP
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: '450.00'
+  - name: DATE RECEIVED
+    number: '15'
+    value: '20020424'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '100.00'
+  - name: TRANS CODE
+    number: '17'
+    value: ''
+  - name: TRANS DESCRIP
+    number: '18'
+    value: Biweekly payroll deduction
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: SA11A1.5082
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: SA11A1,C00370171,IND,Whittington^Steven^^,1300 Haddington lane,,Keller,TX,76248,,,Valor
+    Telecom,VP,450.00,20020424,100.00,,Biweekly payroll deduction,,,,,,,,,,,,,,,,SA11A1.5082,,
+  input_count: 36
+  record: <fec.version.v3.SA.Records instance at 0x2c4ec68>
+  result: []
+sourceurl: !!python/unicode '20020613'

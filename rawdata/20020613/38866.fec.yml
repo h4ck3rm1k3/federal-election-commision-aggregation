@@ -27460,4 +27460,46 @@ rows:
 - attempt:
   - name: FORM TYPE
     number: '1'
- 
+    value: SC2/10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00375220
+  - name: BACK REFERENCE TRAN ID
+    number: '3'
+    value: LS041420024C384
+  - name: Endorser/Guarantor
+    number: 4-
+    value: Jo Robins Bonner
+  - name: STREET 1
+    number: '5'
+    value: ' Jr.'
+  - name: STREET 2
+    number: '6'
+    value: 6910 Providence Estates Dr. South
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Mobile
+  - name: ZIP
+    number: '9'
+    value: AL
+  - name: INDEMP
+    number: '10'
+    value: '36695    '
+  - name: INDOCC
+    number: '11'
+    value: Information Requested
+  - name: AMOUNT GUARANTEED BALANCE
+    number: '12'
+    value: Information Requested
+  - value: '0.00'
+  expected_count: 12
+  input: '"SC2/10","C00375220","LS041420024C384","Jo Robins Bonner, Jr.","6910 Providence
+    Estates Dr. South","","Mobile","AL","36695    ","Information Requested","Information
+    Requested",0.00'
+  input_count: 13
+  record: <fec.version.v3.SC2.Records instance at 0x34afb00>
+  result: []
+sourceurl: !!python/unicode '20020613'

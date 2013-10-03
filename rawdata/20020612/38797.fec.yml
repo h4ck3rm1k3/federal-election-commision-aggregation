@@ -6317,4 +6317,27 @@ rows:
     value: ''
   - name: MEMO TEXT
     number: '29'
-    value: 
+    value: Return of excessive contribution (reissue of ck 2292)
+  - name: AMENDED CD
+    number: '30'
+    value: C
+  - name: TRAN ID
+    number: '31'
+    value: D5089
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB28A","C00355222","IND","Joe Koshollek","325 W. South Street","","Stoughton","WI","53589","24K","Return
+    of excessive contribution (reissu","P","Primary","20020212","600.00","","","","P","DC","","","","","","","","","Return
+    of excessive contribution (reissue of ck 2292)","C","D5089"'
+  input_count: 31
+  record: <fec.version.v3.SB.Records instance at 0x2c4e560>
+  result: []
+sourceurl: !!python/unicode '20020612'

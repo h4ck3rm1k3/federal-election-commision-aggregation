@@ -10220,4 +10220,18 @@ rows:
   - name: TRAN ID
     number: '31'
     value: D5065
-  - name: BACK REF TR
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB23","C00355222","","WALD","P.O. Box 2041","","Mechanicsburg","PA","170550764","24K","Telephone","P","Primary","20010620","281.73","","","","P","DC","","","","","","","","","Telephone","C","D5065"'
+  input_count: 31
+  record: <fec.version.v3.SB.Records instance at 0x3582b90>
+  result: []
+sourceurl: !!python/unicode '20020612'

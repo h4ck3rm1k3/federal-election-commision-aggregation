@@ -373,4 +373,53 @@ rows:
     number: 55-9.
     value: ''
   - name: CITY
-    number:
+    number: 56-9.
+    value: Pittsburgh
+  - name: STATE
+    number: 57-9.
+    value: PA
+  - name: ZIP
+    number: 58-9.
+    value: '15237'
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: Armbruster^John D.^^
+  - name: Signed
+    number: 60-
+    value: '20020613'
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: ''
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: ''
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F1N
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: In response to Mr. Eric W. Koeppen's letter dated
+  - value: ' May 31'
+  - value: ' 2002'
+  - value: '  this electronic filing of the Statement of Organization is an amendment
+      to the original statement dated April 20'
+  - value: ' 2000'
+  - value: ' and is a duplicate of the amendment filed via USPS June 29'
+  - value: ' 2001.   John D. Armbruster'
+  - value: ' Treasurer.'
+  expected_count: 4
+  input: TEXT,F1N,,"In response to Mr. Eric W. Koeppen's letter dated, May 31, 2002,  this
+    electronic filing of the Statement of Organization is an amendment to the original
+    statement dated April 20, 2000, and is a duplicate of the amendment filed via
+    USPS June 29, 2001.   John D. Armbruster, Treasurer."
+  input_count: 11
+  record: <fec.version.v3.TEXT.Records instance at 0x306c758>
+  result: []
+sourceurl: !!python/unicode '20020613'
