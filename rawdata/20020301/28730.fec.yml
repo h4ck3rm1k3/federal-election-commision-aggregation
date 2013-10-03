@@ -1,0 +1,951 @@
+countraw: 17
+countrows: 13
+filename: 28730.fec
+header:
+  'Committee ': CONDIT FOR CONGRESS
+  'Date_Fmat ': CCYYMMDD
+  'Dec/NoDec ': DEC
+  'F65       ': '00002'
+  'FEC_IDnum ': C00247544
+  'FEC_Ver_# ': '2.02'
+  'Form_Name ': F6N
+  'NameDelim ': ^
+  'Soft_Name ': FECWEB
+  'Soft_Ver# ': '1'
+rows:
+- input: '"F6","C00342741","Doug Ose for Congress","8958 Ivanpah Court","","Elk Grove","CA","95624","","Doug
+    Ose","H","CA",3,"20020301"'
+  record: <fec.version.v3.F6.Records instance at 0x114a3b0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00342741
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Doug Ose for Congress
+  - name: STREET 1
+    number: '4'
+    value: 8958 Ivanpah Court
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Elk Grove
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '95624'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Doug Ose
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: CA
+  - name: CAN/DIST
+    number: '13'
+    value: '3'
+  - name: Signed
+    number: 14-
+    value: '20020301'
+- input: '"F65","C00342741","COM","National Beer Wholesalers AssociationPolitical
+    Action Committee","1100 S. Washington Street","","Alexandria","VA","22314","","",20020227,5000.00,"C00144766","","","","","","","","","","","","","INC3454"'
+  record: <fec.version.v3.F65.Records instance at 0x114af80>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00342741
+  - name: ENTITY TYPE
+    number: '3'
+    value: COM
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: National Beer Wholesalers AssociationPolitical Action Committee
+  - name: STREET 1
+    number: '5'
+    value: 1100 S. Washington Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Alexandria
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22314'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020227'
+  - name: AMOUNT
+    number: '13'
+    value: '5000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00144766
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: INC3454
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00112250
+  - name: COMMITTEE NAME
+    number: '3'
+    value: TOM LANTOS FOR CONGRESS COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 611
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: BURLINGAME
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '94011'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H0CA11022
+  - name: CANDIDATE NAME
+    number: '10'
+    value: LANTOS
+  - name: CAN/OFFICE
+    number: '11'
+    value: ^THOMAS^P
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: CA
+  - name: Signed
+    number: 14-
+    value: '12'
+  - value: '20020301'
+  expected_count: 14
+  input: F6N,C00112250,TOM LANTOS FOR CONGRESS COMMITTEE,PO BOX 611,,BURLINGAME,CA,94011,H0CA11022,"LANTOS,^THOMAS^P",H,CA,12,20020301
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x19b3d88>
+  result: []
+- input: F65,C00112250,PAC,American Medical Association PAC,1101 Vermont Ave NW,,Washington,DC,20005,,,20020301,3500.00,,,,,,,,,,,,,A,F65.00000
+  record: <fec.version.v3.F65.Records instance at 0x19b3dd0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00112250
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: American Medical Association PAC
+  - name: STREET 1
+    number: '5'
+    value: 1101 Vermont Ave NW
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20005'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020301'
+  - name: AMOUNT
+    number: '13'
+    value: '3500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: A
+  - name: TRAN ID
+    number: '27'
+    value: F65.00000
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00013573
+  - name: COMMITTEE NAME
+    number: '3'
+    value: HENRY J HYDE FOR CONGRESS COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 1504
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: ELK GROVE VILLAGE
+  - name: STATE
+    number: '7'
+    value: IL
+  - name: ZIP
+    number: '8'
+    value: '60009'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H6IL06026
+  - name: CANDIDATE NAME
+    number: '10'
+    value: HYDE
+  - name: CAN/OFFICE
+    number: '11'
+    value: ^HENRY^JOHN
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: IL
+  - name: Signed
+    number: 14-
+    value: '06'
+  - value: '20020301'
+  expected_count: 14
+  input: F6N,C00013573,HENRY J HYDE FOR CONGRESS COMMITTEE,PO BOX 1504,,ELK GROVE
+    VILLAGE,IL,60009,H6IL06026,"HYDE,^HENRY^JOHN",H,IL,06,20020301
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x19b3f38>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00344671
+  - name: COMMITTEE NAME
+    number: '3'
+    value: SUSAN DAVIS FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: C/O 144 WEST D STREET
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: ENCINITAS
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '92024'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H0CA49055
+  - name: CANDIDATE NAME
+    number: '10'
+    value: DAVIS
+  - name: CAN/OFFICE
+    number: '11'
+    value: ^SUSAN^A
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: CA
+  - name: Signed
+    number: 14-
+    value: '53'
+  - value: '20020301'
+  expected_count: 14
+  input: F6N,C00344671,SUSAN DAVIS FOR CONGRESS,C/O 144 WEST D STREET,,ENCINITAS,CA,92024,H0CA49055,"DAVIS,^SUSAN^A",H,CA,53,20020301
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x19b3c20>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00344671
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: DRS Technologies
+  - name: STREET 1
+    number: '5'
+    value: ' Inc'
+  - name: STREET 2
+    number: '6'
+    value: 5 Sylvan Way
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Parsippany
+  - name: ZIP
+    number: '9'
+    value: NJ
+  - name: INDEMP
+    number: '10'
+    value: '07054'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20020301'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00275123
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: New^Democrat^Network
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: 777 N. Capitol Ct.
+  - name: CONDUIT CITY
+    number: '23'
+    value: ' NE'
+  - name: CONDUIT STATE
+    number: '24'
+    value: ' Ste. 410'
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: Washington
+  - name: TRAN ID
+    number: '27'
+    value: DC
+  - value: '20002'
+  - value: A
+  - value: F65.00000
+  expected_count: 27
+  input: F65,C00344671,PAC,"DRS Technologies, Inc",5 Sylvan Way,,Parsippany,NJ,07054,,,20020301,1000.00,C00275123,,,,,,New^Democrat^Network,"777
+    N. Capitol Ct., NE, Ste. 410",,Washington,DC,20002,A,F65.00000
+  input_count: 30
+  record: <fec.version.v3.F65.Records instance at 0x19b3f38>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00344671
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Intel Corporation Political Action Committee
+  - name: STREET 1
+    number: '5'
+    value: 1634 I St.
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ' Ste. 300'
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: INDEMP
+    number: '10'
+    value: DC
+  - name: INDOCC
+    number: '11'
+    value: '20006'
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20020301'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '1000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: C00125641
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: New^Democrat^Network
+  - name: CONDUIT CITY
+    number: '23'
+    value: 777 N. Capitol Ct.
+  - name: CONDUIT STATE
+    number: '24'
+    value: ' NE'
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ' Ste. 410'
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: Washington
+  - value: DC
+  - value: '20002'
+  - value: A
+  - value: F65.00001
+  expected_count: 27
+  input: F65,C00344671,PAC,Intel Corporation Political Action Committee,"1634 I St.,
+    NW, Ste. 300",,Washington,DC,20006,,,20020301,1000.00,C00125641,,,,,,New^Democrat^Network,"777
+    N. Capitol Ct., NE, Ste. 410",,Washington,DC,20002,A,F65.00001
+  input_count: 31
+  record: <fec.version.v3.F65.Records instance at 0x19b3c20>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00344671
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Genentech Inc Political Action Committee (GENENPAC)
+  - name: STREET 1
+    number: '5'
+    value: 460 Point San Bruno Blvd.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: So San Francisco
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94080'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020301'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00199257
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: New^Democrat^Network
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: 777 N. Capitol Ct.
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ' NE'
+  - name: CONDUIT CITY
+    number: '23'
+    value: ' Ste. 410'
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: Washington
+  - name: AMENDED CD
+    number: '26'
+    value: DC
+  - name: TRAN ID
+    number: '27'
+    value: '20002'
+  - value: A
+  - value: F65.00002
+  expected_count: 27
+  input: F65,C00344671,PAC,Genentech Inc Political Action Committee (GENENPAC),460
+    Point San Bruno Blvd.,,So San Francisco,CA,94080,,,20020301,1000.00,C00199257,,,,,,New^Democrat^Network,"777
+    N. Capitol Ct., NE, Ste. 410",,Washington,DC,20002,A,F65.00002
+  input_count: 29
+  record: <fec.version.v3.F65.Records instance at 0x19b3f38>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00344671
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Merck PAC
+  - name: STREET 1
+    number: '5'
+    value: 601 Pennsylvania Ave.
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: North Building
+  - name: STATE
+    number: '8'
+    value: ' Ste. 1200'
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: INDEMP
+    number: '10'
+    value: DC
+  - name: INDOCC
+    number: '11'
+    value: '20004'
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20020301'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '1000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: C00097485
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: New^Demomcrat^Network
+  - name: CONDUIT CITY
+    number: '23'
+    value: 777 N. Capitol St.
+  - name: CONDUIT STATE
+    number: '24'
+    value: ' NE'
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ' Ste. 410'
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: Washington
+  - value: DC
+  - value: '20002'
+  - value: A
+  - value: F65.00003
+  expected_count: 27
+  input: F65,C00344671,PAC,Merck PAC,"601 Pennsylvania Ave., NW","North Building,
+    Ste. 1200",Washington,DC,20004,,,20020301,1000.00,C00097485,,,,,,New^Demomcrat^Network,"777
+    N. Capitol St., NE, Ste. 410",,Washington,DC,20002,A,F65.00003
+  input_count: 31
+  record: <fec.version.v3.F65.Records instance at 0x19b3c20>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00247544
+  - name: COMMITTEE NAME
+    number: '3'
+    value: CONDIT FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 725 SOUTH FIGUEROA STREET
+  - name: STREET 2
+    number: '5'
+    value: SUITE 3200
+  - name: CITY
+    number: '6'
+    value: LOS ANGELES
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '90017'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H0CA15031
+  - name: CANDIDATE NAME
+    number: '10'
+    value: CONDIT
+  - name: CAN/OFFICE
+    number: '11'
+    value: ^GARY^A
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: CA
+  - name: Signed
+    number: 14-
+    value: '18'
+  - value: '20020301'
+  expected_count: 14
+  input: F6N,C00247544,CONDIT FOR CONGRESS,725 SOUTH FIGUEROA STREET,SUITE 3200,LOS
+    ANGELES,CA,90017,H0CA15031,"CONDIT,^GARY^A",H,CA,18,20020301
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x114edd0>
+  result: []
+- input: F65,C00247544,IND,Arnaiz^Howard,PO Box 8492,,Stockton,CA,95208,Self Employed,Real
+    Estate Broker,20020227,1000.00,,,,,,,,,,,,,A,F65.00000
+  record: <fec.version.v3.F65.Records instance at 0x114ec20>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00247544
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Arnaiz^Howard
+  - name: STREET 1
+    number: '5'
+    value: PO Box 8492
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Stockton
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '95208'
+  - name: INDEMP
+    number: '10'
+    value: Self Employed
+  - name: INDOCC
+    number: '11'
+    value: Real Estate Broker
+  - name: Of Contribution
+    number: 12-
+    value: '20020227'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: A
+  - name: TRAN ID
+    number: '27'
+    value: F65.00000
+- input: F65,C00247544,IND,Speckman^Russell,4125 McHenry Avenue 32,,Modesto,CA,95356,N/A,Retired,20020228,1000.00,,,,,,,,,,,,,A,F65.00001
+  record: <fec.version.v3.F65.Records instance at 0x114edd0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00247544
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Speckman^Russell
+  - name: STREET 1
+    number: '5'
+    value: 4125 McHenry Avenue 32
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Modesto
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '95356'
+  - name: INDEMP
+    number: '10'
+    value: N/A
+  - name: INDOCC
+    number: '11'
+    value: Retired
+  - name: Of Contribution
+    number: 12-
+    value: '20020228'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: C
