@@ -1,0 +1,192 @@
+countraw: 17
+countrows: 5
+filename: 28845.fec
+header:
+  'Committee ': FRIENDS OF NANCY KASZAK
+  'Date_Fmat ': CCYYMMDD
+  'Dec/NoDec ': DEC
+  'F65       ': '00002'
+  'FEC_IDnum ': C00368662
+  'FEC_Ver_# ': '2.02'
+  'Form_Name ': F6N
+  'NameDelim ': ^
+  'Soft_Name ': FECWEB
+  'Soft_Ver# ': '1'
+rows:
+- input: F6,C00347708,PHIL SUDAN FOR CONGRESS,8035 East R.L. Thornton Freeway,Suite
+    609,Dallas,TX,75228,H0TX25032,SUDAN^PHIL^^,H,TX,05,20020303
+  record: <fec.version.v3.F6.Records instance at 0x1152908>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00347708
+  - name: COMMITTEE NAME
+    number: '3'
+    value: PHIL SUDAN FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 8035 East R.L. Thornton Freeway
+  - name: STREET 2
+    number: '5'
+    value: Suite 609
+  - name: CITY
+    number: '6'
+    value: Dallas
+  - name: STATE
+    number: '7'
+    value: TX
+  - name: ZIP
+    number: '8'
+    value: '75228'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H0TX25032
+  - name: CANDIDATE NAME
+    number: '10'
+    value: SUDAN^PHIL^^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: TX
+  - name: CAN/DIST
+    number: '13'
+    value: '05'
+  - name: Signed
+    number: 14-
+    value: '20020303'
+- input: F65,C00347708,CAN,SUDAN^PHIL^^,8035 East R.L. Thornton Freeway,Suite 609,Dallas,TX,75228,Ryan
+    & Sudan,International Attorney/Businessman,20020301,50000.00,C00347708,H0TX25032,SUDAN^PHIL^^,H,TX,05,,,,,,,,F6.4205
+  record: <fec.version.v3.F65.Records instance at 0x11523f8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00347708
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: SUDAN^PHIL^^
+  - name: STREET 1
+    number: '5'
+    value: 8035 East R.L. Thornton Freeway
+  - name: STREET 2
+    number: '6'
+    value: Suite 609
+  - name: CITY
+    number: '7'
+    value: Dallas
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '75228'
+  - name: INDEMP
+    number: '10'
+    value: Ryan & Sudan
+  - name: INDOCC
+    number: '11'
+    value: International Attorney/Businessman
+  - name: Of Contribution
+    number: 12-
+    value: '20020301'
+  - name: AMOUNT
+    number: '13'
+    value: '50000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00347708
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H0TX25032
+  - name: CANDIDATE NAME
+    number: '16'
+    value: SUDAN^PHIL^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '05'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4205
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00368662
+  - name: COMMITTEE NAME
+    number: '3'
+    value: FRIENDS OF NANCY KASZAK
+  - name: STREET 1
+    number: '4'
+    value: 1954 W IRVING PARK
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: CHICAGO
+  - name: STATE
+    number: '7'
+    value: IL
+  - name: ZIP
+    number: '8'
+    value: '60613'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2IL05076
+  - name: CANDIDATE NAME
+    number: '10'
+    value: KASZAK
+  - name: CAN/OFFICE
+    number: '11'
+    value: ^NANCY
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: IL
+  - name: Signed
+    number: 14-
+    value: '05'
+  - value: '20020303'
+  expected_count: 14
+  input: F6N,C00368662,FRIENDS OF NANCY KASZA
