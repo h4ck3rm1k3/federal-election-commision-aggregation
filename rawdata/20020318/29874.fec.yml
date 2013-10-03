@@ -1,0 +1,1834 @@
+countraw: 18
+countrows: 16
+filename: 29874.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: COMMITTEE NAME
+    number: '3'
+    value: NATIONAL RIGHT TO LIFE POLITICAL ACTION COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: 512 10th Street
+  - name: STREET 2
+    number: '5'
+    value: ' NW'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: WASHINGTON
+  - name: ZIP
+    number: '8'
+    value: DC
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: '20004'
+  - name: Signed
+    number: 10-
+    value: Tobias^Carol^^
+  - value: '20010612'
+  expected_count: 10
+  input: F24,C00111278,NATIONAL RIGHT TO LIFE POLITICAL ACTION COMMITTEE,"512 10th
+    Street, NW",,WASHINGTON,DC,20004,Tobias^Carol^^,20010612
+  input_count: 11
+  record: <fec.version.v3.F24.Records instance at 0xf1e680>
+  result: []
+- input: SE24,C00111278,CAN,Canaan Printing^^^,4820 Jefferson Davis Hwy,,Richmond,VA,23234,Print,20010612,900.00,S,H2VA04052,FORBES^J
+    RANDY^^,H,VA,04,C00111278,,,,,,,,,,,,,,,,,,SE24.4108,,,,
+  record: <fec.version.v3.SE.Records instance at 0xf3c638>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: NAME (Payee)
+    number: '4'
+    value: Canaan Printing^^^
+  - name: STREET 1
+    number: '5'
+    value: 4820 Jefferson Davis Hwy
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Richmond
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '23234'
+  - name: TRANSDESC
+    number: '10'
+    value: Print
+  - name: DATE
+    number: '11'
+    value: '20010612'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '900.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H2VA04052
+  - name: S/O CAN/NAME
+    number: '15'
+    value: FORBES^J RANDY^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: VA
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '04'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00111278
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.4108
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+- input: SE24,C00111278,IND,WARV^^^,812 Moorefield Park Drive,Suite 300,Richmond,VA,23236,Radio,20010611,1350.00,S,H2VA04052,FORBES^J
+    RANDY^^,H,VA,04,C00111278,,,,,,,,,,,,,,,,,,SE24.4135,,,,
+  record: <fec.version.v3.SE.Records instance at 0xf1e680>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: WARV^^^
+  - name: STREET 1
+    number: '5'
+    value: 812 Moorefield Park Drive
+  - name: STREET 2
+    number: '6'
+    value: Suite 300
+  - name: CITY
+    number: '7'
+    value: Richmond
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '23236'
+  - name: TRANSDESC
+    number: '10'
+    value: Radio
+  - name: DATE
+    number: '11'
+    value: '20010611'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '1350.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H2VA04052
+  - name: S/O CAN/NAME
+    number: '15'
+    value: FORBES^J RANDY^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: VA
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '04'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00111278
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.4135
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+- input: SE24,C00111278,IND,WBBC^^^,950 Kenbridge Rd.,,Blackstone,VA,23824,Radio,20010611,790.50,S,H2VA04052,FORBES^J
+    RANDY^^,H,VA,04,C00111278,,,,,,,,,,,,,,,,,,SE24.4136,,,,
+  record: <fec.version.v3.SE.Records instance at 0xf3c638>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: WBBC^^^
+  - name: STREET 1
+    number: '5'
+    value: 950 Kenbridge Rd.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Blackstone
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '23824'
+  - name: TRANSDESC
+    number: '10'
+    value: Radio
+  - name: DATE
+    number: '11'
+    value: '20010611'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '790.50'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H2VA04052
+  - name: S/O CAN/NAME
+    number: '15'
+    value: FORBES^J RANDY^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: VA
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '04'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00111278
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.4136
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: WFLO^^^
+  - name: STREET 1
+    number: '5'
+    value: 1582 Cumberland  Rd.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Farmville
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: VA
+  - name: TRANSDESC
+    number: '10'
+    value: '23901'
+  - name: DATE
+    number: '11'
+    value: Radio
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20010612'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '500.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: H2VA04052
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: FORBES^J RANDY^^
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: VA
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '04'
+  - name: Unused field
+    number: '20'
+    value: C00111278
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.4137
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - value: ''
+  expected_count: 41
+  input: SE24,C00111278,IND,WFLO^^^,1582 Cumberland  Rd.,,"Farmville,",VA,23901,Radio,20010612,500.00,S,H2VA04052,FORBES^J
+    RANDY^^,H,VA,04,C00111278,,,,,,,,,,,,,,,,,,SE24.4137,,,,
+  input_count: 42
+  record: <fec.version.v3.SE.Records instance at 0xf1e680>
+  result: []
+- input: SE24,C00111278,IND,WGGM^^^,13379 Great Spring Rd.,,Smithfield,VA,23530,Radio,20010611,550.00,S,H2VA04052,FORBES^J
+    RANDY^^,H,VA,04,C00111278,,,,,,,,,,,,,,,,,,SE24.4148,,,,
+  record: <fec.version.v3.SE.Records instance at 0xf3c638>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: WGGM^^^
+  - name: STREET 1
+    number: '5'
+    value: 13379 Great Spring Rd.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Smithfield
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '23530'
+  - name: TRANSDESC
+    number: '10'
+    value: Radio
+  - name: DATE
+    number: '11'
+    value: '20010611'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '550.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H2VA04052
+  - name: S/O CAN/NAME
+    number: '15'
+    value: FORBES^J RANDY^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: VA
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '04'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00111278
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.4148
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+- input: SE24,C00111278,IND,WKGM^^^,13379 Great Spring Rd.,,Smithfield,VA,23430,Radio,20010611,950.00,S,H2VA04052,FORBES^J
+    RANDY^^,H,VA,04,C00111278,,,,,,,,,,,,,,,,,,SE24.4151,,,,
+  record: <fec.version.v3.SE.Records instance at 0xf1e680>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: WKGM^^^
+  - name: STREET 1
+    number: '5'
+    value: 13379 Great Spring Rd.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Smithfield
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '23430'
+  - name: TRANSDESC
+    number: '10'
+    value: Radio
+  - name: DATE
+    number: '11'
+    value: '20010611'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '950.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H2VA04052
+  - name: S/O CAN/NAME
+    number: '15'
+    value: FORBES^J RANDY^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: VA
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '04'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00111278
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.4151
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+- input: SE24,C00111278,IND,WKHK^^^,812 Moorefield Park Dr,Suite 300,Richmond,VA,23236,Radio,20010611,6750.00,S,H2VA04052,FORBES^J
+    RANDY^^,H,VA,04,C00111278,,,,,,,,,,,,,,,,,,SE24.4139,,,,
+  record: <fec.version.v3.SE.Records instance at 0xf3c638>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: WKHK^^^
+  - name: STREET 1
+    number: '5'
+    value: 812 Moorefield Park Dr
+  - name: STREET 2
+    number: '6'
+    value: Suite 300
+  - name: CITY
+    number: '7'
+    value: Richmond
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '23236'
+  - name: TRANSDESC
+    number: '10'
+    value: Radio
+  - name: DATE
+    number: '11'
+    value: '20010611'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '6750.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H2VA04052
+  - name: S/O CAN/NAME
+    number: '15'
+    value: FORBES^J RANDY^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: VA
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '04'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00111278
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.4139
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+- input: SE24,C00111278,IND,WNIS/WTAR^^^,500 Dominion Tower,999 Waterside Drive,Norfolk,VA,23510,Radio,20010611,1780.00,S,H2VA04052,FORBES^J
+    RANDY^^,H,VA,04,C00111278,,,,,,,,,,,,,,,,,,SE24.4154,,,,
+  record: <fec.version.v3.SE.Records instance at 0xf1e680>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: WNIS/WTAR^^^
+  - name: STREET 1
+    number: '5'
+    value: 500 Dominion Tower
+  - name: STREET 2
+    number: '6'
+    value: 999 Waterside Drive
+  - name: CITY
+    number: '7'
+    value: Norfolk
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '23510'
+  - name: TRANSDESC
+    number: '10'
+    value: Radio
+  - name: DATE
+    number: '11'
+    value: '20010611'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '1780.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H2VA04052
+  - name: S/O CAN/NAME
+    number: '15'
+    value: FORBES^J RANDY^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: VA
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '04'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00111278
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.4154
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+- input: SE24,C00111278,IND,WPMH^^^,2202  Joliff Rd.,,Chesapeake,VA,23321,Radio,20010611,950.00,S,H2VA04052,FORBES^J
+    RANDY^^,H,VA,04,C00111278,,,,,,,,,,,,,,,,,,SE24.4140,,,,
+  record: <fec.version.v3.SE.Records instance at 0xf3c638>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: WPMH^^^
+  - name: STREET 1
+    number: '5'
+    value: 2202  Joliff Rd.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Chesapeake
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '23321'
+  - name: TRANSDESC
+    number: '10'
+    value: Radio
+  - name: DATE
+    number: '11'
+    value: '20010611'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '950.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H2VA04052
+  - name: S/O CAN/NAME
+    number: '15'
+    value: FORBES^J RANDY^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: VA
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '04'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00111278
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.4140
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+- input: SE24,C00111278,IND,WRJR^^^,2022 Joliff Rd,,Chesapeake,VA,23321,Radio,20010611,950.00,S,H2VA04052,FORBES^J
+    RANDY^^,H,VA,04,C00111278,,,,,,,,,,,,,,,,,,SE24.4141,,,,
+  record: <fec.version.v3.SE.Records instance at 0xf1e680>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: WRJR^^^
+  - name: STREET 1
+    number: '5'
+    value: 2022 Joliff Rd
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Chesapeake
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '23321'
+  - name: TRANSDESC
+    number: '10'
+    value: Radio
+  - name: DATE
+    number: '11'
+    value: '20010611'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '950.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H2VA04052
+  - name: S/O CAN/NAME
+    number: '15'
+    value: FORBES^J RANDY^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: VA
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '04'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00111278
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.4141
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+- input: SE24,C00111278,IND,WRVA^^^,3245 BAsie Rd.,,Richmond,VA,23223,Radio,20010611,1170.00,S,H2VA04052,FORBES^J
+    RANDY^^,H,VA,04,C00111278,,,,,,,,,,,,,,,,,,SE24.4142,,,,
+  record: <fec.version.v3.SE.Records instance at 0xf3c638>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: WRVA^^^
+  - name: STREET 1
+    number: '5'
+    value: 3245 BAsie Rd.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Richmond
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '23223'
+  - name: TRANSDESC
+    number: '10'
+    value: Radio
+  - name: DATE
+    number: '11'
+    value: '20010611'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '1170.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H2VA04052
+  - name: S/O CAN/NAME
+    number: '15'
+    value: FORBES^J RANDY^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: VA
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '04'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00111278
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.4142
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+- input: SE24,C00111278,IND,WRVA^^^,3245 BAsie Rd.,,Richmond,VA,23223,Radio,20010612,1800.00,S,H2VA04052,FORBES^J
+    RANDY^^,H,VA,04,C00111278,,,,,,,,,,,,,,,,,,SE24.4143,,,,
+  record: <fec.version.v3.SE.Records instance at 0xf1e680>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: WRVA^^^
+  - name: STREET 1
+    number: '5'
+    value: 3245 BAsie Rd.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Richmond
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '23223'
+  - name: TRANSDESC
+    number: '10'
+    value: Radio
+  - name: DATE
+    number: '11'
+    value: '20010612'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '1800.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H2VA04052
+  - name: S/O CAN/NAME
+    number: '15'
+    value: FORBES^J RANDY^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: VA
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '04'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00111278
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.4143
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+- input: SE24,C00111278,IND,WSVS^^^,1582 Cumberland Rd,,Farmville,VA,23901,Radio,20010612,410.00,S,H2VA04052,FORBES^J
+    RANDY^^,H,VA,04,C00111278,,,,,,,,,,,,,,,,,,SE24.4144,,,,
+  record: <fec.version.v3.SE.Records instance at 0xf3c638>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: WSVS^^^
+  - name: STREET 1
+    number: '5'
+    value: 1582 Cumberland Rd
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Farmville
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '23901'
+  - name: TRANSDESC
+    number: '10'
+    value: Radio
+  - name: DATE
+    number: '11'
+    value: '20010612'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '410.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H2VA04052
+  - name: S/O CAN/NAME
+    number: '15'
+    value: FORBES^J RANDY^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: VA
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '04'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00111278
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.4144
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+- input: SE24,C00111278,IND,WTAR^^^,500 Dominion Tower,,Norfolk,VA,23510,Radio,20020611,920.00,S,H2VA04052,FORBES^J
+    RANDY^^,H,VA,04,C00111278,,,,,,,,,,,,,,,,,,SE24.4145,,,,
+  record: <fec.version.v3.SE.Records instance at 0xf1e680>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: WTAR^^^
+  - name: STREET 1
+    number: '5'
+    value: 500 Dominion Tower
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Norfolk
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '23510'
+  - name: TRANSDESC
+    number: '10'
+    value: Radio
+  - name: DATE
+    number: '11'
+    value: '20020611'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '920.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H2VA04052
+  - name: S/O CAN/NAME
+    number: '15'
+    value: FORBES^J RANDY^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: VA
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '04'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00111278
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.4145
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+- input: SE24,C00111278,IND,WXGI^^^,701 German School Rd,,Richmond,VA,23225,Radio,20010611,900.00,S,H2VA04052,FORBES^J
+    RANDY^^,H,VA,04,C00111278,,,,,,,,,,,,,,,,,,SE24.4146,,,,
+  record: <fec.version.v3.SE.Records instance at 0xf3c638>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
