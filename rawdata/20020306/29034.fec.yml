@@ -1,0 +1,194 @@
+countraw: 5
+countrows: 3
+filename: 29034.fec
+header: {}
+rows:
+- input: F6,C00350520,ISSA FOR CONGRESS,P O BOX 760,,VISTA,CA,92085,H0CA48024,ISSA^DARRELL^^,H,CA,48,20020305
+  record: <fec.version.v3.F6.Records instance at 0xf71f80>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00350520
+  - name: COMMITTEE NAME
+    number: '3'
+    value: ISSA FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: P O BOX 760
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: VISTA
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '92085'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H0CA48024
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ISSA^DARRELL^^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: CA
+  - name: CAN/DIST
+    number: '13'
+    value: '48'
+  - name: Signed
+    number: 14-
+    value: '20020305'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00350520
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: AMERICAN MEDICAL ASSOCIATION PAC
+  - name: STREET 1
+    number: '5'
+    value: 1101 VERMONT AVENUE
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: WASHINGTON
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20005'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20020304'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '3000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00350520
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ISSA^DARRELL^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: CA
+  - name: CONDUIT NAME
+    number: '20'
+    value: '48'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.4393
+  expected_count: 27
+  input: F65,C00350520,PAC,AMERICAN MEDICAL ASSOCIATION PAC,"1101 VERMONT AVENUE,
+    NW",,WASHINGTON,DC,20005,,,20020304,3000.00,C00350520,,ISSA^DARRELL^^,H,CA,48,,,,,,,,F6.4393
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0xf71710>
+  result: []
+- input: F65,C00350520,PAC,GENERAL ATOMICS PAC,PO BOX 22930,,SAN DIEGO,CA,92122,,,20020304,1250.00,C00350520,,ISSA^DARRELL^^,H,CA,48,,,,,,,,F6.4394
+  record: <fec.version.v3.F65.Records instance at 0xf71f80>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00350520
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: GENERAL ATOMICS PAC
+  - name: STREET 1
+    number: '5'
+    value: PO BOX 22930
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: SAN DIEGO
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '92122'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020304'
+  - name: AMOUNT
+    number: '13'
+    value: '1250.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00350520
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ISSA^DARRELL^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STA
