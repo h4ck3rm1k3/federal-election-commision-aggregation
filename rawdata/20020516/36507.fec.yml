@@ -1,0 +1,186 @@
+countraw: 6
+countrows: 4
+filename: 36507.fec
+header: {}
+rows:
+- input: F6,C00152827,GEKAS FOR CONGRESS,4800 LINGLESTOWN ROAD,SUITE 203,HARRISBURG,PA,17112,H2PA17012,GEKAS^GEORGE^Rep.^,H,PA,17,20020516
+  record: <fec.version.v3.F6.Records instance at 0x15758680>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00152827
+  - name: COMMITTEE NAME
+    number: '3'
+    value: GEKAS FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 4800 LINGLESTOWN ROAD
+  - name: STREET 2
+    number: '5'
+    value: SUITE 203
+  - name: CITY
+    number: '6'
+    value: HARRISBURG
+  - name: STATE
+    number: '7'
+    value: PA
+  - name: ZIP
+    number: '8'
+    value: '17112'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2PA17012
+  - name: CANDIDATE NAME
+    number: '10'
+    value: GEKAS^GEORGE^Rep.^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: PA
+  - name: CAN/DIST
+    number: '13'
+    value: '17'
+  - name: Signed
+    number: 14-
+    value: '20020516'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00152827
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: JARRELL^WILLIAM
+  - name: STREET 1
+    number: '5'
+    value: ' P^^'
+  - name: STREET 2
+    number: '6'
+    value: 9227 VOLUNTEER DRIVE
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: ALEXANDRIA
+  - name: ZIP
+    number: '9'
+    value: VA
+  - name: INDEMP
+    number: '10'
+    value: '22309'
+  - name: INDOCC
+    number: '11'
+    value: WASHINGTON STRATEGIES
+  - name: Of Contribution
+    number: 12-
+    value: ' LLC'
+  - name: AMOUNT
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20020516'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '1000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: C00152827
+  - name: CAN/OFFICE
+    number: '17'
+    value: H2PA17012
+  - name: CAN/STATE
+    number: '18'
+    value: GEKAS^GEORGE^Rep.^
+  - name: CAN/DIST
+    number: '19'
+    value: H
+  - name: CONDUIT NAME
+    number: '20'
+    value: PA
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: '17'
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: F6.4994
+  expected_count: 27
+  input: F65,C00152827,IND,"JARRELL^WILLIAM, P^^",9227 VOLUNTEER DRIVE,,ALEXANDRIA,VA,22309,"WASHINGTON
+    STRATEGIES, LLC",,20020516,1000.00,C00152827,H2PA17012,GEKAS^GEORGE^Rep.^,H,PA,17,,,,,,,,F6.4994
+  input_count: 29
+  record: <fec.version.v3.F65.Records instance at 0x157580e0>
+  result: []
+- input: F65,C00152827,PAC,MBNA CORPORATION FEDERAL POLITICAL COMMITTEE,MBNA CORPORATION,,WILIMINGTON,DE,19884,,,20020516,2000.00,C00152827,H2PA17012,GEKAS^GEORGE^Rep.^,H,PA,17,,,,,,,,F6.4993
+  record: <fec.version.v3.F65.Records instance at 0x15758680>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00152827
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: MBNA CORPORATION FEDERAL POLITICAL COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: MBNA CORPORATION
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: WILIMINGTON
+  - name: STATE
+    number: '8'
+    value: DE
+  - name: ZIP
+    number: '9'
+    value: '19884'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020516'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00152827
+  - n
