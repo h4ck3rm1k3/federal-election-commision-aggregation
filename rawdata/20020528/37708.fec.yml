@@ -10814,4 +10814,130 @@ rows:
     number: '30'
     value: ''
   - name: TRAN ID
-    num
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '10000000582200030'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00122101","CAN","Pickering For Congress","Po Box 6440","","Laurel","MS","39441","24K","YTD:$2000.00
+    Charles W.''Chip Pickering,","P2002","",20011114,2000,"","","Charles W.''Chip
+    Pickering Jr.","H","MS","3","","","","","","","","","","10000000582200030","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x30dbab8>
+  result: []
+- input: '"SB29","C00122101","","TOM DELAY LEGAL EXPENSE TRUST","10707 CORPORATION
+    DRIVE","","STAFFORD","TX","74777","","TOM DELAY LEGAL EXPENSE TRUST","O2001","Legal
+    Defense Fund",20011127,2000,"","","","","","","","","","","","","","","","10000000583600031","","",""'
+  record: <fec.version.v3.SB.Records instance at 0x30dbb00>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB29
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00122101
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: RECIPIENT NAME
+    number: '4'
+    value: TOM DELAY LEGAL EXPENSE TRUST
+  - name: STREET 1
+    number: '5'
+    value: 10707 CORPORATION DRIVE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: STAFFORD
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '74777'
+  - name: TRANS CODE
+    number: '10'
+    value: ''
+  - name: TRANS DESCRIP
+    number: '11'
+    value: TOM DELAY LEGAL EXPENSE TRUST
+  - name: ITEM ELECT CD
+    number: '12'
+    value: O2001
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: Legal Defense Fund
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20011127'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '2000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: ''
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: '10000000583600031'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+sourceurl: !!python/unicode '20020528'

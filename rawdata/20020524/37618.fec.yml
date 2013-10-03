@@ -7791,4 +7791,24 @@ rows:
     value: ''
   - value: ''
   expected_count: 34
-  input: '"SB23","C0008
+  input: '"SB23","C00082917","CAN","Brose Mcvey For Congress","One American Square
+    Suite 2000","Box 82064","Indianapolis","IN","46282","011","YTD:$1,500.00","P2002","",20020429,500.00,"C00365999","","McVey^Brose^^","H","IN","7","","","","","","","","","A","8317710","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0xf1f200>
+  result: []
+- input: '"TEXT","F3XA","","An incorrect amount was entered for a donor."'
+  record: <fec.version.v3.TEXT.Records instance at 0xf1f5a8>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: An incorrect amount was entered for a donor.
+sourceurl: !!python/unicode '20020524'

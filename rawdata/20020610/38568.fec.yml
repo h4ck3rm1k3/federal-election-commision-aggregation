@@ -61542,4 +61542,56 @@ rows:
 - input: H3,C00021121,H3.10736,Funds in State Checking,Funds in State Checking (07/01/2001),E,20010701,243949.31,243949.31,,H3.10736.0
   record: <fec.version.v3.SH3.Records instance at 0x1da1ef0>
   result:
-  - name: FORM
+  - name: FORM TYPE
+    number: '1'
+    value: H3
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00021121
+  - name: BACK-REF TRAN ID
+    number: '3'
+    value: H3.10736
+  - name: ACCOUNT NAME
+    number: '4'
+    value: Funds in State Checking
+  - name: EVENT NAME
+    number: '5'
+    value: Funds in State Checking (07/01/2001)
+  - name: EVENT TYPE
+    number: '6'
+    value: E
+  - name: Of Receipt
+    number: 7-
+    value: '20010701'
+  - name: AMOUNT TRANSFERRED
+    number: '8'
+    value: '243949.31'
+  - name: TOTAL AMOUNT TRANSFERRED
+    number: '9'
+    value: '243949.31'
+  - name: AMENDED CD
+    number: '10'
+    value: ''
+  - name: TRAN ID
+    number: '11'
+    value: H3.10736.0
+- input: TEXT,H3,H3.10736,This entry represents the balance in the State Checking
+    as of 7/1/01.  These funds are not comingled with the Federal funds and have never
+    been reported to the FEC in prior reports.
+  record: <fec.version.v3.TEXT.Records instance at 0x1d98098>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: H3
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: H3.10736
+  - name: TEXT4000
+    number: '4'
+    value: This entry represents the balance in the State Checking as of 7/1/01.  These
+      funds are not comingled with the Federal funds and have never been reported
+      to the FEC in prior reports.
+sourceurl: !!python/unicode '20020610'

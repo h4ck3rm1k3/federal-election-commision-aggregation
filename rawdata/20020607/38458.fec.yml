@@ -200,4 +200,22 @@ rows:
   - name: REC TYPE
     number: '1'
     value: TEXT
-  -
+  - name: FORM TYPE
+    number: '2'
+    value: F1N
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: This filing amends the name of our affiliate parent from Metropoiltan Life
+      Insurance Company Employees' Political Participation Fund A to MetLife
+  - value: ' Inc. Employees'' Politivcal Participation Fund A.'
+  expected_count: 4
+  input: TEXT,F1N,,"This filing amends the name of our affiliate parent from Metropoiltan
+    Life Insurance Company Employees' Political Participation Fund A to MetLife, Inc.
+    Employees' Politivcal Participation Fund A."
+  input_count: 5
+  record: <fec.version.v3.TEXT.Records instance at 0xe66ea8>
+  result: []
+sourceurl: !!python/unicode '20020607'

@@ -65790,4 +65790,141 @@ rows:
   - name: NAT Committee NON-FED ACCT
     number: '34'
     value: NO VALUE!
-  exp
+  expected_count: 34
+  input: '"SB18","C00375220","PAC","ASAPAC","520 North Northwest Highway","","Park
+    Ridge","IL","60068    ","","Event","P2002","",20020424,348.70,"","","","","","","","","","","","",,"","","0521200255E133"'
+  input_count: 31
+  record: <fec.version.v3.SB.Records instance at 0x53ccb170>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SC/10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00375220
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: NAME (Loan Source)
+    number: '4'
+    value: Jo Robins Bonner
+  - name: STREET 1
+    number: '5'
+    value: ' Jr.'
+  - name: STREET 2
+    number: '6'
+    value: 6910 Providence Estates Dr. South
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Mobile
+  - name: ZIP
+    number: '9'
+    value: AL
+  - name: ELECTION
+    number: '10'
+    value: '36695    '
+  - name: ELECTION DESCRIPTION
+    number: '11'
+    value: P2002
+  - name: ORIG. AMT OF LOAN
+    number: '12'
+    value: ''
+  - name: PAYMENT TO DATE
+    number: '13'
+    value: '150000.00'
+  - name: LOAN BALANCE
+    number: '14'
+    value: '0.00'
+  - name: Incurred
+    number: 15-
+    value: '150000.00'
+  - name: DUE DATE TERMS
+    number: '16'
+    value: '20020306'
+  - name: PCT RATE TERMS
+    number: '17'
+    value: '20030306'
+  - name: SECURED YESNO
+    number: '18'
+    value: '.0700'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: N
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: AMENDED CD
+    number: '25'
+    value: ''
+  - name: TRAN ID
+    number: '26'
+    value: ''
+  - value: LS041420024C384
+  expected_count: 26
+  input: '"SC/10","C00375220","CAN","Jo Robins Bonner, Jr.","6910 Providence Estates
+    Dr. South","","Mobile","AL","36695    ","P2002","",150000.00,0.00,150000.00,20020306,"20030306",".0700","N","","","","","",,"","LS041420024C384"'
+  input_count: 27
+  record: <fec.version.v3.SC.Records instance at 0x53ccb440>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SC2/10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00375220
+  - name: BACK REFERENCE TRAN ID
+    number: '3'
+    value: LS041420024C384
+  - name: Endorser/Guarantor
+    number: 4-
+    value: Jo Robins Bonner
+  - name: STREET 1
+    number: '5'
+    value: ' Jr.'
+  - name: STREET 2
+    number: '6'
+    value: 6910 Providence Estates Dr. South
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Mobile
+  - name: ZIP
+    number: '9'
+    value: AL
+  - name: INDEMP
+    number: '10'
+    value: '36695    '
+  - name: INDOCC
+    number: '11'
+    value: Information Requested
+  - name: AMOUNT GUARANTEED BALANCE
+    number: '12'
+    value: Information Requested
+  - value: '0.00'
+  expected_count: 12
+  input: '"SC2/10","C00375220","LS041420024C384","Jo Robins Bonner, Jr.","6910 Providence
+    Estates Dr. South","","Mobile","AL","36695    ","Information Requested","Information
+    Requested",0.00'
+  input_count: 13
+  record: <fec.version.v3.SC2.Records instance at 0x53ccb7a0>
+  result: []
+sourceurl: !!python/unicode '20020523'

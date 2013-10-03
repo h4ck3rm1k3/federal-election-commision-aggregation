@@ -5304,4 +5304,137 @@ rows:
     value: NO VALUE!
   expected_count: 34
   input: SB23,C00217638,"CCM","Santorum 2006","One Tower Bridge Suite 1440","","West
-    Conshohocken","PA","19428","","2006 Primary","P2006","","20010301",1000,"C00365106","S4PA00063","Rick^Santorum","S","PA","00","","","","","","","","
+    Conshohocken","PA","19428","","2006 Primary","P2006","","20010301",1000,"C00365106","S4PA00063","Rick^Santorum","S","PA","00","","","","","","","","","","7592060107184236182","",""
+  input_count: 33
+  record: <fec.version.v3.SB.Records instance at 0x1460908>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00217638
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Whitfield For Congress Committee
+  - name: STREET 1
+    number: '5'
+    value: PO Box 391
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Hopkinsville
+  - name: STATE
+    number: '8'
+    value: KY
+  - name: ZIP
+    number: '9'
+    value: '42241'
+  - name: TRANS CODE
+    number: '10'
+    value: ''
+  - name: TRANS DESCRIP
+    number: '11'
+    value: 2002 Primary
+  - name: ITEM ELECT CD
+    number: '12'
+    value: P2002
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20010601'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '1000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: C00289983
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: H4KY01040
+  - name: CANDIDATE NAME
+    number: '18'
+    value: Edward^Whitfield
+  - name: CAN/OFFICE
+    number: '19'
+    value: H
+  - name: CAN/STATE
+    number: '20'
+    value: KY
+  - name: CAN/DIST
+    number: '21'
+    value: '01'
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: '23'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: SB23,C00217638,"CCM","Whitfield For Congress Committee","PO Box 391","","Hopkinsville","KY","42241","","2002
+    Primary","P2002","","20010601",1000,"C00289983","H4KY01040","Edward^Whitfield","H","KY","01","","","","","","","","","","23","",""
+  input_count: 33
+  record: <fec.version.v3.SB.Records instance at 0x1047518>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: This amendment discloses disbursements to Santorum 2006
+  - value: ' which disbursements were inadvertantly omitted from the original report.'
+  expected_count: 4
+  input: TEXT,F3XA,,"This amendment discloses disbursements to Santorum 2006, which
+    disbursements were inadvertantly omitted from the original report."
+  input_count: 5
+  record: <fec.version.v3.TEXT.Records instance at 0x1460758>
+  result: []
+sourceurl: !!python/unicode '20020522'

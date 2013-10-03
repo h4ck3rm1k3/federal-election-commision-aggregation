@@ -25699,4 +25699,173 @@ rows:
   - name: CAN/OFFICE
     number: '24'
     value: ''
-  - name: CAN/S
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: A
+  - name: TRAN ID
+    number: '34'
+    value: H40415200239E9508
+  - name: MEMO CODE
+    number: '35'
+    value: ''
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: NO VALUE!
+  expected_count: 38
+  input: '"H4","C00020818","","US Postmaster","1135 Broadway NE","","Albuquerque","NM","871019651","2002
+    Lincoln Dinner:Postage LINCOLN DI",20020322,1122.00,561.00,561.00,"","X","","",0.00,"","","","","","","","","","","","",,"A","H40415200239E9508","","",""'
+  input_count: 37
+  record: <fec.version.v3.SH4.Records instance at 0x36a91680>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00020818
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Sheraton Old Town Hotel-Alb
+  - name: STREET 1
+    number: '5'
+    value: 800 Rio Grande Blvd NW
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Albuquerque
+  - name: STATE
+    number: '8'
+    value: NM
+  - name: ZIP
+    number: '9'
+    value: '87104    '
+  - name: PURPOSE/EVENT
+    number: '10'
+    value: Catering LINCOLN DINNER 2002
+  - name: DATE
+    number: '11'
+    value: '20020327'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '1000.00'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '500.00'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '500.00'
+  - name: Activity Is Admin./Voter Drive
+    number: 15-
+    value: ''
+  - name: Activity Is Fundrainsig
+    number: 16-
+    value: X
+  - name: Activity Is Exempt
+    number: 17-
+    value: ''
+  - name: Act. Direct Can Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '2122.00'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: A
+  - name: TRAN ID
+    number: '34'
+    value: H40415200239E9507
+  - name: MEMO CODE
+    number: '35'
+    value: ''
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: NO VALUE!
+  expected_count: 38
+  input: '"H4","C00020818","","Sheraton Old Town Hotel-Alb","800 Rio Grande Blvd NW","","Albuquerque","NM","87104    ","Catering
+    LINCOLN DINNER 2002",20020327,1000.00,500.00,500.00,"","X","","",2122.00,"","","","","","","","","","","","",,"A","H40415200239E9507","","",""'
+  input_count: 37
+  record: <fec.version.v3.SH4.Records instance at 0x36a91998>
+  result: []
+sourceurl: !!python/unicode '20020524'

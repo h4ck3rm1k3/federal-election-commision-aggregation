@@ -2035,4 +2035,67 @@ rows:
   - name: CAN/DIST
     number: '21'
     value: OK
-  - name: CONDUIT
+  - name: CONDUIT NAME
+    number: '22'
+    value: '1'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: A
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '6341813'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00150367","CAN","John Sullivan For Congress","6130 S. Maplewood
+    Ste. B","","Tulsa","OK","74136","011","YTD:$1,000.00","P2002","",20020416,1000.00,"C00366773","","Sullivan^John^Rep.^","H","OK","1","","","","","","","","","A","6341813","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x1ba8a28>
+  result: []
+- input: '"TEXT","F3XN","","This report does not balance along with previous reports
+    for 2002 and 2001. I am in the process of putting together amendments."'
+  record: <fec.version.v3.TEXT.Records instance at 0x1ba86c8>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XN
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: This report does not balance along with previous reports for 2002 and 2001.
+      I am in the process of putting together amendments.
+sourceurl: !!python/unicode '20020520'

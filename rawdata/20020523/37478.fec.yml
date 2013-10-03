@@ -75067,4 +75067,27 @@ rows:
     value: ''
   - name: MEMO TEXT
     number: '29'
-   
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: In-kind
+  - name: TRAN ID
+    number: '31'
+    value: ' received'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: C
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: D611
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB29","C00355222","IND","Greg Gerritt","37 6th Street","","Providence","RI","02906","24K","In-kind,
+    received","P","Primary","20000517","16.00","","","","P","DC","","","","","","","","","In-kind,
+    received","C","D611"'
+  input_count: 33
+  record: <fec.version.v3.SB.Records instance at 0x1ef2f38>
+  result: []
+sourceurl: !!python/unicode '20020523'

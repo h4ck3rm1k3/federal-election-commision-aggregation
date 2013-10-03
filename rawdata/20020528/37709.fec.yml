@@ -201537,4 +201537,131 @@ rows:
   - value: ''
   - value: ''
   expected_count: 38
-  input: H4,C00251835,ORG,"Siegal, Josh","1705 DeSale St., NW, 5th Fl.",,Washington,DC,20036,Salary,20010629,1004.49,251.12,753.37,X,,,,464735.07,Salary,C00251835,,,,,,,,,
+  input: H4,C00251835,ORG,"Siegal, Josh","1705 DeSale St., NW, 5th Fl.",,Washington,DC,20036,Salary,20010629,1004.49,251.12,753.37,X,,,,464735.07,Salary,C00251835,,,,,,,,,,,,,H4.5678,,,,
+  input_count: 41
+  record: <fec.version.v3.SH4.Records instance at 0x18efd40>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00251835
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Tagen
+  - name: STREET 1
+    number: '5'
+    value: ' Julie'
+  - name: STREET 2
+    number: '6'
+    value: 1705 DeSales St.
+  - name: CITY
+    number: '7'
+    value: ' NW'
+  - name: STATE
+    number: '8'
+    value: ' 5th Fl.'
+  - name: ZIP
+    number: '9'
+    value: ''
+  - name: PURPOSE/EVENT
+    number: '10'
+    value: Washington
+  - name: DATE
+    number: '11'
+    value: DC
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '20036'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: Salary
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '20010629'
+  - name: Activity Is Admin./Voter Drive
+    number: 15-
+    value: '1631.60'
+  - name: Activity Is Fundrainsig
+    number: 16-
+    value: '407.90'
+  - name: Activity Is Exempt
+    number: 17-
+    value: '1223.70'
+  - name: Act. Direct Can Support
+    number: 18-
+    value: X
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: ''
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: '466366.67'
+  - name: CANDIDATE NAME
+    number: '23'
+    value: Salary
+  - name: CAN/OFFICE
+    number: '24'
+    value: C00251835
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: ''
+  - name: MEMO CODE
+    number: '35'
+    value: ''
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: H4.5679
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: ''
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 38
+  input: H4,C00251835,ORG,"Tagen, Julie","1705 DeSales St., NW, 5th Fl.",,Washington,DC,20036,Salary,20010629,1631.60,407.90,1223.70,X,,,,466366.67,Salary,C00251835,,,,,,,,,,,,,H4.5679,,,,
+  input_count: 41
+  record: <fec.version.v3.SH4.Records instance at 0x18efdd0>
+  result: []
+sourceurl: !!python/unicode '20020528'

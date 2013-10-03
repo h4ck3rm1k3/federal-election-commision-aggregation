@@ -1544,4 +1544,126 @@ rows:
     value: NO VALUE!
   expected_count: 37
   input: '"SA17A","C00354407","IND","Harmon^Linda^Ms.^","206 Roycroft St.","Unit A","Long
-    Beach","CA","
+    Beach","CA","90803","G","","None","Retired","1000.00","20000424","1000.00","15","Check","","","","","","","","","","","","","","","C","R1875"'
+  input_count: 34
+  record: <fec.version.v3.SA.Records instance at 0x18977a0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA17A
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00354407
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: Cooper^Robert^Mr.^
+  - name: STREET 1
+    number: '5'
+    value: 16133 Ventura Blvd.
+  - name: STREET 2
+    number: '6'
+    value: ' Ste. 840'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Encino
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: ITEM ELECT CD
+    number: '10'
+    value: '91436'
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: G
+  - name: INDEMP
+    number: '12'
+    value: ''
+  - name: INDOCC
+    number: '13'
+    value: ''
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: ''
+  - name: DATE RECEIVED
+    number: '15'
+    value: '1000.00'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '20000406'
+  - name: TRANS CODE
+    number: '17'
+    value: '1000.00'
+  - name: TRANS DESCRIP
+    number: '18'
+    value: '15'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: Check
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: C
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: R112123
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: '"SA17A","C00354407","IND","Cooper^Robert^Mr.^","16133 Ventura Blvd., Ste.
+    840","","Encino","CA","91436","G","","","","1000.00","20000406","1000.00","15","Check","","","","","","","","","","","","","","","C","R112123"'
+  input_count: 35
+  record: <fec.version.v3.SA.Records instance at 0x1897128>
+  result: []
+sourceurl: !!python/unicode '20020523'

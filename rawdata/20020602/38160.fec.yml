@@ -1,0 +1,174 @@
+countraw: 4
+countrows: 2
+filename: 38160.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00308577
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Pickering For Congress
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 6440
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Laurel
+  - name: STATE
+    number: '7'
+    value: MS
+  - name: ZIP
+    number: '8'
+    value: '39441   '
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H6MS03046
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Charles W. Chip Pickering
+  - name: CAN/OFFICE
+    number: '11'
+    value: ' Jr.'
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: MS
+  - name: Signed
+    number: 14-
+    value: '3 '
+  - value: '20020502'
+  expected_count: 14
+  input: '"F6","C00308577","Pickering For Congress","P.O. Box 6440","","Laurel","MS","39441   ","H6MS03046","Charles
+    W. Chip Pickering, Jr.","H","MS","3 ",20020502'
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x10475f0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11C
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00308577
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: The GlaxoSmithKline PAC
+  - name: STREET 1
+    number: '5'
+    value: 'ATT: Ms. Megan L. Brier'
+  - name: STREET 2
+    number: '6'
+    value: 1500 K Street
+  - name: CITY
+    number: '7'
+    value: ' NW  #650 '
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: ITEM ELECT CD
+    number: '10'
+    value: '20005    '
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: 'P    '
+  - name: INDEMP
+    number: '12'
+    value: ''
+  - name: INDOCC
+    number: '13'
+    value: ''
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: ''
+  - name: DATE RECEIVED
+    number: '15'
+    value: '2000.00'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '20020601'
+  - name: TRANS CODE
+    number: '17'
+    value: '1000.00'
+  - name: TRANS DESCRIP
+    number: '18'
+    value: 18K
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: Receipt
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: 0602200231C95351
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: '"SA11C","C00308577","PAC","The GlaxoSmithKline PAC","ATT: Ms. Megan L. Brier","1500
+    K Street, NW  #650 ","Washington","DC","20005    ","P    ","","","",2000.00,20020601,1000.00,"18K","Receipt","","","","","","","","","","","",,"","","","0602200231C95351"'
+  input_count: 35
+  record: <fec.version.v3.SA.Records instance at 0x1047200>
+  result: []
+sourceurl: !!python/unicode '20020602'

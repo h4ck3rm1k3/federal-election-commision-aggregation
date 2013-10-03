@@ -971,4 +971,25 @@ rows:
   - name: MEMO TEXT
     number: '32'
     value: ''
-  - name: AMENDE
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: 052420028C39448
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: '"SA11C","C00225045","PAC","Verizon Communications Inc.","Good Govt Club","1717
+    Arch Street 47-S","Philadelphia","PA","19103    ","P    ","","","",4150.00,20020523,1000.00,"18K","Receipt","","","","","","","","","","","",,"","","","052420028C39448"'
+  input_count: 34
+  record: <fec.version.v3.SA.Records instance at 0xe66dd0>
+  result: []
+sourceurl: !!python/unicode '20020529'

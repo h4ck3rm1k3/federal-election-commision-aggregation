@@ -1266,4 +1266,123 @@ rows:
   - value: ''
   expected_count: 37
   input: '"SA11A1","C00018028","IND","Streibig^Michael^Mr.^","9606 Tavistock Road","","Orlando","FL","328277018","G2002","","Printing
-    Association of Florida, Inc.","Pre
+    Association of Florida, Inc.","President","250.00","20020412","250.00","","Check","","","","","","","","","","","","","","","","R6551","","",""'
+  input_count: 38
+  record: <fec.version.v3.SA.Records instance at 0x1897a70>
+  result: []
+- input: '"SA17","C00018028","","Bank^Suntrust^^","PO Box 85024","","Richmond","VA","232855024","G2002","","Suntrust
+    Bank","Checking","70.40","20020430","20.17","","Check","","","","","","","","","","","","","","","","R6585","","",""'
+  record: <fec.version.v3.SA.Records instance at 0xe66e60>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SA17
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00018028
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: Bank^Suntrust^^
+  - name: STREET 1
+    number: '5'
+    value: PO Box 85024
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Richmond
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '232855024'
+  - name: ITEM ELECT CD
+    number: '10'
+    value: G2002
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: ''
+  - name: INDEMP
+    number: '12'
+    value: Suntrust Bank
+  - name: INDOCC
+    number: '13'
+    value: Checking
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: '70.40'
+  - name: DATE RECEIVED
+    number: '15'
+    value: '20020430'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '20.17'
+  - name: TRANS CODE
+    number: '17'
+    value: ''
+  - name: TRANS DESCRIP
+    number: '18'
+    value: Check
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: R6585
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: ''
+sourceurl: !!python/unicode '20020606'

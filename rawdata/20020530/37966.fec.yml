@@ -10518,4 +10518,147 @@ rows:
     value: ''
   - name: CONDUIT STREET 2
     number: '24'
-    valu
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: D003P0B
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '                    '
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB17","C00372631","ORG","University Press Inc.","342 42nd Street SW","","Fargo","ND","58103","","Printing
+    Palm Cards","P2002","",20020515,446.35,"","","","","",,"","","","","","","","","","D003P0B","                    "'
+  input_count: 32
+  record: <fec.version.v3.SB.Records instance at 0x1897998>
+  result: []
+- input: '"SB17","C00372631","IND","Waters, Brandon","Box 1255","","Bismarck","ND","58502","","Salary
+    to May 1, 2002","P2002","",20020415,4857.00,"","","","","",,"","","","","","","","","","D00Bs01","                    "'
+  record: <fec.version.v3.SB.Records instance at 0x1897170>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB17
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00372631
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Waters
+  - name: STREET 1
+    number: '5'
+    value: ' Brandon'
+  - name: STREET 2
+    number: '6'
+    value: Box 1255
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Bismarck
+  - name: ZIP
+    number: '9'
+    value: ND
+  - name: TRANS CODE
+    number: '10'
+    value: '58502'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '12'
+    value: Salary to May 1
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ' 2002'
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: P2002
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '20020415'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: '4857.00'
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: ''
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: D00Bs01
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: '                    '
+sourceurl: !!python/unicode '20020530'

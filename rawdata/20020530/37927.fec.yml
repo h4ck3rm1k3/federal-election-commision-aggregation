@@ -3751,4 +3751,26 @@ rows:
 - attempt:
   - name: REC TYPE
     number: '1'
-    value
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: Pursuant to 11 C.F.R. Section 104.5(c)
+  - value: ' Integrated Electrical Services National PAC is changing its filing frequency
+      from quarterly filing to monthly filing.  The next report to be filed in accordance
+      with the new filing frequency will be the January monthly report'
+  - value: ' due no later than February 20th.'
+  expected_count: 4
+  input: '"TEXT","F3XA","","Pursuant to 11 C.F.R. Section 104.5(c), Integrated Electrical
+    Services National PAC is changing its filing frequency from quarterly filing to
+    monthly filing.  The next report to be filed in accordance with the new filing
+    frequency will be the January monthly report, due no later than February 20th."'
+  input_count: 6
+  record: <fec.version.v3.TEXT.Records instance at 0xe66dd0>
+  result: []
+sourceurl: !!python/unicode '20020530'

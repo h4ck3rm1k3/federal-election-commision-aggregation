@@ -585,4 +585,157 @@ rows:
   - name: CITY
     number: '7'
     value: ''
-  - name: S
+  - name: STATE
+    number: '8'
+    value: Arlington
+  - name: ZIP
+    number: '9'
+    value: VA
+  - name: INDEMP
+    number: '10'
+    value: '22209'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20020529'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00370767
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H8NJ05052
+  - name: CAN/OFFICE
+    number: '17'
+    value: GARRETT^E SCOTT^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: NJ
+  - name: CONDUIT NAME
+    number: '20'
+    value: '05'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.8947
+  expected_count: 27
+  input: F65,C00370767,IND,Petroleum Marketers Association^^^,"1901 N. Fort Myer Dr.,
+    Suite 1200",,Arlington,VA,22209,,,20020529,2000.00,C00370767,H8NJ05052,GARRETT^E
+    SCOTT^^,H,NJ,05,,,,,,,,F6.8947
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x1460e18>
+  result: []
+- input: F65,C00370767,PAC,Republican Natn'l Coalition For Life PAC,PO Box 618,,Alton,IL,62002,Unknown,Unknown,20020528,2000.00,C00370767,H8NJ05052,GARRETT^E
+    SCOTT^^,H,NJ,05,,,,,,,,F6.8940
+  record: <fec.version.v3.F65.Records instance at 0x1460fc8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00370767
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Republican Natn'l Coalition For Life PAC
+  - name: STREET 1
+    number: '5'
+    value: PO Box 618
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Alton
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '62002'
+  - name: INDEMP
+    number: '10'
+    value: Unknown
+  - name: INDOCC
+    number: '11'
+    value: Unknown
+  - name: Of Contribution
+    number: 12-
+    value: '20020528'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00370767
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8NJ05052
+  - name: CANDIDATE NAME
+    number: '16'
+    value: GARRETT^E SCOTT^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: NJ
+  - name: CAN/DIST
+    number: '19'
+    value: '05'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.8940
+sourceurl: !!python/unicode '20020530'

@@ -118343,4 +118343,111 @@ rows:
     value: SI043001A5-1044
   - name: 'Account Number for Account named in Field #4'
     number: '31'
-    value: C60
+    value: C60001914
+  - value: ''
+  expected_count: 31
+  input: 'SI,C00075820,,NON-FEDERAL #2,20010401,20010430,.00,.00,.00,.00,.00,.00,42000.00,.00,42000.00,.00,42000.00,63150.00,.00,20000.00,.00,1150.00,21150.00,.00,63150.00,63150.00,21150.00,42000.00,,SI043001A5-1044,C60001914,'
+  input_count: 32
+  record: <fec.version.v3.SI.Records instance at 0x18c9998>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SI
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00075820
+  - name: Bank Account ID Number
+    number: '3'
+    value: ''
+  - name: NAME (Of Account)
+    number: '4'
+    value: NON-FEDERAL Building Fund
+  - name: Coverage From
+    number: 5-
+    value: '20010401'
+  - name: Coverage To
+    number: 6-
+    value: '20010430'
+  - name: Total Receipts
+    number: 7-1.
+    value: '.00'
+  - name: Transfers to FED or allocation
+    number: 8-2.
+    value: '.00'
+  - name: Transfers to state/local Party organizations
+    number: 9-3.
+    value: '.00'
+  - name: Direct state/local candidate support
+    number: 10-4.
+    value: '.00'
+  - name: Other Disbursements
+    number: 11-5.
+    value: '.00'
+  - name: Total Disbursements
+    number: 12-6.
+    value: '.00'
+  - name: Beginning COH
+    number: 13-7.
+    value: '.00'
+  - name: Receipts
+    number: 15-8.
+    value: '.00'
+  - name: Subtotal
+    number: 15-9.
+    value: '.00'
+  - name: Disbursements
+    number: 16-10.
+    value: '.00'
+  - name: Ending COH
+    number: 17-11.
+    value: '.00'
+  - name: Total receipts
+    number: 18-1.
+    value: '100868.84'
+  - name: Transfers to FED or allocation
+    number: 19-2.
+    value: '.00'
+  - name: Transfers to state/local Party organizations
+    number: 20-3.
+    value: '.00'
+  - name: Direct state/local candidate support
+    number: 21-4.
+    value: '.00'
+  - name: Other Disbursements
+    number: 22-5.
+    value: '100868.84'
+  - name: Total Disbursements
+    number: 23-6.
+    value: '100868.84'
+  - name: Beginning COH (as of Jan 1)
+    number: 24-7.
+    value: '.00'
+  - name: Receipts
+    number: 25-8.
+    value: '100868.84'
+  - name: Subtotal
+    number: 26-9.
+    value: '100868.84'
+  - name: Disbursements
+    number: 27-10.
+    value: '100868.84'
+  - name: Ending COH
+    number: 28-11.
+    value: '.00'
+  - name: AMENDED CD
+    number: '29'
+    value: ''
+  - name: TRAN ID
+    number: '30'
+    value: SI043001A5-1045
+  - name: 'Account Number for Account named in Field #4'
+    number: '31'
+    value: C60001906
+  - value: ''
+  expected_count: 31
+  input: SI,C00075820,,NON-FEDERAL Building Fund,20010401,20010430,.00,.00,.00,.00,.00,.00,.00,.00,.00,.00,.00,100868.84,.00,.00,.00,100868.84,100868.84,.00,100868.84,100868.84,100868.84,.00,,SI043001A5-1045,C60001906,
+  input_count: 32
+  record: <fec.version.v3.SI.Records instance at 0x18c9b00>
+  result: []
+sourceurl: !!python/unicode '20020529'

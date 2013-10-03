@@ -64315,4 +64315,46 @@ rows:
     number: '27'
     value: ''
   - name: MEMO CODE
-    nu
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: A
+  - name: TRAN ID
+    number: '31'
+    value: '5364309'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: This amendment is made with regard to the May 9
+  - value: ' 2002 FEC letter.  A software ''mapping'' error precluded the occupations
+      of some contributors from being filed.  The situation has been remedied manually.'
+  expected_count: 4
+  input: '"TEXT","F3XA","","This amendment is made with regard to the May 9, 2002
+    FEC letter.  A software ''mapping'' error precluded the occupations of some contributors
+    from being filed.  The situation has been remedied manually."'
+  input_count: 5
+  record: <fec.version.v3.TEXT.Records instance at 0x59d7b128>
+  result: []
+sourceurl: !!python/unicode '20020528'

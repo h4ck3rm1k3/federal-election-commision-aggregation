@@ -63975,4 +63975,131 @@ rows:
   - value: ''
   - value: ''
   expected_count: 38
-  input: H4,C0025
+  input: H4,C00251835,ORG,"Young, Jason","1705 DeSales St., NW, 5th Fl.",,Washington,DC,20036,Salary,20020515,1500.05,375.01,1125.04,X,,,,365856.23,Salary,C00251835,,,,,,,,,,,,,H4.5306,,,,
+  input_count: 41
+  record: <fec.version.v3.SH4.Records instance at 0x18c58c0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00251835
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Cooper
+  - name: STREET 1
+    number: '5'
+    value: ' Paul'
+  - name: STREET 2
+    number: '6'
+    value: 323 9th Street
+  - name: CITY
+    number: '7'
+    value: ' NE'
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: PURPOSE/EVENT
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20002'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: Management Consulting
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '20020517'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '1050.00'
+  - name: Activity Is Admin./Voter Drive
+    number: 15-
+    value: '262.50'
+  - name: Activity Is Fundrainsig
+    number: 16-
+    value: '787.50'
+  - name: Activity Is Exempt
+    number: 17-
+    value: X
+  - name: Act. Direct Can Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: ''
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: '377619.84'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: Management Consulting
+  - name: CANDIDATE NAME
+    number: '23'
+    value: C00251835
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: ''
+  - name: MEMO CODE
+    number: '35'
+    value: ''
+  - name: MEMO TEXT
+    number: '36'
+    value: H4.5350
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 38
+  input: H4,C00251835,ORG,"Cooper, Paul","323 9th Street, NE",,Washington,DC,20002,Management
+    Consulting,20020517,1050.00,262.50,787.50,X,,,,377619.84,Management Consulting,C00251835,,,,,,,,,,,,,H4.5350,,,,
+  input_count: 40
+  record: <fec.version.v3.SH4.Records instance at 0x18c5908>
+  result: []
+sourceurl: !!python/unicode '20020530'

@@ -7757,3 +7757,135 @@ rows:
     value: SB23
   - name: FILER FEC CMTE ID
     number: '2'
+    value: C00253153
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Tinsley for Congress
+  - name: STREET 1
+    number: '5'
+    value: 2235 B Main Street
+  - name: STREET 2
+    number: '6'
+    value: ' SE'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Los Lunas
+  - name: ZIP
+    number: '9'
+    value: NM
+  - name: TRANS CODE
+    number: '10'
+    value: '87031'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: '011'
+  - name: ITEM ELECT CD
+    number: '12'
+    value: YTD:$2
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: '000.00'
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: P2002
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '20020228'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: '2000.00'
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: Tinsley^Ed^^
+  - name: CAN/DIST
+    number: '21'
+    value: H
+  - name: CONDUIT NAME
+    number: '22'
+    value: NM
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: '0'
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: A
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: '5804709'
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00253153","CAN","Tinsley for Congress","2235 B Main Street, SE","","Los
+    Lunas","NM","87031","011","YTD:$2,000.00","P2002","",20020228,2000.00,"","","Tinsley^Ed^^","H","NM","0","","","","","","","","","A","5804709","","",""'
+  input_count: 36
+  record: <fec.version.v3.SB.Records instance at 0x42b0ea28>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: This amendment is filed with regard to the May 9
+  - value: ' 2002 FEC letter.  A software ''mapping'' error precluded some of the
+      occupations of contributors from being filed.  The software mapped them to ''title''
+      rather than ''occupation.''  The error has been remedied manually.  This amendment
+      also addresses an accounting issue with regard to line 8.'
+  expected_count: 4
+  input: '"TEXT","F3XA","","This amendment is filed with regard to the May 9, 2002
+    FEC letter.  A software ''mapping'' error precluded some of the occupations of
+    contributors from being filed.  The software mapped them to ''title'' rather than
+    ''occupation.''  The error has been remedied manually.  This amendment also addresses
+    an accounting issue with regard to line 8."'
+  input_count: 5
+  record: <fec.version.v3.TEXT.Records instance at 0x42b0ebd8>
+  result: []
+sourceurl: !!python/unicode '20020528'

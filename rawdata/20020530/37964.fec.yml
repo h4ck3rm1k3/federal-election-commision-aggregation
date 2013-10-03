@@ -196,4 +196,32 @@ rows:
   input: F1A,C00366070,"FAA Conference Managers Association, Inc. PAC",551 QUAIL RUN,,GREENWOOD,IN,461421198,20020222,X,,E,,,,,,,NAT,,"FAA
     Conference Managers Association, Inc.",551 Quail Run,,Greenwood,IN,461421198,,M,Dury^Thomas
     G^Mr.^,551 Quail Run,,Greenwood,IN,461421198,Treasurer,3174142510,Dury^Thomas
-    G^Mr
+    G^Mr.^,551 Quail Run,,Greenwood,IN,461421198,Treasurer,3174142510,,,,,,,,,Family
+    Horizons Credit Union,6665 East 21st Street,,Indianapolis,IN,46219,Dury^Thomas
+    G^Mr.^,20020530,TDury@faaconference.org,www.faaconference.org
+  input_count: 64
+  record: <fec.version.v3.F1.Records instance at 0xe66ea8>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F1A
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: Organization incorporated as FAA Conference Managers Association
+  - value: ' Inc. on 4/11/02 within the state of Deleware.  Applied and recieved a
+      new EIN from IRS bearing this name 4/15/02.  '
+  expected_count: 4
+  input: TEXT,F1A,,"Organization incorporated as FAA Conference Managers Association,
+    Inc. on 4/11/02 within the state of Deleware.  Applied and recieved a new EIN
+    from IRS bearing this name 4/15/02.  "
+  input_count: 5
+  record: <fec.version.v3.TEXT.Records instance at 0xe66710>
+  result: []
+sourceurl: !!python/unicode '20020530'

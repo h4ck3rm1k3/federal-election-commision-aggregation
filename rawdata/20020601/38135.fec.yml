@@ -93069,4 +93069,23 @@ rows:
   - name: AMENDED CD
     number: '30'
     value: ''
-  - name
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: B23391
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB23","C00169201","CCM","Zoe Lofgren for Congress","701 Miller Street,
+    Suite 216",,"San Jose","CA","95110","011","Political Contribution","P2002",,"20011217",5000.00,"C00289603",,"Zoe^Lofgren","H","CA","16
+    ",,,,,,,,,,"B23391"'
+  input_count: 32
+  record: <fec.version.v3.SB.Records instance at 0x2212248>
+  result: []
+sourceurl: !!python/unicode '20020601'

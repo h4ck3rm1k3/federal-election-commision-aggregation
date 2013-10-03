@@ -13484,4 +13484,34 @@ rows:
   - name: CONDUIT STATE
     number: '26'
     value: ''
-  - name: CONDUIT Z
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: 0522200226E82
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB19b","C00371153","IND","Cardinale^Gerald","PERSONAL FUNDS","2361 Lemoine
+    Avenue ","Fort Lee","NJ","07024    ","","Repay Loan Made/Guar. by Cand Loan Repay","P    ","",20020411,200000.00,"","","","","","","","","","","","",,"","","0522200226E82"'
+  input_count: 31
+  record: <fec.version.v3.SB.Records instance at 0x1047488>
+  result: []
+sourceurl: !!python/unicode '20020523'

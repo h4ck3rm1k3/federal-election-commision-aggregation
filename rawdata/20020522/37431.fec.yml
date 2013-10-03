@@ -10873,4 +10873,91 @@ rows:
     number: '16'
     value: C00289983
   - name: FEC CANDIDATE ID NUMBER
-    numbe
+    number: '17'
+    value: H4KY01040
+  - name: CANDIDATE NAME
+    number: '18'
+    value: Edward^Whitfield
+  - name: CAN/OFFICE
+    number: '19'
+    value: H
+  - name: CAN/STATE
+    number: '20'
+    value: KY
+  - name: CAN/DIST
+    number: '21'
+    value: '01'
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: 011802-11
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: SB23,C00217638,"CCM","Whitfield For Congress Committee","PO Box 391","","Hopkinsville","KY","42241","","2002
+    Primary","P2002","","20011009",1000,"C00289983","H4KY01040","Edward^Whitfield","H","KY","01","","","","","","","","","","011802-11","",""
+  input_count: 33
+  record: <fec.version.v3.SB.Records instance at 0x2dfcc20>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: This amendment is filed in response to the May 8
+  - value: ' 2002 letter received from the FEC.  Provided in this amendment is contributor
+      occupation and employer information that was omitted from the original report.  With
+      respect to the issue of the PAC''s cash balances'
+  - value: ' the amendment to the PAC''s 2001 Mid-Year Report adjusts the balances
+      on that report and the balances reflected in this amended report are correct.'
+  expected_count: 4
+  input: TEXT,F3XA,,"This amendment is filed in response to the May 8, 2002 letter
+    received from the FEC.  Provided in this amendment is contributor occupation and
+    employer information that was omitted from the original report.  With respect
+    to the issue of the PAC's cash balances, the amendment to the PAC's 2001 Mid-Year
+    Report adjusts the balances on that report and the balances reflected in this
+    amended report are correct."
+  input_count: 6
+  record: <fec.version.v3.TEXT.Records instance at 0x2dfcf80>
+  result: []
+sourceurl: !!python/unicode '20020522'

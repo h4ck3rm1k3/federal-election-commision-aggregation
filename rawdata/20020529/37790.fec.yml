@@ -38093,4 +38093,155 @@ rows:
   - name: CONDUIT CITY
     number: '30'
     value: ''
-  - name: C
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: A
+  - name: TRAN ID
+    number: '34'
+    value: H41217200146E9862
+  - name: MEMO CODE
+    number: '35'
+    value: ''
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: NO VALUE!
+  expected_count: 38
+  input: '"H4","C00001313","IND","Brill^Dustin","2035 Bush Ave","","Saint Paul","MN","55119    ","Salary
+    ADMINISTRATION L 0112121111",20011130,61.30,13.62,47.68,"X","","","",2614579.16,"","","","","","","","","","","","",,"A","H41217200146E9862","","",""'
+  input_count: 37
+  record: <fec.version.v3.SH4.Records instance at 0x357e43b0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00001313
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Hanson^Jason
+  - name: STREET 1
+    number: '5'
+    value: '1077 Vandyke #205'
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Saint Paul
+  - name: STATE
+    number: '8'
+    value: MN
+  - name: ZIP
+    number: '9'
+    value: '55119    '
+  - name: PURPOSE/EVENT
+    number: '10'
+    value: Salary ADMINISTRATION L 0112121111
+  - name: DATE
+    number: '11'
+    value: '20011130'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '105.24'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '23.38'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '81.86'
+  - name: Activity Is Admin./Voter Drive
+    number: 15-
+    value: X
+  - name: Activity Is Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity Is Exempt
+    number: 17-
+    value: ''
+  - name: Act. Direct Can Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '2614684.40'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: A
+  - name: TRAN ID
+    number: '34'
+    value: H41217200146E9863
+  - name: MEMO CODE
+    number: '35'
+    value: ''
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: NO VALUE!
+  expected_count: 38
+  input: '"H4","C00001313","IND","Hanson^Jason","1077 Vandyke #205","","Saint Paul","MN","55119    ","Salary
+    ADMINISTRATION L 0112121111",20011130,105.24,23.38,81.86,"X","","","",2614684.40,"","","","","","","","","","","","",,"A","H41217200146E9863","","",""'
+  input_count: 37
+  record: <fec.version.v3.SH4.Records instance at 0x357e4710>
+  result: []
+sourceurl: !!python/unicode '20020529'

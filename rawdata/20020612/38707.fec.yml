@@ -6000,4 +6000,47 @@ rows:
   - name: CONDUIT STREET 1
     number: '22'
     value: ''
-  - 
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: ''
+  - value: ''
+  - value: SD9.283
+  expected_count: 28
+  input: SD9,C00060707,ORG,Merrill Lynch /Acct 749-04B18,"1850 K Street, NW, 7th Floor",,Washington,DC,20006,Outstanding
+    Balance,23203.60,-154.17,0.00,23049.43,C00060707,,,,,,,,,,,,,SD9.283
+  input_count: 30
+  record: <fec.version.v3.SD.Records instance at 0x14608c0>
+  result: []
+- input: TEXT,SD9,SD9.283,-$154.17=$82.83(Dividends)+$63.00(Unrealized Appreciation)-$300.00(Annual
+    Fee)
+  record: <fec.version.v3.TEXT.Records instance at 0x1460a28>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SD9
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: SD9.283
+  - name: TEXT4000
+    number: '4'
+    value: -$154.17=$82.83(Dividends)+$63.00(Unrealized Appreciation)-$300.00(Annual
+      Fee)
+sourceurl: !!python/unicode '20020612'

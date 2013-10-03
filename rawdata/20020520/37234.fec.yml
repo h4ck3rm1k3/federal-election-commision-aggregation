@@ -2939,4 +2939,124 @@ rows:
     value: ''
   - value: ''
   - value: ''
-  expected_count:
+  expected_count: 34
+  input: '"SB23","C00239848","","People for Pete Domenici","PO Box 93656","","Albuquerque","NM","87199    ","","Pete
+    Domenici, Senate Candidate (NM","P    ","",20020411,1473.43,"C00239848","","","","",,"","","","","","","","Pete
+    Domenici, Senate Candidate (NM","","0419200249E317","","",""'
+  input_count: 36
+  record: <fec.version.v3.SB.Records instance at 0x42af1518>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00239848
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Ted Strickland For Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 580
+  - name: STREET 2
+    number: '6'
+    value: '1337 Thomas Hollow Road '
+  - name: CITY
+    number: '7'
+    value: Lucasville
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '45648    '
+  - name: TRANS CODE
+    number: '10'
+    value: ''
+  - name: TRANS DESCRIP
+    number: '11'
+    value: Strickland
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' House Cand (OH-6)'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: 'P    '
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20020430'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '500.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: C00239848
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: ''
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: Strickland
+  - name: TRAN ID
+    number: '31'
+    value: ' House Cand (OH-6)'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: 0520200224E321
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00239848","CAN","Ted Strickland For Congress","PO Box 580","1337
+    Thomas Hollow Road ","Lucasville","OH","45648    ","","Strickland, House Cand
+    (OH-6)","P    ","",20020430,500.00,"C00239848","","","","",,"","","","","","","","Strickland,
+    House Cand (OH-6)","","0520200224E321","","",""'
+  input_count: 36
+  record: <fec.version.v3.SB.Records instance at 0x42af12d8>
+  result: []
+sourceurl: !!python/unicode '20020520'

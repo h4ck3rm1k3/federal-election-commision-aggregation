@@ -30495,4 +30495,82 @@ rows:
     number: '10'
     value: 24K
   - name: TRANS DESCRIP
-    number:
+    number: '11'
+    value: In-kind
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' received'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: P
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: Primary
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20000412'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '44.14'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: P
+  - name: CAN/DIST
+    number: '21'
+    value: DC
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: In-kind
+  - name: TRAN ID
+    number: '31'
+    value: ' received'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: C
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: D612
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB29","C00355222","IND","Howard Hawkins","P.O. Box 562","","Syracuse","NY","13205","24K","In-kind,
+    received","P","Primary","20000412","44.14","","","","P","DC","","","","","","","","","In-kind,
+    received","C","D612"'
+  input_count: 33
+  record: <fec.version.v3.SB.Records instance at 0x1ad60518>
+  result: []
+sourceurl: !!python/unicode '20020523'

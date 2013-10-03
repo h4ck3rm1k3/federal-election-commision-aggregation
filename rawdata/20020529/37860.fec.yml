@@ -966,4 +966,31 @@ rows:
   - name: CONDUIT ZIP
     number: '30'
     value: ''
-  - name:
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: 0529200252C1928338
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: '"SA11A1","C00313684","IND","Sun^Shaohua","144 John Street","","Princeton","NJ","08540    ","P2002","","Sunrise
+    Investment","Secretary",1000.00,20020528,1000.00,"15","Receipt","","","","","","","","","","","",,"","","","0529200252C1928338"'
+  input_count: 34
+  record: <fec.version.v3.SA.Records instance at 0x18978c0>
+  result: []
+sourceurl: !!python/unicode '20020529'

@@ -24786,3 +24786,145 @@ rows:
     number: '34'
     value: ''
   - name: MEMO CODE
+    number: '35'
+    value: D3424H4
+  - name: MEMO TEXT
+    number: '36'
+    value: X
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: D3427H4
+  - value: H4
+  expected_count: 38
+  input: H4,"C00342980","PTY","Northwest Airlines, Inc.","5101 Northwest Drive","","Saint
+    Paul","MN","551113034","Membership Dues",20020320,"655","425.75","229.25","X",,,,"158435.28","Membership
+    Dues","","","","","","","","","","","","","","D3424H4","X","","D3427H4","H4"
+  input_count: 39
+  record: <fec.version.v3.SH4.Records instance at 0x2e74e60>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00342980
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Staples
+  - name: STREET 1
+    number: '5'
+    value: 1250 H Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: PURPOSE/EVENT
+    number: '10'
+    value: '20005'
+  - name: DATE
+    number: '11'
+    value: Office Supplies
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '20020320'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '385.62'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '250.65'
+  - name: Activity Is Admin./Voter Drive
+    number: 15-
+    value: '134.97'
+  - name: Activity Is Fundrainsig
+    number: 16-
+    value: X
+  - name: Activity Is Exempt
+    number: 17-
+    value: ''
+  - name: Act. Direct Can Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: ''
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: '158435.28'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: Office Supplies
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: ''
+  - name: MEMO CODE
+    number: '35'
+    value: D3423H4
+  - name: MEMO TEXT
+    number: '36'
+    value: X
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: D3427H4
+  - value: H4
+  expected_count: 38
+  input: H4,"C00342980","ORG","Staples","1250 H Street, NW","","Washington","DC","20005","Office
+    Supplies",20020320,"385.62","250.65","134.97","X",,,,"158435.28","Office Supplies","","","","","","","","","","","","","","D3423H4","X","","D3427H4","H4"
+  input_count: 39
+  record: <fec.version.v3.SH4.Records instance at 0x2e74368>
+  result: []
+sourceurl: !!python/unicode '20020609'

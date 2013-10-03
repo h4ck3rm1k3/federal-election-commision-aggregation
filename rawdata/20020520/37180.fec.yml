@@ -882,4 +882,200 @@ rows:
     value: ''
 - input: SB23,C00219568,CAN,Hilda Solis for Congress^^^,Post Office Box 4100,,El Monte,CA,91734,,Political
     Contribution,G2002,,20020412,5000.00,,C00346296,Solis^Hilda^^,H,CA,31,,,,,,,,,,SB23.4430,,,
-  record: <fec.version.v3.SB.Records instance at 0x104717
+  record: <fec.version.v3.SB.Records instance at 0x1047170>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00219568
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Hilda Solis for Congress^^^
+  - name: STREET 1
+    number: '5'
+    value: Post Office Box 4100
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: El Monte
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '91734'
+  - name: TRANS CODE
+    number: '10'
+    value: ''
+  - name: TRANS DESCRIP
+    number: '11'
+    value: Political Contribution
+  - name: ITEM ELECT CD
+    number: '12'
+    value: G2002
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ''
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20020412'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '5000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: C00346296
+  - name: CANDIDATE NAME
+    number: '18'
+    value: Solis^Hilda^^
+  - name: CAN/OFFICE
+    number: '19'
+    value: H
+  - name: CAN/STATE
+    number: '20'
+    value: CA
+  - name: CAN/DIST
+    number: '21'
+    value: '31'
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: SB23.4430
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00219568
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: I.U.O.E.
+  - name: STREET 1
+    number: '5'
+    value: ' Local 12^^^'
+  - name: STREET 2
+    number: '6'
+    value: 150 East Corson Street
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Pasadena
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: '91103'
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: Balance Forward
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '33572.18'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '0.00'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '0.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: '33572.18'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: C00219568
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: ''
+  - value: SD10.4122
+  expected_count: 28
+  input: SD10,C00219568,IND,"I.U.O.E., Local 12^^^",150 East Corson Street,,Pasadena,CA,91103,Balance
+    Forward,33572.18,0.00,0.00,33572.18,C00219568,,,,,,,,,,,,,SD10.4122
+  input_count: 29
+  record: <fec.version.v3.SD.Records instance at 0x10473b0>
+  result: []
+sourceurl: !!python/unicode '20020520'

@@ -3132,4 +3132,27 @@ rows:
   - name: AMENDED CD
     number: '30'
     value: ''
-  - name: TR
+  - name: TRAN ID
+    number: '31'
+    value: Albert Wynn
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ' House candidate'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ' MD-4'
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: A
+  - value: 0411200152E219
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00239848","","Wynn For Congress","PO Box 5323","","Capital Heights","MD","20791    ","","Albert
+    Wynn, House candidate, MD-4","P2002","",20010315,1000.00,"C00239848","","","","",,"","","","","","","","Albert
+    Wynn, House candidate, MD-4","A","0411200152E219","","",""'
+  input_count: 38
+  record: <fec.version.v3.SB.Records instance at 0x103ff80>
+  result: []
+sourceurl: !!python/unicode '20020611'

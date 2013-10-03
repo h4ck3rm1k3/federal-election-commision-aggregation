@@ -1263,4 +1263,119 @@ rows:
     value: CAN
   - name: RECIPIENT NAME
     number: '4'
-    value: Keller For Congre
+    value: Keller For Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 1453
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Orlando
+  - name: STATE
+    number: '8'
+    value: FL
+  - name: ZIP
+    number: '9'
+    value: '32802'
+  - name: TRANS CODE
+    number: '10'
+    value: '011'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: YTD:$3
+  - name: ITEM ELECT CD
+    number: '12'
+    value: '500.00'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: O2002
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: 2002 US General
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20020422'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '1500.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: C00345090
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: Keller^Richard^Rep.^
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: FL
+  - name: CONDUIT NAME
+    number: '22'
+    value: '8'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: A
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '6432407'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00366211","CAN","Keller For Congress","PO Box 1453","","Orlando","FL","32802","011","YTD:$3,500.00","O2002","2002
+    US General",20020422,1500.00,"C00345090","","Keller^Richard^Rep.^","H","FL","8","","","","","","","","","A","6432407","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x1043b00>
+  result: []
+- input: '"TEXT","F3XA","","Amended to show adjustment of Robinson disbursement March
+    and addition of Murtha disbursement for April"'
+  record: <fec.version.v3.TEXT.Records instance at 0x1043758>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3XA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: Amended to show adjustment of Robinson disbursement March and addition
+      of Murtha disbursement for April
+sourceurl: !!python/unicode '20020611'

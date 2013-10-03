@@ -29674,4 +29674,28 @@ rows:
   - name: MEMO CODE
     number: '28'
     value: ''
-  - 
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: 052320028E2812
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB21","C00313494","PTY","Craig Stanley for Mayor","P.O. Box 2406","","Newark","NJ","07112    ","","Contribution
+    - Mayor Irvington, NJ","P2002","",20020422,500.00,"C00313494","","","","",,"","","","","","","","","","052320028E2812"'
+  input_count: 32
+  record: <fec.version.v3.SB.Records instance at 0x31aa8c0>
+  result: []
+sourceurl: !!python/unicode '20020523'

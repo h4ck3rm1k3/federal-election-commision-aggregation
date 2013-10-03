@@ -2559,4 +2559,141 @@ rows:
   - name: AMENDED CD
     number: '30'
     value: ''
-  - name: T
+  - name: TRAN ID
+    number: '31'
+    value: Lindsey Graham
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ' Senate cand.'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ' SC'
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: A
+  - value: 0509200116E229
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00239848","CAN","Lindsey Graham for US Senate","P.O. Box 1155","","Seneca","SC","29679    ","","Lindsey
+    Graham, Senate cand., SC","P2002","",20010425,1000.00,"C00239848","","","","",,"","","","","","","","Lindsey
+    Graham, Senate cand., SC","A","0509200116E229","","",""'
+  input_count: 38
+  record: <fec.version.v3.SB.Records instance at 0x4258e908>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00239848
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Taverna The Greek Islands
+  - name: STREET 1
+    number: '5'
+    value: 307 Pennsylvania Avenue SE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20003    '
+  - name: TRANS CODE
+    number: '10'
+    value: ''
+  - name: TRANS DESCRIP
+    number: '11'
+    value: Joe Barton
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' House candidate'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ' TX-6'
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: P2002
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '20010405'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: '1041.11'
+  - name: CANDIDATE NAME
+    number: '18'
+    value: C00239848
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: ''
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: 'IN KIND: Joe Barton'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ' House candidate'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ' TX-6'
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: A
+  - value: 0411200153E228
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00239848","","Taverna The Greek Islands","307 Pennsylvania Avenue
+    SE","","Washington","DC","20003    ","","Joe Barton, House candidate, TX-6","P2002","",20010405,1041.11,"C00239848","","","","",,"","","","","","","","IN
+    KIND: Joe Barton, House candidate, TX-6","A","0411200153E228","","",""'
+  input_count: 38
+  record: <fec.version.v3.SB.Records instance at 0x4258e5a8>
+  result: []
+sourceurl: !!python/unicode '20020611'

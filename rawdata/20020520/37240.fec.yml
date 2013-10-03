@@ -715,4 +715,20 @@ rows:
     value: ''
   - name: MEMO TEXT
     number: '36'
-    value:
+    value: H4-22
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 38
+  input: H4,C00220558,ORG,"Olson Hagel Waters & Fishburn, LLP","555 Capitol Mall,
+    Suite 1425",,Sacramento,CA,95814,,20020416,220.90,11.05,209.85,X,,,,3776.70,legal
+    & reporting services,,,,,,,,,,,,,,H4-22,,,,
+  input_count: 40
+  record: <fec.version.v3.SH4.Records instance at 0x1b9a5a8>
+  result: []
+sourceurl: !!python/unicode '20020520'

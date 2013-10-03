@@ -6734,4 +6734,131 @@ rows:
     value: ''
   - value: ''
   - value: ''
-  expected_count:
+  expected_count: 38
+  input: '"H4","C00005173","IND","Burks^Amy","2831 Summerwind Dr. SE","","Decatur","AL","35603    ","trvl,
+    hotel,telp,meals ADMINISTRATION ",20020605,1101.83,244.85,856.98,"X","","","",336246.84,"","","","","","","","","","","","",,"","H40605200253E9071","","",""'
+  input_count: 40
+  record: <fec.version.v3.SH4.Records instance at 0x1043c20>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: H4
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00005173
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: OConnor^Jean
+  - name: STREET 1
+    number: '5'
+    value: 608 Hartford Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Tuscaloosa
+  - name: STATE
+    number: '8'
+    value: AL
+  - name: ZIP
+    number: '9'
+    value: '35406    '
+  - name: PURPOSE/EVENT
+    number: '10'
+    value: volunteer coordinator ADMINISTRATION L
+  - name: DATE
+    number: '11'
+    value: '20020605'
+  - name: TOTAL AMOUNT
+    number: '12'
+    value: '2000.00'
+  - name: FEDERAL SHARE
+    number: '13'
+    value: '444.44'
+  - name: NON FEDERAL SHARE
+    number: '14'
+    value: '1555.56'
+  - name: Activity Is Admin./Voter Drive
+    number: 15-
+    value: X
+  - name: Activity Is Fundrainsig
+    number: 16-
+    value: ''
+  - name: Activity Is Exempt
+    number: 17-
+    value: ''
+  - name: Act. Direct Can Support
+    number: 18-
+    value: ''
+  - name: EVENT YEAR-TO-DATE
+    number: '19'
+    value: '338246.84'
+  - name: ADDITIONAL DESCRIPTION
+    number: '20'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '21'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '22'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '23'
+    value: ''
+  - name: CAN/OFFICE
+    number: '24'
+    value: ''
+  - name: CAN/STATE
+    number: '25'
+    value: ''
+  - name: CAN/DIST
+    number: '26'
+    value: ''
+  - name: CONDUIT NAME
+    number: '27'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '28'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '29'
+    value: ''
+  - name: CONDUIT CITY
+    number: '30'
+    value: ''
+  - name: CONDUIT STATE
+    number: '31'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: H40605200253E9070
+  - name: MEMO CODE
+    number: '35'
+    value: ''
+  - name: MEMO TEXT
+    number: '36'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '37'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '38'
+    value: NO VALUE!
+  expected_count: 38
+  input: '"H4","C00005173","IND","OConnor^Jean","608 Hartford Drive","","Tuscaloosa","AL","35406    ","volunteer
+    coordinator ADMINISTRATION L",20020605,2000.00,444.44,1555.56,"X","","","",338246.84,"","","","","","","","","","","","",,"","H40605200253E9070","","",""'
+  input_count: 37
+  record: <fec.version.v3.SH4.Records instance at 0x1043ef0>
+  result: []
+sourceurl: !!python/unicode '20020611'

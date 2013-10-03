@@ -16274,4 +16274,90 @@ rows:
     number: '34'
     value: NO VALUE!
   expected_count: 34
-  input: '"SB21","C00260547","","Unity Hospice","2145 Highland Avenue","","Birmingham",
+  input: '"SB21","C00260547","","Unity Hospice","2145 Highland Avenue","","Birmingham","AL","35205    ","","Other
+    Disbursement memorial donation","P    ","",20020403,100.00,"C00260547","","","","",,"","","","","","","","","","051420023E3461"'
+  input_count: 31
+  record: <fec.version.v3.SB.Records instance at 0x58b07518>
+  result: []
+- input: '"SC/9","C00260547","PAC","America 21","Post Office Box 59125","","Homewood","AL","35259    ","P    ","",25000.00,25000.00,0.00,20011114,"",".0000","N","","","","","",,"","LS0128200259E3186"'
+  record: <fec.version.v3.SC.Records instance at 0x58b077e8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SC/9
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00260547
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Loan Source)
+    number: '4'
+    value: America 21
+  - name: STREET 1
+    number: '5'
+    value: Post Office Box 59125
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Homewood
+  - name: STATE
+    number: '8'
+    value: AL
+  - name: ZIP
+    number: '9'
+    value: '35259    '
+  - name: ELECTION
+    number: '10'
+    value: 'P    '
+  - name: ELECTION DESCRIPTION
+    number: '11'
+    value: ''
+  - name: ORIG. AMT OF LOAN
+    number: '12'
+    value: '25000.00'
+  - name: PAYMENT TO DATE
+    number: '13'
+    value: '25000.00'
+  - name: LOAN BALANCE
+    number: '14'
+    value: '0.00'
+  - name: Incurred
+    number: 15-
+    value: '20011114'
+  - name: DUE DATE TERMS
+    number: '16'
+    value: ''
+  - name: PCT RATE TERMS
+    number: '17'
+    value: '.0000'
+  - name: SECURED YESNO
+    number: '18'
+    value: N
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: AMENDED CD
+    number: '25'
+    value: ''
+  - name: TRAN ID
+    number: '26'
+    value: LS0128200259E3186
+sourceurl: !!python/unicode '20020523'

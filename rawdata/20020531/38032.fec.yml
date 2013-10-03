@@ -2693,4 +2693,67 @@ rows:
     number: '26'
     value: ''
   - name: CONDUIT ZIP
-    number: 
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: '1123'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: SB21A,C00342519,ORG,Verizon Network Integration Corporation,1717 Arch Street,,Philadelphia,PA,19103,,Telecommunications
+    (Settlement),C2000,,20020325,10000.00,,,,,,,,,,,,,,,,1123,,
+  input_count: 33
+  record: <fec.version.v3.SB.Records instance at 0x10436c8>
+  result: []
+- input: TEXT,SB21A,1122,Pursuant to a settlement of disputed claims Philadelphia
+    2000 will continue to make certain payments to Verizon out of available funds.
+  record: <fec.version.v3.TEXT.Records instance at 0x1043c20>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SB21A
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: '1122'
+  - name: TEXT4000
+    number: '4'
+    value: Pursuant to a settlement of disputed claims Philadelphia 2000 will continue
+      to make certain payments to Verizon out of available funds.
+- input: TEXT,SB21A,1123,Pursuant to a settlement of disputed claims Philadelphia
+    2000 will continue to make certain payments to Verizon out of available funds.
+  record: <fec.version.v3.TEXT.Records instance at 0x10436c8>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SB21A
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: '1123'
+  - name: TEXT4000
+    number: '4'
+    value: Pursuant to a settlement of disputed claims Philadelphia 2000 will continue
+      to make certain payments to Verizon out of available funds.
+sourceurl: !!python/unicode '20020531'

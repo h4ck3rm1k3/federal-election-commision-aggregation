@@ -8671,4 +8671,159 @@ rows:
   - name: CONDUIT NAME
     number: '22'
     value: MO
-  - name: CONDUI
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: '10000000256400030'
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00339291","CAN","Jean Carnahan for Missouri","426 C Street, NE","","Washington","DC","20002","24K","YTD:$1000.00
+    Carnahan , U.S. SENATE MO","P2002","",20020430,1000,"C00364232","","Jean Carnahan","S","MO","","","","","","","","","","","10000000256400030","","",""'
+  input_count: 36
+  record: <fec.version.v3.SB.Records instance at 0x18f9638>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00339291
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Billy Tauzin Congressional Committee
+  - name: STREET 1
+    number: '5'
+    value: 550 South Van
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Houma
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '70361'
+  - name: TRANS CODE
+    number: '10'
+    value: 24K
+  - name: TRANS DESCRIP
+    number: '11'
+    value: YTD:$6500.00 W.J. 'Billy' Tauzin
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' U.S. H'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: G2002
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20020430'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '1000'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: C00119040
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: W.J. 'Billy' Tauzin
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: LA
+  - name: CONDUIT NAME
+    number: '22'
+    value: '3'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: '10000000256500031'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00339291","CAN","Billy Tauzin Congressional Committee","550 South
+    Van","","Houma","LA","70361","24K","YTD:$6500.00 W.J. ''Billy'' Tauzin, U.S. H","G2002","",20020430,1000,"C00119040","","W.J.
+    ''Billy'' Tauzin","H","LA","3","","","","","","","","","","10000000256500031","","",""'
+  input_count: 35
+  record: <fec.version.v3.SB.Records instance at 0x18f9878>
+  result: []
+sourceurl: !!python/unicode '20020520'

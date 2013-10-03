@@ -11952,4 +11952,114 @@ rows:
     value: SD10
   - name: FILER FEC CMTE ID
     number: '2'
-    value
+    value: C00368282
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: Slawsky^Richard^^
+  - name: STREET 1
+    number: '5'
+    value: 372 Orange Center Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Orange
+  - name: STATE
+    number: '8'
+    value: CT
+  - name: ZIP
+    number: '9'
+    value: '06477'
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: This is a disputed debt.
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: '0.00'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '106.69'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '0.00'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '106.69'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: C00368282
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: SD10.5169
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SD10
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: SD10.5169
+  - name: TEXT4000
+    number: '4'
+    value: This is a disputed debt. The former campaign manager upon his termination
+      in January 2002 submitted an expense report for $4
+  - value: '964.08'
+  - value: ' of which $4'
+  - value: 857.39 was reported last reporting period. The Committee admits it owes
+      and did pay $2
+  - value: 456.90 on 4/2/02 to Mr. Slawsky. The Committee does not believe any additional
+      amount is due him. This disclosure of a disputed debt is not an admission of
+      liability or waiver of any claims against the creditor.
+  expected_count: 4
+  input: TEXT,SD10,SD10.5169,"This is a disputed debt. The former campaign manager
+    upon his termination in January 2002 submitted an expense report for $4,964.08,
+    of which $4,857.39 was reported last reporting period. The Committee admits it
+    owes and did pay $2,456.90 on 4/2/02 to Mr. Slawsky. The Committee does not believe
+    any additional amount is due him. This disclosure of a disputed debt is not an
+    admission of liability or waiver of any claims against the creditor."
+  input_count: 8
+  record: <fec.version.v3.TEXT.Records instance at 0xf1fb48>
+  result: []
+sourceurl: !!python/unicode '20020524'

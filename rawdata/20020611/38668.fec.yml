@@ -1439,4 +1439,86 @@ rows:
     number: '10'
     value: ''
   - name: TRANS DESCRIP
-    numbe
+    number: '11'
+    value: John Spratt
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' House candidate'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ' SC-5'
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: O2002
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: General 2000
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '20010112'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: '-920.98'
+  - name: CANDIDATE NAME
+    number: '18'
+    value: C00239848
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: ''
+  - name: CAN/DIST
+    number: '21'
+    value: ''
+  - name: CONDUIT NAME
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: John Spratt
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ' House candidate'
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ' SC-5'
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: A
+  - value: 0117200121E211
+  - value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00239848","","John Spratt For Congress","PO Box 2884","","Washington","DC","20013    ","","John
+    Spratt, House candidate, SC-5","O2002","General 2000",20010112,-920.98,"C00239848","","","","",,"","","","","","","","John
+    Spratt, House candidate, SC-5","A","0117200121E211","","",""'
+  input_count: 38
+  record: <fec.version.v3.SB.Records instance at 0x10422d8>
+  result: []
+sourceurl: !!python/unicode '20020611'

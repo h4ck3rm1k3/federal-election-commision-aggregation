@@ -20806,4 +20806,85 @@ rows:
   - name: TRANS CODE
     number: '10'
     value: '011'
-  -
+  - name: TRANS DESCRIP
+    number: '11'
+    value: Cindy Noe
+  - name: ITEM ELECT CD
+    number: '12'
+    value: ' STATE HOUSE 87th IN'
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: G2002
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: ''
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '20020516'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '250.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: Noe^Cindy^IN Rep.^
+  - name: CAN/STATE
+    number: '20'
+    value: H
+  - name: CAN/DIST
+    number: '21'
+    value: IN
+  - name: CONDUIT NAME
+    number: '22'
+    value: '87'
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: Cindy Noe
+  - name: TRAN ID
+    number: '31'
+    value: ' STATE HOUSE 87th IN'
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: A
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: '6379278'
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB29","C00304964","CAN","Citizens to Elect Cindy Noe","9715 Kincaid Drive-Suite
+    100","","Fishers","IN","46038","011","Cindy Noe, STATE HOUSE 87th IN","G2002","",20020516,250.00,"","","Noe^Cindy^IN
+    Rep.^","H","IN","87","","","","","","","","Cindy Noe, STATE HOUSE 87th IN","A","6379278","","",""'
+  input_count: 36
+  record: <fec.version.v3.SB.Records instance at 0x2bcf7a0>
+  result: []
+sourceurl: !!python/unicode '20020606'

@@ -6819,4 +6819,143 @@ rows:
     value: ''
   - name: MEMO CODE
     number: '28'
-    
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: '10000001570700034'
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00110338","CAN","McCollum For Congress","301 4 Street, NE","","Washington","DC","20002","24K","YTD:$2000.00
+    Betty McCollum, U.S. HOUSE","P2002","",20020528,1000,"C00354688","","Betty McCollum","H","MN","4","","","","","","","","","","10000001570700034","","",""'
+  input_count: 36
+  record: <fec.version.v3.SB.Records instance at 0x1897710>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB23
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00110338
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Wellstone for Senate
+  - name: STREET 1
+    number: '5'
+    value: 503 Capitol Court
+  - name: STREET 2
+    number: '6'
+    value: ' NE'
+  - name: CITY
+    number: '7'
+    value: Suite 100
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS CODE
+    number: '10'
+    value: '20002'
+  - name: TRANS DESCRIP
+    number: '11'
+    value: 24K
+  - name: ITEM ELECT CD
+    number: '12'
+    value: YTD:$5000.00 Paul Wellstone
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ' U.S. SENATE'
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: P2002
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: '20020529'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: '5000'
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ''
+  - name: CAN/OFFICE
+    number: '19'
+    value: ''
+  - name: CAN/STATE
+    number: '20'
+    value: Paul Wellstone
+  - name: CAN/DIST
+    number: '21'
+    value: S
+  - name: CONDUIT NAME
+    number: '22'
+    value: MN
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ''
+  - name: CONDUIT CITY
+    number: '25'
+    value: ''
+  - name: CONDUIT STATE
+    number: '26'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ''
+  - name: MEMO CODE
+    number: '28'
+    value: ''
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ''
+  - name: TRAN ID
+    number: '31'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: '10000001570900035'
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 34
+  input: '"SB23","C00110338","CAN","Wellstone for Senate","503 Capitol Court, NE","Suite
+    100","Washington","DC","20002","24K","YTD:$5000.00 Paul Wellstone, U.S. SENATE","P2002","",20020529,5000,"","","Paul
+    Wellstone","S","MN","","","","","","","","","","","10000001570900035","","",""'
+  input_count: 36
+  record: <fec.version.v3.SB.Records instance at 0x18977e8>
+  result: []
+sourceurl: !!python/unicode '20020612'

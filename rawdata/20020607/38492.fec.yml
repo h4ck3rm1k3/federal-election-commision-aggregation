@@ -195,4 +195,30 @@ rows:
   input: '"F1N","C00366211","FMC Technologies Good Government Program","200 E Randolph
     Drive","","Chicago","IL","60601",20020607,"","","E","","","","",0,"","","","","","","","","","","","^^^","","","","","","",0,"Meyer^Joseph
     J^Mr.^","200 E Randolph Drive","","Chicago","IL","60601","",3128616146,"Mitchell^Jill^^","FMC
-    Technologies Inc","1803 Gears Road","Houston","Te","77067","Supervisor
+    Technologies Inc","1803 Gears Road","Houston","Te","77067","Supervisor, Communic",2815914166,"Northern
+    Trust","50 South LaSalle Street","","Chicago","IL","60675","Meyer^Joseph J^Mr.^",20020607,"joseph.meyer@fmcti.com","www.fmctechnologies.com"'
+  input_count: 63
+  record: <fec.version.v3.F1.Records instance at 0x10429e0>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F1N
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: Amended to show that we are no longer affiliated with FMC Corporation Good
+      Government PRogram as of January 1
+  - value: ' 2002'
+  expected_count: 4
+  input: '"TEXT","F1N","","Amended to show that we are no longer affiliated with FMC
+    Corporation Good Government PRogram as of January 1, 2002"'
+  input_count: 5
+  record: <fec.version.v3.TEXT.Records instance at 0x10421b8>
+  result: []
+sourceurl: !!python/unicode '20020607'

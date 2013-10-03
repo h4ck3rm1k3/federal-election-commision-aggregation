@@ -5808,4 +5808,137 @@ rows:
     value: ' '
   - name: MEMO TEXT
     number: '29'
-    val
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ' '
+  - name: TRAN ID
+    number: '31'
+    value: 392-001594
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB28A","C00342667","IND","Meigs^Henry","2811 Rainbow Drive","","Louisville","KY","40206","
+    ","Contribution Refund - Individu","P2000"," ",20011001,1000.00," "," "," ","
+    "," "," "," "," "," "," "," "," "," ",""," ","392-001594",,'
+  input_count: 33
+  record: <fec.version.v3.SB.Records instance at 0x1460ef0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SB28A
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00342667
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: RECIPIENT NAME
+    number: '4'
+    value: Meigs^Henry
+  - name: STREET 1
+    number: '5'
+    value: 2811 Rainbow Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Louisville
+  - name: STATE
+    number: '8'
+    value: KY
+  - name: ZIP
+    number: '9'
+    value: '40206'
+  - name: TRANS CODE
+    number: '10'
+    value: ' '
+  - name: TRANS DESCRIP
+    number: '11'
+    value: Void
+  - name: ITEM ELECT CD
+    number: '12'
+    value: P2000
+  - name: ITEM ELECT OTHER
+    number: '13'
+    value: ' '
+  - name: DATE OF EXPENDITURE
+    number: '14'
+    value: '20011001'
+  - name: AMOUNT OF EXPENDITURE
+    number: '15'
+    value: '-1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '16'
+    value: ' '
+  - name: FEC CANDIDATE ID NUMBER
+    number: '17'
+    value: ' '
+  - name: CANDIDATE NAME
+    number: '18'
+    value: ' '
+  - name: CAN/OFFICE
+    number: '19'
+    value: ' '
+  - name: CAN/STATE
+    number: '20'
+    value: ' '
+  - name: CAN/DIST
+    number: '21'
+    value: ' '
+  - name: CONDUIT NAME
+    number: '22'
+    value: ' '
+  - name: CONDUIT STREET 1
+    number: '23'
+    value: ' '
+  - name: CONDUIT STREET 2
+    number: '24'
+    value: ' '
+  - name: CONDUIT CITY
+    number: '25'
+    value: ' '
+  - name: CONDUIT STATE
+    number: '26'
+    value: ' '
+  - name: CONDUIT ZIP
+    number: '27'
+    value: ' '
+  - name: MEMO CODE
+    number: '28'
+    value: ' '
+  - name: MEMO TEXT
+    number: '29'
+    value: ''
+  - name: AMENDED CD
+    number: '30'
+    value: ' '
+  - name: TRAN ID
+    number: '31'
+    value: 438-VOID-1148
+  - name: BACK REF TRAN ID
+    number: '32'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '33'
+    value: ''
+  - name: NAT Committee NON-FED ACCT
+    number: '34'
+    value: NO VALUE!
+  expected_count: 34
+  input: '"SB28A","C00342667","IND","Meigs^Henry","2811 Rainbow Drive","","Louisville","KY","40206","
+    ","Void","P2000"," ",20011001,-1000.00," "," "," "," "," "," "," "," "," "," ","
+    "," "," ",""," ","438-VOID-1148",,'
+  input_count: 33
+  record: <fec.version.v3.SB.Records instance at 0x1460e18>
+  result: []
+sourceurl: !!python/unicode '20020523'

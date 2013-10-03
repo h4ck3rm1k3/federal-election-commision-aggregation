@@ -393,4 +393,18 @@ rows:
     number: '34'
     value: ''
   - name: BACK REF TRAN ID
-   
+    number: '35'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: 0521200245C1924723
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: '"SA11C","C00313684","PAC","Transport Workers Union PAC","10 G Street, NE,
+    Suite 420","","Washington","DC","20002    ","P2002","","","",1000.00,20020520,1000.00,"18K","Receipt","","","","","","","","","","","",,"","","","0521200245C1924723"'
+  input_count: 36
+  record: <fec.version.v3.SA.Records instance at 0x42a69a70>
+  result: []
+sourceurl: !!python/unicode '20020521'
