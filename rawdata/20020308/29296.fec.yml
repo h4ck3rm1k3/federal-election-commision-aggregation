@@ -1,0 +1,192 @@
+countraw: 16
+countrows: 4
+filename: 29296.fec
+header:
+  'Committee ': COMMITTEE TO ELECT BILL KIRBY
+  'Date_Fmat ': CCYYMMDD
+  'Dec/NoDec ': DEC
+  'F65       ': '00001'
+  'FEC_IDnum ': C00370866
+  'FEC_Ver_# ': '2.02'
+  'Form_Name ': F6N
+  'NameDelim ': ^
+  'Soft_Name ': FECWEB
+  'Soft_Ver# ': '1'
+rows:
+- input: F6,"C00308429","Max Sandlin for Congress","P.O. Box 70621","","Washington","DC","20024","H6TX01162","Max
+    Sandlin","H","TX","1",20020308
+  record: <fec.version.v3.F6.Records instance at 0x19a25f0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00308429
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Max Sandlin for Congress
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 70621
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Washington
+  - name: STATE
+    number: '7'
+    value: DC
+  - name: ZIP
+    number: '8'
+    value: '20024'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H6TX01162
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Max Sandlin
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: TX
+  - name: CAN/DIST
+    number: '13'
+    value: '1'
+  - name: Signed
+    number: 14-
+    value: '20020308'
+- input: F65,"C00308429","PAC","Seafarers Political Activity Donation","5201 Auth
+    Way","","Camp Springs","MD","20746","","",20020308,"1000","","","","","","","","","","","","","","C5490"
+  record: <fec.version.v3.F65.Records instance at 0x19a28c0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00308429
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Seafarers Political Activity Donation
+  - name: STREET 1
+    number: '5'
+    value: 5201 Auth Way
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Camp Springs
+  - name: STATE
+    number: '8'
+    value: MD
+  - name: ZIP
+    number: '9'
+    value: '20746'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020308'
+  - name: AMOUNT
+    number: '13'
+    value: '1000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C5490
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00370866
+  - name: COMMITTEE NAME
+    number: '3'
+    value: COMMITTEE TO ELECT BILL KIRBY
+  - name: STREET 1
+    number: '4'
+    value: '1010 RACQUET CLUB DR #105'
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: AUBURN
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '95603'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2CA04072
+  - name: CANDIDATE NAME
+    number: '10'
+    value: KIRBY
+  - name: CAN/OFFICE
+    number: '11'
+    value: ^WILLIAM^WARNER
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: CA
+  - name: Signed
+    number: 14-
+    value: '04'
+  - value: '20020308'
+  expected_count: 14
+  input: 'F6N,C00370866,COMMITTEE TO ELECT BILL KIRBY,1010 RACQUET CLUB DR #105,,AUBURN,CA,95603,H2CA04072,"KIRBY,^WILLIAM^WARNER",H,CA,0
