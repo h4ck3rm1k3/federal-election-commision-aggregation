@@ -1,0 +1,191 @@
+countraw: 5
+countrows: 3
+filename: 29886.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: COMMITTEE NAME
+    number: '3'
+    value: NATIONAL RIGHT TO LIFE POLITICAL ACTION COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: 512 10th Street
+  - name: STREET 2
+    number: '5'
+    value: ' NW'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: WASHINGTON
+  - name: ZIP
+    number: '8'
+    value: DC
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: '20004'
+  - name: Signed
+    number: 10-
+    value: Tobias^Carol^^
+  - value: '20010707'
+  expected_count: 10
+  input: F24,C00111278,NATIONAL RIGHT TO LIFE POLITICAL ACTION COMMITTEE,"512 10th
+    Street, NW",,WASHINGTON,DC,20004,Tobias^Carol^^,20010707
+  input_count: 11
+  record: <fec.version.v3.F24.Records instance at 0xf71dd0>
+  result: []
+- input: SE24,C00111278,CAN,Canaan Printing^^^,4820 Jefferson Davis Hwy,,Richmond,VA,23234,Printing,20010607,1100.00,S,H2VA04052,FORBES^J
+    RANDY^^,H,VA,04,C00111278,,,,,,,,,,,,,,,,,,SE24.4167,,,,
+  record: <fec.version.v3.SE.Records instance at 0xf71e60>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: NAME (Payee)
+    number: '4'
+    value: Canaan Printing^^^
+  - name: STREET 1
+    number: '5'
+    value: 4820 Jefferson Davis Hwy
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Richmond
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '23234'
+  - name: TRANSDESC
+    number: '10'
+    value: Printing
+  - name: DATE
+    number: '11'
+    value: '20010607'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '1100.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H2VA04052
+  - name: S/O CAN/NAME
+    number: '15'
+    value: FORBES^J RANDY^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: VA
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '04'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00111278
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.4167
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+- input: SE24,C00111278,IND,Postmaster^^^,1801 Brook Road,,Richmond,VA,23220,Postage,20010607,1422.49,S,H2VA04052,FORBES^J
+    RANDY^^,H,VA,04,C00111278,,,,,,,,,,,,,,,,,,SE24.4168,,,,
+  record: <fec.version.v3.SE.Records instance at 0xf71dd0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Postmaster^^^
+  - name: STREET 1
+    number: '5'
+    value: 1801 Brook Road
+  - name: STREET 2
+    n
