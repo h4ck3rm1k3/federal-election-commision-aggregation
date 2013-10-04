@@ -1,0 +1,313 @@
+countraw: 6
+countrows: 4
+filename: 58896.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00283044
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Friends of Ernest Istook
+  - name: STREET 1
+    number: '4'
+    value: 3501 N.W. 63rd Street
+  - name: STREET 2
+    number: '5'
+    value: ' Suite 601'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Oklahoma City
+  - name: ZIP
+    number: '8'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: OK
+  - name: CANDIDATE NAME
+    number: '10'
+    value: '73116   '
+  - name: CAN/OFFICE
+    number: '11'
+    value: H2OK05045
+  - name: CAN/STATE
+    number: '12'
+    value: Ernest J. Istook
+  - name: CAN/DIST
+    number: '13'
+    value: ' Jr.'
+  - name: Signed
+    number: 14-
+    value: H
+  - value: OK
+  - value: '05'
+  - value: '20021009'
+  expected_count: 14
+  input: '"F6","C00283044","Friends of Ernest Istook","3501 N.W. 63rd Street, Suite
+    601","","Oklahoma City,","OK","73116   ","H2OK05045","Ernest J. Istook, Jr.","H","OK","05",20021009'
+  input_count: 17
+  record: <fec.version.v3.F6.Records instance at 0x25eed88>
+  result: []
+- input: '"F65","C00283044","IND","Davenport^John David","6414 N. Santa FE","Ste.
+    B ","Oklahoma City","OK","731169114","Quail Creek Bank","Banker",20021023,1000.00,"","","","","","","","","","","",,"","102320024C141201"'
+  record: <fec.version.v3.F65.Records instance at 0x25eed40>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00283044
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Davenport^John David
+  - name: STREET 1
+    number: '5'
+    value: 6414 N. Santa FE
+  - name: STREET 2
+    number: '6'
+    value: 'Ste. B '
+  - name: CITY
+    number: '7'
+    value: Oklahoma City
+  - name: STATE
+    number: '8'
+    value: OK
+  - name: ZIP
+    number: '9'
+    value: '731169114'
+  - name: INDEMP
+    number: '10'
+    value: Quail Creek Bank
+  - name: INDOCC
+    number: '11'
+    value: Banker
+  - name: Of Contribution
+    number: 12-
+    value: '20021023'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 102320024C141201
+- input: '"F65","C00283044","IND","Oxley^Linda","12020 E. 56th St.","","Owasso","OK","74055    ","Homemaker","Information
+    Requested",20021023,1000.00,"","","","","","","","","","","",,"","102320024C141232"'
+  record: <fec.version.v3.F65.Records instance at 0x25eed88>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00283044
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Oxley^Linda
+  - name: STREET 1
+    number: '5'
+    value: 12020 E. 56th St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Owasso
+  - name: STATE
+    number: '8'
+    value: OK
+  - name: ZIP
+    number: '9'
+    value: '74055    '
+  - name: INDEMP
+    number: '10'
+    value: Homemaker
+  - name: INDOCC
+    number: '11'
+    value: Information Requested
+  - name: Of Contribution
+    number: 12-
+    value: '20021023'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 102320024C141232
+- input: '"F65","C00283044","PAC","Outback Steakhouse Pac","2202 N. Westshore Blvd.","","Tampa","FL","33607    ","PAC","PAC",20021023,5000.00,"","","","","","","","","","","",,"","102320024C141223"'
+  record: <fec.version.v3.F65.Records instance at 0x25eed40>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00283044
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Outback Steakhouse Pac
+  - name: STREET 1
+    number: '5'
+    value: 2202 N. Westshore Blvd.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Tampa
+  - name: STATE
+    number: '8'
+    value: FL
+  - name: ZIP
+    number: '9'
+    value: '33607    '
+  - name: INDEMP
+    number: '10'
+    value: PAC
+  - name: INDOCC
+    number: '11'
+    value: PAC
+  - name: Of Contribution
+    number: 12-
+    value: '20021023'
+  - name: AMOUNT
+    number: '13'
+    value: '5000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 102320024C141223
+sourceurl: !!python/unicode 20021023
+type: single
