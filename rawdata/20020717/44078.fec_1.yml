@@ -1,0 +1,194 @@
+countraw: 5
+countrows: 3
+filename: 44078.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00000422
+  - name: COMMITTEE NAME
+    number: '3'
+    value: AMERICAN MEDICAL ASSOCIATION POLITICAL ACTION COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: 1101 VERMONT AVENUE
+  - name: STREET 2
+    number: '5'
+    value: ' NW'
+  - name: CITY
+    number: '6'
+    value: 12TH FLOOR
+  - name: STATE
+    number: '7'
+    value: WASHINGTON
+  - name: ZIP
+    number: '8'
+    value: DC
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: '20005'
+  - name: Signed
+    number: 10-
+    value: WALKER^KEVIN^^
+  - value: '20020717'
+  expected_count: 10
+  input: F24,C00000422,AMERICAN MEDICAL ASSOCIATION POLITICAL ACTION COMMITTEE,"1101
+    VERMONT AVENUE, NW",12TH FLOOR,WASHINGTON,DC,20005,WALKER^KEVIN^^,20020717
+  input_count: 11
+  record: <fec.version.v3.F24.Records instance at 0x31bdd8c0>
+  result: []
+- input: SE24,C00000422,ORG,BATES NEIMAND,1025 VERMONT AVENUE NW,,WASHINGTON,DC,20005,MAILING,20020717,31606.66,S,H6MI16034,DINGELL^JOHN
+    D^^,H,MI,15,C00000422,,,,,,,,,,,,,,,,,,SE24.9590,,,,
+  record: <fec.version.v3.SE.Records instance at 0x31bdd9e0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00000422
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: BATES NEIMAND
+  - name: STREET 1
+    number: '5'
+    value: 1025 VERMONT AVENUE NW
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: WASHINGTON
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20005'
+  - name: TRANSDESC
+    number: '10'
+    value: MAILING
+  - name: DATE
+    number: '11'
+    value: '20020717'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '31606.66'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H6MI16034
+  - name: S/O CAN/NAME
+    number: '15'
+    value: DINGELL^JOHN D^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: MI
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '15'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00000422
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.9590
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SE24
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: SE24.9590
+  - name: TEXT4000
+    number: '4'
+    value: FECFILE4 program has not been updated to remove the notarization section
+      of Schedule E.  Per FEC instructions
+  - value: ' notarization is no longer required for these forms.'
+  expected_count: 4
+  input: TEXT,SE24,SE24.9590,"FECFILE4 program has not been updated to remove the
+    notarization section of Schedule E.  Per FEC instructions, notarization is no
+    longer required for these forms."
+  input_count: 5
+  record: <fec.version.v3.TEXT.Records instance at 0x31bdd8c0>
+  result: []
+sourceurl: !!python/unicode 20020717
+type: chunk
