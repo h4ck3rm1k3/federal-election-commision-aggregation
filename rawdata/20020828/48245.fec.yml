@@ -1,0 +1,140 @@
+countraw: 4
+countrows: 2
+filename: 48245.fec
+header: {}
+rows:
+- input: F6N,C00187419,FRIENDS OF JIM OBERSTAR,424 WARNER STREET NW,,WASHINGTON,DC,20001,H6MN08047,,H,MN,08,20020827
+  record: <fec.version.v3.F6.Records instance at 0x26645a8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00187419
+  - name: COMMITTEE NAME
+    number: '3'
+    value: FRIENDS OF JIM OBERSTAR
+  - name: STREET 1
+    number: '4'
+    value: 424 WARNER STREET NW
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: WASHINGTON
+  - name: STATE
+    number: '7'
+    value: DC
+  - name: ZIP
+    number: '8'
+    value: '20001'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H6MN08047
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ''
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: MN
+  - name: CAN/DIST
+    number: '13'
+    value: 08
+  - name: Signed
+    number: 14-
+    value: '20020827'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00187419
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Textron
+  - name: STREET 1
+    number: '5'
+    value: ' Inc. PAC'
+  - name: STREET 2
+    number: '6'
+    value: PO Box 878
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: pROVIDENCE
+  - name: ZIP
+    number: '9'
+    value: RI
+  - name: INDEMP
+    number: '10'
+    value: 02901
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20020827'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2500.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00123612
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: A
+  - value: F65.00000
+  expected_count: 27
+  input: F65,C00187419,PAC,"Textron, Inc. PAC",PO Box 878,,pROVIDENCE,RI,02901,,,20020827,2500.00,C00123612,,,,,,,,,,,,A,F65.00000
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x2664d40>
+  result: []
+sourceurl: !!python/unicode 20020828
+type: single
