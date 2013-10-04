@@ -1,0 +1,227 @@
+countraw: 5
+countrows: 3
+filename: 64642.fec
+header: {}
+rows:
+- input: F6,C00382978,Case for Congress,P.O. Box 61005,,Honolulu,HI,96839,H2HI02128,Case^Edward
+    E.^^,H,HI,2,20021122
+  record: <fec.version.v3.F6.Records instance at 0x25eecb0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00382978
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Case for Congress
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 61005
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Honolulu
+  - name: STATE
+    number: '7'
+    value: HI
+  - name: ZIP
+    number: '8'
+    value: '96839'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2HI02128
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Case^Edward E.^^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: HI
+  - name: CAN/DIST
+    number: '13'
+    value: '2'
+  - name: Signed
+    number: 14-
+    value: '20021122'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00382978
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Chock^Herbert S.L.^^
+  - name: STREET 1
+    number: '5'
+    value: 745 Fort St
+  - name: STREET 2
+    number: '6'
+    value: ' #708'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Honolulu
+  - name: ZIP
+    number: '9'
+    value: HI
+  - name: INDEMP
+    number: '10'
+    value: '96813'
+  - name: INDOCC
+    number: '11'
+    value: Herbert Chock & Assoc
+  - name: Of Contribution
+    number: 12-
+    value: Consultant
+  - name: AMOUNT
+    number: '13'
+    value: '20021120'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00382978
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: Case^Edward E.^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: HI
+  - name: CONDUIT NAME
+    number: '20'
+    value: '2'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.5726
+  expected_count: 27
+  input: 'F65,C00382978,IND,Chock^Herbert S.L.^^,"745 Fort St, #708",,Honolulu,HI,96813,Herbert
+    Chock & Assoc,Consultant,20021120,1000.00,C00382978,,Case^Edward E.^^,H,HI,2,,,,,,,,F6.5726'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x25eedd0>
+  result: []
+- input: F65,C00382978,IND,Henderson^Richard^^,PO Box 655,,Hilo,HI,96721,HSC Inc,President,20021120,1000.00,C00382978,,Case^Edward
+    E.^^,H,HI,2,,,,,,,,F6.5727
+  record: <fec.version.v3.F65.Records instance at 0x25eecb0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00382978
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Henderson^Richard^^
+  - name: STREET 1
+    number: '5'
+    value: PO Box 655
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Hilo
+  - name: STATE
+    number: '8'
+    value: HI
+  - name: ZIP
+    number: '9'
+    value: '96721'
+  - name: INDEMP
+    number: '10'
+    value: HSC Inc
+  - name: INDOCC
+    number: '11'
+    value: President
+  - name: Of Contribution
+    number: 12-
+    value: '20021120'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00382978
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Case^Edward E.^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: HI
+  - name: CAN/DIST
+    number: '19'
+    value: '2'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5727
+sourceurl: !!python/unicode 20021122
+type: single
