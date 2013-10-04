@@ -1,0 +1,407 @@
+countraw: 6
+countrows: 4
+filename: 60915.fec
+header: {}
+rows:
+- input: '"F6","C00313734","MARION BERRY FOR CONGRESS","P.O. BOX 8084","","JONESBORO","AR","72403   ","","Marion
+    Berry","H","","01",20021025'
+  record: <fec.version.v3.F6.Records instance at 0x2664170>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00313734
+  - name: COMMITTEE NAME
+    number: '3'
+    value: MARION BERRY FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: P.O. BOX 8084
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: JONESBORO
+  - name: STATE
+    number: '7'
+    value: AR
+  - name: ZIP
+    number: '8'
+    value: '72403   '
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Marion Berry
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: ''
+  - name: CAN/DIST
+    number: '13'
+    value: '01'
+  - name: Signed
+    number: 14-
+    value: '20021025'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11C
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00313734
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: Dow Chemical Co. Agri.
+  - name: STREET 1
+    number: '5'
+    value: Executive PAC (AGPAC)
+  - name: STREET 2
+    number: '6'
+    value: '9330 Zionsville Rd. '
+  - name: CITY
+    number: '7'
+    value: Indianapolis
+  - name: STATE
+    number: '8'
+    value: IN
+  - name: ZIP
+    number: '9'
+    value: '46268    '
+  - name: ITEM ELECT CD
+    number: '10'
+    value: G2002
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: ''
+  - name: INDEMP
+    number: '12'
+    value: ''
+  - name: INDOCC
+    number: '13'
+    value: ''
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: '2500.00'
+  - name: DATE RECEIVED
+    number: '15'
+    value: '20021025'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '1000.00'
+  - name: TRANS CODE
+    number: '17'
+    value: 18K
+  - name: TRANS DESCRIP
+    number: '18'
+    value: Receipt
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: 1026200226C112905
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: '"SA11C","C00313734","PAC","Dow Chemical Co. Agri.","Executive PAC (AGPAC)","9330
+    Zionsville Rd. ","Indianapolis","IN","46268    ","G2002","","","",2500.00,20021025,1000.00,"18K","Receipt","","","","","","","","","","","",,"","","","1026200226C112905"'
+  input_count: 34
+  record: <fec.version.v3.SA.Records instance at 0x2664e60>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11A1
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00313734
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: Hux
+  - name: STREET 1
+    number: '5'
+    value: ' Jr.^John'
+  - name: STREET 2
+    number: '6'
+    value: P. O. Box 782
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Sikeston
+  - name: ZIP
+    number: '9'
+    value: MO
+  - name: ITEM ELECT CD
+    number: '10'
+    value: '638010782'
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: G2002
+  - name: INDEMP
+    number: '12'
+    value: ''
+  - name: INDOCC
+    number: '13'
+    value: Hux Farm Agency
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: Farm Mgmt. Services
+  - name: DATE RECEIVED
+    number: '15'
+    value: '1000.00'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '20021025'
+  - name: TRANS CODE
+    number: '17'
+    value: '1000.00'
+  - name: TRANS DESCRIP
+    number: '18'
+    value: '15'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: Receipt
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: 0711200220C104478
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: '"SA11A1","C00313734","IND","Hux, Jr.^John","P. O. Box 782","","Sikeston","MO","638010782","G2002","","Hux
+    Farm Agency","Farm Mgmt. Services",1000.00,20021025,1000.00,"15","Receipt","","","","","","","","","","","",,"","","","0711200220C104478"'
+  input_count: 35
+  record: <fec.version.v3.SA.Records instance at 0x2664170>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11C
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00313734
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: Tenet Healthcare PAC
+  - name: STREET 1
+    number: '5'
+    value: 3820 State Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Santa Barbara
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '93105    '
+  - name: ITEM ELECT CD
+    number: '10'
+    value: G2002
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: ''
+  - name: INDEMP
+    number: '12'
+    value: ''
+  - name: INDOCC
+    number: '13'
+    value: ''
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: '500.00'
+  - name: DATE RECEIVED
+    number: '15'
+    value: '20021025'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '500.00'
+  - name: TRANS CODE
+    number: '17'
+    value: 18K
+  - name: TRANS DESCRIP
+    number: '18'
+    value: Receipt
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: 1026200226C112929
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: '"SA11C","C00313734","PAC","Tenet Healthcare PAC","3820 State Street","","Santa
+    Barbara","CA","93105    ","G2002","","","",500.00,20021025,500.00,"18K","Receipt","","","","","","","","","","","",,"","","","1026200226C112929"'
+  input_count: 34
+  record: <fec.version.v3.SA.Records instance at 0x2664e60>
+  result: []
+sourceurl: !!python/unicode 20021026
+type: single
