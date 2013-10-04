@@ -1,0 +1,407 @@
+countraw: 6
+countrows: 4
+filename: 61783.fec
+header: {}
+rows:
+- input: '"F6","C00279851","Friends of Bennie Thompson","P.O. Box 100","","Bolton","MS","39041   ","C00279851","Bennie
+    G. Thompson","H","MS","2 ",18991230'
+  record: <fec.version.v3.F6.Records instance at 0x25eee18>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00279851
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Friends of Bennie Thompson
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 100
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Bolton
+  - name: STATE
+    number: '7'
+    value: MS
+  - name: ZIP
+    number: '8'
+    value: '39041   '
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: C00279851
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Bennie G. Thompson
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: MS
+  - name: CAN/DIST
+    number: '13'
+    value: '2 '
+  - name: Signed
+    number: 14-
+    value: '18991230'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11C
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00279851
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: PEOPLE
+  - name: STREET 1
+    number: '5'
+    value: 1625 L Street
+  - name: STREET 2
+    number: '6'
+    value: ' N.W.'
+  - name: CITY
+    number: '7'
+    value: American Fed. of State Co. & Muni
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: ITEM ELECT CD
+    number: '10'
+    value: '20036    '
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: G2002
+  - name: INDEMP
+    number: '12'
+    value: ''
+  - name: INDOCC
+    number: '13'
+    value: ''
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: ''
+  - name: DATE RECEIVED
+    number: '15'
+    value: '7500.00'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '20021029'
+  - name: TRANS CODE
+    number: '17'
+    value: '2500.00'
+  - name: TRANS DESCRIP
+    number: '18'
+    value: 18K
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: Receipt
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: 102920026C54541
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: '"SA11C","C00279851","PAC","PEOPLE","1625 L Street, N.W.","American Fed.
+    of State Co. & Muni","Washington","DC","20036    ","G2002","","","",7500.00,20021029,2500.00,"18K","Receipt","","","","","","","","","","","",,"","","","102920026C54541"'
+  input_count: 35
+  record: <fec.version.v3.SA.Records instance at 0x25eeef0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11A1
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00279851
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: Griffin^Janice B.
+  - name: STREET 1
+    number: '5'
+    value: 15106 Callohan Ct.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Silver Spring
+  - name: STATE
+    number: '8'
+    value: MD
+  - name: ZIP
+    number: '9'
+    value: '20906    '
+  - name: ITEM ELECT CD
+    number: '10'
+    value: G2002
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: ''
+  - name: INDEMP
+    number: '12'
+    value: Retired
+  - name: INDOCC
+    number: '13'
+    value: ''
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: '1000.00'
+  - name: DATE RECEIVED
+    number: '15'
+    value: '20021029'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '1000.00'
+  - name: TRANS CODE
+    number: '17'
+    value: '15'
+  - name: TRANS DESCRIP
+    number: '18'
+    value: Receipt
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: 102920026C54604
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: '"SA11A1","C00279851","IND","Griffin^Janice B.","15106 Callohan Ct.","","Silver
+    Spring","MD","20906    ","G2002","","Retired","",1000.00,20021029,1000.00,"15","Receipt","","","","","","","","","","","",,"","","","102920026C54604"'
+  input_count: 34
+  record: <fec.version.v3.SA.Records instance at 0x25eefc8>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA11A1
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00279851
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: Mullins^Charles
+  - name: STREET 1
+    number: '5'
+    value: 206 Woodrun Cove
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Ridgeland
+  - name: STATE
+    number: '8'
+    value: MS
+  - name: ZIP
+    number: '9'
+    value: '39157    '
+  - name: ITEM ELECT CD
+    number: '10'
+    value: G2002
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: ''
+  - name: INDEMP
+    number: '12'
+    value: Self Employed
+  - name: INDOCC
+    number: '13'
+    value: Attorney
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: '1000.00'
+  - name: DATE RECEIVED
+    number: '15'
+    value: '20021029'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '1000.00'
+  - name: TRANS CODE
+    number: '17'
+    value: '15'
+  - name: TRANS DESCRIP
+    number: '18'
+    value: Receipt
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: ''
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: 1029200258C54626
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: NO VALUE!
+  - name: NAT Committee NON-FED ACCT
+    number: '37'
+    value: NO VALUE!
+  expected_count: 37
+  input: '"SA11A1","C00279851","IND","Mullins^Charles","206 Woodrun Cove","","Ridgeland","MS","39157    ","G2002","","Self
+    Employed","Attorney",1000.00,20021029,1000.00,"15","Receipt","","","","","","","","","","","",,"","","","1029200258C54626"'
+  input_count: 34
+  record: <fec.version.v3.SA.Records instance at 0x25eeef0>
+  result: []
+sourceurl: !!python/unicode 20021029
+type: single
