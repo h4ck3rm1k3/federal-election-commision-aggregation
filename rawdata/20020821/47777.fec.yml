@@ -1,0 +1,145 @@
+countraw: 4
+countrows: 2
+filename: 47777.fec
+header: {}
+rows:
+- input: F6,C00367359,ELSER FOR CONGRESS,PO BOX 205120,,NEW HAVEN,CT,06520,H2CT03052,ELSER^H
+    RICHTER^^,H,CT,03,20020821
+  record: <fec.version.v3.F6.Records instance at 0x9cc23b0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367359
+  - name: COMMITTEE NAME
+    number: '3'
+    value: ELSER FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 205120
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: NEW HAVEN
+  - name: STATE
+    number: '7'
+    value: CT
+  - name: ZIP
+    number: '8'
+    value: '06520'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2CT03052
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ELSER^H RICHTER^^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: CT
+  - name: CAN/DIST
+    number: '13'
+    value: '03'
+  - name: Signed
+    number: 14-
+    value: '20020821'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367359
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Weil^Thomas Eliot^^
+  - name: STREET 1
+    number: '5'
+    value: 3423 Sunset Blvd.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Houston
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '77005'
+  - name: INDEMP
+    number: '10'
+    value: Skadden
+  - name: INDOCC
+    number: '11'
+    value: ' Arps'
+  - name: Of Contribution
+    number: 12-
+    value: ' Slate'
+  - name: AMOUNT
+    number: '13'
+    value: ' Meagher & Flom'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: Attorney
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '20020820'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: '1000.00'
+  - name: CAN/OFFICE
+    number: '17'
+    value: C00367359
+  - name: CAN/STATE
+    number: '18'
+    value: H2CT03052
+  - name: CAN/DIST
+    number: '19'
+    value: ELSER^H RICHTER^^
+  - name: CONDUIT NAME
+    number: '20'
+    value: H
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: CT
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: '03'
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: ''
+  - value: F6.4803
+  expected_count: 27
+  input: F65,C00367359,IND,Weil^Thomas Eliot^^,3423 Sunset Blvd.,,Houston,TX,77005,"Skadden,
+    Arps, Slate, Meagher & Flom",Attorney,20020820,1000.00,C00367359,H2CT03052,ELSER^H
+    RICHTER^^,H,CT,03,,,,,,,,F6.4803
+  input_count: 30
+  record: <fec.version.v3.F65.Records instance at 0x9cc2d40>
+  result: []
+sourceurl: !!python/unicode 20020821
+type: single
