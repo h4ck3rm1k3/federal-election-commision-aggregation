@@ -1,0 +1,331 @@
+countraw: 7
+countrows: 5
+filename: 63926.fec
+header: {}
+rows:
+- input: F6,"C00353847","Carlos Nolla For Congress","P.O. Box 2818","","Wichita","KS","672012818","H0KS04036","CARLOS
+    J. NOLLA","H","KS","4",20021107
+  record: <fec.version.v3.F6.Records instance at 0x47becb0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00353847
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Carlos Nolla For Congress
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 2818
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Wichita
+  - name: STATE
+    number: '7'
+    value: KS
+  - name: ZIP
+    number: '8'
+    value: '672012818'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H0KS04036
+  - name: CANDIDATE NAME
+    number: '10'
+    value: CARLOS J. NOLLA
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: KS
+  - name: CAN/DIST
+    number: '13'
+    value: '4'
+  - name: Signed
+    number: 14-
+    value: '20021107'
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F6
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: Attached is the Nolla for Congress Campaign's seventh 48-hour notice.  This
+      report includes contributions of $1
+  - value: 000 or more from the dates of November 5th
+  - value: ' 2002'
+  - value: ' through November 7th'
+  - value: ' 2002.'
+  expected_count: 4
+  input: TEXT,"F6","","Attached is the Nolla for Congress Campaign's seventh 48-hour
+    notice.  This report includes contributions of $1,000 or more from the dates of
+    November 5th, 2002, through November 7th, 2002."
+  input_count: 8
+  record: <fec.version.v3.TEXT.Records instance at 0x47be170>
+  result: []
+- input: F65,"C00353847","IND","Tandoc^Bonnie","614 NE 36th St","","Newton","KS","67114","","",20021105,"1000","","","","","","","","","","","","","","C4262"
+  record: <fec.version.v3.F65.Records instance at 0x47becb0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00353847
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Tandoc^Bonnie
+  - name: STREET 1
+    number: '5'
+    value: 614 NE 36th St
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Newton
+  - name: STATE
+    number: '8'
+    value: KS
+  - name: ZIP
+    number: '9'
+    value: '67114'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021105'
+  - name: AMOUNT
+    number: '13'
+    value: '1000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C4262
+- input: F65,"C00353847","IND","Camarena^Yolanda","11906 E Central Ave","","Wichita","KS","67206","N/A","Homemaker",20021105,"1000","","","","","","","","","","","","","","C4273"
+  record: <fec.version.v3.F65.Records instance at 0x47be170>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00353847
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Camarena^Yolanda
+  - name: STREET 1
+    number: '5'
+    value: 11906 E Central Ave
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Wichita
+  - name: STATE
+    number: '8'
+    value: KS
+  - name: ZIP
+    number: '9'
+    value: '67206'
+  - name: INDEMP
+    number: '10'
+    value: N/A
+  - name: INDOCC
+    number: '11'
+    value: Homemaker
+  - name: Of Contribution
+    number: 12-
+    value: '20021105'
+  - name: AMOUNT
+    number: '13'
+    value: '1000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C4273
+- input: F65,"C00353847","PAC","Mr. Gregorio Cervantes","Cabazon Band of Mission Indians","84-245
+    Indio Springs Drive","Indio","CA","92203","n/a","political action committee",20021105,"1000","","","","","","","","","","","","","","C4251"
+  record: <fec.version.v3.F65.Records instance at 0x47bea70>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00353847
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Mr. Gregorio Cervantes
+  - name: STREET 1
+    number: '5'
+    value: Cabazon Band of Mission Indians
+  - name: STREET 2
+    number: '6'
+    value: 84-245 Indio Springs Drive
+  - name: CITY
+    number: '7'
+    value: Indio
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '92203'
+  - name: INDEMP
+    number: '10'
+    value: n/a
+  - name: INDOCC
+    number: '11'
+    value: political action committee
+  - name: Of Contribution
+    number: 12-
+    value: '20021105'
+  - name: AMOUNT
+    number: '13'
+    value: '1000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C4251
+sourceurl: !!python/unicode 20021107
+type: single
