@@ -1,0 +1,173 @@
+countraw: 4
+countrows: 2
+filename: 58381.fec
+header: {}
+rows:
+- input: 'F24,C00003251,NEA FUND FOR CHILDREN AND PUBLIC EDUCATION; THE (FKA NEAPAC),1201
+    16TH STREET NW #421,,WASHINGTON,DC,20036,Krishna^V J^^,20021023'
+  record: <fec.version.v3.F24.Records instance at 0x25eee18>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00003251
+  - name: COMMITTEE NAME
+    number: '3'
+    value: NEA FUND FOR CHILDREN AND PUBLIC EDUCATION; THE (FKA NEAPAC)
+  - name: STREET 1
+    number: '4'
+    value: '1201 16TH STREET NW #421'
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: WASHINGTON
+  - name: STATE
+    number: '7'
+    value: DC
+  - name: ZIP
+    number: '8'
+    value: '20036'
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Krishna^V J^^
+  - name: Signed
+    number: 10-
+    value: '20021023'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00003251
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Joe Slade White and Company
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 484 Main St
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: East Aurora
+  - name: ZIP
+    number: '9'
+    value: NY
+  - name: TRANSDESC
+    number: '10'
+    value: '14052'
+  - name: DATE
+    number: '11'
+    value: Television Advertising
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20021023'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '120000.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S0AR00028
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Mark^Lunsford^Pryor
+  - name: S/O STATE
+    number: '17'
+    value: S
+  - name: S/O CAN/DIST
+    number: '18'
+    value: AR
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: C00003251
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: Krishna^V J
+  - name: Notarized
+    number: 33-
+    value: '20021023'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: A
+  - name: MEMO CODE
+    number: '38'
+    value: SE.00000
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - value: ''
+  expected_count: 41
+  input: SE24,C00003251,ORG,"Joe Slade White and Company, Inc.",484 Main St,,East
+    Aurora,NY,14052,Television Advertising,20021023,120000.00,S,S0AR00028,Mark^Lunsford^Pryor,S,AR,,C00003251,,,,,,,,,,,,Krishna^V
+    J,20021023,,,,A,SE.00000,,,,
+  input_count: 42
+  record: <fec.version.v3.SE.Records instance at 0x25ee9e0>
+  result: []
+sourceurl: !!python/unicode 20021023
+type: single
