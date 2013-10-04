@@ -1,0 +1,586 @@
+countraw: 9
+countrows: 7
+filename: 63012.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00199836
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Ben Cardin for Congress
+  - name: STREET 1
+    number: '4'
+    value: ' c/o Mark D. Dopkin'
+  - name: STREET 2
+    number: '5'
+    value: ' Treasurer'
+  - name: CITY
+    number: '6'
+    value: 100 E. Pratt Street
+  - name: STATE
+    number: '7'
+    value: ' 26th Floor'
+  - name: ZIP
+    number: '8'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: Baltimore
+  - name: CANDIDATE NAME
+    number: '10'
+    value: MD
+  - name: CAN/OFFICE
+    number: '11'
+    value: '21202   '
+  - name: CAN/STATE
+    number: '12'
+    value: C00199836
+  - name: CAN/DIST
+    number: '13'
+    value: Benjamin L. Cardin
+  - name: Signed
+    number: 14-
+    value: H
+  - value: MD
+  - value: '3 '
+  - value: '20021021'
+  expected_count: 14
+  input: '"F6","C00199836","Ben Cardin for Congress, c/o Mark D. Dopkin, Treasurer","100
+    E. Pratt Street, 26th Floor","","Baltimore","MD","21202   ","C00199836","Benjamin
+    L. Cardin","H","MD","3 ",20021021'
+  input_count: 17
+  record: <fec.version.v3.F6.Records instance at 0x2669b00>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00199836
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: American Academy of Sleep Medicine
+  - name: STREET 1
+    number: '5'
+    value: 6301 Bandel Road
+  - name: STREET 2
+    number: '6'
+    value: ' N.W.'
+  - name: CITY
+    number: '7'
+    value: 'Suite 101 '
+  - name: STATE
+    number: '8'
+    value: Rochester
+  - name: ZIP
+    number: '9'
+    value: MN
+  - name: INDEMP
+    number: '10'
+    value: '55901    '
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20021101'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 1101200256C155061
+  expected_count: 27
+  input: '"F65","C00199836","PAC","American Academy of Sleep Medicine","6301 Bandel
+    Road, N.W.","Suite 101 ","Rochester","MN","55901    ","","",20021101,1000.00,"","","","","","","","","","","",,"","1101200256C155061"'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x26695f0>
+  result: []
+- input: '"F65","C00199836","IND","Fise^Thomas F.","1203 Captains Court","","Towson","MD","21286    ","Consumer
+    Fed. of Amer.","General Counsel",20021101,1500.00,"","","","","","","","","","","",,"","1101200256C155072"'
+  record: <fec.version.v3.F65.Records instance at 0x2669b00>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00199836
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Fise^Thomas F.
+  - name: STREET 1
+    number: '5'
+    value: 1203 Captains Court
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Towson
+  - name: STATE
+    number: '8'
+    value: MD
+  - name: ZIP
+    number: '9'
+    value: '21286    '
+  - name: INDEMP
+    number: '10'
+    value: Consumer Fed. of Amer.
+  - name: INDOCC
+    number: '11'
+    value: General Counsel
+  - name: Of Contribution
+    number: 12-
+    value: '20021101'
+  - name: AMOUNT
+    number: '13'
+    value: '1500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 1101200256C155072
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00199836
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Harmel^Paul O.
+  - name: STREET 1
+    number: '5'
+    value: 1100 Vikings Drive
+  - name: STREET 2
+    number: '6'
+    value: ' Suite 400'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Eden Prairie
+  - name: ZIP
+    number: '9'
+    value: MN
+  - name: INDEMP
+    number: '10'
+    value: '55344    '
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20021101'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 1101200256C155023
+  expected_count: 27
+  input: '"F65","C00199836","IND","Harmel^Paul O.","1100 Vikings Drive, Suite 400","","Eden
+    Prairie","MN","55344    ","","",20021101,1000.00,"","","","","","","","","","","",,"","1101200256C155023"'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x26695f0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00199836
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Natl Assn Of Letter Carriers PAC
+  - name: STREET 1
+    number: '5'
+    value: Tom Nagle
+  - name: STREET 2
+    number: '6'
+    value: 100 Indiana Avenue
+  - name: CITY
+    number: '7'
+    value: ' NW '
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '200012144'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20021101'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 1101200256C155054
+  expected_count: 27
+  input: '"F65","C00199836","PAC","Natl Assn Of Letter Carriers PAC","Tom Nagle","100
+    Indiana Avenue, NW ","Washington","DC","200012144","","",20021101,1000.00,"","","","","","","","","","","",,"","1101200256C155054"'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x26698c0>
+  result: []
+- input: '"F65","C00199836","PAC","Realtors PAC - RPAC","c/o Maryland Realtors PAC","2594
+    Riva Road ","Annapolis","MD","214017406","","",20021101,2000.00,"","","","","","","","","","","",,"","1101200256C155035"'
+  record: <fec.version.v3.F65.Records instance at 0x2669b00>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00199836
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Realtors PAC - RPAC
+  - name: STREET 1
+    number: '5'
+    value: c/o Maryland Realtors PAC
+  - name: STREET 2
+    number: '6'
+    value: '2594 Riva Road '
+  - name: CITY
+    number: '7'
+    value: Annapolis
+  - name: STATE
+    number: '8'
+    value: MD
+  - name: ZIP
+    number: '9'
+    value: '214017406'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021101'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 1101200256C155035
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00199836
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: United Food & Commercial Workers
+  - name: STREET 1
+    number: '5'
+    value: International Union
+  - name: STREET 2
+    number: '6'
+    value: 1775 K Street
+  - name: CITY
+    number: '7'
+    value: ' N.W. '
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '200061598'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20021101'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '5000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 1101200256C155046
+  expected_count: 27
+  input: '"F65","C00199836","PAC","United Food & Commercial Workers","International
+    Union","1775 K Street, N.W. ","Washington","DC","200061598","","",20021101,5000.00,"","","","","","","","","","","",,"","1101200256C155046"'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x2669680>
+  result: []
+sourceurl: !!python/unicode 20021101
+type: single
