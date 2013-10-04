@@ -1,0 +1,492 @@
+countraw: 8
+countrows: 6
+filename: 62854.fec
+header: {}
+rows:
+- input: '"F6N","C00145862","Dan Burton for Congress Committee","P.O. Box 50593","","Indianapolis","IN","46250","","Dan
+    Burton","H","IN",5,"20021101"'
+  record: <fec.version.v3.F6.Records instance at 0x300a0e0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00145862
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Dan Burton for Congress Committee
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 50593
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Indianapolis
+  - name: STATE
+    number: '7'
+    value: IN
+  - name: ZIP
+    number: '8'
+    value: '46250'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Dan Burton
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: IN
+  - name: CAN/DIST
+    number: '13'
+    value: '5'
+  - name: Signed
+    number: 14-
+    value: '20021101'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00145862
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Garschina
+  - name: STREET 1
+    number: '5'
+    value: ' Kenneth'
+  - name: STREET 2
+    number: '6'
+    value: 111 Locust St.
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Garden City
+  - name: ZIP
+    number: '9'
+    value: NY
+  - name: INDEMP
+    number: '10'
+    value: '11530'
+  - name: INDOCC
+    number: '11'
+    value: Information requested
+  - name: Of Contribution
+    number: 12-
+    value: Information requested
+  - name: AMOUNT
+    number: '13'
+    value: '20021101'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 'C04wT02             '
+  expected_count: 27
+  input: '"F65","C00145862","IND","Garschina, Kenneth","111 Locust St.","","Garden
+    City","NY","11530","Information requested","Information requested",20021101,1000.00,"","","","","",,"","","","","","","","C04wT02             "'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x300a050>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00145862
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Martino
+  - name: STREET 1
+    number: '5'
+    value: ' Michael'
+  - name: STREET 2
+    number: '6'
+    value: 42 Hillside Ave.
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: New Canaan
+  - name: ZIP
+    number: '9'
+    value: CT
+  - name: INDEMP
+    number: '10'
+    value: 06840
+  - name: INDOCC
+    number: '11'
+    value: Information requested
+  - name: Of Contribution
+    number: 12-
+    value: Information requested
+  - name: AMOUNT
+    number: '13'
+    value: '20021101'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 'C04wU02             '
+  expected_count: 27
+  input: '"F65","C00145862","IND","Martino, Michael","42 Hillside Ave.","","New Canaan","CT","06840","Information
+    requested","Information requested",20021101,1000.00,"","","","","",,"","","","","","","","C04wU02             "'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x300a0e0>
+  result: []
+- input: '"F65","C00145862","PAC","Raytheon Company PAC","141 Spring Street","","Lexington","MA","02421","","",20021101,1000.00,"","","","","",,"","","","","","","","C05DH01             "'
+  record: <fec.version.v3.F65.Records instance at 0x300a050>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00145862
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Raytheon Company PAC
+  - name: STREET 1
+    number: '5'
+    value: 141 Spring Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Lexington
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: '02421'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021101'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 'C05DH01             '
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00145862
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Trangucci
+  - name: STREET 1
+    number: '5'
+    value: ' Harriett'
+  - name: STREET 2
+    number: '6'
+    value: 125 Hillcrest Ave.
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Summit
+  - name: ZIP
+    number: '9'
+    value: NJ
+  - name: INDEMP
+    number: '10'
+    value: 07901
+  - name: INDOCC
+    number: '11'
+    value: Self
+  - name: Of Contribution
+    number: 12-
+    value: Homemaker
+  - name: AMOUNT
+    number: '13'
+    value: '20021101'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 'C04wZ02             '
+  expected_count: 27
+  input: '"F65","C00145862","IND","Trangucci, Harriett","125 Hillcrest Ave.","","Summit","NJ","07901","Self","Homemaker",20021101,1000.00,"","","","","",,"","","","","","","","C04wZ02             "'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x300a0e0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00145862
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Trangucci
+  - name: STREET 1
+    number: '5'
+    value: ' Neale'
+  - name: STREET 2
+    number: '6'
+    value: 125 Hillcrest Ave.
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Summit
+  - name: ZIP
+    number: '9'
+    value: NJ
+  - name: INDEMP
+    number: '10'
+    value: 07901
+  - name: INDOCC
+    number: '11'
+    value: Information requested
+  - name: Of Contribution
+    number: 12-
+    value: Information requested
+  - name: AMOUNT
+    number: '13'
+    value: '20021101'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 'C04wY02             '
+  expected_count: 27
+  input: '"F65","C00145862","IND","Trangucci, Neale","125 Hillcrest Ave.","","Summit","NJ","07901","Information
+    requested","Information requested",20021101,1000.00,"","","","","",,"","","","","","","","C04wY02             "'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x300a050>
+  result: []
+sourceurl: !!python/unicode 20021101
+type: single
