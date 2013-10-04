@@ -1,0 +1,1173 @@
+countraw: 16
+countrows: 14
+filename: 62987.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00326629
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Kline for Congress
+  - name: STREET 1
+    number: '4'
+    value: 14101 Southcross Dr. W.
+  - name: STREET 2
+    number: '5'
+    value: ' Suite 175'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Burnsville
+  - name: ZIP
+    number: '8'
+    value: MN
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '55337'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H8MN06047
+  - name: CAN/OFFICE
+    number: '11'
+    value: Kline^John P.^^Jr.
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: MN
+  - name: Signed
+    number: 14-
+    value: '2'
+  - value: '20021101'
+  expected_count: 14
+  input: F6,C00326629,Kline for Congress,"14101 Southcross Dr. W., Suite 175",,Burnsville,MN,55337,H8MN06047,Kline^John
+    P.^^Jr.,H,MN,2,20021101
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x2be4878>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00326629
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Head^Douglas^^
+  - name: STREET 1
+    number: '5'
+    value: 1616 W. 22nd Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Minneapolis
+  - name: STATE
+    number: '8'
+    value: MN
+  - name: ZIP
+    number: '9'
+    value: '55405'
+  - name: INDEMP
+    number: '10'
+    value: Head
+  - name: INDOCC
+    number: '11'
+    value: ' Seifer & VanderWeice'
+  - name: Of Contribution
+    number: 12-
+    value: Attorney/Business
+  - name: AMOUNT
+    number: '13'
+    value: '20021101'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00326629
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H8MN06047
+  - name: CAN/OFFICE
+    number: '17'
+    value: Kline^John P.^^Jr.
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: MN
+  - name: CONDUIT NAME
+    number: '20'
+    value: '2'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.17301
+  expected_count: 27
+  input: F65,C00326629,IND,Head^Douglas^^,1616 W. 22nd Street,,Minneapolis,MN,55405,"Head,
+    Seifer & VanderWeice",Attorney/Business,20021101,1000.00,C00326629,H8MN06047,Kline^John
+    P.^^Jr.,H,MN,2,,,,,,,,F6.17301
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x2be49e0>
+  result: []
+- input: F65,C00326629,IND,Head^Martha^^,1616 W. 22nd Street,,Minneapolis,MN,55405,homemaker,homemaker,20021101,1000.00,C00326629,H8MN06047,Kline^John
+    P.^^Jr.,H,MN,2,,,,,,,,F6.17302
+  record: <fec.version.v3.F65.Records instance at 0x2be4878>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00326629
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Head^Martha^^
+  - name: STREET 1
+    number: '5'
+    value: 1616 W. 22nd Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Minneapolis
+  - name: STATE
+    number: '8'
+    value: MN
+  - name: ZIP
+    number: '9'
+    value: '55405'
+  - name: INDEMP
+    number: '10'
+    value: homemaker
+  - name: INDOCC
+    number: '11'
+    value: homemaker
+  - name: Of Contribution
+    number: 12-
+    value: '20021101'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00326629
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8MN06047
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Kline^John P.^^Jr.
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: MN
+  - name: CAN/DIST
+    number: '19'
+    value: '2'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.17302
+- input: F65,C00326629,IND,Senkler^Robert^^,2531 Manitou Island,,White Bear Lake,MN,55110,Minnesota
+    Mutual,Chairman/President,20021101,1000.00,C00326629,H8MN06047,Kline^John P.^^Jr.,H,MN,2,,,,,,,,F6.17305
+  record: <fec.version.v3.F65.Records instance at 0x2be49e0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00326629
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Senkler^Robert^^
+  - name: STREET 1
+    number: '5'
+    value: 2531 Manitou Island
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: White Bear Lake
+  - name: STATE
+    number: '8'
+    value: MN
+  - name: ZIP
+    number: '9'
+    value: '55110'
+  - name: INDEMP
+    number: '10'
+    value: Minnesota Mutual
+  - name: INDOCC
+    number: '11'
+    value: Chairman/President
+  - name: Of Contribution
+    number: 12-
+    value: '20021101'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00326629
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8MN06047
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Kline^John P.^^Jr.
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: MN
+  - name: CAN/DIST
+    number: '19'
+    value: '2'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.17305
+- input: 'F65,C00326629,PAC,AMERICAN CHEMISTRY COUNCIL PAC,1300 WILSON BOULEVARD,ATTN:
+    LESLIE KAPLAN,ARLINGTON,VA,22209,,,20021101,1000.00,C00326629,H8MN06047,Kline^John
+    P.^^Jr.,H,MN,2,,,,,,,,F6.17300'
+  record: <fec.version.v3.F65.Records instance at 0x2be4cf8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00326629
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: AMERICAN CHEMISTRY COUNCIL PAC
+  - name: STREET 1
+    number: '5'
+    value: 1300 WILSON BOULEVARD
+  - name: STREET 2
+    number: '6'
+    value: 'ATTN: LESLIE KAPLAN'
+  - name: CITY
+    number: '7'
+    value: ARLINGTON
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22209'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021101'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00326629
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8MN06047
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Kline^John P.^^Jr.
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: MN
+  - name: CAN/DIST
+    number: '19'
+    value: '2'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.17300
+- input: F65,C00326629,PAC,CATERPILLAR EMPLOYEES POLITICAL ACTION COMMITTEE,100 N
+    E ADAMS ST,,PEORIA,IL,61629,,,20021031,1000.00,C00326629,H8MN06047,Kline^John
+    P.^^Jr.,H,MN,2,,,,,,,,F6.17293
+  record: <fec.version.v3.F65.Records instance at 0x2be49e0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00326629
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: CATERPILLAR EMPLOYEES POLITICAL ACTION COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: 100 N E ADAMS ST
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: PEORIA
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '61629'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021031'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00326629
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8MN06047
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Kline^John P.^^Jr.
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: MN
+  - name: CAN/DIST
+    number: '19'
+    value: '2'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.17293
+- input: F65,C00326629,IND,Ferguson^Richard^^,440 Wheelers Farm Rd,Suite 302,Milford,CT,06460,Cox
+    Radio,VP/COO,20021031,1000.00,C00326629,H8MN06047,Kline^John P.^^Jr.,H,MN,2,,,,,,,,F6.17297
+  record: <fec.version.v3.F65.Records instance at 0x2be4cf8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00326629
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Ferguson^Richard^^
+  - name: STREET 1
+    number: '5'
+    value: 440 Wheelers Farm Rd
+  - name: STREET 2
+    number: '6'
+    value: Suite 302
+  - name: CITY
+    number: '7'
+    value: Milford
+  - name: STATE
+    number: '8'
+    value: CT
+  - name: ZIP
+    number: '9'
+    value: '06460'
+  - name: INDEMP
+    number: '10'
+    value: Cox Radio
+  - name: INDOCC
+    number: '11'
+    value: VP/COO
+  - name: Of Contribution
+    number: 12-
+    value: '20021031'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00326629
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8MN06047
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Kline^John P.^^Jr.
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: MN
+  - name: CAN/DIST
+    number: '19'
+    value: '2'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.17297
+- input: F65,C00326629,CCM,MICHAEL BURGESS FOR CONGRESS,106 HIGHLAND LAKE DR,,HIGHLAND
+    VILLAGE,TX,75077,,,20021101,1000.00,C00326629,H8MN06047,Kline^John P.^^Jr.,H,MN,2,,,,,,,,F6.17303
+  record: <fec.version.v3.F65.Records instance at 0x2be4830>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00326629
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: MICHAEL BURGESS FOR CONGRESS
+  - name: STREET 1
+    number: '5'
+    value: 106 HIGHLAND LAKE DR
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: HIGHLAND VILLAGE
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '75077'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021101'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00326629
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8MN06047
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Kline^John P.^^Jr.
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: MN
+  - name: CAN/DIST
+    number: '19'
+    value: '2'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.17303
+- input: F65,C00326629,PAC,NATIONAL ASSOCIATION OF BROADCASTERS TELEVISION AND RADIO
+    POLITICAL ACTION COMMITTEE,1771 N STREET NW,,WASHINGTON,DC,20036,,,20021031,1000.00,C00326629,H8MN06047,Kline^John
+    P.^^Jr.,H,MN,2,,,,,,,,F6.17294
+  record: <fec.version.v3.F65.Records instance at 0x2be4cf8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00326629
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: NATIONAL ASSOCIATION OF BROADCASTERS TELEVISION AND RADIO POLITICAL ACTION
+      COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: 1771 N STREET NW
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: WASHINGTON
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20036'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021031'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00326629
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8MN06047
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Kline^John P.^^Jr.
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: MN
+  - name: CAN/DIST
+    number: '19'
+    value: '2'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.17294
+- input: F65,C00326629,PAC,NATIONAL ROOFING CONTRACTORS ASSOCIATION (ROOFPAC),324
+    FOURTH STREET NE,,WASHINGTON,DC,20002,,,20021101,1000.00,C00326629,H8MN06047,Kline^John
+    P.^^Jr.,H,MN,2,,,,,,,,F6.17304
+  record: <fec.version.v3.F65.Records instance at 0x2be4830>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00326629
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: NATIONAL ROOFING CONTRACTORS ASSOCIATION (ROOFPAC)
+  - name: STREET 1
+    number: '5'
+    value: 324 FOURTH STREET NE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: WASHINGTON
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20002'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021101'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00326629
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8MN06047
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Kline^John P.^^Jr.
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: MN
+  - name: CAN/DIST
+    number: '19'
+    value: '2'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.17304
+- input: F65,C00326629,PAC,PROMOTING REPUBLICANS YOU CAN ELECT PROJECT (PRYCE PROJECT),1155
+    21ST STREET NW SUITE 300,,WASHINGTON,DC,20036,,,20021031,2000.00,C00326629,H8MN06047,Kline^John
+    P.^^Jr.,H,MN,2,,,,,,,,F6.17298
+  record: <fec.version.v3.F65.Records instance at 0x300af38>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00326629
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: PROMOTING REPUBLICANS YOU CAN ELECT PROJECT (PRYCE PROJECT)
+  - name: STREET 1
+    number: '5'
+    value: 1155 21ST STREET NW SUITE 300
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: WASHINGTON
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20036'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021031'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00326629
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8MN06047
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Kline^John P.^^Jr.
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: MN
+  - name: CAN/DIST
+    number: '19'
+    value: '2'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.17298
+- input: F65,C00326629,PAC,RESPONSIBILITY AND FREEDOM WORK PAC (RFWPAC),PO BOX 196,,TUPELO,MS,38802,,,20021031,2000.00,C00326629,H8MN06047,Kline^John
+    P.^^Jr.,H,MN,2,,,,,,,,F6.17299
+  record: <fec.version.v3.F65.Records instance at 0x2be4830>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00326629
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: RESPONSIBILITY AND FREEDOM WORK PAC (RFWPAC)
+  - name: STREET 1
+    number: '5'
+    value: PO BOX 196
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: TUPELO
+  - name: STATE
+    number: '8'
+    value: MS
+  - name: ZIP
+    number: '9'
+    value: '38802'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021031'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00326629
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8MN06047
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Kline^John P.^^Jr.
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: MN
+  - name: CAN/DIST
+    number: '19'
+    value: '2'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.17299
+- input: F65,C00326629,PAC,RALLY FOR LEADERSHIP FUND,PO BOX 75103,,WASHINGTON,DC,20013,,,20021031,4924.57,C00326629,H8MN06047,Kline^John
+    P.^^Jr.,H,MN,2,,,,,,,,F6.17306
+  record: <fec.version.v3.F65.Records instance at 0x300af38>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00326629
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: RALLY FOR LEADERSHIP FUND
+  - name: STREET 1
+    number: '5'
+    value: PO BOX 75103
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: WASHINGTON
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20013'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021031'
+  - name: AMOUNT
+    number: '13'
+    value: '4924.57'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00326629
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8MN06047
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Kline^John P.^^Jr.
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: MN
+  - name: CAN/DIST
+    number: '19'
+    value: '2'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.17306
+- input: F65,C00326629,PAC,RALLY FOR LEADERSHIP FUND,PO BOX 75103,,WASHINGTON,DC,20013,,,20021031,4924.57,C00326629,H8MN06047,Kline^John
+    P.^^Jr.,H,MN,2,,,,,,,,F6.17307
+  record: <fec.version.v3.F65.Records instance at 0x2be4830>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00326629
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: RALLY FOR LEADERSHIP FUND
+  - name: STREET 1
+    number: '5'
+    value: PO BOX 75103
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: WASHINGTON
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20013'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021031'
+  - name: AMOUNT
+    number: '13'
+    value: '4924.57'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00326629
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8MN06047
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Kline^John P.^^Jr.
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: MN
+  - name: CAN/DIST
+    number: '19'
+    value: '2'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.17307
+sourceurl: !!python/unicode 20021101
+type: single
