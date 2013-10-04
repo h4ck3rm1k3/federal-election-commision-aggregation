@@ -1,0 +1,398 @@
+countraw: 7
+countrows: 5
+filename: 45892.fec
+header: {}
+rows:
+- input: '"F6","C00346858","Colyer for Congress","P.O. Box 25345","","Overland Park","KS","66225   ","C00346858","Jeffrey
+    Colyer","H","KS","03",20020806'
+  record: <fec.version.v3.F6.Records instance at 0x215bc68>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00346858
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Colyer for Congress
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 25345
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Overland Park
+  - name: STATE
+    number: '7'
+    value: KS
+  - name: ZIP
+    number: '8'
+    value: '66225   '
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: C00346858
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Jeffrey Colyer
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: KS
+  - name: CAN/DIST
+    number: '13'
+    value: '03'
+  - name: Signed
+    number: 14-
+    value: '20020806'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00346858
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: American Society of Anesthesiologists
+  - name: STREET 1
+    number: '5'
+    value: PAC  Attn. Manuel Bonilla
+  - name: STREET 2
+    number: '6'
+    value: 1101 Vermont Ave
+  - name: CITY
+    number: '7'
+    value: ' NW  Suite 606 '
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20005    '
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20020805'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 0806200238C17511
+  expected_count: 27
+  input: '"F65","C00346858","PAC","American Society of Anesthesiologists","PAC  Attn.
+    Manuel Bonilla","1101 Vermont Ave, NW  Suite 606 ","Washington","DC","20005    ","","",20020805,1000.00,"","","","","","","","","","","",,"","0806200238C17511"'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x215b680>
+  result: []
+- input: '"F65","C00346858","IND","Assoc. Builders &^Contractors PAC","Ned Monroe","1300
+    North 17th Street ","Arlington","VA","22209    ","Assoc. Builders & Contractors","Political
+    Director",20020806,5000.00,"","","","","","","","","","","",,"","0806200238C17822"'
+  record: <fec.version.v3.F65.Records instance at 0x2c090e0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00346858
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Assoc. Builders &^Contractors PAC
+  - name: STREET 1
+    number: '5'
+    value: Ned Monroe
+  - name: STREET 2
+    number: '6'
+    value: '1300 North 17th Street '
+  - name: CITY
+    number: '7'
+    value: Arlington
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22209    '
+  - name: INDEMP
+    number: '10'
+    value: Assoc. Builders & Contractors
+  - name: INDOCC
+    number: '11'
+    value: Political Director
+  - name: Of Contribution
+    number: 12-
+    value: '20020806'
+  - name: AMOUNT
+    number: '13'
+    value: '5000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 0806200238C17822
+- input: '"F65","C00346858","IND","Holewinski^Amy","6420 Sagamore Road","","Shawnee
+    Mission","KS","66208    ","Dickinson Financial","Banker",20020805,1000.00,"","","","","","","","","","","",,"","0806200238C17603"'
+  record: <fec.version.v3.F65.Records instance at 0x2337128>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00346858
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Holewinski^Amy
+  - name: STREET 1
+    number: '5'
+    value: 6420 Sagamore Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Shawnee Mission
+  - name: STATE
+    number: '8'
+    value: KS
+  - name: ZIP
+    number: '9'
+    value: '66208    '
+  - name: INDEMP
+    number: '10'
+    value: Dickinson Financial
+  - name: INDOCC
+    number: '11'
+    value: Banker
+  - name: Of Contribution
+    number: 12-
+    value: '20020805'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 0806200238C17603
+- input: '"F65","C00346858","IND","Kansans for Life^","Mary Kay Culp","2501 E. Central
+    ","Wichita","KS","67214    ","Kansans For Life PAC","Director",20020806,2500.00,"","","","","","","","","","","",,"","0806200238C17914"'
+  record: <fec.version.v3.F65.Records instance at 0x215bc68>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00346858
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Kansans for Life^
+  - name: STREET 1
+    number: '5'
+    value: Mary Kay Culp
+  - name: STREET 2
+    number: '6'
+    value: '2501 E. Central '
+  - name: CITY
+    number: '7'
+    value: Wichita
+  - name: STATE
+    number: '8'
+    value: KS
+  - name: ZIP
+    number: '9'
+    value: '67214    '
+  - name: INDEMP
+    number: '10'
+    value: Kansans For Life PAC
+  - name: INDOCC
+    number: '11'
+    value: Director
+  - name: Of Contribution
+    number: 12-
+    value: '20020806'
+  - name: AMOUNT
+    number: '13'
+    value: '2500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 0806200238C17914
+sourceurl: !!python/unicode 20020806
+type: chunk
