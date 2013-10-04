@@ -1,0 +1,232 @@
+countraw: 5
+countrows: 3
+filename: 49738.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00375766
+  - name: COMMITTEE NAME
+    number: '3'
+    value: HARRY JACOBS FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: ' INC'
+  - name: STREET 2
+    number: '5'
+    value: 860 State Road 434 N
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Altamonte Springs
+  - name: ZIP
+    number: '8'
+    value: FL
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '32714'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H2FL24011
+  - name: CAN/OFFICE
+    number: '11'
+    value: Jacobs^Harry^^
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: FL
+  - name: Signed
+    number: 14-
+    value: '24'
+  - value: '20020910'
+  expected_count: 14
+  input: F6N,C00375766,"HARRY JACOBS FOR CONGRESS, INC",860 State Road 434 N,,Altamonte
+    Springs,FL,32714,H2FL24011,Jacobs^Harry^^,H,FL,24,20020910
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x47d8998>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00375766
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Gergel^Richard^Mr.
+  - name: STREET 1
+    number: '5'
+    value: 1915 Pendleton St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Columbia
+  - name: STATE
+    number: '8'
+    value: SC
+  - name: ZIP
+    number: '9'
+    value: '29201'
+  - name: INDEMP
+    number: '10'
+    value: Gergel
+  - name: INDOCC
+    number: '11'
+    value: ' Nickles'
+  - name: Of Contribution
+    number: 12-
+    value: ' & Solomon'
+  - name: AMOUNT
+    number: '13'
+    value: ' P.A.'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: attorney
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '20020909'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: '2000.00'
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: A
+  - value: F65.00000
+  expected_count: 27
+  input: F65,C00375766,IND,Gergel^Richard^Mr.,1915 Pendleton St.,,Columbia,SC,29201,"Gergel,
+    Nickles, & Solomon, P.A.",attorney,20020909,2000.00,,,,,,,,,,,,,A,F65.00000
+  input_count: 30
+  record: <fec.version.v3.F65.Records instance at 0x47d8b48>
+  result: []
+- input: F65,C00375766,IND,Gergel^Belinda^Mrs.,1915 Pendleton St,,Columbia,SC,29201,Self,Physician,20020909,2000.00,,,,,,,,,,,,,A,F65.00001
+  record: <fec.version.v3.F65.Records instance at 0x47d8998>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00375766
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Gergel^Belinda^Mrs.
+  - name: STREET 1
+    number: '5'
+    value: 1915 Pendleton St
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Columbia
+  - name: STATE
+    number: '8'
+    value: SC
+  - name: ZIP
+    number: '9'
+    value: '29201'
+  - name: INDEMP
+    number: '10'
+    value: Self
+  - name: INDOCC
+    number: '11'
+    value: Physician
+  - name: Of Contribution
+    number: 12-
+    value: '20020909'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: A
+  - name: TRAN ID
+    number: '27'
+    value: F65.00001
+sourceurl: !!python/unicode 20020910
+type: single
