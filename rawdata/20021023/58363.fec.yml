@@ -1,0 +1,171 @@
+countraw: 4
+countrows: 2
+filename: 58363.fec
+header: {}
+rows:
+- input: F24,C00004861,UNITE Campaign Committee,1710 Broadway,,New York,NY,10019,Romney^Edgar^^,20021023
+  record: <fec.version.v3.F24.Records instance at 0x25eecf8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00004861
+  - name: COMMITTEE NAME
+    number: '3'
+    value: UNITE Campaign Committee
+  - name: STREET 1
+    number: '4'
+    value: 1710 Broadway
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: New York
+  - name: STATE
+    number: '7'
+    value: NY
+  - name: ZIP
+    number: '8'
+    value: '10019'
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Romney^Edgar^^
+  - name: Signed
+    number: 10-
+    value: '20021023'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00004861
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: MacWilliams Robinson & Partners
+  - name: STREET 1
+    number: '5'
+    value: 1660 L Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANSDESC
+    number: '10'
+    value: '20036'
+  - name: DATE
+    number: '11'
+    value: Billboard Ads-Oppose Robert Hayes-NC-8
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20021023'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '3759.28'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: O
+  - name: S/O CAN/NAME
+    number: '15'
+    value: H8NC08042
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: HAYES^ROBERT CANNON^^
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: NC
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: 08
+  - name: Unused field
+    number: '20'
+    value: C00004861
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.7872
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - value: ''
+  expected_count: 41
+  input: SE24,C00004861,ORG,MacWilliams Robinson & Partners,"1660 L Street, NW",,Washington,DC,20036,Billboard
+    Ads-Oppose Robert Hayes-NC-8,20021023,3759.28,O,H8NC08042,HAYES^ROBERT CANNON^^,H,NC,08,C00004861,,,,,,,,,,,,,,,,,,SE24.7872,,,,
+  input_count: 42
+  record: <fec.version.v3.SE.Records instance at 0x25eedd0>
+  result: []
+sourceurl: !!python/unicode 20021023
+type: single
