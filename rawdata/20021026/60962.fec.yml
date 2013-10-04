@@ -1,0 +1,823 @@
+countraw: 12
+countrows: 10
+filename: 60962.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266940
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Sanford D. Bishop
+  - name: STREET 1
+    number: '4'
+    value: ' Jr. for Congress'
+  - name: STREET 2
+    number: '5'
+    value: P. O. Box 909
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Columbus
+  - name: ZIP
+    number: '8'
+    value: GA
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '31902   '
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H2GA02031
+  - name: CAN/OFFICE
+    number: '11'
+    value: Sanford D Bishop
+  - name: CAN/STATE
+    number: '12'
+    value: ' Jr.'
+  - name: CAN/DIST
+    number: '13'
+    value: H
+  - name: Signed
+    number: 14-
+    value: GA
+  - value: '02'
+  - value: '20021026'
+  expected_count: 14
+  input: '"F6","C00266940","Sanford D. Bishop, Jr. for Congress","P. O. Box 909","","Columbus","GA","31902   ","H2GA02031","Sanford
+    D Bishop, Jr.","H","GA","02",20021026'
+  input_count: 16
+  record: <fec.version.v3.F6.Records instance at 0x300ab48>
+  result: []
+- input: '"F65","C00266940","PAC","AMPAC/CBOT","Mr. Tad Davis","141 W. Jackson Blvd.
+    ","Chicago","IL","60604    ","PAC","pac",20021026,1000.00,"","","","","","","","","","","",,"","1026200234C59381"'
+  record: <fec.version.v3.F65.Records instance at 0x300a488>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266940
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: AMPAC/CBOT
+  - name: STREET 1
+    number: '5'
+    value: Mr. Tad Davis
+  - name: STREET 2
+    number: '6'
+    value: '141 W. Jackson Blvd. '
+  - name: CITY
+    number: '7'
+    value: Chicago
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60604    '
+  - name: INDEMP
+    number: '10'
+    value: PAC
+  - name: INDOCC
+    number: '11'
+    value: pac
+  - name: Of Contribution
+    number: 12-
+    value: '20021026'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 1026200234C59381
+- input: '"F65","C00266940","IND","Mr. Valentino Bates","2200 Heritage Dr.","","Atlanta","GA","30345    ","KHAFRA
+    Engineering Consultant","principal",20021026,1000.00,"","","","","","","","","","","",,"","1026200234C59362"'
+  record: <fec.version.v3.F65.Records instance at 0x300a7a0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266940
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Mr. Valentino Bates
+  - name: STREET 1
+    number: '5'
+    value: 2200 Heritage Dr.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Atlanta
+  - name: STATE
+    number: '8'
+    value: GA
+  - name: ZIP
+    number: '9'
+    value: '30345    '
+  - name: INDEMP
+    number: '10'
+    value: KHAFRA Engineering Consultant
+  - name: INDOCC
+    number: '11'
+    value: principal
+  - name: Of Contribution
+    number: 12-
+    value: '20021026'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 1026200234C59362
+- input: '"F65","C00266940","IND","Atty. James Butler","P. O. Box 2766","","Columbus","GA","31906    ","Butler
+    Wooten Overby Cheeley P","atty",20021026,1000.00,"","","","","","","","","","","",,"","1026200234C59373"'
+  record: <fec.version.v3.F65.Records instance at 0x300abd8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266940
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Atty. James Butler
+  - name: STREET 1
+    number: '5'
+    value: P. O. Box 2766
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Columbus
+  - name: STATE
+    number: '8'
+    value: GA
+  - name: ZIP
+    number: '9'
+    value: '31906    '
+  - name: INDEMP
+    number: '10'
+    value: Butler Wooten Overby Cheeley P
+  - name: INDOCC
+    number: '11'
+    value: atty
+  - name: Of Contribution
+    number: 12-
+    value: '20021026'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 1026200234C59373
+- input: '"F65","C00266940","PAC","Chicago Mercantile Exchange PAC","Mr. Patrick Mulchrone","30
+    S. Wacker Dr. ","Chicago","IL","60606    ","PAC","pac",20021026,1000.00,"","","","","","","","","","","",,"","1026200234C59394"'
+  record: <fec.version.v3.F65.Records instance at 0x300ac20>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266940
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Chicago Mercantile Exchange PAC
+  - name: STREET 1
+    number: '5'
+    value: Mr. Patrick Mulchrone
+  - name: STREET 2
+    number: '6'
+    value: '30 S. Wacker Dr. '
+  - name: CITY
+    number: '7'
+    value: Chicago
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60606    '
+  - name: INDEMP
+    number: '10'
+    value: PAC
+  - name: INDOCC
+    number: '11'
+    value: pac
+  - name: Of Contribution
+    number: 12-
+    value: '20021026'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 1026200234C59394
+- input: '"F65","C00266940","PAC","Dairy Educational PAC","Mr. Sam Stone","P. O. Box
+    909700 ","Kansas City","MO","641909700","PAC","pac",20021026,1000.00,"","","","","","","","","","","",,"","1026200234C59405"'
+  record: <fec.version.v3.F65.Records instance at 0x300ab48>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266940
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Dairy Educational PAC
+  - name: STREET 1
+    number: '5'
+    value: Mr. Sam Stone
+  - name: STREET 2
+    number: '6'
+    value: 'P. O. Box 909700 '
+  - name: CITY
+    number: '7'
+    value: Kansas City
+  - name: STATE
+    number: '8'
+    value: MO
+  - name: ZIP
+    number: '9'
+    value: '641909700'
+  - name: INDEMP
+    number: '10'
+    value: PAC
+  - name: INDOCC
+    number: '11'
+    value: pac
+  - name: Of Contribution
+    number: 12-
+    value: '20021026'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 1026200234C59405
+- input: '"F65","C00266940","PAC","Laborers Political League","Mr. Terence OSullivan","905
+    16th St. NW ","Washington","DC","20006    ","PAC","pac",20021026,2000.00,"","","","","","","","","","","",,"","1026200234C59426"'
+  record: <fec.version.v3.F65.Records instance at 0x300ac20>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266940
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Laborers Political League
+  - name: STREET 1
+    number: '5'
+    value: Mr. Terence OSullivan
+  - name: STREET 2
+    number: '6'
+    value: '905 16th St. NW '
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20006    '
+  - name: INDEMP
+    number: '10'
+    value: PAC
+  - name: INDOCC
+    number: '11'
+    value: pac
+  - name: Of Contribution
+    number: 12-
+    value: '20021026'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 1026200234C59426
+- input: '"F65","C00266940","PAC","Natl Rural Letter Carriers Assoc PAC","Mr. Ken
+    Parmelee","1630 Duke St. 4th Fl ","Alexandria","VA","223143465","PAC","pac",20021026,1000.00,"","","","","","","","","","","",,"","1026200234C59447"'
+  record: <fec.version.v3.F65.Records instance at 0x300ab48>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266940
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Natl Rural Letter Carriers Assoc PAC
+  - name: STREET 1
+    number: '5'
+    value: Mr. Ken Parmelee
+  - name: STREET 2
+    number: '6'
+    value: '1630 Duke St. 4th Fl '
+  - name: CITY
+    number: '7'
+    value: Alexandria
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '223143465'
+  - name: INDEMP
+    number: '10'
+    value: PAC
+  - name: INDOCC
+    number: '11'
+    value: pac
+  - name: Of Contribution
+    number: 12-
+    value: '20021026'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 1026200234C59447
+- input: '"F65","C00266940","PAC","Philip Morris PAC","Ms. Tanya Lombard","120 Park
+    Ave. ","New York","NY","10017    ","PAC","pac",20021026,2500.00,"","","","","","","","","","","",,"","1026200234C59458"'
+  record: <fec.version.v3.F65.Records instance at 0x300ac20>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266940
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Philip Morris PAC
+  - name: STREET 1
+    number: '5'
+    value: Ms. Tanya Lombard
+  - name: STREET 2
+    number: '6'
+    value: '120 Park Ave. '
+  - name: CITY
+    number: '7'
+    value: New York
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10017    '
+  - name: INDEMP
+    number: '10'
+    value: PAC
+  - name: INDOCC
+    number: '11'
+    value: pac
+  - name: Of Contribution
+    number: 12-
+    value: '20021026'
+  - name: AMOUNT
+    number: '13'
+    value: '2500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 1026200234C59458
+- input: '"F65","C00266940","PAC","Weyerhaeuser PAC","Mr. Thedford Collins","33663
+    Weyerhaeuser Way South ","Federal Way","WA","98003    ","PAC","pac",20021026,1000.00,"","","","","","","","","","","",,"","1026200234C59469"'
+  record: <fec.version.v3.F65.Records instance at 0x300aef0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266940
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Weyerhaeuser PAC
+  - name: STREET 1
+    number: '5'
+    value: Mr. Thedford Collins
+  - name: STREET 2
+    number: '6'
+    value: '33663 Weyerhaeuser Way South '
+  - name: CITY
+    number: '7'
+    value: Federal Way
+  - name: STATE
+    number: '8'
+    value: WA
+  - name: ZIP
+    number: '9'
+    value: '98003    '
+  - name: INDEMP
+    number: '10'
+    value: PAC
+  - name: INDOCC
+    number: '11'
+    value: pac
+  - name: Of Contribution
+    number: 12-
+    value: '20021026'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 1026200234C59469
+sourceurl: !!python/unicode 20021026
+type: single
