@@ -1,0 +1,143 @@
+countraw: 4
+countrows: 2
+filename: 56600.fec
+header: {}
+rows:
+- input: F6N,C00280453,JOHN SHADEGG'S FRIENDS,P.O. Box 45444,,Phoenix,AZ,85064,H4AZ04016,SHADEGG^JOHN^HON.^,H,AZ,03,20021018
+  record: <fec.version.v3.F6.Records instance at 0x2665b90>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00280453
+  - name: COMMITTEE NAME
+    number: '3'
+    value: JOHN SHADEGG'S FRIENDS
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 45444
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Phoenix
+  - name: STATE
+    number: '7'
+    value: AZ
+  - name: ZIP
+    number: '8'
+    value: '85064'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H4AZ04016
+  - name: CANDIDATE NAME
+    number: '10'
+    value: SHADEGG^JOHN^HON.^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: AZ
+  - name: CAN/DIST
+    number: '13'
+    value: '03'
+  - name: Signed
+    number: 14-
+    value: '20021018'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00280453
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: GROCERY MANUFACTURERS OF AMERICA
+  - name: STREET 1
+    number: '5'
+    value: ' INC. PAC'
+  - name: STREET 2
+    number: '6'
+    value: 1010 WISCONSIN AVE
+  - name: CITY
+    number: '7'
+    value: ' NW'
+  - name: STATE
+    number: '8'
+    value: ' SUITE 900'
+  - name: ZIP
+    number: '9'
+    value: ''
+  - name: INDEMP
+    number: '10'
+    value: WASHINGTON
+  - name: INDOCC
+    number: '11'
+    value: DC
+  - name: Of Contribution
+    number: 12-
+    value: '20007'
+  - name: AMOUNT
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '20021018'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: '1000.00'
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: A
+  - value: F65.00000
+  expected_count: 27
+  input: F65,C00280453,PAC,"GROCERY MANUFACTURERS OF AMERICA, INC. PAC","1010 WISCONSIN
+    AVE, NW, SUITE 900",,WASHINGTON,DC,20007,,,20021018,1000.00,,,,,,,,,,,,,A,F65.00000
+  input_count: 30
+  record: <fec.version.v3.F65.Records instance at 0x26657a0>
+  result: []
+sourceurl: !!python/unicode 20021018
+type: single
