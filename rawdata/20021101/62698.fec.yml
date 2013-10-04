@@ -1,0 +1,656 @@
+countraw: 10
+countrows: 8
+filename: 62698.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00202416
+  - name: COMMITTEE NAME
+    number: '3'
+    value: JOHN LEWIS FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 1520 PINEHURST DRIVE
+  - name: STREET 2
+    number: '5'
+    value: ' SW'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: ATLANTA
+  - name: ZIP
+    number: '8'
+    value: GA
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '30311'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: C00202416
+  - name: CAN/OFFICE
+    number: '11'
+    value: JOHN LEWIS FOR CONGRESS^^^
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: GA
+  - name: Signed
+    number: 14-
+    value: '05'
+  - value: '20021031'
+  expected_count: 14
+  input: F6,C00202416,JOHN LEWIS FOR CONGRESS,"1520 PINEHURST DRIVE, SW",,ATLANTA,GA,30311,C00202416,JOHN
+    LEWIS FOR CONGRESS^^^,H,GA,05,20021031
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x2664cb0>
+  result: []
+- input: F65,C00202416,PAC,AOL TIME WARNER INC PAC (F/K/A AMERICA ONLINE INC POLITICAL
+    ACTION COMMITTEE),800 Connecticut Avenue NW Suite,,Washington,DC,20006,,,20021030,1000.00,C00202416,H6GA05217,JOHN
+    LEWIS FOR CONGRESS^^^,H,GA,05,,,,,,,,F6.5601
+  record: <fec.version.v3.F65.Records instance at 0x2664320>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00202416
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: AOL TIME WARNER INC PAC (F/K/A AMERICA ONLINE INC POLITICAL ACTION COMMITTEE)
+  - name: STREET 1
+    number: '5'
+    value: 800 Connecticut Avenue NW Suite
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20006'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021030'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00202416
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6GA05217
+  - name: CANDIDATE NAME
+    number: '16'
+    value: JOHN LEWIS FOR CONGRESS^^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: GA
+  - name: CAN/DIST
+    number: '19'
+    value: '05'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5601
+- input: F65,C00202416,PAC,ELI LILLY AND COMPANY,LILLY COPORATE CENTER,,INDIANAPOLIS,IN,46285,,,20021031,1000.00,C00202416,H6GA05217,JOHN
+    LEWIS FOR CONGRESS^^^,H,GA,05,,,,,,,,F6.5611
+  record: <fec.version.v3.F65.Records instance at 0x2664cb0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00202416
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: ELI LILLY AND COMPANY
+  - name: STREET 1
+    number: '5'
+    value: LILLY COPORATE CENTER
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: INDIANAPOLIS
+  - name: STATE
+    number: '8'
+    value: IN
+  - name: ZIP
+    number: '9'
+    value: '46285'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021031'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00202416
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6GA05217
+  - name: CANDIDATE NAME
+    number: '16'
+    value: JOHN LEWIS FOR CONGRESS^^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: GA
+  - name: CAN/DIST
+    number: '19'
+    value: '05'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5611
+- input: F65,C00202416,PAC,HUDSON VALLEY POLITICAL ACTION COMMITTEE,900 RTE. 45,900
+    ROUTE 45,NEW CITY,NY,10956,,,20021030,1000.00,C00202416,H6GA05217,JOHN LEWIS FOR
+    CONGRESS^^^,H,GA,05,,,,,,,,F6.5602
+  record: <fec.version.v3.F65.Records instance at 0x2664320>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00202416
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: HUDSON VALLEY POLITICAL ACTION COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: 900 RTE. 45
+  - name: STREET 2
+    number: '6'
+    value: 900 ROUTE 45
+  - name: CITY
+    number: '7'
+    value: NEW CITY
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10956'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021030'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00202416
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6GA05217
+  - name: CANDIDATE NAME
+    number: '16'
+    value: JOHN LEWIS FOR CONGRESS^^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: GA
+  - name: CAN/DIST
+    number: '19'
+    value: '05'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5602
+- input: F65,C00202416,PAC,IRONWORKERS POLITICAL ACTION LEAGUE,1750 New York Ave.
+    NW Ste. 400,.,Washington,DC,20006,,,20021031,2500.00,C00202416,H6GA05217,JOHN
+    LEWIS FOR CONGRESS^^^,H,GA,05,,,,,,,,F6.5610
+  record: <fec.version.v3.F65.Records instance at 0x2664c68>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00202416
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: IRONWORKERS POLITICAL ACTION LEAGUE
+  - name: STREET 1
+    number: '5'
+    value: 1750 New York Ave. NW Ste. 400
+  - name: STREET 2
+    number: '6'
+    value: .
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20006'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021031'
+  - name: AMOUNT
+    number: '13'
+    value: '2500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00202416
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6GA05217
+  - name: CANDIDATE NAME
+    number: '16'
+    value: JOHN LEWIS FOR CONGRESS^^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: GA
+  - name: CAN/DIST
+    number: '19'
+    value: '05'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5610
+- input: F65,C00202416,PAC,NORTHERN ASSOCIATION OF CLINICAL NEUROLOGISTS,1111 PLAZA,SUITE
+    550,CHAUMBERG,IL,60173,,,20021030,1000.00,C00202416,H6GA05217,JOHN LEWIS FOR CONGRESS^^^,H,GA,05,,,,,,,,F6.5604
+  record: <fec.version.v3.F65.Records instance at 0x2664320>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00202416
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: NORTHERN ASSOCIATION OF CLINICAL NEUROLOGISTS
+  - name: STREET 1
+    number: '5'
+    value: 1111 PLAZA
+  - name: STREET 2
+    number: '6'
+    value: SUITE 550
+  - name: CITY
+    number: '7'
+    value: CHAUMBERG
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60173'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021030'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00202416
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6GA05217
+  - name: CANDIDATE NAME
+    number: '16'
+    value: JOHN LEWIS FOR CONGRESS^^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: GA
+  - name: CAN/DIST
+    number: '19'
+    value: '05'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5604
+- input: F65,C00202416,PAC,SkinPAC,1350 'I' Street,Suite 880,Washington,DC,20005,,,20021031,1000.00,C00202416,H6GA05217,JOHN
+    LEWIS FOR CONGRESS^^^,H,GA,05,,,,,,,,F6.5609
+  record: <fec.version.v3.F65.Records instance at 0x2664c68>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00202416
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: SkinPAC
+  - name: STREET 1
+    number: '5'
+    value: 1350 'I' Street
+  - name: STREET 2
+    number: '6'
+    value: Suite 880
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20005'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021031'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00202416
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6GA05217
+  - name: CANDIDATE NAME
+    number: '16'
+    value: JOHN LEWIS FOR CONGRESS^^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: GA
+  - name: CAN/DIST
+    number: '19'
+    value: '05'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5609
+- input: F65,C00202416,PAC,UAW - V - CAP (UAW VOLUNTARY COMMUNITY ACTION PROGRAM),8000
+    EAST JEFFERSON,.,DETROIT,MI,48214,,,20021030,5000.00,C00202416,H6GA05217,JOHN
+    LEWIS FOR CONGRESS^^^,H,GA,05,,,,,,,,F6.5603
+  record: <fec.version.v3.F65.Records instance at 0x2664320>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00202416
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: UAW - V - CAP (UAW VOLUNTARY COMMUNITY ACTION PROGRAM)
+  - name: STREET 1
+    number: '5'
+    value: 8000 EAST JEFFERSON
+  - name: STREET 2
+    number: '6'
+    value: .
+  - name: CITY
+    number: '7'
+    value: DETROIT
+  - name: STATE
+    number: '8'
+    value: MI
+  - name: ZIP
+    number: '9'
+    value: '48214'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021030'
+  - name: AMOUNT
+    number: '13'
+    value: '5000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00202416
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6GA05217
+  - name: CANDIDATE NAME
+    number: '16'
+    value: JOHN LEWIS FOR CONGRESS^^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: GA
+  - name: CAN/DIST
+    number: '19'
+    value: '05'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5603
+sourceurl: !!python/unicode 20021101
+type: single
