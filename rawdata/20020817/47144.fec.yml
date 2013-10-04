@@ -1,0 +1,227 @@
+countraw: 5
+countrows: 3
+filename: 47144.fec
+header: {}
+rows:
+- input: F6,C00379990,BEN ODOM FOR CONGRESS 2002,PO BOX 1621,,NORMAN,OK,73070,H8OK04037,ODOM^BENJAMIN
+    HOUSTON^^,H,OK,04,20020816
+  record: <fec.version.v3.F6.Records instance at 0x47dccb0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00379990
+  - name: COMMITTEE NAME
+    number: '3'
+    value: BEN ODOM FOR CONGRESS 2002
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 1621
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: NORMAN
+  - name: STATE
+    number: '7'
+    value: OK
+  - name: ZIP
+    number: '8'
+    value: '73070'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H8OK04037
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ODOM^BENJAMIN HOUSTON^^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: OK
+  - name: CAN/DIST
+    number: '13'
+    value: '04'
+  - name: Signed
+    number: 14-
+    value: '20020816'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00379990
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Rose^Mack L.^^
+  - name: STREET 1
+    number: '5'
+    value: 2003 Morgan Dr.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Norman
+  - name: STATE
+    number: '8'
+    value: OK
+  - name: ZIP
+    number: '9'
+    value: '73069'
+  - name: INDEMP
+    number: '10'
+    value: Mack L. Rose
+  - name: INDOCC
+    number: '11'
+    value: ' DDS'
+  - name: Of Contribution
+    number: 12-
+    value: Orthodontist
+  - name: AMOUNT
+    number: '13'
+    value: '20020816'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00379990
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H8OK04037
+  - name: CAN/OFFICE
+    number: '17'
+    value: ODOM^BENJAMIN HOUSTON^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: OK
+  - name: CONDUIT NAME
+    number: '20'
+    value: '04'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.4489
+  expected_count: 27
+  input: F65,C00379990,IND,Rose^Mack L.^^,2003 Morgan Dr.,,Norman,OK,73069,"Mack L.
+    Rose, DDS",Orthodontist,20020816,1000.00,C00379990,H8OK04037,ODOM^BENJAMIN HOUSTON^^,H,OK,04,,,,,,,,F6.4489
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x47dcef0>
+  result: []
+- input: F65,C00379990,CAN,ODOM^BENJAMIN HOUSTON^^,1905 BROOKHAVEN BOULEVARD,,NORMAN,OK,73072,Self-employed,Attorney,20020816,70000.00,C00379990,H8OK04037,ODOM^BENJAMIN
+    HOUSTON^^,H,OK,04,,,,,,,,F6.4488
+  record: <fec.version.v3.F65.Records instance at 0x47dccb0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00379990
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: ODOM^BENJAMIN HOUSTON^^
+  - name: STREET 1
+    number: '5'
+    value: 1905 BROOKHAVEN BOULEVARD
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: NORMAN
+  - name: STATE
+    number: '8'
+    value: OK
+  - name: ZIP
+    number: '9'
+    value: '73072'
+  - name: INDEMP
+    number: '10'
+    value: Self-employed
+  - name: INDOCC
+    number: '11'
+    value: Attorney
+  - name: Of Contribution
+    number: 12-
+    value: '20020816'
+  - name: AMOUNT
+    number: '13'
+    value: '70000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00379990
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8OK04037
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ODOM^BENJAMIN HOUSTON^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: OK
+  - name: CAN/DIST
+    number: '19'
+    value: '04'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4488
+sourceurl: !!python/unicode 20020817
+type: single
