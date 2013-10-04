@@ -1,0 +1,404 @@
+countraw: 7
+countrows: 5
+filename: 58030.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00146779
+  - name: COMMITTEE NAME
+    number: '3'
+    value: FRIENDS OF LANE EVANS COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: 1800 3RD AVENUE
+  - name: STREET 2
+    number: '5'
+    value: ' SUITE 216'
+  - name: CITY
+    number: '6'
+    value: PO  BOX 5263
+  - name: STATE
+    number: '7'
+    value: ROCK ISLAND
+  - name: ZIP
+    number: '8'
+    value: IL
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '61201'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ''
+  - name: CAN/OFFICE
+    number: '11'
+    value: ''
+  - name: CAN/STATE
+    number: '12'
+    value: ''
+  - name: CAN/DIST
+    number: '13'
+    value: IL
+  - name: Signed
+    number: 14-
+    value: '17'
+  - value: '20021022'
+  expected_count: 14
+  input: '"F6N","C00146779","FRIENDS OF LANE EVANS COMMITTEE","1800 3RD AVENUE, SUITE
+    216","PO  BOX 5263","ROCK ISLAND","IL","61201","","","","IL",17,"20021022"'
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x25eec68>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00146779
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Dorris
+  - name: STREET 1
+    number: '5'
+    value: ' David'
+  - name: STREET 2
+    number: '6'
+    value: 207 W. Jefferson St.
+  - name: CITY
+    number: '7'
+    value: Suite 601
+  - name: STATE
+    number: '8'
+    value: Bloomington
+  - name: ZIP
+    number: '9'
+    value: IL
+  - name: INDEMP
+    number: '10'
+    value: '61701'
+  - name: INDOCC
+    number: '11'
+    value: SELF
+  - name: Of Contribution
+    number: 12-
+    value: ATTORNEY
+  - name: AMOUNT
+    number: '13'
+    value: '20021022'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 'C04hF01             '
+  expected_count: 27
+  input: '"F65","C00146779","IND","Dorris, David","207 W. Jefferson St.","Suite 601","Bloomington","IL","61701","SELF","ATTORNEY",20021022,1000.00,"","","","","",,"","","","","","","","C04hF01             "'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x25eefc8>
+  result: []
+- input: '"F65","C00146779","PAC","Ntnl Comm To Pres S. S. & Medicare P. A. C","Max
+    Richtmann","10 G. Street NE Suite 600","Washington","DC","20002","","",20021022,1000.00,"C00172296","","","","",,"","","","","","","","C01Yy0R             "'
+  record: <fec.version.v3.F65.Records instance at 0x25eec68>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00146779
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Ntnl Comm To Pres S. S. & Medicare P. A. C
+  - name: STREET 1
+    number: '5'
+    value: Max Richtmann
+  - name: STREET 2
+    number: '6'
+    value: 10 G. Street NE Suite 600
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20002'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021022'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00172296
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 'C01Yy0R             '
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00146779
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: NRLCA Political Action Comm
+  - name: STREET 1
+    number: '5'
+    value: Ken Parmelee
+  - name: STREET 2
+    number: '6'
+    value: 1630 Duke Street
+  - name: CITY
+    number: '7'
+    value: ' 4th Floor'
+  - name: STATE
+    number: '8'
+    value: Alexandria
+  - name: ZIP
+    number: '9'
+    value: VA
+  - name: INDEMP
+    number: '10'
+    value: '22314'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20021022'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00072025
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 'C01ZK0B             '
+  expected_count: 27
+  input: '"F65","C00146779","PAC","NRLCA Political Action Comm","Ken Parmelee","1630
+    Duke Street, 4th Floor","Alexandria","VA","22314","","",20021022,2000.00,"C00072025","","","","",,"","","","","","","","C01ZK0B             "'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x25eed88>
+  result: []
+- input: '"F65","C00146779","PAC","U. A. W. C. A. P.","Stephen Yokich","8000 E. Jefferson
+    Avenue","Detroit","MI","48214","","",20021022,3000.00,"C00002840","","","","",,"","","","","","","","C02g00A             "'
+  record: <fec.version.v3.F65.Records instance at 0x25eefc8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00146779
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: U. A. W. C. A. P.
+  - name: STREET 1
+    number: '5'
+    value: Stephen Yokich
+  - name: STREET 2
+    number: '6'
+    value: 8000 E. Jefferson Avenue
+  - name: CITY
+    number: '7'
+    value: Detroit
+  - name: STATE
+    number: '8'
+    value: MI
+  - name: ZIP
+    number: '9'
+    value: '48214'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021022'
+  - name: AMOUNT
+    number: '13'
+    value: '3000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00002840
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 'C02g00A             '
+sourceurl: !!python/unicode 20021022
+type: single
