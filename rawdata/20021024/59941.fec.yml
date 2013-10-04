@@ -1,0 +1,683 @@
+countraw: 8
+countrows: 6
+filename: 59941.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00029447
+  - name: COMMITTEE NAME
+    number: '3'
+    value: FIRE FIGHTERS INTERESTED IN REGISTRATION AND EDUCATION POLITICAL ACTION
+      COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: 1750 NEW YORK AVENUE
+  - name: STREET 2
+    number: '5'
+    value: ' N.W.'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: WASHINGTON
+  - name: ZIP
+    number: '8'
+    value: DC
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: '20006'
+  - name: Signed
+    number: 10-
+    value: Bollon^Vincent^^
+  - value: '20021024'
+  expected_count: 10
+  input: F24,C00029447,FIRE FIGHTERS INTERESTED IN REGISTRATION AND EDUCATION POLITICAL
+    ACTION COMMITTEE,"1750 NEW YORK AVENUE, N.W.",,WASHINGTON,DC,20006,Bollon^Vincent^^,20021024
+  input_count: 11
+  record: <fec.version.v3.F24.Records instance at 0x26695f0>
+  result: []
+- input: SE24,C00029447,ORG,Honolulu Advertiser,605 Kapiolani Blvd,,Honolulu,HI,96813,Newspaper
+    Advertisement,20021024,31.89,S,C00247379,ABERCROMBIE FOR CONGRESS^^^,H,HI,01,C00029447,,,,,,,,,,,,,,,,,,SE24.10852,,,,
+  record: <fec.version.v3.SE.Records instance at 0x2669a28>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00029447
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Honolulu Advertiser
+  - name: STREET 1
+    number: '5'
+    value: 605 Kapiolani Blvd
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Honolulu
+  - name: STATE
+    number: '8'
+    value: HI
+  - name: ZIP
+    number: '9'
+    value: '96813'
+  - name: TRANSDESC
+    number: '10'
+    value: Newspaper Advertisement
+  - name: DATE
+    number: '11'
+    value: '20021024'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '31.89'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: C00247379
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ABERCROMBIE FOR CONGRESS^^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: HI
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '01'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00029447
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.10852
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+- input: SE24,C00029447,ORG,Honolulu Advertiser,605 Kapiolani Blvd,,Honolulu,HI,96813,Newspaper
+    Advertisement,20021024,31.90,S,,Patsy Mink Campaign Committee^^^,H,HI,2,C00029447,,,,,,,,,,,,,,,,,,SE24.10854,,,,
+  record: <fec.version.v3.SE.Records instance at 0x2669998>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00029447
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Honolulu Advertiser
+  - name: STREET 1
+    number: '5'
+    value: 605 Kapiolani Blvd
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Honolulu
+  - name: STATE
+    number: '8'
+    value: HI
+  - name: ZIP
+    number: '9'
+    value: '96813'
+  - name: TRANSDESC
+    number: '10'
+    value: Newspaper Advertisement
+  - name: DATE
+    number: '11'
+    value: '20021024'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '31.90'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Patsy Mink Campaign Committee^^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: HI
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '2'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00029447
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.10854
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+- input: SE24,C00029447,ORG,Keystone Press,9 Old Falls Road,,Manchester,NH,03103,4
+    x 8 Yard Signs,20021024,3415.00,S,,Shaheen for Senate^^^,S,NH,,C00029447,,,,,,,,,,,,,,,,,,SE24.10853,,,,
+  record: <fec.version.v3.SE.Records instance at 0x2669a28>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00029447
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Keystone Press
+  - name: STREET 1
+    number: '5'
+    value: 9 Old Falls Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Manchester
+  - name: STATE
+    number: '8'
+    value: NH
+  - name: ZIP
+    number: '9'
+    value: '03103'
+  - name: TRANSDESC
+    number: '10'
+    value: 4 x 8 Yard Signs
+  - name: DATE
+    number: '11'
+    value: '20021024'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '3415.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Shaheen for Senate^^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: S
+  - name: S/O STATE
+    number: '17'
+    value: NH
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00029447
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.10853
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+- input: 'SE24,C00029447,ORG,Midweek Printing,7 Waterfront Plaza,500 Ala Moana Blvd
+    #500,Honolulu,HI,96813,Newspaper Advertisement,20021024,131.24,S,C00247379,ABERCROMBIE
+    FOR CONGRESS^^^,H,HI,01,C00029447,,,,,,,,,,,,,,,,,,SE24.10855,,,,'
+  record: <fec.version.v3.SE.Records instance at 0x2669998>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00029447
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Midweek Printing
+  - name: STREET 1
+    number: '5'
+    value: 7 Waterfront Plaza
+  - name: STREET 2
+    number: '6'
+    value: '500 Ala Moana Blvd #500'
+  - name: CITY
+    number: '7'
+    value: Honolulu
+  - name: STATE
+    number: '8'
+    value: HI
+  - name: ZIP
+    number: '9'
+    value: '96813'
+  - name: TRANSDESC
+    number: '10'
+    value: Newspaper Advertisement
+  - name: DATE
+    number: '11'
+    value: '20021024'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '131.24'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: C00247379
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ABERCROMBIE FOR CONGRESS^^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: HI
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '01'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00029447
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.10855
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+- input: 'SE24,C00029447,ORG,Midweek Printing,7 Waterfront Plaza,500 Ala Moana Blvd
+    #500,Honolulu,HI,96813,Newspaper Advertisement,20021024,131.24,S,,Patsy Mink Campaign
+    Committee^^^,H,HI,2,C00029447,,,,,,,,,,,,,,,,,,SE24.10856,,,,'
+  record: <fec.version.v3.SE.Records instance at 0x26695a8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00029447
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Midweek Printing
+  - name: STREET 1
+    number: '5'
+    value: 7 Waterfront Plaza
+  - name: STREET 2
+    number: '6'
+    value: '500 Ala Moana Blvd #500'
+  - name: CITY
+    number: '7'
+    value: Honolulu
+  - name: STATE
+    number: '8'
+    value: HI
+  - name: ZIP
+    number: '9'
+    value: '96813'
+  - name: TRANSDESC
+    number: '10'
+    value: Newspaper Advertisement
+  - name: DATE
+    number: '11'
+    value: '20021024'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '131.24'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Patsy Mink Campaign Committee^^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: HI
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '2'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00029447
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.10856
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+sourceurl: !!python/unicode 20021024
+type: single
