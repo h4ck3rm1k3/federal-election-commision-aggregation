@@ -1,0 +1,231 @@
+countraw: 5
+countrows: 3
+filename: 57161.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00313494
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Steve Rothman For Congress
+  - name: STREET 1
+    number: '4'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '5'
+    value: Post Office Box 714
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Hackensack
+  - name: ZIP
+    number: '8'
+    value: NJ
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '07602   '
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H6NJ09165
+  - name: CAN/OFFICE
+    number: '11'
+    value: Steven Rothman
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: NJ
+  - name: Signed
+    number: 14-
+    value: '9 '
+  - value: '20010730'
+  expected_count: 14
+  input: '"F6","C00313494","Steve Rothman For Congress, Inc.","Post Office Box 714","","Hackensack","NJ","07602   ","H6NJ09165","Steven
+    Rothman","H","NJ","9 ",20010730'
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x25ee9e0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00313494
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: International Union
+  - name: STREET 1
+    number: '5'
+    value: ' United Automobile'
+  - name: STREET 2
+    number: '6'
+    value: Aerospace & Agricultural Implement
+  - name: CITY
+    number: '7'
+    value: 'Workers of America - UAW V CAP '
+  - name: STATE
+    number: '8'
+    value: Detroit
+  - name: ZIP
+    number: '9'
+    value: MI
+  - name: INDEMP
+    number: '10'
+    value: '482143963'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20021021'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 1021200224C73511
+  expected_count: 27
+  input: '"F65","C00313494","PAC","International Union, United Automobile","Aerospace
+    & Agricultural Implement","Workers of America - UAW V CAP ","Detroit","MI","482143963","","",20021021,2000.00,"","","","","","","","","","","",,"","1021200224C73511"'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x2664128>
+  result: []
+- input: '"F65","C00313494","IND","Sokol^Leon","433 Hackensack Avenue","","Hackensack","NJ","076014321","Sokol
+    Behot & Fiorenzo","Attorney",20021021,1000.00,"","","","","","","","","","","",,"","101920021C73162"'
+  record: <fec.version.v3.F65.Records instance at 0x25eed88>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00313494
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Sokol^Leon
+  - name: STREET 1
+    number: '5'
+    value: 433 Hackensack Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Hackensack
+  - name: STATE
+    number: '8'
+    value: NJ
+  - name: ZIP
+    number: '9'
+    value: '076014321'
+  - name: INDEMP
+    number: '10'
+    value: Sokol Behot & Fiorenzo
+  - name: INDOCC
+    number: '11'
+    value: Attorney
+  - name: Of Contribution
+    number: 12-
+    value: '20021021'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 101920021C73162
+sourceurl: !!python/unicode 20021021
+type: single
