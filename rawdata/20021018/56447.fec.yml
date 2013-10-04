@@ -1,0 +1,321 @@
+countraw: 6
+countrows: 4
+filename: 56447.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00117119
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Friends of Clay Shaw
+  - name: STREET 1
+    number: '4'
+    value: 2600 NE 14th. Street Causeway
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Pompano Beach
+  - name: STATE
+    number: '7'
+    value: FL
+  - name: ZIP
+    number: '8'
+    value: '33062   '
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: C00117119
+  - name: CANDIDATE NAME
+    number: '10'
+    value: E. Clay Shaw
+  - name: CAN/OFFICE
+    number: '11'
+    value: ' Jr.'
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: FL
+  - name: Signed
+    number: 14-
+    value: ' '
+  - value: '18991230'
+  expected_count: 14
+  input: '"F6","C00117119","Friends of Clay Shaw","2600 NE 14th. Street Causeway","","Pompano
+    Beach","FL","33062   ","C00117119","E. Clay Shaw, Jr.","H","FL"," ",18991230'
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x47dc200>
+  result: []
+- input: '"F65","C00117119","PAC","BellSouth  Federal PAC","PAC Director","150 South
+    Monroe Street ","Tallahassee","FL","32301    ","BellSouth Telecom.Federal PAC","PAC",20021018,2000.00,"","","","","","","","","","","",,"","1018200220C278211"'
+  record: <fec.version.v3.F65.Records instance at 0x47dc488>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00117119
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: BellSouth  Federal PAC
+  - name: STREET 1
+    number: '5'
+    value: PAC Director
+  - name: STREET 2
+    number: '6'
+    value: '150 South Monroe Street '
+  - name: CITY
+    number: '7'
+    value: Tallahassee
+  - name: STATE
+    number: '8'
+    value: FL
+  - name: ZIP
+    number: '9'
+    value: '32301    '
+  - name: INDEMP
+    number: '10'
+    value: BellSouth Telecom.Federal PAC
+  - name: INDOCC
+    number: '11'
+    value: PAC
+  - name: Of Contribution
+    number: 12-
+    value: '20021018'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 1018200220C278211
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00117119
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Stephens Inc. Fed PAC
+  - name: STREET 1
+    number: '5'
+    value: Mr. Frank Thomas
+  - name: STREET 2
+    number: '6'
+    value: '111 Center Street '
+  - name: CITY
+    number: '7'
+    value: Little Rock
+  - name: STATE
+    number: '8'
+    value: AR
+  - name: ZIP
+    number: '9'
+    value: '72201    '
+  - name: INDEMP
+    number: '10'
+    value: Stephens
+  - name: INDOCC
+    number: '11'
+    value: ' Inc. PAC'
+  - name: Of Contribution
+    number: 12-
+    value: PAC
+  - name: AMOUNT
+    number: '13'
+    value: '20021018'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2500.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 1018200220C278222
+  expected_count: 27
+  input: '"F65","C00117119","PAC","Stephens Inc. Fed PAC","Mr. Frank Thomas","111
+    Center Street ","Little Rock","AR","72201    ","Stephens, Inc. PAC","PAC",20021018,2500.00,"","","","","","","","","","","",,"","1018200220C278222"'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x47dcf38>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00117119
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Republican Jewish Coalition
+  - name: STREET 1
+    number: '5'
+    value: PAC Director
+  - name: STREET 2
+    number: '6'
+    value: 415 Second Street
+  - name: CITY
+    number: '7'
+    value: ' NE '
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20002    '
+  - name: INDOCC
+    number: '11'
+    value: Republica Jewish Coalition PAC
+  - name: Of Contribution
+    number: 12-
+    value: PAC
+  - name: AMOUNT
+    number: '13'
+    value: '20021018'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2500.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 1018200220C278373
+  expected_count: 27
+  input: '"F65","C00117119","PAC","Republican Jewish Coalition","PAC Director","415
+    Second Street, NE ","Washington","DC","20002    ","Republica Jewish Coalition
+    PAC","PAC",20021018,2500.00,"","","","","","","","","","","",,"","1018200220C278373"'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x47dce60>
+  result: []
+sourceurl: !!python/unicode 20021018
+type: single
