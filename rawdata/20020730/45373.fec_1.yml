@@ -1,0 +1,652 @@
+countraw: 10
+countrows: 8
+filename: 45373.fec
+header: {}
+rows:
+- input: F6,C00200584,UPTON FOR ALL OF US,PO BOX 490,,ST JOSEPH,MI,49085,,,H,MI,06,20020726
+  record: <fec.version.v3.F6.Records instance at 0xe979bd8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00200584
+  - name: COMMITTEE NAME
+    number: '3'
+    value: UPTON FOR ALL OF US
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 490
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: ST JOSEPH
+  - name: STATE
+    number: '7'
+    value: MI
+  - name: ZIP
+    number: '8'
+    value: '49085'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ''
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: MI
+  - name: CAN/DIST
+    number: '13'
+    value: '06'
+  - name: Signed
+    number: 14-
+    value: '20020726'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00200584
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Bennett^Douglas^Mr.^
+  - name: STREET 1
+    number: '5'
+    value: 2525 N. Nelson Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Arlington
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22207'
+  - name: INDEMP
+    number: '10'
+    value: PWS
+  - name: INDOCC
+    number: '11'
+    value: ' Inc.'
+  - name: Of Contribution
+    number: 12-
+    value: Vice President
+  - name: AMOUNT
+    number: '13'
+    value: '20020726'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00200584
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H6MI04113
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: MI
+  - name: CONDUIT NAME
+    number: '20'
+    value: '06'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.11185
+  expected_count: 27
+  input: F65,C00200584,IND,Bennett^Douglas^Mr.^,2525 N. Nelson Street,,Arlington,VA,22207,"PWS,
+    Inc.",Vice President,20020726,1000.00,C00200584,H6MI04113,,H,MI,06,,,,,,,,F6.11185
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0xe979758>
+  result: []
+- input: F65,C00200584,PAC,CINGULAR WIRELESS LLC EMPLOYEE POLITICAL ACTION COMMITTEE,5565
+    Glenridge Connector,Suite 1700,Atlanta,GA,30342,,,20020726,1000.00,C00200584,H6MI04113,,H,MI,06,,,,,,,,F6.11191
+  record: <fec.version.v3.F65.Records instance at 0xe979bd8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00200584
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: CINGULAR WIRELESS LLC EMPLOYEE POLITICAL ACTION COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: 5565 Glenridge Connector
+  - name: STREET 2
+    number: '6'
+    value: Suite 1700
+  - name: CITY
+    number: '7'
+    value: Atlanta
+  - name: STATE
+    number: '8'
+    value: GA
+  - name: ZIP
+    number: '9'
+    value: '30342'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020726'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00200584
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6MI04113
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: MI
+  - name: CAN/DIST
+    number: '19'
+    value: '06'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.11191
+- input: F65,C00200584,PAC,DYKEMA GOSSETT FEDERAL PAC,800 MICHIGAN NATIONAL TOWER,,LANSING,MI,48933,,,20020726,1000.00,C00200584,H6MI04113,,H,MI,06,,,,,,,,F6.11190
+  record: <fec.version.v3.F65.Records instance at 0xe979758>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00200584
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: DYKEMA GOSSETT FEDERAL PAC
+  - name: STREET 1
+    number: '5'
+    value: 800 MICHIGAN NATIONAL TOWER
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: LANSING
+  - name: STATE
+    number: '8'
+    value: MI
+  - name: ZIP
+    number: '9'
+    value: '48933'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020726'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00200584
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6MI04113
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: MI
+  - name: CAN/DIST
+    number: '19'
+    value: '06'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.11190
+- input: F65,C00200584,PAC,MOTION PICTURE ASSOCIATION OF AMERICA INC POLITICAL ACTION
+    COMMITTEE,1600 EYE STREET NW,,WASHINGTON,DC,20006,,,20020726,1000.00,C00200584,H6MI04113,,H,MI,06,,,,,,,,F6.11189
+  record: <fec.version.v3.F65.Records instance at 0xe979bd8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00200584
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: MOTION PICTURE ASSOCIATION OF AMERICA INC POLITICAL ACTION COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: 1600 EYE STREET NW
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: WASHINGTON
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20006'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020726'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00200584
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6MI04113
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: MI
+  - name: CAN/DIST
+    number: '19'
+    value: '06'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.11189
+- input: F65,C00200584,PAC,NEWS AMERICA HOLDINGS INC-FOX POL ACTION COMMITTEE (AKA
+    NEWS AMERICA-FOX POL ACTION CMTE,444 N CAPITOL STREET - SUITE 740,,WASHINGTON,DC,20001,,,20020726,1000.00,C00200584,H6MI04113,,H,MI,06,,,,,,,,F6.11186
+  record: <fec.version.v3.F65.Records instance at 0xe9898c0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00200584
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: NEWS AMERICA HOLDINGS INC-FOX POL ACTION COMMITTEE (AKA NEWS AMERICA-FOX
+      POL ACTION CMTE
+  - name: STREET 1
+    number: '5'
+    value: 444 N CAPITOL STREET - SUITE 740
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: WASHINGTON
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20001'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020726'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00200584
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6MI04113
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: MI
+  - name: CAN/DIST
+    number: '19'
+    value: '06'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.11186
+- input: F65,C00200584,PAC,VOICESTREAM WIRELESS CORPORATION POLITICAL ACTION COMMITTEE,401
+    9th STREET NW,SUITE 550,WASHINGTON,DC,20004,,,20020726,1000.00,C00200584,H6MI04113,,H,MI,06,,,,,,,,F6.11188
+  record: <fec.version.v3.F65.Records instance at 0xe979bd8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00200584
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: VOICESTREAM WIRELESS CORPORATION POLITICAL ACTION COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: 401 9th STREET NW
+  - name: STREET 2
+    number: '6'
+    value: SUITE 550
+  - name: CITY
+    number: '7'
+    value: WASHINGTON
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20004'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020726'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00200584
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6MI04113
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: MI
+  - name: CAN/DIST
+    number: '19'
+    value: '06'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.11188
+- input: F65,C00200584,CCM,WALT DISNEY PRODUCTIONS EMPLOYEES PAC (DISNEY EMPLOYEES
+    POLITICAL ACTION COMMITTEE),1150 17TH STREET NW SUITE 400,,WASHINGTON,DC,20036,,,20020726,1000.00,C00200584,H6MI04113,,H,MI,06,,,,,,,,F6.11187
+  record: <fec.version.v3.F65.Records instance at 0xe989c68>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00200584
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: WALT DISNEY PRODUCTIONS EMPLOYEES PAC (DISNEY EMPLOYEES POLITICAL ACTION
+      COMMITTEE)
+  - name: STREET 1
+    number: '5'
+    value: 1150 17TH STREET NW SUITE 400
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: WASHINGTON
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20036'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020726'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00200584
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6MI04113
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: MI
+  - name: CAN/DIST
+    number: '19'
+    value: '06'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.11187
+sourceurl: !!python/unicode 20020730
+type: chunk
