@@ -1,0 +1,320 @@
+countraw: 6
+countrows: 4
+filename: 56953.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00170860
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Tom DeLay Congressional Committee
+  - name: STREET 1
+    number: '4'
+    value: 10707 Corporate Drive
+  - name: STREET 2
+    number: '5'
+    value: ' Suite 130'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Stafford
+  - name: ZIP
+    number: '8'
+    value: TX
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '77477   '
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H4TX22023
+  - name: CAN/OFFICE
+    number: '11'
+    value: Tom DeLay
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: TX
+  - name: Signed
+    number: 14-
+    value: '22'
+  - value: '20011107'
+  expected_count: 14
+  input: '"F6","C00170860","Tom DeLay Congressional Committee","10707 Corporate Drive,
+    Suite 130","","Stafford","TX","77477   ","H4TX22023","Tom DeLay","H","TX","22",20011107'
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x2664c68>
+  result: []
+- input: '"F65","C00170860","PAC","Kemper Insurance Company Campaign Fund","Ms. Julie
+    Foote","1 Kemper Drive ","Long Grove","IL","60049    ","","",20021019,1000.00,"","","","","","","","","","","",,"","102020022C185281"'
+  record: <fec.version.v3.F65.Records instance at 0x2664170>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00170860
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Kemper Insurance Company Campaign Fund
+  - name: STREET 1
+    number: '5'
+    value: Ms. Julie Foote
+  - name: STREET 2
+    number: '6'
+    value: '1 Kemper Drive '
+  - name: CITY
+    number: '7'
+    value: Long Grove
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60049    '
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021019'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 102020022C185281
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00170860
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Sitka
+  - name: STREET 1
+    number: '5'
+    value: ' III^John'
+  - name: STREET 2
+    number: '6'
+    value: 6241 Sewells Point Road
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Norfolk
+  - name: ZIP
+    number: '9'
+    value: VA
+  - name: INDEMP
+    number: '10'
+    value: '23513    '
+  - name: INDOCC
+    number: '11'
+    value: USNavy
+  - name: Of Contribution
+    number: 12-
+    value: Chief Mate
+  - name: AMOUNT
+    number: '13'
+    value: '20021019'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 102020022C185292
+  expected_count: 27
+  input: '"F65","C00170860","IND","Sitka, III^John","6241 Sewells Point Road","","Norfolk","VA","23513    ","USNavy","Chief
+    Mate",20021019,1000.00,"","","","","","","","","","","",,"","102020022C185292"'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x2664c68>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00170860
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Taco PAC
+  - name: STREET 1
+    number: '5'
+    value: Mr. Peter Braun
+  - name: STREET 2
+    number: '6'
+    value: 6405 Metcalf Ave.
+  - name: CITY
+    number: '7'
+    value: ' Ste.503 '
+  - name: STATE
+    number: '8'
+    value: Shawnee Mission
+  - name: ZIP
+    number: '9'
+    value: KS
+  - name: INDEMP
+    number: '10'
+    value: '66202    '
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20021019'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2500.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 102020022C185273
+  expected_count: 27
+  input: '"F65","C00170860","PAC","Taco PAC","Mr. Peter Braun","6405 Metcalf Ave.,
+    Ste.503 ","Shawnee Mission","KS","66202    ","","",20021019,2500.00,"","","","","","","","","","","",,"","102020022C185273"'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x2664170>
+  result: []
+sourceurl: !!python/unicode 20021020
+type: single
