@@ -1,0 +1,160 @@
+countraw: 5
+countrows: 3
+filename: 46471.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00376749
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Rodney Alexander for Congress
+  - name: STREET 1
+    number: '4'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '5'
+    value: PO Box 367
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Quitman
+  - name: ZIP
+    number: '8'
+    value: LA
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '71268'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H2LA05084
+  - name: CAN/OFFICE
+    number: '11'
+    value: Rodney Alexander
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: LA
+  - name: Signed
+    number: 14-
+    value: '5'
+  - value: '20020812'
+  expected_count: 14
+  input: F6,"C00376749","Rodney Alexander for Congress, Inc.","PO Box 367","","Quitman","LA","71268","H2LA05084","Rodney
+    Alexander","H","LA","5",20020812
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x233a290>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F6
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: Rodney Alexander for Congress
+  - value: ' Inc.'
+  expected_count: 4
+  input: TEXT,"F6","","Rodney Alexander for Congress, Inc."
+  input_count: 5
+  record: <fec.version.v3.TEXT.Records instance at 0x233a998>
+  result: []
+- input: F65,"C00376749","IND","Soileau^Donna","2418 Erath St.","","New Iberia","LA","705607071","Best","Efforts",20020810,"1000","","","","","","","","","","","","","","C409"
+  record: <fec.version.v3.F65.Records instance at 0x2337f80>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00376749
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Soileau^Donna
+  - name: STREET 1
+    number: '5'
+    value: 2418 Erath St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New Iberia
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '705607071'
+  - name: INDEMP
+    number: '10'
+    value: Best
+  - name: INDOCC
+    number: '11'
+    value: Efforts
+  - name: Of Contribution
+    number: 12-
+    value: '20020810'
+  - name: AMOUNT
+    number: '13'
+    value: '1000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C409
+sourceurl: !!python/unicode 20020812
+type: chunk
