@@ -1,0 +1,407 @@
+countraw: 7
+countrows: 5
+filename: 45229.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00316141
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Re-Elect Harold Ford
+  - name: STREET 1
+    number: '4'
+    value: ' Jr.'
+  - name: STREET 2
+    number: '5'
+    value: 5120 Barry Road
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Memphis
+  - name: ZIP
+    number: '8'
+    value: TN
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '38117   '
+  - name: CANDIDATE NAME
+    number: '10'
+    value: C00316141
+  - name: CAN/OFFICE
+    number: '11'
+    value: Harold Ford
+  - name: CAN/STATE
+    number: '12'
+    value: ' Jr.'
+  - name: CAN/DIST
+    number: '13'
+    value: H
+  - name: Signed
+    number: 14-
+    value: TN
+  - value: '9 '
+  - value: '20020726'
+  expected_count: 14
+  input: '"F6","C00316141","Re-Elect Harold Ford, Jr.","5120 Barry Road","","Memphis","TN","38117   ","C00316141","Harold
+    Ford, Jr.","H","TN","9 ",20020726'
+  input_count: 16
+  record: <fec.version.v3.F6.Records instance at 0x37408ef0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00316141
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Financial Services Roundtable PAC
+  - name: STREET 1
+    number: '5'
+    value: Steve Bartlett
+  - name: STREET 2
+    number: '6'
+    value: ' President'
+  - name: CITY
+    number: '7'
+    value: 805 Fifteenth Street NW
+  - name: STATE
+    number: '8'
+    value: ' Suite 600'
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: INDEMP
+    number: '10'
+    value: DC
+  - name: INDOCC
+    number: '11'
+    value: '20005    '
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20020726'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '1000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: 0726200211C32871
+  expected_count: 27
+  input: '"F65","C00316141","PAC","Financial Services Roundtable PAC","Steve Bartlett,
+    President","805 Fifteenth Street NW, Suite 600","Washington","DC","20005    ","","",20020726,1000.00,"","","","","","","","","","","",,"","0726200211C32871"'
+  input_count: 29
+  record: <fec.version.v3.F65.Records instance at 0x374086c8>
+  result: []
+- input: '"F65","C00316141","PAC","Mutual of Omaha Companies PAC","Mutual of Omaha
+    Plaza","","Omaha","NE","68175    ","","",20020726,1000.00,"","","","","","","","","","","",,"","0726200211C32882"'
+  record: <fec.version.v3.F65.Records instance at 0x37408098>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00316141
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Mutual of Omaha Companies PAC
+  - name: STREET 1
+    number: '5'
+    value: Mutual of Omaha Plaza
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Omaha
+  - name: STATE
+    number: '8'
+    value: NE
+  - name: ZIP
+    number: '9'
+    value: '68175    '
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020726'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 0726200211C32882
+- input: '"F65","C00316141","IND","Kassela^Frank","8803 Winding Way","","Germantown","TN","38139    ","Mid
+    American Specialties","President",20020726,1000.00,"","","","","","","","","","","",,"","0726200211C32843"'
+  record: <fec.version.v3.F65.Records instance at 0x37408560>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00316141
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Kassela^Frank
+  - name: STREET 1
+    number: '5'
+    value: 8803 Winding Way
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Germantown
+  - name: STATE
+    number: '8'
+    value: TN
+  - name: ZIP
+    number: '9'
+    value: '38139    '
+  - name: INDEMP
+    number: '10'
+    value: Mid American Specialties
+  - name: INDOCC
+    number: '11'
+    value: President
+  - name: Of Contribution
+    number: 12-
+    value: '20020726'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 0726200211C32843
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00316141
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: United States Telecom Assoc. PAC
+  - name: STREET 1
+    number: '5'
+    value: 1401 H Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW 600'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '200052136'
+  - name: INDOCC
+    number: '11'
+    value: PAC
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20020726'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 0726200211C32894
+  expected_count: 27
+  input: '"F65","C00316141","PAC","United States Telecom Assoc. PAC","1401 H Street,
+    NW 600","","Washington","DC","200052136","PAC","",20020726,1000.00,"","","","","","","","","","","",,"","0726200211C32894"'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x37408488>
+  result: []
+sourceurl: !!python/unicode 20020726
+type: chunk
