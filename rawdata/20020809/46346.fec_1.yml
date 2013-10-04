@@ -1,0 +1,225 @@
+countraw: 5
+countrows: 3
+filename: 46346.fec
+header: {}
+rows:
+- input: '"F6N","C00342410","David Vitter for Congress","PO BOX 8175","","Metairie","LA","70011","","","","LA",1,"20020809"'
+  record: <fec.version.v3.F6.Records instance at 0x215bfc8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00342410
+  - name: COMMITTEE NAME
+    number: '3'
+    value: David Vitter for Congress
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 8175
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Metairie
+  - name: STATE
+    number: '7'
+    value: LA
+  - name: ZIP
+    number: '8'
+    value: '70011'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ''
+  - name: CAN/OFFICE
+    number: '11'
+    value: ''
+  - name: CAN/STATE
+    number: '12'
+    value: LA
+  - name: CAN/DIST
+    number: '13'
+    value: '1'
+  - name: Signed
+    number: 14-
+    value: '20020809'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00342410
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Benson
+  - name: STREET 1
+    number: '5'
+    value: ' Tom'
+  - name: STREET 2
+    number: '6'
+    value: 5800 Airline Drive
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Metairie
+  - name: ZIP
+    number: '9'
+    value: LA
+  - name: INDEMP
+    number: '10'
+    value: '70003'
+  - name: INDOCC
+    number: '11'
+    value: New Orleans Saints
+  - name: Of Contribution
+    number: 12-
+    value: Owner
+  - name: AMOUNT
+    number: '13'
+    value: '20020808'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 'C01Un02             '
+  expected_count: 27
+  input: '"F65","C00342410","IND","Benson, Tom","5800 Airline Drive","","Metairie","LA","70003","New
+    Orleans Saints","Owner",20020808,1000.00,"","","","","",,"","","","","","","","C01Un02             "'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x215bcf8>
+  result: []
+- input: '"F65","C00342410","PAC","Shell Employees'' PAC","P. O. Box 2846","","Houston","TX","77252","","",20020808,1000.00,"","","","","",,"","","","","","","","C00Yu05             "'
+  record: <fec.version.v3.F65.Records instance at 0x215bfc8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00342410
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Shell Employees' PAC
+  - name: STREET 1
+    number: '5'
+    value: P. O. Box 2846
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Houston
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '77252'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020808'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 'C00Yu05             '
+sourceurl: !!python/unicode 20020809
+type: chunk
