@@ -1,0 +1,761 @@
+countraw: 11
+countrows: 9
+filename: 55964.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00377978
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Bentley for Congress
+  - name: STREET 1
+    number: '4'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '5'
+    value: 408 Chapelwood Lane
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Lutherville
+  - name: ZIP
+    number: '8'
+    value: MD
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '21093   '
+  - name: CANDIDATE NAME
+    number: '10'
+    value: C00377978
+  - name: CAN/OFFICE
+    number: '11'
+    value: Helen Delich Bentley
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: MD
+  - name: Signed
+    number: 14-
+    value: '2 '
+  - value: '20020630'
+  expected_count: 14
+  input: '"F6","C00377978","Bentley for Congress, Inc.","408 Chapelwood Lane","","Lutherville","MD","21093   ","C00377978","Helen
+    Delich Bentley","H","MD","2 ",20020630'
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x305b368>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00377978
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Lewis for Congress Committee
+  - name: STREET 1
+    number: '5'
+    value: c/o Jerry Lewis
+  - name: STREET 2
+    number: '6'
+    value: ' Honorary Chairman'
+  - name: CITY
+    number: '7'
+    value: 'P.O. Box 247 '
+  - name: STATE
+    number: '8'
+    value: Redlands
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: INDEMP
+    number: '10'
+    value: '92373    '
+  - name: INDOCC
+    number: '11'
+    value: Lewis for Congress
+  - name: Of Contribution
+    number: 12-
+    value: Candidate Committee
+  - name: AMOUNT
+    number: '13'
+    value: '20021017'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 1017200252C24091
+  expected_count: 27
+  input: '"F65","C00377978","PAC","Lewis for Congress Committee","c/o Jerry Lewis,
+    Honorary Chairman","P.O. Box 247 ","Redlands","CA","92373    ","Lewis for Congress","Candidate
+    Committee",20021017,1000.00,"","","","","","","","","","","",,"","1017200252C24091"'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x305b128>
+  result: []
+- input: '"F65","C00377978","PAC","Electrical Construction PAC","3 Bethesda Metro
+    Center","","Bethesda","MD","20814    ","","",20021017,2000.00,"","","","","","","","","","","",,"","1017200252C24082"'
+  record: <fec.version.v3.F65.Records instance at 0x305b368>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00377978
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Electrical Construction PAC
+  - name: STREET 1
+    number: '5'
+    value: 3 Bethesda Metro Center
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Bethesda
+  - name: STATE
+    number: '8'
+    value: MD
+  - name: ZIP
+    number: '9'
+    value: '20814    '
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021017'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 1017200252C24082
+- input: '"F65","C00377978","PAC","Team Emerson for Jo Ann Emerson","c/o April D.
+    Stoker","P.O. Box 822 ","Cape Girardeau","MO","637020822","","",20021017,1000.00,"","","","","","","","","","","",,"","1017200252C24053"'
+  record: <fec.version.v3.F65.Records instance at 0x305b6c8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00377978
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Team Emerson for Jo Ann Emerson
+  - name: STREET 1
+    number: '5'
+    value: c/o April D. Stoker
+  - name: STREET 2
+    number: '6'
+    value: 'P.O. Box 822 '
+  - name: CITY
+    number: '7'
+    value: Cape Girardeau
+  - name: STATE
+    number: '8'
+    value: MO
+  - name: ZIP
+    number: '9'
+    value: '637020822'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021017'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 1017200252C24053
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00377978
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Phillips International
+  - name: STREET 1
+    number: '5'
+    value: ' Inc. PAC'
+  - name: STREET 2
+    number: '6'
+    value: c/o Thomas L. Phillips
+  - name: CITY
+    number: '7'
+    value: ' Chairman'
+  - name: STATE
+    number: '8'
+    value: '7811 Montrose Road '
+  - name: ZIP
+    number: '9'
+    value: Potomac
+  - name: INDEMP
+    number: '10'
+    value: MD
+  - name: INDOCC
+    number: '11'
+    value: '20854    '
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20021017'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '1000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: 1017200252C24124
+  expected_count: 27
+  input: '"F65","C00377978","PAC","Phillips International, Inc. PAC","c/o Thomas L.
+    Phillips, Chairman","7811 Montrose Road ","Potomac","MD","20854    ","","",20021017,1000.00,"","","","","","","","","","","",,"","1017200252C24124"'
+  input_count: 29
+  record: <fec.version.v3.F65.Records instance at 0x305b488>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00377978
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Future Leaders PAC
+  - name: STREET 1
+    number: '5'
+    value: c/o  B. Bonfiglio
+  - name: STREET 2
+    number: '6'
+    value: 1155 21st Street
+  - name: CITY
+    number: '7'
+    value: ' N.W.'
+  - name: STATE
+    number: '8'
+    value: ' Ste. 300 '
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: INDEMP
+    number: '10'
+    value: DC
+  - name: INDOCC
+    number: '11'
+    value: '20036    '
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20021017'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '5000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: 1017200252C24105
+  expected_count: 27
+  input: '"F65","C00377978","PAC","Future Leaders PAC","c/o  B. Bonfiglio","1155 21st
+    Street, N.W., Ste. 300 ","Washington","DC","20036    ","","",20021017,5000.00,"","","","","","","","","","","",,"","1017200252C24105"'
+  input_count: 29
+  record: <fec.version.v3.F65.Records instance at 0x305b6c8>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00377978
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Promoting Republicans You Can Elect
+  - name: STREET 1
+    number: '5'
+    value: Project
+  - name: STREET 2
+    number: '6'
+    value: c/o Deborah Pryce
+  - name: CITY
+    number: '7'
+    value: ' Honorary Chairm'
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20036    '
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20021017'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 1017200252C24066
+  expected_count: 27
+  input: '"F65","C00377978","PAC","Promoting Republicans You Can Elect","Project","c/o
+    Deborah Pryce, Honorary Chairm","Washington","DC","20036    ","","",20021017,2000.00,"","","","","","","","","","","",,"","1017200252C24066"'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x305b368>
+  result: []
+- input: '"F65","C00377978","IND","Mississippi Band of^","P.O. Box 6090","Choctaw
+    Branch ","Choctaw","MS","39350    ","Choctaw Indians","Tribe",20021017,1000.00,"","","","","","","","","","","",,"","1017200252C24077"'
+  record: <fec.version.v3.F65.Records instance at 0x305b6c8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00377978
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Mississippi Band of^
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 6090
+  - name: STREET 2
+    number: '6'
+    value: 'Choctaw Branch '
+  - name: CITY
+    number: '7'
+    value: Choctaw
+  - name: STATE
+    number: '8'
+    value: MS
+  - name: ZIP
+    number: '9'
+    value: '39350    '
+  - name: INDEMP
+    number: '10'
+    value: Choctaw Indians
+  - name: INDOCC
+    number: '11'
+    value: Tribe
+  - name: Of Contribution
+    number: 12-
+    value: '20021017'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 1017200252C24077
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00377978
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: American Prosperity PAC
+  - name: STREET 1
+    number: '5'
+    value: c/o B. Bonfiglio
+  - name: STREET 2
+    number: '6'
+    value: 1155 21st Street
+  - name: CITY
+    number: '7'
+    value: ' N.W.'
+  - name: STATE
+    number: '8'
+    value: ' Ste. 300 '
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: INDEMP
+    number: '10'
+    value: DC
+  - name: INDOCC
+    number: '11'
+    value: '20036    '
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20021017'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '5000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: 1017200252C24118
+  expected_count: 27
+  input: '"F65","C00377978","PAC","American Prosperity PAC","c/o B. Bonfiglio","1155
+    21st Street, N.W., Ste. 300 ","Washington","DC","20036    ","","",20021017,5000.00,"","","","","","","","","","","",,"","1017200252C24118"'
+  input_count: 29
+  record: <fec.version.v3.F65.Records instance at 0x305b368>
+  result: []
+sourceurl: !!python/unicode 20021018
+type: single
