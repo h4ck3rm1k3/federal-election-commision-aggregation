@@ -1,0 +1,395 @@
+countraw: 7
+countrows: 5
+filename: 49364.fec
+header: {}
+rows:
+- input: F6,C00380501,FINZ FOR CONGRESS,100 JERICHO QUADRANGLE,SUITE 202,JERICHO,NY,11753,,FINZ^STUART^Mr.^Esq.,H,NY,3,20020906
+  record: <fec.version.v3.F6.Records instance at 0x2665b90>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00380501
+  - name: COMMITTEE NAME
+    number: '3'
+    value: FINZ FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 100 JERICHO QUADRANGLE
+  - name: STREET 2
+    number: '5'
+    value: SUITE 202
+  - name: CITY
+    number: '6'
+    value: JERICHO
+  - name: STATE
+    number: '7'
+    value: NY
+  - name: ZIP
+    number: '8'
+    value: '11753'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: FINZ^STUART^Mr.^Esq.
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: NY
+  - name: CAN/DIST
+    number: '13'
+    value: '3'
+  - name: Signed
+    number: 14-
+    value: '20020906'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00380501
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: ALLEN^HERBERT A. ^^
+  - name: STREET 1
+    number: '5'
+    value: 711 5TH AVENUE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: NEW YORK
+  - name: STATE
+    number: '8'
+    value: ' '
+  - name: ZIP
+    number: '9'
+    value: NY
+  - name: INDEMP
+    number: '10'
+    value: '10022'
+  - name: INDOCC
+    number: '11'
+    value: ALLEN & CO.
+  - name: Of Contribution
+    number: 12-
+    value: INVESTMENT BROKER
+  - name: AMOUNT
+    number: '13'
+    value: '20020906'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00380501
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: FINZ^STUART^Mr.^Esq.
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: NY
+  - name: CONDUIT NAME
+    number: '20'
+    value: '3'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.4405
+  expected_count: 27
+  input: F65,C00380501,IND,ALLEN^HERBERT A. ^^,711 5TH AVENUE,,"NEW YORK, ",NY,10022,ALLEN
+    & CO.,INVESTMENT BROKER,20020906,1000.00,C00380501,,FINZ^STUART^Mr.^Esq.,H,NY,3,,,,,,,,F6.4405
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x26656c8>
+  result: []
+- input: F65,C00380501,IND,CARFI^JOSEPH^^,12 AVON LANE,,ROSLYN HEIGHTS,NY,11577,JOSEPH
+    CARFI M.D. ,MEDICAL DOCTOR,20020906,1000.00,C00380501,,FINZ^STUART^Mr.^Esq.,H,NY,3,,,,,,,,F6.4387
+  record: <fec.version.v3.F65.Records instance at 0x2665b90>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00380501
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: CARFI^JOSEPH^^
+  - name: STREET 1
+    number: '5'
+    value: 12 AVON LANE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: ROSLYN HEIGHTS
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '11577'
+  - name: INDEMP
+    number: '10'
+    value: 'JOSEPH CARFI M.D. '
+  - name: INDOCC
+    number: '11'
+    value: MEDICAL DOCTOR
+  - name: Of Contribution
+    number: 12-
+    value: '20020906'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00380501
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: FINZ^STUART^Mr.^Esq.
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: NY
+  - name: CAN/DIST
+    number: '19'
+    value: '3'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4387
+- input: 'F65,C00380501,IND,HECHT^RUTH G. ^^,4951 GULF SHORE BLVD N. # 1504,,NAPLES,FL,34103,,,20020906,1000.00,C00380501,,FINZ^STUART^Mr.^Esq.,H,NY,3,,,,,,,,F6.4392'
+  record: <fec.version.v3.F65.Records instance at 0x2665f80>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00380501
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: HECHT^RUTH G. ^^
+  - name: STREET 1
+    number: '5'
+    value: '4951 GULF SHORE BLVD N. # 1504'
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: NAPLES
+  - name: STATE
+    number: '8'
+    value: FL
+  - name: ZIP
+    number: '9'
+    value: '34103'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020906'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00380501
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: FINZ^STUART^Mr.^Esq.
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: NY
+  - name: CAN/DIST
+    number: '19'
+    value: '3'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4392
+- input: F65,C00380501,IND,SCHAFLER^MARC^^,50 CARNATION AVENUE,,FLORAL PARK,NY,11001,ALL
+    STAR REPORTERS,,20020906,1000.00,C00380501,,FINZ^STUART^Mr.^Esq.,H,NY,3,,,,,,,,F6.4382
+  record: <fec.version.v3.F65.Records instance at 0x2665b90>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00380501
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: SCHAFLER^MARC^^
+  - name: STREET 1
+    number: '5'
+    value: 50 CARNATION AVENUE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: FLORAL PARK
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '11001'
+  - name: INDEMP
+    number: '10'
+    value: ALL STAR REPORTERS
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020906'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00380501
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: FINZ^STUART^Mr.^Esq.
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: NY
+  - name: CAN/DIST
+    number: '19'
+    value: '3'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4382
+sourceurl: !!python/unicode 20020906
+type: single
