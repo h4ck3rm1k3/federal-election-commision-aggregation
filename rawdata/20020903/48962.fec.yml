@@ -1,0 +1,313 @@
+countraw: 6
+countrows: 4
+filename: 48962.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00352690
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Grucci For Congress
+  - name: STREET 1
+    number: '4'
+    value: C/O Frank J. Faber
+  - name: STREET 2
+    number: '5'
+    value: ' 373 Route 111'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Smithtown
+  - name: ZIP
+    number: '8'
+    value: NY
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '11787   '
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H0NY01095
+  - name: CAN/OFFICE
+    number: '11'
+    value: 'Felix J. Grucci '
+  - name: CAN/STATE
+    number: '12'
+    value: '  Jr.'
+  - name: CAN/DIST
+    number: '13'
+    value: H
+  - name: Signed
+    number: 14-
+    value: NY
+  - value: '01'
+  - value: '20020903'
+  expected_count: 14
+  input: '"F6","C00352690","Grucci For Congress","C/O Frank J. Faber, 373 Route 111","","Smithtown","NY","11787   ","H0NY01095","Felix
+    J. Grucci ,  Jr.","H","NY","01",20020903'
+  input_count: 16
+  record: <fec.version.v3.F6.Records instance at 0x25eed88>
+  result: []
+- input: '"F65","C00352690","IND","Breslin^Wilbur","3 Forte Dr.","","Old Westbury","NY","11568    ","Breslin
+    Realty Development Cor","Real Estate",20020903,1000.00,"","","","","","","","","","","",,"","0903200244C61581"'
+  record: <fec.version.v3.F65.Records instance at 0x2669488>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00352690
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Breslin^Wilbur
+  - name: STREET 1
+    number: '5'
+    value: 3 Forte Dr.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Old Westbury
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '11568    '
+  - name: INDEMP
+    number: '10'
+    value: Breslin Realty Development Cor
+  - name: INDOCC
+    number: '11'
+    value: Real Estate
+  - name: Of Contribution
+    number: 12-
+    value: '20020903'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 0903200244C61581
+- input: '"F65","C00352690","IND","Haugland^William","12 Holly Tree Lane","","East
+    Islip","NY","117302925","Businessman","Keyspan Energy Construction",20020903,1000.00,"","","","","","","","","","","",,"","0903200244C61592"'
+  record: <fec.version.v3.F65.Records instance at 0x26692d8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00352690
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Haugland^William
+  - name: STREET 1
+    number: '5'
+    value: 12 Holly Tree Lane
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: East Islip
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '117302925'
+  - name: INDEMP
+    number: '10'
+    value: Businessman
+  - name: INDOCC
+    number: '11'
+    value: Keyspan Energy Construction
+  - name: Of Contribution
+    number: 12-
+    value: '20020903'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 0903200244C61592
+- input: '"F65","C00352690","PAC","Transportation","Political Education League","14600
+    Detroit Avenue ","Lakewood","OH","44107    ","","",20020903,5000.00,"","","","","","","","","","","",,"","0903200244C61573"'
+  record: <fec.version.v3.F65.Records instance at 0x2669488>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00352690
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Transportation
+  - name: STREET 1
+    number: '5'
+    value: Political Education League
+  - name: STREET 2
+    number: '6'
+    value: '14600 Detroit Avenue '
+  - name: CITY
+    number: '7'
+    value: Lakewood
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '44107    '
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020903'
+  - name: AMOUNT
+    number: '13'
+    value: '5000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 0903200244C61573
+sourceurl: !!python/unicode 20020903
+type: single
