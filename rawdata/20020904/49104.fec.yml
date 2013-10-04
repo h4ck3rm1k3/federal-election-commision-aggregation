@@ -1,0 +1,312 @@
+countraw: 6
+countrows: 4
+filename: 49104.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00326629
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Kline for Congress
+  - name: STREET 1
+    number: '4'
+    value: 14101 Southcross Dr. W.
+  - name: STREET 2
+    number: '5'
+    value: ' Suite 175'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Burnsville
+  - name: ZIP
+    number: '8'
+    value: MN
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '55337'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H8MN06047
+  - name: CAN/OFFICE
+    number: '11'
+    value: Kline^John P.^^Jr.
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: MN
+  - name: Signed
+    number: 14-
+    value: '2'
+  - value: '20020904'
+  expected_count: 14
+  input: F6,C00326629,Kline for Congress,"14101 Southcross Dr. W., Suite 175",,Burnsville,MN,55337,H8MN06047,Kline^John
+    P.^^Jr.,H,MN,2,20020904
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x47dc830>
+  result: []
+- input: F65,C00326629,IND,Stannard^Paula^^,850 N. Randolph St. Spt 321,,Arlington,VA,22203,US
+    Dept of HHS,Attorney,20020904,1000.00,C00326629,H8MN06047,Kline^John P.^^Jr.,H,MN,2,,,,,,,,F6.12562
+  record: <fec.version.v3.F65.Records instance at 0x47dc680>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00326629
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Stannard^Paula^^
+  - name: STREET 1
+    number: '5'
+    value: 850 N. Randolph St. Spt 321
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Arlington
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22203'
+  - name: INDEMP
+    number: '10'
+    value: US Dept of HHS
+  - name: INDOCC
+    number: '11'
+    value: Attorney
+  - name: Of Contribution
+    number: 12-
+    value: '20020904'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00326629
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8MN06047
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Kline^John P.^^Jr.
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: MN
+  - name: CAN/DIST
+    number: '19'
+    value: '2'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.12562
+- input: F65,C00326629,IND,Wilson^James^^,220 Wexford Heights,,Hew Brighton,MN,55112,Labor
+    All,Owner,20020904,1000.00,C00326629,H8MN06047,Kline^John P.^^Jr.,H,MN,2,,,,,,,,F6.12563
+  record: <fec.version.v3.F65.Records instance at 0x47dc830>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00326629
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Wilson^James^^
+  - name: STREET 1
+    number: '5'
+    value: 220 Wexford Heights
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Hew Brighton
+  - name: STATE
+    number: '8'
+    value: MN
+  - name: ZIP
+    number: '9'
+    value: '55112'
+  - name: INDEMP
+    number: '10'
+    value: Labor All
+  - name: INDOCC
+    number: '11'
+    value: Owner
+  - name: Of Contribution
+    number: 12-
+    value: '20020904'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00326629
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8MN06047
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Kline^John P.^^Jr.
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: MN
+  - name: CAN/DIST
+    number: '19'
+    value: '2'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.12563
+- input: F65,C00326629,IND,Wilson^Janis^^,220 Wexford Heights,,Hew Brighton,MN,55112,homemaker,homemaker,20020904,1000.00,C00326629,H8MN06047,Kline^John
+    P.^^Jr.,H,MN,2,,,,,,,,F6.12564
+  record: <fec.version.v3.F65.Records instance at 0x47dc680>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00326629
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Wilson^Janis^^
+  - name: STREET 1
+    number: '5'
+    value: 220 Wexford Heights
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Hew Brighton
+  - name: STATE
+    number: '8'
+    value: MN
+  - name: ZIP
+    number: '9'
+    value: '55112'
+  - name: INDEMP
+    number: '10'
+    value: homemaker
+  - name: INDOCC
+    number: '11'
+    value: homemaker
+  - name: Of Contribution
+    number: 12-
+    value: '20020904'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00326629
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8MN06047
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Kline^John P.^^Jr.
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: MN
+  - name: CAN/DIST
+    number: '19'
+    value: '2'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.12564
+sourceurl: !!python/unicode 20020904
+type: single
