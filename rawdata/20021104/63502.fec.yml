@@ -1,0 +1,310 @@
+countraw: 6
+countrows: 4
+filename: 63502.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00376939
+  - name: COMMITTEE NAME
+    number: '3'
+    value: MARSHA BLACKBURN FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: ' INC.'
+  - name: STREET 2
+    number: '5'
+    value: 214 4TH AVENUE NORTH
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: FRANKLIN
+  - name: ZIP
+    number: '8'
+    value: TN
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '37064'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H2TN06030
+  - name: CAN/OFFICE
+    number: '11'
+    value: Blackburn^Marsha^Mrs.^
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: TN
+  - name: Signed
+    number: 14-
+    value: '07'
+  - value: '20021104'
+  expected_count: 14
+  input: F6N,C00376939,"MARSHA BLACKBURN FOR CONGRESS, INC.",214 4TH AVENUE NORTH,,FRANKLIN,TN,37064,H2TN06030,Blackburn^Marsha^Mrs.^,H,TN,07,20021104
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x25ee9e0>
+  result: []
+- input: F65,C00376939,IND,Maveety^Susan^Mrs.,5 Elm Creek Dr. Apt 5420,,Elmhurst,IL,60126,none,homemaker,20021130,1000.00,,,,,,,,,,,,,A,F65.00000
+  record: <fec.version.v3.F65.Records instance at 0x25eefc8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00376939
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Maveety^Susan^Mrs.
+  - name: STREET 1
+    number: '5'
+    value: 5 Elm Creek Dr. Apt 5420
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Elmhurst
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60126'
+  - name: INDEMP
+    number: '10'
+    value: none
+  - name: INDOCC
+    number: '11'
+    value: homemaker
+  - name: Of Contribution
+    number: 12-
+    value: '20021130'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: A
+  - name: TRAN ID
+    number: '27'
+    value: F65.00000
+- input: F65,C00376939,IND,Loffi^Mike^Mr.,4701 Granny White Pike,,Nashville,NC,37220,info
+    requested,info requested,20021031,1000.00,,,,,,,,,,,,,A,F65.00001
+  record: <fec.version.v3.F65.Records instance at 0x25ee9e0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00376939
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Loffi^Mike^Mr.
+  - name: STREET 1
+    number: '5'
+    value: 4701 Granny White Pike
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Nashville
+  - name: STATE
+    number: '8'
+    value: NC
+  - name: ZIP
+    number: '9'
+    value: '37220'
+  - name: INDEMP
+    number: '10'
+    value: info requested
+  - name: INDOCC
+    number: '11'
+    value: info requested
+  - name: Of Contribution
+    number: 12-
+    value: '20021031'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: A
+  - name: TRAN ID
+    number: '27'
+    value: F65.00001
+- input: F65,C00376939,IND,Gregory^Joseph^Mr.,501 5th St.,,Bristol,TN,37620,King Pharmaceuticals,Vice
+    Chariman of the Board,20021031,2000.00,,,,,,,,,,,,,A,F65.00002
+  record: <fec.version.v3.F65.Records instance at 0x25eefc8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00376939
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Gregory^Joseph^Mr.
+  - name: STREET 1
+    number: '5'
+    value: 501 5th St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Bristol
+  - name: STATE
+    number: '8'
+    value: TN
+  - name: ZIP
+    number: '9'
+    value: '37620'
+  - name: INDEMP
+    number: '10'
+    value: King Pharmaceuticals
+  - name: INDOCC
+    number: '11'
+    value: Vice Chariman of the Board
+  - name: Of Contribution
+    number: 12-
+    value: '20021031'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: A
+  - name: TRAN ID
+    number: '27'
+    value: F65.00002
+sourceurl: !!python/unicode 20021104
+type: single
