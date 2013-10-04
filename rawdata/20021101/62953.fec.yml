@@ -1,0 +1,319 @@
+countraw: 6
+countrows: 4
+filename: 62953.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00378737
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Ben Jones for Congress
+  - name: STREET 1
+    number: '4'
+    value: 2114 Dabney Road
+  - name: STREET 2
+    number: '5'
+    value: ' Suite C'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Richmond
+  - name: ZIP
+    number: '8'
+    value: VA
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '23230'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H2VA07105
+  - name: CAN/OFFICE
+    number: '11'
+    value: Ben Jones
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: VA
+  - name: Signed
+    number: 14-
+    value: '7'
+  - value: '20021101'
+  expected_count: 14
+  input: F6,"C00378737","Ben Jones for Congress","2114 Dabney Road, Suite C","","Richmond","VA","23230","H2VA07105","Ben
+    Jones","H","VA","7",20021101
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x2665680>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00378737
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Warner^Mark R.
+  - name: STREET 1
+    number: '5'
+    value: 201 North Union Street
+  - name: STREET 2
+    number: '6'
+    value: ' Suite 300'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Alexandria
+  - name: ZIP
+    number: '9'
+    value: VA
+  - name: INDEMP
+    number: '10'
+    value: '22314'
+  - name: INDOCC
+    number: '11'
+    value: Commonwealth of Virginia
+  - name: Of Contribution
+    number: 12-
+    value: Governor
+  - name: AMOUNT
+    number: '13'
+    value: '20021101'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: C2802
+  expected_count: 27
+  input: F65,"C00378737","IND","Warner^Mark R.","201 North Union Street, Suite 300","","Alexandria","VA","22314","Commonwealth
+    of Virginia","Governor",20021101,"1000","","","","","","","","","","","","","","C2802"
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x2665d40>
+  result: []
+- input: F65,"C00378737","CAN","Mr. Ben L. Jones","507 Harris Hollow Road","","Washington","VA","22747","Self","Businessman",20021030,"10278.63","","","","H","VA","07","","","","","","","","C2824"
+  record: <fec.version.v3.F65.Records instance at 0x2665680>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00378737
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Mr. Ben L. Jones
+  - name: STREET 1
+    number: '5'
+    value: 507 Harris Hollow Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22747'
+  - name: INDEMP
+    number: '10'
+    value: Self
+  - name: INDOCC
+    number: '11'
+    value: Businessman
+  - name: Of Contribution
+    number: 12-
+    value: '20021030'
+  - name: AMOUNT
+    number: '13'
+    value: '10278.63'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: VA
+  - name: CAN/DIST
+    number: '19'
+    value: '07'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C2824
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00378737
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Nancy Pelosi for Congress
+  - name: STREET 1
+    number: '5'
+    value: 235 Montgomery Street
+  - name: STREET 2
+    number: '6'
+    value: ' Suite 610'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: San Francisco
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: INDEMP
+    number: '10'
+    value: '94104'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20021031'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: C2823
+  expected_count: 27
+  input: F65,"C00378737","ORG","Nancy Pelosi for Congress","235 Montgomery Street,
+    Suite 610","","San Francisco","CA","94104","","",20021031,"1000","","","","","","","","","","","","","","C2823"
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x2665d40>
+  result: []
+sourceurl: !!python/unicode 20021101
+type: single
