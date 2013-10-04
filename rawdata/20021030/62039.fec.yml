@@ -1,0 +1,141 @@
+countraw: 4
+countrows: 2
+filename: 62039.fec
+header: {}
+rows:
+- input: F6,C00251918,Pastor for Arizona Committee,P. O. Box 6554,,Phoenix,AZ,850056554,,,H,AZ,02,20021030
+  record: <fec.version.v3.F6.Records instance at 0x2be4830>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00251918
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Pastor for Arizona Committee
+  - name: STREET 1
+    number: '4'
+    value: P. O. Box 6554
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Phoenix
+  - name: STATE
+    number: '7'
+    value: AZ
+  - name: ZIP
+    number: '8'
+    value: '850056554'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ''
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: AZ
+  - name: CAN/DIST
+    number: '13'
+    value: '02'
+  - name: Signed
+    number: 14-
+    value: '20021030'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00251918
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: IRVINE COMPANY EMPLOYEES' POLITICAL ACTION COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: ' THE'
+  - name: STREET 2
+    number: '6'
+    value: 550 NEWPORT CENTER DRIVE
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: NEWPORT BEACH
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: INDEMP
+    number: '10'
+    value: '92660'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20021030'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00251918
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: AZ
+  - name: CONDUIT NAME
+    number: '20'
+    value: '02'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.7711
+  expected_count: 27
+  input: F65,C00251918,PAC,"IRVINE COMPANY EMPLOYEES' POLITICAL ACTION COMMITTEE,
+    THE",550 NEWPORT CENTER DRIVE,,NEWPORT BEACH,CA,92660,,,20021030,2000.00,C00251918,,,H,AZ,02,,,,,,,,F6.7711
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x2be4f38>
+  result: []
+sourceurl: !!python/unicode 20021030
+type: single
