@@ -1,0 +1,648 @@
+countraw: 10
+countrows: 8
+filename: 44864.fec
+header: {}
+rows:
+- input: F6,C00331066,MOORE FOR CONGRESS,PO BOX 14631,,SHAWNEE MISSION,KS,66285,C00331066,Moore^Dennis^Mr.^,H,KS,03,20020723
+  record: <fec.version.v3.F6.Records instance at 0x2b885f0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00331066
+  - name: COMMITTEE NAME
+    number: '3'
+    value: MOORE FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 14631
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: SHAWNEE MISSION
+  - name: STATE
+    number: '7'
+    value: KS
+  - name: ZIP
+    number: '8'
+    value: '66285'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: C00331066
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Moore^Dennis^Mr.^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: KS
+  - name: CAN/DIST
+    number: '13'
+    value: '03'
+  - name: Signed
+    number: 14-
+    value: '20020723'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00331066
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: DASCHLE
+  - name: STREET 1
+    number: '5'
+    value: ' THOMAS A'
+  - name: STREET 2
+    number: '6'
+    value: PO BOX 1656
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: SIOUX FALLS
+  - name: ZIP
+    number: '9'
+    value: SD
+  - name: INDEMP
+    number: '10'
+    value: '57101'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20020722'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '4000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00331066
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H8KS03049
+  - name: CAN/OFFICE
+    number: '17'
+    value: Moore^Dennis^Mr.^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: KS
+  - name: CONDUIT NAME
+    number: '20'
+    value: '03'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.13245
+  expected_count: 27
+  input: F65,C00331066,PAC,"DASCHLE, THOMAS A",PO BOX 1656,,SIOUX FALLS,SD,57101,,,20020722,4000.00,C00331066,H8KS03049,Moore^Dennis^Mr.^,H,KS,03,,,,,,,,F6.13245
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x2b88f80>
+  result: []
+- input: F65,C00331066,IND,Frickleton^James^^,3012 W 117th St,,Leawood,KS,66211,Baritmus
+    Frickleton Robertson,Attorney,20020722,1000.00,C00331066,H8KS03049,Moore^Dennis^Mr.^,H,KS,03,,,,,,,,F6.13246
+  record: <fec.version.v3.F65.Records instance at 0x2b88878>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00331066
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Frickleton^James^^
+  - name: STREET 1
+    number: '5'
+    value: 3012 W 117th St
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Leawood
+  - name: STATE
+    number: '8'
+    value: KS
+  - name: ZIP
+    number: '9'
+    value: '66211'
+  - name: INDEMP
+    number: '10'
+    value: Baritmus Frickleton Robertson
+  - name: INDOCC
+    number: '11'
+    value: Attorney
+  - name: Of Contribution
+    number: 12-
+    value: '20020722'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00331066
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8KS03049
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Moore^Dennis^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: KS
+  - name: CAN/DIST
+    number: '19'
+    value: '03'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.13246
+- input: F65,C00331066,IND,Friends of Jim Clyburn^^^,PO Box 12567,,Columbia,GA,29211,Member
+    of Congress,,20020722,1000.00,C00331066,H8KS03049,Moore^Dennis^Mr.^,H,KS,03,,,,,,,,F6.13247
+  record: <fec.version.v3.F65.Records instance at 0x2b88f80>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00331066
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Friends of Jim Clyburn^^^
+  - name: STREET 1
+    number: '5'
+    value: PO Box 12567
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Columbia
+  - name: STATE
+    number: '8'
+    value: GA
+  - name: ZIP
+    number: '9'
+    value: '29211'
+  - name: INDEMP
+    number: '10'
+    value: Member of Congress
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020722'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00331066
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8KS03049
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Moore^Dennis^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: KS
+  - name: CAN/DIST
+    number: '19'
+    value: '03'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.13247
+- input: F65,C00331066,IND,Mollohan for Congress^^^,PO Box 1343,,Fair Mont,WV,26555,Member
+    of Congress,,20020722,1000.00,C00331066,H8KS03049,Moore^Dennis^Mr.^,H,KS,03,,,,,,,,F6.13248
+  record: <fec.version.v3.F65.Records instance at 0x2b88878>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00331066
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Mollohan for Congress^^^
+  - name: STREET 1
+    number: '5'
+    value: PO Box 1343
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Fair Mont
+  - name: STATE
+    number: '8'
+    value: WV
+  - name: ZIP
+    number: '9'
+    value: '26555'
+  - name: INDEMP
+    number: '10'
+    value: Member of Congress
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020722'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00331066
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8KS03049
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Moore^Dennis^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: KS
+  - name: CAN/DIST
+    number: '19'
+    value: '03'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.13248
+- input: F65,C00331066,PAC,SECURITIES INDUSTRY ASSOCIATION POLITICAL ACTION COMMITTEE,1401
+    EYE STREET NW SUITE 1000,,WASHINGTON,DC,20005,,,20020722,1000.00,C00331066,H8KS03049,Moore^Dennis^Mr.^,H,KS,03,,,,,,,,F6.13249
+  record: <fec.version.v3.F65.Records instance at 0x2b88680>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00331066
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: SECURITIES INDUSTRY ASSOCIATION POLITICAL ACTION COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: 1401 EYE STREET NW SUITE 1000
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: WASHINGTON
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20005'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020722'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00331066
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8KS03049
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Moore^Dennis^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: KS
+  - name: CAN/DIST
+    number: '19'
+    value: '03'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.13249
+- input: F65,C00331066,IND,Small Business Council of America^^^,PO Box 4299,,Columbus,GA,31904,,,20020722,1000.00,C00331066,H8KS03049,Moore^Dennis^Mr.^,H,KS,03,,,,,,,,F6.13250
+  record: <fec.version.v3.F65.Records instance at 0x2b88878>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00331066
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Small Business Council of America^^^
+  - name: STREET 1
+    number: '5'
+    value: PO Box 4299
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Columbus
+  - name: STATE
+    number: '8'
+    value: GA
+  - name: ZIP
+    number: '9'
+    value: '31904'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020722'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00331066
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8KS03049
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Moore^Dennis^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: KS
+  - name: CAN/DIST
+    number: '19'
+    value: '03'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.13250
+- input: F65,C00331066,IND,U.S. Postal Service^^^,8820 Monrovia,,Lenexa,KS,66215,,,20020722,3000.00,C00331066,H8KS03049,Moore^Dennis^Mr.^,H,KS,03,,,,,,,,F6.13251
+  record: <fec.version.v3.F65.Records instance at 0x2b88680>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00331066
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: U.S. Postal Service^^^
+  - name: STREET 1
+    number: '5'
+    value: 8820 Monrovia
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Lenexa
+  - name: STATE
+    number: '8'
+    value: KS
+  - name: ZIP
+    number: '9'
+    value: '66215'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020722'
+  - name: AMOUNT
+    number: '13'
+    value: '3000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00331066
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8KS03049
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Moore^Dennis^Mr.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: KS
+  - name: CAN/DIST
+    number: '19'
+    value: '03'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.13251
+sourceurl: !!python/unicode 20020723
+type: chunk
