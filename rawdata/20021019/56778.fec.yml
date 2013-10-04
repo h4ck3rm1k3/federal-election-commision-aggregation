@@ -1,0 +1,490 @@
+countraw: 8
+countrows: 6
+filename: 56778.fec
+header: {}
+rows:
+- input: F6,C00367821,Michaud for Congress,213 Lisbon Street,,Lewiston,ME,04240,C00367821,Michaud^Michael^^,H,ME,02,20021019
+  record: <fec.version.v3.F6.Records instance at 0x2664170>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367821
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Michaud for Congress
+  - name: STREET 1
+    number: '4'
+    value: 213 Lisbon Street
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Lewiston
+  - name: STATE
+    number: '7'
+    value: ME
+  - name: ZIP
+    number: '8'
+    value: '04240'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: C00367821
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Michaud^Michael^^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: ME
+  - name: CAN/DIST
+    number: '13'
+    value: '02'
+  - name: Signed
+    number: 14-
+    value: '20021019'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367821
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Adams^Kurt^^
+  - name: STREET 1
+    number: '5'
+    value: 48 Stroudwater Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Portland
+  - name: STATE
+    number: '8'
+    value: ME
+  - name: ZIP
+    number: '9'
+    value: '04105'
+  - name: INDEMP
+    number: '10'
+    value: Bernstein
+  - name: INDOCC
+    number: '11'
+    value: ' Shur'
+  - name: Of Contribution
+    number: 12-
+    value: ' Sawyer'
+  - name: AMOUNT
+    number: '13'
+    value: ' Nelson'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: Attorney
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '20021017'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: '1000.00'
+  - name: CAN/OFFICE
+    number: '17'
+    value: C00367821
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: Michaud^Michael^^
+  - name: CONDUIT NAME
+    number: '20'
+    value: H
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ME
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: '02'
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: ''
+  - value: F6.4192
+  expected_count: 27
+  input: F65,C00367821,IND,Adams^Kurt^^,48 Stroudwater Road,,Portland,ME,04105,"Bernstein,
+    Shur, Sawyer, Nelson",Attorney,20021017,1000.00,C00367821,,Michaud^Michael^^,H,ME,02,,,,,,,,F6.4192
+  input_count: 30
+  record: <fec.version.v3.F65.Records instance at 0x2664518>
+  result: []
+- input: F65,C00367821,IND,Allen^Thomas^^,17 Fairmount Street,,Portland,ME,04103,U.S.
+    House of Representatives,Congressman,20021017,1000.00,C00367821,,Michaud^Michael^^,H,ME,02,,,,,,,,F6.4195
+  record: <fec.version.v3.F65.Records instance at 0x2664440>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367821
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Allen^Thomas^^
+  - name: STREET 1
+    number: '5'
+    value: 17 Fairmount Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Portland
+  - name: STATE
+    number: '8'
+    value: ME
+  - name: ZIP
+    number: '9'
+    value: '04103'
+  - name: INDEMP
+    number: '10'
+    value: U.S. House of Representatives
+  - name: INDOCC
+    number: '11'
+    value: Congressman
+  - name: Of Contribution
+    number: 12-
+    value: '20021017'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00367821
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Michaud^Michael^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: ME
+  - name: CAN/DIST
+    number: '19'
+    value: '02'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4195
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367821
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: American Federation of Government Employees Polittical Action Committee
+  - name: STREET 1
+    number: '5'
+    value: 80 F Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20001'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20021017'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00367821
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: Michaud^Michael^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: ME
+  - name: CONDUIT NAME
+    number: '20'
+    value: '02'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.4193
+  expected_count: 27
+  input: F65,C00367821,PAC,American Federation of Government Employees Polittical
+    Action Committee,"80 F Street, NW",,Washington,DC,20001,,,20021017,1000.00,C00367821,,Michaud^Michael^^,H,ME,02,,,,,,,,F6.4193
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x2664518>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367821
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Community Action Program PAC
+  - name: STREET 1
+    number: '5'
+    value: 810 First Street
+  - name: STREET 2
+    number: '6'
+    value: ' NE'
+  - name: CITY
+    number: '7'
+    value: Suite 530
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20002'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20021017'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00367821
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: Michaud^Michael^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: ME
+  - name: CONDUIT NAME
+    number: '20'
+    value: '02'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.4194
+  expected_count: 27
+  input: F65,C00367821,PAC,Community Action Program PAC,"810 First Street, NE",Suite
+    530,Washington,DC,20002,,,20021017,1000.00,C00367821,,Michaud^Michael^^,H,ME,02,,,,,,,,F6.4194
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x2664200>
+  result: []
+- input: F65,C00367821,CCM,Pallone for Congress,PO Box 3176,,Long Branch,NJ,07740,,,20021017,1000.00,C00367821,,Michaud^Michael^^,H,ME,02,,,,,,,,F6.4196
+  record: <fec.version.v3.F65.Records instance at 0x2664518>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367821
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Pallone for Congress
+  - name: STREET 1
+    number: '5'
+    value: PO Box 3176
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Long Branch
+  - name: STATE
+    number: '8'
+    value: NJ
+  - name: ZIP
+    number: '9'
+    value: '07740'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021017'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00367821
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Michaud^Michael^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: ME
+  - name: CAN/DIST
+    number: '19'
+    value: '02'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4196
+sourceurl: !!python/unicode 20021019
+type: single
