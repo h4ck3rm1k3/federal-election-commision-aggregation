@@ -1,0 +1,142 @@
+countraw: 4
+countrows: 2
+filename: 45173.fec
+header: {}
+rows:
+- input: F6,"C00376566","Gayle Ray for Congress","PO Box 330008","","Nashville","TN","37203","","Gayle
+    Ray","H","TN","5",20020726
+  record: <fec.version.v3.F6.Records instance at 0x233a248>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00376566
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Gayle Ray for Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 330008
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Nashville
+  - name: STATE
+    number: '7'
+    value: TN
+  - name: ZIP
+    number: '8'
+    value: '37203'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Gayle Ray
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: TN
+  - name: CAN/DIST
+    number: '13'
+    value: '5'
+  - name: Signed
+    number: 14-
+    value: '20020726'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00376566
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: NOW/PAC
+  - name: STREET 1
+    number: '5'
+    value: 733 - 15th Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ' Second Floo'
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: INDEMP
+    number: '10'
+    value: DC
+  - name: INDOCC
+    number: '11'
+    value: '20005'
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20020726'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '2000'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: C10663
+  expected_count: 27
+  input: F65,"C00376566","PAC","NOW/PAC","733 - 15th Street, NW, Second Floo","","Washington","DC","20005","","",20020726,"2000","","","","","","","","","","","","","","C10663"
+  input_count: 29
+  record: <fec.version.v3.F65.Records instance at 0x233a4d0>
+  result: []
+sourceurl: !!python/unicode 20020726
+type: chunk
