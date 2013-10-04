@@ -1,0 +1,142 @@
+countraw: 4
+countrows: 2
+filename: 56317.fec
+header: {}
+rows:
+- input: F6N,C00351718,COMMITTEE TO ELECT ED O'BRIEN,PO BOX 447,,BETHLEHEM,PA,18018,H0PA15085,O'Brien^Edward^Mr.^,H,PA,15,20021018
+  record: <fec.version.v3.F6.Records instance at 0x84a78c0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00351718
+  - name: COMMITTEE NAME
+    number: '3'
+    value: COMMITTEE TO ELECT ED O'BRIEN
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 447
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: BETHLEHEM
+  - name: STATE
+    number: '7'
+    value: PA
+  - name: ZIP
+    number: '8'
+    value: '18018'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H0PA15085
+  - name: CANDIDATE NAME
+    number: '10'
+    value: O'Brien^Edward^Mr.^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: PA
+  - name: CAN/DIST
+    number: '13'
+    value: '15'
+  - name: Signed
+    number: 14-
+    value: '20021018'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00351718
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Gilmore^Elizabeth^Ms.
+  - name: STREET 1
+    number: '5'
+    value: 39 West 11th Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New  York
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10011'
+  - name: INDEMP
+    number: '10'
+    value: Self
+  - name: INDOCC
+    number: '11'
+    value: Foundation Director
+  - name: Of Contribution
+    number: 12-
+    value: '20021018'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: Progressive^Majority
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: 1025 Connecticut Ave.
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ' N.W.'
+  - name: CONDUIT CITY
+    number: '23'
+    value: Suite 205
+  - name: CONDUIT STATE
+    number: '24'
+    value: Washington
+  - name: CONDUIT ZIP
+    number: '25'
+    value: DC
+  - name: AMENDED CD
+    number: '26'
+    value: '20036'
+  - name: TRAN ID
+    number: '27'
+    value: A
+  - value: F65.00000
+  expected_count: 27
+  input: F65,C00351718,IND,Gilmore^Elizabeth^Ms.,39 West 11th Street,,New  York,NY,10011,Self,Foundation
+    Director,20021018,1000.00,,,,,,,Progressive^Majority,"1025 Connecticut Ave., N.W.",Suite
+    205,Washington,DC,20036,A,F65.00000
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x84a79e0>
+  result: []
+sourceurl: !!python/unicode 20021018
+type: single
