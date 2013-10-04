@@ -1,0 +1,227 @@
+countraw: 5
+countrows: 3
+filename: 56752.fec
+header: {}
+rows:
+- input: '"F6","C00266767","Knollenberg for Congress Committee","27867 Orchard Lake
+    Road","","Farmington Hills","MI","48334   ","C00266767","Joseph K. Knollenberg","H","MI","11",18991230'
+  record: <fec.version.v3.F6.Records instance at 0x47bec68>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266767
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Knollenberg for Congress Committee
+  - name: STREET 1
+    number: '4'
+    value: 27867 Orchard Lake Road
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Farmington Hills
+  - name: STATE
+    number: '7'
+    value: MI
+  - name: ZIP
+    number: '8'
+    value: '48334   '
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: C00266767
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Joseph K. Knollenberg
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: MI
+  - name: CAN/DIST
+    number: '13'
+    value: '11'
+  - name: Signed
+    number: 14-
+    value: '18991230'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266767
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Hayes^Robert
+  - name: STREET 1
+    number: '5'
+    value: 1176 Asheford Green Avenue
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Concord
+  - name: ZIP
+    number: '9'
+    value: NC
+  - name: INDEMP
+    number: '10'
+    value: '28027    '
+  - name: INDOCC
+    number: '11'
+    value: Information Requested
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20021018'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 1019200234C240781
+  expected_count: 27
+  input: '"F65","C00266767","IND","Hayes^Robert","1176 Asheford Green Avenue, NW","","Concord","NC","28027    ","Information
+    Requested","",20021018,1000.00,"","","","","","","","","","","",,"","1019200234C240781"'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x47bef38>
+  result: []
+- input: '"F65","C00266767","PAC","The Hon. Jerry Lewis","Lewis for Congress Committee
+    PAC","PO Box 247 ","Redlands","CA","92373    ","State of California","Congressman",20021018,1000.00,"","","","","","","","","","","",,"","1019200234C240772"'
+  record: <fec.version.v3.F65.Records instance at 0x47be5f0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266767
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: The Hon. Jerry Lewis
+  - name: STREET 1
+    number: '5'
+    value: Lewis for Congress Committee PAC
+  - name: STREET 2
+    number: '6'
+    value: 'PO Box 247 '
+  - name: CITY
+    number: '7'
+    value: Redlands
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '92373    '
+  - name: INDEMP
+    number: '10'
+    value: State of California
+  - name: INDOCC
+    number: '11'
+    value: Congressman
+  - name: Of Contribution
+    number: 12-
+    value: '20021018'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 1019200234C240772
+sourceurl: !!python/unicode 20021019
+type: single
