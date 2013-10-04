@@ -1,0 +1,142 @@
+countraw: 4
+countrows: 2
+filename: 57769.fec
+header: {}
+rows:
+- input: F6,"C00371773","Chapman for Congress","P.O. Box 181444","","Dallas","TX","75218","","Ron
+    Chapman","H","TX","5",20021022
+  record: <fec.version.v3.F6.Records instance at 0x47d8368>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00371773
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Chapman for Congress
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 181444
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Dallas
+  - name: STATE
+    number: '7'
+    value: TX
+  - name: ZIP
+    number: '8'
+    value: '75218'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Ron Chapman
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: TX
+  - name: CAN/DIST
+    number: '13'
+    value: '5'
+  - name: Signed
+    number: 14-
+    value: '20021022'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00371773
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Air Line Pilots Association (ALPA-PAC)
+  - name: STREET 1
+    number: '5'
+    value: 1625 Massachusetts Ave.
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20036'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: C00035451
+  - name: AMOUNT
+    number: '13'
+    value: '20021022'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2500'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00035451
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: TX
+  - name: CONDUIT NAME
+    number: '20'
+    value: '5'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: C30400
+  expected_count: 27
+  input: F65,"C00371773","PAC","Air Line Pilots Association (ALPA-PAC)","1625 Massachusetts
+    Ave., NW","","Washington","DC","20036","","C00035451",20021022,"2500","C00035451","","","H","TX","5","","","","","","","","C30400"
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x47d8248>
+  result: []
+sourceurl: !!python/unicode 20021022
+type: single
