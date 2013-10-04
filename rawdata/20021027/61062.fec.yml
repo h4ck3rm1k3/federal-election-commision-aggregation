@@ -1,0 +1,814 @@
+countraw: 12
+countrows: 10
+filename: 61062.fec
+header: {}
+rows:
+- input: F6,C00365999,Brose McVey for Congress,PO Box 30555,,Indianapolis,IN,46230,,McVey^Brose^^,H,IN,7,20021027
+  record: <fec.version.v3.F6.Records instance at 0x47dc320>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00365999
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Brose McVey for Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 30555
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Indianapolis
+  - name: STATE
+    number: '7'
+    value: IN
+  - name: ZIP
+    number: '8'
+    value: '46230'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: McVey^Brose^^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: IN
+  - name: CAN/DIST
+    number: '13'
+    value: '7'
+  - name: Signed
+    number: 14-
+    value: '20021027'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00365999
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Klipsch^Judy^^
+  - name: STREET 1
+    number: '5'
+    value: 3502 Woodview Trace
+  - name: STREET 2
+    number: '6'
+    value: ' Ste. 200'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Indianapolis
+  - name: ZIP
+    number: '9'
+    value: IN
+  - name: INDEMP
+    number: '10'
+    value: '46268'
+  - name: INDOCC
+    number: '11'
+    value: requested
+  - name: Of Contribution
+    number: 12-
+    value: requested
+  - name: AMOUNT
+    number: '13'
+    value: '20021025'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00365999
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: McVey^Brose^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: IN
+  - name: CONDUIT NAME
+    number: '20'
+    value: '7'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.10065
+  expected_count: 27
+  input: F65,C00365999,IND,Klipsch^Judy^^,"3502 Woodview Trace, Ste. 200",,Indianapolis,IN,46268,requested,requested,20021025,1000.00,C00365999,,McVey^Brose^^,H,IN,7,,,,,,,,F6.10065
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x47dcf80>
+  result: []
+- input: F65,C00365999,IND,Lanham^Charles^^,7564 Silver Pine Court,,Indianapolis,IN,46250,Klipsch
+    Audio Technologies,business executive,20021025,1000.00,C00365999,,McVey^Brose^^,H,IN,7,,,,,,,,F6.10066
+  record: <fec.version.v3.F65.Records instance at 0x47dc320>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00365999
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Lanham^Charles^^
+  - name: STREET 1
+    number: '5'
+    value: 7564 Silver Pine Court
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Indianapolis
+  - name: STATE
+    number: '8'
+    value: IN
+  - name: ZIP
+    number: '9'
+    value: '46250'
+  - name: INDEMP
+    number: '10'
+    value: Klipsch Audio Technologies
+  - name: INDOCC
+    number: '11'
+    value: business executive
+  - name: Of Contribution
+    number: 12-
+    value: '20021025'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00365999
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: McVey^Brose^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: IN
+  - name: CAN/DIST
+    number: '19'
+    value: '7'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.10066
+- input: F65,C00365999,IND,Lanham^Rosemary^^,7564 Silver Pine Court,,Indianapolis,IN,46250,requested,,20021025,1000.00,C00365999,,McVey^Brose^^,H,IN,7,,,,,,,,F6.10067
+  record: <fec.version.v3.F65.Records instance at 0x47dcf80>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00365999
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Lanham^Rosemary^^
+  - name: STREET 1
+    number: '5'
+    value: 7564 Silver Pine Court
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Indianapolis
+  - name: STATE
+    number: '8'
+    value: IN
+  - name: ZIP
+    number: '9'
+    value: '46250'
+  - name: INDEMP
+    number: '10'
+    value: requested
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021025'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00365999
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: McVey^Brose^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: IN
+  - name: CAN/DIST
+    number: '19'
+    value: '7'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.10067
+- input: F65,C00365999,IND,Poindexter^Billy^^,7815 West 500 North,,McCordsville,IN,46055,requested,requested,20021025,1000.00,C00365999,,McVey^Brose^^,H,IN,7,,,,,,,,F6.10068
+  record: <fec.version.v3.F65.Records instance at 0x47dc320>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00365999
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Poindexter^Billy^^
+  - name: STREET 1
+    number: '5'
+    value: 7815 West 500 North
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: McCordsville
+  - name: STATE
+    number: '8'
+    value: IN
+  - name: ZIP
+    number: '9'
+    value: '46055'
+  - name: INDEMP
+    number: '10'
+    value: requested
+  - name: INDOCC
+    number: '11'
+    value: requested
+  - name: Of Contribution
+    number: 12-
+    value: '20021025'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00365999
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: McVey^Brose^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: IN
+  - name: CAN/DIST
+    number: '19'
+    value: '7'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.10068
+- input: F65,C00365999,PAC,Ashland Inc. PAC,P.O. Box 391,,Ashland,KY,41114,,,20021025,1000.00,C00365999,,McVey^Brose^^,H,IN,7,,,,,,,,F6.10060
+  record: <fec.version.v3.F65.Records instance at 0x47dcf80>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00365999
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Ashland Inc. PAC
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 391
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Ashland
+  - name: STATE
+    number: '8'
+    value: KY
+  - name: ZIP
+    number: '9'
+    value: '41114'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021025'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00365999
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: McVey^Brose^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: IN
+  - name: CAN/DIST
+    number: '19'
+    value: '7'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.10060
+- input: F65,C00365999,PAC,National Beer Wholesalers Assoc. PAC,1100 S. Washington
+    Street,,Alexandria,VA,22314,,,20021025,4000.00,C00365999,,McVey^Brose^^,H,IN,7,,,,,,,,F6.10061
+  record: <fec.version.v3.F65.Records instance at 0x47dc320>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00365999
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: National Beer Wholesalers Assoc. PAC
+  - name: STREET 1
+    number: '5'
+    value: 1100 S. Washington Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Alexandria
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22314'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021025'
+  - name: AMOUNT
+    number: '13'
+    value: '4000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00365999
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: McVey^Brose^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: IN
+  - name: CAN/DIST
+    number: '19'
+    value: '7'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.10061
+- input: F65,C00365999,PAC,National Hardwood Lumber Association PAC,PO Box 34518,,Memphis,TN,38184,,,20021025,1000.00,C00365999,,McVey^Brose^^,H,IN,7,,,,,,,,F6.10062
+  record: <fec.version.v3.F65.Records instance at 0x47dcf80>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00365999
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: National Hardwood Lumber Association PAC
+  - name: STREET 1
+    number: '5'
+    value: PO Box 34518
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Memphis
+  - name: STATE
+    number: '8'
+    value: TN
+  - name: ZIP
+    number: '9'
+    value: '38184'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021025'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00365999
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: McVey^Brose^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: IN
+  - name: CAN/DIST
+    number: '19'
+    value: '7'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.10062
+- input: F65,C00365999,PAC,OLBANK PAC,420 Main Street,,Evansville,IN,47708,,,20021025,1000.00,C00365999,,McVey^Brose^^,H,IN,7,,,,,,,,F6.10063
+  record: <fec.version.v3.F65.Records instance at 0x47dc320>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00365999
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: OLBANK PAC
+  - name: STREET 1
+    number: '5'
+    value: 420 Main Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Evansville
+  - name: STATE
+    number: '8'
+    value: IN
+  - name: ZIP
+    number: '9'
+    value: '47708'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021025'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00365999
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: McVey^Brose^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: IN
+  - name: CAN/DIST
+    number: '19'
+    value: '7'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.10063
+- input: F65,C00365999,PAC,RJR PAC,401 North Main Street,,Winston-Salem,NC,27102,,,20021025,1000.00,C00365999,,McVey^Brose^^,H,IN,7,,,,,,,,F6.10064
+  record: <fec.version.v3.F65.Records instance at 0x47dcf80>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00365999
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: RJR PAC
+  - name: STREET 1
+    number: '5'
+    value: 401 North Main Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Winston-Salem
+  - name: STATE
+    number: '8'
+    value: NC
+  - name: ZIP
+    number: '9'
+    value: '27102'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021025'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00365999
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: McVey^Brose^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: IN
+  - name: CAN/DIST
+    number: '19'
+    value: '7'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.10064
+sourceurl: !!python/unicode 20021027
+type: single
