@@ -1,0 +1,176 @@
+countraw: 4
+countrows: 2
+filename: 44822.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00325076
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Campaign for Working Families
+  - name: STREET 1
+    number: '4'
+    value: 2800 Shirlington Road
+  - name: STREET 2
+    number: '5'
+    value: ' Suite 605'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Arlington
+  - name: ZIP
+    number: '8'
+    value: VA
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: '22206'
+  - name: Signed
+    number: 10-
+    value: Myers^Amy^^
+  - value: '20020722'
+  expected_count: 10
+  input: F24,C00325076,Campaign for Working Families,"2800 Shirlington Road, Suite
+    605",,Arlington,VA,22206,Myers^Amy^^,20020722
+  input_count: 11
+  record: <fec.version.v3.F24.Records instance at 0x233bd40>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00325076
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: McRei
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.^^^'
+  - name: STREET 2
+    number: '6'
+    value: 3937 Pines Road
+  - name: CITY
+    number: '7'
+    value: Suite H
+  - name: STATE
+    number: '8'
+    value: Shreveport
+  - name: ZIP
+    number: '9'
+    value: LA
+  - name: TRANSDESC
+    number: '10'
+    value: '71119'
+  - name: DATE
+    number: '11'
+    value: GOTV
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20020722'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '8000.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: C00376228
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ED BRYANT FOR U S SENATE INC
+  - name: S/O STATE
+    number: '17'
+    value: S
+  - name: S/O CAN/DIST
+    number: '18'
+    value: TN
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '00'
+  - name: Unused field
+    number: '20'
+    value: C00325076
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.28422
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - value: ''
+  expected_count: 41
+  input: SE24,C00325076,IND,"McRei, Inc.^^^",3937 Pines Road,Suite H,Shreveport,LA,71119,GOTV,20020722,8000.00,S,C00376228,ED
+    BRYANT FOR U S SENATE INC,S,TN,00,C00325076,,,,,,,,,,,,,,,,,,SE24.28422,,,,
+  input_count: 42
+  record: <fec.version.v3.SE.Records instance at 0x233bf38>
+  result: []
+sourceurl: !!python/unicode 20020722
+type: chunk
