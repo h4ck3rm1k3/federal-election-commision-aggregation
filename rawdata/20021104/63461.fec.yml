@@ -1,0 +1,490 @@
+countraw: 8
+countrows: 6
+filename: 63461.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00371039
+  - name: COMMITTEE NAME
+    number: '3'
+    value: John Swallow For Congress
+  - name: STREET 1
+    number: '4'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '5'
+    value: 175 South West Temple
+  - name: CITY
+    number: '6'
+    value: ' Suite 650'
+  - name: STATE
+    number: '7'
+    value: ''
+  - name: ZIP
+    number: '8'
+    value: Salt Lake City
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: UT
+  - name: CANDIDATE NAME
+    number: '10'
+    value: '84101   '
+  - name: CAN/OFFICE
+    number: '11'
+    value: H2UT02167
+  - name: CAN/STATE
+    number: '12'
+    value: John Swallow for Congress
+  - name: CAN/DIST
+    number: '13'
+    value: H
+  - name: Signed
+    number: 14-
+    value: ''
+  - value: '02'
+  - value: '20021104'
+  expected_count: 14
+  input: '"F6","C00371039","John Swallow For Congress, Inc.","175 South West Temple,
+    Suite 650","","Salt Lake City","UT","84101   ","H2UT02167","John Swallow for Congress","H","","02",20021104'
+  input_count: 16
+  record: <fec.version.v3.F6.Records instance at 0x26656c8>
+  result: []
+- input: '"F65","C00371039","IND","Anderson^Travis","6 Sand Spring Lane","","Morristown","NJ","079606704","Gilder
+    Gagnon Howe + Co. LLC","stockbroker",20021101,1000.00,"","","","","","","","","","","",,"","1101200236C21681"'
+  record: <fec.version.v3.F65.Records instance at 0x2665bd8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00371039
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Anderson^Travis
+  - name: STREET 1
+    number: '5'
+    value: 6 Sand Spring Lane
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Morristown
+  - name: STATE
+    number: '8'
+    value: NJ
+  - name: ZIP
+    number: '9'
+    value: 079606704
+  - name: INDEMP
+    number: '10'
+    value: Gilder Gagnon Howe + Co. LLC
+  - name: INDOCC
+    number: '11'
+    value: stockbroker
+  - name: Of Contribution
+    number: 12-
+    value: '20021101'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 1101200236C21681
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00371039
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Green^Stephen
+  - name: STREET 1
+    number: '5'
+    value: 17 Valley Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Locust Valley
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '11560    '
+  - name: INDEMP
+    number: '10'
+    value: Ridgely Management
+  - name: INDOCC
+    number: '11'
+    value: ' LLC'
+  - name: Of Contribution
+    number: 12-
+    value: Information Requested
+  - name: AMOUNT
+    number: '13'
+    value: '20021101'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 1101200236C21772
+  expected_count: 27
+  input: '"F65","C00371039","IND","Green^Stephen","17 Valley Road","","Locust Valley","NY","11560    ","Ridgely
+    Management, LLC","Information Requested",20021101,1000.00,"","","","","","","","","","","",,"","1101200236C21772"'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x2665c20>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00371039
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: ODonnell^Albert
+  - name: STREET 1
+    number: '5'
+    value: 4291 Williams Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Estero
+  - name: STATE
+    number: '8'
+    value: FL
+  - name: ZIP
+    number: '9'
+    value: '33928    '
+  - name: INDEMP
+    number: '10'
+    value: ODonnell Landscapes
+  - name: INDOCC
+    number: '11'
+    value: ' Inc.'
+  - name: Of Contribution
+    number: 12-
+    value: landscape contractor
+  - name: AMOUNT
+    number: '13'
+    value: '20021101'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 110120029C22133
+  expected_count: 27
+  input: '"F65","C00371039","IND","ODonnell^Albert","4291 Williams Road","","Estero","FL","33928    ","ODonnell
+    Landscapes, Inc.","landscape contractor",20021101,1000.00,"","","","","","","","","","","",,"","110120029C22133"'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x2665bd8>
+  result: []
+- input: '"F65","C00371039","IND","Offerdahl^Richard","593 Lariat Circle","","Incline
+    Village","NV","89451    ","Maxircorp","Manager",20021101,1000.00,"","","","","","","","","","","",,"","1101200236C21874"'
+  record: <fec.version.v3.F65.Records instance at 0x2665c20>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00371039
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Offerdahl^Richard
+  - name: STREET 1
+    number: '5'
+    value: 593 Lariat Circle
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Incline Village
+  - name: STATE
+    number: '8'
+    value: NV
+  - name: ZIP
+    number: '9'
+    value: '89451    '
+  - name: INDEMP
+    number: '10'
+    value: Maxircorp
+  - name: INDOCC
+    number: '11'
+    value: Manager
+  - name: Of Contribution
+    number: 12-
+    value: '20021101'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 1101200236C21874
+- input: '"F65","C00371039","IND","Spix^George","17607 NE 27th Street","","Redmond","WA","98052    ","Microsoft","Engineer",20021101,1000.00,"","","","","","","","","","","",,"","1101200237C21965"'
+  record: <fec.version.v3.F65.Records instance at 0x2665bd8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00371039
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Spix^George
+  - name: STREET 1
+    number: '5'
+    value: 17607 NE 27th Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Redmond
+  - name: STATE
+    number: '8'
+    value: WA
+  - name: ZIP
+    number: '9'
+    value: '98052    '
+  - name: INDEMP
+    number: '10'
+    value: Microsoft
+  - name: INDOCC
+    number: '11'
+    value: Engineer
+  - name: Of Contribution
+    number: 12-
+    value: '20021101'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 1101200237C21965
+sourceurl: !!python/unicode 20021104
+type: single
