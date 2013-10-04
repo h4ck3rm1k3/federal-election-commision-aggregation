@@ -1,0 +1,232 @@
+countraw: 5
+countrows: 3
+filename: 49336.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00290825
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Nadler for Congress
+  - name: STREET 1
+    number: '4'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '5'
+    value: Village Station
+  - name: CITY
+    number: '6'
+    value: ' P.O. Box 40'
+  - name: STATE
+    number: '7'
+    value: ''
+  - name: ZIP
+    number: '8'
+    value: New York
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: NY
+  - name: CANDIDATE NAME
+    number: '10'
+    value: '10014   '
+  - name: CAN/OFFICE
+    number: '11'
+    value: H2NY17071
+  - name: CAN/STATE
+    number: '12'
+    value: Jerrold Nadler
+  - name: CAN/DIST
+    number: '13'
+    value: H
+  - name: Signed
+    number: 14-
+    value: NY
+  - value: 08
+  - value: '20020828'
+  expected_count: 14
+  input: '"F6","C00290825","Nadler for Congress, Inc.","Village Station, P.O. Box
+    40","","New York","NY","10014   ","H2NY17071","Jerrold Nadler","H","NY","08",20020828'
+  input_count: 16
+  record: <fec.version.v3.F6.Records instance at 0x2664440>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00290825
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: American Medical Association  PAC
+  - name: STREET 1
+    number: '5'
+    value: 1101 Vermont Avenue
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20005    '
+  - name: INDOCC
+    number: '11'
+    value: American Medical PAC
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20020905'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 0906200230C71791
+  expected_count: 27
+  input: '"F65","C00290825","PAC","American Medical Association  PAC","1101 Vermont
+    Avenue, NW","","Washington","DC","20005    ","American Medical PAC","",20020905,2000.00,"","","","","","","","","","","",,"","0906200230C71791"'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x2664e18>
+  result: []
+- input: '"F65","C00290825","PAC","National Association of Realtors PAC","430 N. Michigan
+    Avenue","","Chicago","IL","60611    ","","",20020905,1000.00,"","","","","","","","","","","",,"","0906200230C71782"'
+  record: <fec.version.v3.F65.Records instance at 0x2664830>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00290825
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: National Association of Realtors PAC
+  - name: STREET 1
+    number: '5'
+    value: 430 N. Michigan Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Chicago
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60611    '
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020905'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 0906200230C71782
+sourceurl: !!python/unicode 20020906
+type: single
