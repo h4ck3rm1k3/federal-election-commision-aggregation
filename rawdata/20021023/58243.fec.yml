@@ -1,0 +1,406 @@
+countraw: 7
+countrows: 5
+filename: 58243.fec
+header: {}
+rows:
+- input: '"F6","C00144857","Kolbe 2002","P O Box 31568","","Tucson","AZ","85751   ","H2AS02014","Jim
+    Kolbe","H","AZ","8 ",20021020'
+  record: <fec.version.v3.F6.Records instance at 0x498ea28>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00144857
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Kolbe 2002
+  - name: STREET 1
+    number: '4'
+    value: P O Box 31568
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Tucson
+  - name: STATE
+    number: '7'
+    value: AZ
+  - name: ZIP
+    number: '8'
+    value: '85751   '
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2AS02014
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Jim Kolbe
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: AZ
+  - name: CAN/DIST
+    number: '13'
+    value: '8 '
+  - name: Signed
+    number: 14-
+    value: '20021020'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00144857
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: The American Institute of Architects
+  - name: STREET 1
+    number: '5'
+    value: Daniel Wilson
+  - name: STREET 2
+    number: '6'
+    value: ' Sr. Director'
+  - name: CITY
+    number: '7'
+    value: 1735 New York Avenue
+  - name: STATE
+    number: '8'
+    value: ' NW '
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: INDEMP
+    number: '10'
+    value: DC
+  - name: INDOCC
+    number: '11'
+    value: '20006    '
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20021021'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '1000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: 1022200254C68781
+  expected_count: 27
+  input: '"F65","C00144857","PAC","The American Institute of Architects","Daniel Wilson,
+    Sr. Director","1735 New York Avenue, NW ","Washington","DC","20006    ","","",20021021,1000.00,"","","","","","","","","","","",,"","1022200254C68781"'
+  input_count: 29
+  record: <fec.version.v3.F65.Records instance at 0x25eecf8>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00144857
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Mission Indians^Barona Band of
+  - name: STREET 1
+    number: '5'
+    value: Mr. David Baron
+  - name: STREET 2
+    number: '6'
+    value: ' Dir. of Govt Affa'
+  - name: CITY
+    number: '7'
+    value: '1095 Barona Rd '
+  - name: STATE
+    number: '8'
+    value: Lakeside
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: INDEMP
+    number: '10'
+    value: '92040    '
+  - name: INDOCC
+    number: '11'
+    value: Indian Tribe
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20021021'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 1022200254C68842
+  expected_count: 27
+  input: '"F65","C00144857","IND","Mission Indians^Barona Band of","Mr. David Baron,
+    Dir. of Govt Affa","1095 Barona Rd ","Lakeside","CA","92040    ","Indian Tribe","",20021021,1000.00,"","","","","","","","","","","",,"","1022200254C68842"'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x25eee18>
+  result: []
+- input: '"F65","C00144857","IND","Phalen^William","10892 East Gold Dust Avenue","","Scottsdale","AZ","85259    ","Cities
+    West Publishing","Owner",20021021,1000.00,"","","","","","","","","","","",,"","1022200254C68833"'
+  record: <fec.version.v3.F65.Records instance at 0x25eecf8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00144857
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Phalen^William
+  - name: STREET 1
+    number: '5'
+    value: 10892 East Gold Dust Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Scottsdale
+  - name: STATE
+    number: '8'
+    value: AZ
+  - name: ZIP
+    number: '9'
+    value: '85259    '
+  - name: INDEMP
+    number: '10'
+    value: Cities West Publishing
+  - name: INDOCC
+    number: '11'
+    value: Owner
+  - name: Of Contribution
+    number: 12-
+    value: '20021021'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 1022200254C68833
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00144857
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Precision Metalforming Association
+  - name: STREET 1
+    number: '5'
+    value: Christopher Howell
+  - name: STREET 2
+    number: '6'
+    value: ' Dir. Govt Aff'
+  - name: CITY
+    number: '7'
+    value: '6363 Oak Tree Blvd. '
+  - name: STATE
+    number: '8'
+    value: Independence
+  - name: ZIP
+    number: '9'
+    value: OH
+  - name: INDEMP
+    number: '10'
+    value: '44131    '
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20021021'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 1022200254C68814
+  expected_count: 27
+  input: '"F65","C00144857","PAC","Precision Metalforming Association","Christopher
+    Howell, Dir. Govt Aff","6363 Oak Tree Blvd. ","Independence","OH","44131    ","","",20021021,1000.00,"","","","","","","","","","","",,"","1022200254C68814"'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x25eee18>
+  result: []
+sourceurl: !!python/unicode 20021023
+type: single
