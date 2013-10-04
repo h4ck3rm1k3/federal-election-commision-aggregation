@@ -1,0 +1,587 @@
+countraw: 9
+countrows: 7
+filename: 63361.fec
+header: {}
+rows:
+- input: '"F6","C00144857","Kolbe 2002","P O Box 31568","","Tucson","AZ","85751   ","H2AS02014","Jim
+    Kolbe","H","AZ","8 ",20021103'
+  record: <fec.version.v3.F6.Records instance at 0x47af3b0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00144857
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Kolbe 2002
+  - name: STREET 1
+    number: '4'
+    value: P O Box 31568
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Tucson
+  - name: STATE
+    number: '7'
+    value: AZ
+  - name: ZIP
+    number: '8'
+    value: '85751   '
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2AS02014
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Jim Kolbe
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: AZ
+  - name: CAN/DIST
+    number: '13'
+    value: '8 '
+  - name: Signed
+    number: 14-
+    value: '20021103'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00144857
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: May Department Stores PAC
+  - name: STREET 1
+    number: '5'
+    value: Richard Cohen
+  - name: STREET 2
+    number: '6'
+    value: ' Treasurer'
+  - name: CITY
+    number: '7'
+    value: '611 Olive Street '
+  - name: STATE
+    number: '8'
+    value: Saint Louis
+  - name: ZIP
+    number: '9'
+    value: MO
+  - name: INDEMP
+    number: '10'
+    value: '63101    '
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20021102'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 1103200213C70791
+  expected_count: 27
+  input: '"F65","C00144857","PAC","May Department Stores PAC","Richard Cohen, Treasurer","611
+    Olive Street ","Saint Louis","MO","63101    ","","",20021102,1000.00,"","","","","","","","","","","",,"","1103200213C70791"'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x47af7a0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00144857
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Hewlett-Packard PAC
+  - name: STREET 1
+    number: '5'
+    value: Gary Fazzino
+  - name: STREET 2
+    number: '6'
+    value: ' VP Govt Affairs'
+  - name: CITY
+    number: '7'
+    value: MS 20BU
+  - name: STATE
+    number: '8'
+    value: ' 3000 Hanover Street '
+  - name: ZIP
+    number: '9'
+    value: Palo Alto
+  - name: INDEMP
+    number: '10'
+    value: CA
+  - name: INDOCC
+    number: '11'
+    value: '943041112'
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20021102'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '1000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: 1103200213C70822
+  expected_count: 27
+  input: '"F65","C00144857","PAC","Hewlett-Packard PAC","Gary Fazzino, VP Govt Affairs","MS
+    20BU, 3000 Hanover Street ","Palo Alto","CA","943041112","","",20021102,1000.00,"","","","","","","","","","","",,"","1103200213C70822"'
+  input_count: 29
+  record: <fec.version.v3.F65.Records instance at 0x47af3b0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00144857
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Comm. on Letter Carriers
+  - name: STREET 1
+    number: '5'
+    value: George Gould
+  - name: STREET 2
+    number: '6'
+    value: ' Assist. to the Presi'
+  - name: CITY
+    number: '7'
+    value: '100 Indiana Avenue NW '
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20001    '
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20021102'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 1103200213C70843
+  expected_count: 27
+  input: '"F65","C00144857","PAC","Comm. on Letter Carriers","George Gould, Assist.
+    to the Presi","100 Indiana Avenue NW ","Washington","DC","20001    ","","",20021102,1000.00,"","","","","","","","","","","",,"","1103200213C70843"'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x47af7a0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00144857
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Pacificare PAC
+  - name: STREET 1
+    number: '5'
+    value: c/o Cynthia Berry
+  - name: STREET 2
+    number: '6'
+    value: Wexler & Walker 1317 F Street
+  - name: CITY
+    number: '7'
+    value: ' NW'
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: INDEMP
+    number: '10'
+    value: DC
+  - name: INDOCC
+    number: '11'
+    value: '20004    '
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20021102'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '1000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: 1103200213C70804
+  expected_count: 27
+  input: '"F65","C00144857","PAC","Pacificare PAC","c/o Cynthia Berry","Wexler & Walker
+    1317 F Street, NW,","Washington","DC","20004    ","","",20021102,1000.00,"","","","","","","","","","","",,"","1103200213C70804"'
+  input_count: 29
+  record: <fec.version.v3.F65.Records instance at 0x47aaa28>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00144857
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Mashantucket Pequot Tribal Nation
+  - name: STREET 1
+    number: '5'
+    value: John Guevermont
+  - name: STREET 2
+    number: '6'
+    value: ' Director'
+  - name: CITY
+    number: '7'
+    value: 101 Constitution Avenue
+  - name: STATE
+    number: '8'
+    value: ' NW'
+  - name: ZIP
+    number: '9'
+    value: ' Suite'
+  - name: INDEMP
+    number: '10'
+    value: Washington
+  - name: INDOCC
+    number: '11'
+    value: DC
+  - name: Of Contribution
+    number: 12-
+    value: '20001    '
+  - name: AMOUNT
+    number: '13'
+    value: Indian Tribe
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '20021102'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: '1000.00'
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: ''
+  - value: 1103200213C70835
+  expected_count: 27
+  input: '"F65","C00144857","PAC","Mashantucket Pequot Tribal Nation","John Guevermont,
+    Director","101 Constitution Avenue, NW, Suite","Washington","DC","20001    ","Indian
+    Tribe","",20021102,1000.00,"","","","","","","","","","","",,"","1103200213C70835"'
+  input_count: 30
+  record: <fec.version.v3.F65.Records instance at 0x47aa128>
+  result: []
+- input: '"F65","C00144857","IND","Lickel^Charles","6900 North Vista Del Pueblo","","Tucson","AZ","85750    ","IBM","Executive",20021102,1000.00,"","","","","","","","","","","",,"","1103200213C70816"'
+  record: <fec.version.v3.F65.Records instance at 0x47aaa28>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00144857
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Lickel^Charles
+  - name: STREET 1
+    number: '5'
+    value: 6900 North Vista Del Pueblo
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Tucson
+  - name: STATE
+    number: '8'
+    value: AZ
+  - name: ZIP
+    number: '9'
+    value: '85750    '
+  - name: INDEMP
+    number: '10'
+    value: IBM
+  - name: INDOCC
+    number: '11'
+    value: Executive
+  - name: Of Contribution
+    number: 12-
+    value: '20021102'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 1103200213C70816
+sourceurl: !!python/unicode 20021103
+type: single
