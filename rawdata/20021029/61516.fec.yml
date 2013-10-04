@@ -1,0 +1,227 @@
+countraw: 5
+countrows: 3
+filename: 61516.fec
+header: {}
+rows:
+- input: '"F6","C00285171","Re-Elect McGovern Committee","PO Box 60405","","Worcester","MA","01606   ","C00285171","James
+    P. McGovern","H","MA","03",20021028'
+  record: <fec.version.v3.F6.Records instance at 0x9679758>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00285171
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Re-Elect McGovern Committee
+  - name: STREET 1
+    number: '4'
+    value: PO Box 60405
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Worcester
+  - name: STATE
+    number: '7'
+    value: MA
+  - name: ZIP
+    number: '8'
+    value: '01606   '
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: C00285171
+  - name: CANDIDATE NAME
+    number: '10'
+    value: James P. McGovern
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: MA
+  - name: CAN/DIST
+    number: '13'
+    value: '03'
+  - name: Signed
+    number: 14-
+    value: '20021028'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00285171
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: International Union
+  - name: STREET 1
+    number: '5'
+    value: ' United Automobile'
+  - name: STREET 2
+    number: '6'
+    value: Aerospeace & Agricultural Implemen
+  - name: CITY
+    number: '7'
+    value: 'Workers of America  Region 9A UAW '
+  - name: STATE
+    number: '8'
+    value: Farmington
+  - name: ZIP
+    number: '9'
+    value: CT
+  - name: INDEMP
+    number: '10'
+    value: '06032    '
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20021028'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '5000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 1028200213C165421
+  expected_count: 27
+  input: '"F65","C00285171","PAC","International Union, United Automobile","Aerospeace
+    & Agricultural Implemen","Workers of America  Region 9A UAW ","Farmington","CT","06032    ","","",20021028,5000.00,"","","","","","","","","","","",,"","1028200213C165421"'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x9679c20>
+  result: []
+- input: '"F65","C00285171","PAC","United Food & Commercial Workers","International  Union","1775
+    K Street N. W. ","Washington","DC","20006    ","","",20021028,5000.00,"C00297796","","","","",,"","","","","","","","1028200213C165462"'
+  record: <fec.version.v3.F65.Records instance at 0x9679638>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00285171
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: United Food & Commercial Workers
+  - name: STREET 1
+    number: '5'
+    value: International  Union
+  - name: STREET 2
+    number: '6'
+    value: '1775 K Street N. W. '
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20006    '
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021028'
+  - name: AMOUNT
+    number: '13'
+    value: '5000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00297796
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 1028200213C165462
+sourceurl: !!python/unicode 20021029
+type: single
