@@ -1,0 +1,562 @@
+countraw: 9
+countrows: 7
+filename: 60640.fec
+header: {}
+rows:
+- input: F6,C00288324,BOB NEY FOR CONGRESS,PO BOX 490,,ST CLAIRSVILLE,OH,43950,,,H,OH,18,20021025
+  record: <fec.version.v3.F6.Records instance at 0x26645a8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00288324
+  - name: COMMITTEE NAME
+    number: '3'
+    value: BOB NEY FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 490
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: ST CLAIRSVILLE
+  - name: STATE
+    number: '7'
+    value: OH
+  - name: ZIP
+    number: '8'
+    value: '43950'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ''
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: OH
+  - name: CAN/DIST
+    number: '13'
+    value: '18'
+  - name: Signed
+    number: 14-
+    value: '20021025'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00288324
+  - name: ENTITY TYPE
+    number: '3'
+    value: COM
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: BANK ONE PAC
+  - name: STREET 1
+    number: '5'
+    value: ROBERT WAHLMAN
+  - name: STREET 2
+    number: '6'
+    value: ' TREASURER'
+  - name: CITY
+    number: '7'
+    value: 100 E. BROAD STREET
+  - name: STATE
+    number: '8'
+    value: COLUMBUS
+  - name: ZIP
+    number: '9'
+    value: OH
+  - name: INDEMP
+    number: '10'
+    value: '43217'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20021025'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '4000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00288324
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H4OH18079
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: OH
+  - name: CONDUIT NAME
+    number: '20'
+    value: '18'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.13680
+  expected_count: 27
+  input: F65,C00288324,COM,BANK ONE PAC,"ROBERT WAHLMAN, TREASURER",100 E. BROAD STREET,COLUMBUS,OH,43217,,,20021025,4000.00,C00288324,H4OH18079,,H,OH,18,,,,,,,,F6.13680
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x2660680>
+  result: []
+- input: F65,C00288324,PAC,BLOCKPAC,700 THIRTEENTH STREET NW,SUITE 700,WASHINGTON,DC,20005,,,20021025,1000.00,C00288324,H4OH18079,,H,OH,18,,,,,,,,F6.13682
+  record: <fec.version.v3.F65.Records instance at 0x26645a8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00288324
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: BLOCKPAC
+  - name: STREET 1
+    number: '5'
+    value: 700 THIRTEENTH STREET NW
+  - name: STREET 2
+    number: '6'
+    value: SUITE 700
+  - name: CITY
+    number: '7'
+    value: WASHINGTON
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20005'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021025'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00288324
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4OH18079
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: OH
+  - name: CAN/DIST
+    number: '19'
+    value: '18'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.13682
+- input: F65,C00288324,COM,COUNTRYWIDE POLITICAL ACTION COMM.,155 N. LAKE AVE.,,PASADENA,CA,91109,,,20021025,2000.00,C00288324,H4OH18079,,H,OH,18,,,,,,,,F6.13683
+  record: <fec.version.v3.F65.Records instance at 0x25ee9e0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00288324
+  - name: ENTITY TYPE
+    number: '3'
+    value: COM
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: COUNTRYWIDE POLITICAL ACTION COMM.
+  - name: STREET 1
+    number: '5'
+    value: 155 N. LAKE AVE.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: PASADENA
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '91109'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021025'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00288324
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4OH18079
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: OH
+  - name: CAN/DIST
+    number: '19'
+    value: '18'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.13683
+- input: F65,C00288324,PAC,HARTFORD FINANCIAL SERVICES GROUP INC ADVOCATES FUND FKA
+    (HARTFORD ADVOCATES FUND),HARTFORD PLAZA,HARTFORD PLAZA,HARTFORD,CT,06115,,,20021025,1000.00,C00288324,H4OH18079,,H,OH,18,,,,,,,,F6.13684
+  record: <fec.version.v3.F65.Records instance at 0x26645a8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00288324
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: HARTFORD FINANCIAL SERVICES GROUP INC ADVOCATES FUND FKA (HARTFORD ADVOCATES
+      FUND)
+  - name: STREET 1
+    number: '5'
+    value: HARTFORD PLAZA
+  - name: STREET 2
+    number: '6'
+    value: HARTFORD PLAZA
+  - name: CITY
+    number: '7'
+    value: HARTFORD
+  - name: STATE
+    number: '8'
+    value: CT
+  - name: ZIP
+    number: '9'
+    value: '06115'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021025'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00288324
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4OH18079
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: OH
+  - name: CAN/DIST
+    number: '19'
+    value: '18'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.13684
+- input: F65,C00288324,COM,SBC COMMUNICATIONS EMPLYEE FED. PAC,1401 I STREET NW,,WASHINGTON,DC,20005,,,20021025,2000.00,C00288324,H4OH18079,,H,OH,18,,,,,,,,F6.13681
+  record: <fec.version.v3.F65.Records instance at 0x25eecb0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00288324
+  - name: ENTITY TYPE
+    number: '3'
+    value: COM
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: SBC COMMUNICATIONS EMPLYEE FED. PAC
+  - name: STREET 1
+    number: '5'
+    value: 1401 I STREET NW
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: WASHINGTON
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20005'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021025'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00288324
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4OH18079
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: OH
+  - name: CAN/DIST
+    number: '19'
+    value: '18'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.13681
+- input: F65,C00288324,PAC,VEN-PAC,PO BOX 70002,,WASHINGTON,DC,20024,,,20021025,1000.00,C00288324,H4OH18079,,H,OH,18,,,,,,,,F6.13679
+  record: <fec.version.v3.F65.Records instance at 0x26645a8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00288324
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: VEN-PAC
+  - name: STREET 1
+    number: '5'
+    value: PO BOX 70002
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: WASHINGTON
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20024'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021025'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00288324
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4OH18079
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: OH
+  - name: CAN/DIST
+    number: '19'
+    value: '18'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.13679
+sourceurl: !!python/unicode 20021025
+type: single
