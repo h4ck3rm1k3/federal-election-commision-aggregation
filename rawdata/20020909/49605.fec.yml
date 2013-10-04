@@ -1,0 +1,141 @@
+countraw: 4
+countrows: 2
+filename: 49605.fec
+header: {}
+rows:
+- input: F6,C00371278,Romo For Congress Committee,177 N Church Ave Ste 605,,Tucson,AZ,85701,H2AZ07021,Romo^Jesus^^,H,AZ,07,20020909
+  record: <fec.version.v3.F6.Records instance at 0x25eecb0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00371278
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Romo For Congress Committee
+  - name: STREET 1
+    number: '4'
+    value: 177 N Church Ave Ste 605
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Tucson
+  - name: STATE
+    number: '7'
+    value: AZ
+  - name: ZIP
+    number: '8'
+    value: '85701'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2AZ07021
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Romo^Jesus^^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: AZ
+  - name: CAN/DIST
+    number: '13'
+    value: '07'
+  - name: Signed
+    number: 14-
+    value: '20020909'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00371278
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Romo^Jesus^^
+  - name: STREET 1
+    number: '5'
+    value: 177 N Church Ave Ste 605
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Tucson
+  - name: STATE
+    number: '8'
+    value: AZ
+  - name: ZIP
+    number: '9'
+    value: '85701'
+  - name: INDEMP
+    number: '10'
+    value: Jesus Romo Vejar
+  - name: INDOCC
+    number: '11'
+    value: ' P.C.'
+  - name: Of Contribution
+    number: 12-
+    value: Attorney
+  - name: AMOUNT
+    number: '13'
+    value: '20020909'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '3000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00371278
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: Romo^Jesus^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: AZ
+  - name: CONDUIT NAME
+    number: '20'
+    value: '07'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.4479
+  expected_count: 27
+  input: F65,C00371278,CAN,Romo^Jesus^^,177 N Church Ave Ste 605,,Tucson,AZ,85701,"Jesus
+    Romo Vejar, P.C.",Attorney,20020909,3000.00,C00371278,,Romo^Jesus^^,H,AZ,07,,,,,,,,F6.4479
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x25eec68>
+  result: []
+sourceurl: !!python/unicode 20020909
+type: single
