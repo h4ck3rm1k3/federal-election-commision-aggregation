@@ -15,6 +15,6 @@ committee/C00136853/info.yml and that refrences on file  committee/C00136853/200
 There are some more yaml files in the root dir, Template.yml is designed to be imported by the main info.yml and the fecid replaced. 
 Sources.yml contains some sources of data in general.
 
-More raw data that needs to be reviewed in the branch : rawdata produced by running the code fech.py.
+More raw data that needs to be reviewed in the branch : master produced by running the code from the main rootstrikers-wikipedia fech.py.
 
 Contains some code from the fech ruby lib, but most has been rewritten. 
