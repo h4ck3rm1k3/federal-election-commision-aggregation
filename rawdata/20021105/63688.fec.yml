@@ -1,0 +1,143 @@
+countraw: 4
+countrows: 2
+filename: 63688.fec
+header: {}
+rows:
+- input: '"F6","C00198796","Coble for Congress","PO Box 1177","","Greensboro","NC","27402   ","COO198796","Coble
+    for Congress","H","NC","6 ",20010420'
+  record: <fec.version.v3.F6.Records instance at 0x2665b00>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00198796
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Coble for Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 1177
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Greensboro
+  - name: STATE
+    number: '7'
+    value: NC
+  - name: ZIP
+    number: '8'
+    value: '27402   '
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: COO198796
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Coble for Congress
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: NC
+  - name: CAN/DIST
+    number: '13'
+    value: '6 '
+  - name: Signed
+    number: 14-
+    value: '20010420'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00198796
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Vorys
+  - name: STREET 1
+    number: '5'
+    value: ' Sater'
+  - name: STREET 2
+    number: '6'
+    value: ' Seymour & Pease Fed. PAC'
+  - name: CITY
+    number: '7'
+    value: PO Box 1008
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: Columbus
+  - name: INDEMP
+    number: '10'
+    value: OH
+  - name: INDOCC
+    number: '11'
+    value: '43215    '
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20021105'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '2000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: 1105200243C125711
+  expected_count: 27
+  input: '"F65","C00198796","PAC","Vorys, Sater, Seymour & Pease Fed. PAC","PO Box
+    1008","","Columbus","OH","43215    ","","",20021105,2000.00,"","","","","","","","","","","",,"","1105200243C125711"'
+  input_count: 29
+  record: <fec.version.v3.F65.Records instance at 0x2665758>
+  result: []
+sourceurl: !!python/unicode 20021105
+type: single
