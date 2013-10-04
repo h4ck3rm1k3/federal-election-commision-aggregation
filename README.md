@@ -18,3 +18,6 @@ Sources.yml contains some sources of data in general.
 More raw data that needs to be reviewed in the branch : master produced by running the code from the main rootstrikers-wikipedia fech.py.
 
 Contains some code from the fech ruby lib, but most has been rewritten. 
+
+New C++ Code for reading the yaml files in progress:
+https://bitbucket.org/h4ck3rm1k3/yaml-cpp
