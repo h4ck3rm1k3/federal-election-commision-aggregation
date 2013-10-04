@@ -1,0 +1,318 @@
+countraw: 6
+countrows: 4
+filename: 60924.fec
+header: {}
+rows:
+- input: F6,C00330142,LARSON FOR CONGRESS,29 RUFF CIRCLE,,GLASTONBURY,CT,06033,H8CT01046,LARSON^JOHN
+    B^^,H,CT,01,20021026
+  record: <fec.version.v3.F6.Records instance at 0x2660680>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00330142
+  - name: COMMITTEE NAME
+    number: '3'
+    value: LARSON FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 29 RUFF CIRCLE
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: GLASTONBURY
+  - name: STATE
+    number: '7'
+    value: CT
+  - name: ZIP
+    number: '8'
+    value: '06033'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H8CT01046
+  - name: CANDIDATE NAME
+    number: '10'
+    value: LARSON^JOHN B^^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: CT
+  - name: CAN/DIST
+    number: '13'
+    value: '01'
+  - name: Signed
+    number: 14-
+    value: '20021026'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00330142
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Cahulilla Indians^Agua Caliente
+  - name: STREET 1
+    number: '5'
+    value: ^^
+  - name: STREET 2
+    number: '6'
+    value: 600 East Tahquitz Canyon Way
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Palm Spring
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: INDEMP
+    number: '10'
+    value: '92262'
+  - name: INDOCC
+    number: '11'
+    value: Not applicable
+  - name: Of Contribution
+    number: 12-
+    value: Not applicable
+  - name: AMOUNT
+    number: '13'
+    value: '20021025'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00330142
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H8CT01046
+  - name: CAN/OFFICE
+    number: '17'
+    value: LARSON^JOHN B^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: CT
+  - name: CONDUIT NAME
+    number: '20'
+    value: '01'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.14558
+  expected_count: 27
+  input: F65,C00330142,IND,"Cahulilla Indians^Agua Caliente,^^",600 East Tahquitz
+    Canyon Way,,Palm Spring,CA,92262,Not applicable,Not applicable,20021025,1000.00,C00330142,H8CT01046,LARSON^JOHN
+    B^^,H,CT,01,,,,,,,,F6.14558
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x2665b90>
+  result: []
+- input: F65,C00330142,IND,Hale^Gary^^,11 Birchwood Drive,,Ansonia,CT,06401,Halloran
+    & Sage LLP,Government Relations,20021024,1000.00,C00330142,H8CT01046,LARSON^JOHN
+    B^^,H,CT,01,,,,,,,,F6.14560
+  record: <fec.version.v3.F65.Records instance at 0x2660680>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00330142
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Hale^Gary^^
+  - name: STREET 1
+    number: '5'
+    value: 11 Birchwood Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Ansonia
+  - name: STATE
+    number: '8'
+    value: CT
+  - name: ZIP
+    number: '9'
+    value: '06401'
+  - name: INDEMP
+    number: '10'
+    value: Halloran & Sage LLP
+  - name: INDOCC
+    number: '11'
+    value: Government Relations
+  - name: Of Contribution
+    number: 12-
+    value: '20021024'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00330142
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H8CT01046
+  - name: CANDIDATE NAME
+    number: '16'
+    value: LARSON^JOHN B^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: CT
+  - name: CAN/DIST
+    number: '19'
+    value: '01'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.14560
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00330142
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: NATIONAL RESTAURANT ASSOCIATION PAC
+  - name: STREET 1
+    number: '5'
+    value: 1200 Seventeenth Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20036'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20021024'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00330142
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H8CT01046
+  - name: CAN/OFFICE
+    number: '17'
+    value: LARSON^JOHN B^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: CT
+  - name: CONDUIT NAME
+    number: '20'
+    value: '01'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.14559
+  expected_count: 27
+  input: F65,C00330142,PAC,NATIONAL RESTAURANT ASSOCIATION PAC,"1200 Seventeenth Street,
+    NW",,Washington,DC,20036,,,20021024,1000.00,C00330142,H8CT01046,LARSON^JOHN B^^,H,CT,01,,,,,,,,F6.14559
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x2665ef0>
+  result: []
+sourceurl: !!python/unicode 20021026
+type: single
