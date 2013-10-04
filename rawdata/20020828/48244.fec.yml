@@ -1,0 +1,227 @@
+countraw: 5
+countrows: 3
+filename: 48244.fec
+header: {}
+rows:
+- input: '"F6","C00144857","Kolbe 2002","P O Box 31568","","Tucson","AZ","85751   ","H2AS02014","Jim
+    Kolbe","H","AZ","8 ",18991230'
+  record: <fec.version.v3.F6.Records instance at 0x26645a8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00144857
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Kolbe 2002
+  - name: STREET 1
+    number: '4'
+    value: P O Box 31568
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Tucson
+  - name: STATE
+    number: '7'
+    value: AZ
+  - name: ZIP
+    number: '8'
+    value: '85751   '
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2AS02014
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Jim Kolbe
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: AZ
+  - name: CAN/DIST
+    number: '13'
+    value: '8 '
+  - name: Signed
+    number: 14-
+    value: '18991230'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00144857
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Braman^Norman
+  - name: STREET 1
+    number: '5'
+    value: Braman Management
+  - name: STREET 2
+    number: '6'
+    value: 2060 Biscayne Blvd.
+  - name: CITY
+    number: '7'
+    value: ' 2nd Floor '
+  - name: STATE
+    number: '8'
+    value: Miami
+  - name: ZIP
+    number: '9'
+    value: FL
+  - name: INDEMP
+    number: '10'
+    value: '33137    '
+  - name: INDOCC
+    number: '11'
+    value: Braman Management
+  - name: Of Contribution
+    number: 12-
+    value: Auto Sales
+  - name: AMOUNT
+    number: '13'
+    value: '20020826'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 0827200239C63831
+  expected_count: 27
+  input: '"F65","C00144857","IND","Braman^Norman","Braman Management","2060 Biscayne
+    Blvd., 2nd Floor ","Miami","FL","33137    ","Braman Management","Auto Sales",20020826,1000.00,"","","","","","","","","","","",,"","0827200239C63831"'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x2664c68>
+  result: []
+- input: '"F65","C00144857","IND","Feinsilver^Paul","20660 West Dixie Highway","","Miami","FL","33180    ","First
+    Miami Securities","Investment Broker",20020826,1000.00,"","","","","","","","","","","",,"","0826200225C63822"'
+  record: <fec.version.v3.F65.Records instance at 0x26645a8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00144857
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Feinsilver^Paul
+  - name: STREET 1
+    number: '5'
+    value: 20660 West Dixie Highway
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Miami
+  - name: STATE
+    number: '8'
+    value: FL
+  - name: ZIP
+    number: '9'
+    value: '33180    '
+  - name: INDEMP
+    number: '10'
+    value: First Miami Securities
+  - name: INDOCC
+    number: '11'
+    value: Investment Broker
+  - name: Of Contribution
+    number: 12-
+    value: '20020826'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 0826200225C63822
+sourceurl: !!python/unicode 20020828
+type: single
