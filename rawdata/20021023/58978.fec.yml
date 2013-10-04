@@ -1,0 +1,483 @@
+countraw: 8
+countrows: 6
+filename: 58978.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00369546
+  - name: COMMITTEE NAME
+    number: '3'
+    value: ANNIE BETANCOURT FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 1001 Brickell Bay Drive
+  - name: STREET 2
+    number: '5'
+    value: ' 9th Floor'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Miami
+  - name: ZIP
+    number: '8'
+    value: FL
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '33131'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: C00369546
+  - name: CAN/OFFICE
+    number: '11'
+    value: Betancourt^Annie^Ms.^
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: FL
+  - name: Signed
+    number: 14-
+    value: '25'
+  - value: '20021023'
+  expected_count: 14
+  input: F6,C00369546,ANNIE BETANCOURT FOR CONGRESS,"1001 Brickell Bay Drive, 9th
+    Floor",,Miami,FL,33131,C00369546,Betancourt^Annie^Ms.^,H,FL,25,20021023
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x26645a8>
+  result: []
+- input: F65,C00369546,IND,Manitzas^Frank^Mr.^,1460 Mantua Avenue,,Coral Gables,FL,33146,Self-Employed,Entrepreneur,20021022,1000.00,C00369546,,Betancourt^Annie^Ms.^,H,FL,25,,,,,,,,F6.4952
+  record: <fec.version.v3.F65.Records instance at 0x2664e18>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00369546
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Manitzas^Frank^Mr.^
+  - name: STREET 1
+    number: '5'
+    value: 1460 Mantua Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Coral Gables
+  - name: STATE
+    number: '8'
+    value: FL
+  - name: ZIP
+    number: '9'
+    value: '33146'
+  - name: INDEMP
+    number: '10'
+    value: Self-Employed
+  - name: INDOCC
+    number: '11'
+    value: Entrepreneur
+  - name: Of Contribution
+    number: 12-
+    value: '20021022'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00369546
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Betancourt^Annie^Ms.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: FL
+  - name: CAN/DIST
+    number: '19'
+    value: '25'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4952
+- input: F65,C00369546,IND,Manitzas^Nita^Mrs.^,1460 Mantua Avenue,,Coral Gables,FL,33146,Self-Employed,Homemaker,20021017,1000.00,C00369546,,Betancourt^Annie^Ms.^,H,FL,25,,,,,,,,F6.4953
+  record: <fec.version.v3.F65.Records instance at 0x26645a8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00369546
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Manitzas^Nita^Mrs.^
+  - name: STREET 1
+    number: '5'
+    value: 1460 Mantua Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Coral Gables
+  - name: STATE
+    number: '8'
+    value: FL
+  - name: ZIP
+    number: '9'
+    value: '33146'
+  - name: INDEMP
+    number: '10'
+    value: Self-Employed
+  - name: INDOCC
+    number: '11'
+    value: Homemaker
+  - name: Of Contribution
+    number: 12-
+    value: '20021017'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00369546
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Betancourt^Annie^Ms.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: FL
+  - name: CAN/DIST
+    number: '19'
+    value: '25'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4953
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00369546
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Marko^David E.^Mr.^
+  - name: STREET 1
+    number: '5'
+    value: 3156 Mary Street
+  - name: STREET 2
+    number: '6'
+    value: ' # A'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Miami
+  - name: ZIP
+    number: '9'
+    value: FL
+  - name: INDEMP
+    number: '10'
+    value: '33133'
+  - name: INDOCC
+    number: '11'
+    value: De la O & Marko - Attorneys at Law
+  - name: Of Contribution
+    number: 12-
+    value: Attorney
+  - name: AMOUNT
+    number: '13'
+    value: '20021022'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00369546
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: Betancourt^Annie^Ms.^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: FL
+  - name: CONDUIT NAME
+    number: '20'
+    value: '25'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.4954
+  expected_count: 27
+  input: 'F65,C00369546,IND,Marko^David E.^Mr.^,"3156 Mary Street, # A",,Miami,FL,33133,De
+    la O & Marko - Attorneys at Law,Attorney,20021022,1000.00,C00369546,,Betancourt^Annie^Ms.^,H,FL,25,,,,,,,,F6.4954'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x2664518>
+  result: []
+- input: F65,C00369546,CCM,Schakowsky for Congress,P.O. Box 5130,,Evanston,IL,60204,,,20021022,1000.00,C00369546,,Betancourt^Annie^Ms.^,H,FL,25,,,,,,,,F6.4958
+  record: <fec.version.v3.F65.Records instance at 0x26645a8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00369546
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Schakowsky for Congress
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 5130
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Evanston
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60204'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021022'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00369546
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Betancourt^Annie^Ms.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: FL
+  - name: CAN/DIST
+    number: '19'
+    value: '25'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4958
+- input: F65,C00369546,PAC,The National Leadership PAC,P.O. Box 5577,Manhattanville
+    Station,New York,NY,10027,,,20021022,5000.00,C00369546,,Betancourt^Annie^Ms.^,H,FL,25,,,,,,,,F6.4955
+  record: <fec.version.v3.F65.Records instance at 0x2664518>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00369546
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: The National Leadership PAC
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 5577
+  - name: STREET 2
+    number: '6'
+    value: Manhattanville Station
+  - name: CITY
+    number: '7'
+    value: New York
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10027'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021022'
+  - name: AMOUNT
+    number: '13'
+    value: '5000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00369546
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Betancourt^Annie^Ms.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: FL
+  - name: CAN/DIST
+    number: '19'
+    value: '25'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4955
+sourceurl: !!python/unicode 20021023
+type: single
