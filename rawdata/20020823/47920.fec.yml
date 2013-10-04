@@ -1,0 +1,491 @@
+countraw: 8
+countrows: 6
+filename: 47920.fec
+header: {}
+rows:
+- input: '"F6","C00271171","Quinn for Congress","PO Box 14","","Buffalo","NY","14205   ","C00271171","Jack
+    Quinn","H","NY","30",20020630'
+  record: <fec.version.v3.F6.Records instance at 0x300a0e0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00271171
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Quinn for Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 14
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Buffalo
+  - name: STATE
+    number: '7'
+    value: NY
+  - name: ZIP
+    number: '8'
+    value: '14205   '
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: C00271171
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Jack Quinn
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: NY
+  - name: CAN/DIST
+    number: '13'
+    value: '30'
+  - name: Signed
+    number: 14-
+    value: '20020630'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00271171
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Bank of America PAC
+  - name: STREET 1
+    number: '5'
+    value: 730 15th Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20005    '
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20020823'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 0823200242C115781
+  expected_count: 27
+  input: '"F65","C00271171","PAC","Bank of America PAC","730 15th Street, NW","","Washington","DC","20005    ","","",20020823,1000.00,"","","","","","","","","","","",,"","0823200242C115781"'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x300a170>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00271171
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: CSX Transportation
+  - name: STREET 1
+    number: '5'
+    value: ' Inc. PAC'
+  - name: STREET 2
+    number: '6'
+    value: Suite 560
+  - name: CITY
+    number: '7'
+    value: 1331 Pennsylvania Avenue
+  - name: STATE
+    number: '8'
+    value: ' NW '
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: INDEMP
+    number: '10'
+    value: DC
+  - name: INDOCC
+    number: '11'
+    value: '20004    '
+  - name: Of Contribution
+    number: 12-
+    value: CO 0163832
+  - name: AMOUNT
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20020823'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '1000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: 0823200242C115822
+  expected_count: 27
+  input: '"F65","C00271171","PAC","CSX Transportation, Inc. PAC","Suite 560","1331
+    Pennsylvania Avenue, NW ","Washington","DC","20004    ","CO 0163832","",20020823,1000.00,"","","","","","","","","","","",,"","0823200242C115822"'
+  input_count: 29
+  record: <fec.version.v3.F65.Records instance at 0x300a0e0>
+  result: []
+- input: '"F65","C00271171","PAC","Norfolk Southern Corporation PAC","Mr. John F.
+    Corcoran","Three Commercial Place ","Norfolk","VA","235102191","CO 0009282","",20020823,1000.00,"","","","","","","","","","","",,"","0823200242C115803"'
+  record: <fec.version.v3.F65.Records instance at 0x300ac68>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00271171
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Norfolk Southern Corporation PAC
+  - name: STREET 1
+    number: '5'
+    value: Mr. John F. Corcoran
+  - name: STREET 2
+    number: '6'
+    value: 'Three Commercial Place '
+  - name: CITY
+    number: '7'
+    value: Norfolk
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '235102191'
+  - name: INDEMP
+    number: '10'
+    value: CO 0009282
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020823'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 0823200242C115803
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00271171
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Tanenblatt^
+  - name: STREET 1
+    number: '5'
+    value: 303 Peach Street
+  - name: STREET 2
+    number: '6'
+    value: ' Suite 5300'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Atlanta
+  - name: ZIP
+    number: '9'
+    value: GA
+  - name: INDEMP
+    number: '10'
+    value: '30308    '
+  - name: INDOCC
+    number: '11'
+    value: McKenna
+  - name: Of Contribution
+    number: 12-
+    value: ' Long & Aldridge'
+  - name: AMOUNT
+    number: '13'
+    value: Managing Director
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20020823'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '1000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: 0823200242C115774
+  expected_count: 27
+  input: '"F65","C00271171","IND","Tanenblatt^","303 Peach Street, Suite 5300","","Atlanta","GA","30308    ","McKenna,
+    Long & Aldridge","Managing Director",20020823,1000.00,"","","","","","","","","","","",,"","0823200242C115774"'
+  input_count: 29
+  record: <fec.version.v3.F65.Records instance at 0x300a170>
+  result: []
+- input: '"F65","C00271171","IND","Watkins PAC^","PO Box 1738","","Atlanta","GA","30301    ","CO
+    00142307","Information Requested",20020823,1000.00,"","","","","","","","","","","",,"","0823200242C115795"'
+  record: <fec.version.v3.F65.Records instance at 0x300ac68>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00271171
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Watkins PAC^
+  - name: STREET 1
+    number: '5'
+    value: PO Box 1738
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Atlanta
+  - name: STATE
+    number: '8'
+    value: GA
+  - name: ZIP
+    number: '9'
+    value: '30301    '
+  - name: INDEMP
+    number: '10'
+    value: CO 00142307
+  - name: INDOCC
+    number: '11'
+    value: Information Requested
+  - name: Of Contribution
+    number: 12-
+    value: '20020823'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 0823200242C115795
+sourceurl: !!python/unicode 20020823
+type: single
