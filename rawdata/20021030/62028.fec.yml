@@ -1,0 +1,142 @@
+countraw: 4
+countrows: 2
+filename: 62028.fec
+header: {}
+rows:
+- input: 'F6N,C00368951,TOM FEENEY FOR CONGRESS,1420 Alafaya Trail #103,,Oviedo,FL,32765,H2FL00250,,H,FL,24,20021030'
+  record: <fec.version.v3.F6.Records instance at 0x2be4a28>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00368951
+  - name: COMMITTEE NAME
+    number: '3'
+    value: TOM FEENEY FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: '1420 Alafaya Trail #103'
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Oviedo
+  - name: STATE
+    number: '7'
+    value: FL
+  - name: ZIP
+    number: '8'
+    value: '32765'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2FL00250
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ''
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: FL
+  - name: CAN/DIST
+    number: '13'
+    value: '24'
+  - name: Signed
+    number: 14-
+    value: '20021030'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00368951
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Tobey^William
+  - name: STREET 1
+    number: '5'
+    value: 1420 N. Lake Shore Dr.
+  - name: STREET 2
+    number: '6'
+    value: ' #1A'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Chicago
+  - name: ZIP
+    number: '9'
+    value: IL
+  - name: INDEMP
+    number: '10'
+    value: '60010'
+  - name: INDOCC
+    number: '11'
+    value: n/a
+  - name: Of Contribution
+    number: 12-
+    value: retired
+  - name: AMOUNT
+    number: '13'
+    value: '20021030'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: Club^for^Growth^PAC
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: 1776 K Street
+  - name: CONDUIT CITY
+    number: '23'
+    value: ' N.W.'
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: Washington
+  - name: AMENDED CD
+    number: '26'
+    value: DC
+  - name: TRAN ID
+    number: '27'
+    value: '20006'
+  - value: A
+  - value: F65.00000
+  expected_count: 27
+  input: 'F65,C00368951,IND,Tobey^William,"1420 N. Lake Shore Dr., #1A",,Chicago,IL,60010,n/a,retired,20021030,1000.00,,,,,,,Club^for^Growth^PAC,"1776
+    K Street, N.W.",,Washington,DC,20006,A,F65.00000'
+  input_count: 29
+  record: <fec.version.v3.F65.Records instance at 0x2be4ab8>
+  result: []
+sourceurl: !!python/unicode 20021030
+type: single
