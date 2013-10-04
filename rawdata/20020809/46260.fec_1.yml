@@ -1,0 +1,140 @@
+countraw: 4
+countrows: 2
+filename: 46260.fec
+header: {}
+rows:
+- input: 'F6,C00376889,CITIZENS FOR  KEN CHLOUBER,45 OGDEN ST #308,,DENVER,CO,80218,H2CO01082,CHLOUBER^KEN^^,H,CO,01,20020809'
+  record: <fec.version.v3.F6.Records instance at 0x215bfc8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00376889
+  - name: COMMITTEE NAME
+    number: '3'
+    value: CITIZENS FOR  KEN CHLOUBER
+  - name: STREET 1
+    number: '4'
+    value: '45 OGDEN ST #308'
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: DENVER
+  - name: STATE
+    number: '7'
+    value: CO
+  - name: ZIP
+    number: '8'
+    value: '80218'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2CO01082
+  - name: CANDIDATE NAME
+    number: '10'
+    value: CHLOUBER^KEN^^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: CO
+  - name: CAN/DIST
+    number: '13'
+    value: '01'
+  - name: Signed
+    number: 14-
+    value: '20020809'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00376889
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Gates^Charles^^
+  - name: STREET 1
+    number: '5'
+    value: 3773 Cherry Creek Drive North
+  - name: STREET 2
+    number: '6'
+    value: ' #68'
+  - name: CITY
+    number: '7'
+    value: '#680'
+  - name: STATE
+    number: '8'
+    value: Denver
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: INDEMP
+    number: '10'
+    value: '80209'
+  - name: INDOCC
+    number: '11'
+    value: Retired
+  - name: Of Contribution
+    number: 12-
+    value: Retired
+  - name: AMOUNT
+    number: '13'
+    value: '20020807'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00376889
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H2CO01082
+  - name: CAN/OFFICE
+    number: '17'
+    value: CHLOUBER^KEN^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: CO
+  - name: CONDUIT NAME
+    number: '20'
+    value: '01'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.4518
+  expected_count: 27
+  input: 'F65,C00376889,IND,Gates^Charles^^,"3773 Cherry Creek Drive North, #68",#680,Denver,CA,80209,Retired,Retired,20020807,1000.00,C00376889,H2CO01082,CHLOUBER^KEN^^,H,CO,01,,,,,,,,F6.4518'
+  input_count: 28
+  record: <fec.version.v3.F65.Records instance at 0x215be18>
+  result: []
+sourceurl: !!python/unicode 20020809
+type: chunk
