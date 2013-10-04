@@ -1,0 +1,561 @@
+countraw: 10
+countrows: 5
+filename: 60873.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00007880
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Credit Union Legislative Action Council of CUNA
+  - name: STREET 1
+    number: '4'
+    value: 601 Pennsylvania Avenue
+  - name: STREET 2
+    number: '5'
+    value: ' NW'
+  - name: CITY
+    number: '6'
+    value: South Building
+  - name: STATE
+    number: '7'
+    value: ' Suite 600'
+  - name: ZIP
+    number: '8'
+    value: Washington
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: DC
+  - name: Signed
+    number: 10-
+    value: '200042601'
+  - value: Sowick^Patricia^^
+  - value: '20021026'
+  expected_count: 10
+  input: '"F24","C00007880","Credit Union Legislative Action Council of CUNA","601
+    Pennsylvania Avenue, NW","South Building, Suite 600","Washington","DC","200042601","Sowick^Patricia^^","20021026"'
+  input_count: 12
+  record: <fec.version.v3.F24.Records instance at 0x26699e0>
+  result: []
+- input: '"SE24","C00007880","IND","Compass Media Group, Inc.","1415 N. Dayton Street","Suite
+    311","Chicago","IL","60622","Consulting Fee","20021026","2500.00","S","","Michaud^Michael^^","H","ME","02","C00367821","","","","","","Gnossos
+    Conduit","1720 I Street NW","Suite 510","Washington","DC","20006","Sowick^Patricia^^","20021026","","","","","D6601","X","Memo",""'
+  record: <fec.version.v3.SE.Records instance at 0x2664518>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00007880
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Compass Media Group
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 1415 N. Dayton Street
+  - name: CITY
+    number: '7'
+    value: Suite 311
+  - name: STATE
+    number: '8'
+    value: Chicago
+  - name: ZIP
+    number: '9'
+    value: IL
+  - name: TRANSDESC
+    number: '10'
+    value: '60622'
+  - name: DATE
+    number: '11'
+    value: Consulting Fee
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20021026'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '2500.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Michaud^Michael^^
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ME
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '02'
+  - name: Unused field
+    number: '20'
+    value: C00367821
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: Gnossos Conduit
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: 1720 I Street NW
+  - name: CONDUIT CITY
+    number: '28'
+    value: Suite 510
+  - name: CONDUIT STATE
+    number: '29'
+    value: Washington
+  - name: CONDUIT ZIP
+    number: '30'
+    value: DC
+  - name: as signed
+    number: 31-
+    value: '20006'
+  - name: Signed
+    number: 32-
+    value: Sowick^Patricia^^
+  - name: Notarized
+    number: 33-
+    value: '20021026'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: D6601
+  - name: MEMO TEXT
+    number: '39'
+    value: X
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: Memo
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+- input: '"SE24","C00007880","IND","Compass Media Group, Inc.","1415 N. Dayton Street","Suite
+    311","Chicago","IL","60622","Radio Ad Production","20021026","2175.00","S","","Michaud^Michael^^","H","ME","02","C00367821","","","","","","Gnossos
+    Conduit","1720 I Street NW","Suite 510","Washington","DC","20006","Sowick^Patricia^^","20021026","","","","","D6626","X","Memo",""'
+  record: <fec.version.v3.SE.Records instance at 0x26699e0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00007880
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Compass Media Group
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 1415 N. Dayton Street
+  - name: CITY
+    number: '7'
+    value: Suite 311
+  - name: STATE
+    number: '8'
+    value: Chicago
+  - name: ZIP
+    number: '9'
+    value: IL
+  - name: TRANSDESC
+    number: '10'
+    value: '60622'
+  - name: DATE
+    number: '11'
+    value: Radio Ad Production
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20021026'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '2175.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Michaud^Michael^^
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ME
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '02'
+  - name: Unused field
+    number: '20'
+    value: C00367821
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: Gnossos Conduit
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: 1720 I Street NW
+  - name: CONDUIT CITY
+    number: '28'
+    value: Suite 510
+  - name: CONDUIT STATE
+    number: '29'
+    value: Washington
+  - name: CONDUIT ZIP
+    number: '30'
+    value: DC
+  - name: as signed
+    number: 31-
+    value: '20006'
+  - name: Signed
+    number: 32-
+    value: Sowick^Patricia^^
+  - name: Notarized
+    number: 33-
+    value: '20021026'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: D6626
+  - name: MEMO TEXT
+    number: '39'
+    value: X
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: Memo
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+- input: '"SE24","C00007880","IND","Compass Media Group, Inc.","1415 N. Dayton Street","Suite
+    311","Chicago","IL","60622","Radio Ad Buy","20021026","35310.74","S","","Michaud^Michael^^","H","ME","02","C00367821","","","","","","Gnossos
+    Conduit","1720 I Street NW","Suite 510","Washington","DC","20006","Sowick^Patricia^^","20021026","","","","","D6627","X","Memo",""'
+  record: <fec.version.v3.SE.Records instance at 0x2664518>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00007880
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Compass Media Group
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 1415 N. Dayton Street
+  - name: CITY
+    number: '7'
+    value: Suite 311
+  - name: STATE
+    number: '8'
+    value: Chicago
+  - name: ZIP
+    number: '9'
+    value: IL
+  - name: TRANSDESC
+    number: '10'
+    value: '60622'
+  - name: DATE
+    number: '11'
+    value: Radio Ad Buy
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20021026'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '35310.74'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Michaud^Michael^^
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ME
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '02'
+  - name: Unused field
+    number: '20'
+    value: C00367821
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: Gnossos Conduit
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: 1720 I Street NW
+  - name: CONDUIT CITY
+    number: '28'
+    value: Suite 510
+  - name: CONDUIT STATE
+    number: '29'
+    value: Washington
+  - name: CONDUIT ZIP
+    number: '30'
+    value: DC
+  - name: as signed
+    number: 31-
+    value: '20006'
+  - name: Signed
+    number: 32-
+    value: Sowick^Patricia^^
+  - name: Notarized
+    number: 33-
+    value: '20021026'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: D6627
+  - name: MEMO TEXT
+    number: '39'
+    value: X
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: Memo
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00007880
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: FrederickPolls
+  - name: STREET 1
+    number: '5'
+    value: 1000 Wilson Blvd
+  - name: STREET 2
+    number: '6'
+    value: Suite 2525
+  - name: CITY
+    number: '7'
+    value: Arlington
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22209'
+  - name: TRANSDESC
+    number: '10'
+    value: Polling Expenses
+  - name: DATE
+    number: '11'
+    value: '20021026'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '9500.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Michaud^Michael^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: ME
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '02'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00367821
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: Gnossos Conduit
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: 1720 I Street NW
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: Suite 510
+  - name: CONDUIT CITY
+    number: '28'
+    value: Washington
+  - name: CONDUIT STATE
+    number: '29'
+    value: DC
+  - name: CONDUIT ZIP
+    number: '30'
+    value: '20006'
+  - name: as signed
+    number: 31-
+    value: Sowick^Patricia^^
+  - name: Signed
+    number: 32-
+    value: '20021026'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: D6602
+  - name: MEMO CODE
+    number: '38'
+    value: X
+  - name: MEMO TEXT
+    number: '39'
+    value: Memo
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: NO VALUE!
+  expected_count: 41
+  input: '"SE24","C00007880","IND","FrederickPolls","1000 Wilson Blvd","Suite 2525","Arlington","VA","22209","Polling
+    Expenses","20021026","9500.00","S","","Michaud^Michael^^","H","ME","02","C00367821","","","","","","Gnossos
+    Conduit","1720 I Street NW","Suite 510","Washington","DC","20006","Sowick^Patricia^^","20021026","","","","","D6602","X","Memo",""'
+  input_count: 40
+  record: <fec.version.v3.SE.Records instance at 0x26699e0>
+  result: []
+sourceurl: !!python/unicode 20021026
+type: single
