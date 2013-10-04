@@ -1,0 +1,313 @@
+countraw: 6
+countrows: 4
+filename: 63355.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00202416
+  - name: COMMITTEE NAME
+    number: '3'
+    value: JOHN LEWIS FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 1520 PINEHURST DRIVE
+  - name: STREET 2
+    number: '5'
+    value: ' SW'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: ATLANTA
+  - name: ZIP
+    number: '8'
+    value: GA
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '30311'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: C00202416
+  - name: CAN/OFFICE
+    number: '11'
+    value: JOHN LEWIS FOR CONGRESS^^^
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: GA
+  - name: Signed
+    number: 14-
+    value: '05'
+  - value: '20021102'
+  expected_count: 14
+  input: F6,C00202416,JOHN LEWIS FOR CONGRESS,"1520 PINEHURST DRIVE, SW",,ATLANTA,GA,30311,C00202416,JOHN
+    LEWIS FOR CONGRESS^^^,H,GA,05,20021102
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x2665e18>
+  result: []
+- input: F65,C00202416,ORG,BARONA G & A ACCOUNT,1095 BARONA RD.,,LAKESIDE,CA,92040,,,20021102,1000.00,C00202416,H6GA05217,JOHN
+    LEWIS FOR CONGRESS^^^,H,GA,05,,,,,,,,F6.5620
+  record: <fec.version.v3.F65.Records instance at 0x26657a0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00202416
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: BARONA G & A ACCOUNT
+  - name: STREET 1
+    number: '5'
+    value: 1095 BARONA RD.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: LAKESIDE
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '92040'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021102'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00202416
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6GA05217
+  - name: CANDIDATE NAME
+    number: '16'
+    value: JOHN LEWIS FOR CONGRESS^^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: GA
+  - name: CAN/DIST
+    number: '19'
+    value: '05'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5620
+- input: F65,C00202416,PAC,AMERICAN ACADEMY OF PEDIATRIC DENTISTRY POLITICAL ACTION
+    COMMITTEE,211 EAST CHICAGO AVENUE SUITE 700,,CHICAGO,IL,60611,,,20021102,2500.00,C00202416,H6GA05217,JOHN
+    LEWIS FOR CONGRESS^^^,H,GA,05,,,,,,,,F6.5621
+  record: <fec.version.v3.F65.Records instance at 0x2665680>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00202416
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: AMERICAN ACADEMY OF PEDIATRIC DENTISTRY POLITICAL ACTION COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: 211 EAST CHICAGO AVENUE SUITE 700
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: CHICAGO
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60611'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021102'
+  - name: AMOUNT
+    number: '13'
+    value: '2500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00202416
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6GA05217
+  - name: CANDIDATE NAME
+    number: '16'
+    value: JOHN LEWIS FOR CONGRESS^^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: GA
+  - name: CAN/DIST
+    number: '19'
+    value: '05'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5621
+- input: F65,C00202416,PAC,BELLSOUTH FED-PAC,125 PERIMETER CENTER WEST,SUITE 346,ATLANTA,GA,30346,,,20021102,1000.00,C00202416,H6GA05217,JOHN
+    LEWIS FOR CONGRESS^^^,H,GA,05,,,,,,,,F6.5622
+  record: <fec.version.v3.F65.Records instance at 0x26657a0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00202416
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: BELLSOUTH FED-PAC
+  - name: STREET 1
+    number: '5'
+    value: 125 PERIMETER CENTER WEST
+  - name: STREET 2
+    number: '6'
+    value: SUITE 346
+  - name: CITY
+    number: '7'
+    value: ATLANTA
+  - name: STATE
+    number: '8'
+    value: GA
+  - name: ZIP
+    number: '9'
+    value: '30346'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20021102'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00202416
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6GA05217
+  - name: CANDIDATE NAME
+    number: '16'
+    value: JOHN LEWIS FOR CONGRESS^^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: GA
+  - name: CAN/DIST
+    number: '19'
+    value: '05'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5622
+sourceurl: !!python/unicode 20021103
+type: single
