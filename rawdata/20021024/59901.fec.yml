@@ -1,0 +1,173 @@
+countraw: 4
+countrows: 2
+filename: 59901.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00007880
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Credit Union Legislative Action Council of CUNA
+  - name: STREET 1
+    number: '4'
+    value: 601 Pennsylvania Avenue
+  - name: STREET 2
+    number: '5'
+    value: ' NW'
+  - name: CITY
+    number: '6'
+    value: South Building
+  - name: STATE
+    number: '7'
+    value: ' Suite 600'
+  - name: ZIP
+    number: '8'
+    value: Washington
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: DC
+  - name: Signed
+    number: 10-
+    value: '200042601'
+  - value: Sowick^Patricia^^
+  - value: '20021024'
+  expected_count: 10
+  input: '"F24","C00007880","Credit Union Legislative Action Council of CUNA","601
+    Pennsylvania Avenue, NW","South Building, Suite 600","Washington","DC","200042601","Sowick^Patricia^^","20021024"'
+  input_count: 12
+  record: <fec.version.v3.F24.Records instance at 0x47d85a8>
+  result: []
+- input: '"SE24","C00007880","ORG","Greener and Hook","1875 Eye Street, NW","Suite
+    540","Washington","DC","20006","Radio Ad Production and Buy","20021024","48000.00","S","","Porter^Jon^^","H","NV","03","","","","","","","","","","","","","Sowick^Patricia^^","20021024","","","","","D6629","","",""'
+  record: <fec.version.v3.SE.Records instance at 0x47d8128>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00007880
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Greener and Hook
+  - name: STREET 1
+    number: '5'
+    value: 1875 Eye Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: Suite 540
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANSDESC
+    number: '10'
+    value: '20006'
+  - name: DATE
+    number: '11'
+    value: Radio Ad Production and Buy
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20021024'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '48000.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Porter^Jon^^
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: NV
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '03'
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: Sowick^Patricia^^
+  - name: Notarized
+    number: 33-
+    value: '20021024'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: D6629
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+sourceurl: !!python/unicode 20021024
+type: single
