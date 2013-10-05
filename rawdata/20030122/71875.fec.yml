@@ -1,0 +1,102 @@
+countraw: 3
+countrows: 1
+filename: 71875.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H0ID01139
+  - name: CANDIDATE NAME
+    number: '3'
+    value: Otter^C. L.  'Butch'^^
+  - name: STREET 1
+    number: '4'
+    value: 1009 Star Road
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Star
+  - name: STATE
+    number: '7'
+    value: ID
+  - name: ZIP
+    number: '8'
+    value: '83669'
+  - name: PTY/CODE
+    number: '9'
+    value: REP
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: ID
+  - name: CAN/DIST
+    number: '12'
+    value: '01'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2004'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: C00345967
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: Otter for Idaho
+  - name: STREET 1
+    number: '16'
+    value: 1087 W. River Street
+  - name: STREET 2
+    number: '17'
+    value: ' Suite 310'
+  - name: CITY
+    number: '18'
+    value: ''
+  - name: STATE
+    number: '19'
+    value: Boise
+  - name: ZIP
+    number: '20'
+    value: ID
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: '83707'
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: ''
+  - name: STREET 1
+    number: '23'
+    value: ''
+  - name: STREET 2
+    number: '24'
+    value: ''
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: ''
+  - name: ZIP
+    number: '27'
+    value: ''
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: ''
+  - name: Signed
+    number: 29-
+    value: Otter^C. L.  'Butch'^^
+  - value: '20030122'
+  expected_count: 29
+  input: F2,H0ID01139,Otter^C. L.  'Butch'^^,1009 Star Road,,Star,ID,83669,REP,H,ID,01,2004,C00345967,Otter
+    for Idaho,"1087 W. River Street, Suite 310",,Boise,ID,83707,,,,,,,,Otter^C. L.  'Butch'^^,20030122
+  input_count: 30
+  record: <fec.version.v3.F2.Records instance at 0x2669050>
+  result: []
+sourceurl: !!python/unicode 20030122
+type: single
