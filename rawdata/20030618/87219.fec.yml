@@ -1,0 +1,205 @@
+countraw: 4
+countrows: 2
+filename: 87219.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1MN
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367375
+  - name: COMMITTEE NAME
+    number: '3'
+    value: SAP America
+  - name: STREET 1
+    number: '4'
+    value: ' Inc. PAC'
+  - name: STREET 2
+    number: '5'
+    value: 3999 West Chester Pike
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Newtown Square
+  - name: ZIP
+    number: '8'
+    value: PA
+  - name: COMMITTEE TYPE
+    number: '9'
+    value: '19703'
+  - name: Of Affiliation
+    number: 10-
+    value: N
+  - name: FEC COMMITTEE ID NUMBER
+    number: '11'
+    value: ''
+  - name: COMMITTEE NAME
+    number: '12'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '13'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '14'
+    value: ''
+  - name: CAN/OFFICE
+    number: '15'
+    value: Rick Boucher
+  - name: CAN/STATE
+    number: '16'
+    value: H
+  - name: CAN/DIST
+    number: '17'
+    value: VA
+  - name: Of Contribution
+    number: 18-
+    value: 09
+  - name: FEC CANDIDATE ID NUMBER
+    number: '19'
+    value: '20010919'
+  - name: CANDIDATE NAME
+    number: '20'
+    value: ''
+  - name: CAN/OFFICE
+    number: '21'
+    value: Clifford Stearns
+  - name: CAN/STATE
+    number: '22'
+    value: H
+  - name: CAN/DIST
+    number: '23'
+    value: FL
+  - name: Of Contribution
+    number: 24-
+    value: '06'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '25'
+    value: '20010919'
+  - name: CANDIDATE NAME
+    number: '26'
+    value: ''
+  - name: CAN/OFFICE
+    number: '27'
+    value: Tom Davis
+  - name: CAN/STATE
+    number: '28'
+    value: H
+  - name: CAN/DIST
+    number: '29'
+    value: VA
+  - name: Of Contribution
+    number: 30-
+    value: '31'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '31'
+    value: '20011107'
+  - name: CANDIDATE NAME
+    number: '32'
+    value: ''
+  - name: CAN/OFFICE
+    number: '33'
+    value: Curt Weldon
+  - name: CAN/STATE
+    number: '34'
+    value: H
+  - name: CAN/DIST
+    number: '35'
+    value: PA
+  - name: Of Contribution
+    number: 36-
+    value: '07'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '37'
+    value: '20011107'
+  - name: CANDIDATE NAME
+    number: '38'
+    value: ''
+  - name: CAN/OFFICE
+    number: '39'
+    value: Arlen Specter
+  - name: CAN/STATE
+    number: '40'
+    value: S
+  - name: CAN/DIST
+    number: '41'
+    value: PA
+  - name: Of Contribution
+    number: 42-
+    value: ''
+  - name: Of 51st Contributor
+    number: 43-
+    value: '20020122'
+  - name: Of Orig Registration
+    number: 44-
+    value: '20020405'
+  - name: Cmte Met Requirements
+    number: 45-
+    value: '20010702'
+  - name: NAME/TREASURER (as signed)
+    number: '46'
+    value: '20020405'
+  - name: Signed
+    number: 47-
+    value: John McGrath
+  - value: '20030618'
+  expected_count: 47
+  input: F1MN,C00367375,"SAP America, Inc. PAC","3999 West Chester Pike","","Newtown
+    Square","PA","19703",N,"","","","","Rick Boucher","H","VA","09","20010919","","Clifford
+    Stearns","H","FL","06","20010919","","Tom Davis","H","VA","31","20011107","","Curt
+    Weldon","H","PA","07","20011107","","Arlen Specter","S","PA","","20020122","20020405","20010702","20020405","John
+    McGrath","20030618"
+  input_count: 48
+  record: <fec.version.v5_0.F1M.Records instance at 0x14b57488>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F1MN
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: Per the letter from the FEC dated June 11
+  - name: AMENDED CD
+    number: '5'
+    value: ' 2003'
+  - value: ' attached is SAP America Inc. PAC''s FEC Form 1M (Notification of Muticandidate
+      Status).  SAP America Inc. PAC originally filed its Form 1M on or about April
+      10'
+  - value: ' 2002.  On the Form'
+  - value: ' SAP America Inc. PAC notified the FEC that it qualified as a multicandidate
+      committee as of April 5'
+  - value: ' 2002.  At no time did SAP receive from the FEC any notice that its Form
+      1M was improperly filed or not accepted by the FEC.  In fact'
+  - value: ' the Form appears on the FEC''s website.  (See http://herndon1.sdrdc.com/cgi-bin/fecimg/?_22037521847+0.)  Since
+      SAP America Inc. PAC qualified as a multicandidate PAC and filed its Notification
+      of Multicandidate Status prior to making the contributions referenced in the
+      FEC''s June 11'
+  - value: ' 2003 letter'
+  - value: ' the contributions highlighted in the FEC''s letter were within the limits
+      set forth in the Act.'
+  expected_count: 5
+  input: TEXT,F1MN,,"Per the letter from the FEC dated June 11, 2003, attached is
+    SAP America Inc. PAC's FEC Form 1M (Notification of Muticandidate Status).  SAP
+    America Inc. PAC originally filed its Form 1M on or about April 10, 2002.  On
+    the Form, SAP America Inc. PAC notified the FEC that it qualified as a multicandidate
+    committee as of April 5, 2002.  At no time did SAP receive from the FEC any notice
+    that its Form 1M was improperly filed or not accepted by the FEC.  In fact, the
+    Form appears on the FEC's website.  (See http://herndon1.sdrdc.com/cgi-bin/fecimg/?_22037521847+0.)  Since
+    SAP America Inc. PAC qualified as a multicandidate PAC and filed its Notification
+    of Multicandidate Status prior to making the contributions referenced in the FEC's
+    June 11, 2003 letter, the contributions highlighted in the FEC's letter were within
+    the limits set forth in the Act."
+  input_count: 12
+  record: <fec.version.v5_0.TEXT.Records instance at 0x14b57758>
+  result: []
+sourceurl: !!python/unicode 20030618
+type: single
