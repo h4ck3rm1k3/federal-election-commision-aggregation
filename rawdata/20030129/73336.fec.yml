@@ -1,0 +1,123 @@
+countraw: 4
+countrows: 2
+filename: 73336.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H2FL03056
+  - name: CANDIDATE NAME
+    number: '3'
+    value: Brown^Corrine
+  - name: STREET 1
+    number: '4'
+    value: 101 E. Union Street
+  - name: STREET 2
+    number: '5'
+    value: ' Suite 104'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Jacksonville
+  - name: ZIP
+    number: '8'
+    value: FL
+  - name: PTY/CODE
+    number: '9'
+    value: '32202'
+  - name: CAN/OFFICE
+    number: '10'
+    value: DEM
+  - name: CAN/STATE
+    number: '11'
+    value: H
+  - name: CAN/DIST
+    number: '12'
+    value: FL
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '3'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: '2004'
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: C00272732
+  - name: STREET 1
+    number: '16'
+    value: Friends of Corrine Brown
+  - name: STREET 2
+    number: '17'
+    value: 3109 River Bend Ct.
+  - name: CITY
+    number: '18'
+    value: ' D-102'
+  - name: STATE
+    number: '19'
+    value: ''
+  - name: ZIP
+    number: '20'
+    value: Laurel
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: MD
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: '20724'
+  - name: STREET 1
+    number: '23'
+    value: ''
+  - name: STREET 2
+    number: '24'
+    value: ''
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: ''
+  - name: ZIP
+    number: '27'
+    value: ''
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: ''
+  - name: Signed
+    number: 29-
+    value: ''
+  - value: Corrine Brown
+  - value: '20030129'
+  expected_count: 29
+  input: F2,"H2FL03056","Brown^Corrine","101 E. Union Street, Suite 104","","Jacksonville","FL","32202","DEM","H","FL","3","2004","C00272732","Friends
+    of Corrine Brown","3109 River Bend Ct., D-102","","Laurel","MD","20724","","","","","","","","Corrine
+    Brown",20030129
+  input_count: 31
+  record: <fec.version.v3.F2.Records instance at 0x25eeef0>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F2
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: On Schedule C
+  - value: ' Loan is from Personal Funds.'
+  expected_count: 4
+  input: TEXT,"F2","","On Schedule C, Loan is from Personal Funds."
+  input_count: 5
+  record: <fec.version.v3.TEXT.Records instance at 0x47be5f0>
+  result: []
+sourceurl: !!python/unicode 20030129
+type: single
