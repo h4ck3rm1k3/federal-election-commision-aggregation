@@ -1,0 +1,226 @@
+countraw: 4
+countrows: 2
+filename: 84018.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F1N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00160630
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Drummond Company
+  - name: STREET 1
+    number: '4'
+    value: ' Inc. Political Action Committee (DPAC)'
+  - name: STREET 2
+    number: '5'
+    value: P.O. Box 10246
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Birmingham
+  - name: ZIP
+    number: '8'
+    value: AL
+  - name: Submitted
+    number: 9-
+    value: '352020246'
+  - name: CHG OF COMMITTEE NAME
+    number: '10'
+    value: '20030505'
+  - name: CHG OF ADDRESS
+    number: '11'
+    value: ''
+  - name: COMMITTEE TYPE
+    number: 12-5.
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: 13-5.
+    value: E
+  - name: CANDIDATE NAME
+    number: 14-5.
+    value: ''
+  - name: CAN/OFFICE
+    number: 15-5.
+    value: ''
+  - name: CAN/STATE
+    number: 16-5.
+    value: ''
+  - name: CAN/DIST
+    number: 17-5.
+    value: ''
+  - name: PARTY CODE
+    number: 18-5.
+    value: ''
+  - name: PARTY TYPE
+    number: 19-5.
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: 20-6.
+    value: NAT
+  - name: COMMITTEE NAME (Affiliated)
+    number: 21-6.
+    value: ''
+  - name: STREET 1
+    number: 22-6.
+    value: ''
+  - name: STREET 2
+    number: 23-6.
+    value: ''
+  - name: CITY
+    number: 24-6.
+    value: ''
+  - name: STATE
+    number: 25-6.
+    value: ''
+  - name: ZIP
+    number: 26-6.
+    value: ''
+  - name: RELATIONSHIP (w/ Above Cmte)
+    number: 27-6.
+    value: ''
+  - name: ORGANIZATION TYPE
+    number: 28-6.
+    value: ''
+  - name: Custodian Name
+    number: '29-7. '
+    value: ''
+  - name: STREET 1
+    number: 30-7.
+    value: ''
+  - name: STREET 2
+    number: 31-7.
+    value: ''
+  - name: CITY
+    number: 32-7.
+    value: ''
+  - name: STATE
+    number: 33-7.
+    value: ''
+  - name: ZIP
+    number: 34-7.
+    value: ''
+  - name: TITLE
+    number: 35-7.
+    value: ''
+  - name: TELEPHONE
+    number: 36-7.
+    value: ''
+  - name: Treasurer
+    number: '37-8. '
+    value: ''
+  - name: STREET 1
+    number: 38-8.
+    value: Lang^Allan^^
+  - name: STREET 2
+    number: 39-8.
+    value: 839 Bishops Court
+  - name: CITY
+    number: 40-8.
+    value: ''
+  - name: STATE
+    number: 41-8.
+    value: Birmingham
+  - name: ZIP
+    number: 42-8.
+    value: AL
+  - name: TITLE
+    number: 43-8.
+    value: '35242'
+  - name: TELEPHONE
+    number: 44-8.
+    value: Treasurer
+  - name: Designated Agent
+    number: '45-8. '
+    value: '2059456330'
+  - name: STREET 1
+    number: 46-8.
+    value: Stanfield^Scott O.^Mr.^
+  - name: STREET 2
+    number: 47-8.
+    value: 1240 Graylynn Drive
+  - name: CITY
+    number: 48-8.
+    value: ''
+  - name: STATE
+    number: 49-8.
+    value: Vestavia Hills
+  - name: ZIP
+    number: 50-8.
+    value: AL
+  - name: TITLE
+    number: 51-8.
+    value: '352162636'
+  - name: TELEPHONE
+    number: 52-8.
+    value: Assistant Treasurer
+  - name: Bank/Depository
+    number: '53-9. '
+    value: '2059456386'
+  - name: STREET 1
+    number: 54-9.
+    value: ''
+  - name: STREET 2
+    number: 55-9.
+    value: ''
+  - name: CITY
+    number: 56-9.
+    value: ''
+  - name: STATE
+    number: 57-9.
+    value: ''
+  - name: ZIP
+    number: 58-9.
+    value: ''
+  - name: NAME/TREASURER (as signed)
+    number: '59'
+    value: ''
+  - name: Signed
+    number: 60-
+    value: Lang^Allan^^
+  - name: COMMITTEE EMAIL
+    number: '61'
+    value: '20030505'
+  - name: COMMITTEE WEB URL
+    number: '62'
+    value: ''
+  - name: COMMITTEE FAX NUMBER
+    number: '63'
+    value: ''
+  - value: ''
+  expected_count: 63
+  input: F1N,C00160630,"Drummond Company, Inc. Political Action Committee (DPAC)",P.O.
+    Box 10246,,Birmingham,AL,352020246,20030505,,,E,,,,,,,NAT,,,,,,,,,,,,,,,,,,Lang^Allan^^,839
+    Bishops Court,,Birmingham,AL,35242,Treasurer,2059456330,Stanfield^Scott O.^Mr.^,1240
+    Graylynn Drive,,Vestavia Hills,AL,352162636,Assistant Treasurer,2059456386,,,,,,,Lang^Allan^^,20030505,,,
+  input_count: 64
+  record: <fec.version.v5_0.F1.Records instance at 0x1b85248>
+  result: []
+- input: TEXT,F1N,,"This is an amendment Form 1, reporting the change in Treasurer
+    of Allan Lang.  The Assistant Treasurer is Scott Stanfield.       "
+  record: <fec.version.v5_0.TEXT.Records instance at 0x1b850e0>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F1N
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: This is an amendment Form 1
+  - name: AMENDED CD
+    number: '5'
+    value: ' reporting the change in Treasurer of Allan Lang.  The Assistant Treasurer
+      is Scott Stanfield.       '
+sourceurl: !!python/unicode 20030505
+type: single
