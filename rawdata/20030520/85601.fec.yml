@@ -1,0 +1,109 @@
+countraw: 3
+countrows: 1
+filename: 85601.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H8CA03014
+  - name: CANDIDATE NAME
+    number: '3'
+    value: MATSUI^ROBERT^^
+  - name: STREET 1
+    number: '4'
+    value: 4230 WARREN AVENUE
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: SACRAMENTO
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '95822'
+  - name: PTY/CODE
+    number: '9'
+    value: DEM
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: CA
+  - name: CAN/DIST
+    number: '12'
+    value: '05'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2004'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: C00085688
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: BOB MATSUI FOR CONGRESS COMMITTEE
+  - name: STREET 1
+    number: '16'
+    value: 8665 Wilshire Blvd. Suite 220
+  - name: STREET 2
+    number: '17'
+    value: ''
+  - name: CITY
+    number: '18'
+    value: Beverly Hills
+  - name: STATE
+    number: '19'
+    value: CA
+  - name: ZIP
+    number: '20'
+    value: '90211'
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: ''
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: Matsui 25th Committee
+  - name: STREET 1
+    number: '23'
+    value: 8665 Wilshire Blvd.
+  - name: STREET 2
+    number: '24'
+    value: ''
+  - name: CITY
+    number: '25'
+    value: '#220'
+  - name: STATE
+    number: '26'
+    value: Beverly Hills
+  - name: ZIP
+    number: '27'
+    value: CA
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: '90211'
+  - name: Signed
+    number: 29-
+    value: MATSUI^ROBERT^^
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: '20030520'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '0.00'
+  - value: '0.00'
+  expected_count: 31
+  input: F2,H8CA03014,MATSUI^ROBERT^^,4230 WARREN AVENUE,,SACRAMENTO,CA,95822,DEM,H,CA,05,2004,C00085688,BOB
+    MATSUI FOR CONGRESS COMMITTEE,8665 Wilshire Blvd. Suite 220,,Beverly Hills,CA,90211,,Matsui
+    25th Committee,"8665 Wilshire Blvd.,",#220,Beverly Hills,CA,90211,MATSUI^ROBERT^^,20030520,0.00,0.00
+  input_count: 32
+  record: <fec.version.v5_0.F2.Records instance at 0x1b8b3b0>
+  result: []
+sourceurl: !!python/unicode 20030520
+type: single
