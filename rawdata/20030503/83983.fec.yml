@@ -1,0 +1,110 @@
+countraw: 3
+countrows: 1
+filename: 83983.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H4TX22023
+  - name: CANDIDATE NAME
+    number: '3'
+    value: Thomas Dale DeLay
+  - name: STREET 1
+    number: '4'
+    value: 10707 Corporate Drive
+  - name: STREET 2
+    number: '5'
+    value: ' Suite 130'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Stafford
+  - name: ZIP
+    number: '8'
+    value: TX
+  - name: PTY/CODE
+    number: '9'
+    value: '77477   '
+  - name: CAN/OFFICE
+    number: '10'
+    value: REP
+  - name: CAN/STATE
+    number: '11'
+    value: H
+  - name: CAN/DIST
+    number: '12'
+    value: TX
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '22'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: '2004'
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: ''
+  - name: STREET 1
+    number: '16'
+    value: Tom DeLay Congressional Committee
+  - name: STREET 2
+    number: '17'
+    value: 10707 Corporate Drive
+  - name: CITY
+    number: '18'
+    value: ' Suite 130'
+  - name: STATE
+    number: '19'
+    value: ''
+  - name: ZIP
+    number: '20'
+    value: Stafford
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: TX
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: '77477   '
+  - name: STREET 1
+    number: '23'
+    value: '        '
+  - name: STREET 2
+    number: '24'
+    value: ''
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: ''
+  - name: ZIP
+    number: '27'
+    value: ''
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: ' '
+  - name: Signed
+    number: 29-
+    value: '       '
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: Thomas Dale DeLay
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '20030503'
+  - value: '0.00'
+  - value: '0.00'
+  expected_count: 31
+  input: '"F2","H4TX22023","Thomas Dale DeLay","10707 Corporate Drive, Suite 130","","Stafford","TX","77477   ","REP","H","TX",22,2004,"","Tom
+    DeLay Congressional Committee","10707 Corporate Drive, Suite 130","","Stafford","TX","77477   ","        ","","","","","
+    ","       ","Thomas Dale DeLay",20030503,0.00,0.00'
+  input_count: 33
+  record: <fec.version.v5_0.F2.Records instance at 0x340e9e0>
+  result: []
+sourceurl: !!python/unicode 20030503
+type: single
