@@ -1,0 +1,394 @@
+countraw: 7
+countrows: 5
+filename: 79573.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366708
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Alexander For Congress 2002
+  - name: STREET 1
+    number: '4'
+    value: ' Inc'
+  - name: STREET 2
+    number: '5'
+    value: 207 E 14th Street
+  - name: CITY
+    number: '6'
+    value: Suite B
+  - name: STATE
+    number: '7'
+    value: Hopkinsville
+  - name: ZIP
+    number: '8'
+    value: KY
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '42240'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ''
+  - name: CAN/OFFICE
+    number: '11'
+    value: Alexander^Klint^^
+  - name: CAN/STATE
+    number: '12'
+    value: ''
+  - name: CAN/DIST
+    number: '13'
+    value: ''
+  - name: Signed
+    number: 14-
+    value: ''
+  - value: '20020524'
+  expected_count: 14
+  input: F6,C00366708,"Alexander For Congress 2002, Inc",207 E 14th Street,Suite B,Hopkinsville,KY,42240,,Alexander^Klint^^,,,,20020524
+  input_count: 15
+  record: <fec.version.v3.F6.Records instance at 0x19a6c68>
+  result: []
+- input: F65,C00366708,IND,Owen^Charles^Mr.^,6 River Hill Road,,Louisville,KY,40207,Self-Employed,Attorney,20020523,1000.00,C00366708,H2KY01051,Alexander^Klint^^,,,,,,,,,,,F6.5495
+  record: <fec.version.v3.F65.Records instance at 0x19a6fc8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366708
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Owen^Charles^Mr.^
+  - name: STREET 1
+    number: '5'
+    value: 6 River Hill Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Louisville
+  - name: STATE
+    number: '8'
+    value: KY
+  - name: ZIP
+    number: '9'
+    value: '40207'
+  - name: INDEMP
+    number: '10'
+    value: Self-Employed
+  - name: INDOCC
+    number: '11'
+    value: Attorney
+  - name: Of Contribution
+    number: 12-
+    value: '20020523'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00366708
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2KY01051
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Alexander^Klint^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5495
+- input: F65,C00366708,CCM,HOYER FOR CONGRESS,7905 MALCOLM ROAD SUITE 102,,CLINTON,MD,20735,,,20020524,1000.00,C00366708,H2KY01051,Alexander^Klint^^,,,,,,,,,,,F6.5496
+  record: <fec.version.v3.F65.Records instance at 0x19a6c68>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366708
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: HOYER FOR CONGRESS
+  - name: STREET 1
+    number: '5'
+    value: 7905 MALCOLM ROAD SUITE 102
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: CLINTON
+  - name: STATE
+    number: '8'
+    value: MD
+  - name: ZIP
+    number: '9'
+    value: '20735'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020524'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00366708
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2KY01051
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Alexander^Klint^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5496
+- input: F65,C00366708,PTY,KENTUCKY STATE DEMOCRATIC CENTRAL EXECUTIVE COMMITTEE,P.O.
+    BOX 694,,FRANKFORT,KY,40602,,,20020524,4863.94,C00366708,H2KY01051,Alexander^Klint^^,,,,,,,,,,,F6.5505
+  record: <fec.version.v3.F65.Records instance at 0x19a6fc8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366708
+  - name: ENTITY TYPE
+    number: '3'
+    value: PTY
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: KENTUCKY STATE DEMOCRATIC CENTRAL EXECUTIVE COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: P.O. BOX 694
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: FRANKFORT
+  - name: STATE
+    number: '8'
+    value: KY
+  - name: ZIP
+    number: '9'
+    value: '40602'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020524'
+  - name: AMOUNT
+    number: '13'
+    value: '4863.94'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00366708
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2KY01051
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Alexander^Klint^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5505
+- input: F65,C00366708,PAC,CWA-COPE POLITICAL CONTRIBUTIONS COMMITTEE,501 THIRD STREET
+    NW,,WASHINGTON,DC,20001,,,20020524,2500.00,C00366708,H2KY01051,Alexander^Klint^^,,,,,,,,,,,F6.5497
+  record: <fec.version.v3.F65.Records instance at 0x19a6c68>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366708
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: CWA-COPE POLITICAL CONTRIBUTIONS COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: 501 THIRD STREET NW
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: WASHINGTON
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20001'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20020524'
+  - name: AMOUNT
+    number: '13'
+    value: '2500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00366708
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2KY01051
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Alexander^Klint^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5497
+sourceurl: !!python/unicode 20030324
+type: single
