@@ -1,0 +1,228 @@
+countraw: 5
+countrows: 3
+filename: 83671.fec
+header: {}
+rows:
+- input: '"F6","C00384008","Carl Isett Congressional Committee","P.O. Box 94171","","Lubbock","TX","79493   ","H4TX19110","Carl
+    Isett","H","TX","19",20030429'
+  record: <fec.version.v5_0.F6.Records instance at 0x1b86bd8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00384008
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Carl Isett Congressional Committee
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 94171
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Lubbock
+  - name: STATE
+    number: '7'
+    value: TX
+  - name: ZIP
+    number: '8'
+    value: '79493   '
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H4TX19110
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Carl Isett
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: TX
+  - name: CAN/DIST
+    number: '13'
+    value: '19'
+  - name: Signed
+    number: 14-
+    value: '20030429'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00384008
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Tourtellotte^Thomas Nathan
+  - name: STREET 1
+    number: '5'
+    value: 400 York Creek Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Driftwood
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '78619    '
+  - name: INDEMP
+    number: '10'
+    value: Hance
+  - name: INDOCC
+    number: '11'
+    value: Scarborough
+  - name: Of Contribution
+    number: 12-
+    value: Wright
+  - name: AMOUNT
+    number: '13'
+    value: Woodw
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: Attorney
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '20030429'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: '2000.00'
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: ''
+  - value: 0429200331C2156
+  expected_count: 27
+  input: '"F65","C00384008","IND","Tourtellotte^Thomas Nathan","400 York Creek Road","","Driftwood","TX","78619    ","Hance,Scarborough,Wright,Woodw","Attorney",20030429,2000.00,"","","","","",,"","","","","","","","0429200331C2156"'
+  input_count: 30
+  record: <fec.version.v5_0.F65.Records instance at 0x1b86a70>
+  result: []
+- input: '"F65","C00384008","IND","Sorrells^Susan","717 Evergreen Dr.","","Hurst","TX","76054    ","Employment
+    Practices Solutions","Attorney",20030429,1000.00,"","","","","",,"","","","","","","","0429200331C2157"'
+  record: <fec.version.v5_0.F65.Records instance at 0x1b86b90>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00384008
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Sorrells^Susan
+  - name: STREET 1
+    number: '5'
+    value: 717 Evergreen Dr.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Hurst
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '76054    '
+  - name: INDEMP
+    number: '10'
+    value: Employment Practices Solutions
+  - name: INDOCC
+    number: '11'
+    value: Attorney
+  - name: Of Contribution
+    number: 12-
+    value: '20030429'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 0429200331C2157
+sourceurl: !!python/unicode 20030429
+type: single
