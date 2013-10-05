@@ -1,0 +1,107 @@
+countraw: 3
+countrows: 1
+filename: 69501.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H6MD03177
+  - name: CANDIDATE NAME
+    number: '3'
+    value: Benjamin L. Cardin
+  - name: STREET 1
+    number: '4'
+    value: 100 E. Pratt Street
+  - name: STREET 2
+    number: '5'
+    value: ' 26th Floor'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Baltimore
+  - name: ZIP
+    number: '8'
+    value: MD
+  - name: PTY/CODE
+    number: '9'
+    value: '21202   '
+  - name: CAN/OFFICE
+    number: '10'
+    value: DEM
+  - name: CAN/STATE
+    number: '11'
+    value: H
+  - name: CAN/DIST
+    number: '12'
+    value: MD
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '3 '
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: '2002'
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: ''
+  - name: STREET 1
+    number: '16'
+    value: Ben Cardin for Congress
+  - name: STREET 2
+    number: '17'
+    value: ' c/o Mark D. Dopkin'
+  - name: CITY
+    number: '18'
+    value: ' Treasurer'
+  - name: STATE
+    number: '19'
+    value: 100 E. Pratt Street
+  - name: ZIP
+    number: '20'
+    value: ' 26th Floor'
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: ''
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: Baltimore
+  - name: STREET 1
+    number: '23'
+    value: MD
+  - name: STREET 2
+    number: '24'
+    value: '21202   '
+  - name: CITY
+    number: '25'
+    value: '        '
+  - name: STATE
+    number: '26'
+    value: ''
+  - name: ZIP
+    number: '27'
+    value: ''
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: ''
+  - name: Signed
+    number: 29-
+    value: ''
+  - value: ' '
+  - value: '       '
+  - value: Benjamin L. Cardin
+  - value: '20021021'
+  expected_count: 29
+  input: '"F2","H6MD03177","Benjamin L. Cardin","100 E. Pratt Street, 26th Floor","","Baltimore","MD","21202   ","DEM","H","MD",3
+    ,2002,"","Ben Cardin for Congress, c/o Mark D. Dopkin, Treasurer","100 E. Pratt
+    Street, 26th Floor","","Baltimore","MD","21202   ","        ","","","",""," ","       ","Benjamin
+    L. Cardin",20021021'
+  input_count: 33
+  record: <fec.version.v3.F2.Records instance at 0x2be4908>
+  result: []
+sourceurl: !!python/unicode 20021223
+type: single
