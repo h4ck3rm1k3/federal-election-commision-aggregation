@@ -1,0 +1,110 @@
+countraw: 3
+countrows: 1
+filename: 93875.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H2CA42023
+  - name: CANDIDATE NAME
+    number: '3'
+    value: Duncan Hunter
+  - name: STREET 1
+    number: '4'
+    value: 9340 Fuerte Drive
+  - name: STREET 2
+    number: '5'
+    value: ' Suite 302'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: La Mesa
+  - name: ZIP
+    number: '8'
+    value: CA
+  - name: PTY/CODE
+    number: '9'
+    value: '91941   '
+  - name: CAN/OFFICE
+    number: '10'
+    value: REP
+  - name: CAN/STATE
+    number: '11'
+    value: H
+  - name: CAN/DIST
+    number: '12'
+    value: CA
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '52'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: '2004'
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: ''
+  - name: STREET 1
+    number: '16'
+    value: Committee to Re-Elect Congressman Duncan Hunter
+  - name: STREET 2
+    number: '17'
+    value: 9340 Fuerte Drive
+  - name: CITY
+    number: '18'
+    value: ' Suite 302'
+  - name: STATE
+    number: '19'
+    value: ''
+  - name: ZIP
+    number: '20'
+    value: La Mesa
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: CA
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: '91941   '
+  - name: STREET 1
+    number: '23'
+    value: '        '
+  - name: STREET 2
+    number: '24'
+    value: ''
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: ''
+  - name: ZIP
+    number: '27'
+    value: ''
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: ' '
+  - name: Signed
+    number: 29-
+    value: '       '
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: Duncan Hunter
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '20030818'
+  - value: '0.00'
+  - value: '0.00'
+  expected_count: 31
+  input: '"F2","H2CA42023","Duncan Hunter","9340 Fuerte Drive, Suite 302","","La Mesa","CA","91941   ","REP","H","CA",52,2004,"","Committee
+    to Re-Elect Congressman Duncan Hunter","9340 Fuerte Drive, Suite 302","","La Mesa","CA","91941   ","        ","","","","","
+    ","       ","Duncan Hunter",20030818,0.00,0.00'
+  input_count: 33
+  record: <fec.version.v5_0.F2.Records instance at 0x3058b90>
+  result: []
+sourceurl: !!python/unicode 20030818
+type: single
