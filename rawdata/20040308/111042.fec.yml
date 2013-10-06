@@ -1,0 +1,235 @@
+countraw: 5
+countrows: 3
+filename: 111042.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00308577
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Pickering For Congress
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 6440
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Laurel
+  - name: STATE
+    number: '7'
+    value: MS
+  - name: ZIP
+    number: '8'
+    value: '39441   '
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H6MS03046
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Charles W. Chip Pickering
+  - name: CAN/OFFICE
+    number: '11'
+    value: ' Jr.'
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: MS
+  - name: Signed
+    number: 14-
+    value: '3 '
+  - value: '20040308'
+  expected_count: 14
+  input: '"F6","C00308577","Pickering For Congress","P.O. Box 6440","","Laurel","MS","39441   ","H6MS03046","Charles
+    W. Chip Pickering, Jr.","H","MS","3 ",20040308'
+  input_count: 15
+  record: <fec.version.v5_1.F6.Records instance at 0x2c407e8>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00308577
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Natl Restaurant Assoc. PAC
+  - name: STREET 1
+    number: '5'
+    value: 'Att: Mr. Bill McCormick'
+  - name: STREET 2
+    number: '6'
+    value: 1200 Seventeenth Street
+  - name: CITY
+    number: '7'
+    value: ' N.W. '
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '200363097'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20040306'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '3000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 0308200428C13455
+  expected_count: 27
+  input: '"F65","C00308577","PAC","Natl Restaurant Assoc. PAC","Att: Mr. Bill McCormick","1200
+    Seventeenth Street, N.W. ","Washington","DC","200363097","","",20040306,3000.00,"","","","","",,"","","","","","","","0308200428C13455"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x2c401b8>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00308577
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Siemens Corporation PAC
+  - name: STREET 1
+    number: '5'
+    value: 701 Pennsylvania Ave.
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20004    '
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20040306'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 0308200428C13457
+  expected_count: 27
+  input: '"F65","C00308577","PAC","Siemens Corporation PAC","701 Pennsylvania Ave.,
+    NW","","Washington","DC","20004    ","","",20040306,1000.00,"","","","","",,"","","","","","","","0308200428C13457"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x2c40560>
+  result: []
+sourceurl: !!python/unicode 20040308
+type: single
