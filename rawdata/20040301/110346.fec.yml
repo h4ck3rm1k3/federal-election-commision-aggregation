@@ -1,0 +1,657 @@
+countraw: 10
+countrows: 8
+filename: 110346.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00391029
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Jim Costa for Congress
+  - name: STREET 1
+    number: '4'
+    value: 2037 W. Bullard
+  - name: STREET 2
+    number: '5'
+    value: ' PMB#509'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Fresno
+  - name: ZIP
+    number: '8'
+    value: CA
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '93711'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H4CA20082
+  - name: CAN/OFFICE
+    number: '11'
+    value: Costa^Jim^^
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: CA
+  - name: Signed
+    number: 14-
+    value: '20'
+  - value: '20040229'
+  expected_count: 14
+  input: F6,C00391029,Jim Costa for Congress,"2037 W. Bullard, PMB#509",,Fresno,CA,93711,H4CA20082,Costa^Jim^^,H,CA,20,20040229
+  input_count: 15
+  record: <fec.version.v5_1.F6.Records instance at 0x2c40998>
+  result: []
+- input: F65,C00391029,IND,Markstein^Hayden^^,60 Main Avenue,,Sacramento,CA,95838,Information
+    Requested,,20040227,1000.00,C00391029,H4CA20082,Costa^Jim^^,H,CA,20,,,,,,,,F6.6124
+  record: <fec.version.v5_1.F65.Records instance at 0x2c40248>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00391029
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Markstein^Hayden^^
+  - name: STREET 1
+    number: '5'
+    value: 60 Main Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Sacramento
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '95838'
+  - name: INDEMP
+    number: '10'
+    value: Information Requested
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20040227'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00391029
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4CA20082
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Costa^Jim^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: CA
+  - name: CAN/DIST
+    number: '19'
+    value: '20'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.6124
+- input: F65,C00391029,IND,Markstein^Steven^^,60 Main Avenue,,Sacramento,CA,95838,Information
+    Requested,,20040227,1000.00,C00391029,H4CA20082,Costa^Jim^^,H,CA,20,,,,,,,,F6.6123
+  record: <fec.version.v5_1.F65.Records instance at 0x2c40998>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00391029
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Markstein^Steven^^
+  - name: STREET 1
+    number: '5'
+    value: 60 Main Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Sacramento
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '95838'
+  - name: INDEMP
+    number: '10'
+    value: Information Requested
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20040227'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00391029
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4CA20082
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Costa^Jim^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: CA
+  - name: CAN/DIST
+    number: '19'
+    value: '20'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.6123
+- input: F65,C00391029,IND,Wallace^Robert^^,6250 Alfred Harrell Highway,,Bakersfield,CA,93308,Self-Employed,Physician,20040227,1000.00,C00391029,H4CA20082,Costa^Jim^^,H,CA,20,,,,,,,,F6.6125
+  record: <fec.version.v5_1.F65.Records instance at 0x2c40248>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00391029
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Wallace^Robert^^
+  - name: STREET 1
+    number: '5'
+    value: 6250 Alfred Harrell Highway
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Bakersfield
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '93308'
+  - name: INDEMP
+    number: '10'
+    value: Self-Employed
+  - name: INDOCC
+    number: '11'
+    value: Physician
+  - name: Of Contribution
+    number: 12-
+    value: '20040227'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00391029
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4CA20082
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Costa^Jim^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: CA
+  - name: CAN/DIST
+    number: '19'
+    value: '20'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.6125
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00391029
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: American Medical Association
+  - name: STREET 1
+    number: '5'
+    value: 1101 Vermont Avenue
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20005'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20040227'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '5000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00391029
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H4CA20082
+  - name: CAN/OFFICE
+    number: '17'
+    value: Costa^Jim^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: CA
+  - name: CONDUIT NAME
+    number: '20'
+    value: '20'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.6119
+  expected_count: 27
+  input: F65,C00391029,PAC,American Medical Association,"1101 Vermont Avenue, NW",,Washington,DC,20005,,,20040227,5000.00,C00391029,H4CA20082,Costa^Jim^^,H,CA,20,,,,,,,,F6.6119
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x2c401b8>
+  result: []
+- input: F65,C00391029,PAC,California Farm Bureau Federation PAC,2300 River Plaza
+    Drive,,Sacramento,CA,95833,,,20040227,2000.00,C00391029,H4CA20082,Costa^Jim^^,H,CA,20,,,,,,,,F6.6121
+  record: <fec.version.v5_1.F65.Records instance at 0x2c40248>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00391029
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: California Farm Bureau Federation PAC
+  - name: STREET 1
+    number: '5'
+    value: 2300 River Plaza Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Sacramento
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '95833'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20040227'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00391029
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4CA20082
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Costa^Jim^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: CA
+  - name: CAN/DIST
+    number: '19'
+    value: '20'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.6121
+- input: F65,C00391029,PAC,Physical Therapy PAC,1111 N. Fairfax Street,,Alexandria,VA,22314,,,20040227,1000.00,C00391029,H4CA20082,Costa^Jim^^,H,CA,20,,,,,,,,F6.6122
+  record: <fec.version.v5_1.F65.Records instance at 0x2c401b8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00391029
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Physical Therapy PAC
+  - name: STREET 1
+    number: '5'
+    value: 1111 N. Fairfax Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Alexandria
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22314'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20040227'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00391029
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4CA20082
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Costa^Jim^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: CA
+  - name: CAN/DIST
+    number: '19'
+    value: '20'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.6122
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00391029
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Union Pacific Corporation Fund for Effective Government
+  - name: STREET 1
+    number: '5'
+    value: 600 Thirteenth Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ' Suite 3'
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: INDEMP
+    number: '10'
+    value: DC
+  - name: INDOCC
+    number: '11'
+    value: '20005'
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20040227'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '2500.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: C00391029
+  - name: CAN/OFFICE
+    number: '17'
+    value: H4CA20082
+  - name: CAN/STATE
+    number: '18'
+    value: Costa^Jim^^
+  - name: CAN/DIST
+    number: '19'
+    value: H
+  - name: CONDUIT NAME
+    number: '20'
+    value: CA
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: '20'
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: F6.6120
+  expected_count: 27
+  input: F65,C00391029,PAC,Union Pacific Corporation Fund for Effective Government,"600
+    Thirteenth Street, NW, Suite 3",,Washington,DC,20005,,,20040227,2500.00,C00391029,H4CA20082,Costa^Jim^^,H,CA,20,,,,,,,,F6.6120
+  input_count: 29
+  record: <fec.version.v5_1.F65.Records instance at 0x2c40248>
+  result: []
+sourceurl: !!python/unicode 20040301
+type: single
