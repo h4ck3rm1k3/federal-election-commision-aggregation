@@ -1,0 +1,986 @@
+countraw: 14
+countrows: 12
+filename: 110324.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00120683
+  - name: COMMITTEE NAME
+    number: '3'
+    value: HALL FOR CONGRESS COMMITTEE (RALPH HALL - ROCKWALL
+  - name: STREET 1
+    number: '4'
+    value: ' TEXAS)'
+  - name: STREET 2
+    number: '5'
+    value: POST OFFICE BOX 711
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: ROCKWALL
+  - name: ZIP
+    number: '8'
+    value: TX
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '75087'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ''
+  - name: CAN/OFFICE
+    number: '11'
+    value: ''
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: TX
+  - name: Signed
+    number: 14-
+    value: '04'
+  - value: '20040229'
+  expected_count: 14
+  input: F6,C00120683,"HALL FOR CONGRESS COMMITTEE (RALPH HALL - ROCKWALL, TEXAS)",POST
+    OFFICE BOX 711,,ROCKWALL,TX,75087,,,H,TX,04,20040229
+  input_count: 15
+  record: <fec.version.v5_1.F6.Records instance at 0x2c401b8>
+  result: []
+- input: F65,C00120683,IND,Galvan^Israel J.^^,2106 Walnut Creek Drive,,League City,TX,77573,GHG
+    Corporation,President,20040228,1000.00,C00120683,H0TX04037,,H,TX,04,,,,,,,,F6.9704
+  record: <fec.version.v5_1.F65.Records instance at 0x2c403f8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00120683
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Galvan^Israel J.^^
+  - name: STREET 1
+    number: '5'
+    value: 2106 Walnut Creek Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: League City
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '77573'
+  - name: INDEMP
+    number: '10'
+    value: GHG Corporation
+  - name: INDOCC
+    number: '11'
+    value: President
+  - name: Of Contribution
+    number: 12-
+    value: '20040228'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00120683
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H0TX04037
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '04'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.9704
+- input: F65,C00120683,IND,Jones^Robert David^^,9720 Chapin Road,,Fort Worth ,TX,76126,N/A,Retired,20040228,1000.00,C00120683,H0TX04037,,H,TX,04,,,,,,,,F6.9706
+  record: <fec.version.v5_1.F65.Records instance at 0x2c401b8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00120683
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Jones^Robert David^^
+  - name: STREET 1
+    number: '5'
+    value: 9720 Chapin Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: 'Fort Worth '
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '76126'
+  - name: INDEMP
+    number: '10'
+    value: N/A
+  - name: INDOCC
+    number: '11'
+    value: Retired
+  - name: Of Contribution
+    number: 12-
+    value: '20040228'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00120683
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H0TX04037
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '04'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.9706
+- input: F65,C00120683,IND,Scott^Robert L.^^,P.O. Box 1353,,Greenville,TX,75403,Self-Employed,Attorney,20040228,1000.00,C00120683,H0TX04037,,H,TX,04,,,,,,,,F6.9703
+  record: <fec.version.v5_1.F65.Records instance at 0x2c403f8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00120683
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Scott^Robert L.^^
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 1353
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Greenville
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '75403'
+  - name: INDEMP
+    number: '10'
+    value: Self-Employed
+  - name: INDOCC
+    number: '11'
+    value: Attorney
+  - name: Of Contribution
+    number: 12-
+    value: '20040228'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00120683
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H0TX04037
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '04'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.9703
+- input: F65,C00120683,PAC,AMERICAN SOCIETY OF ANESTHESIOLOGISTS INCORPORATED POLITICAL
+    ACTION COMMITTEE,520 N. NORTHWEST HIGHWAY,,PARK RIDGE,IL,60068,,,20040228,3500.00,C00120683,H0TX04037,,H,TX,04,,,,,,,,F6.9708
+  record: <fec.version.v5_1.F65.Records instance at 0x2c401b8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00120683
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: AMERICAN SOCIETY OF ANESTHESIOLOGISTS INCORPORATED POLITICAL ACTION COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: 520 N. NORTHWEST HIGHWAY
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: PARK RIDGE
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60068'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20040228'
+  - name: AMOUNT
+    number: '13'
+    value: '3500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00120683
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H0TX04037
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '04'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.9708
+- input: F65,C00120683,CCM,CHRISTOPHER COX CONGRESSIONAL COMMITTEE,P.O. Box 8088 PMB-C,,Newport
+    Beach,CA,92660,,,20040228,1000.00,C00120683,H0TX04037,,H,TX,04,,,,,,,,F6.9705
+  record: <fec.version.v5_1.F65.Records instance at 0x2c403f8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00120683
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: CHRISTOPHER COX CONGRESSIONAL COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 8088 PMB-C
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Newport Beach
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '92660'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20040228'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00120683
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H0TX04037
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '04'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.9705
+- input: F65,C00120683,PAC,DUKE ENERGY CORPORATION POLITICAL ACTION COMMITTEE-FEDERAL
+    'DUKEPAC',422 SOUTH CHURCH STREET PBO5E,,CHARLOTTE,NC,28242,,,20040228,3000.00,C00120683,H0TX04037,,H,TX,04,,,,,,,,F6.9713
+  record: <fec.version.v5_1.F65.Records instance at 0x2c40128>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00120683
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: DUKE ENERGY CORPORATION POLITICAL ACTION COMMITTEE-FEDERAL 'DUKEPAC'
+  - name: STREET 1
+    number: '5'
+    value: 422 SOUTH CHURCH STREET PBO5E
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: CHARLOTTE
+  - name: STATE
+    number: '8'
+    value: NC
+  - name: ZIP
+    number: '9'
+    value: '28242'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20040228'
+  - name: AMOUNT
+    number: '13'
+    value: '3000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00120683
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H0TX04037
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '04'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.9713
+- input: F65,C00120683,PAC,EASTMANPAC POLITICAL ACTION COMMITTEE OF EASTMAN CHEMICAL
+    COMPANY,PO BOX 511,,KINGSPORT,TN,37662,,,20040228,2000.00,C00120683,H0TX04037,,H,TX,04,,,,,,,,F6.9710
+  record: <fec.version.v5_1.F65.Records instance at 0x2c403f8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00120683
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: EASTMANPAC POLITICAL ACTION COMMITTEE OF EASTMAN CHEMICAL COMPANY
+  - name: STREET 1
+    number: '5'
+    value: PO BOX 511
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: KINGSPORT
+  - name: STATE
+    number: '8'
+    value: TN
+  - name: ZIP
+    number: '9'
+    value: '37662'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20040228'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00120683
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H0TX04037
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '04'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.9710
+- input: F65,C00120683,PAC,ENTERGY TEXAS FEDERAL PAC,P.O. Box 2951,,Beaumont,TX,77704,,,20040228,1000.00,C00120683,H0TX04037,,H,TX,04,,,,,,,,F6.9707
+  record: <fec.version.v5_1.F65.Records instance at 0x2c40128>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00120683
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: ENTERGY TEXAS FEDERAL PAC
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 2951
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Beaumont
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '77704'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20040228'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00120683
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H0TX04037
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '04'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.9707
+- input: F65,C00120683,PAC,FLORIDA POWER & LIGHT,P.O. Box 14000,,Juno Beach,FL,33408,,,20040228,2500.00,C00120683,H0TX04037,,H,TX,04,,,,,,,,F6.9712
+  record: <fec.version.v5_1.F65.Records instance at 0x2c403f8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00120683
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: FLORIDA POWER & LIGHT
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 14000
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Juno Beach
+  - name: STATE
+    number: '8'
+    value: FL
+  - name: ZIP
+    number: '9'
+    value: '33408'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20040228'
+  - name: AMOUNT
+    number: '13'
+    value: '2500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00120683
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H0TX04037
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '04'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.9712
+- input: F65,C00120683,PAC,PG&E CORPORATION ENERGYPAC,77 BEALE STREET B29H,.,SAN FRANCISCO,CA,94105,,,20040228,1000.00,C00120683,H0TX04037,,H,TX,04,,,,,,,,F6.9711
+  record: <fec.version.v5_1.F65.Records instance at 0x2c40128>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00120683
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: PG&E CORPORATION ENERGYPAC
+  - name: STREET 1
+    number: '5'
+    value: 77 BEALE STREET B29H
+  - name: STREET 2
+    number: '6'
+    value: .
+  - name: CITY
+    number: '7'
+    value: SAN FRANCISCO
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94105'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20040228'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00120683
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H0TX04037
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '04'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.9711
+- input: F65,C00120683,PAC,UNITED SPACE ALLIANCE POLITICAL ACTION COMMITTEE,1150 GEMINI,,HOUSTON,TX,77058,,,20040228,2000.00,C00120683,H0TX04037,,H,TX,04,,,,,,,,F6.9709
+  record: <fec.version.v5_1.F65.Records instance at 0x2c403f8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00120683
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: UNITED SPACE ALLIANCE POLITICAL ACTION COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: 1150 GEMINI
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: HOUSTON
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '77058'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20040228'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00120683
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H0TX04037
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '04'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.9709
+sourceurl: !!python/unicode 20040229
+type: single
