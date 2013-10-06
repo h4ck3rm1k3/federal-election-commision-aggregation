@@ -1,0 +1,74 @@
+countraw: 4
+countrows: 2
+filename: 110518.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00252940
+  - name: COMMITTEE NAME
+    number: '3'
+    value: League of Conservation Voters Action Fund
+  - name: STREET 1
+    number: '4'
+    value: 1920 L Street
+  - name: STREET 2
+    number: '5'
+    value: ' NW'
+  - name: CITY
+    number: '6'
+    value: ' Suite 800'
+  - name: STATE
+    number: '7'
+    value: ''
+  - name: ZIP
+    number: '8'
+    value: Washington
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: DC
+  - name: Signed
+    number: 10-
+    value: '200365045'
+  - name: REPORT TYPE
+    number: '11'
+    value: Sommer^Gwendolyn M.^Ms.^
+  - value: '20040302'
+  - value: '24'
+  expected_count: 11
+  input: F24,C00252940,League of Conservation Voters Action Fund,"1920 L Street, NW,
+    Suite 800",,Washington,DC,200365045,Sommer^Gwendolyn M.^Ms.^,20040302,24
+  input_count: 13
+  record: <fec.version.v5_1.F24.Records instance at 0x2a61e18>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F24
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: This memeo entry is in reference to the Amended November Report. All earmarked
+      contributions reported and don't report the contributor's occupation are  less
+      than $200 in aggregate.
+  - name: AMENDED CD
+    number: '5'
+    value: NO VALUE!
+  expected_count: 5
+  input: TEXT,F24,,This memeo entry is in reference to the Amended November Report.
+    All earmarked contributions reported and don't report the contributor's occupation
+    are  less than $200 in aggregate.
+  input_count: 4
+  record: <fec.version.v5_1.TEXT.Records instance at 0x2a619e0>
+  result: []
+sourceurl: !!python/unicode 20040302
+type: single
