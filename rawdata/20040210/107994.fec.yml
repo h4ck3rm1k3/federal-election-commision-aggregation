@@ -1,0 +1,628 @@
+countraw: 7
+countrows: 5
+filename: 107994.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: COMMITTEE NAME
+    number: '3'
+    value: National Right to Life Political Action Committee
+  - name: STREET 1
+    number: '4'
+    value: 512 10th Street
+  - name: STREET 2
+    number: '5'
+    value: ' N.W.'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Washington
+  - name: ZIP
+    number: '8'
+    value: DC
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: '20004   '
+  - name: Signed
+    number: 10-
+    value: Amarie C. Natividad
+  - name: REPORT TYPE
+    number: '11'
+    value: '20040210'
+  - value: '24'
+  expected_count: 11
+  input: '"F24","C00111278","National Right to Life Political Action Committee","512
+    10th Street, N.W.","","Washington","DC","20004   ","Amarie C. Natividad",20040210,"24"'
+  input_count: 12
+  record: <fec.version.v5_1.F24.Records instance at 0x2c46950>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: MBC
+  - name: STREET 1
+    number: '5'
+    value: 3270 Blazer Parkway
+  - name: STREET 2
+    number: '6'
+    value: 'Suite 101 '
+  - name: CITY
+    number: '7'
+    value: Lexington
+  - name: STATE
+    number: '8'
+    value: KY
+  - name: ZIP
+    number: '9'
+    value: '40509    '
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Radio Ad
+  - name: DATE
+    number: '11'
+    value: '20040209'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '1901.24'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H4KY06064
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: 0210200414E9678
+  - name: MEMO CODE
+    number: '38'
+    value: NO VALUE!
+  - name: MEMO TEXT
+    number: '39'
+    value: NO VALUE!
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: NO VALUE!
+  - name: ITEM ELECT CD
+    number: '42'
+    value: NO VALUE!
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: NO VALUE!
+  - name: CATEGORY CODE
+    number: '44'
+    value: NO VALUE!
+  - name: TRANS CODE
+    number: '45'
+    value: NO VALUE!
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: NO VALUE!
+  expected_count: 46
+  input: '"SE24","C00111278","ORG","MBC","3270 Blazer Parkway","Suite 101 ","Lexington","KY","40509    ","Radio
+    Ad",20040209,1901.24,"S","H4KY06064","","","",,"","","","","","","","","","","","","","","","","","","0210200414E9678"'
+  input_count: 37
+  record: <fec.version.v5_1.SE.Records instance at 0x2c46560>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: WDFB
+  - name: STREET 1
+    number: '5'
+    value: 3596 Alum Springs Rd.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Danville
+  - name: STATE
+    number: '8'
+    value: KY
+  - name: ZIP
+    number: '9'
+    value: '40422    '
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Radio Ad
+  - name: DATE
+    number: '11'
+    value: '20040209'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '220.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H4KY06064
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: 0210200414E9680
+  - name: MEMO CODE
+    number: '38'
+    value: NO VALUE!
+  - name: MEMO TEXT
+    number: '39'
+    value: NO VALUE!
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: NO VALUE!
+  - name: ITEM ELECT CD
+    number: '42'
+    value: NO VALUE!
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: NO VALUE!
+  - name: CATEGORY CODE
+    number: '44'
+    value: NO VALUE!
+  - name: TRANS CODE
+    number: '45'
+    value: NO VALUE!
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: NO VALUE!
+  expected_count: 46
+  input: '"SE24","C00111278","ORG","WDFB","3596 Alum Springs Rd.","","Danville","KY","40422    ","Radio
+    Ad",20040209,220.00,"S","H4KY06064","","","",,"","","","","","","","","","","","","","","","","","","0210200414E9680"'
+  input_count: 37
+  record: <fec.version.v5_1.SE.Records instance at 0x2c46950>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: WLAP-AM
+  - name: STREET 1
+    number: '5'
+    value: 2601 Nicholasville
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Lexington
+  - name: STATE
+    number: '8'
+    value: KY
+  - name: ZIP
+    number: '9'
+    value: '40503    '
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Radio Ad
+  - name: DATE
+    number: '11'
+    value: '20040209'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '600.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H4KY06064
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: 0210200414E9677
+  - name: MEMO CODE
+    number: '38'
+    value: NO VALUE!
+  - name: MEMO TEXT
+    number: '39'
+    value: NO VALUE!
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: NO VALUE!
+  - name: ITEM ELECT CD
+    number: '42'
+    value: NO VALUE!
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: NO VALUE!
+  - name: CATEGORY CODE
+    number: '44'
+    value: NO VALUE!
+  - name: TRANS CODE
+    number: '45'
+    value: NO VALUE!
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: NO VALUE!
+  expected_count: 46
+  input: '"SE24","C00111278","ORG","WLAP-AM","2601 Nicholasville","","Lexington","KY","40503    ","Radio
+    Ad",20040209,600.00,"S","H4KY06064","","","",,"","","","","","","","","","","","","","","","","","","0210200414E9677"'
+  input_count: 37
+  record: <fec.version.v5_1.SE.Records instance at 0x2c46560>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: WMJR
+  - name: STREET 1
+    number: '5'
+    value: 195 Moore Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Lexington
+  - name: STATE
+    number: '8'
+    value: KY
+  - name: ZIP
+    number: '9'
+    value: '40503    '
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Radio Ad
+  - name: DATE
+    number: '11'
+    value: '20040209'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '440.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H4KY06064
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: 0210200414E9679
+  - name: MEMO CODE
+    number: '38'
+    value: NO VALUE!
+  - name: MEMO TEXT
+    number: '39'
+    value: NO VALUE!
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: NO VALUE!
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: NO VALUE!
+  - name: ITEM ELECT CD
+    number: '42'
+    value: NO VALUE!
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: NO VALUE!
+  - name: CATEGORY CODE
+    number: '44'
+    value: NO VALUE!
+  - name: TRANS CODE
+    number: '45'
+    value: NO VALUE!
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: NO VALUE!
+  expected_count: 46
+  input: '"SE24","C00111278","ORG","WMJR","195 Moore Drive","","Lexington","KY","40503    ","Radio
+    Ad",20040209,440.00,"S","H4KY06064","","","",,"","","","","","","","","","","","","","","","","","","0210200414E9679"'
+  input_count: 37
+  record: <fec.version.v5_1.SE.Records instance at 0x2c46950>
+  result: []
+sourceurl: !!python/unicode 20040210
+type: single
