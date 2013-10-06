@@ -1,0 +1,919 @@
+countraw: 9
+countrows: 7
+filename: 110527.fec
+header: {}
+rows:
+- input: F24,C00396499,TRUTHANDHOPE.ORG,7978 GOLDENSTAR AVENUE,,RIVERSIDE,CA,92506,HEDLUNG^EUGENE^^,20040302,24
+  record: <fec.version.v5_1.F24.Records instance at 0x2a61dd0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00396499
+  - name: COMMITTEE NAME
+    number: '3'
+    value: TRUTHANDHOPE.ORG
+  - name: STREET 1
+    number: '4'
+    value: 7978 GOLDENSTAR AVENUE
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: RIVERSIDE
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '92506'
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: HEDLUNG^EUGENE^^
+  - name: Signed
+    number: 10-
+    value: '20040302'
+  - name: REPORT TYPE
+    number: '11'
+    value: '24'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00396499
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: TRANSIRE RUBICONEM
+  - name: STREET 1
+    number: '5'
+    value: ' INC.'
+  - name: STREET 2
+    number: '6'
+    value: 7978 GOLDENSTAR AVENUE
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: RIVERSIDE
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '92506'
+  - name: DATE
+    number: '11'
+    value: RADIO ADS
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20040228'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '3916.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: HOWARD^DEAN
+  - name: S/O STATE
+    number: '17'
+    value: P
+  - name: S/O CAN/DIST
+    number: '18'
+    value: NY
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: C00396499
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: HEDLUNG^EUGENE
+  - name: Notarized
+    number: 33-
+    value: '20040302'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE.00000
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: P2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '004'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24E
+  - value: '3916.00'
+  expected_count: 46
+  input: SE24,C00396499,ORG,"TRANSIRE RUBICONEM, INC.",7978 GOLDENSTAR AVENUE,,RIVERSIDE,CA,92506,RADIO
+    ADS,20040228,3916.00,S,,HOWARD^DEAN,P,NY,,C00396499,,,,,,,,,,,,HEDLUNG^EUGENE,20040302,,,,,SE.00000,,,,,P2004,,004,24E,3916.00
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x2a61ef0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00396499
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: TRANSIRE RUBICONEM
+  - name: STREET 1
+    number: '5'
+    value: ' INC.'
+  - name: STREET 2
+    number: '6'
+    value: 7978 GOLDENSTAR AVENUE
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: RIVERSIDE
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '92506'
+  - name: DATE
+    number: '11'
+    value: RADIO ADS
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20040228'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '2104.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: HOWARD^DEAN
+  - name: S/O STATE
+    number: '17'
+    value: P
+  - name: S/O CAN/DIST
+    number: '18'
+    value: MA
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: C00396499
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: HEDLUNG^EUGENE
+  - name: Notarized
+    number: 33-
+    value: '20040302'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE.00001
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: P2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '004'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24E
+  - value: '2104.00'
+  expected_count: 46
+  input: SE24,C00396499,ORG,"TRANSIRE RUBICONEM, INC.",7978 GOLDENSTAR AVENUE,,RIVERSIDE,CA,92506,RADIO
+    ADS,20040228,2104.00,S,,HOWARD^DEAN,P,MA,,C00396499,,,,,,,,,,,,HEDLUNG^EUGENE,20040302,,,,,SE.00001,,,,,P2004,,004,24E,2104.00
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x2a61dd0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00396499
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: TRANSIRE RUBICONEM
+  - name: STREET 1
+    number: '5'
+    value: ' INC.'
+  - name: STREET 2
+    number: '6'
+    value: 7978 GOLDENSTAR AVENUE
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: RIVERSIDE
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '92506'
+  - name: DATE
+    number: '11'
+    value: RADIO ADS
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20040301'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '1700.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: HOWARD^DEAN
+  - name: S/O STATE
+    number: '17'
+    value: P
+  - name: S/O CAN/DIST
+    number: '18'
+    value: MD
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: C00396499
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: HEDLUNG^EUGENE
+  - name: Notarized
+    number: 33-
+    value: '20040302'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE.00002
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: P2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '004'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24E
+  - value: '1700.00'
+  expected_count: 46
+  input: SE24,C00396499,ORG,"TRANSIRE RUBICONEM, INC.",7978 GOLDENSTAR AVENUE,,RIVERSIDE,CA,92506,RADIO
+    ADS,20040301,1700.00,S,,HOWARD^DEAN,P,MD,,C00396499,,,,,,,,,,,,HEDLUNG^EUGENE,20040302,,,,,SE.00002,,,,,P2004,,004,24E,1700.00
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x2a61ef0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00396499
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: TRANSIRE RUBICONEM
+  - name: STREET 1
+    number: '5'
+    value: ' INC.'
+  - name: STREET 2
+    number: '6'
+    value: 7978 GOLDENSTAR AVENUE
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: RIVERSIDE
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '92506'
+  - name: DATE
+    number: '11'
+    value: RADIO ADS
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20040228'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '1760.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: HOWARD^DEAN
+  - name: S/O STATE
+    number: '17'
+    value: P
+  - name: S/O CAN/DIST
+    number: '18'
+    value: CT
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: C00396499
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: HEDLUNG^EUGENE
+  - name: Notarized
+    number: 33-
+    value: '20040302'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE.00003
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: P2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '004'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24E
+  - value: '1760.00'
+  expected_count: 46
+  input: SE24,C00396499,ORG,"TRANSIRE RUBICONEM, INC.",7978 GOLDENSTAR AVENUE,,RIVERSIDE,CA,92506,RADIO
+    ADS,20040228,1760.00,S,,HOWARD^DEAN,P,CT,,C00396499,,,,,,,,,,,,HEDLUNG^EUGENE,20040302,,,,,SE.00003,,,,,P2004,,004,24E,1760.00
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x2a61dd0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00396499
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: TRANSIRE RUBICONEM
+  - name: STREET 1
+    number: '5'
+    value: ' INC.'
+  - name: STREET 2
+    number: '6'
+    value: 7978 GOLDENSTAR AVENUE
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: RIVERSIDE
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '92506'
+  - name: DATE
+    number: '11'
+    value: RADIO ADS
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20040301'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '1400.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: HOWARD^DEAN
+  - name: S/O STATE
+    number: '17'
+    value: P
+  - name: S/O CAN/DIST
+    number: '18'
+    value: OH
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: C00396499
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: HEDLUNG^EUGENE
+  - name: Notarized
+    number: 33-
+    value: '20040302'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE.00004
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: P2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24E
+  - value: '1400.00'
+  expected_count: 46
+  input: SE24,C00396499,ORG,"TRANSIRE RUBICONEM, INC.",7978 GOLDENSTAR AVENUE,,RIVERSIDE,CA,92506,RADIO
+    ADS,20040301,1400.00,S,,HOWARD^DEAN,P,OH,,C00396499,,,,,,,,,,,,HEDLUNG^EUGENE,20040302,,,,,SE.00004,,,,,P2004,,,24E,1400.00
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x2a61ef0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00396499
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: TRANSIRE RUBICONEM
+  - name: STREET 1
+    number: '5'
+    value: ' INC.'
+  - name: STREET 2
+    number: '6'
+    value: 7978 GOLDENSTAR AVENUE
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: RIVERSIDE
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '92506'
+  - name: DATE
+    number: '11'
+    value: RADIO ADS
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20040301'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '3280.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: HOWARD^DEAN
+  - name: S/O STATE
+    number: '17'
+    value: P
+  - name: S/O CAN/DIST
+    number: '18'
+    value: VT
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: C00396499
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: HEDLUNG^EUGENE
+  - name: Notarized
+    number: 33-
+    value: '20040302'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE.00005
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: P2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '004'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24E
+  - value: '8527.23'
+  expected_count: 46
+  input: SE24,C00396499,ORG,"TRANSIRE RUBICONEM, INC.",7978 GOLDENSTAR AVENUE,,RIVERSIDE,CA,92506,RADIO
+    ADS,20040301,3280.00,S,,HOWARD^DEAN,P,VT,,C00396499,,,,,,,,,,,,HEDLUNG^EUGENE,20040302,,,,,SE.00005,,,,,P2004,,004,24E,8527.23
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x2a61dd0>
+  result: []
+sourceurl: !!python/unicode 20040302
+type: single
