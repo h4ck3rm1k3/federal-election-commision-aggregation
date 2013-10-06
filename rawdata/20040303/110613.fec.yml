@@ -1,0 +1,406 @@
+countraw: 7
+countrows: 5
+filename: 110613.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00309237
+  - name: COMMITTEE NAME
+    number: '3'
+    value: The Reyes Committee
+  - name: STREET 1
+    number: '4'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '5'
+    value: 1011 Montana Ave
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: El Paso
+  - name: ZIP
+    number: '8'
+    value: TX
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '79902   '
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H6TX00115
+  - name: CAN/OFFICE
+    number: '11'
+    value: Silvestre Reyes
+  - name: CAN/STATE
+    number: '12'
+    value: ''
+  - name: CAN/DIST
+    number: '13'
+    value: TX
+  - name: Signed
+    number: 14-
+    value: ' '
+  - value: '20040302'
+  expected_count: 14
+  input: '"F6","C00309237","The Reyes Committee, Inc.","1011 Montana Ave","","El Paso","TX","79902   ","H6TX00115","Silvestre
+    Reyes","","TX"," ",20040302'
+  input_count: 15
+  record: <fec.version.v5_1.F6.Records instance at 0x2c400e0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00309237
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Employees of Northrop Grumman Corp. PAC
+  - name: STREET 1
+    number: '5'
+    value: 'Attn: Pete Perkins'
+  - name: STREET 2
+    number: '6'
+    value: 729 15th Street
+  - name: CITY
+    number: '7'
+    value: ' NW '
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20005    '
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20040302'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 030220045C7019
+  expected_count: 27
+  input: '"F65","C00309237","PAC","Employees of Northrop Grumman Corp. PAC","Attn:
+    Pete Perkins","729 15th Street, NW ","Washington","DC","20005    ","","",20040302,1000.00,"","","","","",,"","","","","","","","030220045C7019"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x2c40cf8>
+  result: []
+- input: '"F65","C00309237","IND","Foster^Robert","1790 Lee Trevino","Suite 601 ","El
+    Paso","TX","79936    ","SOUTHWEST LAND DEVELOPERS","Land Developement",20040301,1000.00,"","","","","",,"","","","","","","","030220045C7024"'
+  record: <fec.version.v5_1.F65.Records instance at 0x2c400e0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00309237
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Foster^Robert
+  - name: STREET 1
+    number: '5'
+    value: 1790 Lee Trevino
+  - name: STREET 2
+    number: '6'
+    value: 'Suite 601 '
+  - name: CITY
+    number: '7'
+    value: El Paso
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '79936    '
+  - name: INDEMP
+    number: '10'
+    value: SOUTHWEST LAND DEVELOPERS
+  - name: INDOCC
+    number: '11'
+    value: Land Developement
+  - name: Of Contribution
+    number: 12-
+    value: '20040301'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 030220045C7024
+- input: '"F65","C00309237","IND","Teran^Maria","720 Willow Glen","","El Paso","TX","79922    ","SIERRA
+    MACHINERY","Vice President",20040301,1600.00,"","","","","",,"","","","","","","","030220045C7022"'
+  record: <fec.version.v5_1.F65.Records instance at 0x2c40cf8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00309237
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Teran^Maria
+  - name: STREET 1
+    number: '5'
+    value: 720 Willow Glen
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: El Paso
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '79922    '
+  - name: INDEMP
+    number: '10'
+    value: SIERRA MACHINERY
+  - name: INDOCC
+    number: '11'
+    value: Vice President
+  - name: Of Contribution
+    number: 12-
+    value: '20040301'
+  - name: AMOUNT
+    number: '13'
+    value: '1600.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 030220045C7022
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00309237
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Textron
+  - name: STREET 1
+    number: '5'
+    value: ' Inc. PAC'
+  - name: STREET 2
+    number: '6'
+    value: 'Attn: Richard Smith'
+  - name: CITY
+    number: '7'
+    value: 1101 Pennsylvania Avenue
+  - name: STATE
+    number: '8'
+    value: ' N.W. Sui'
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: INDEMP
+    number: '10'
+    value: DC
+  - name: INDOCC
+    number: '11'
+    value: '200042504'
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20040302'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '1000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: 030220045C7018
+  expected_count: 27
+  input: '"F65","C00309237","PAC","Textron, Inc. PAC","Attn: Richard Smith","1101
+    Pennsylvania Avenue, N.W. Sui","Washington","DC","200042504","","",20040302,1000.00,"","","","","",,"","","","","","","","030220045C7018"'
+  input_count: 29
+  record: <fec.version.v5_1.F65.Records instance at 0x2c400e0>
+  result: []
+sourceurl: !!python/unicode 20040303
+type: single
