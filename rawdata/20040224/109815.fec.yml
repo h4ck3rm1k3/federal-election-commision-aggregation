@@ -1,0 +1,232 @@
+countraw: 5
+countrows: 3
+filename: 109815.fec
+header: {}
+rows:
+- input: '"F6N","C00142000","OXLEY FOR CONGRESS","PO BOX 2004","","FINDLAY","OH","45839","","","","OH",4,"20040224"'
+  record: <fec.version.v5_1.F6.Records instance at 0x2c464d0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00142000
+  - name: COMMITTEE NAME
+    number: '3'
+    value: OXLEY FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 2004
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: FINDLAY
+  - name: STATE
+    number: '7'
+    value: OH
+  - name: ZIP
+    number: '8'
+    value: '45839'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ''
+  - name: CAN/OFFICE
+    number: '11'
+    value: ''
+  - name: CAN/STATE
+    number: '12'
+    value: OH
+  - name: CAN/DIST
+    number: '13'
+    value: '4'
+  - name: Signed
+    number: 14-
+    value: '20040224'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00142000
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Bundy
+  - name: STREET 1
+    number: '5'
+    value: ' E. A.'
+  - name: STREET 2
+    number: '6'
+    value: 2075 Fair Avenue
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Columbus
+  - name: ZIP
+    number: '9'
+    value: OH
+  - name: INDEMP
+    number: '10'
+    value: '43209'
+  - name: INDOCC
+    number: '11'
+    value: Russell T. Bundy Associates
+  - name: Of Contribution
+    number: 12-
+    value: ' Inc'
+  - name: AMOUNT
+    number: '13'
+    value: Executive
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20040223'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '2000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: 'C153x01             '
+  expected_count: 27
+  input: '"F65","C00142000","IND","Bundy, E. A.","2075 Fair Avenue","","Columbus","OH","43209","Russell
+    T. Bundy Associates, Inc","Executive",20040223,2000.00,"","","","","",,"","","","","","","","C153x01             "'
+  input_count: 29
+  record: <fec.version.v5_1.F65.Records instance at 0x2c46290>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00142000
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Bundy
+  - name: STREET 1
+    number: '5'
+    value: ' Russell T.'
+  - name: STREET 2
+    number: '6'
+    value: 2075 Fair Avenue
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Columbus
+  - name: ZIP
+    number: '9'
+    value: OH
+  - name: INDEMP
+    number: '10'
+    value: '43209'
+  - name: INDOCC
+    number: '11'
+    value: Russell T. Bundy Associates
+  - name: Of Contribution
+    number: 12-
+    value: ' Inc'
+  - name: AMOUNT
+    number: '13'
+    value: Executive
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20040223'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '2000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: 'C153w01             '
+  expected_count: 27
+  input: '"F65","C00142000","IND","Bundy, Russell T.","2075 Fair Avenue","","Columbus","OH","43209","Russell
+    T. Bundy Associates, Inc","Executive",20040223,2000.00,"","","","","",,"","","","","","","","C153w01             "'
+  input_count: 29
+  record: <fec.version.v5_1.F65.Records instance at 0x2c464d0>
+  result: []
+sourceurl: !!python/unicode 20040224
+type: single
