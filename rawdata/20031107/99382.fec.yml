@@ -1,0 +1,561 @@
+countraw: 9
+countrows: 7
+filename: 99382.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386037
+  - name: COMMITTEE NAME
+    number: '3'
+    value: CHARLIE COMISIONADO 2004
+  - name: STREET 1
+    number: '4'
+    value: ' INC'
+  - name: STREET 2
+    number: '5'
+    value: PO BOX 366229
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: SAN JUAN
+  - name: ZIP
+    number: '8'
+    value: PR
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: 00986
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H4PR00053
+  - name: CAN/OFFICE
+    number: '11'
+    value: RODRIGUEZ^CHARLES^^
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: PR
+  - name: Signed
+    number: 14-
+    value: '00'
+  - value: '20031107'
+  expected_count: 14
+  input: F6N,C00386037,"CHARLIE COMISIONADO 2004, INC",PO BOX 366229,,SAN JUAN,PR,00986,H4PR00053,RODRIGUEZ^CHARLES^^,H,PR,00,20031107
+  input_count: 15
+  record: <fec.version.v5_0.F6.Records instance at 0x2c465f0>
+  result: []
+- input: F65,C00386037,IND,ALVELO^YOLANDA,706 MIRAMAR ROYAL APTO 202,,SAN JUAN,PR,00920,,,20031106,1000.00,,,,,,,,,,,,,,F65.00000
+  record: <fec.version.v5_0.F65.Records instance at 0x2c46a28>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386037
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: ALVELO^YOLANDA
+  - name: STREET 1
+    number: '5'
+    value: 706 MIRAMAR ROYAL APTO 202
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: SAN JUAN
+  - name: STATE
+    number: '8'
+    value: PR
+  - name: ZIP
+    number: '9'
+    value: 00920
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20031106'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F65.00000
+- input: F65,C00386037,IND,RIVERA^CARMEN,ALTURAS DE SUCHVILLE 65,,GUAYNABO,PR,00965,,,20031106,1000.00,,,,,,,,,,,,,,F65.00001
+  record: <fec.version.v5_0.F65.Records instance at 0x2c465f0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386037
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: RIVERA^CARMEN
+  - name: STREET 1
+    number: '5'
+    value: ALTURAS DE SUCHVILLE 65
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: GUAYNABO
+  - name: STATE
+    number: '8'
+    value: PR
+  - name: ZIP
+    number: '9'
+    value: 00965
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20031106'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F65.00001
+- input: F65,C00386037,IND,ALVELO^YOLANDA,MIRAMAR ROYAL 706,,SAN JUAN,PR,00920,,,20031106,880.00,,,,,,,,,,,,,,F65.00002
+  record: <fec.version.v5_0.F65.Records instance at 0x2c46a28>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386037
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: ALVELO^YOLANDA
+  - name: STREET 1
+    number: '5'
+    value: MIRAMAR ROYAL 706
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: SAN JUAN
+  - name: STATE
+    number: '8'
+    value: PR
+  - name: ZIP
+    number: '9'
+    value: 00920
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20031106'
+  - name: AMOUNT
+    number: '13'
+    value: '880.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F65.00002
+- input: F65,C00386037,IND,GONZALE^OLGA^M,16 URB EL DUQUE,,NAGUABO,PR,00718,,RETIRED,20031106,100.00,,,,,,,,,,,,,,F65.00003
+  record: <fec.version.v5_0.F65.Records instance at 0x2c465f0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386037
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: GONZALE^OLGA^M
+  - name: STREET 1
+    number: '5'
+    value: 16 URB EL DUQUE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: NAGUABO
+  - name: STATE
+    number: '8'
+    value: PR
+  - name: ZIP
+    number: '9'
+    value: 00718
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: RETIRED
+  - name: Of Contribution
+    number: 12-
+    value: '20031106'
+  - name: AMOUNT
+    number: '13'
+    value: '100.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F65.00003
+- input: F65,C00386037,IND,ALVAREZ^ELENA,COND PLAYA DORADA 717A,ISLA VERDE,CAROLINA,PR,00979,,RETIRED,20031106,100.00,,,,,,,,,,,,,,F65.00004
+  record: <fec.version.v5_0.F65.Records instance at 0x2c46a28>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386037
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: ALVAREZ^ELENA
+  - name: STREET 1
+    number: '5'
+    value: COND PLAYA DORADA 717A
+  - name: STREET 2
+    number: '6'
+    value: ISLA VERDE
+  - name: CITY
+    number: '7'
+    value: CAROLINA
+  - name: STATE
+    number: '8'
+    value: PR
+  - name: ZIP
+    number: '9'
+    value: 00979
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: RETIRED
+  - name: Of Contribution
+    number: 12-
+    value: '20031106'
+  - name: AMOUNT
+    number: '13'
+    value: '100.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F65.00004
+- input: F65,C00386037,IND,ALVAREZ^FERNANDO,COND PLAYA DORADA,ISLA VERDE,CAROLINA,PR,00979,EL
+    ITALIANO,CONTABLE,20031106,100.00,,,,,,,,,,,,,,F65.00005
+  record: <fec.version.v5_0.F65.Records instance at 0x2c465f0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386037
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: ALVAREZ^FERNANDO
+  - name: STREET 1
+    number: '5'
+    value: COND PLAYA DORADA
+  - name: STREET 2
+    number: '6'
+    value: ISLA VERDE
+  - name: CITY
+    number: '7'
+    value: CAROLINA
+  - name: STATE
+    number: '8'
+    value: PR
+  - name: ZIP
+    number: '9'
+    value: 00979
+  - name: INDEMP
+    number: '10'
+    value: EL ITALIANO
+  - name: INDOCC
+    number: '11'
+    value: CONTABLE
+  - name: Of Contribution
+    number: 12-
+    value: '20031106'
+  - name: AMOUNT
+    number: '13'
+    value: '100.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F65.00005
+sourceurl: !!python/unicode 20031107
+type: single
