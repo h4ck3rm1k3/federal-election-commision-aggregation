@@ -1,0 +1,1042 @@
+countraw: 10
+countrows: 8
+filename: 103381.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00011114
+  - name: COMMITTEE NAME
+    number: '3'
+    value: AMERICAN FEDERATION OF STATE COUNTY & MUNICIPAL EMPLOYEES - P E O P L E
+  - name: STREET 1
+    number: '4'
+    value: ' QUALIFIED'
+  - name: STREET 2
+    number: '5'
+    value: 1625 L STREET NW
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: WASHINGTON
+  - name: ZIP
+    number: '8'
+    value: DC
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: '20036'
+  - name: Signed
+    number: 10-
+    value: LUCY^WILLIAM^^
+  - name: REPORT TYPE
+    number: '11'
+    value: '20040119'
+  - value: '24'
+  expected_count: 11
+  input: F24,C00011114,"AMERICAN FEDERATION OF STATE COUNTY & MUNICIPAL EMPLOYEES
+    - P E O P L E, QUALIFIED",1625 L STREET NW,,WASHINGTON,DC,20036,LUCY^WILLIAM^^,20040119,24
+  input_count: 12
+  record: <fec.version.v5_0.F24.Records instance at 0x2a61d40>
+  result: []
+- input: SE24,C00011114,IND,ANDERSON^DAVID^^,13 BAY ROAD RD,,NEWMARKET,NH,039571701,Canvassing
+    (NH),20040112,405.00,S,P40002214,DEAN - NEW HAMPSHIRE PRIMARY^HOWARD^^,P,NH,,C00011114,,,,,,,,,,,,,,,,,,SE24.33630,,,,,P2004,,007,,0.00
+  record: <fec.version.v5_0.SE.Records instance at 0x2a61ef0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00011114
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: ANDERSON^DAVID^^
+  - name: STREET 1
+    number: '5'
+    value: 13 BAY ROAD RD
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: NEWMARKET
+  - name: STATE
+    number: '8'
+    value: NH
+  - name: ZIP
+    number: '9'
+    value: 039571701
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Canvassing (NH)
+  - name: DATE
+    number: '11'
+    value: '20040112'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '405.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: P40002214
+  - name: S/O CAN/NAME
+    number: '15'
+    value: DEAN - NEW HAMPSHIRE PRIMARY^HOWARD^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O STATE
+    number: '17'
+    value: NH
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00011114
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.33630
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: P2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '007'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '0.00'
+- input: SE24,C00011114,IND,FRAZIER^CURTIS^^,1226 NE Second,,Des Moines,IA,50369,Canvassing
+    (IA),20040112,40.00,S,P40002214,DEAN - IOWA PRIMARY^HOWARD^^,P,IA,,C00011114,,,,,,,,,,,,,,,,,,SE24.33628,,,,,P2004,,007,,0.00
+  record: <fec.version.v5_0.SE.Records instance at 0x2a61fc8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00011114
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: FRAZIER^CURTIS^^
+  - name: STREET 1
+    number: '5'
+    value: 1226 NE Second
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Des Moines
+  - name: STATE
+    number: '8'
+    value: IA
+  - name: ZIP
+    number: '9'
+    value: '50369'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Canvassing (IA)
+  - name: DATE
+    number: '11'
+    value: '20040112'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '40.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: P40002214
+  - name: S/O CAN/NAME
+    number: '15'
+    value: DEAN - IOWA PRIMARY^HOWARD^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O STATE
+    number: '17'
+    value: IA
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00011114
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.33628
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: P2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '007'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '0.00'
+- input: SE24,C00011114,IND,HERRICK^THOMAS^^,11 Court Street,,Concord,NH,033014345,Canvassing
+    (NH),20040112,480.00,S,P40002214,DEAN - NEW HAMPSHIRE PRIMARY^HOWARD^^,P,NH,,C00011114,,,,,,,,,,,,,,,,,,SE24.33634,,,,,P2004,,007,,0.00
+  record: <fec.version.v5_0.SE.Records instance at 0x2a61ef0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00011114
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: HERRICK^THOMAS^^
+  - name: STREET 1
+    number: '5'
+    value: 11 Court Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Concord
+  - name: STATE
+    number: '8'
+    value: NH
+  - name: ZIP
+    number: '9'
+    value: '033014345'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Canvassing (NH)
+  - name: DATE
+    number: '11'
+    value: '20040112'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '480.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: P40002214
+  - name: S/O CAN/NAME
+    number: '15'
+    value: DEAN - NEW HAMPSHIRE PRIMARY^HOWARD^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O STATE
+    number: '17'
+    value: NH
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00011114
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.33634
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: P2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '007'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '0.00'
+- input: SE24,C00011114,IND,LILLIE^EBEN^^,64 E. 3rd Street,,New York,NY,10003,Canvassing
+    (NH),20040112,262.50,S,P40002214,DEAN - NEW HAMPSHIRE PRIMARY^HOWARD^^,P,NH,,C00011114,,,,,,,,,,,,,,,,,,SE24.33631,,,,,P2004,,007,,0.00
+  record: <fec.version.v5_0.SE.Records instance at 0x2a61fc8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00011114
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: LILLIE^EBEN^^
+  - name: STREET 1
+    number: '5'
+    value: 64 E. 3rd Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New York
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10003'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Canvassing (NH)
+  - name: DATE
+    number: '11'
+    value: '20040112'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '262.50'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: P40002214
+  - name: S/O CAN/NAME
+    number: '15'
+    value: DEAN - NEW HAMPSHIRE PRIMARY^HOWARD^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O STATE
+    number: '17'
+    value: NH
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00011114
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.33631
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: P2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '007'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '0.00'
+- input: SE24,C00011114,IND,NIELSEN^SHAKODEY^^,2907 4th Avenue,,Council Bluff,IA,51501,Canvassing
+    (IA),20040112,40.00,S,P40002214,DEAN - IOWA PRIMARY^HOWARD^^,P,IA,,C00011114,,,,,,,,,,,,,,,,,,SE24.33629,,,,,P2004,,007,,0.00
+  record: <fec.version.v5_0.SE.Records instance at 0x2a61cf8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00011114
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: NIELSEN^SHAKODEY^^
+  - name: STREET 1
+    number: '5'
+    value: 2907 4th Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Council Bluff
+  - name: STATE
+    number: '8'
+    value: IA
+  - name: ZIP
+    number: '9'
+    value: '51501'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Canvassing (IA)
+  - name: DATE
+    number: '11'
+    value: '20040112'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '40.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: P40002214
+  - name: S/O CAN/NAME
+    number: '15'
+    value: DEAN - IOWA PRIMARY^HOWARD^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O STATE
+    number: '17'
+    value: IA
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00011114
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.33629
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: P2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '007'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '0.00'
+- input: SE24,C00011114,IND,RAYMOND^HANNAH^^,68 Harmony Road,,Northwood,NH,032613902,Canvassing
+    (NH),20040112,360.00,S,P40002214,DEAN - NEW HAMPSHIRE PRIMARY^HOWARD^^,P,NH,,C00011114,,,,,,,,,,,,,,,,,,SE24.33632,,,,,P2004,,007,,0.00
+  record: <fec.version.v5_0.SE.Records instance at 0x2a61fc8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00011114
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: RAYMOND^HANNAH^^
+  - name: STREET 1
+    number: '5'
+    value: 68 Harmony Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Northwood
+  - name: STATE
+    number: '8'
+    value: NH
+  - name: ZIP
+    number: '9'
+    value: 032613902
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Canvassing (NH)
+  - name: DATE
+    number: '11'
+    value: '20040112'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '360.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: P40002214
+  - name: S/O CAN/NAME
+    number: '15'
+    value: DEAN - NEW HAMPSHIRE PRIMARY^HOWARD^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O STATE
+    number: '17'
+    value: NH
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00011114
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.33632
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: P2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '007'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '0.00'
+- input: SE24,C00011114,IND,SEAVEY^MICHAEL^^,11 Meadowbrook Lane,,Litchfield,NH,030522339,Canvassing
+    (NH),20040112,420.00,S,P40002214,DEAN - NEW HAMPSHIRE PRIMARY^HOWARD^^,P,NH,,C00011114,,,,,,,,,,,,,,,,,,SE24.33633,,,,,P2004,,007,,0.00
+  record: <fec.version.v5_0.SE.Records instance at 0x2a61cf8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00011114
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: SEAVEY^MICHAEL^^
+  - name: STREET 1
+    number: '5'
+    value: 11 Meadowbrook Lane
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Litchfield
+  - name: STATE
+    number: '8'
+    value: NH
+  - name: ZIP
+    number: '9'
+    value: 030522339
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Canvassing (NH)
+  - name: DATE
+    number: '11'
+    value: '20040112'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '420.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: P40002214
+  - name: S/O CAN/NAME
+    number: '15'
+    value: DEAN - NEW HAMPSHIRE PRIMARY^HOWARD^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O STATE
+    number: '17'
+    value: NH
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00011114
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.33633
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: P2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '007'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '0.00'
+sourceurl: !!python/unicode 20040114
+type: single
