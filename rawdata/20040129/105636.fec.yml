@@ -1,0 +1,49 @@
+countraw: 3
+countrows: 1
+filename: 105636.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00252940
+  - name: COMMITTEE NAME
+    number: '3'
+    value: League of Conservation Voters Action Fund
+  - name: STREET 1
+    number: '4'
+    value: 1920 L Street
+  - name: STREET 2
+    number: '5'
+    value: ' NW'
+  - name: CITY
+    number: '6'
+    value: ' Suite 800'
+  - name: STATE
+    number: '7'
+    value: ''
+  - name: ZIP
+    number: '8'
+    value: Washington
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: DC
+  - name: Signed
+    number: 10-
+    value: '200365045'
+  - name: REPORT TYPE
+    number: '11'
+    value: Sommer^Gwendolyn M.^Ms.^
+  - value: '20040129'
+  - value: '24'
+  expected_count: 11
+  input: F24,C00252940,League of Conservation Voters Action Fund,"1920 L Street, NW,
+    Suite 800",,Washington,DC,200365045,Sommer^Gwendolyn M.^Ms.^,20040129,24
+  input_count: 13
+  record: <fec.version.v5_1.F24.Records instance at 0x2c403f8>
+  result: []
+sourceurl: !!python/unicode 20040129
+type: single
