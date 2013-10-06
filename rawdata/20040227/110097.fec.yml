@@ -1,0 +1,225 @@
+countraw: 5
+countrows: 3
+filename: 110097.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392688
+  - name: COMMITTEE NAME
+    number: '3'
+    value: MCCAUL FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: INC
+  - name: STREET 2
+    number: '5'
+    value: 3508 FAR WEST BLVD STE 320
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: AUSTIN
+  - name: ZIP
+    number: '8'
+    value: TX
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '78731'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H4TX10093
+  - name: CAN/OFFICE
+    number: '11'
+    value: McCaul^Michael^^
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: TX
+  - name: Signed
+    number: 14-
+    value: '10'
+  - value: '20040226'
+  expected_count: 14
+  input: F6,C00392688,"MCCAUL FOR CONGRESS,INC",3508 FAR WEST BLVD STE 320,,AUSTIN,TX,78731,H4TX10093,McCaul^Michael^^,H,TX,10,20040226
+  input_count: 15
+  record: <fec.version.v5_1.F6.Records instance at 0x2c402d8>
+  result: []
+- input: F65,C00392688,IND,Bell^Oliver J.^^,1009 Elder Circle,,Austin,TX,78733,,,20040225,1000.00,C00392688,H4TX10093,McCaul^Michael^^,H,TX,10,,,,,,,,F6.5407
+  record: <fec.version.v5_1.F65.Records instance at 0x2c40cf8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392688
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Bell^Oliver J.^^
+  - name: STREET 1
+    number: '5'
+    value: 1009 Elder Circle
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Austin
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '78733'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20040225'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00392688
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4TX10093
+  - name: CANDIDATE NAME
+    number: '16'
+    value: McCaul^Michael^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '10'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5407
+- input: F65,C00392688,PAC,ENERGY POLITICAL ACTION COMMITTEE OF TXU CORP.,1601 Bryan
+    St.,Energy Plaza Suite 17008,Dallas,TX,75201,,,20040225,1000.00,C00392688,H4TX10093,McCaul^Michael^^,H,TX,10,,,,,,,,F6.5408
+  record: <fec.version.v5_1.F65.Records instance at 0x2c402d8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392688
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: ENERGY POLITICAL ACTION COMMITTEE OF TXU CORP.
+  - name: STREET 1
+    number: '5'
+    value: 1601 Bryan St.
+  - name: STREET 2
+    number: '6'
+    value: Energy Plaza Suite 17008
+  - name: CITY
+    number: '7'
+    value: Dallas
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '75201'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20040225'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00392688
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4TX10093
+  - name: CANDIDATE NAME
+    number: '16'
+    value: McCaul^Michael^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '10'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.5408
+sourceurl: !!python/unicode 20040227
+type: single
