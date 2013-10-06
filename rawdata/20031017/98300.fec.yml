@@ -1,0 +1,109 @@
+countraw: 3
+countrows: 1
+filename: 98300.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2A
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H4AZ06052
+  - name: CANDIDATE NAME
+    number: '3'
+    value: JD Hayworth
+  - name: STREET 1
+    number: '4'
+    value: 6716 E. Duane Lane
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Scottsdale
+  - name: STATE
+    number: '7'
+    value: AZ
+  - name: ZIP
+    number: '8'
+    value: '85262   '
+  - name: PTY/CODE
+    number: '9'
+    value: REP
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: AZ
+  - name: CAN/DIST
+    number: '12'
+    value: '5 '
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2004'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: ''
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: JD Hayworth For Congress
+  - name: STREET 1
+    number: '16'
+    value: 14300 N. Northsight Blvd.
+  - name: STREET 2
+    number: '17'
+    value: ' #105'
+  - name: CITY
+    number: '18'
+    value: ''
+  - name: STATE
+    number: '19'
+    value: Scottsdale
+  - name: ZIP
+    number: '20'
+    value: AZ
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: '85260   '
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: '        '
+  - name: STREET 1
+    number: '23'
+    value: ''
+  - name: STREET 2
+    number: '24'
+    value: ''
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: ''
+  - name: ZIP
+    number: '27'
+    value: ' '
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: '       '
+  - name: Signed
+    number: 29-
+    value: JD Hayworth
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: '20031017'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '0.00'
+  - value: '0.00'
+  expected_count: 31
+  input: '"F2A","H4AZ06052","JD Hayworth","6716 E. Duane Lane","","Scottsdale","AZ","85262   ","REP","H","AZ",5
+    ,2004,"","JD Hayworth For Congress","14300 N. Northsight Blvd., #105","","Scottsdale","AZ","85260   ","        ","","","","","
+    ","       ","JD Hayworth",20031017,0.00,0.00'
+  input_count: 32
+  record: <fec.version.v5_0.F2.Records instance at 0x2c417a0>
+  result: []
+sourceurl: !!python/unicode 20031017
+type: single
