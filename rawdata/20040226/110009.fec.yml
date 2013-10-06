@@ -1,0 +1,1324 @@
+countraw: 12
+countrows: 10
+filename: 110009.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00195065
+  - name: COMMITTEE NAME
+    number: '3'
+    value: CONGRESSMAN JOE BARTON COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: ' THE'
+  - name: STREET 2
+    number: '5'
+    value: P.O. Box 1444
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Ennis
+  - name: ZIP
+    number: '8'
+    value: TX
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: '75120'
+  - name: Signed
+    number: 10-
+    value: Markley^Judy^Mrs.^
+  - name: REPORT TYPE
+    number: '11'
+    value: '20040226'
+  - value: '24'
+  expected_count: 11
+  input: F24,C00195065,"CONGRESSMAN JOE BARTON COMMITTEE, THE",P.O. Box 1444,,Ennis,TX,75120,Markley^Judy^Mrs.^,20040226,24
+  input_count: 12
+  record: <fec.version.v5_1.F24.Records instance at 0x2c40248>
+  result: []
+- input: SE24,C00195065,PAC,American Dietetic Assn. PAC,1120 Connecticut NW,Suite
+    480,Washington,DC,20036,Contribution,20040225,1000.00,S,,Joe^Barton,H,TX,6,C00195065,,,,,,,,,,,,Markley^Judy^Mrs.,20040226,,,,,SE.00000,,,,,P2004,,,24E,
+  record: <fec.version.v5_1.SE.Records instance at 0x2a619e0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00195065
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Payee)
+    number: '4'
+    value: American Dietetic Assn. PAC
+  - name: STREET 1
+    number: '5'
+    value: 1120 Connecticut NW
+  - name: STREET 2
+    number: '6'
+    value: Suite 480
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20036'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Contribution
+  - name: DATE
+    number: '11'
+    value: '20040225'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '1000.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Joe^Barton
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: TX
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '6'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00195065
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: Markley^Judy^Mrs.
+  - name: Signed
+    number: 32-
+    value: '20040226'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE.00000
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: P2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: 24E
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+- input: SE24,C00195065,ORG,Federal Express PAC,101 Constitution Ave. NW,Suite 801
+    E,Washington,DC,20001,Contribution,20040226,4000.00,S,,Joe^Barton,H,TX,6,C00195065,,,,,,,,,,,,Markley^Judy^Mrs.,20040226,,,,,SE.00001,,,,,P2004,,,24E,
+  record: <fec.version.v5_1.SE.Records instance at 0x2c40248>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00195065
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Federal Express PAC
+  - name: STREET 1
+    number: '5'
+    value: 101 Constitution Ave. NW
+  - name: STREET 2
+    number: '6'
+    value: Suite 801 E
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20001'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Contribution
+  - name: DATE
+    number: '11'
+    value: '20040226'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '4000.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Joe^Barton
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: TX
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '6'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00195065
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: Markley^Judy^Mrs.
+  - name: Signed
+    number: 32-
+    value: '20040226'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE.00001
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: P2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: 24E
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+- input: SE24,C00195065,ORG,Lyondell Chemical Co. PAC,1101 Pennsylvania Ave. NW,Suite
+    515,Washington,DC,20004,Contribuiton,20040225,2000.00,S,,Joe^Barton,H,TX,06,C00195065,,,,,,,,,,,,Markley^Judy^Mrs.,20040226,,,,,SE.00002,,,,,P2004,,,24E,
+  record: <fec.version.v5_1.SE.Records instance at 0x2a619e0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00195065
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Lyondell Chemical Co. PAC
+  - name: STREET 1
+    number: '5'
+    value: 1101 Pennsylvania Ave. NW
+  - name: STREET 2
+    number: '6'
+    value: Suite 515
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20004'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Contribuiton
+  - name: DATE
+    number: '11'
+    value: '20040225'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '2000.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Joe^Barton
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: TX
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '06'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00195065
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: Markley^Judy^Mrs.
+  - name: Signed
+    number: 32-
+    value: '20040226'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE.00002
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: P2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: 24E
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+- input: SE24,C00195065,ORG,TXU PAC,601 Pennsylvania Ave. NW,Suite 850,Washington,DC,20004,Contribuiton,20040225,2000.00,S,,Joe^Barton,H,TX,6,C00195065,,,,,,,,,,,,Markley^Judy^Mrs.,20040226,,,,,SE.00003,,,,,G2004,,,24E,
+  record: <fec.version.v5_1.SE.Records instance at 0x2c40248>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00195065
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: TXU PAC
+  - name: STREET 1
+    number: '5'
+    value: 601 Pennsylvania Ave. NW
+  - name: STREET 2
+    number: '6'
+    value: Suite 850
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20004'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Contribuiton
+  - name: DATE
+    number: '11'
+    value: '20040225'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '2000.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Joe^Barton
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: TX
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '6'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00195065
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: Markley^Judy^Mrs.
+  - name: Signed
+    number: 32-
+    value: '20040226'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE.00003
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: 24E
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+- input: SE24,C00195065,ORG,Verizon Good Government Club,1300 I Street NW,Suite 400,Washington,DC,,Contribution,20040226,2000.00,S,,Joe^Barton,H,TX,6,C00195065,,,,,,,,,,,,Markley^Judy^Mrs.,20040226,,,,,SE.00004,,,,,G2004,,,24E,
+  record: <fec.version.v5_1.SE.Records instance at 0x2c401b8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00195065
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Verizon Good Government Club
+  - name: STREET 1
+    number: '5'
+    value: 1300 I Street NW
+  - name: STREET 2
+    number: '6'
+    value: Suite 400
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Contribution
+  - name: DATE
+    number: '11'
+    value: '20040226'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '2000.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Joe^Barton
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: TX
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '6'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00195065
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: Markley^Judy^Mrs.
+  - name: Signed
+    number: 32-
+    value: '20040226'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE.00004
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: 24E
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+- input: SE24,C00195065,IND,Beal^Andrew^Mr.,6000 Legacy Drive,,Plano,TX,75024,Contribution,20040226,2000.00,S,,Joe^Barton,H,TX,6,C00195065,,,,,,,,,,,,Markley^Judy^Mrs.,20040226,,,,,SE.00005,,,,,G2004,,,24E,
+  record: <fec.version.v5_1.SE.Records instance at 0x2c40248>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00195065
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Beal^Andrew^Mr.
+  - name: STREET 1
+    number: '5'
+    value: 6000 Legacy Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Plano
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '75024'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Contribution
+  - name: DATE
+    number: '11'
+    value: '20040226'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '2000.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Joe^Barton
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: TX
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '6'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00195065
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: Markley^Judy^Mrs.
+  - name: Signed
+    number: 32-
+    value: '20040226'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE.00005
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: 24E
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+- input: SE24,C00195065,IND,Beal^Simona^Mrs.,3816 Stratford Ave.,,Dallas,TX,75205,Contribution,20040226,2000.00,S,,Joe^Barton,H,TX,6,C00195065,,,,,,,,,,,,Markley^Judy^Mrs.,20040226,,,,,SE.00006,,,,,G2004,,,24E,
+  record: <fec.version.v5_1.SE.Records instance at 0x2c401b8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00195065
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Beal^Simona^Mrs.
+  - name: STREET 1
+    number: '5'
+    value: 3816 Stratford Ave.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Dallas
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '75205'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Contribution
+  - name: DATE
+    number: '11'
+    value: '20040226'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '2000.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Joe^Barton
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: TX
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '6'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00195065
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: Markley^Judy^Mrs.
+  - name: Signed
+    number: 32-
+    value: '20040226'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE.00006
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: 24E
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+- input: 'SE24,C00195065,IND,Rankin^Asley^Mrs.,300 Crescent Court  #875,,Dallas,TX,75201,Contribution,20040225,1000.00,S,,Joe^Barton,H,TX,6,C00195065,,,,,,,,,,,,Markley^Judy^Mrs.,20040226,,,,,SE.00007,,,,,P2004,,,24E,'
+  record: <fec.version.v5_1.SE.Records instance at 0x2c40248>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00195065
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Rankin^Asley^Mrs.
+  - name: STREET 1
+    number: '5'
+    value: '300 Crescent Court  #875'
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Dallas
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '75201'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Contribution
+  - name: DATE
+    number: '11'
+    value: '20040225'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '1000.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Joe^Barton
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: TX
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '6'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00195065
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: Markley^Judy^Mrs.
+  - name: Signed
+    number: 32-
+    value: '20040226'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE.00007
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: P2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: 24E
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00195065
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: PriceWaterhouse Coopers PAC
+  - name: STREET 1
+    number: '5'
+    value: 1900 K Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: Suite 900
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '20006'
+  - name: DATE
+    number: '11'
+    value: Contribution
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20040225'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '1500.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Joe^Barton
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: TX
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '6'
+  - name: Unused field
+    number: '20'
+    value: C00195065
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: Markley^Judy^Mrs.
+  - name: Notarized
+    number: 33-
+    value: '20040226'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE.00008
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: P2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24E
+  - value: ''
+  expected_count: 46
+  input: SE24,C00195065,ORG,PriceWaterhouse Coopers PAC,"1900 K Street, NW",Suite
+    900,Washington,DC,20006,Contribution,20040225,1500.00,S,,Joe^Barton,H,TX,6,C00195065,,,,,,,,,,,,Markley^Judy^Mrs.,20040226,,,,,SE.00008,,,,,P2004,,,24E,
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x2c401b8>
+  result: []
+sourceurl: !!python/unicode 20040226
+type: single
