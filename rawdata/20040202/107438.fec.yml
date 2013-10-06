@@ -1,0 +1,1337 @@
+countraw: 18
+countrows: 16
+filename: 107438.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392720
+  - name: COMMITTEE NAME
+    number: '3'
+    value: ALICE FORGY KERR FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 811 CORPORATE DRIVE
+  - name: STREET 2
+    number: '5'
+    value: ' STE 303'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: LEXINGTON
+  - name: ZIP
+    number: '8'
+    value: KY
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '40503'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H4KY06064
+  - name: CAN/OFFICE
+    number: '11'
+    value: KERR^ALICE FORGY^Hon.^
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: KY
+  - name: Signed
+    number: 14-
+    value: '06'
+  - value: '20040202'
+  expected_count: 14
+  input: F6,C00392720,ALICE FORGY KERR FOR CONGRESS,"811 CORPORATE DRIVE, STE 303",,LEXINGTON,KY,40503,H4KY06064,KERR^ALICE
+    FORGY^Hon.^,H,KY,06,20040202
+  input_count: 15
+  record: <fec.version.v5_0.F6.Records instance at 0x2c407e8>
+  result: []
+- input: F65,C00392720,IND,BARBER^NAOMI^^,4899 FAULKIRK LANE,,LEXINGTON,KY,40515,NA,HOUSEWIFE,20040202,1000.00,C00392720,,KERR^ALICE
+    FORGY^Hon.^,H,KY,06,,,,,,,,F6.6741
+  record: <fec.version.v5_0.F65.Records instance at 0x2c403f8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392720
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: BARBER^NAOMI^^
+  - name: STREET 1
+    number: '5'
+    value: 4899 FAULKIRK LANE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: LEXINGTON
+  - name: STATE
+    number: '8'
+    value: KY
+  - name: ZIP
+    number: '9'
+    value: '40515'
+  - name: INDEMP
+    number: '10'
+    value: NA
+  - name: INDOCC
+    number: '11'
+    value: HOUSEWIFE
+  - name: Of Contribution
+    number: 12-
+    value: '20040202'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00392720
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: KERR^ALICE FORGY^Hon.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: KY
+  - name: CAN/DIST
+    number: '19'
+    value: '06'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.6741
+- input: F65,C00392720,IND,BILLIPS^R.C.^^,P.O. BOX 2666,,PIKEVILLE,KY,41502,BILLUPS
+    OIL,RETAILER,20040202,1000.00,C00392720,,KERR^ALICE FORGY^Hon.^,H,KY,06,,,,,,,,F6.6742
+  record: <fec.version.v5_0.F65.Records instance at 0x2c407e8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392720
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: BILLIPS^R.C.^^
+  - name: STREET 1
+    number: '5'
+    value: P.O. BOX 2666
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: PIKEVILLE
+  - name: STATE
+    number: '8'
+    value: KY
+  - name: ZIP
+    number: '9'
+    value: '41502'
+  - name: INDEMP
+    number: '10'
+    value: BILLUPS OIL
+  - name: INDOCC
+    number: '11'
+    value: RETAILER
+  - name: Of Contribution
+    number: 12-
+    value: '20040202'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00392720
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: KERR^ALICE FORGY^Hon.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: KY
+  - name: CAN/DIST
+    number: '19'
+    value: '06'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.6742
+- input: F65,C00392720,IND,BURKHOLDER^JOHN^^,P.O. BOX 4821,,FRANKFORT,KY,40604,COMMONWEALTH
+    OF KENTUCKY,RISK MANAGER,20040202,1000.00,C00392720,,KERR^ALICE FORGY^Hon.^,H,KY,06,,,,,,,,F6.6743
+  record: <fec.version.v5_0.F65.Records instance at 0x2c403f8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392720
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: BURKHOLDER^JOHN^^
+  - name: STREET 1
+    number: '5'
+    value: P.O. BOX 4821
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: FRANKFORT
+  - name: STATE
+    number: '8'
+    value: KY
+  - name: ZIP
+    number: '9'
+    value: '40604'
+  - name: INDEMP
+    number: '10'
+    value: COMMONWEALTH OF KENTUCKY
+  - name: INDOCC
+    number: '11'
+    value: RISK MANAGER
+  - name: Of Contribution
+    number: 12-
+    value: '20040202'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00392720
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: KERR^ALICE FORGY^Hon.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: KY
+  - name: CAN/DIST
+    number: '19'
+    value: '06'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.6743
+- input: F65,C00392720,IND,COMBS^DAVID^^,833 CHINOE ROAD,,LEXINGTON,KY,40502,SYSTEMS
+    DESIGN GROUP INC,VICE PRESIDENT,20040202,1000.00,C00392720,,KERR^ALICE FORGY^Hon.^,H,KY,06,,,,,,,,F6.6744
+  record: <fec.version.v5_0.F65.Records instance at 0x2c407e8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392720
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: COMBS^DAVID^^
+  - name: STREET 1
+    number: '5'
+    value: 833 CHINOE ROAD
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: LEXINGTON
+  - name: STATE
+    number: '8'
+    value: KY
+  - name: ZIP
+    number: '9'
+    value: '40502'
+  - name: INDEMP
+    number: '10'
+    value: SYSTEMS DESIGN GROUP INC
+  - name: INDOCC
+    number: '11'
+    value: VICE PRESIDENT
+  - name: Of Contribution
+    number: 12-
+    value: '20040202'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00392720
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: KERR^ALICE FORGY^Hon.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: KY
+  - name: CAN/DIST
+    number: '19'
+    value: '06'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.6744
+- input: F65,C00392720,IND,JORDAN^CHARLES^^JR,P.O. BOX 187,,VANCEBURG,KY,41179,FIRST
+    COMMUNITY BANKS,CEO,20040202,1000.00,C00392720,,KERR^ALICE FORGY^Hon.^,H,KY,06,,,,,,,,F6.6747
+  record: <fec.version.v5_0.F65.Records instance at 0x2c403f8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392720
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: JORDAN^CHARLES^^JR
+  - name: STREET 1
+    number: '5'
+    value: P.O. BOX 187
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: VANCEBURG
+  - name: STATE
+    number: '8'
+    value: KY
+  - name: ZIP
+    number: '9'
+    value: '41179'
+  - name: INDEMP
+    number: '10'
+    value: FIRST COMMUNITY BANKS
+  - name: INDOCC
+    number: '11'
+    value: CEO
+  - name: Of Contribution
+    number: 12-
+    value: '20040202'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00392720
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: KERR^ALICE FORGY^Hon.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: KY
+  - name: CAN/DIST
+    number: '19'
+    value: '06'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.6747
+- input: F65,C00392720,IND,MANCHIKANTI^CHANDRAKALA^^,2075 NATCHEZ LANE,,PADUCAH,KY,42001,NA,HOUSEWIFE,20040202,2000.00,C00392720,,KERR^ALICE
+    FORGY^Hon.^,H,KY,06,,,,,,,,F6.6748
+  record: <fec.version.v5_0.F65.Records instance at 0x2c407e8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392720
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: MANCHIKANTI^CHANDRAKALA^^
+  - name: STREET 1
+    number: '5'
+    value: 2075 NATCHEZ LANE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: PADUCAH
+  - name: STATE
+    number: '8'
+    value: KY
+  - name: ZIP
+    number: '9'
+    value: '42001'
+  - name: INDEMP
+    number: '10'
+    value: NA
+  - name: INDOCC
+    number: '11'
+    value: HOUSEWIFE
+  - name: Of Contribution
+    number: 12-
+    value: '20040202'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00392720
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: KERR^ALICE FORGY^Hon.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: KY
+  - name: CAN/DIST
+    number: '19'
+    value: '06'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.6748
+- input: F65,C00392720,IND,MANCHIKANTI^LAXMAIAH^^,2831 LONE OAK ROAD,,PADUCAH,KY,42003,PAIN
+    MANAGEMENT CENTER OF PADUCAH,PHYSICIAN,20040202,2000.00,C00392720,,KERR^ALICE
+    FORGY^Hon.^,H,KY,06,,,,,,,,F6.6749
+  record: <fec.version.v5_0.F65.Records instance at 0x2c40dd0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392720
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: MANCHIKANTI^LAXMAIAH^^
+  - name: STREET 1
+    number: '5'
+    value: 2831 LONE OAK ROAD
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: PADUCAH
+  - name: STATE
+    number: '8'
+    value: KY
+  - name: ZIP
+    number: '9'
+    value: '42003'
+  - name: INDEMP
+    number: '10'
+    value: PAIN MANAGEMENT CENTER OF PADUCAH
+  - name: INDOCC
+    number: '11'
+    value: PHYSICIAN
+  - name: Of Contribution
+    number: 12-
+    value: '20040202'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00392720
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: KERR^ALICE FORGY^Hon.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: KY
+  - name: CAN/DIST
+    number: '19'
+    value: '06'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.6749
+- input: F65,C00392720,IND,NUNAN^RICHARD E.^^,P.O. BOX 747,,WINCHESTER,KY,40392,PALMOR
+    ENGINEERING CO,VICE PRESIDENT,20040202,1000.00,C00392720,,KERR^ALICE FORGY^Hon.^,H,KY,06,,,,,,,,F6.6750
+  record: <fec.version.v5_0.F65.Records instance at 0x2c407e8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392720
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: NUNAN^RICHARD E.^^
+  - name: STREET 1
+    number: '5'
+    value: P.O. BOX 747
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: WINCHESTER
+  - name: STATE
+    number: '8'
+    value: KY
+  - name: ZIP
+    number: '9'
+    value: '40392'
+  - name: INDEMP
+    number: '10'
+    value: PALMOR ENGINEERING CO
+  - name: INDOCC
+    number: '11'
+    value: VICE PRESIDENT
+  - name: Of Contribution
+    number: 12-
+    value: '20040202'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00392720
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: KERR^ALICE FORGY^Hon.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: KY
+  - name: CAN/DIST
+    number: '19'
+    value: '06'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.6750
+- input: F65,C00392720,IND,PAMPATI^VIDYASAGAR^^,90 MARTIN CIRCLE,,PADUCAH,KY,42001,PAIN
+    MANAGEMENT CENTER OF PADUCAH,STATISTICIAN,20040202,2000.00,C00392720,,KERR^ALICE
+    FORGY^Hon.^,H,KY,06,,,,,,,,F6.6751
+  record: <fec.version.v5_0.F65.Records instance at 0x2c40290>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392720
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: PAMPATI^VIDYASAGAR^^
+  - name: STREET 1
+    number: '5'
+    value: 90 MARTIN CIRCLE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: PADUCAH
+  - name: STATE
+    number: '8'
+    value: KY
+  - name: ZIP
+    number: '9'
+    value: '42001'
+  - name: INDEMP
+    number: '10'
+    value: PAIN MANAGEMENT CENTER OF PADUCAH
+  - name: INDOCC
+    number: '11'
+    value: STATISTICIAN
+  - name: Of Contribution
+    number: 12-
+    value: '20040202'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00392720
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: KERR^ALICE FORGY^Hon.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: KY
+  - name: CAN/DIST
+    number: '19'
+    value: '06'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.6751
+- input: F65,C00392720,IND,TRUE^VANCE N^^,144 OLD BRIDGE,,DANVILLE,KY,40422,TRUE CHIROPRACTIC
+    CENTER,CHIROPRACTOR,20040202,1000.00,C00392720,,KERR^ALICE FORGY^Hon.^,H,KY,06,,,,,,,,F6.6752
+  record: <fec.version.v5_0.F65.Records instance at 0x2c407e8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392720
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: TRUE^VANCE N^^
+  - name: STREET 1
+    number: '5'
+    value: 144 OLD BRIDGE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: DANVILLE
+  - name: STATE
+    number: '8'
+    value: KY
+  - name: ZIP
+    number: '9'
+    value: '40422'
+  - name: INDEMP
+    number: '10'
+    value: TRUE CHIROPRACTIC CENTER
+  - name: INDOCC
+    number: '11'
+    value: CHIROPRACTOR
+  - name: Of Contribution
+    number: 12-
+    value: '20040202'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00392720
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: KERR^ALICE FORGY^Hon.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: KY
+  - name: CAN/DIST
+    number: '19'
+    value: '06'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.6752
+- input: F65,C00392720,IND,TUCKER^BARNEY A.^^,1628 RICHMOND ROAD,,LEXINGTON,KY,40502,NA,RETIRED,20040202,1000.00,C00392720,,KERR^ALICE
+    FORGY^Hon.^,H,KY,06,,,,,,,,F6.6753
+  record: <fec.version.v5_0.F65.Records instance at 0x2c40290>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392720
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: TUCKER^BARNEY A.^^
+  - name: STREET 1
+    number: '5'
+    value: 1628 RICHMOND ROAD
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: LEXINGTON
+  - name: STATE
+    number: '8'
+    value: KY
+  - name: ZIP
+    number: '9'
+    value: '40502'
+  - name: INDEMP
+    number: '10'
+    value: NA
+  - name: INDOCC
+    number: '11'
+    value: RETIRED
+  - name: Of Contribution
+    number: 12-
+    value: '20040202'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00392720
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: KERR^ALICE FORGY^Hon.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: KY
+  - name: CAN/DIST
+    number: '19'
+    value: '06'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.6753
+- input: F65,C00392720,IND,YON^JERRY L^^,1725 LAKEWOOD LANE,,LEXINGTON,KY,40502,SELF,PHYSICIAN,20040202,1000.00,C00392720,,KERR^ALICE
+    FORGY^Hon.^,H,KY,06,,,,,,,,F6.6754
+  record: <fec.version.v5_0.F65.Records instance at 0x2c407e8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392720
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: YON^JERRY L^^
+  - name: STREET 1
+    number: '5'
+    value: 1725 LAKEWOOD LANE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: LEXINGTON
+  - name: STATE
+    number: '8'
+    value: KY
+  - name: ZIP
+    number: '9'
+    value: '40502'
+  - name: INDEMP
+    number: '10'
+    value: SELF
+  - name: INDOCC
+    number: '11'
+    value: PHYSICIAN
+  - name: Of Contribution
+    number: 12-
+    value: '20040202'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00392720
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: KERR^ALICE FORGY^Hon.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: KY
+  - name: CAN/DIST
+    number: '19'
+    value: '06'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.6754
+- input: F65,C00392720,PAC,AMERICAN SOCIETY OF INTERVENTIONAL PAIN PHYSICIANS POLITICAL
+    ACTION COMMITTEE (ASIPP PAC),2831 LONE OAK ROAD,,PADUCAH,KY,42003,,,20040202,5000.00,C00392720,,KERR^ALICE
+    FORGY^Hon.^,H,KY,06,,,,,,,,F6.6740
+  record: <fec.version.v5_0.F65.Records instance at 0x2c40290>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392720
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: AMERICAN SOCIETY OF INTERVENTIONAL PAIN PHYSICIANS POLITICAL ACTION COMMITTEE
+      (ASIPP PAC)
+  - name: STREET 1
+    number: '5'
+    value: 2831 LONE OAK ROAD
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: PADUCAH
+  - name: STATE
+    number: '8'
+    value: KY
+  - name: ZIP
+    number: '9'
+    value: '42003'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20040202'
+  - name: AMOUNT
+    number: '13'
+    value: '5000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00392720
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: KERR^ALICE FORGY^Hon.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: KY
+  - name: CAN/DIST
+    number: '19'
+    value: '06'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.6740
+- input: F65,C00392720,PAC,CSX CORPORATION GOOD GOVERNMENT FUND,1331 PENNSYLVANIA
+    AVE NW SUITE 560,,WASHINGTON,DC,20004,,,20040202,1000.00,C00392720,,KERR^ALICE
+    FORGY^Hon.^,H,KY,06,,,,,,,,F6.6745
+  record: <fec.version.v5_0.F65.Records instance at 0x2c40128>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392720
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: CSX CORPORATION GOOD GOVERNMENT FUND
+  - name: STREET 1
+    number: '5'
+    value: 1331 PENNSYLVANIA AVE NW SUITE 560
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: WASHINGTON
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20004'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20040202'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00392720
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: KERR^ALICE FORGY^Hon.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: KY
+  - name: CAN/DIST
+    number: '19'
+    value: '06'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.6745
+- input: F65,C00392720,PAC,HCA INC. GOOD GOVERNMENT FUND,PO BOX 550,ONE PARK PLAZA,NASHVILLE,TN,37203,,,20040202,1000.00,C00392720,,KERR^ALICE
+    FORGY^Hon.^,H,KY,06,,,,,,,,F6.6746
+  record: <fec.version.v5_0.F65.Records instance at 0x2c40c68>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392720
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: HCA INC. GOOD GOVERNMENT FUND
+  - name: STREET 1
+    number: '5'
+    value: PO BOX 550
+  - name: STREET 2
+    number: '6'
+    value: ONE PARK PLAZA
+  - name: CITY
+    number: '7'
+    value: NASHVILLE
+  - name: STATE
+    number: '8'
+    value: TN
+  - name: ZIP
+    number: '9'
+    value: '37203'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20040202'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00392720
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: KERR^ALICE FORGY^Hon.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: KY
+  - name: CAN/DIST
+    number: '19'
+    value: '06'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.6746
+sourceurl: !!python/unicode 20040202
+type: single
