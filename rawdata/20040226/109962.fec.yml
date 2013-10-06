@@ -1,0 +1,227 @@
+countraw: 5
+countrows: 3
+filename: 109962.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00373001
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Turner for Congress
+  - name: STREET 1
+    number: '4'
+    value: 131 N. Ludlow Street
+  - name: STREET 2
+    number: '5'
+    value: ' Suite 317'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Dayton
+  - name: ZIP
+    number: '8'
+    value: OH
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '45402   '
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H2OH03067
+  - name: CAN/OFFICE
+    number: '11'
+    value: Mike Turner
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: OH
+  - name: Signed
+    number: 14-
+    value: '03'
+  - value: '20040225'
+  expected_count: 14
+  input: '"F6","C00373001","Turner for Congress","131 N. Ludlow Street, Suite 317","","Dayton","OH","45402   ","H2OH03067","Mike
+    Turner","H","OH","03",20040225'
+  input_count: 15
+  record: <fec.version.v5_1.F6.Records instance at 0x3058830>
+  result: []
+- input: '"F65","C00373001","IND","Roberts^Burnell","124 Forrer Road","","Dayton","OH","45419    ","Pembroke
+    Associates","Executive",20040223,1000.00,"","","","","",,"","","","","","","","0225200454C3800"'
+  record: <fec.version.v5_1.F65.Records instance at 0x3058e18>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00373001
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Roberts^Burnell
+  - name: STREET 1
+    number: '5'
+    value: 124 Forrer Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Dayton
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '45419    '
+  - name: INDEMP
+    number: '10'
+    value: Pembroke Associates
+  - name: INDOCC
+    number: '11'
+    value: Executive
+  - name: Of Contribution
+    number: 12-
+    value: '20040223'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 0225200454C3800
+- input: '"F65","C00373001","IND","Wofford^Alphonso","220 Elmwood Drive","","Springboro","OH","45066    ","CDO
+    Technologies","President",20040223,1000.00,"","","","","",,"","","","","","","","0223200412C3795"'
+  record: <fec.version.v5_1.F65.Records instance at 0x3058830>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00373001
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Wofford^Alphonso
+  - name: STREET 1
+    number: '5'
+    value: 220 Elmwood Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Springboro
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '45066    '
+  - name: INDEMP
+    number: '10'
+    value: CDO Technologies
+  - name: INDOCC
+    number: '11'
+    value: President
+  - name: Of Contribution
+    number: 12-
+    value: '20040223'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 0223200412C3795
+sourceurl: !!python/unicode 20040226
+type: single
