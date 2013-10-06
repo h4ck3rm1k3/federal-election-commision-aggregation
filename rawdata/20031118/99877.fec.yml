@@ -1,0 +1,111 @@
+countraw: 3
+countrows: 1
+filename: 99877.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H6TX12060
+  - name: CANDIDATE NAME
+    number: '3'
+    value: N. Kay Granger
+  - name: STREET 1
+    number: '4'
+    value: 715 Jones Street
+  - name: STREET 2
+    number: '5'
+    value: ' Suite 200'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Fort Worth
+  - name: ZIP
+    number: '8'
+    value: TX
+  - name: PTY/CODE
+    number: '9'
+    value: '76102   '
+  - name: CAN/OFFICE
+    number: '10'
+    value: REP
+  - name: CAN/STATE
+    number: '11'
+    value: H
+  - name: CAN/DIST
+    number: '12'
+    value: TX
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '12'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: '2004'
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: ''
+  - name: STREET 1
+    number: '16'
+    value: Kay Granger Campaign Fund
+  - name: STREET 2
+    number: '17'
+    value: 715 Jones Street
+  - name: CITY
+    number: '18'
+    value: ' Suite 101'
+  - name: STATE
+    number: '19'
+    value: ''
+  - name: ZIP
+    number: '20'
+    value: Fort Worth
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: TX
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: '76102   '
+  - name: STREET 1
+    number: '23'
+    value: '        '
+  - name: STREET 2
+    number: '24'
+    value: ''
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: ''
+  - name: ZIP
+    number: '27'
+    value: ''
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: ' '
+  - name: Signed
+    number: 29-
+    value: '       '
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: N. Kay Granger
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '20031118'
+  - value: '0.00'
+  - value: '0.00'
+  expected_count: 31
+  input: '"F2","H6TX12060","N. Kay Granger","715 Jones Street, Suite 200","","Fort
+    Worth","TX","76102   ","REP","H","TX",12,2004,"","Kay Granger Campaign Fund","715
+    Jones Street, Suite 101","","Fort Worth","TX","76102   ","        ","","","","","
+    ","       ","N. Kay Granger",20031118,0.00,0.00'
+  input_count: 33
+  record: <fec.version.v5_0.F2.Records instance at 0x3d36680>
+  result: []
+sourceurl: !!python/unicode 20031118
+type: single
