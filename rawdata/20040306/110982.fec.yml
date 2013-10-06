@@ -1,0 +1,143 @@
+countraw: 4
+countrows: 2
+filename: 110982.fec
+header: {}
+rows:
+- input: F6,C00371302,Texans for Henry Cuellar Congressional Campaign,1520 Victoria,Suite
+    100,Laredo,TX,78042,H2TX23082,Henry Cuellar,H,TX,28,20040306
+  record: <fec.version.v5_1.F6.Records instance at 0x2c41680>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00371302
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Texans for Henry Cuellar Congressional Campaign
+  - name: STREET 1
+    number: '4'
+    value: 1520 Victoria
+  - name: STREET 2
+    number: '5'
+    value: Suite 100
+  - name: CITY
+    number: '6'
+    value: Laredo
+  - name: STATE
+    number: '7'
+    value: TX
+  - name: ZIP
+    number: '8'
+    value: '78042'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2TX23082
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Henry Cuellar
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: TX
+  - name: CAN/DIST
+    number: '13'
+    value: '28'
+  - name: Signed
+    number: 14-
+    value: '20040306'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00371302
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Benavides^Letty ^Ms.^
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 514
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Laredo
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '78042'
+  - name: INDEMP
+    number: '10'
+    value: Judge C.Y. Benavides
+  - name: INDOCC
+    number: '11'
+    value: ' Jr.'
+  - name: Of Contribution
+    number: 12-
+    value: Administrative Assistant
+  - name: AMOUNT
+    number: '13'
+    value: '20040306'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: '2'
+  - value: ''
+  expected_count: 27
+  input: F65,C00371302,IND,Benavides^Letty ^Ms.^,P.O. Box 514,,Laredo,TX,78042,"Judge
+    C.Y. Benavides, Jr.",Administrative Assistant,20040306,2000.00,,,,,,,,,,,,,,2,
+  input_count: 29
+  record: <fec.version.v5_1.F65.Records instance at 0x2c41bd8>
+  result: []
+sourceurl: !!python/unicode 20040306
+type: single
