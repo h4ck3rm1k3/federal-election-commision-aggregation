@@ -1,0 +1,483 @@
+countraw: 6
+countrows: 4
+filename: 107897.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00000935
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Democratic Congressional Campaign Committee
+  - name: STREET 1
+    number: '4'
+    value: 430 South Capitol Street
+  - name: STREET 2
+    number: '5'
+    value: ' SE'
+  - name: CITY
+    number: '6'
+    value: 2nd Floor
+  - name: STATE
+    number: '7'
+    value: Washington
+  - name: ZIP
+    number: '8'
+    value: DC
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: '20003'
+  - name: Signed
+    number: 10-
+    value: Bonham^James J.^^
+  - name: REPORT TYPE
+    number: '11'
+    value: '20040207'
+  - value: '24'
+  expected_count: 11
+  input: F24,C00000935,Democratic Congressional Campaign Committee,"430 South Capitol
+    Street, SE",2nd Floor,Washington,DC,20003,Bonham^James J.^^,20040207,24
+  input_count: 12
+  record: <fec.version.v5_1.F24.Records instance at 0x2c468c0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00000935
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Buying Time
+  - name: STREET 1
+    number: '5'
+    value: ' LLC'
+  - name: STREET 2
+    number: '6'
+    value: 2715 M Street
+  - name: CITY
+    number: '7'
+    value: ' NW'
+  - name: STATE
+    number: '8'
+    value: Suite 400
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20007'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: Media Buy
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20040206'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '171987.00'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H4KY06072
+  - name: S/O STATE
+    number: '17'
+    value: Chandler^Ben^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: H
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: KY
+  - name: Unused field
+    number: '20'
+    value: '06'
+  - name: Unused field
+    number: '21'
+    value: C00000935
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: SE24.4362
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: S2004
+  - name: TRANS CODE
+    number: '45'
+    value: Special-General
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: ''
+  - value: '1019592.97'
+  expected_count: 46
+  input: SE24,C00000935,ORG,"Buying Time, LLC","2715 M Street, NW",Suite 400,Washington,DC,20007,Media
+    Buy,20040206,171987.00,S,H4KY06072,Chandler^Ben^^,H,KY,06,C00000935,,,,,,,,,,,,,,,,,,SE24.4362,,,,,S2004,Special-General,,,1019592.97
+  input_count: 48
+  record: <fec.version.v5_1.SE.Records instance at 0x2c46680>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00000935
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: LSG Strategies Services Corp.
+  - name: STREET 1
+    number: '5'
+    value: 2120 L Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: Suite 305
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '20037'
+  - name: DATE
+    number: '11'
+    value: Phone Banking
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20040206'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '22471.52'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: H4KY06072
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Chandler^Ben^^
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: KY
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '06'
+  - name: Unused field
+    number: '20'
+    value: C00000935
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.4363
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: S2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: Special-General
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '1042064.49'
+  expected_count: 46
+  input: SE24,C00000935,ORG,LSG Strategies Services Corp.,"2120 L Street, NW",Suite
+    305,Washington,DC,20037,Phone Banking,20040206,22471.52,S,H4KY06072,Chandler^Ben^^,H,KY,06,C00000935,,,,,,,,,,,,,,,,,,SE24.4363,,,,,S2004,Special-General,,,1042064.49
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x2c46b00>
+  result: []
+- input: SE24,C00000935,ORG,Mission Control Inc.,201 Adams Street,,Manchester,CT,06040,Mail
+    Services,20040206,35493.31,S,H4KY06072,Chandler^Ben^^,H,KY,06,C00000935,,,,,,,,,,,,,,,,,,SE24.4364,,,,,S2004,Special-General,,,1077557.80
+  record: <fec.version.v5_1.SE.Records instance at 0x2c46680>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00000935
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Mission Control Inc.
+  - name: STREET 1
+    number: '5'
+    value: 201 Adams Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Manchester
+  - name: STATE
+    number: '8'
+    value: CT
+  - name: ZIP
+    number: '9'
+    value: '06040'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Mail Services
+  - name: DATE
+    number: '11'
+    value: '20040206'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '35493.31'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H4KY06072
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Chandler^Ben^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: KY
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '06'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00000935
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.4364
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: S2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: Special-General
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '1077557.80'
+sourceurl: !!python/unicode 20040207
+type: single
