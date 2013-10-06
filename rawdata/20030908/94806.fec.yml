@@ -1,0 +1,128 @@
+countraw: 4
+countrows: 2
+filename: 94806.fec
+header: {}
+rows:
+- input: F2,H4OH18079,NEY^ROBERT W^^,112 OVERLOOK CT,,ST CLAIRSVILLE,OH,43950,REP,H,OH,18,2004,C00288324,BOB
+    NEY FOR CONGRESS,PO BOX 490,,ST CLAIRSVILLE,OH,43950,C00389270,GOOD GOVERNMENT
+    2004,1401 H STREET NW SUITE 1200,,WASHINGTON,DC,20005,NEY^ROBERT W^^,20030908,0.00,0.00
+  record: <fec.version.v5_0.F2.Records instance at 0x2a61d40>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F2
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H4OH18079
+  - name: CANDIDATE NAME
+    number: '3'
+    value: NEY^ROBERT W^^
+  - name: STREET 1
+    number: '4'
+    value: 112 OVERLOOK CT
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: ST CLAIRSVILLE
+  - name: STATE
+    number: '7'
+    value: OH
+  - name: ZIP
+    number: '8'
+    value: '43950'
+  - name: PTY/CODE
+    number: '9'
+    value: REP
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: OH
+  - name: CAN/DIST
+    number: '12'
+    value: '18'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2004'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: C00288324
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: BOB NEY FOR CONGRESS
+  - name: STREET 1
+    number: '16'
+    value: PO BOX 490
+  - name: STREET 2
+    number: '17'
+    value: ''
+  - name: CITY
+    number: '18'
+    value: ST CLAIRSVILLE
+  - name: STATE
+    number: '19'
+    value: OH
+  - name: ZIP
+    number: '20'
+    value: '43950'
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: C00389270
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: GOOD GOVERNMENT 2004
+  - name: STREET 1
+    number: '23'
+    value: 1401 H STREET NW SUITE 1200
+  - name: STREET 2
+    number: '24'
+    value: ''
+  - name: CITY
+    number: '25'
+    value: WASHINGTON
+  - name: STATE
+    number: '26'
+    value: DC
+  - name: ZIP
+    number: '27'
+    value: '20005'
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: NEY^ROBERT W^^
+  - name: Signed
+    number: 29-
+    value: '20030908'
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: '0.00'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '0.00'
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F2
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: This is an amended report
+  - name: AMENDED CD
+    number: '5'
+    value: ' as the original was not filed electronically'
+  - value: ' the software will not let me check the amend box'
+  expected_count: 5
+  input: TEXT,F2,,"This is an amended report, as the original was not filed electronically,
+    the software will not let me check the amend box"
+  input_count: 6
+  record: <fec.version.v5_0.TEXT.Records instance at 0x2a61cf8>
+  result: []
+sourceurl: !!python/unicode 20030908
+type: single
