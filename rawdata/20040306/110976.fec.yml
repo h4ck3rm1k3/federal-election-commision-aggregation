@@ -1,0 +1,484 @@
+countraw: 6
+countrows: 4
+filename: 110976.fec
+header: {}
+rows:
+- input: '"F24","C00044990","South Dakota Republican Party","401 E Sioux","","Pierre","SD","57501   ","Thomas
+    G Leckey",20040306,"48"'
+  record: <fec.version.v5_1.F24.Records instance at 0x347e710>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00044990
+  - name: COMMITTEE NAME
+    number: '3'
+    value: South Dakota Republican Party
+  - name: STREET 1
+    number: '4'
+    value: 401 E Sioux
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Pierre
+  - name: STATE
+    number: '7'
+    value: SD
+  - name: ZIP
+    number: '8'
+    value: '57501   '
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Thomas G Leckey
+  - name: Signed
+    number: 10-
+    value: '20040306'
+  - name: REPORT TYPE
+    number: '11'
+    value: '48'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00044990
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Steve Brown Direct Mail
+  - name: STREET 1
+    number: '5'
+    value: ' Inc'
+  - name: STREET 2
+    number: '6'
+    value: PO Box 668
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Winter Park
+  - name: ZIP
+    number: '9'
+    value: FL
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '32790    '
+  - name: DATE
+    number: '11'
+    value: O S6SD0 8 Direct Mail
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20040304'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '6635.10'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: O
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S6SD00028
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: DASCHLE
+  - name: S/O STATE
+    number: '17'
+    value: ' THOMAS A'
+  - name: S/O CAN/DIST
+    number: '18'
+    value: S
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: SD
+  - name: Unused field
+    number: '20'
+    value: '00'
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: 0306200435E8871
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: P2004
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '002'
+  - value: 24A
+  - value: '35026.33'
+  expected_count: 46
+  input: '"SE24","C00044990","ORG","Steve Brown Direct Mail, Inc","PO Box 668","","Winter
+    Park","FL","32790    ","O S6SD0 8 Direct Mail",20040304,6635.10,"O","S6SD00028","DASCHLE,
+    THOMAS A","S","SD",00,"","","","","","","","","","","","","","","","","","","0306200435E8871","","","","","P2004","","002","24A",35026.33'
+  input_count: 48
+  record: <fec.version.v5_1.SE.Records instance at 0x2a61d88>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00044990
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: DBR Enterprises
+  - name: STREET 1
+    number: '5'
+    value: 412 N Whitni Ln
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Sioux Falls
+  - name: STATE
+    number: '8'
+    value: SD
+  - name: ZIP
+    number: '9'
+    value: '57107    '
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: O S6SD0 8 Direct Mail
+  - name: DATE
+    number: '11'
+    value: '20040304'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '6652.35'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: O
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S6SD00028
+  - name: S/O CAN/NAME
+    number: '15'
+    value: DASCHLE
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ' THOMAS A'
+  - name: S/O STATE
+    number: '17'
+    value: S
+  - name: S/O CAN/DIST
+    number: '18'
+    value: SD
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '00'
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: 0306200435E8870
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: P2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '002'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24A
+  - value: '35026.33'
+  expected_count: 46
+  input: '"SE24","C00044990","ORG","DBR Enterprises","412 N Whitni Ln","","Sioux Falls","SD","57107    ","O
+    S6SD0 8 Direct Mail",20040304,6652.35,"O","S6SD00028","DASCHLE, THOMAS A","S","SD",00,"","","","","","","","","","","","","","","","","","","0306200435E8870","","","","","P2004","","002","24A",35026.33'
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x347e710>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00044990
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Qualified Presort
+  - name: STREET 1
+    number: '5'
+    value: PO Box 85010
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Sioux Falls
+  - name: STATE
+    number: '8'
+    value: SD
+  - name: ZIP
+    number: '9'
+    value: '57118    '
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: O S6SD0 8 Direct Mail
+  - name: DATE
+    number: '11'
+    value: '20040304'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '21738.88'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: O
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S6SD00028
+  - name: S/O CAN/NAME
+    number: '15'
+    value: DASCHLE
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ' THOMAS A'
+  - name: S/O STATE
+    number: '17'
+    value: S
+  - name: S/O CAN/DIST
+    number: '18'
+    value: SD
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '00'
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: 0306200452E8869
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: P2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '002'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24A
+  - value: '35026.33'
+  expected_count: 46
+  input: '"SE24","C00044990","ORG","Qualified Presort","PO Box 85010","","Sioux Falls","SD","57118    ","O
+    S6SD0 8 Direct Mail",20040304,21738.88,"O","S6SD00028","DASCHLE, THOMAS A","S","SD",00,"","","","","","","","","","","","","","","","","","","0306200452E8869","","","","","P2004","","002","24A",35026.33'
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x2a61d88>
+  result: []
+sourceurl: !!python/unicode 20040306
+type: single
