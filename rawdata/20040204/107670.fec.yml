@@ -1,0 +1,196 @@
+countraw: 4
+countrows: 2
+filename: 107670.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00000935
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Democratic Congressional Campaign Committee
+  - name: STREET 1
+    number: '4'
+    value: 430 South Capitol Street
+  - name: STREET 2
+    number: '5'
+    value: ' SE'
+  - name: CITY
+    number: '6'
+    value: 2nd Floor
+  - name: STATE
+    number: '7'
+    value: Washington
+  - name: ZIP
+    number: '8'
+    value: DC
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: '20003'
+  - name: Signed
+    number: 10-
+    value: Bonham^James J.^^
+  - name: REPORT TYPE
+    number: '11'
+    value: '20040204'
+  - value: '24'
+  expected_count: 11
+  input: F24,C00000935,Democratic Congressional Campaign Committee,"430 South Capitol
+    Street, SE",2nd Floor,Washington,DC,20003,Bonham^James J.^^,20040204,24
+  input_count: 12
+  record: <fec.version.v5_1.F24.Records instance at 0x3fccf80>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00000935
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Bennett
+  - name: STREET 1
+    number: '5'
+    value: ' Petts & Blumenthal'
+  - name: STREET 2
+    number: '6'
+    value: ' LLC'
+  - name: CITY
+    number: '7'
+    value: 1010 Wisconsin Ave.
+  - name: STATE
+    number: '8'
+    value: ' NW'
+  - name: ZIP
+    number: '9'
+    value: Suite 208
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Washington
+  - name: DATE
+    number: '11'
+    value: DC
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20007'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: Polling
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '20040204'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: '11600.00'
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: S
+  - name: S/O STATE
+    number: '17'
+    value: H4KY06072
+  - name: S/O CAN/DIST
+    number: '18'
+    value: Chandler^Ben^^
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: H
+  - name: Unused field
+    number: '20'
+    value: KY
+  - name: Unused field
+    number: '21'
+    value: '06'
+  - name: Unused field
+    number: '22'
+    value: C00000935
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: SE24.4351
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: S2004
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: Special-General
+  - value: ''
+  - value: ''
+  - value: '847605.97'
+  expected_count: 46
+  input: SE24,C00000935,ORG,"Bennett, Petts & Blumenthal, LLC","1010 Wisconsin Ave.,
+    NW",Suite 208,Washington,DC,20007,Polling,20040204,11600.00,S,H4KY06072,Chandler^Ben^^,H,KY,06,C00000935,,,,,,,,,,,,,,,,,,SE24.4351,,,,,S2004,Special-General,,,847605.97
+  input_count: 49
+  record: <fec.version.v5_1.SE.Records instance at 0x3fcce60>
+  result: []
+sourceurl: !!python/unicode 20040204
+type: single
