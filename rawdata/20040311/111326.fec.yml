@@ -1,0 +1,631 @@
+countraw: 7
+countrows: 5
+filename: 111326.fec
+header: {}
+rows:
+- input: F24,C00075820,NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE,320 FIRST STREET,.,WASHINGTON,DC,20003,Christopher
+    J. Ward^^^,20040311,48
+  record: <fec.version.v5_1.F24.Records instance at 0x59c10e0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00075820
+  - name: COMMITTEE NAME
+    number: '3'
+    value: NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: 320 FIRST STREET
+  - name: STREET 2
+    number: '5'
+    value: .
+  - name: CITY
+    number: '6'
+    value: WASHINGTON
+  - name: STATE
+    number: '7'
+    value: DC
+  - name: ZIP
+    number: '8'
+    value: '20003'
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Christopher J. Ward^^^
+  - name: Signed
+    number: 10-
+    value: '20040311'
+  - name: REPORT TYPE
+    number: '11'
+    value: '48'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00075820
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Public Opinion Strategies
+  - name: STREET 1
+    number: '5'
+    value: 227 S. Washington St
+  - name: STREET 2
+    number: '6'
+    value: ' Ste 320'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Alexandria
+  - name: ZIP
+    number: '9'
+    value: VA
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '22314'
+  - name: DATE
+    number: '11'
+    value: Polling
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20040311'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '22000.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: H2SD01025
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: DIEDRICH^LARRY WILLIAM^^
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: SD
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '01'
+  - name: Unused field
+    number: '20'
+    value: C00075820
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.4177
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: S2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: Special-General
+  - name: TRANS CODE
+    number: '45'
+    value: '005'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '270386.56'
+  expected_count: 46
+  input: SE24,C00075820,ORG,Public Opinion Strategies,"227 S. Washington St, Ste 320",,Alexandria,VA,22314,Polling,20040311,22000.00,S,H2SD01025,DIEDRICH^LARRY
+    WILLIAM^^,H,SD,01,C00075820,,,,,,,,,,,,,,,,,,SE24.4177,,,,,S2004,Special-General,005,,270386.56
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x59c1a70>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00075820
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Strategic Media Services Inc.
+  - name: STREET 1
+    number: '5'
+    value: 1023 31st
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ' 4th Fl.'
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: Washignton
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20007'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: Media Placement
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20040311'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '80309.48'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H2SD01025
+  - name: S/O STATE
+    number: '17'
+    value: DIEDRICH^LARRY WILLIAM^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: H
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: SD
+  - name: Unused field
+    number: '20'
+    value: '01'
+  - name: Unused field
+    number: '21'
+    value: C00075820
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: SE24.4178
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: S2004
+  - name: TRANS CODE
+    number: '45'
+    value: Special-General
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '004'
+  - value: ''
+  - value: '350696.04'
+  expected_count: 46
+  input: SE24,C00075820,ORG,Strategic Media Services Inc.,"1023 31st, NW, 4th Fl.",,Washignton,DC,20007,Media
+    Placement,20040311,80309.48,S,H2SD01025,DIEDRICH^LARRY WILLIAM^^,H,SD,01,C00075820,,,,,,,,,,,,,,,,,,SE24.4178,,,,,S2004,Special-General,004,,350696.04
+  input_count: 48
+  record: <fec.version.v5_1.SE.Records instance at 0x59c1950>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00075820
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Strategic Media Services Inc.
+  - name: STREET 1
+    number: '5'
+    value: 1023 31st
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ' 4th Fl.'
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: Washignton
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20007'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: Media Placement
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20040311'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '85545.28'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H2SD01025
+  - name: S/O STATE
+    number: '17'
+    value: DIEDRICH^LARRY WILLIAM^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: H
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: SD
+  - name: Unused field
+    number: '20'
+    value: '01'
+  - name: Unused field
+    number: '21'
+    value: C00075820
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: SE24.4179
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: S2004
+  - name: TRANS CODE
+    number: '45'
+    value: Special-General
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '004'
+  - value: ''
+  - value: '436241.32'
+  expected_count: 46
+  input: SE24,C00075820,ORG,Strategic Media Services Inc.,"1023 31st, NW, 4th Fl.",,Washignton,DC,20007,Media
+    Placement,20040311,85545.28,S,H2SD01025,DIEDRICH^LARRY WILLIAM^^,H,SD,01,C00075820,,,,,,,,,,,,,,,,,,SE24.4179,,,,,S2004,Special-General,004,,436241.32
+  input_count: 48
+  record: <fec.version.v5_1.SE.Records instance at 0x59c1cb0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00075820
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: UpGrade Films
+  - name: STREET 1
+    number: '5'
+    value: 1023 31st St
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ' 4th Fl.'
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20007'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: Media Production
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20040311'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '3841.01'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H2SD01025
+  - name: S/O STATE
+    number: '17'
+    value: DIEDRICH^LARRY WILLIAM^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: H
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: SD
+  - name: Unused field
+    number: '20'
+    value: '01'
+  - name: Unused field
+    number: '21'
+    value: C00075820
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: SE24.4180
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: S2004
+  - name: TRANS CODE
+    number: '45'
+    value: Special-General
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '004'
+  - value: ''
+  - value: '440082.33'
+  expected_count: 46
+  input: SE24,C00075820,ORG,UpGrade Films,"1023 31st St, NW, 4th Fl.",,Washington,DC,20007,Media
+    Production,20040311,3841.01,S,H2SD01025,DIEDRICH^LARRY WILLIAM^^,H,SD,01,C00075820,,,,,,,,,,,,,,,,,,SE24.4180,,,,,S2004,Special-General,004,,440082.33
+  input_count: 48
+  record: <fec.version.v5_1.SE.Records instance at 0x59c1950>
+  result: []
+sourceurl: !!python/unicode 20040311
+type: single
