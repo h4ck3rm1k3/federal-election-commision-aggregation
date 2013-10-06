@@ -1,0 +1,131 @@
+countraw: 10004
+countrows: 10002
+filename: 109655.fec
+header: {}
+rows:
+- input: SD12,"C00383653","ORG","Wild Bronco Production","790 Oak Branch Drive","","Oak
+    Park","CA","91377","Consulting Fee","0","5000","0","5000",,,,,,,,,,,,,"","D46310"
+  record: <fec.version.v5_1.SD.Records instance at 0x3be5998>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD12
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00383653
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: Wild Bronco Production
+  - name: STREET 1
+    number: '5'
+    value: 790 Oak Branch Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Oak Park
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '91377'
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: Consulting Fee
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: '0'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '5000'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '0'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '5000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: D46310
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F3PA
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: John Kerry for President
+  - name: AMENDED CD
+    number: '5'
+    value: ' Inc. (C00383653) is re-filing its February Monthly report due to an error
+      message that was received on its initial attempt to file (FEC-109633).  A FEC
+      message dated February 20'
+  - value: ' 2004'
+  - value: ' 11:59 PM indicated that the ''filing was received but failed during processing.''  The
+      message indicated that the committee may be required to re-file after contacting
+      the FEC''s electronic filing office. In the interest of disclosure'
+  - value: ' the committee is re-filing the report that was previously submitted -
+      no data has changed from the earlier filing.'
+  expected_count: 5
+  input: TEXT,"F3PA",,"John Kerry for President, Inc. (C00383653) is re-filing its
+    February Monthly report due to an error message that was received on its initial
+    attempt to file (FEC-109633).  A FEC message dated February 20, 2004, 11:59 PM
+    indicated that the 'filing was received but failed during processing.'  The message
+    indicated that the committee may be required to re-file after contacting the FEC's
+    electronic filing office. In the interest of disclosure, the committee is re-filing
+    the report that was previously submitted - no data has changed from the earlier
+    filing."
+  input_count: 8
+  record: <fec.version.v5_1.TEXT.Records instance at 0x3be5f38>
+  result: []
+sourceurl: !!python/unicode 20040221
+type: chunk
