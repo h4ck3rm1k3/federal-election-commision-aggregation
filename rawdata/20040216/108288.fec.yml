@@ -1,0 +1,141 @@
+countraw: 4
+countrows: 2
+filename: 108288.fec
+header: {}
+rows:
+- input: F6,C00200865,ED ROYCE FOR CONGRESS,P.O. Box 2525,,Orange,CA,92859,H6CA39020,Royce^Ed^Mr.^,H,CA,40,20040215
+  record: <fec.version.v5_1.F6.Records instance at 0x2a61cb0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00200865
+  - name: COMMITTEE NAME
+    number: '3'
+    value: ED ROYCE FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 2525
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Orange
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '92859'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H6CA39020
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Royce^Ed^Mr.^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: CA
+  - name: CAN/DIST
+    number: '13'
+    value: '40'
+  - name: Signed
+    number: 14-
+    value: '20040215'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00200865
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Occhipinti^Joseph R.^Dr.^
+  - name: STREET 1
+    number: '5'
+    value: '17152 Pacific Coast Highway #202'
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Huntington Beach
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '92649'
+  - name: INDEMP
+    number: '10'
+    value: O.C Optometric Group Inc.
+  - name: INDOCC
+    number: '11'
+    value: Optometrist
+  - name: Of Contribution
+    number: 12-
+    value: '20040215'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 0023459
+  - value: ''
+  expected_count: 27
+  input: 'F65,C00200865,IND,Occhipinti^Joseph R.^Dr.^,17152 Pacific Coast Highway
+    #202,,Huntington Beach,CA,92649,O.C Optometric Group Inc.,Optometrist,20040215,1000.00,,,,,,,,,,,,,,0023459,'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x2a61d88>
+  result: []
+sourceurl: !!python/unicode 20040216
+type: single
