@@ -1,0 +1,108 @@
+countraw: 3
+countrows: 1
+filename: 99490.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H2FL00250
+  - name: CANDIDATE NAME
+    number: '3'
+    value: Feeney^Tom^^
+  - name: STREET 1
+    number: '4'
+    value: 1420 Alafaya Trail
+  - name: STREET 2
+    number: '5'
+    value: ' #103'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Oviedo
+  - name: ZIP
+    number: '8'
+    value: FL
+  - name: PTY/CODE
+    number: '9'
+    value: '32765'
+  - name: CAN/OFFICE
+    number: '10'
+    value: REP
+  - name: CAN/STATE
+    number: '11'
+    value: H
+  - name: CAN/DIST
+    number: '12'
+    value: FL
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '24'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: '2004'
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: C00368951
+  - name: STREET 1
+    number: '16'
+    value: TOM FEENEY FOR CONGRESS
+  - name: STREET 2
+    number: '17'
+    value: '1420 Alafaya Trail #103'
+  - name: CITY
+    number: '18'
+    value: ''
+  - name: STATE
+    number: '19'
+    value: Oviedo
+  - name: ZIP
+    number: '20'
+    value: FL
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: '32765'
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: ''
+  - name: STREET 1
+    number: '23'
+    value: ''
+  - name: STREET 2
+    number: '24'
+    value: ''
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: ''
+  - name: ZIP
+    number: '27'
+    value: ''
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: ''
+  - name: Signed
+    number: 29-
+    value: Feeney^Tom^^
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: '20031111'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '0.00'
+  - value: '0.00'
+  expected_count: 31
+  input: 'F2,H2FL00250,Feeney^Tom^^,"1420 Alafaya Trail, #103",,Oviedo,FL,32765,REP,H,FL,24,2004,C00368951,TOM
+    FEENEY FOR CONGRESS,1420 Alafaya Trail #103,,Oviedo,FL,32765,,,,,,,,Feeney^Tom^^,20031111,0.00,0.00'
+  input_count: 32
+  record: <fec.version.v5_0.F2.Records instance at 0x3d36b48>
+  result: []
+sourceurl: !!python/unicode 20031111
+type: single
