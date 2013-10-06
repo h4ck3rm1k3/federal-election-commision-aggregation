@@ -1,0 +1,232 @@
+countraw: 5
+countrows: 3
+filename: 111003.fec
+header: {}
+rows:
+- input: F6,C00254185,GENE GREEN CONGRESSIONAL CAMPAIGN,PO BOX 16128,,HOUSTON,TX,77222,H2TX29030,Green^Raymond
+    E. 'Gene'^^,H,TX,29,20040307
+  record: <fec.version.v5_1.F6.Records instance at 0x2a61cb0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00254185
+  - name: COMMITTEE NAME
+    number: '3'
+    value: GENE GREEN CONGRESSIONAL CAMPAIGN
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 16128
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: HOUSTON
+  - name: STATE
+    number: '7'
+    value: TX
+  - name: ZIP
+    number: '8'
+    value: '77222'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2TX29030
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Green^Raymond E. 'Gene'^^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: TX
+  - name: CAN/DIST
+    number: '13'
+    value: '29'
+  - name: Signed
+    number: 14-
+    value: '20040307'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00254185
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: DRIVE of Intl Brotherhood of Teamsters
+  - name: STREET 1
+    number: '5'
+    value: 25 Louisiana Ave
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20001'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20040306'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '5000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00254185
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H2TX29030
+  - name: CAN/OFFICE
+    number: '17'
+    value: Green^Raymond E. 'Gene'^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: TX
+  - name: CONDUIT NAME
+    number: '20'
+    value: '29'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.8822
+  expected_count: 27
+  input: F65,C00254185,PAC,DRIVE of Intl Brotherhood of Teamsters,"25 Louisiana Ave,
+    NW",,Washington,DC,20001,,,20040306,5000.00,C00254185,H2TX29030,Green^Raymond
+    E. 'Gene'^^,H,TX,29,,,,,,,,F6.8822
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x2a61e18>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00254185
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Duke Energy PAC
+  - name: STREET 1
+    number: '5'
+    value: 422 S Church St
+  - name: STREET 2
+    number: '6'
+    value: ' PBO5D'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Charlotte
+  - name: ZIP
+    number: '9'
+    value: NC
+  - name: INDEMP
+    number: '10'
+    value: '28202'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20040306'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2500.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00254185
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H2TX29030
+  - name: CAN/OFFICE
+    number: '17'
+    value: Green^Raymond E. 'Gene'^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: TX
+  - name: CONDUIT NAME
+    number: '20'
+    value: '29'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.8821
+  expected_count: 27
+  input: F65,C00254185,PAC,Duke Energy PAC,"422 S Church St, PBO5D",,Charlotte,NC,28202,,,20040306,2500.00,C00254185,H2TX29030,Green^Raymond
+    E. 'Gene'^^,H,TX,29,,,,,,,,F6.8821
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x2a61cb0>
+  result: []
+sourceurl: !!python/unicode 20040307
+type: single
