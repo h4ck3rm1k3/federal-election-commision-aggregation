@@ -1,0 +1,141 @@
+countraw: 4
+countrows: 2
+filename: 110095.fec
+header: {}
+rows:
+- input: '"F6N","C00346296","Solis for Congress","3828 Latrobe",,"Los Angeles","CA","90031","H0CA31087","Solis^Hilda","H","CA","31","20040226"'
+  record: <fec.version.v5_1.F6.Records instance at 0x2a61dd0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00346296
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Solis for Congress
+  - name: STREET 1
+    number: '4'
+    value: 3828 Latrobe
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Los Angeles
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '90031'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H0CA31087
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Solis^Hilda
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: CA
+  - name: CAN/DIST
+    number: '13'
+    value: '31'
+  - name: Signed
+    number: 14-
+    value: '20040226'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00346296
+  - name: ENTITY TYPE
+    number: '3'
+    value: COM
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: American Federation of Government Employees PAC
+  - name: STREET 1
+    number: '5'
+    value: 80 F St.
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20001'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20040224'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F657769
+  expected_count: 27
+  input: '"F65","C00346296","COM","American Federation of Government Employees PAC","80
+    F St., NW",,"Washington","DC","20001","","","20040224","1000.00","",,"","","","",,,,,,,,F657769'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x2a61d40>
+  result: []
+sourceurl: !!python/unicode 20040226
+type: single
