@@ -1,0 +1,346 @@
+countraw: 6
+countrows: 4
+filename: 106303.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F5N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90005471
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Planned Parenthood Action Fund Inc.
+  - name: STREET 1
+    number: '4'
+    value: 434 West 33rd Street
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: New York
+  - name: STATE
+    number: '7'
+    value: NY
+  - name: ZIP
+    number: '8'
+    value: '10001'
+  - name: CHG OF ADDRESS
+    number: '9'
+    value: ''
+  - name: Qual/Non Q
+    number: 10-
+    value: Y
+  - name: INDEMP
+    number: '11'
+    value: ''
+  - name: INDOCC
+    number: '12'
+    value: ''
+  - name: RPTCODE
+    number: '13'
+    value: YE
+  - name: RPTPGI
+    number: '14'
+    value: ''
+  - name: Of Election
+    number: 15-
+    value: ''
+  - name: STATE (Of Election)
+    number: '16'
+    value: ''
+  - name: Coverage From
+    number: 17-
+    value: '20031001'
+  - name: Coverage To
+    number: 18-
+    value: '20031231'
+  - name: TOTAL CONTRIBUTION
+    number: '19'
+    value: '0.00'
+  - name: TOTAL INDEP. EXPEND
+    number: '20'
+    value: '1607.40'
+  - name: Person Completing Form
+    number: 21-
+    value: David Williams
+  - name: Signed
+    number: 22-
+    value: '20040130'
+  - name: Notarized
+    number: 23-
+    value: ''
+  - name: Notary Commission Expires
+    number: 24-
+    value: ''
+  - name: Notary
+    number: 25-
+    value: ''
+  - name: HOUR 48HOUR CODE
+    number: 26-24
+    value: NO VALUE!
+  expected_count: 26
+  input: '"F5N","C90005471","Planned Parenthood Action Fund Inc.","434 West 33rd Street",,"New
+    York","NY","10001",,"Y",,,"YE",,,,"20031001","20031231","0.00","1607.40","David
+    Williams","20040130",,,'
+  input_count: 25
+  record: <fec.version.v5_0.F5.Records instance at 0x2c417a0>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F5A
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: With this Year-End filing
+  - name: AMENDED CD
+    number: '5'
+    value: ' the Fund fulfills its requirement to file its Form 5 electronically.  Please
+      note'
+  - value: ' however'
+  - value: ' that portions of this filing may not appear in full due to difficulties
+      the FEC has experienced in accepting Form5 reports. We are using the FEC electronic
+      filing specifications'
+  - value: ' and we continue to work with the FEC to insure its ability to accurately
+      receive the electronic version of this and future Form5 filings.'
+  expected_count: 5
+  input: TEXT,F5A,,"With this Year-End filing, the Fund fulfills its requirement to
+    file its Form 5 electronically.  Please note, however, that portions of this filing
+    may not appear in full due to difficulties the FEC has experienced in accepting
+    Form5 reports. We are using the FEC electronic filing specifications, and we continue
+    to work with the FEC to insure its ability to accurately receive the electronic
+    version of this and future Form5 filings."
+  input_count: 8
+  record: <fec.version.v5_0.TEXT.Records instance at 0x2c41710>
+  result: []
+- input: '"F57","C90005471","CAN","United States Post Office","1200 Pennsylvania Ave.
+    NW",,"Washington","DC","20004","Case Statements & Postage for 350 Copies","20031021",157.50,"O","P00003335","George
+    W. Bush","P",,,C00386987,,,,,,,,,,,,,"1",,24A,40356.88'
+  record: <fec.version.v5_0.F57.Records instance at 0x2c417a0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90005471
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: NAME (Payee)
+    number: '4'
+    value: United States Post Office
+  - name: STREET 1
+    number: '5'
+    value: 1200 Pennsylvania Ave. NW
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20004'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Case Statements & Postage for 350 Copies
+  - name: Of Expenditure
+    number: 11-
+    value: '20031021'
+  - name: AMOUNT
+    number: '12'
+    value: '157.50'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: O
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: P00003335
+  - name: S/O CAN/NAME
+    number: '15'
+    value: George W. Bush
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O CAN/STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00386987
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: '1'
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: 24A
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '40356.88'
+- input: '"F57","C90005471","CAN","Nesnadny & Schwartz","10803 Magnolia Drive",,"Cleveland","OH","44106","Case
+    Statement Design/Materials/Printing","20031021",1449.90,"O","P00003335","George
+    W. Bush","P",,,C00360503,,,,,,,,,,,,,"7",,24A,41806.78'
+  record: <fec.version.v5_0.F57.Records instance at 0x2c41710>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90005471
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: NAME (Payee)
+    number: '4'
+    value: Nesnadny & Schwartz
+  - name: STREET 1
+    number: '5'
+    value: 10803 Magnolia Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Cleveland
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '44106'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Case Statement Design/Materials/Printing
+  - name: Of Expenditure
+    number: 11-
+    value: '20031021'
+  - name: AMOUNT
+    number: '12'
+    value: '1449.90'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: O
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: P00003335
+  - name: S/O CAN/NAME
+    number: '15'
+    value: George W. Bush
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O CAN/STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00360503
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: '7'
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: 24A
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '41806.78'
+sourceurl: !!python/unicode 20040130
+type: single
