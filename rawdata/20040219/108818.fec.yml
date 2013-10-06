@@ -1,0 +1,143 @@
+countraw: 4
+countrows: 2
+filename: 108818.fec
+header: {}
+rows:
+- input: F6,C00370494,TIM ESCOBAR FOR CONGRESS,15298 GREENWORTH DRIVE,,LA MIRADA,CA,90638,H2CA39102,ESCOBAR^TIMOTHY
+    JOHN^^,H,CA,39,20040218
+  record: <fec.version.v5_1.F6.Records instance at 0x2a61d88>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00370494
+  - name: COMMITTEE NAME
+    number: '3'
+    value: TIM ESCOBAR FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 15298 GREENWORTH DRIVE
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: LA MIRADA
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '90638'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2CA39102
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ESCOBAR^TIMOTHY JOHN^^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: CA
+  - name: CAN/DIST
+    number: '13'
+    value: '39'
+  - name: Signed
+    number: 14-
+    value: '20040218'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00370494
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: MEBA PAF^^^
+  - name: STREET 1
+    number: '5'
+    value: 444 N. CAPITOL  ST. NW
+  - name: STREET 2
+    number: '6'
+    value: ' SUITE 800'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: WASHINGTON
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20001'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: FEC QUALIFIED MULTICANDIDATE CMTE
+  - name: AMOUNT
+    number: '13'
+    value: '20040218'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '5000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00370494
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H2CA39102
+  - name: CAN/OFFICE
+    number: '17'
+    value: ESCOBAR^TIMOTHY JOHN^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: CA
+  - name: CONDUIT NAME
+    number: '20'
+    value: '39'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.7121
+  expected_count: 27
+  input: F65,C00370494,IND,MEBA PAF^^^,"444 N. CAPITOL  ST. NW, SUITE 800",,WASHINGTON,DC,20001,,FEC
+    QUALIFIED MULTICANDIDATE CMTE,20040218,5000.00,C00370494,H2CA39102,ESCOBAR^TIMOTHY
+    JOHN^^,H,CA,39,,,,,,,,F6.7121
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x2a61ef0>
+  result: []
+sourceurl: !!python/unicode 20040219
+type: single
