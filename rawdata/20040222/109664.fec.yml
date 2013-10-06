@@ -1,0 +1,650 @@
+countraw: 10
+countrows: 8
+filename: 109664.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00120683
+  - name: COMMITTEE NAME
+    number: '3'
+    value: HALL FOR CONGRESS COMMITTEE (RALPH HALL - ROCKWALL
+  - name: STREET 1
+    number: '4'
+    value: ' TEXAS)'
+  - name: STREET 2
+    number: '5'
+    value: POST OFFICE BOX 711
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: ROCKWALL
+  - name: ZIP
+    number: '8'
+    value: TX
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '75087'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ''
+  - name: CAN/OFFICE
+    number: '11'
+    value: ''
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: TX
+  - name: Signed
+    number: 14-
+    value: '04'
+  - value: '20040221'
+  expected_count: 14
+  input: F6,C00120683,"HALL FOR CONGRESS COMMITTEE (RALPH HALL - ROCKWALL, TEXAS)",POST
+    OFFICE BOX 711,,ROCKWALL,TX,75087,,,H,TX,04,20040221
+  input_count: 15
+  record: <fec.version.v5_1.F6.Records instance at 0x2c40248>
+  result: []
+- input: F65,C00120683,IND,Barger^Darla S.^^,3210 Goldsboro Street,,San Antonio,TX,78230,Self-Employed,Realtor,20040220,2000.00,C00120683,H0TX04037,,H,TX,04,,,,,,,,F6.9304
+  record: <fec.version.v5_1.F65.Records instance at 0x2c40dd0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00120683
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Barger^Darla S.^^
+  - name: STREET 1
+    number: '5'
+    value: 3210 Goldsboro Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: San Antonio
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '78230'
+  - name: INDEMP
+    number: '10'
+    value: Self-Employed
+  - name: INDOCC
+    number: '11'
+    value: Realtor
+  - name: Of Contribution
+    number: 12-
+    value: '20040220'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00120683
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H0TX04037
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '04'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.9304
+- input: F65,C00120683,IND,Barger^John^^,3210 Goldsboro Street,,San Antonio,TX,78230,Barger
+    Broadcast Investments,President,20040220,1000.00,C00120683,H0TX04037,,H,TX,04,,,,,,,,F6.9305
+  record: <fec.version.v5_1.F65.Records instance at 0x2c40c68>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00120683
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Barger^John^^
+  - name: STREET 1
+    number: '5'
+    value: 3210 Goldsboro Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: San Antonio
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '78230'
+  - name: INDEMP
+    number: '10'
+    value: Barger Broadcast Investments
+  - name: INDOCC
+    number: '11'
+    value: President
+  - name: Of Contribution
+    number: 12-
+    value: '20040220'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00120683
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H0TX04037
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '04'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.9305
+- input: F65,C00120683,IND,Little^Walden P.^^,P.O. Box 2503,,Tyler,TX,75710,Combined
+    Underwriters Life Insurance,President,20040220,1000.00,C00120683,H0TX04037,,H,TX,04,,,,,,,,F6.9306
+  record: <fec.version.v5_1.F65.Records instance at 0x2c40dd0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00120683
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Little^Walden P.^^
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 2503
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Tyler
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '75710'
+  - name: INDEMP
+    number: '10'
+    value: Combined Underwriters Life Insurance
+  - name: INDOCC
+    number: '11'
+    value: President
+  - name: Of Contribution
+    number: 12-
+    value: '20040220'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00120683
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H0TX04037
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '04'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.9306
+- input: F65,C00120683,IND,Perot^H.L.^^Jr.,P.O. Box 269014,,Plano,TX,75026,Self-Employed,Investments,20040220,2000.00,C00120683,H0TX04037,,H,TX,04,,,,,,,,F6.9307
+  record: <fec.version.v5_1.F65.Records instance at 0x2c40c68>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00120683
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Perot^H.L.^^Jr.
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 269014
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Plano
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '75026'
+  - name: INDEMP
+    number: '10'
+    value: Self-Employed
+  - name: INDOCC
+    number: '11'
+    value: Investments
+  - name: Of Contribution
+    number: 12-
+    value: '20040220'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00120683
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H0TX04037
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '04'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.9307
+- input: F65,C00120683,PAC,ALLETE PAC (ALLETE POLITICAL ACTION COMMITTEE),30 WEST
+    SUPERIOR ST,,DULUTH,MN,55802,,,20040220,1000.00,C00120683,H0TX04037,,H,TX,04,,,,,,,,F6.9308
+  record: <fec.version.v5_1.F65.Records instance at 0x2c40dd0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00120683
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: ALLETE PAC (ALLETE POLITICAL ACTION COMMITTEE)
+  - name: STREET 1
+    number: '5'
+    value: 30 WEST SUPERIOR ST
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: DULUTH
+  - name: STATE
+    number: '8'
+    value: MN
+  - name: ZIP
+    number: '9'
+    value: '55802'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20040220'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00120683
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H0TX04037
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '04'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.9308
+- input: F65,C00120683,PAC,FORTIS POLITICAL ACTION COMMITTEE FANPAC,501 W. Michigan
+    St.,PO BOX 3050,Milwaukee,WI,53203,,,20040220,1000.00,C00120683,H0TX04037,,H,TX,04,,,,,,,,F6.9309
+  record: <fec.version.v5_1.F65.Records instance at 0x2c40c68>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00120683
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: FORTIS POLITICAL ACTION COMMITTEE FANPAC
+  - name: STREET 1
+    number: '5'
+    value: 501 W. Michigan St.
+  - name: STREET 2
+    number: '6'
+    value: PO BOX 3050
+  - name: CITY
+    number: '7'
+    value: Milwaukee
+  - name: STATE
+    number: '8'
+    value: WI
+  - name: ZIP
+    number: '9'
+    value: '53203'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20040220'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00120683
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H0TX04037
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '04'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.9309
+- input: F65,C00120683,PAC,ZACOPAC (ZACHRY CONSTRUCTION CORPORATION),527 Logwood,.,San
+    Antonio,TX,78221,,,20040220,1000.00,C00120683,H0TX04037,,H,TX,04,,,,,,,,F6.9310
+  record: <fec.version.v5_1.F65.Records instance at 0x2c40dd0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00120683
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: ZACOPAC (ZACHRY CONSTRUCTION CORPORATION)
+  - name: STREET 1
+    number: '5'
+    value: 527 Logwood
+  - name: STREET 2
+    number: '6'
+    value: .
+  - name: CITY
+    number: '7'
+    value: San Antonio
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '78221'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20040220'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00120683
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H0TX04037
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '04'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.9310
+sourceurl: !!python/unicode 20040222
+type: single
