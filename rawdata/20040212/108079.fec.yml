@@ -1,0 +1,317 @@
+countraw: 6
+countrows: 4
+filename: 108079.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392720
+  - name: COMMITTEE NAME
+    number: '3'
+    value: ALICE FORGY KERR FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 811 CORPORATE DRIVE
+  - name: STREET 2
+    number: '5'
+    value: ' STE 303'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: LEXINGTON
+  - name: ZIP
+    number: '8'
+    value: KY
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '40503'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H4KY06064
+  - name: CAN/OFFICE
+    number: '11'
+    value: KERR^ALICE FORGY^Hon.^
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: KY
+  - name: Signed
+    number: 14-
+    value: '06'
+  - value: '20040212'
+  expected_count: 14
+  input: F6,C00392720,ALICE FORGY KERR FOR CONGRESS,"811 CORPORATE DRIVE, STE 303",,LEXINGTON,KY,40503,H4KY06064,KERR^ALICE
+    FORGY^Hon.^,H,KY,06,20040212
+  input_count: 15
+  record: <fec.version.v5_1.F6.Records instance at 0x2a61cf8>
+  result: []
+- input: F65,C00392720,IND,BRANDSTETTER^LARRY^^,1941 LONG POND WALK,,LEXINGTON,KY,40502,ONE
+    ALUMNI CENTER,ARCHITECT,20040212,1000.00,C00392720,,KERR^ALICE FORGY^Hon.^,H,KY,06,,,,,,,,F6.8850
+  record: <fec.version.v5_1.F65.Records instance at 0x2a61e18>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392720
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: BRANDSTETTER^LARRY^^
+  - name: STREET 1
+    number: '5'
+    value: 1941 LONG POND WALK
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: LEXINGTON
+  - name: STATE
+    number: '8'
+    value: KY
+  - name: ZIP
+    number: '9'
+    value: '40502'
+  - name: INDEMP
+    number: '10'
+    value: ONE ALUMNI CENTER
+  - name: INDOCC
+    number: '11'
+    value: ARCHITECT
+  - name: Of Contribution
+    number: 12-
+    value: '20040212'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00392720
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: KERR^ALICE FORGY^Hon.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: KY
+  - name: CAN/DIST
+    number: '19'
+    value: '06'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.8850
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392720
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: SULLIVAN^PAUL E.^^
+  - name: STREET 1
+    number: '5'
+    value: 2700 LEXINGTON FINANCIAL CENTER
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: LEXINGTON
+  - name: STATE
+    number: '8'
+    value: KY
+  - name: ZIP
+    number: '9'
+    value: '40507'
+  - name: INDEMP
+    number: '10'
+    value: FROST
+  - name: INDOCC
+    number: '11'
+    value: ' BROWN'
+  - name: Of Contribution
+    number: 12-
+    value: ' TODD'
+  - name: AMOUNT
+    number: '13'
+    value: ATTORNEY
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20040212'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '1000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: C00392720
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: KERR^ALICE FORGY^Hon.^
+  - name: CAN/DIST
+    number: '19'
+    value: H
+  - name: CONDUIT NAME
+    number: '20'
+    value: KY
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: '06'
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: F6.8852
+  expected_count: 27
+  input: F65,C00392720,IND,SULLIVAN^PAUL E.^^,2700 LEXINGTON FINANCIAL CENTER,,LEXINGTON,KY,40507,"FROST,
+    BROWN, TODD",ATTORNEY,20040212,1000.00,C00392720,,KERR^ALICE FORGY^Hon.^,H,KY,06,,,,,,,,F6.8852
+  input_count: 29
+  record: <fec.version.v5_1.F65.Records instance at 0x2a61ef0>
+  result: []
+- input: 'F65,C00392720,PAC,NATIONAL CONSERVATIVE CAMPAIGN FUND,ONE MASSACHUSETTS
+    AVENUE NW #630,,WASHINGTON,DC,20001,,,20040212,1000.00,C00392720,,KERR^ALICE FORGY^Hon.^,H,KY,06,,,,,,,,F6.8851'
+  record: <fec.version.v5_1.F65.Records instance at 0x2c41ab8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392720
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: NATIONAL CONSERVATIVE CAMPAIGN FUND
+  - name: STREET 1
+    number: '5'
+    value: 'ONE MASSACHUSETTS AVENUE NW #630'
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: WASHINGTON
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20001'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20040212'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00392720
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: KERR^ALICE FORGY^Hon.^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: KY
+  - name: CAN/DIST
+    number: '19'
+    value: '06'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.8851
+sourceurl: !!python/unicode 20040212
+type: single
