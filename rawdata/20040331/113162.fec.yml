@@ -1,0 +1,123 @@
+countraw: 3
+countrows: 1
+filename: 113162.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H0AZ01184
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: 4222 E. McLellan
+  - name: STREET 2
+    number: '5'
+    value: ' No. 19'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Mesa
+  - name: ZIP
+    number: '8'
+    value: AZ
+  - name: PTY/CODE
+    number: '9'
+    value: '85205'
+  - name: CAN/OFFICE
+    number: '10'
+    value: REP
+  - name: CAN/STATE
+    number: '11'
+    value: H
+  - name: CAN/DIST
+    number: '12'
+    value: AZ
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '6'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: '2004'
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: C00347260
+  - name: STREET 1
+    number: '16'
+    value: JEFF FLAKE FOR CONGRESS
+  - name: STREET 2
+    number: '17'
+    value: 1911 E. Bendix Dr.
+  - name: CITY
+    number: '18'
+    value: ''
+  - name: STATE
+    number: '19'
+    value: Tempe
+  - name: ZIP
+    number: '20'
+    value: AZ
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: '85283'
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: ''
+  - name: STREET 1
+    number: '23'
+    value: ''
+  - name: STREET 2
+    number: '24'
+    value: ''
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: ''
+  - name: ZIP
+    number: '27'
+    value: ''
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: ''
+  - name: Signed
+    number: 29-
+    value: Jeff Flake
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: '20040331'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '0.00'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: '0.00'
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: Flake
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: Jeff
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: Mr.
+  - value: ''
+  expected_count: 36
+  input: F2,H0AZ01184,,"4222 E. McLellan, No. 19",,Mesa,AZ,85205,REP,H,AZ,6,2004,C00347260,JEFF
+    FLAKE FOR CONGRESS,1911 E. Bendix Dr.,,Tempe,AZ,85283,,,,,,,,Jeff Flake,20040331,0.00,0.00,Flake,Jeff,,Mr.,
+  input_count: 37
+  record: <fec.version.v5_1.F2.Records instance at 0x6050b48>
+  result: []
+sourceurl: !!python/unicode 20040331
+type: single
