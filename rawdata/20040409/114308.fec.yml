@@ -1,0 +1,190 @@
+countraw: 4
+countrows: 2
+filename: 114308.fec
+header: {}
+rows:
+- input: F24,C00341396,MOVEON PAC,PO BOX 9218,,BERKELEY,CA,94709,Boyd^Wes^^,20040409,24
+  record: <fec.version.v5_1.F24.Records instance at 0x2124bd8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00341396
+  - name: COMMITTEE NAME
+    number: '3'
+    value: MOVEON PAC
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 9218
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: BERKELEY
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '94709'
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Boyd^Wes^^
+  - name: Signed
+    number: 10-
+    value: '20040409'
+  - name: REPORT TYPE
+    number: '11'
+    value: '24'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00341396
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Zimmerman & Markman
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 1250 6th Street
+  - name: CITY
+    number: '7'
+    value: Suite
+  - name: STATE
+    number: '8'
+    value: Santa Monica
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '90401'
+  - name: DATE
+    number: '11'
+    value: Advertising Production Costs
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20040407'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '26500.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: O
+  - name: S/O CAN/NAME
+    number: '15'
+    value: P00003335
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: BUSH^GEORGE W^^
+  - name: S/O STATE
+    number: '17'
+    value: P
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '03'
+  - name: Unused field
+    number: '20'
+    value: C00341396
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.57138
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '340178.00'
+  expected_count: 46
+  input: SE24,C00341396,ORG,"Zimmerman & Markman, Inc.",1250 6th Street,Suite,Santa
+    Monica,CA,90401,Advertising Production Costs,20040407,26500.00,O,P00003335,BUSH^GEORGE
+    W^^,P,,03,C00341396,,,,,,,,,,,,,,,,,,SE24.57138,,,,,G2004,,,,340178.00
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x21247a0>
+  result: []
+sourceurl: !!python/unicode 20040409
+type: single
