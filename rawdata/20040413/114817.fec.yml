@@ -1,0 +1,190 @@
+countraw: 4
+countrows: 2
+filename: 114817.fec
+header: {}
+rows:
+- input: F24,C00075820,NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE,320 FIRST STREET,.,WASHINGTON,DC,20003,Christopher
+    J. Ward^^^,20040413,48
+  record: <fec.version.v5_1.F24.Records instance at 0x189f2d8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00075820
+  - name: COMMITTEE NAME
+    number: '3'
+    value: NATIONAL REPUBLICAN CONGRESSIONAL COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: 320 FIRST STREET
+  - name: STREET 2
+    number: '5'
+    value: .
+  - name: CITY
+    number: '6'
+    value: WASHINGTON
+  - name: STATE
+    number: '7'
+    value: DC
+  - name: ZIP
+    number: '8'
+    value: '20003'
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Christopher J. Ward^^^
+  - name: Signed
+    number: 10-
+    value: '20040413'
+  - name: REPORT TYPE
+    number: '11'
+    value: '48'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00075820
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Public Opinion Strategies
+  - name: STREET 1
+    number: '5'
+    value: 227 S. Washington St
+  - name: STREET 2
+    number: '6'
+    value: ' Ste 320'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Alexandria
+  - name: ZIP
+    number: '9'
+    value: VA
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '22314'
+  - name: DATE
+    number: '11'
+    value: Focus Groups
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20040413'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '12000.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: H2SD01025
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: DIEDRICH^LARRY WILLIAM^^
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: SD
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '01'
+  - name: Unused field
+    number: '20'
+    value: C00075820
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.4199
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: S2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: Special-Primary
+  - name: TRANS CODE
+    number: '45'
+    value: '005'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '388461.05'
+  expected_count: 46
+  input: SE24,C00075820,ORG,Public Opinion Strategies,"227 S. Washington St, Ste 320",,Alexandria,VA,22314,Focus
+    Groups,20040413,12000.00,S,H2SD01025,DIEDRICH^LARRY WILLIAM^^,H,SD,01,C00075820,,,,,,,,,,,,,,,,,,SE24.4199,,,,,S2004,Special-Primary,005,,388461.05
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x189f950>
+  result: []
+sourceurl: !!python/unicode 20040413
+type: single
